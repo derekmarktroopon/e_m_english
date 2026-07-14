@@ -6,104 +6,51 @@
 		gene = headgear
 		template = no_headgear
 	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = all_headgear_no_dlc
+	}	
 
 	## SP5 - Symbols of Authority ##
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = sp5_crowns
+		template = sp5_headgears
 		is_valid_custom = {
 			has_sp5_dlc_triggers = yes
 		}
 	}
 
-	## CCP9
+	##ccp9
 
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ccp9_commoner_headgear
-		is_valid_custom = {
+    add_accessory_modifiers = {
+        gene = headgear
+        template = ccp9_celestial_court_headgear
+        is_valid_custom = {
 			has_cp9_dlc_trigger = yes
-		}
-	}
+		} 
+    }
+
+	## CCP7 Emishi Nivkh ##
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = ccp9_low_nobility_headgear
-		is_valid_custom = {
-			has_cp9_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ccp9_high_nobility_headgear
-		is_valid_custom = {
-			has_cp9_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ccp9_royalty_headgear
-		is_valid_custom = {
-			has_cp9_dlc_trigger = yes
-		}
-	}
-
-	## CCP7 Emishi Ainu ##
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ccp7_emishi_com
-		is_valid_custom = {
-			has_cp7_dlc_trigger = yes
-		}
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ccp7_emishi_lo_nob
-		is_valid_custom = {
-			has_cp7_dlc_trigger = yes
-		}
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ccp7_emishi_hi_nob
-		is_valid_custom = {
-			has_cp7_dlc_trigger = yes
-		}
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ccp7_ainu_sapanpe
-		is_valid_custom = {
-			has_cp7_dlc_trigger = yes
-		}
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ccp7_emishi_war_nob
+		template = ccp7_emishi_nivkh_headgear
 		is_valid_custom = {
 			has_cp7_dlc_trigger = yes
 		}
 	}
 
-	## CCP7 Nivkh ##
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ccp7_nivkh_com
-		is_valid_custom = {
-			has_cp7_dlc_trigger = yes
-		}
-	}
+	##########################################################################
+	#### Han Chinese
+	##########################################################################
 
 	## TGP Chinese ##
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = tgp_chinese_imperial
+		template = tgp_chinese_headgear
 		is_valid_custom = {
 			has_tgp_dlc_trigger = yes
 		}
@@ -111,7 +58,7 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = tgp_chinese_era2_imperial
+		template = tgp_japanese_headgear
 		is_valid_custom = {
 			has_tgp_dlc_trigger = yes
 		}
@@ -119,7 +66,7 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = tgp_chinese_era1_war_nobility
+		template = tgp_korean_headgear
 		is_valid_custom = {
 			has_tgp_dlc_trigger = yes
 		}
@@ -127,7 +74,7 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = tgp_chinese_era2_war_nobility
+		template = tgp_southeast_headgear
 		is_valid_custom = {
 			has_tgp_dlc_trigger = yes
 		}
@@ -135,219 +82,47 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = tgp_chinese_era1_nobility
+		template = tgp_ainu_headgear
 		is_valid_custom = {
 			has_tgp_dlc_trigger = yes
 		}
 	}
 
+
+	
+	
 	add_accessory_modifiers = {
 		gene = headgear
-		template = tgp_chinese_era2_nobility
+		template = tgp_uyghur_headgear
 		is_valid_custom = {
 			has_tgp_dlc_trigger = yes
-		}
-	}
-
+		}		
+	}		
 	add_accessory_modifiers = {
 		gene = headgear
-		template = tgp_chinese_high_nobility
+		template = tgp_sino_iranian_headgear
 		is_valid_custom = {
 			has_tgp_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = tgp_chinese_commoner
-		is_valid_custom = {
-			has_tgp_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = tgp_chinese_royalty
-		is_valid_custom = {
-			has_tgp_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = tgp_japanese_imperial
-		is_valid_custom = {
-			has_tgp_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = tgp_japanese_royalty
-		is_valid_custom = {
-			has_tgp_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = tgp_japanese_nobility
-		is_valid_custom = {
-			has_tgp_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = tgp_japanese_war_nobility
-		is_valid_custom = {
-			has_tgp_dlc_trigger = yes
-		}
-	}
-
-		add_accessory_modifiers = {
-		gene = headgear
-		template = tgp_japanese_war_high_nobility
-		is_valid_custom = {
-			has_tgp_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = tgp_japanese_high_nobility
-		is_valid_custom = {
-			has_tgp_dlc_trigger = yes
-		}
-	}
-
-	# add_accessory_modifiers = {
-	# 	gene = headgear
-	# 	template = tgp_shinto_priest
-	# 	is_valid_custom = {
-	# 		has_tgp_dlc_trigger = yes
-	# 	}
-	# }
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = tgp_japanese_commoner
-		is_valid_custom = {
-			has_tgp_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = tgp_japanese_shogun
-		is_valid_custom = {
-			has_tgp_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = tgp_southeast_nobility
-		is_valid_custom = {
-			has_tgp_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = tgp_southeast_royal
-		is_valid_custom = {
-			has_tgp_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = tgp_korean_imperial
-		is_valid_custom = {
-			has_tgp_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = tgp_korean_nobility
-		is_valid_custom = {
-			has_tgp_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = tgp_korean_commoner
-		is_valid_custom = {
-			has_tgp_dlc_trigger = yes
-		}
-	}
+		}		
+	}		
 
 	### MPO - Khans of the Steppe ###
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = mpo_mongol_commoner
+		template = mpo_mongol_headgear
 		is_valid_custom = {
 			has_mpo_dlc_trigger = yes
 		}
 	}
 
-	add_accessory_modifiers = {
-		gene = headgear
-		template = mpo_mongol_nobility
-		is_valid_custom = {
-			has_mpo_dlc_trigger = yes
-		}
-	}
 
-	add_accessory_modifiers = {
-		gene = headgear
-		template = mpo_mongol_royalty
-		is_valid_custom = {
-			has_mpo_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = mpo_mongol_imperial
-		is_valid_custom = {
-			has_mpo_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = mpo_mongol_war_nobility
-		is_valid_custom = {
-			has_mpo_dlc_trigger = yes
-		}
-	}
 	
 	## SP4 - Crowns of the World ##
 	
 	add_accessory_modifiers = {
 		gene = headgear
-		template = sp4_mena_royalty
-		is_valid_custom = {
-			has_sp4_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = sp4_rus_royalty
-		is_valid_custom = {
-			has_sp4_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = sp4_western_royalty
+		template = sp4_royalty_headgears
 		is_valid_custom = {
 			has_sp4_dlc_trigger = yes
 		}
@@ -357,23 +132,7 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = ccp4_sami_common
-		is_valid_custom = {
-			has_cp4_dlc_trigger = yes
-		}	
-	}	
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ccp4_sami_low_nobility
-		is_valid_custom = {
-			has_cp4_dlc_trigger = yes
-		}	
-	}	
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ccp4_sami_high_nobility
+		template = ccp4_sami_headgear
 		is_valid_custom = {
 			has_cp4_dlc_trigger = yes
 		}	
@@ -383,43 +142,11 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = ccp4_khanty_common
+		template = ccp4_khanty_headgear
 		is_valid_custom = {
 			has_cp4_dlc_trigger = yes
 		}	
 	}	
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ccp4_khanty_low_nobility
-		is_valid_custom = {
-			has_cp4_dlc_trigger = yes
-		}	
-	}	
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ccp4_khanty_high_nobility
-		is_valid_custom = {
-			has_cp4_dlc_trigger = yes
-		}	
-	}	
-	
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ccp4_khanty_war
-		is_valid_custom = {
-			has_cp4_dlc_trigger = yes
-		}	
-	}	
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ccp4_religious_siberian_commoner
-		is_valid_custom = {
-			has_cp4_dlc_trigger = yes
-		}	
-	}
 
 		##CCP5
 
@@ -494,58 +221,24 @@
 			has_cp5_dlc_trigger = yes
 		}
 	}
-	
+		
 	## POL ##
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = pol_common
+		template = pol_west_slav_headgear
 		is_valid_custom = {
 			has_pol_dlc_trigger = yes
 		}
 	}
 
-	add_accessory_modifiers = {
-		gene = headgear
-		template = pol_low_nobility
-		is_valid_custom = {
-			has_pol_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = pol_high_nobility
-		is_valid_custom = {
-			has_pol_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = pol_royalty
-		is_valid_custom = {
-			has_pol_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = pol_imperial
-		is_valid_custom = {
-			has_pol_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = pol_war
-		is_valid_custom = {
-			has_pol_dlc_trigger = yes
-		}
-	}
 
 	## Veils ##
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp4_western_era2_veils
+	}
+
 	add_accessory_modifiers = {
 		gene = headgear
 		template = fp4_western_era2_veils
@@ -572,85 +265,6 @@
 	}
 
 
-	## EP3 ##
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ep3_byzantine_era1_commoner
-		is_valid_custom = {
-			has_ep3_dlc_trigger = yes
-		}
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ep3_byzantine_era1_low_nobility
-		is_valid_custom = {
-			has_ep3_dlc_trigger = yes
-		}
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ep3_byzantine_era1_high_nobility
-		is_valid_custom = {
-			has_ep3_dlc_trigger = yes
-		}
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ep3_byzantine_era1_royalty
-		is_valid_custom = {
-			has_ep3_dlc_trigger = yes
-		}
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ep3_byzantine_era1_imperial
-		is_valid_custom = {
-			has_ep3_dlc_trigger = yes
-		}
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ep3_byzantine_era1_war_nobility
-		is_valid_custom = {
-			has_ep3_dlc_trigger = yes
-		}
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ep3_byzantine_era2_low_nobility
-		is_valid_custom = {
-			has_ep3_dlc_trigger = yes
-		}
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ep3_byzantine_era2_high_nobility
-		is_valid_custom = {
-			has_ep3_dlc_trigger = yes
-		}
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ep3_byzantine_era2_royalty
-		is_valid_custom = {
-			has_ep3_dlc_trigger = yes
-		}
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ep3_byzantine_era2_imperial
-		is_valid_custom = {
-			has_ep3_dlc_trigger = yes
-		}
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = ep3_byzantine_era2_war_nobility
-		is_valid_custom = {
-			has_ep3_dlc_trigger = yes
-		}
-	}
-
 
 	## CE1 ##
 	add_accessory_modifiers = {
@@ -663,13 +277,6 @@
 	add_accessory_modifiers = {
 		gene = headgear
 		template = fp4_western_era3_common
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = fp4_western_cloak_hoods
-		is_valid_custom = {
-			has_ce1_dlc_trigger = yes
-		}
 	}
 	add_accessory_modifiers = {
 		gene = headgear
@@ -687,7 +294,7 @@
 	}
 
 	## Couture of the Capets ##
-
+	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = sp3_western_royalty
@@ -764,26 +371,12 @@
 
 	### FP3 ###
 	### Iranian ###
-	add_accessory_modifiers = {
-		gene = headgear
-		template = fp3_iranian_imperial
-		is_valid_custom = {
-			OR = {
-				has_fp3_dlc_trigger = yes
-				has_mpo_dlc_trigger = yes
-			}
-		}
-	}
+	
+	
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = fp3_iranian_royalty
-		is_valid_custom = {
-			OR = {
-				has_fp3_dlc_trigger = yes
-				has_mpo_dlc_trigger = yes
-			}
-		}
+		template = fp3_iranian_common
 	}
 
 	add_accessory_modifiers = {
@@ -796,7 +389,23 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = fp3_iranian_nobility
+		template = fp3_iranian_high_nobility
+		is_valid_custom = {
+			has_fp3_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp3_iranian_royalty
+		is_valid_custom = {
+			has_fp3_dlc_trigger = yes
+		}
+	}	
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp3_iranian_imperial
 		is_valid_custom = {
 			has_fp3_dlc_trigger = yes
 		}
@@ -814,26 +423,28 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = fp3_turkic_low_nobility
+		template = eastern_turkic_headgear
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = western_turkic_headgear
 		is_valid_custom = {
-			OR = {
-				has_fp3_dlc_trigger = yes
-				has_mpo_dlc_trigger = yes
-			}
+			has_fp3_dlc_trigger = yes
 		}
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = fp3_turkic_nobility
+		template = seljuk_turkic_headgear
 		is_valid_custom = {
-			OR = {
-				has_fp3_dlc_trigger = yes
-				has_mpo_dlc_trigger = yes
-			}
+			has_fp3_dlc_trigger = yes
 		}
 	}
+	
 
+	
+	
 	## SP1 ##
 	add_accessory_modifiers = {
 		gene = headgear
@@ -844,7 +455,7 @@
 	}
 
 	## SP2 Elegance of the Empire ##
-
+	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = sp2_western_imperial
@@ -860,7 +471,7 @@
 			has_dlc_feature = elegance_of_the_empire
 		}
 	}
-
+	
 
 
 	### EP2 ###
@@ -924,6 +535,30 @@
 	add_accessory_modifiers = {
 		gene = headgear
 		template = ep2_western_era1_common
+		is_valid_custom = {
+			has_ep2_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = western_wedding
+		is_valid_custom = {
+			has_ep2_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = mena_wedding
+		is_valid_custom = {
+			has_ep2_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = byzantine_wedding
 		is_valid_custom = {
 			has_ep2_dlc_trigger = yes
 		}
@@ -1097,10 +732,7 @@
 		gene = headgear
 		template = ep1_steppe_royalty
 		is_valid_custom = {
-			OR = {
-				has_ep1_dlc_trigger = yes
-				has_mpo_dlc_trigger = yes
-			}
+			has_ep1_dlc_trigger = yes
 		}
 	}
 
@@ -1177,7 +809,7 @@
 			has_fp1_dlc_trigger = yes
 		}
 	}
-
+	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = fp1_war
@@ -1259,31 +891,49 @@
 	add_accessory_modifiers = {
 		gene = headgear
 		template = byzantine_common
+		is_valid_custom = {
+			has_ep3_dlc_trigger = yes   # Has DLC items in it so it needs the trigger, or needs to be split out into it's own thing with a DLC trigger
+		}
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = byzantine_nobility
+		template = byzantine_low_nobility
+		is_valid_custom = {
+			has_ep3_dlc_trigger = yes   # Has DLC items in it so it needs the trigger, or needs to be split out into it's own thing with a DLC trigger
+		}
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = byzantine_high_nobility
+		is_valid_custom = {
+			has_ep3_dlc_trigger = yes   # Has DLC items in it so it needs the trigger, or needs to be split out into it's own thing with a DLC trigger
+		}
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = byzantine_royalty
+		is_valid_custom = {
+			has_ep3_dlc_trigger = yes   # Has DLC items in it so it needs the trigger, or needs to be split out into it's own thing with a DLC trigger
+		}
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = byzantine_imperial
+		is_valid_custom = {
+			has_ep3_dlc_trigger = yes   # Has DLC items in it so it needs the trigger, or needs to be split out into it's own thing with a DLC trigger
+		}
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = byzantine_war
+		is_valid_custom = {
+			has_ep3_dlc_trigger = yes   # Has DLC items in it so it needs the trigger, or needs to be split out into it's own thing with a DLC trigger
+		}
 	}
 
 	add_accessory_modifiers = {
@@ -1549,6 +1199,11 @@
 	#		monarchs_journey_unlock = 1
 	#	}
 	#}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = religious_northern_high
+	}
+
 
 	add_accessory_modifiers = {
 		gene = headgear
@@ -1580,6 +1235,189 @@
 	add_accessory_modifiers = {
 		gene = special_headgear_spectacles
 		template = spectacles
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = reward_western_royalty
+		is_valid_custom = {
+			has_reward_item = newsletter_crown
+		}
+	}
+	
+	
+	
+	##############################################################################################################################
+	######################################################### EPE  ###############################################################
+	##############################################################################################################################
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = epe_scripted_character_headgears
+	}
+
+
+	##########################################################################
+	#### Bulgarian 
+	##########################################################################			
+		
+	add_accessory_modifiers = {
+		gene = headgear
+		template = epe_balkan_royalty
+		is_valid_custom = {
+			has_ep3_dlc_trigger = yes
+		}		
+	}	
+	
+	
+
+	
+	##########################################################################
+	#### East Slavic
+	##########################################################################
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = east_slav_headgear
+		is_valid_custom = {
+			has_fp1_dlc_trigger = yes  # Has DLC items in it so it needs the trigger, or needs to be split out into it's own thing with a DLC trigger
+		}
+	}	
+
+	##########################################################################
+	#### Western Slavs, Balto-Finnic
+	##########################################################################
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = western_slav_balto_finnic_headgear
+		is_valid_custom = {
+			has_fp1_dlc_trigger = yes  # Has DLC items in it so it needs the trigger, or needs to be split out into it's own thing with a DLC trigger
+		}
+	}	
+
+	##########################################################################
+	#### Norman-Sicilian era 2-4
+	##########################################################################
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = norman_sicilian_high_nobility
+		is_valid_custom = {
+			has_ep3_dlc_trigger = yes   # Has DLC items in it so it needs the trigger, or needs to be split out into it's own thing with a DLC trigger
+		}
+	}	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = norman_sicilian_royalty
+		is_valid_custom = {
+			has_ep3_dlc_trigger = yes   # Has DLC items in it so it needs the trigger, or needs to be split out into it's own thing with a DLC trigger
+		}
+	}	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = norman_sicilian_imperial
+		is_valid_custom = {
+			has_ep3_dlc_trigger = yes   # Has DLC items in it so it needs the trigger, or needs to be split out into it's own thing with a DLC trigger
+		}
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = norman_sicilian_war
+	}	
+
+	
+	##########################################################################
+	#### Spymaster
+	##########################################################################	
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = epe_spymaster_headgears
+	}		
+	
+	##########################################################################
+	#### EPE Crown Titles
+	##########################################################################			
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = epe_crown_titles
+	}		
+		
+}
+
+
+
+
+#####################################
+#									#
+# 			  HEADGEAR 	2		    #
+#									#
+#####################################
+
+custom_headgear_2 = {
+	usage = customization
+	interface_position = 10
+
+
+	add_accessory_modifiers = {
+		gene = headgear_2
+		template = no_headgear
+	}	
+
+
+}
+
+
+#####################################
+#									#
+# 		Special	  HEADGEAR 		    #
+#									#
+#####################################
+
+
+custom_additive_headgear = {
+	usage = customization
+	interface_position = 11
+
+
+	add_accessory_modifiers = {
+		gene = additive_headgear
+		template = no_additive
+	}	
+
+	add_accessory_modifiers = {
+		gene = additive_headgear
+		template = western_veils
+	}
+	add_accessory_modifiers = {
+		gene = additive_headgear
+		template = ep2_western_era1_veils
+	}
+	add_accessory_modifiers = {
+		gene = additive_headgear
+		template = ep2_western_era2_veils
+	}
+	add_accessory_modifiers = {
+		gene = additive_headgear
+		template = ep2_western_era3_veils
+	}
+	add_accessory_modifiers = {
+		gene = additive_headgear
+		template = sp3_western_royalty_headdress
+	}
+	add_accessory_modifiers = {
+		gene = additive_headgear
+		template = fp4_western_era2_veils
+	}
+	add_accessory_modifiers = {
+		gene = additive_headgear
+		template = pol_crest
+	}
+	add_accessory_modifiers = {
+		gene = additive_headgear
+		template = pol_crown
 	}
       
 
