@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  
 name_list_oscan:0 "Oscan"
 
