@@ -30,7 +30,7 @@ predynastic_egyptian = {
 
 middle_egyptian = {
 	parents = { predynastic_egyptian }
-	created =  -1550.1.1 
+	created = 1.1.1 
 	color = rgb { 252 186 3 }
 	
 	name_list = name_list_kemetic
@@ -62,7 +62,7 @@ middle_egyptian = {
 
 ancient_egyptian = {
 	parents = { middle_egyptian }
-	created =  -650.1.1 
+	created = 2.1.1 
 	color = ancient_egyptian
 	
 	name_list = name_list_demotic
@@ -94,7 +94,7 @@ ancient_egyptian = {
 
 coptic_culture = {
 	parents = { greek ancient_egyptian }
-	created =  350.1.1 
+	created = 350.1.1 
 	color = rgb { 210 235 87 }
 	name_list = name_list_coptic
 	heritage = heritage_egyptian
