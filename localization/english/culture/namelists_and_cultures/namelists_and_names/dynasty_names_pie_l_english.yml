@@ -1,0 +1,79 @@
+﻿l_english:
+ ############################################################
+ # Prefixes #################################################
+ ############################################################
+
+Locationprefix_apo:0 "Apo-"
+
+ ############################################################
+ # Dynasty Names ############################################
+ ############################################################
+ dynn_Athal-Bhrehg:0 "Athal-Bhrehg"
+ dynn_Klut-wig:0 "Klut-wig"
+ dynn_Uihro-geus:0 "Uihró-geus"
+ dynn_Tewteh-hrex:0 "Tewtéh-hrex"
+ dynn_Klewos-wesu:0 "Kléwos-wésu"
+ dynn_Yohroklewos:0 "Yóhrokléwos"
+ dynn_Hsu-wlkwos:0 "Hsu-wlkwos"
+ dynn_Hregs-kartos:0 "Hrégs-kartos"
+ dynn_Hmbi-wihros:0 "Hmbi-wihros"
+ dynn_Regh-klewos:0 "Regh-kléwos"
+ dynn_Klewo-regh:0 "Kléwo-regh"
+ dynn_Stegwhos:0 "Stegwhos"
+ dynn_Helbhos-hrehdh:0 "Helbhós-hrehdh"	   
+ dynn_Wlkwos-Genhos:0 "Wlkwos-Génhos"
+ dynn_Hekwos-Genhos:0 "Hékwos-Génhos"
+ dynn_Bher-Genhos:0 "Bher-Génhos"
+ dynn_Bel-Genhos:0 "Bel-Génhos"
+ dynn_Nmrtos-Genhos:0 "Nmrtós-Génhos"
+ 
+ ############################################################
+ # Male Personal Names ######################################
+ ############################################################
+ 
+ Athal-Bhrehg:0 "Athalbhrehg"
+ Kluto-wig:0 "Klutowig"
+ Uihro-geus:0 "Uihrógeus"
+ Tewteh-hregs:0 "Tewtéhhrégs"
+ Klewos-wesu:0 "Kléwos-wésu"
+ Yohroklewos:0 "Yóhrokléwos"
+ Hsu-wlkwos:0 "Hsu-wlkwos"
+ Hregs-kartos:0 "Hrégs-kartos"
+ Hmbi-wihros:0 "Hmbiwihros"
+ Regh-klewos:0 "Reghkléwos"
+ Klewo-regh:0 "Kléworegh"
+ Stegwhos:0 "Stegwhos"
+ Helbhos-hrehdh:0 "Helbhós-hrehdh"	  
+ Trito:0 "Trito"
+ Manu_PIE:0 "Manu"
+ Yemo:0 "Yemo"
+ Gweru-hekwos:0 "Gwéruhékwos"
+ Hekwos-Suhnu:0 "Hékwossuhnú"
+ Klewo-Hner:0 "Kléwohner"
+ Wlkwos-Whiro:0 "Wlkwoswhiro"
+ Hwesus-Hregs:0 "Hwésushrégs"
+ Nogw-Wlkwos:0 "Nogw-wlkwos"
+ Nmrtos-Manu:0 "Nmrtósmanu"
+ Bel-Hekwos:0 "Bel-hékwos"
+
+ Hrtkos:0 "Hrtkos"
+ Wlop:0 "Wlop"
+ Wlkwos:0 "Wlkwos"
+ ############################################################
+ # Female Personal Names ####################################
+ ############################################################
+
+ Klewos-atta:0 "Kléwosátta"
+ Bhrghentih:0 "Bhrghéntih"
+ Bhrghntyeh:0 "Bhrghntyéh"
+ Hster-ker:0 "Hsterkér"
+ Wlkwos-dhughter:0 "Wlkwodhughtér"
+ Hekwos-dhughter:0 "Hékwodhughtér" 
+ Hsu-Wlkweh:0 "Hsu-wlkweh" 
+ Swepnos-dhughter:0 "Swepnodhughtér" 
+ Bhewdeh:0 "Bhewdeh" 
+ Hwesus-dhughter:0 "Hwésudhughtér" 
+ Bel-Hekweh:0 "Bel-hékweh" 
+ Bherh:0 "Bherh"
+ Wlopeh:0 "Wlopeh"
+ Heweh:0 "Héweh"

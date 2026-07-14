@@ -1,0 +1,36 @@
+﻿
+name_list_venetic_japanese = {
+		cadet_dynasty_names = {
+            dynn_vtcjap_akuchiyosu dynn_vtcjap_arubarenyosu dynn_vtcjap_anteosu dynn_vtcjap_afurijikosu dynn_vtcjap_aruetiyakosu dynn_vtcjap_beyosu dynn_vtcjap_bekenosu dynn_vtcjap_biroyokosu dynn_vtcjap_deihiyarikosu dynn_vtcjap_deiborayosu dynn_vtcjap_jirikosu dynn_vtcjap_egetoriyosu dynn_vtcjap_eineosu dynn_vtcjap_fugiyosu dynn_vtcjap_yobanchiosu dynn_vtcjap_kutabikosu dynn_vtcjap_kufurikoniyosu dynn_vtcjap_makanosu dynn_vtcjap_nagarakinosu dynn_vtcjap_nesonkosu dynn_vtcjap_osokosu dynn_vtcjap_hitannikosu dynn_vtcjap_honetegueosu dynn_vtcjap_retebiyosu dynn_vtcjap_resunkosu dynn_vtcjap_chibariyosu dynn_vtcjap_tomatorosu dynn_vtcjap_toheio dynn_vtcjap_chizikosu dynn_vtcjap_chichiyoniyosu dynn_vtcjap_uhosechiyosu dynn_vtcjap_besuchiniyosu dynn_vtcjap_boruchigeneyosu dynn_vtcjap_boruchionniosu dynn_vtcjap_bortorarikosu dynn_vtcjap_boteiyosu
+		}
+
+		dynasty_names = {
+	        dynn_vtcjap_akuchiyosu dynn_vtcjap_arubarenyosu dynn_vtcjap_anteosu dynn_vtcjap_afurijikosu dynn_vtcjap_aruetiyakosu dynn_vtcjap_beyosu dynn_vtcjap_bekenosu dynn_vtcjap_biroyokosu dynn_vtcjap_deihiyarikosu dynn_vtcjap_deiborayosu dynn_vtcjap_jirikosu dynn_vtcjap_egetoriyosu dynn_vtcjap_eineosu dynn_vtcjap_fugiyosu dynn_vtcjap_yobanchiosu dynn_vtcjap_kutabikosu dynn_vtcjap_kufurikoniyosu dynn_vtcjap_makanosu dynn_vtcjap_nagarakinosu dynn_vtcjap_nesonkosu dynn_vtcjap_osokosu dynn_vtcjap_hitannikosu dynn_vtcjap_honetegueosu dynn_vtcjap_retebiyosu dynn_vtcjap_resunkosu dynn_vtcjap_chibariyosu dynn_vtcjap_tomatorosu dynn_vtcjap_toheio dynn_vtcjap_chizikosu dynn_vtcjap_chichiyoniyosu dynn_vtcjap_uhosechiyosu dynn_vtcjap_besuchiniyosu dynn_vtcjap_boruchigeneyosu dynn_vtcjap_boruchionniosu dynn_vtcjap_bortorarikosu dynn_vtcjap_boteiyosu
+		}
+
+		male_names = {
+            vtcjap_afurose vtcjap_emo vtcjap_akutsu vtcjap_arero vtcjap_amechikosu vtcjap_andechiyosu vtcjap_andetosu vtcjap_aherijikosu vtcjap_arubosu vtcjap_ariun vtcjap_aruechiyakosu vtcjap_asekolosu vtcjap_ato vtcjap_betosu vtcjap_berenesu vtcjap_beyarusu vtcjap_beosu vtcjap_buroyokosu vtcjap_budiyakosu vtcjap_deihiyarikosu vtcjap_deihiyarisu vtcjap_dirikosu vtcjap_dirisu vtcjap_ebosu vtcjap_egesetsu vtcjap_egetore vtcjap_eineho vtcjap_eniyosu vtcjap_enechiyosu vtcjap_enogenesu vtcjap_erijiniosu vtcjap_hogo vtcjap_hontesu vtcjap_hogontesu vtcjap_furemeseto vtcjap_fugiyosu vtcjap_geyosu vtcjap_gurekosu vtcjap_hosuchihabosu vtcjap_hobosu vtcjap_hutosu vtcjap_iyobantsu vtcjap_kantesu vtcjap_karaminsu vtcjap_kasuchikosu vtcjap_kerosu vtcjap_kochine vtcjap_kuturisuto vtcjap_kubito vtcjap_lamujiho vtcjap_rantsu vtcjap_rabasukosu vtcjap_remetoru vtcjap_rukusu vtcjap_mechizo vtcjap_morudo vtcjap_nagarakinosu vtcjap_nesonikosu vtcjap_nezosu vtcjap_okiyeyosu vtcjap_oposu vtcjap_osokosu vtcjap_ojitsu vtcjap_hanariosu vtcjap_heronikosu vtcjap_hiripotsu vtcjap_furedesu vtcjap_retebiho vtcjap_reitesu vtcjap_resunkosu vtcjap_jikosu vtcjap_surosu vtcjap_tekiyosu vtcjap_tomatoriho vtcjap_chijikosu vtcjap_turiyo vtcjap_uko vtcjap_urukureiho vtcjap_urukuresu vtcjap_bantesu vtcjap_bantsu vtcjap_basenho vtcjap_beigenosu vtcjap_beimesu vtcjap_bennonisu vtcjap_berukebaro vtcjap_boruchigene vtcjap_boruchiyominosu vtcjap_boto
+		}
+
+		female_names = {
+            vtcjap_akuta vtcjap_andeta vtcjap_ahia vtcjap_asekoria vtcjap_ata vtcjap_basonia vtcjap_betonia vtcjap_berijina vtcjap_buka vtcjap_ebua vtcjap_epa vtcjap_egejita vtcjap_egetora vtcjap_hechiana vtcjap_hogonta vtcjap_furema vtcjap_furemejita vtcjap_furemechina vtcjap_fugiya vtcjap_fujiya vtcjap_ianta vtcjap_ikebeyoneia vtcjap_ituriya vtcjap_iyobanta vtcjap_kanta vtcjap_koria vtcjap_kuikuta vtcjap_makuna vtcjap_morudona vtcjap_mujikiara vtcjap_musuta vtcjap_neiruka vtcjap_neruka vtcjap_ochinia vtcjap_rebetona vtcjap_reichia vtcjap_tenonchia vtcjap_turojichia vtcjap_urukeina vtcjap_uzejika vtcjap_bantekenia vtcjap_benna vtcjap_berukondana
+		}
+
+	dynasty_of_location_prefix = "dynnp_da"
+
+	patronym_suffix_male = "dynnpat_pre_vtcjap_yo"
+	patronym_suffix_female = "dynnpat_pre_vtcjap_ya"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5		
+
+	dynasty_name_first = yes		
+}

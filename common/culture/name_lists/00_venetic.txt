@@ -1,0 +1,58 @@
+﻿name_list_venetic_culture = {
+	cadet_dynasty_names = {
+	    dynn_vnt_ametikus dynn_vnt_aplisikos dynn_vnt_arspetijakos dynn_vnt_broijokos dynn_vnt_deipijarikos dynn_vnt_dillikos dynn_vnt_eneijos dynn_vnt_fakios dynn_vnt_fouvonikos dynn_vnt_inijontikos dynn_vnt_kastikos dynn_vnt_klutavikos dynn_vnt_kreviniaios dynn_vnt_naisonkos dynn_vnt_okijaijos dynn_vnt_ossokos dynn_vnt_ostiankos dynn_vnt_pelonikos dynn_vnt_pittamnikos dynn_vnt_resunkos dynn_vnt_trisikos dynn_vnt_tritijonijos dynn_vnt_voltolarikos dynn_vnt_pannarios dynn_vnt_pompeteguaios dynn_vnt_votunkeos dynn_vnt_akutios dynn_vnt_albarenios dynn_vnt_antaveios dynn_vnt_andetios dynn_vnt_andetiaios dynn_vnt_askolios dynn_vnt_baitonios dynn_vnt_boiios dynn_vnt_boiknos dynn_vnt_egestios dynn_vnt_egetorios dynn_vnt_einaios dynn_vnt_ennonios dynn_vnt_enopetiarios dynn_vnt_ersinios dynn_vnt_fougontiakos dynn_vnt_fougontios dynn_vnt_iuvantios dynn_vnt_karanmnios dynn_vnt_katusiaios dynn_vnt_klutiiaris dynn_vnt_kolios dynn_vnt_kuprikonios dynn_vnt_makknos dynn_vnt_otnios dynn_vnt_rebetonios dynn_vnt_segtios dynn_vnt_tivalios dynn_vnt_tomatorios dynn_vnt_toupeios dynn_vnt_trostios dynn_vnt_uposedios dynn_vnt_urkleios dynn_vnt_vantkenios dynn_vnt_vennonis dynn_vnt_vestinios dynn_vnt_voltigeneios dynn_vnt_voltiomnios dynn_vnt_voteios
+	}
+
+	dynasty_names = {
+	    dynn_vnt_ametikus dynn_vnt_aplisikos dynn_vnt_arspetijakos dynn_vnt_broijokos dynn_vnt_deipijarikos dynn_vnt_dillikos dynn_vnt_eneijos dynn_vnt_fakios dynn_vnt_fouvonikos dynn_vnt_inijontikos dynn_vnt_kastikos dynn_vnt_klutavikos dynn_vnt_kreviniaios dynn_vnt_naisonkos dynn_vnt_okijaijos dynn_vnt_ossokos dynn_vnt_ostiankos dynn_vnt_pelonikos dynn_vnt_pittamnikos dynn_vnt_resunkos dynn_vnt_trisikos dynn_vnt_tritijonijos dynn_vnt_voltolarikos dynn_vnt_pannarios dynn_vnt_pompeteguaios dynn_vnt_votunkeos dynn_vnt_akutios dynn_vnt_albarenios dynn_vnt_antaveios dynn_vnt_andetios dynn_vnt_andetiaios dynn_vnt_askolios dynn_vnt_baitonios dynn_vnt_boiios dynn_vnt_boiknos dynn_vnt_egestios dynn_vnt_egetorios dynn_vnt_einaios dynn_vnt_ennonios dynn_vnt_enopetiarios dynn_vnt_ersinios dynn_vnt_fougontiakos dynn_vnt_fougontios dynn_vnt_iuvantios dynn_vnt_karanmnios dynn_vnt_katusiaios dynn_vnt_klutiiaris dynn_vnt_kolios dynn_vnt_kuprikonios dynn_vnt_makknos dynn_vnt_otnios dynn_vnt_rebetonios dynn_vnt_segtios dynn_vnt_tivalios dynn_vnt_tomatorios dynn_vnt_toupeios dynn_vnt_trostios dynn_vnt_uposedios dynn_vnt_urkleios dynn_vnt_vantkenios dynn_vnt_vennonis dynn_vnt_vestinios dynn_vnt_voltigeneios dynn_vnt_voltiomnios dynn_vnt_voteios
+	}
+
+	male_names = {
+		5 = {
+			vnt_voltiomnos
+		}
+		4 = {
+			vnt_vants
+		}
+		6 = {
+			vnt_fremaistos vnt_iuvants
+		}
+		5 = {
+			vnt_futtos vnt_oppos
+		}
+		23 = {
+			vnt_akuts vnt_egests vnt_enogenes vnt_fougonts vnt_fugios vnt_kantes vnt_kellos vnt_kuges vnt_lemetor vnt_molon vnt_ostios vnt_uko vnt_vilkenis vnt_voltigens
+		}
+		57 = {
+			vnt_afros vnt_aimos vnt_alero vnt_arbos vnt_ariuns vnt_atto vnt_aviro vnt_bellenes vnt_butijakos vnt_deivolaijos vnt_ebos vnt_enno vnt_ennons vnt_enokleves vnt_eskaiva vnt_fonts vnt_fouvos vnt_fovos vnt_fugenes vnt_gaijos vnt_goltanos vnt_graikos vnt_hostihavos vnt_kadriakos vnt_karanmns vnt_kastikos vnt_katulstos vnt_keutinos vnt_krumelons vnt_kuijuta vnt_kvartio vnt_kvito vnt_lants vnt_lavskos vnt_lemetos vnt_leso vnt_luks vnt_melinks vnt_moldo vnt_moldonkeo vnt_moloto vnt_moltons vnt_nagalknos vnt_naisos vnt_ostiankos vnt_ostiaris vnt_ostis vnt_osts vnt_padros vnt_pilpots vnt_pledes vnt_pletuves vnt_pupons vnt_raitevios vnt_sikos vnt_suros vnt_tideimes vnt_tivales vnt_turijo vnt_turijones vnt_vasseno vnt_veignos vnt_veimes vnt_verkvalos vnt_viseiio vnt_voltignos vnt_voto vnt_votos
+		}   	               	          
+	}
+
+	female_names = {
+		14 = {
+			vnt_fugia vnt_kanta
+		}
+		18 = {
+			vnt_fugsia vnt_iuvanta vnt_nerka
+		}
+		10 = {
+			vnt_fougonta vnt_fremaistna
+		}
+		7 = {
+			vnt_frema vnt_voltiomnina
+		}
+		14 = {
+			vnt_fougontna vnt_laivna vnt_lemetorna vnt_ostiala vnt_rumana vnt_votina vnt_vrota
+		}
+		37 = {
+			vnt_akutna vnt_andetina vnt_apaia vnt_atta vnt_boiialna vnt_bukka vnt_ebfa vnt_efa vnt_egestna vnt_egetora vnt_fouva vnt_fremenodu vnt_frutana vnt_fuginia vnt_ikeveioneia vnt_ituria vnt_iuvantna vnt_katakna vnt_lessa vnt_logsia vnt_makna vnt_moldna vnt_muskialna vnt_musta vnt_siakna vnt_souvna vnt_turkna vnt_urkleina vnt_usedika vnt_venna vnt_verkondarna
+		}        
+	}
+	patronym_suffix_male = "dynnpat_suf_ios"
+	patronym_suffix_female = "dynnpat_suf_ia"
+
+	always_use_patronym = yes	
+	
+	dynasty_of_location_prefix = "dynnp_de"				
+
+}

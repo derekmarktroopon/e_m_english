@@ -1,0 +1,44 @@
+﻿name_list_old_ligurian = {
+	cadet_dynasty_names = {
+	    dynn_lig_Apus dynn_lig_Nemunius dynn_lig_Apuanus dynn_lig_Beretinus dynn_lig_Bimbellus dynn_lig_Vagiennus dynn_lig_Briniates dynn_lig_Casuentillanus dynn_lig_Cavaturinus dynn_lig_Celelates dynn_lig_Cerdiciates dynn_lig_Deciates dynn_lig_Eguiturus dynn_lig_Epanterius dynn_lig_Friniates dynn_lig_Garulus dynn_lig_Ingaunus dynn_lig_Intimilius dynn_lig_Ilvatus dynn_lig_Lapicinus dynn_lig_Maricus dynn_lig_Nemeturius dynn_lig_Oxubius dynn_lig_Segusius dynn_lig_Statiellus dynn_lig_Triulattus dynn_lig_Vediantius dynn_lig_Vesubianus
+	    #Apus Nemunius Apuanus Beretinus Bimbellus Vagiennus Briniates Casuentillanus Cavaturinus Celelates Cerdiciates Deciates Eguiturus Epanterius Friniates Garulus Ingaunus Intimilius Ilvatus Lapicinus Maricus Nemeturius Oxubius Segusius Statiellus Triulattus Vediantius Vesubianus
+	}
+
+	dynasty_names = {
+	    dynn_lig_Apus dynn_lig_Nemunius dynn_lig_Apuanus dynn_lig_Beretinus dynn_lig_Bimbellus dynn_lig_Vagiennus dynn_lig_Briniates dynn_lig_Casuentillanus dynn_lig_Cavaturinus dynn_lig_Celelates dynn_lig_Cerdiciates dynn_lig_Deciates dynn_lig_Eguiturus dynn_lig_Epanterius dynn_lig_Friniates dynn_lig_Garulus dynn_lig_Ingaunus dynn_lig_Intimilius dynn_lig_Ilvatus dynn_lig_Lapicinus dynn_lig_Maricus dynn_lig_Nemeturius dynn_lig_Oxubius dynn_lig_Segusius dynn_lig_Statiellus dynn_lig_Triulattus dynn_lig_Vediantius dynn_lig_Vesubianus
+	}
+
+	male_names = {
+		lig_Enicus lig_Enistalus lig_Ciluos lig_Cilios lig_Cuilios lig_Curtlios lig_Cusar lig_Duilios lig_Dutis lig_Ilamos lig_Istonos lig_Itos lig_Keivale lig_Mezu lig_Ostruos lig_Ruvi lig_Sabos lig_Stodu lig_Tustos lig_Tustis lig_Uvezaru lig_Veltovis lig_Vemetuvis  
+		#Enicus Enistalus Ciluos Cilios Cuilios Curtlios Cusar Duilios Dutis Ilamos Istonos Itos Keivale Mezu Ostruos Ruvi Sabos Stodu Tustos Tustis Uvezaru Veltovis Vemetuvis            	          
+	}
+
+	female_names = {
+		lig_Enica lig_Comba lig_Lasa lig_Ilima lig_Mutua lig_Tomua lig_Tumua lig_Anissa lig_Aua lig_Autesa lig_Esobna lig_Katua lig_Koimilla lig_Mauilla lig_Mita lig_Slania
+		#Enica Comba Lasa Ilima Mutua Tomua Tumua
+		#Anissa Aua Autesa Esobna Katua Koimilla Mauilla Mita Slania
+	}			
+
+}
+
+name_list_neo_ligurian = {
+	cadet_dynasty_names = {
+	    dynn_nlig_Avo dynn_nlig_Nemunin dynn_nlig_Apuan dynn_nlig_Berzin dynn_nlig_Bimellu dynn_nlig_Vagen dynn_nlig_Brignae dynn_nlig_Casventillan dynn_nlig_Cavaturin dynn_nlig_Zeillae dynn_nlig_Serdiziae dynn_nlig_Dezae dynn_nlig_Egutu dynn_nlig_Epanteri dynn_nlig_Frignae dynn_nlig_Garu dynn_nlig_Ingaun dynn_nlig_Intimigi dynn_nlig_Ilvo dynn_nlig_Lavisin dynn_nlig_Mari dynn_nlig_Nemeturi dynn_nlig_Uzobi dynn_nlig_Segozi dynn_nlig_Stazellu dynn_nlig_Triulattu dynn_nlig_Vegiante dynn_nlig_Vesuben
+	    #Avo Nemunìn Apuàn Berzìn Bimellu Vagén Brignae Casventillàn Cavaturìn Zeillae Serdiziae Dezae Egutu Epanteri Frignae Garu Ingàun Intimigi Ilvò Lavisìn Mari Nemeturi Uzobi Segozi Stazellu Triulàttu Vegiànte Vesubèn
+	}
+
+	dynasty_names = {
+	    dynn_nlig_Avo dynn_nlig_Nemunin dynn_nlig_Apuan dynn_nlig_Berzin dynn_nlig_Bimellu dynn_nlig_Vagen dynn_nlig_Brignae dynn_nlig_Casventillan dynn_nlig_Cavaturin dynn_nlig_Zeillae dynn_nlig_Serdiziae dynn_nlig_Dezae dynn_nlig_Egutu dynn_nlig_Epanteri dynn_nlig_Frignae dynn_nlig_Garu dynn_nlig_Ingaun dynn_nlig_Intimigi dynn_nlig_Ilvo dynn_nlig_Lavisin dynn_nlig_Mari dynn_nlig_Nemeturi dynn_nlig_Uzobi dynn_nlig_Segozi dynn_nlig_Stazellu dynn_nlig_Triulattu dynn_nlig_Vegiante dynn_nlig_Vesuben
+	}
+
+	male_names = {
+		nlig_Eni nlig_Enisto nlig_Cilo nlig_Cigi nlig_Coegi nlig_Curdgi nlig_Cusa nlig_Doegi nlig_Duz nlig_Lamo nlig_Ston nlig_Ido nlig_Keva nlig_Mezu nlig_Ostro nlig_Ruvi nlig_Savo nlig_Stodo nlig_Tosto nlig_Tusti nlig_Uveza nlig_Veltoi nlig_Vemetoi
+		#Enì Enistò Cilo Cigi Coegi Curdgi Cusà Doegi Duz Làmo Ston Idò	Kevà Mèzu Ostro Ruvi Savo Stòdo Tosto Tustì Uvezà Veltoi Vemetoi 
+	}
+
+	female_names = {
+		nlig_Enica nlig_Comba nlig_Lasa lig_Ilima nlig_Mutua nlig_Tomua nlig_Tumua nlig_Anisa nlig_Aua nlig_Otesa nlig_Esovna nlig_Catua nlig_Coimia nlig_Moilla nlig_Mita nlig_Slagna
+		#Ènica Comba Lasa Mutùa Tomùa Tumùa Anisa Aua Otesa Esòvna Catùa Coimìa Moilla Mìta Slagna
+	}			
+
+}

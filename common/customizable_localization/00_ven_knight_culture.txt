@@ -1,0 +1,20 @@
+﻿VenKnightCulture = {
+	type = character
+
+
+	text = {
+		trigger = {
+			OR = {
+				culture = { has_cultural_tradition = tradition_ekvopetobos }
+				culture = { has_cultural_pillar = language_venetic_culture }
+			}
+		}
+		localization_key = knight_ekvopetars
+	}
+	text = {
+		localization_key = knight_default
+		fallback = yes
+	}
+}
+
+

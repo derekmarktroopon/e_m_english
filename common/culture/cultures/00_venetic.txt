@@ -1,0 +1,350 @@
+﻿proto_italic = {
+	color = { 161 111 80 }	
+	parents = { pie_culture }
+	created = -2900.1.2
+
+	ethos = ethos_bellicose
+	heritage = heritage_pie
+	language = language_pie
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_koryos
+		tradition_pastoralists
+		tradition_noble_adoption
+        tradition_sacred_groves
+	}
+	
+	name_list = name_list_proto_italic
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { northern_clothing_gfx } 
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		35 = mediterranean
+		10 = caucasian_blond
+		10 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+venetic = {
+	color = { 122 222 189 }	
+	parents = { proto_italic }
+	created = -900.1.3
+	ethos = ethos_stoic
+	heritage = heritage_venetic
+	language = language_venetic_culture
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_ekvopetobos
+		tradition_horse_breeder
+		tradition_maritime_mercantilism
+		tradition_stalwart_defenders
+        tradition_sacred_groves
+	}
+	
+	name_list = name_list_venetic_culture
+	
+	coa_gfx = { venetic_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		35 = mediterranean
+		10 = caucasian_blond
+		10 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+liburnian = {
+	color = { 193 117 241 }	
+	parents = { proto_italic }
+	created = -900.1.3
+	ethos = ethos_bellicose
+	heritage = heritage_venetic
+	language = language_venetic_culture
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_practiced_pirates
+		tradition_maritime_mercantilism
+        tradition_sacred_groves
+        tradition_battlefield_looters	
+	}
+	
+	name_list = name_list_liburnian
+	
+	coa_gfx = { venetic_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		35 = mediterranean
+		10 = caucasian_blond
+		10 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+romanoveneti = {
+	parents = { roman venetic }
+	created = 4.1.4
+	color = { 143 33 66 }	
+	ethos = ethos_egalitarian
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_republican_legacy
+		tradition_horse_breeder		
+		tradition_maritime_mercantilism
+		tradition_roman_legacy		
+	}
+	
+	name_list = name_list_romanoveneti
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
+	
+	ethnicities = {
+		35 = mediterranean
+		10 = caucasian_blond
+		10 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+rhaetian = {
+	color = { 243 252 154 }	
+	ethos = ethos_stoic
+	heritage = heritage_raetic
+	language = language_raetic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_strength_in_numbers
+		tradition_mountaineers
+        tradition_isolationist
+	}
+	
+	name_list = name_list_raetic
+	
+	coa_gfx = { venetic_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
+	
+	ethnicities = {
+		35 = mediterranean
+		10 = caucasian_blond
+		10 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+camunic = {
+
+	color = { 51 255 153 }	
+	ethos = ethos_communal
+	heritage = heritage_raetic
+	language = language_camunic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_stand_and_fight
+		tradition_staunch_traditionalists
+		tradition_hunters
+	}
+	
+	name_list = name_list_raetic
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
+	
+	ethnicities = {
+		35 = mediterranean
+		10 = caucasian_blond
+		10 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+old_ligurian = {
+	color = { 237 176 133 }	
+	ethos = ethos_communal
+	heritage = heritage_old_ligurian
+	language = language_old_ligurian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_stand_and_fight	
+		tradition_maritime_mercantilism
+		tradition_stalwart_defenders
+		tradition_astute_diplomats		
+	}
+	
+	name_list = name_list_old_ligurian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
+	
+	ethnicities = {
+		35 = mediterranean
+		10 = caucasian_blond
+		10 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+venetian = {
+	created = 720.1.1
+	parents = { romanoveneti lombard }
+	color = { 146 216 250 }	
+	ethos = ethos_communal
+	heritage = heritage_latin
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_republican_legacy
+		tradition_astute_diplomats
+		tradition_music_theory
+	}
+	
+	name_list = name_list_venetian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
+	
+	ethnicities = {
+		35 = mediterranean
+		10 = caucasian_blond
+		10 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+roman = {
+	color = { 0.8 0.1 0.1 }
+	parents = { proto_italic }
+	created = -900.1.3
+	
+	ethos = ethos_bellicose
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_formation_fighting
+		tradition_legalistic
+		tradition_roman_legacy
+		tradition_poetry
+		tradition_hereditary_hierarchy
+		tradition_noble_adoption
+	}
+	
+	name_list = name_list_roman
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { eastern_unit_gfx } 	
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
+
+	ethnicities = {
+		100 = mediterranean
+	}
+}
+
+oscan = { 
+
+	color = { 235 164 52 }
+	parents = { proto_italic }
+	created = -900.1.3
+
+	heritage = heritage_osco_umbrian
+	language = language_osco_umbrian
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_oscan
+
+	ethos = ethos_egalitarian
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_only_the_strong
+		tradition_hill_dwellers 
+		tradition_pastoralists
+		tradition_formation_fighting
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { eastern_unit_gfx } 	
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
+
+	ethnicities = {
+		10 = mediterranean
+	}
+	
+}
+

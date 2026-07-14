@@ -1,0 +1,45 @@
+﻿# ImperatorToCK3: Last updated CK3 patch 1.2.2
+
+padua = {
+	county = c_padua
+
+	character_modifier = {
+		name = holy_site_padua_effect_name
+		prowess_per_piety_level = 1
+ 		cultural_head_fascination_mult = 0.1		
+	}
+}
+verona = {
+	county = c_verona
+
+	character_modifier = {
+		name = holy_site_verona_effect_name
+		monthly_prestige_gain_mult = 0.1
+		fertility = 0.1	
+	}
+}
+mantua = {
+	county = c_mantua
+
+	character_modifier = {
+		name = holy_site_mantua_effect_name
+		defender_advantage = 5		
+		men_at_arms_maintenance = -0.05	
+	}
+}
+treviso = {
+	county = c_treviso
+
+	character_modifier = {
+		name = holy_site_treviso_effect_name
+		stewardship_per_piety_level = 1
+	}
+}
+trieste = {
+	county = c_aquileia
+
+	character_modifier = {
+		name = holy_site_trieste_effect_name
+		development_growth_factor = 0.1
+	}
+}

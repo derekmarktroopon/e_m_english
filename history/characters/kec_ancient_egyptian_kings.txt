@@ -1,0 +1,2320 @@
+﻿# Kemetic Ancient Egypt title-history placeholders (V11; exact regnal-name identity)
+# Dates remain compressed one-year reigns because CK3 cannot represent BCE dates.
+# Root dynasty assignments replace V7 set_to_lowborn so each historical group is shared in game.
+
+kec_egypt_history_001 = { # Iry-Hor; Dynasty Zero
+	name = kmt_Iry_Hor
+	religion = "kemetism"
+	culture = "predynastic_egyptian"
+	dynasty = kec_dynasty_00
+	disallow_random_traits = yes
+
+	-3230.1.1 = { birth = yes }
+	-3175.1.1 = { death = yes }
+}
+
+kec_egypt_history_002 = { # Ka; Dynasty Zero
+	name = kmt_Ka
+	religion = "kemetism"
+	culture = "predynastic_egyptian"
+	dynasty = kec_dynasty_00
+	disallow_random_traits = yes
+
+	-3198.1.1 = { birth = yes }
+	-3100.1.1 = { death = yes }
+}
+
+kec_egypt_history_003 = { # Narmer; First Dynasty
+	name = kmt_Narmer
+	religion = "kemetism"
+	culture = "predynastic_egyptian"
+	dynasty = kec_dynasty_01
+	disallow_random_traits = yes
+
+	-3145.1.1 = { birth = yes }
+	-3095.1.1 = { death = yes }
+}
+
+kec_egypt_history_004 = { # Hor-Aha; First Dynasty
+	name = kmt_Hor_Aha
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_01
+	disallow_random_traits = yes
+
+	-3120.1.1 = { birth = yes }
+	-3022.1.1 = { death = yes }
+}
+
+kec_egypt_history_005 = { # Djer; First Dynasty
+	name = kmt_Djer
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_01
+	disallow_random_traits = yes
+
+	-3096.1.1 = { birth = yes }
+	-2980.1.1 = { death = yes }
+}
+
+kec_egypt_history_006 = { # Djet; First Dynasty
+	name = kmt_Djet
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_01
+	disallow_random_traits = yes
+
+	-3023.1.1 = { birth = yes }
+	-2970.1.1 = { death = yes }
+}
+
+kec_egypt_history_007 = { # Den; First Dynasty
+	name = kmt_Den
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_01
+	disallow_random_traits = yes
+
+	-3000.1.1 = { birth = yes }
+	-2928.1.1 = { death = yes }
+}
+
+kec_egypt_history_008 = { # Anedjib; First Dynasty
+	name = kmt_Adjib
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_01
+	disallow_random_traits = yes
+
+	-2986.1.1 = { birth = yes }
+	-2920.1.1 = { death = yes }
+}
+
+kec_egypt_history_009 = { # Semerkhet; First Dynasty
+	name = kmt_Semerkhet
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_01
+	disallow_random_traits = yes
+
+	-2930.1.1 = { birth = yes }
+	-2911.6.1 = { death = yes }
+}
+
+kec_egypt_history_010 = { # Qa'a; First Dynasty
+	name = kmt_Qaa
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_01
+	disallow_random_traits = yes
+
+	-2930.1.1 = { birth = yes }
+	-2877.1.1 = { death = yes }
+}
+
+kec_egypt_history_011 = { # Hotepsekhemwy; Second Dynasty
+	name = kmt_Hotepsekhemwy
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_02 
+	disallow_random_traits = yes
+
+	-2870.1.1 = { #Accends 2850 BCE
+		birth = yes
+	}
+	-2804.1.1 = { death = yes }
+}
+
+kec_egypt_history_012 = { # Nebra; Second Dynasty
+	name = Nebra
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_02
+	disallow_random_traits = yes
+
+	-2824.1.1 = { birth = yes }
+	-2748.1.1 = { death = yes }
+}
+
+kec_egypt_history_013 = { # Nynetjer; Second Dynasty
+	name = kmt_Nynetjer
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_02
+	disallow_random_traits = yes
+
+	-2712.1.1 = { birth = yes }
+	-2622.1.1 = { death = yes }
+}
+
+kec_egypt_history_014 = { # Wadjenes; Second Dynasty
+	name = Wadjenes
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_02
+	disallow_random_traits = yes
+
+	-2732.1.1 = { birth = yes }
+	-2705.1.1 = { death = yes }
+}
+
+kec_egypt_history_015 = { # Senedj; Second Dynasty
+	name = kmt_Senedj
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_02
+	disallow_random_traits = yes
+
+	-2725.1.1 = { birth = yes }
+	-2698.1.1 = { death = yes }
+}
+
+kec_egypt_history_016 = { # Sekhemib; Second Dynasty
+	name = kmt_Sekhemib_Perenmaat
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_02
+	disallow_random_traits = yes
+
+	-2718.1.1 = { birth = yes }
+	-2691.1.1 = { death = yes }
+}
+
+kec_egypt_history_017 = { # Peribsen; Second Dynasty
+	name = kmt_Peribsen
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_02
+	disallow_random_traits = yes
+
+	-2713.1.1 = { birth = yes }
+	-2691.6.1 = { death = yes }
+}
+
+kec_egypt_history_018 = { # Neferkasokar; Second Dynasty
+	name = kmt_Neferkaseker
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_02
+	disallow_random_traits = yes
+
+	-2711.1.1 = { birth = yes }
+	-2690.1.1 = { death = yes }
+}
+
+kec_egypt_history_019 = { # Khasekhemwy; Second Dynasty
+	name = kmt_Bebti
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_02
+	disallow_random_traits = yes
+
+	-2736.1.1 = { birth = yes }
+	-2670.1.1 = { death = yes }
+}
+
+kec_egypt_history_020 = { # Sanakht; Third Dynasty
+	name = kmt_Sanakht
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_03
+	disallow_random_traits = yes 
+
+	-2683.1.1 = { birth = yes }
+	-2654.1.1 = { death = yes } 
+}
+
+kec_egypt_history_021 = { # Djoser; Third Dynasty
+	name = kmt_Djoser
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_03
+	disallow_random_traits = yes
+
+	-2665.1.1 = { birth = yes }
+	-2628.1.1 = { death = yes }
+}
+
+kec_egypt_history_022 = { # Sekhemkhet; Third Dynasty
+	name = kmt_Djoser_Teti
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_03
+	disallow_random_traits = yes
+
+	-2639.1.1 = { birth = yes }
+	-2622.1.1 = { death = yes }
+}
+
+kec_egypt_history_023 = { # Khaba; Third Dynasty
+	name = kmt_Khaba
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_03
+	disallow_random_traits = yes
+
+	-2630.1.1 = { birth = yes }
+	-2615.1.1 = { death = yes }
+}
+
+kec_egypt_history_025 = { # Huni; Third Dynasty
+	name = kmt_Huni
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_03
+	disallow_random_traits = yes
+
+	-2635.1.1 = { birth = yes }
+	-2614.1.1 = { death = yes }
+}
+
+kec_egypt_history_026 = { # Sneferu; Fourth Dynasty
+	name = kmt_Sneferu
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_04
+	disallow_random_traits = yes
+
+	-2633.1.1 = { birth = yes }
+	-2580.1.1 = { death = yes }
+}
+
+kec_egypt_history_027 = { # Khufu; Fourth Dynasty
+	name = kmt_Khufu
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_04
+	disallow_random_traits = yes
+
+	-2579.1.1 = { birth = yes }
+	-2553.1.1 = { death = yes }
+}
+
+kec_egypt_history_028 = { # Djedefre; Fourth Dynasty
+	name = kmt_Djedefre
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_04
+	disallow_random_traits = yes
+
+	-2552.1.1 = { birth = yes }
+	-2545.1.1 = { death = yes }
+}
+
+kec_egypt_history_029 = { # Khafre; Fourth Dynasty
+	name = kmt_Khafre
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_04
+	disallow_random_traits = yes
+
+	-2555.1.1 = { birth = yes }
+	-2518.1.1 = { death = yes }
+}
+
+kec_egypt_history_030 = { # Menkaure; Fourth Dynasty
+	name = kmt_Menkaure
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_04
+	disallow_random_traits = yes
+
+	-2527.1.1 = { birth = yes }
+	-2512.1.1 = { death = yes }
+}
+
+kec_egypt_history_031 = { # Shepseskaf; Fourth Dynasty
+	name = kmt_Shepseskaf
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_04
+	disallow_random_traits = yes
+
+	-2521.1.1 = { birth = yes }
+	-2476.1.1 = { death = yes }
+}
+
+kec_egypt_history_032 = { # Userkaf; Fifth Dynasty
+	name = kmt_Userkaf
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_05
+	disallow_random_traits = yes
+
+	-2528.1.1 = { birth = yes }
+	-2491.1.1 = { death = yes }
+}
+
+kec_egypt_history_033 = { # Sahure; Fifth Dynasty
+	name = Sahure
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_05
+	disallow_random_traits = yes
+
+	-2511.1.1 = { birth = yes } #ascended 2508 bce
+	-2477.1.1 = { death = yes }
+}
+
+kec_egypt_history_034 = { # Neferirkare; Fifth Dynasty
+	name = kmt_Neferirkare_Kakai
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_05
+	disallow_random_traits = yes
+
+	-2497.1.1 = { birth = yes }
+	-2460.1.1 = { death = yes }
+}
+
+kec_egypt_history_035 = { # Neferefre Isi; Fifth Dynasty
+	name = kmt_Neferefre_Isi
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_05
+	disallow_random_traits = yes
+
+	-2480.1.1 = { birth = yes }
+	-2458.1.1 = { death = yes }
+}
+
+kec_egypt_history_036 = { # Shepseskare; Fifth Dynasty
+	name = kmt_Netjeruser
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_05
+	disallow_random_traits = yes
+
+	-2480.1.1 = { birth = yes }
+	-2458.6.1 = { death = yes }
+}
+
+kec_egypt_history_037 = { # Nyuserre; Fifth Dynasty
+	name = kmt_Nyuserre_Ini
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_05
+	disallow_random_traits = yes
+
+	-2478.1.1 = { birth = yes }
+	-2422.1.1 = { death = yes }
+}
+
+kec_egypt_history_038 = { # Menkauhor; Fifth Dynasty
+	name = kmt_Menkauhor_Kaiu
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_05
+	disallow_random_traits = yes
+
+	-2442.1.1 = { birth = yes }
+	-2414.1.1 = { death = yes }
+}
+
+kec_egypt_history_039 = { # Djedkare; Fifth Dynasty
+	name = kmt_Djedkare_Isesi
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_05
+	disallow_random_traits = yes
+
+	-2434.1.1 = { birth = yes }
+	-2375.1.1 = { death = yes }
+}
+
+kec_egypt_history_040 = { # Unas; Fifth Dynasty
+	name = kmt_Unas
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_05
+	disallow_random_traits = yes
+
+	-2395.1.1 = { birth = yes }
+	-2345.1.1 = { death = yes }
+}
+
+kec_egypt_history_041 = { # Teti; Sixth Dynasty
+	name = kmt_Teti
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_06
+	disallow_random_traits = yes
+
+	-2365.1.1 = { birth = yes }
+	-2333.1.1 = { death = yes }
+}
+
+kec_egypt_history_042 = { # Userkare; Sixth Dynasty
+	name = kmt_Userkare
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_06
+	disallow_random_traits = yes
+
+	-2353.1.1 = { birth = yes }
+	-2331.1.1 = { death = yes }
+}
+
+kec_egypt_history_043 = { # Pepi; Sixth Dynasty
+	name = kmt_Pepi
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_06
+	disallow_random_traits = yes
+
+	-2351.1.1 = { birth = yes }
+	-2287.1.1 = { death = yes }
+}
+
+kec_egypt_history_044 = { # Merenre; Sixth Dynasty
+	name = kmt_Merenre_Nemtyemsaf
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_06
+	disallow_random_traits = yes
+
+	-2307.1.1 = { birth = yes }
+	-2278.1.1 = { death = yes }
+}
+
+kec_egypt_history_045 = { # Pepi; Sixth Dynasty
+	name = kmt_Pepi
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_06
+	disallow_random_traits = yes
+
+	-2298.1.1 = { birth = yes }
+	-2184.1.1 = { death = yes }
+}
+
+kec_egypt_history_046 = { # Merenre; Sixth Dynasty
+	name = kmt_Merenre_Nemtyemsaf
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_06
+	disallow_random_traits = yes
+
+	-2238.1.1 = { birth = yes }
+	-2184.6.1 = { death = yes }
+}
+
+kec_egypt_history_047 = { # Netjerkare; Sixth Dynasty
+	name = kmt_Netjerkare
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_06
+	disallow_random_traits = yes
+
+	-2214.1.1 = { birth = yes }
+	-2181.1.1 = { death = yes }
+}
+
+kec_egypt_history_048 = { # Menkare; Eighth Dynasty
+	name = kmt_Menkare
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_08
+	disallow_random_traits = yes
+
+	-2214.1.1 = { birth = yes }
+	-2181.6.1 = { death = yes }
+}
+
+kec_egypt_history_049 = { # Neferkare; Eighth Dynasty
+	name = kmt_Neferkare
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_08
+	disallow_random_traits = yes
+
+	-2214.1.1 = { birth = yes }
+	-2180.1.1 = { death = yes }
+}
+
+kec_egypt_history_050 = { # Neferkare; Eighth Dynasty
+	name = kmt_Neferkare
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_08
+	disallow_random_traits = yes
+
+	-2204.1.1 = { birth = yes }
+	-2176.1.1 = { death = yes }
+}
+
+kec_egypt_history_051 = { # Djedkare; Eighth Dynasty
+	name = kmt_Djedkare_Shemai
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_08
+	disallow_random_traits = yes
+
+	-2204.1.1 = { birth = yes }
+	-2174.3.1 = { death = yes }
+}
+
+kec_egypt_history_052 = { # Neferkare; Eighth Dynasty
+	name = kmt_Neferkare
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_08
+	disallow_random_traits = yes
+
+	-2204.1.1 = { birth = yes }
+	-2174.7.1 = { death = yes }
+}
+
+kec_egypt_history_053 = { # Merenhor; Eighth Dynasty
+	name = kmt_Merenhor
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_08
+	disallow_random_traits = yes
+
+	-2201.1.1 = { birth = yes }
+	-2174.9.1 = { death = yes }
+}
+
+kec_egypt_history_054 = { # Neferkamin; Eighth Dynasty
+	name = kmt_Neferkamin
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_08
+	disallow_random_traits = yes
+
+	-2193.1.1 = { birth = yes }
+	-2173.2.1 = { death = yes }
+}
+
+kec_egypt_history_055 = { # Nikare; Eighth Dynasty
+	name = kmt_Nikare
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_08
+	disallow_random_traits = yes
+
+	-2195.1.1 = { birth = yes }
+	-2173.6.1 = { death = yes }
+}
+
+kec_egypt_history_056 = { # Neferkare; Eighth Dynasty
+	name = kmt_Neferkare
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_08
+	disallow_random_traits = yes
+
+	-2204.1.1 = { birth = yes }
+	-2173.8.1 = { death = yes }
+}
+
+kec_egypt_history_057 = { # Neferkahor; Eighth Dynasty
+	name = kmt_Neferkahor
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_08
+	disallow_random_traits = yes
+
+	-2195.1.1 = { birth = yes }
+	-2172.1.1 = { death = yes }
+}
+
+kec_egypt_history_058 = { # Neferkare; Eighth Dynasty
+	name = kmt_Neferkare
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_08
+	disallow_random_traits = yes
+
+	-2201.1.1 = { birth = yes }
+	-2171.1.1 = { death = yes }
+}
+
+kec_egypt_history_059 = { # Neferkamin; Eighth Dynasty
+	name = kmt_Neferkamin
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_08
+	disallow_random_traits = yes
+
+	-2190.1.1 = { birth = yes }
+	-2170.1.1 = { death = yes }
+}
+
+kec_egypt_history_060 = { # Qakare; Eighth Dynasty
+	name = kmt_Qakare
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_08
+	disallow_random_traits = yes
+
+	-2193.1.1 = { birth = yes }
+	-2167.2.2 = { death = yes }
+}
+
+kec_egypt_history_061 = { # Neferkaure; Eighth Dynasty
+	name = kmt_Neferkaure
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_08
+	disallow_random_traits = yes
+
+	-2187.1.1 = { birth = yes }
+	-2163.1.1 = { death = yes }
+}
+
+kec_egypt_history_062 = { # Neferkauhor; Eighth Dynasty
+	name = kmt_Neferkauhor
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_08
+	disallow_random_traits = yes
+
+	-2183.1.1 = { birth = yes }
+	-2161.2.2 = { death = yes }
+}
+
+kec_egypt_history_063 = { # Neferirkare; Eighth Dynasty
+	name = kmt_Neferirkare_Pepi
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_08
+	disallow_random_traits = yes
+
+	-2181.1.1 = { birth = yes }
+	-2160.6.1 = { death = yes }
+}
+
+kec_egypt_history_064 = { # Khety; Ninth Dynasty
+	name = kmt_Meryibre_Khety
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_09
+	disallow_random_traits = yes
+
+	-2180.1.1 = { birth = yes }
+	-2150.1.1 = { death = yes }
+}
+
+kec_egypt_history_065 = { # Neferkare; Ninth Dynasty
+	name = kmt_Neferkare
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_09
+	disallow_random_traits = yes
+
+	-2170.1.1 = { birth = yes }
+	-2140.1.1 = { death = yes }
+}
+
+kec_egypt_history_066 = { # Khety; Ninth Dynasty
+	name = kmt_Khety
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_09
+	disallow_random_traits = yes
+
+	-2160.1.1 = { birth = yes }
+	-2135.1.1 = { death = yes }
+}
+
+kec_egypt_history_067 = { # Senen; Ninth Dynasty
+	name = kmt_Setut
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_09
+	disallow_random_traits = yes
+
+	-2155.1.1 = { birth = yes }
+	-2130.1.1 = { death = yes }
+}
+
+kec_egypt_history_068 = { # Neferkare; Tenth Dynasty
+	name = kmt_Neferkare
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_10
+	disallow_random_traits = yes
+
+	-2150.1.1 = { birth = yes }
+	-2110.6.1 = { death = yes }
+}
+
+kec_egypt_history_069 = { # Khety; Tenth Dynasty
+	name = kmt_Wahkare_Khety
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_10
+	disallow_random_traits = yes
+
+	-2130.1.1 = { birth = yes }
+	-2080.1.1 = { death = yes }
+}
+
+kec_egypt_history_070 = { # Merikare; Tenth Dynasty
+	name = kmt_Merikare
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_10
+	disallow_random_traits = yes
+
+	-2100.1.1 = { birth = yes }
+	-2040.1.1 = { death = yes }
+}
+
+kec_egypt_history_079 = { # Mentuhotep; Eleventh Dynasty
+	name = kmt_Mentuhotep
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_11
+	disallow_random_traits = yes
+
+	-2154.1.1 = { birth = yes } # accended 2134 bce
+	-2122.1.1 = { death = yes }
+}
+
+kec_egypt_history_080 = { # Intef; Eleventh Dynasty
+	name = kmt_Intef
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_11
+	disallow_random_traits = yes
+
+	-2142.1.1 = { birth = yes }
+	-2118.1.1 = { death = yes }
+}
+
+kec_egypt_history_081 = { # Intef; Eleventh Dynasty
+	name = kmt_Intef
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_11
+	disallow_random_traits = yes
+
+	-2138.1.1 = { birth = yes }
+	-2069.1.1 = { death = yes }
+}
+
+kec_egypt_history_082 = { # Intef; Eleventh Dynasty
+	name = kmt_Intef
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_11
+	disallow_random_traits = yes
+
+	-2089.1.1 = { birth = yes }
+	-2040.1.1 = { death = yes }
+}
+
+kec_egypt_history_083 = { # Mentuhotep; Eleventh Dynasty
+	name = kmt_Mentuhotep
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_11
+	disallow_random_traits = yes
+
+	-2060.1.1 = { birth = yes }
+	-2009.1.1 = { death = yes }
+}
+
+kec_egypt_history_084 = { # Mentuhotep; Eleventh Dynasty
+	name = kmt_Mentuhotep
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_11
+	disallow_random_traits = yes
+
+	-2029.1.1 = { birth = yes }
+	-1997.1.1 = { death = yes }
+}
+
+kec_egypt_history_085 = { # Mentuhotep; Eleventh Dynasty
+	name = kmt_Mentuhotep
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_11
+	disallow_random_traits = yes
+
+	-2017.1.1 = { birth = yes }
+	-1991.1.1 = { death = yes }
+}
+
+kec_egypt_history_086 = { # Amenemhat; Twelfth Dynasty
+	name = kmt_Amenemhat
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_12
+	disallow_random_traits = yes
+
+	-2011.1.1 = { birth = yes }
+	-1962.1.1 = { death = yes }
+}
+
+kec_egypt_history_087 = { # Senusret; Twelfth Dynasty
+	name = kmt_Senusret
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_12
+	disallow_random_traits = yes
+
+	-1982.1.1 = { birth = yes }
+	-1926.1.1 = { death = yes }
+}
+
+kec_egypt_history_088 = { # Amenemhat; Twelfth Dynasty
+	name = kmt_Amenemhat
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_12
+	disallow_random_traits = yes
+
+	-1946.1.1 = { birth = yes }
+	-1895.1.1 = { death = yes }
+}
+
+kec_egypt_history_089 = { # Senusret; Twelfth Dynasty
+	name = kmt_Senusret
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_12
+	disallow_random_traits = yes
+
+	-1915.1.1 = { birth = yes }
+	-1878.1.1 = { death = yes }
+}
+
+kec_egypt_history_090 = { # Senusret; Twelfth Dynasty
+	name = kmt_Senusret
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_12
+	disallow_random_traits = yes
+
+	-1898.1.1 = { birth = yes }
+	-1839.1.1 = { death = yes }
+}
+
+kec_egypt_history_091 = { # Amenemhat; Twelfth Dynasty
+	name = kmt_Amenemhat
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_12
+	disallow_random_traits = yes
+
+	-1859.1.1 = { birth = yes }
+	-1814.1.1 = { death = yes }
+}
+
+kec_egypt_history_092 = { # Amenemhat; Twelfth Dynasty
+	name = kmt_Amenemhat
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_12
+	disallow_random_traits = yes
+
+	-1834.1.1 = { birth = yes }
+	-1806.1.1 = { death = yes }
+}
+
+kec_egypt_history_093 = { # Sobekneferu; Twelfth Dynasty
+	name = kmt_Sobekneferu
+	female = yes
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_12
+	disallow_random_traits = yes
+
+	-1826.1.1 = { birth = yes }
+	-1802.1.1 = { death = yes }
+}
+
+kec_egypt_history_094 = { # Sobekhotep; Thirteenth Dynasty
+	name = kmt_Sobekhotep
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1822.1.1 = { birth = yes }
+	-1800.1.1 = { death = yes }
+}
+
+kec_egypt_history_095 = { # Sonbef; Thirteenth Dynasty
+	name = kmt_Sonbef
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1820.1.1 = { birth = yes }
+	-1796.1.1 = { death = yes }
+}
+
+kec_egypt_history_096 = { # Nerikare; Thirteenth Dynasty
+	name = kmt_Nerikare
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1816.1.1 = { birth = yes }
+	-1796.6.1 = { death = yes }
+}
+
+kec_egypt_history_097 = { # Amenemhat; Thirteenth Dynasty
+	name = kmt_Amenemhat
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1816.1.1 = { birth = yes }
+	-1793.1.1 = { death = yes }
+}
+
+kec_egypt_history_098 = { # Ameny Qemau; Thirteenth Dynasty
+	name = kmt_Ameny_Qemau
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1813.1.1 = { birth = yes }
+	-1792.1.1 = { death = yes }
+}
+
+kec_egypt_history_099 = { # Sehotepibre; Thirteenth Dynasty
+	name = kmt_Sehetepibre 
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1812.1.1 = { birth = yes }
+	-1790.1.1 = { death = yes }
+}
+
+kec_egypt_history_100 = { # Iufni; Thirteenth Dynasty
+	name = kmt_Iufni
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1810.1.1 = { birth = yes }
+	-1788.1.1 = { death = yes }
+}
+
+kec_egypt_history_101 = { # Amenemhat; Thirteenth Dynasty
+	name = kmt_Amenemhat
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1808.1.1 = { birth = yes }
+	-1785.1.1 = { death = yes }
+}
+
+kec_egypt_history_102 = { # Nebnun; Thirteenth Dynasty
+	name = kmt_Nebnuni
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1805.1.1 = { birth = yes }
+	-1783.1.1 = { death = yes }
+}
+
+kec_egypt_history_103 = { # Sehotepibre; Thirteenth Dynasty
+	name = kmt_Sehetepibre
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1803.1.1 = { birth = yes }
+	-1781.1.1 = { death = yes }
+}
+
+kec_egypt_history_104 = { # Sewadjkare; Thirteenth Dynasty
+	name = kmt_Sewadjkare
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1801.1.1 = { birth = yes }
+	-1781.6.1 = { death = yes }
+}
+
+kec_egypt_history_105 = { # Nedjemibre; Thirteenth Dynasty
+	name = kmt_Nedjemibre
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1801.1.1 = { birth = yes }
+	-1780.1.1 = { death = yes }
+}
+
+kec_egypt_history_106 = { # Sobekhotep; Thirteenth Dynasty
+	name = kmt_Sobekhotep
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1800.1.1 = { birth = yes }
+	-1777.1.1 = { death = yes }
+}
+
+kec_egypt_history_107 = { # Renseneb; Thirteenth Dynasty
+	name = kmt_Renseneb
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1797.1.1 = { birth = yes }
+	-1777.6.1 = { death = yes }
+}
+
+kec_egypt_history_108 = { # Hor; Thirteenth Dynasty
+	name = kmt_Hor
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1797.1.1 = { birth = yes }
+	-1775.1.1 = { death = yes }
+}
+
+kec_egypt_history_109 = { # Sekhemre Khutawy; Thirteenth Dynasty
+	name = kmt_Sobek
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1795.1.1 = { birth = yes }
+	-1772.1.1 = { death = yes }
+}
+
+kec_egypt_history_110 = { # Djedkheperew; Thirteenth Dynasty
+	name = Djedkheperew
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1792.1.1 = { birth = yes }
+	-1770.1.1 = { death = yes }
+}
+
+kec_egypt_history_111 = { # Sebkay; Thirteenth Dynasty
+	name = kmt_Sebkay
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1790.1.1 = { birth = yes }
+	-1769.1.1 = { death = yes }
+}
+
+kec_egypt_history_112 = { # Amenemhat; Thirteenth Dynasty
+	name = kmt_Amenemhat
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1789.1.1 = { birth = yes }
+	-1767.1.1 = { death = yes }
+}
+
+kec_egypt_history_113 = { # Wegaf; Thirteenth Dynasty
+	name = kmt_Wegaf
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1787.1.1 = { birth = yes }
+	-1767.6.1 = { death = yes }
+}
+
+kec_egypt_history_114 = { # Khendjer; Thirteenth Dynasty
+	name = kmt_Khendjer
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1787.1.1 = { birth = yes }
+	-1759.1.1 = { death = yes }
+}
+
+kec_egypt_history_115 = { # Imyremeshaw; Thirteenth Dynasty
+	name = kmt_Imyremeshaw
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1779.1.1 = { birth = yes }
+	-1757.1.1 = { death = yes }
+}
+
+kec_egypt_history_116 = { # Intef; Thirteenth Dynasty
+	name = kmt_Intef
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1777.1.1 = { birth = yes }
+	-1755.1.1 = { death = yes }
+}
+
+kec_egypt_history_117 = { # Seth Meribre; Thirteenth Dynasty
+	name = kmt_Seth_Meribre
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1775.1.1 = { birth = yes }
+	-1755.6.1 = { death = yes }
+}
+
+kec_egypt_history_118 = { # Sobekhotep; Thirteenth Dynasty
+	name = kmt_Sobekhotep
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1775.1.1 = { birth = yes }
+	-1751.1.1 = { death = yes }
+}
+
+kec_egypt_history_119 = { # Neferhotep; Thirteenth Dynasty
+	name = kmt_Neferhotep
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1771.1.1 = { birth = yes }
+	-1740.1.1 = { death = yes }
+}
+
+kec_egypt_history_120 = { # Sihathor; Thirteenth Dynasty
+	name = kmt_Sihathor
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1760.1.1 = { birth = yes }
+	-1739.1.1 = { death = yes }
+}
+
+kec_egypt_history_121 = { # Sobekhotep; Thirteenth Dynasty
+	name = kmt_Sobekhotep
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1759.1.1 = { birth = yes }
+	-1730.1.1 = { death = yes }
+}
+
+kec_egypt_history_122 = { # Sobekhotep; Thirteenth Dynasty
+	name = kmt_Sobekhotep
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1750.1.1 = { birth = yes }
+	-1727.1.1 = { death = yes }
+}
+
+kec_egypt_history_123 = { # Sobekhotep; Thirteenth Dynasty
+	name = kmt_Sobekhotep
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1747.1.1 = { birth = yes }
+	-1720.1.1 = { death = yes }
+}
+
+kec_egypt_history_124 = { # Wahibre Ibiau; Thirteenth Dynasty
+	name = kmt_Ibiau
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1740.1.1 = { birth = yes }
+	-1713.1.1 = { death = yes }
+}
+
+kec_egypt_history_125 = { # Merneferre Ay; Thirteenth Dynasty
+	name = kmt_Ay
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1743.1.1 = { birth = yes }
+	-1690.1.1 = { death = yes }
+}
+
+kec_egypt_history_126 = { # Merhotepre Ini; Thirteenth Dynasty
+	name = kmt_Ini
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1710.1.1 = { birth = yes } #Ascended 1677 bce
+	-1675.1.1 = { death = yes }
+}
+
+kec_egypt_history_127 = { # Sewadjtu; Thirteenth Dynasty
+	name = kmt_Sewadjtu
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1695.1.1 = { birth = yes }
+	-1672.1.1 = { death = yes }
+}
+
+kec_egypt_history_128 = { # Ined; Thirteenth Dynasty
+	name = kmt_Hori
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1692.1.1 = { birth = yes }
+	-1664.1.1 = { death = yes }
+}
+
+kec_egypt_history_130 = { # Sobekhotep; Thirteenth Dynasty
+	name = Sobekhotep
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1684.1.1 = { birth = yes }
+	-1663.1.1 = { death = yes }
+}
+
+kec_egypt_history_131 = { # Merkheperre; Thirteenth Dynasty
+	name = Merkheperre
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1683.1.1 = { birth = yes }
+	-1656.1.1 = { death = yes }
+}
+
+kec_egypt_history_132 = { # Merkare; Thirteenth Dynasty
+	name = Merkare
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1676.1.1 = { birth = yes }
+	-1656.6.1 = { death = yes }
+}
+
+kec_egypt_history_133 = { # Sekhemkare; Thirteenth Dynasty
+	name = kmt_Sekhemkare
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1676.1.1 = { birth = yes }
+	-1653.1.1 = { death = yes }
+}
+
+kec_egypt_history_134 = { # Sewahenre; Thirteenth Dynasty
+	name = kmt_Sewahenre
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_13
+	disallow_random_traits = yes
+
+	-1673.1.1 = { birth = yes }
+	-1649.1.1 = { death = yes }
+}
+
+kec_egypt_history_169 = { # Salitis; Fifteenth Dynasty
+	name = Salitis
+	religion = "kemetism"
+	culture = "carthaginian"
+	dynasty = kec_dynasty_15
+	disallow_random_traits = yes
+
+	-1670.1.1 = { birth = yes } #accended 1650 bce
+	-1631.1.1 = { death = yes }
+}
+
+kec_egypt_history_171 = { # Semqen; Sixteenth Dynasty
+	name = Semqen
+	religion = "kemetism"
+	culture = "carthaginian"
+	dynasty = kec_dynasty_16
+	disallow_random_traits = yes
+
+	-1651.1.1 = { birth = yes }
+	-1620.1.1 = { death = yes }
+}
+
+kec_egypt_history_172 = { # Aperanat; Sixteenth Dynasty
+	name = Aperanat
+	religion = "kemetism"
+	culture = "carthaginian"
+	dynasty = kec_dynasty_16
+	disallow_random_traits = yes
+
+	-1640.1.1 = { birth = yes }
+	-1610.1.1 = { death = yes }
+}
+
+kec_egypt_history_173 = { # Sakir-Har; Fifteenth Dynasty
+	name = Sakir-Har
+	religion = "kemetism"
+	culture = "carthaginian"
+	dynasty = kec_dynasty_15
+	disallow_random_traits = yes
+
+	-1630.1.1 = { birth = yes }
+	-1600.1.1 = { death = yes }
+}
+
+kec_egypt_history_174 = { # Khyan; Fifteenth Dynasty
+	name = Khyan
+	religion = "kemetism"
+	culture = "carthaginian"
+	dynasty = kec_dynasty_15
+	disallow_random_traits = yes
+
+	-1620.1.1 = { birth = yes }
+	-1590.1.1 = { death = yes }
+}
+
+kec_egypt_history_175 = { # Apepi; Fifteenth Dynasty
+	name = Apepi
+	religion = "kemetism"
+	culture = "carthaginian"
+	dynasty = kec_dynasty_15
+	disallow_random_traits = yes
+
+	-1610.1.1 = { birth = yes }
+	-1550.1.1 = { death = yes }
+}
+
+kec_egypt_history_176 = { # Khamudi; Fifteenth Dynasty
+	name = Khamudi
+	religion = "kemetism"
+	culture = "carthaginian"
+	dynasty = kec_dynasty_15
+	disallow_random_traits = yes
+
+	-1570.1.1 = { birth = yes }
+	-1540.1.1 = { death = yes }
+}
+
+kec_egypt_history_209 = { # Ahmose; Eighteenth Dynasty
+	name = kmt_Ahmose
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_18
+	disallow_random_traits = yes
+
+	-1569.1.1 = { birth = yes } #Ascends 1549 bce
+	-1524.1.1 = { death = yes }
+}
+
+kec_egypt_history_210 = { # Amenhotep; Eighteenth Dynasty
+	name = kmt_Amenhotep
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_18
+	disallow_random_traits = yes
+
+	-1564.1.1 = { birth = yes }
+	-1503.1.1 = { death = yes }
+}
+
+kec_egypt_history_211 = { # Thutmose; Eighteenth Dynasty
+	name = kmt_Thutmose
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_18
+	disallow_random_traits = yes
+
+	-1523.1.1 = { birth = yes }
+	-1493.1.1 = { death = yes }
+}
+
+kec_egypt_history_212 = { # Thutmose; Eighteenth Dynasty
+	name = kmt_Thutmose
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_18
+	disallow_random_traits = yes
+
+	-1503.1.1 = { birth = yes }
+	-1479.1.1 = { death = yes }
+}
+
+kec_egypt_history_214 = { # Thutmose; Eighteenth Dynasty
+	name = kmt_Thutmose
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_18
+	disallow_random_traits = yes
+
+	-1498.1.1 = { birth = yes }
+	-1425.1.1 = { death = yes }
+}
+
+kec_egypt_history_213 = { # Hatshepsut; Eighteenth Dynasty
+	name = kmt_Hatshepsut
+	female = yes
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_18
+	disallow_random_traits = yes
+
+	-1499.1.1 = { birth = yes } #ascended 1472 bce
+	-1458.1.1 = { death = yes }
+}
+
+kec_egypt_history_215 = { # Amenhotep; Eighteenth Dynasty
+	name = kmt_Amenhotep
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_18
+	disallow_random_traits = yes
+
+	-1467.1.1 = { birth = yes } #Ascends 1427 bce
+	-1397.1.1 = { death = yes }
+}
+
+kec_egypt_history_216 = { # Thutmose; Eighteenth Dynasty
+	name = kmt_Thutmose
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_18
+	disallow_random_traits = yes
+
+	-1417.1.1 = { birth = yes }
+	-1388.1.1 = { death = yes }
+}
+
+kec_egypt_history_217 = { # Amenhotep; Eighteenth Dynasty
+	name = kmt_Amenhotep
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_18
+	disallow_random_traits = yes
+
+	-1408.1.1 = { birth = yes }
+	-1351.1.1 = { death = yes }
+}
+
+kec_egypt_history_218 = { # Amenhotep; Eighteenth Dynasty
+	name = kmt_Amenhotep
+	religion = "atenism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_18
+	disallow_random_traits = yes
+
+	-1371.1.1 = { birth = yes }
+	-1334.1.1 = { death = yes }
+}
+
+kec_egypt_history_219 = { # Smenkhkare; Eighteenth Dynasty
+	name = kmt_Smenkhkare
+	female = yes
+	religion = "atenism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_18
+	disallow_random_traits = yes
+
+	-1355.1.1 = { birth = yes } #Ascended 1335 bce
+	-1334.1.1 = { death = yes }
+}
+
+kec_egypt_history_220 = { #  Neferneferuaten; Eighteenth Dynasty
+	name = kmt_Neferneferuaten
+	religion = "atenism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_18
+	disallow_random_traits = yes
+
+	-1352.1.1 = { birth = yes }
+	-1332.1.1 = { death = yes }
+}
+
+kec_egypt_history_221 = { # Tutankhamun; Eighteenth Dynasty
+	name = kmt_Tutankhamun
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_18
+	disallow_random_traits = yes
+
+	-1342.1.1 = { birth = yes }
+	-1323.1.1 = { death = yes }
+}
+
+kec_egypt_history_222 = { # Ay; Eighteenth Dynasty
+	name = kmt_Ay
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_18
+	disallow_random_traits = yes
+
+	-1353.1.1 = { birth = yes }
+	-1319.1.1 = { death = yes }
+}
+
+kec_egypt_history_223 = { # Horemheb; Eighteenth Dynasty
+	name = kmt_Horemheb
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_18
+	disallow_random_traits = yes
+
+	-1339.1.1 = { birth = yes }
+	-1292.1.1 = { death = yes }
+}
+
+kec_egypt_history_224 = { # Ramesses; Nineteenth Dynasty
+	name = kmt_Ramesses
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_19
+	disallow_random_traits = yes
+
+	-1340.1.1 = { birth = yes }
+	-1290.1.1 = { death = yes }
+}
+
+kec_egypt_history_225 = { # Seti; Nineteenth Dynasty
+	name = kmt_Seti
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_19
+	disallow_random_traits = yes
+
+	-1320.1.1 = { birth = yes }
+	-1279.1.1 = { death = yes }
+}
+
+kec_egypt_history_226 = { # Ramesses; Nineteenth Dynasty
+	name = kmt_Ramesses
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_19
+	disallow_random_traits = yes
+	give_nickname = nick_the_great
+
+	-1303.1.1 = { birth = yes }
+	-1213.1.1 = { death = yes }
+}
+
+kec_egypt_history_227 = { # Merneptah; Nineteenth Dynasty
+	name = kmt_Merneptah
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_19
+	disallow_random_traits = yes
+
+	-1243.1.1 = { birth = yes }
+	-1203.1.1 = { death = yes }
+}
+
+kec_egypt_history_228 = { # Amenmesse; Nineteenth Dynasty
+	name = kmt_Amenmesse
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_19
+	disallow_random_traits = yes
+
+	-1220.1.1 = { birth = yes }
+	-1198.1.1 = { death = yes }
+}
+
+kec_egypt_history_229 = { # Seti; Nineteenth Dynasty
+	name = kmt_Seti
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_19
+	disallow_random_traits = yes
+
+	-1223.1.1 = { birth = yes }
+	-1197.1.1 = { death = yes }
+}
+
+kec_egypt_history_230 = { # Siptah; Nineteenth Dynasty
+	name = kmt_Siptah
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_19
+	disallow_random_traits = yes
+
+	-1217.1.1 = { birth = yes }
+	-1191.1.1 = { death = yes }
+}
+
+kec_egypt_history_231 = { # Tausret; Nineteenth Dynasty
+	name = kmt_Twosret
+	female = yes
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_19
+	disallow_random_traits = yes
+
+	-1210.1.1 = { birth = yes }
+	-1188.1.1 = { death = yes }
+}
+
+kec_egypt_history_232 = { # Setnakhte; Twentieth Dynasty
+	name = kmt_Setnakhte
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_20
+	disallow_random_traits = yes
+
+	-1208.1.1 = { birth = yes }
+	-1185.1.1 = { death = yes }
+}
+
+kec_egypt_history_233 = { # Ramesses; Twentieth Dynasty
+	name = kmt_Ramesses
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_20
+	disallow_random_traits = yes
+
+	-1205.1.1 = { birth = yes }
+	-1154.1.1 = { death = yes }
+}
+
+kec_egypt_history_234 = { # Ramesses; Twentieth Dynasty
+	name = kmt_Ramesses
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_20
+	disallow_random_traits = yes
+
+	-1174.1.1 = { birth = yes }
+	-1148.1.1 = { death = yes }
+}
+
+kec_egypt_history_235 = { # Ramesses; Twentieth Dynasty
+	name = kmt_Ramesses
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_20
+	disallow_random_traits = yes
+
+	-1168.1.1 = { birth = yes }
+	-1144.1.1 = { death = yes }
+}
+
+kec_egypt_history_236 = { # Ramesses; Twentieth Dynasty
+	name = kmt_Ramesses
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_20
+	disallow_random_traits = yes
+
+	-1164.1.1 = { birth = yes }
+	-1136.1.1 = { death = yes }
+}
+
+kec_egypt_history_237 = { # Ramesses; Twentieth Dynasty
+	name = kmt_Ramesses
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_20
+	disallow_random_traits = yes
+
+	-1156.1.1 = { birth = yes }
+	-1129.1.1 = { death = yes }
+}
+
+kec_egypt_history_238 = { # Ramesses; Twentieth Dynasty
+	name = kmt_Ramesses
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_20
+	disallow_random_traits = yes
+
+	-1149.1.1 = { birth = yes }
+	-1128.1.1 = { death = yes }
+}
+
+kec_egypt_history_239 = { # Ramesses; Twentieth Dynasty
+	name = kmt_Ramesses
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_20
+	disallow_random_traits = yes
+
+	-1148.1.1 = { birth = yes }
+	-1110.1.1 = { death = yes }
+}
+
+kec_egypt_history_240 = { # Ramesses; Twentieth Dynasty
+	name = kmt_Ramesses
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_20
+	disallow_random_traits = yes
+
+	-1130.1.1 = { birth = yes }
+	-1106.1.1 = { death = yes }
+}
+
+kec_egypt_history_241 = { # Ramesses; Twentieth Dynasty
+	name = kmt_Ramesses
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_20
+	disallow_random_traits = yes
+
+	-1126.1.1 = { birth = yes }
+	-1077.1.1 = { death = yes }
+}
+
+kec_egypt_history_242 = { # Smendes; Twenty-first Dynasty
+	name = kmt_Nesbanebdjed
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_21
+	disallow_random_traits = yes
+
+	-1097.1.1 = { birth = yes }
+	-1051.1.1 = { death = yes }
+}
+
+kec_egypt_history_243 = { # Amenemnisu; Twenty-first Dynasty
+	name = Amenemnisu
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_21
+	disallow_random_traits = yes
+
+	-1071.1.1 = { birth = yes }
+	-1047.1.1 = { death = yes }
+}
+
+kec_egypt_history_244 = { # Psusennes; Twenty-first Dynasty
+	name = kmt_Pasebakhaenniut 
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_21
+	disallow_random_traits = yes
+
+	-1067.1.1 = { birth = yes }
+	-998.1.1 = { death = yes }
+}
+
+kec_egypt_history_245 = { # Amenemope; Twenty-first Dynasty
+	name = kmt_Amenemope
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_21
+	disallow_random_traits = yes
+
+	-1018.1.1 = { birth = yes }
+	-991.1.1 = { death = yes }
+}
+
+kec_egypt_history_246 = { # Osochor; Twenty-first Dynasty
+	name = kmt_Osorkon
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_21
+	disallow_random_traits = yes
+
+	-1011.1.1 = { birth = yes }
+	-985.1.1 = { death = yes }
+}
+
+kec_egypt_history_247 = { # Siamun; Twenty-first Dynasty
+	name = kmt_Siamun
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_21
+	disallow_random_traits = yes
+
+	-1005.1.1 = { birth = yes }
+	-966.1.1 = { death = yes }
+}
+
+kec_egypt_history_248 = { # Psusennes; Twenty-first Dynasty
+	name = kmt_Pasebakhaenniut
+	religion = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_21
+	disallow_random_traits = yes
+
+	-986.1.1 = { birth = yes }
+	-943.1.1 = { death = yes }
+}
+
+kec_egypt_history_249 = { # Sheshonq; Twenty-second Dynasty
+	name = kmt_Shoshenq
+	religion = "kemetism"
+	culture = "butr"
+	dynasty = kec_dynasty_22
+	disallow_random_traits = yes
+
+	-963.1.1 = { birth = yes }
+	-922.1.1 = { death = yes }
+}
+
+kec_egypt_history_250 = { # Osorkon; Twenty-second Dynasty
+	name = kmt_Osorkon
+	religion = "kemetism"
+	culture = "butr"
+	dynasty = kec_dynasty_22
+	disallow_random_traits = yes
+
+	-942.1.1 = { birth = yes }
+	-887.1.1 = { death = yes }
+}
+
+kec_egypt_history_251 = { # Sheshonq; Twenty-second Dynasty
+	name = kmt_Shoshenq
+	religion = "kemetism"
+	culture = "butr"
+	dynasty = kec_dynasty_22
+	disallow_random_traits = yes
+
+	-907.1.1 = { birth = yes }
+	-885.1.1 = { death = yes }
+}
+
+kec_egypt_history_253 = { # Takelot; Twenty-second Dynasty
+	name = kmt_Takelot
+	religion = "kemetism"
+	culture = "butr"
+	dynasty = kec_dynasty_22
+	disallow_random_traits = yes
+
+	-905.1.1 = { birth = yes }
+	-872.1.1 = { death = yes }
+}
+
+kec_egypt_history_254 = { # Osorkon; Twenty-second Dynasty
+	name = kmt_Osorkon
+	religion = "kemetism"
+	culture = "butr"
+	dynasty = kec_dynasty_22
+	disallow_random_traits = yes
+
+	-892.1.1 = { birth = yes }
+	-837.1.1 = { death = yes }
+}
+
+kec_egypt_history_255 = { # Sheshonq; Twenty-second Dynasty
+	name = kmt_Shoshenq
+	religion = "kemetism"
+	culture = "butr"
+	dynasty = kec_dynasty_22
+	disallow_random_traits = yes
+
+	-857.1.1 = { birth = yes }
+	-798.1.1 = { death = yes }
+}
+
+kec_egypt_history_256 = { # Sheshonq; Twenty-second Dynasty
+	name = kmt_Shoshenq
+	religion = "kemetism"
+	culture = "butr"
+	dynasty = kec_dynasty_22
+	disallow_random_traits = yes
+
+	-818.1.1 = { birth = yes }
+	-785.1.1 = { death = yes }
+}
+
+kec_egypt_history_257 = { # Pami; Twenty-second Dynasty
+	name = kmt_Pami
+	religion = "kemetism"
+	culture = "butr"
+	dynasty = kec_dynasty_22
+	disallow_random_traits = yes
+
+	-805.1.1 = { birth = yes }
+	-778.1.1 = { death = yes }
+}
+
+kec_egypt_history_258 = { # Sheshonq; Twenty-second Dynasty
+	name = kmt_Shoshenq
+	religion = "kemetism"
+	culture = "butr"
+	dynasty = kec_dynasty_22
+	disallow_random_traits = yes
+
+	-785.1.1 = { birth = yes } #ascended 767 bce
+	-730.1.1 = { death = yes }
+}
+
+kec_egypt_history_259 = { # Pedubast; Twenty-second Dynasty
+	name = kmt_Pedubast
+	religion = "kemetism"
+	culture = "butr"
+	dynasty = kec_dynasty_22
+	disallow_random_traits = yes
+
+	-761.1.1 = { birth = yes } #ascended 743 bce
+	-733.1.1 = { death = yes }
+}
+
+kec_egypt_history_260 = { # Osorkon; Twenty-second Dynasty
+	name = kmt_Osorkon
+	religion = "kemetism"
+	culture = "butr"
+	dynasty = kec_dynasty_22
+	disallow_random_traits = yes
+
+	-746.1.1 = { birth = yes } #ascended 730 bce
+	-716.1.1 = { death = yes }
+}
+
+kec_egypt_history_274 = { # Piye; Twenty-fifth Dynasty
+	name = Piye
+	religion = "kemetism"
+	culture = "nubian"
+	dynasty = kec_dynasty_25
+	disallow_random_traits = yes
+
+	-767.1.1 = { birth = yes } #conquered lower egypt around 726
+	-714.1.1 = { death = yes }
+}
+
+kec_egypt_history_275 = { # Shebitku; Twenty-fifth Dynasty
+	name = kmt_Shebitku
+	religion = "kemetism"
+	culture = "nubian"
+	dynasty = kec_dynasty_25
+	disallow_random_traits = yes
+
+	-734.1.1 = { birth = yes }
+	-705.1.1 = { death = yes }
+}
+
+kec_egypt_history_276 = { # Shabaka; Twenty-fifth Dynasty
+	name = Shabaka
+	religion = "kemetism"
+	culture = "nubian"
+	dynasty = kec_dynasty_25
+	disallow_random_traits = yes
+
+	-725.1.1 = { birth = yes }
+	-690.1.1 = { death = yes }
+}
+
+kec_egypt_history_277 = { # Taharqa; Twenty-fifth Dynasty
+	name = Taharqa
+	religion = "kemetism"
+	culture = "nubian"
+	dynasty = kec_dynasty_25
+	disallow_random_traits = yes
+
+	-710.1.1 = { birth = yes }
+	-664.1.1 = { death = yes }
+}
+
+kec_egypt_history_278 = { # Tantamani; Twenty-fifth Dynasty
+	name = Tantamani
+	religion = "kemetism"
+	culture = "nubian"
+	dynasty = kec_dynasty_25
+	disallow_random_traits = yes
+
+	-684.1.1 = { birth = yes }#Takes control in 664.2.1
+	-656.1.1 = { death = yes }
+}
+
+kec_egypt_history_281 = { # Psamtik; Twenty-sixth Dynasty
+	name = kmt_Psamtik
+	religion = "kemetism"
+	culture = "ancient_egyptian"
+	dynasty = kec_dynasty_26
+	disallow_random_traits = yes
+
+	-684.1.1 = { birth = yes } #Takes control in 664.1.1, and regains in 663.6.1 
+	-610.1.1 = { death = yes }
+}
+
+kec_egypt_history_282 = { # Necho; Twenty-sixth Dynasty
+	name = kmt_Nekau
+	religion = "kemetism"
+	culture = "ancient_egyptian"
+	dynasty = kec_dynasty_26
+	disallow_random_traits = yes
+
+	-630.1.1 = { birth = yes }
+	-595.1.1 = { death = yes }
+}
+
+kec_egypt_history_283 = { # Psamtik; Twenty-sixth Dynasty
+	name = kmt_Psamtik
+	religion = "kemetism"
+	culture = "ancient_egyptian"
+	dynasty = kec_dynasty_26
+	disallow_random_traits = yes
+
+	-613.1.1 = { birth = yes }
+	-589.1.1 = { death = yes }
+}
+
+kec_egypt_history_284 = { # Apries; Twenty-sixth Dynasty
+	name = kmt_Wahibre
+	religion = "kemetism"
+	culture = "ancient_egyptian"
+	dynasty = kec_dynasty_26
+	disallow_random_traits = yes
+
+	-599.1.1 = { birth = yes }
+	-570.1.1 = { death = yes }
+}
+
+kec_egypt_history_285 = { # Amasis; Twenty-sixth Dynasty
+	name = kmt_Ahmose
+	religion = "kemetism"
+	culture = "ancient_egyptian"
+	dynasty = kec_dynasty_26
+	disallow_random_traits = yes
+
+	-590.1.1 = { birth = yes }
+	-526.1.1 = { death = yes }
+}
+
+kec_egypt_history_286 = { # Psamtik; Twenty-sixth Dynasty
+	name = kmt_Psamtik
+	religion = "kemetism"
+	culture = "ancient_egyptian"
+	dynasty = kec_dynasty_26
+	disallow_random_traits = yes
+
+	-546.1.1 = { birth = yes }
+	-525.1.1 = { death = yes }
+}
+
+kec_egypt_history_287 = { # Cambyses; Twenty-seventh Dynasty
+	name = Cambyses
+	religion = "mazdayasna"
+	culture = "persian"
+	dynasty = kec_dynasty_27
+	disallow_random_traits = yes
+
+	-556.1.1 = { birth = yes } #takes egypt in 525 bce, lost in 522 bce
+	-522.1.1 = { death = yes }
+}
+
+kec_egypt_history_288 = { # Darius; Twenty-seventh Dynasty
+	name = Dariush
+	religion = "mazdayasna"
+	culture = "persian"
+	dynasty = kec_dynasty_27
+	disallow_random_traits = yes
+
+	-550.9.1 = { birth = yes } #retakes egypt in 518 bce
+	-486.10.1 = { death = yes }
+}
+
+kec_egypt_history_289 = { # Xerxes; Twenty-seventh Dynasty
+	name = Xerxes
+	religion = "mazdayasna"
+	culture = "persian"
+	dynasty = kec_dynasty_27
+	disallow_random_traits = yes
+
+	-518.10.1 = { birth = yes }
+	-465.8.1 = { death = yes }
+}
+
+kec_egypt_history_290 = { # Artaxerxes; Twenty-seventh Dynasty
+	name = Artaxerxes
+	religion = "mazdayasna"
+	culture = "persian"
+	dynasty = kec_dynasty_27
+	disallow_random_traits = yes
+
+	-485.1.1 = { birth = yes }
+	-424.12.1 = { death = yes }
+}
+
+kec_egypt_history_291 = { # Darius; Twenty-seventh Dynasty
+	name = Dariush
+	religion = "mazdayasna"
+	culture = "persian"
+	dynasty = kec_dynasty_27
+	disallow_random_traits = yes
+
+	-454.1.1 = { birth = yes }
+	-404.1.1 = { death = yes }
+}
+
+kec_egypt_history_292 = { # Artaxerxes; Twenty-seventh Dynasty
+	name = Artaxerxes
+	religion = "mazdayasna"
+	culture = "persian"
+	dynasty = kec_dynasty_27
+	disallow_random_traits = yes
+
+	-436.1.1 = { birth = yes }
+	-358.4.1 = { death = yes }
+}
+
+kec_egypt_history_293 = { # Amyrtaeus; Twenty-eighth Dynasty
+	name = kmt_Amenirdisu
+	religion = "kemetism"
+	culture = "ancient_egyptian"
+	dynasty = kec_dynasty_28
+	disallow_random_traits = yes
+
+	-424.1.1 = { birth = yes } #ascends 404 bce
+	-399.10.1 = { death = yes }
+}
+
+kec_egypt_history_294 = { # Nepherites; Twenty-ninth Dynasty
+	name = kmt_Nefaarud
+	religion = "kemetism"
+	culture = "ancient_egyptian"
+	dynasty = kec_dynasty_29
+	disallow_random_traits = yes
+
+	-419.1.1 = { birth = yes }
+	-393.1.1 = { death = yes }
+}
+
+kec_egypt_history_295 = { # Psammuthes; Twenty-ninth Dynasty
+	name = kmt_Psammuthes
+	religion = "kemetism"
+	culture = "ancient_egyptian"
+	dynasty = kec_dynasty_29
+	disallow_random_traits = yes
+
+	-419.1.1 = { birth = yes }
+	-393.3.1 = { death = yes }
+}
+
+kec_egypt_history_296 = { # Achoris; Twenty-ninth Dynasty
+	name = kmt_Hakor
+	religion = "kemetism"
+	culture = "ancient_egyptian"
+	dynasty = kec_dynasty_29
+	disallow_random_traits = yes
+
+	-419.1.1 = { birth = yes }
+	-380.1.1 = { death = yes }
+}
+
+kec_egypt_history_297 = { # Nefaarud; Twenty-ninth Dynasty
+	name = kmt_Nefaarud
+	religion = "kemetism"
+	culture = "ancient_egyptian"
+	dynasty = kec_dynasty_29
+	disallow_random_traits = yes
+
+	-400.1.1 = { birth = yes }
+	-380.6.1 = { death = yes }
+}
+
+kec_egypt_history_298 = { # Nectanebo; Twenty-ninth Dynasty
+	name = kmt_Nakhtnebef
+	religion = "kemetism"
+	culture = "ancient_egyptian"
+	dynasty = kec_dynasty_30
+	disallow_random_traits = yes
+
+	-400.1.1 = { birth = yes }
+	-362.1.1 = { death = yes }
+}
+
+kec_egypt_history_299 = { # Teos; Twenty-ninth Dynasty
+	name = kmt_Djedhor
+	religion = "kemetism"
+	culture = "ancient_egyptian"
+	dynasty = kec_dynasty_30
+	disallow_random_traits = yes
+
+	-382.1.1 = { birth = yes }
+	-360.1.1 = { death = yes }
+}
+
+kec_egypt_history_300 = { # Nectanebo; Twenty-ninth Dynasty
+	name = kmt_Nakhtnebef
+	religion = "kemetism"
+	culture = "ancient_egyptian"
+	dynasty = kec_dynasty_30
+	disallow_random_traits = yes
+
+	-380.1.1 = { birth = yes }
+	-343.1.1 = { death = yes }
+}
+
+kec_egypt_history_301 = { # Artaxerxes III; Twenty-seventh Dynasty
+	name = Artaxerxes
+	religion = "mazdayasna"
+	culture = "persian"
+	dynasty = kec_dynasty_27
+	disallow_random_traits = yes
+
+	-370.1.1 = { birth = yes } #Conquered 343 bce
+	-338.9.1 = { death = yes }
+}
+
+kec_egypt_history_302 = { # Artaxerxes IV - Arses; Twenty-seventh Dynasty
+	name = Artaxerxes
+	religion = "mazdayasna"
+	culture = "persian"
+	dynasty = kec_dynasty_27
+	disallow_random_traits = yes
+
+	-349.1.1 = { birth = yes } 
+	-336.1.1 = { death = yes }
+}
+
+kec_egypt_history_303 = { # Darius III; Twenty-seventh Dynasty
+	name = Dariush
+	religion = "mazdayasna"
+	culture = "persian"
+	dynasty = kec_dynasty_27
+	disallow_random_traits = yes
+
+	-380.1.1 = { birth = yes } 
+	-330.1.1 = { death = yes }
+}

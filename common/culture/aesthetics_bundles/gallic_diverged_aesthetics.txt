@@ -1,0 +1,304 @@
+﻿
+
+neo_gallic_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_gaulish
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_savoie }
+					any_this_title_or_de_jure_above = { this = title:d_provence }
+					any_this_title_or_de_jure_above = { this = title:d_dauphine }
+					any_this_title_or_de_jure_above = { this = title:d_toulouse }
+					any_this_title_or_de_jure_above = { this = title:d_auvergne }
+					any_this_title_or_de_jure_above = { this = title:d_bourbon }
+					any_this_title_or_de_jure_above = { this = title:d_aquitaine }
+					any_this_title_or_de_jure_above = { this = title:d_gascogne }
+					any_this_title_or_de_jure_above = { this = title:d_armagnac }
+					any_this_title_or_de_jure_above = { this = title:d_brittany }
+					any_this_title_or_de_jure_above = { this = title:d_poitou }
+					any_this_title_or_de_jure_above = { this = title:d_berry }
+					any_this_title_or_de_jure_above = { this = title:d_anjou }
+					any_this_title_or_de_jure_above = { this = title:d_normandy }
+					any_this_title_or_de_jure_above = { this = title:d_orleans }
+					any_this_title_or_de_jure_above = { this = title:d_burgundy }
+					any_this_title_or_de_jure_above = { this = title:d_upper_burgundy }
+					any_this_title_or_de_jure_above = { this = title:d_bar }
+					any_this_title_or_de_jure_above = { this = title:d_champagne }
+					any_this_title_or_de_jure_above = { this = title:d_valois }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { breton_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	name_list = name_list_neo_gaule
+}
+
+late_ibero_gaulish_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_gaulish
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_viscaya }
+					any_this_title_or_de_jure_above = { this = title:d_navarra }
+					any_this_title_or_de_jure_above = { this = title:d_aragon }
+					any_this_title_or_de_jure_above = { this = title:d_valencia }
+					any_this_title_or_de_jure_above = { this = title:d_murcia }
+					any_this_title_or_de_jure_above = { this = title:d_toledo }
+					any_this_title_or_de_jure_above = { this = title:d_granada }
+					any_this_title_or_de_jure_above = { this = title:d_sevilla }
+					any_this_title_or_de_jure_above = { this = title:d_castilla }
+					any_this_title_or_de_jure_above = { this = title:d_leon }
+					any_this_title_or_de_jure_above = { this = title:d_cantabria }
+					any_this_title_or_de_jure_above = { this = title:d_asturias }
+					any_this_title_or_de_jure_above = { this = title:d_languedoc }
+					any_this_title_or_de_jure_above = { this = title:d_barcelona }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+
+	name_list = name_list_late_ibero_gaulish
+}
+
+late_luso_gaulish_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_gaulish
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_galicia }
+					any_this_title_or_de_jure_above = { this = title:d_porto }
+					any_this_title_or_de_jure_above = { this = title:d_coimbra }
+					any_this_title_or_de_jure_above = { this = title:d_beja }
+					any_this_title_or_de_jure_above = { this = title:d_badajoz }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+
+	name_list = name_list_late_luso_gaulish
+}
+
+late_cisalpine_gaulish_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_gaulish
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_venice }
+					any_this_title_or_de_jure_above = { this = title:d_friuli }
+					any_this_title_or_de_jure_above = { this = title:d_verona }
+					any_this_title_or_de_jure_above = { this = title:d_istria }
+					any_this_title_or_de_jure_above = { this = title:d_lombardia }
+					any_this_title_or_de_jure_above = { this = title:d_emilia }
+					any_this_title_or_de_jure_above = { this = title:d_romagna }
+					any_this_title_or_de_jure_above = { this = title:d_piedmonte }
+					any_this_title_or_de_jure_above = { this = title:d_genoa }
+					any_this_title_or_de_jure_above = { this = title:d_toscana }
+					any_this_title_or_de_jure_above = { this = title:d_pisa }
+					any_this_title_or_de_jure_above = { this = title:d_ancona }
+					any_this_title_or_de_jure_above = { this = title:d_spoleto }
+					any_this_title_or_de_jure_above = { this = title:d_latium }
+					any_this_title_or_de_jure_above = { this = title:d_capua }
+					any_this_title_or_de_jure_above = { this = title:d_benevento }
+					any_this_title_or_de_jure_above = { this = title:d_apulia }
+					any_this_title_or_de_jure_above = { this = title:d_salerno }
+					any_this_title_or_de_jure_above = { this = title:d_calabria }
+					any_this_title_or_de_jure_above = { this = title:d_sicily }
+					any_this_title_or_de_jure_above = { this = title:d_sardinia }
+					any_this_title_or_de_jure_above = { this = title:d_corsica }
+					any_this_title_or_de_jure_above = { this = title:d_mallorca }
+					any_this_title_or_de_jure_above = { this = title:d_transjurania }
+					any_this_title_or_de_jure_above = { this = title:d_currezia }
+					any_this_title_or_de_jure_above = { this = title:d_tyrol }
+					any_this_title_or_de_jure_above = { this = title:d_carinthia }
+					any_this_title_or_de_jure_above = { this = title:d_krain }
+					any_this_title_or_de_jure_above = { this = title:d_steyermark }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { breton_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	name_list = name_list_late_cisalpine_gaulish
+}
+
+neo_celtiberian_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_celtiberian
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_viscaya }
+					any_this_title_or_de_jure_above = { this = title:d_navarra }
+					any_this_title_or_de_jure_above = { this = title:d_aragon }
+					any_this_title_or_de_jure_above = { this = title:d_valencia }
+					any_this_title_or_de_jure_above = { this = title:d_murcia }
+					any_this_title_or_de_jure_above = { this = title:d_toledo }
+					any_this_title_or_de_jure_above = { this = title:d_granada }
+					any_this_title_or_de_jure_above = { this = title:d_sevilla }
+					any_this_title_or_de_jure_above = { this = title:d_castilla }
+					any_this_title_or_de_jure_above = { this = title:d_leon }
+					any_this_title_or_de_jure_above = { this = title:d_cantabria }
+					any_this_title_or_de_jure_above = { this = title:d_asturias }
+					any_this_title_or_de_jure_above = { this = title:d_languedoc }
+					any_this_title_or_de_jure_above = { this = title:d_barcelona }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+
+	name_list = name_list_neo_celtiberian
+}
+
+neo_gallaecian_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_celtiberian
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_galicia }
+					any_this_title_or_de_jure_above = { this = title:d_porto }
+					any_this_title_or_de_jure_above = { this = title:d_coimbra }
+					any_this_title_or_de_jure_above = { this = title:d_beja }
+					any_this_title_or_de_jure_above = { this = title:d_badajoz }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+
+	name_list = name_list_neo_gallaecian
+}
+
+neo_lusitanian_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_lusitanian
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_galicia }
+					any_this_title_or_de_jure_above = { this = title:d_porto }
+					any_this_title_or_de_jure_above = { this = title:d_coimbra }
+					any_this_title_or_de_jure_above = { this = title:d_beja }
+					any_this_title_or_de_jure_above = { this = title:d_badajoz }
+					any_this_title_or_de_jure_above = { this = title:d_viscaya }
+					any_this_title_or_de_jure_above = { this = title:d_navarra }
+					any_this_title_or_de_jure_above = { this = title:d_aragon }
+					any_this_title_or_de_jure_above = { this = title:d_valencia }
+					any_this_title_or_de_jure_above = { this = title:d_murcia }
+					any_this_title_or_de_jure_above = { this = title:d_toledo }
+					any_this_title_or_de_jure_above = { this = title:d_granada }
+					any_this_title_or_de_jure_above = { this = title:d_sevilla }
+					any_this_title_or_de_jure_above = { this = title:d_castilla }
+					any_this_title_or_de_jure_above = { this = title:d_leon }
+					any_this_title_or_de_jure_above = { this = title:d_cantabria }
+					any_this_title_or_de_jure_above = { this = title:d_asturias }
+					any_this_title_or_de_jure_above = { this = title:d_languedoc }
+					any_this_title_or_de_jure_above = { this = title:d_barcelona }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+
+	name_list = name_list_neo_lusitanian
+}
+
+neo_leponti_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_lepontic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_venice }
+					any_this_title_or_de_jure_above = { this = title:d_friuli }
+					any_this_title_or_de_jure_above = { this = title:d_verona }
+					any_this_title_or_de_jure_above = { this = title:d_istria }
+					any_this_title_or_de_jure_above = { this = title:d_lombardia }
+					any_this_title_or_de_jure_above = { this = title:d_emilia }
+					any_this_title_or_de_jure_above = { this = title:d_romagna }
+					any_this_title_or_de_jure_above = { this = title:d_piedmonte }
+					any_this_title_or_de_jure_above = { this = title:d_genoa }
+					any_this_title_or_de_jure_above = { this = title:d_toscana }
+					any_this_title_or_de_jure_above = { this = title:d_pisa }
+					any_this_title_or_de_jure_above = { this = title:d_ancona }
+					any_this_title_or_de_jure_above = { this = title:d_spoleto }
+					any_this_title_or_de_jure_above = { this = title:d_latium }
+					any_this_title_or_de_jure_above = { this = title:d_capua }
+					any_this_title_or_de_jure_above = { this = title:d_benevento }
+					any_this_title_or_de_jure_above = { this = title:d_apulia }
+					any_this_title_or_de_jure_above = { this = title:d_salerno }
+					any_this_title_or_de_jure_above = { this = title:d_calabria }
+					any_this_title_or_de_jure_above = { this = title:d_sicily }
+					any_this_title_or_de_jure_above = { this = title:d_sardinia }
+					any_this_title_or_de_jure_above = { this = title:d_corsica }
+					any_this_title_or_de_jure_above = { this = title:d_mallorca }
+					any_this_title_or_de_jure_above = { this = title:d_transjurania }
+					any_this_title_or_de_jure_above = { this = title:d_currezia }
+					any_this_title_or_de_jure_above = { this = title:d_tyrol }
+					any_this_title_or_de_jure_above = { this = title:d_carinthia }
+					any_this_title_or_de_jure_above = { this = title:d_krain }
+					any_this_title_or_de_jure_above = { this = title:d_steyermark }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { breton_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	name_list = name_list_neo_lepontic
+}

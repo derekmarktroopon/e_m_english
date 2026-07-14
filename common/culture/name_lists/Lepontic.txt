@@ -1,0 +1,63 @@
+﻿name_list_lepontic = {
+	cadet_dynasty_names = {
+		dynn_lpt_adgonnetios dynn_lpt_asounios dynn_lpt_buiontialos dynn_lpt_dannotaliknos dynn_lpt_dellialos dynn_lpt_drutiknos dynn_lpt_dunnalos dynn_lpt_esandekottos dynn_lpt_esobnios dynn_lpt_galatiknos dynn_lpt_irumelos dynn_lpt_kaialoiso dynn_lpt_kepios dynn_lpt_kommoneos dynn_lpt_krasaniknos dynn_lpt_kualos dynn_lpt_laniakios dynn_lpt_magonalos dynn_lpt_matikios dynn_lpt_metalos dynn_lpt_meteliknos dynn_lpt_nimoniknos dynn_lpt_pompetenguaios dynn_lpt_plialedu dynn_lpt_retalos dynn_lpt_sipionios dynn_lpt_tekkialos dynn_lpt_trosios dynn_lpt_uarsillios dynn_lpt_uesalos dynn_lpt_uibios dynn_lpt_urentios
+		# Adgonnetios Asounios Buiontialos Dannotaliknos Dellialos Drutiknos Dunnalos Esandekottos Esobnios Galatiknos Irumelos Kaialoiso Kepios Kommoneos Krasaniknos Kualos Laniakios Magonalos Matikios Metalos Meteliknos Nimoniknos Pompetenguaios Plialedu Retalos Sipionios Tekkialos Trosios Uarsillios Uesalos Uibios Urentios
+	}
+
+	dynasty_names = {
+		dynn_lpt_adgonnetios dynn_lpt_asounios dynn_lpt_buiontialos dynn_lpt_dannotaliknos dynn_lpt_dellialos dynn_lpt_drutiknos dynn_lpt_dunnalos dynn_lpt_esandekottos dynn_lpt_esobnios dynn_lpt_galatiknos dynn_lpt_irumelos dynn_lpt_kaialoiso dynn_lpt_kepios dynn_lpt_kommoneos dynn_lpt_krasaniknos dynn_lpt_kualos dynn_lpt_laniakios dynn_lpt_magonalos dynn_lpt_matikios dynn_lpt_metalos dynn_lpt_meteliknos dynn_lpt_nimoniknos dynn_lpt_pompetenguaios dynn_lpt_plialedu dynn_lpt_retalos dynn_lpt_sipionios dynn_lpt_tekkialos dynn_lpt_trosios dynn_lpt_uarsillios dynn_lpt_uesalos dynn_lpt_uibios dynn_lpt_urentios
+	}
+
+	male_names = {
+		lpt_agedios lpt_akios lpt_aklutsamoualos lpt_alaukos lpt_allios lpt_alkouesos lpt_alkouindos lpt_andarekartos lpt_andokombogios lpt_antedilu lpt_apios lpt_artebuds lpt_arto lpt_ategnatos lpt_ateporix lpt_ateratos lpt_atepu lpt_aterio lpt_atilu lpt_attios lpt_auos lpt_belgos lpt_birakos lpt_birauikets lpt_biuos lpt_dannotalos lpt_deromos lpt_dubnos lpt_duro lpt_durokos lpt_eribogios lpt_eskingorigos lpt_esobnos lpt_iatuinos lpt_itsos lpt_iouinku lpt_kaio lpt_katu lpt_kassikos lpt_kassilos lpt_kassiuos lpt_kingetu lpt_kintuaretos lpt_komeuios lpt_kuintos lpt_latumaros lpt_lutu lpt_metelos lpt_matobogios lpt_minuku lpt_namu lpt_nantorix lpt_oledu lpt_padros lpt_pianu lpt_plios lpt_remu lpt_ritukalos lpt_runelos lpt_rolios lpt_sassamos lpt_segetios lpt_setubogios lpt_sipiu lpt_solos lpt_suloigis lpt_sutiuakos lpt_tetumus lpt_toutorix lpt_uenu lpt_uvamogotsis 
+		# Agedios Akios Aklutsamoualos Alaukos Allios Alkouesos Alkouindos Andarekartos Andokombogios Antedilu Apios Artebuds Arto Ategnatos Ateporix Ateratos Atepu Aterio Atilu Attios Auos Belgos Birakos Birauikets Biuos Dannotalos Deromos Dubnos Duro Durokos Eribogios Eskingorigos Esobnos Iatuinos Itsos Iouinku Kaio Katu Kassikos Kassilos Kassiuos Kingetu Kintuaretos Komeuios Kuintos Latumaros Lutu Metelos Matobogios Minuku Namu Nantorix Oledu Padros Pianu Plios Remu Ritukalos Runelos Rolios Sassamos Segetios Setubogios Sipiu Solos Suloigis Sutiuakos Tetumus Toutorix Uenu Uvamogotsis
+	}
+	female_names = {
+		lpt_Anissa lpt_Admina lpt_Arima lpt_Atekua lpt_Atta lpt_Atepa lpt_Aua lpt_Autesa lpt_Benila lpt_Bissa lpt_Biuonta lpt_Esobna lpt_Katua lpt_Koimilla lpt_Mauilla lpt_Meiva lpt_Mita lpt_Rigana lpt_Sapsuta lpt_Slania lpt_Sola lpt_Sura lpt_Surica lpt_Uenia
+		# Anissa Admina Arima Atekua Atta Atepa Aua Autesa Benila Bissa Biuonta Esobna Katua Koimilla Mauilla Meiva Mita Rigana Sapsuta Slania Sola Sura Surica Uenia
+	}
+
+	patronym_suffix_male = "dynnpat_suf_iknos"
+	patronym_suffix_female = "dynnpat_suf_ikna"
+	always_use_patronym = yes	
+
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 15
+	father_name_chance = 5
+	
+	pat_grm_name_chance = 30
+	mat_grm_name_chance = 15
+	mother_name_chance = 10
+}
+
+name_list_neo_lepontic = {
+	cadet_dynasty_names = {
+		dynn_nlpnt_Adgogni dynn_nlpnt_Asuni dynn_nlpnt_Buondial dynn_nlpnt_Dagnodaligo dynn_nlpnt_Deglial dynn_nlpnt_Drudign dynn_nlpnt_Dugnal dynn_nlpnt_Dunal dynn_nlpnt_Esandegodo dynn_nlpnt_Esobini dynn_nlpnt_Galadign dynn_nlpnt_Irumelo dynn_nlpnt_Caialoiso dynn_nlpnt_Cepio dynn_nlpnt_Comoneo dynn_nlpnt_Grasanigo dynn_nlpnt_Cualo dynn_nlpnt_Laniaci dynn_nlpnt_Magonal dynn_nlpnt_Matici dynn_nlpnt_Metalo dynn_nlpnt_Meteligo dynn_nlpnt_Nimonigo dynn_nlpnt_Pompedegui dynn_nlpnt_Pialedo dynn_nlpnt_Redal dynn_nlpnt_Sipioni dynn_nlpnt_Teccial dynn_nlpnt_Trosio dynn_nlpnt_Varsili dynn_nlpnt_Vesal dynn_nlpnt_Vibio dynn_nlpnt_Urenti
+		# Adgogni Asuni Buondial Dagnodaligo Deglial Drudign Dugnal Dunal Esandegodo Esobini Galadign Irumelo Caialoiso Cepio Comoneo Grasanigo Cualo Laniaci Magonal Matici Metalo Meteligo Nimonigo Pompedegui Pialedo Redal Sipioni Teccial Trosio Varsili Vesal Vibio Urenti
+	}
+
+	dynasty_names = {
+		dynn_nlpnt_Adgogni dynn_nlpnt_Asuni dynn_nlpnt_Buondial dynn_nlpnt_Dagnodaligo dynn_nlpnt_Deglial dynn_nlpnt_Drudign dynn_nlpnt_Dugnal dynn_nlpnt_Dunal dynn_nlpnt_Esandegodo dynn_nlpnt_Esobini dynn_nlpnt_Galadign dynn_nlpnt_Irumelo dynn_nlpnt_Caialoiso dynn_nlpnt_Cepio dynn_nlpnt_Comoneo dynn_nlpnt_Grasanigo dynn_nlpnt_Cualo dynn_nlpnt_Laniaci dynn_nlpnt_Magonal dynn_nlpnt_Matici dynn_nlpnt_Metalo dynn_nlpnt_Meteligo dynn_nlpnt_Nimonigo dynn_nlpnt_Pompedegui dynn_nlpnt_Pialedo dynn_nlpnt_Redal dynn_nlpnt_Sipioni dynn_nlpnt_Teccial dynn_nlpnt_Trosio dynn_nlpnt_Varsili dynn_nlpnt_Vesal dynn_nlpnt_Vibio dynn_nlpnt_Urenti
+	}
+ 
+	male_names = {
+		nlpnt_Agedi nlpnt_Acio nlpnt_Aglusamoval nlpnt_Alaugo nlpnt_Alio nlpnt_Algoeso nlpnt_Algoindo nlpnt_Andaregaro nlpnt_Andogombogio nlpnt_Antedilo nlpnt_Apio nlpnt_Artebudo nlpnt_Arto nlpnt_Ategno nlpnt_Ateporeco nlpnt_Aderat nlpnt_Adepo nlpnt_Aterio nlpnt_Atilo nlpnt_Agni nlpnt_Avo nlpnt_Belgo nlpnt_Birago nlpnt_Biravicet nlpnt_Bivo nlpnt_Dagnotal nlpnt_Deromo nlpnt_Dugno nlpnt_Duro nlpnt_Durogo nlpnt_Eribogio nlpnt_Escingorigo nlpnt_Esobin nlpnt_Iatuin nlpnt_Izo nlpnt_Iovingo nlpnt_Caio nlpnt_Cato nlpnt_Cassigo nlpnt_Cassilo nlpnt_Cassio nlpnt_Cinget nlpnt_Cinguaret nlpnt_Comevio nlpnt_Quint nlpnt_Latumaro nlpnt_Luto nlpnt_Metelo nlpnt_Matobogio nlpnt_Minugo nlpnt_Namo nlpnt_Nandorico nlpnt_Oledo nlpnt_Padro nlpnt_Pian nlpnt_Pio nlpnt_Remo nlpnt_Ridugal nlpnt_Runelo nlpnt_Roli nlpnt_Sassamo nlpnt_Segetio nlpnt_Setubogio nlpnt_Sipio nlpnt_Solo nlpnt_Suloigo nlpnt_Sutivago nlpnt_Tedumo nlpnt_Toudorico nlpnt_Veno nlpnt_Uvamogoz
+		# Agedi Acio Aglusamoval Alaugo Alio Algoeso Algoindo Andaregaro Andogombogio Antedilo Apio Artebudo Arto Ategno Ateporeco Aderat Adepo Aterio Atilo Agni Avo Belgo Birago Biravicet Bivo Dagnotal Deromo Dugno Duro Durogo Eribogio Escingorigo Esobin Iatuin Izo Iovingo Caio Cato Cassigo Cassilo Cassio Cinget Cinguaret Comevio Quint Latumaro Luto Metelo Matobogio Minugo Namo Nandorico Oledo Padro Pian Pio Remo Ridugal Runelo Roli Sassamo Segetio Setubogio Sipio Solo Suloigo Sutivago Tedumo Toudorico Veno Uvamogoz
+	} 
+	female_names = {
+		nlpnt_Anissa nlpnt_Admina nlpnt_Arima nlpnt_Ategua nlpnt_Ata nlpnt_Atepa nlpnt_Ava nlpnt_Autesa nlpnt_Benila nlpnt_Bissa nlpnt_Biovonda nlpnt_Esobna nlpnt_Cadua nlpnt_Coimila nlpnt_Movila nlpnt_Meiva nlpnt_Mita nlpnt_Rignana nlpnt_Sapsuta nlpnt_Slania nlpnt_Sola nlpnt_Sura nlpnt_Surica nlpnt_Vegna
+		# Anissa Admina Arima Ategua Ata Atepa Ava Autesa Benila Bissa Biovonda Esobna Cadua Coimila Movila Meiva Mita Rignana Sapsuta Slania Sola Sura Surica Vegna
+	}
+
+	patronym_suffix_male = "dynnpat_suf_igno"
+	patronym_suffix_female = "dynnpat_suf_igna"
+	always_use_patronym = yes	
+
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 15
+	father_name_chance = 5
+	
+	pat_grm_name_chance = 30
+	mat_grm_name_chance = 15
+	mother_name_chance = 10
+}

@@ -1,0 +1,105 @@
+﻿l_english:
+
+ kemetism_high_god_name:0 "Amen-Ra"
+kemetism_high_god_name_2:0 "Ra"
+kemetism_high_god_name_possessive:0 "Amen-Ra's"
+kemetism_high_god_name_alternate:0 "Ra"
+kemetism_high_god_name_alternate_possessive:0 "Ra's"
+kemetism_creator_god_name:0 "Atum"
+kemetism_creator_god_name_possessive:0 "Atum's"
+kemetism_health_god_name:0 "Hor"
+kemetism_health_god_name_possessive:0 "Hor's"
+kemetism_fertility_god_name:0 "Wadj-wer"
+kemetism_fertility_god_name_possessive:0 "Wadj-wer's"
+kemetism_wealth_god_name:0 "Neper"
+kemetism_wealth_god_name_possessive:0 "Neper's"
+kemetism_household_god_name:0 "Ptah"
+kemetism_household_god_name_possessive:0 "Ptah's"
+kemetism_fate_god_name:0 "Shai"
+kemetism_fate_god_name_possessive:0 "Shai's"
+kemetism_knowledge_god_name:0 "Djehuti"
+kemetism_knowledge_god_name_possessive:0 "Djehuti's"
+kemetism_war_god_name:0 "Anhur"
+kemetism_war_god_name_possessive:0 "Anhur's"
+kemetism_trickster_god_name:0 "Sutekh"
+kemetism_trickster_god_name_possessive:0 "Sutekh's"
+kemetism_night_god_name:0 "Khensu"
+kemetism_night_god_name_possessive:0 "Khensu's"
+kemetism_water_god_name:0 "Hapi"
+kemetism_water_god_name_possessive:0 "Hapi's"
+
+kemetism_good_god_amun_ra:0 "Amen-Ra"
+kemetism_good_god_ptah:0 "Ptah"
+kemetism_good_god_atum:0 "Atum"
+kemetism_good_god_horus:0 "Hor"
+kemetism_good_god_thoth:0 "Djehuti"
+kemetism_good_god_set:0 "Sutekh"
+kemetism_good_god_osiris:0 "Wsir"
+kemetism_good_god_isis:0 "Aset"
+kemetism_good_god_anubis:0 "Anapu"
+kemetism_evil_god_kek:0 "Kek"
+kemetism_evil_god_amheh:0 "Aapep"
+
+kemetism_devil_name:0 "Aapep"
+kemetism_devil_name_possessive:0 "Aapeps"
+
+kemetism_religious_symbol:0 "Ankh"
+kemetism_religious_symbol_2:0 "Wedjat Eye"
+kemetism_religious_symbol_3:0 "Meket"
+
+kemetism_religious_head_title:0 "Kheri-hab Heri-tep"
+kemetism_religious_head_title_name:0 "High Priesthood"
+
+kemetism_priest_male:0 "Kheri-hab"
+kemetism_priest_male_plural:0 "Priests"
+
+kemetism_divine_realm:0 "Duat"
+kemetism_divine_realm_2:0 "Afterlife"
+kemetism_divine_realm_3:0 "Netherworld"
+
+kemetism_death_god_name:0 "Anapu"
+kemetism_death_god_name_possessive:0 "Anapu's"
+
+kemetism_witchgodname_heket:0 "Aset"
+kemetism_witchgodname_heket_possessive:0 "Aset's"
+
+kemetism:0 "Kemetism"
+kemetism_adj:0 "Kemetic"
+kemetism_adherent:0 "Kemetist"
+kemetism_adherent_plural:0 "Kemetists"
+kemetism_desc:0 "Kemetism is the native pagan religion of Egypt. Headed by a pantheon of Gods (changing over the centuries) adherents place special reverence on the divine ancestry of their rulers, and on magical ceremonies."
+
+holy_order_servants_of_ra:0 "Servants of Ra"
+holy_order_defenders_of_the_neteru:0 "Defenders of the Neteru"
+holy_order_maat_warriors:0 "Ma'at Warriors"
+
+kushitism_religion:0 "Nilotic"
+kushitism_religion_adj:0 "Nilotic"
+
+atenism:0 "Atenism"
+atenism_adj:0 "Atenist"
+atenism_adherent:0 "Atenist"
+atenism_adherent_plural:0 "Atenists"
+atenism_desc:0 "Atenism is one of the earliest known monotheistic religions. Formed by the Pharaoh Amenotep IV (renaming himself as the Son of The Aten, Atkenaten), the religion which started as a cult centered around the Aten, or Re-Hor, was a temporal faith in which only the Aten, and his earthly representative, were to be worshiped."
+
+holy_order_servants_of_Ra-Hor:0 "Servants of Ra-Hor"
+holy_order_defenders_of_the_Aten:0 "Defenders of The Aten"
+
+atenism_high_god_name:0 "Ra-Hor"
+atenism_high_god_name_2:0 "Aten"
+atenism_high_god_name_possessive:0 "Ra-Hor's"
+
+atenism_high_god_name_alternate:0 "The Aten"
+atenism_high_god_name_alternate_possessive:0 "The Aten's"
+
+atenism_creator_god_name:0 "Aten"
+atenism_creator_god_name_possessive:0 "Aten's"
+
+religion_the_aten:0 "The Aten"
+religion_the_aten_have:0 "The Aten has"
+
+atenism_god_the_aten:0 "Aten"
+atenism_god_re_hor:0 "Re-Hor"
+
+atenism_religious_head_title:0 "Pharaoh-Atkhenaten"
+atenism_religious_head_title_name:0 "Guardianship of the Aten"

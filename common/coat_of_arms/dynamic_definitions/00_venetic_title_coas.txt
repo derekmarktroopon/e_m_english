@@ -1,0 +1,117 @@
+﻿k_venice = {
+	item = {
+		trigger = {
+			coa_venetic_raetian_holder_trigger = yes
+		}
+		coat_of_arms = k_venice_venetic
+	}
+}
+
+d_venice = {
+	item = {
+		trigger = {
+			coa_venetic_raetian_holder_trigger = yes
+		}
+		coat_of_arms = d_venice_venetic
+	}
+}
+
+c_venezia = {
+	item = {
+		trigger = {
+			coa_venetic_raetian_holder_trigger = yes
+		}
+		coat_of_arms = c_venezia_venetic
+	}
+}
+
+c_veneto = {
+	item = {
+		trigger = {
+			coa_venetic_raetian_holder_trigger = yes
+		}
+		coat_of_arms = c_veneto_venetic
+	}
+}
+
+d_verona = {
+	item = {
+		trigger = {
+			coa_venetic_raetian_holder_trigger = yes
+		}
+		coat_of_arms = d_verona_venetic
+	}
+}
+
+c_verona = {
+	item = {
+		trigger = {
+			coa_venetic_raetian_holder_trigger = yes
+		}
+		coat_of_arms = b_este_venetic
+	}
+}
+
+c_padua = {
+	item = {
+		trigger = {
+			coa_venetic_raetian_holder_trigger = yes
+		}
+		coat_of_arms = c_padua_venetic
+	}
+}
+
+d_friuli = {
+	item = {
+		trigger = {
+			coa_venetic_raetian_holder_trigger = yes
+		}
+		coat_of_arms = d_friuli_venetic
+	}
+}
+
+c_friuli = {
+	item = {
+		trigger = {
+			coa_venetic_raetian_holder_trigger = yes
+		}
+		coat_of_arms = c_friuli_venetic
+	}
+}
+
+c_treviso = {
+	item = {
+		trigger = {
+			coa_venetic_raetian_holder_trigger = yes
+		}
+		coat_of_arms = c_treviso_venetic
+	}
+}
+
+d_istria = {
+	item = {
+		trigger = {
+			coa_venetic_raetian_holder_trigger = yes
+		}
+		coat_of_arms = d_istria_venetic
+	}
+}
+
+c_aquileia = {
+	item = {
+		trigger = {
+			coa_venetic_raetian_holder_trigger = yes
+		}
+		coat_of_arms = c_aquileia_venetic
+	}
+}
+
+c_polesine = {
+	item = {
+		trigger = {
+			coa_venetic_raetian_holder_trigger = yes
+		}
+		coat_of_arms = c_polesine_venetic
+	}
+}
+

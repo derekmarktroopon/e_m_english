@@ -1,0 +1,17 @@
+﻿l_english:
+
+ baron_theocracy_male_camunic_religion:0 "Rose Disciple"
+ baron_theocracy_female_camunic_religion:0 "Rose Disciple"
+ barony_theocracy_camunic_religion:0 "Shrine"
+ count_theocracy_male_camunic_religion:0 "Rose High Follower"
+ count_theocracy_female_camunic_religion:0 "Rose High Follower"
+ county_theocracy_camunic_religion:0 "Great Shrine"
+ duke_theocracy_male_camunic_religion:0 "Reitia Speaker"
+ duke_theocracy_female_camunic_religion:0 "Reitia Speaker"
+ duchy_theocracy_camunic_religion:0 "Theocracy"
+ king_theocracy_male_camunic_religion:0 "Kernunnus Incarnate"
+ king_theocracy_female_camunic_religion:0 "Kernunnus Incarnate"
+ kingdom_theocracy_camunic_religion:0 "Grand Theocracy"
+ emperor_theocracy_male_camunic_religion:0 "Divine Emperor"
+ emperor_theocracy_female_camunic_religion:0 "Divine Empress"
+ empire_theocracy_camunic_religion:0 "Rosal Empire"

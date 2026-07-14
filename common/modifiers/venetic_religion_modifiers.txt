@@ -1,0 +1,31 @@
+﻿bhakti_venetic_reitia = {
+	monthly_lifestyle_xp_gain_mult = 0.2
+	development_growth_factor = 0.2
+	icon = letter_positive
+}
+
+bhakti_venetic_tumusiates = {
+	stewardship = major_skill_bonus	
+	prowess = major_skill_bonus
+	intrigue = minor_skill_bonus
+	icon = hunt_positive
+}
+
+bhakti_venetic_altino = {	
+	martial = major_skill_bonus
+	diplomacy = minor_skill_bonus
+	monthly_prestige_gain_mult = 0.2	
+	icon = martial_positive
+}
+
+bhakti_venetic_alkomno = {	
+	fertility = 0.25
+	health = 0.25	
+	stress_gain_mult = -0.33	
+	icon = feast_positive
+}
+
+gave_written_offering_modifier = {
+	county_opinion_add = 20
+	icon = social_positive
+}

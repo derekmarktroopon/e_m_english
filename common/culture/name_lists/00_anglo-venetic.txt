@@ -1,0 +1,225 @@
+﻿
+name_list_winitken_pg = {
+		cadet_dynasty_names = {
+	        dynn_pg_akutiz dynn_pg_albareniz dynn_pg_antaiwaz dynn_pg_aflisikaz dynn_pg_arspetijakaz dynn_pg_baiwiz dynn_pg_baiknaz dynn_pg_braijukaz dynn_pg_daipjarikaz dynn_pg_daifulajiz dynn_pg_dillikaz dynn_pg_egeturiz dynn_pg_ainawaz dynn_pg_fugiz dynn_pg_juwantiz dynn_pg_kluthawikaz dynn_pg_hufrikuniz dynn_pg_makkunaz dynn_pg_nagalknaz dynn_pg_naisunkaz dynn_pg_assukaz dynn_pg_pittamnikaz dynn_pg_fumpetegwaz dynn_pg_raitiwiz dynn_pg_resunkaz dynn_pg_tiwaliz dynn_pg_tumaturiz dynn_pg_thaupijaz dynn_pg_trisikaz dynn_pg_tritijuniz dynn_pg_ufositiz dynn_pg_wistiniz dynn_pg_wultigeniz dynn_pg_wultiumniz dynn_pg_wultularikaz dynn_pg_wutaiwiz
+		}
+
+		dynasty_names = {
+	        dynn_pg_akutiz dynn_pg_albareniz dynn_pg_antaiwaz dynn_pg_aflisikaz dynn_pg_arspetijakaz dynn_pg_baiwiz dynn_pg_baiknaz dynn_pg_braijukaz dynn_pg_daipjarikaz dynn_pg_daifulajiz dynn_pg_dillikaz dynn_pg_egeturiz dynn_pg_ainawaz dynn_pg_fugiz dynn_pg_juwantiz dynn_pg_kluthawikaz dynn_pg_hufrikuniz dynn_pg_makkunaz dynn_pg_nagalknaz dynn_pg_naisunkaz dynn_pg_assukaz dynn_pg_pittamnikaz dynn_pg_fumpetegwaz dynn_pg_raitiwiz dynn_pg_resunkaz dynn_pg_tiwaliz dynn_pg_tumaturiz dynn_pg_thaupijaz dynn_pg_trisikaz dynn_pg_tritijuniz dynn_pg_ufositiz dynn_pg_wistiniz dynn_pg_wultigeniz dynn_pg_wultiumniz dynn_pg_wultularikaz dynn_pg_wutaiwiz
+		}
+
+		male_names = {
+            vntpg_Afraz vntpg_Aimaz vntpg_Akuta vntpg_Alaraz vntpg_Ametikaz vntpg_Andetijaz vntpg_Anditaz vntpg_Aplisikaz vntpg_Arbaz vntpg_Ariunaz vntpg_Arzpitijakaz vntpg_Askalaz vntpg_Atto vntpg_Baita vntpg_Belliniz vntpg_Bojanaz vntpg_Bojaz vntpg_Broijukaz vntpg_Budijo vntpg_Diipiurikaz vntpg_Diipiariz vntpg_Dillikaz vntpg_Dilliz vntpg_Ebanaz vntpg_Egistaz vntpg_Egatoraz vntpg_Enjo vntpg_Enijoz vntpg_Enitijaz vntpg_Enoganaz vntpg_Erzinaz vntpg_Fiugo vntpg_Fontaz vntpg_Fugontaz vntpg_Framistaz vntpg_Fugijaz vntpg_Gajaz vntpg_Graikaz vntpg_Hostihewaz vntpg_Howaz vntpg_Huttaz vntpg_Juwanaz vntpg_Kanta vntpg_Karamno vntpg_Kastiko vntpg_Kellaz vntpg_Kiutinaz vntpg_Ktulistaz vntpg_Kwitaz vntpg_Lamuzo vntpg_Lantaz vntpg_Lafskaz vntpg_Limatoraz vntpg_Lukaz vntpg_Metsaz vntpg_Malda vntpg_Nagalkanaz vntpg_Naisonkaz vntpg_Naisaz vntpg_Okijaikaz vntpg_Oppoz vntpg_Ozakaz vntpg_Ostaz vntpg_Panarjaz vntpg_Pilunikaz vntpg_Pilpotaz vntpg_Pledaz vntpg_Raitawjaz vntpg_Raitaz vntpg_Resunkaz vntpg_Sikoz vntpg_Sura vntpg_Tekjoz vntpg_Tomatarijaz vntpg_Trisikaz vntpg_Turijaz vntpg_Uko vntpg_Urklajo vntpg_Urkliz vntpg_Wanta vntpg_Wantaz vntpg_Wassjanaz vntpg_Weginaz vntpg_Wemiz vntpg_Winniz vntpg_Warkwalaz vntpg_Woltiginiz vntpg_Woltiumnaz vntpg_Wota
+		}
+
+		female_names = {
+            vntpg_Akluto vntpg_Andeto vntpg_Apio vntpg_Askaljo vntpg_f_Atto vntpg_Bagsanijo vntpg_Baitonijo vntpg_Brigdino vntpg_Bukko vntpg_Ebuo vntpg_Efo vntpg_Egisto vntpg_Egatoro vntpg_Fitiano vntpg_Fugonto vntpg_Fremo vntpg_Framisto vntpg_Framistno vntpg_Fugijo vntpg_Fuksijo vntpg_Janto vntpg_Ikewiunijo vntpg_Ithurijo vntpg_Juwanto vntpg_Kanto vntpg_Kolijo vntpg_Kuikuto vntpg_Makno vntpg_Maldono vntpg_Muskialo vntpg_Musto vntpg_Neirko vntpg_Nerko vntpg_Otnijo vntpg_Ribatano vntpg_Raitijo vntpg_Trostijo vntpg_Urklaino vntpg_Usadijo vntpg_Wantkanijo vntpg_Winno vntpg_Warkandaro
+		}
+
+	dynasty_of_location_prefix = "dynnp_de"
+
+	patronym_suffix_male = "dynnpat_suf_filiaz_pg"
+	patronym_suffix_female = "dynnpat_suf_filio_pg"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5				
+}
+
+name_list_wintcin = {
+		cadet_dynasty_names = {
+	        dynn_vntoe_Aetting dynn_vntoe_Buticing dynn_vntoe_Enning dynn_vntoe_Geawing dynn_vntoe_Celling dynn_vntoe_Caedricing dynn_vntoe_Padring dynn_vntoe_Belling dynn_vntoe_Iuwanting dynn_vntoe_Cyoting dynn_vntoe_Cwiting dynn_vntoe_Greacing dynn_vntoe_Osting dynn_vntoe_Moling dynn_vntoe_Neasing dynn_vntoe_Raeting dynn_vntoe_Sicing dynn_vntoe_Tiwaling dynn_vntoe_Woting dynn_vntoe_Albarna dynn_vntoe_Andawa dynn_vntoe_Andeta dynn_vntoe_Andecia dynn_vntoe_Ascula dynn_vntoe_Beadon dynn_vntoe_Boia dynn_vntoe_Boicna dynn_vntoe_Egesta dynn_vntoe_Egetara dynn_vntoe_Eana dynn_vntoe_Ennona dynn_vntoe_Enopetia dynn_vntoe_Ersina dynn_vntoe_Fugontia dynn_vntoe_Fugonta dynn_vntoe_Iuwanta dynn_vntoe_Caranmana dynn_vntoe_Catusea dynn_vntoe_Clutia dynn_vntoe_Colia dynn_vntoe_Cuprica dynn_vntoe_Otnia dynn_vntoe_Rebetona dynn_vntoe_Secia dynn_vntoe_Tiwalia dynn_vntoe_Tomatara dynn_vntoe_Tupia dynn_vntoe_Trosta dynn_vntoe_Wupasida dynn_vntoe_Urclea dynn_vntoe_Wantcana dynn_vntoe_Wennona dynn_vntoe_Westina dynn_vntoe_Wultigana dynn_vntoe_Wultomna dynn_vntoe_Wotea
+		}
+
+		dynasty_names = {
+	        dynn_vntoe_Aetting dynn_vntoe_Buticing dynn_vntoe_Enning dynn_vntoe_Geawing dynn_vntoe_Celling dynn_vntoe_Caedricing dynn_vntoe_Padring dynn_vntoe_Belling dynn_vntoe_Iuwanting dynn_vntoe_Cyoting dynn_vntoe_Cwiting dynn_vntoe_Greacing dynn_vntoe_Osting dynn_vntoe_Moling dynn_vntoe_Neasing dynn_vntoe_Raeting dynn_vntoe_Sicing dynn_vntoe_Tiwaling dynn_vntoe_Woting dynn_vntoe_Albarna dynn_vntoe_Andawa dynn_vntoe_Andeta dynn_vntoe_Andecia dynn_vntoe_Ascula dynn_vntoe_Beadon dynn_vntoe_Boia dynn_vntoe_Boicna dynn_vntoe_Egesta dynn_vntoe_Egetara dynn_vntoe_Eana dynn_vntoe_Ennona dynn_vntoe_Enopetia dynn_vntoe_Ersina dynn_vntoe_Fugontia dynn_vntoe_Fugonta dynn_vntoe_Iuwanta dynn_vntoe_Caranmana dynn_vntoe_Catusea dynn_vntoe_Clutia dynn_vntoe_Colia dynn_vntoe_Cuprica dynn_vntoe_Otnia dynn_vntoe_Rebetona dynn_vntoe_Secia dynn_vntoe_Tiwalia dynn_vntoe_Tomatara dynn_vntoe_Tupia dynn_vntoe_Trosta dynn_vntoe_Wupasida dynn_vntoe_Urclea dynn_vntoe_Wantcana dynn_vntoe_Wennona dynn_vntoe_Westina dynn_vntoe_Wultigana dynn_vntoe_Wultomna dynn_vntoe_Wotea
+		}
+
+		male_names = {
+			100 = {
+				vntoe_Aelra vntoe_Arba vntoe_Aetta vntoe_Awira vntoe_Butic vntoe_Deowola vntoe_Eba vntoe_Enna vntoe_Escaefa vntoe_Geawa vntoe_Goltana vntoe_Fowa vntoe_Fuga vntoe_Futta vntoe_Caestic vntoe_Cella vntoe_Cuga vntoe_Cuhta vntoe_Luca vntoe_Melinga vntoe_Metsa vntoe_Oppa vntoe_Ostean vntoe_Osta vntoe_Ostiar vntoe_Cwearta vntoe_Sura vntoe_Tidema vntoe_Turia vntoe_Turion vntoe_Weoma vntoe_Caedric vntoe_Laefsca vntoe_Padra vntoe_Pledufa vntoe_Wanta vntoe_Wercwala vntoe_Afra vntoe_Eama vntoe_Acuta vntoe_Aria vntoe_Bella vntoe_Egest vntoe_Ennon vntoe_Enoga vntoe_Enocleofa vntoe_Fonta vntoe_Fugont vntoe_Fremest vntoe_Fugia vntoe_Greaca vntoe_Hosthaef vntoe_Iuwant vntoe_Canta vntoe_Caranman vntoe_Catolist vntoe_Cyotin vntoe_Crumela vntoe_Cwita vntoe_Lanta vntoe_Lemeter vntoe_Lemeta vntoe_Lesa vntoe_Molda vntoe_Moldon vntoe_Mola vntoe_Molota vntoe_Molton vntoe_Nagala vntoe_Neasa vntoe_Pilpota vntoe_Pleda vntoe_Pupon vntoe_Reatwa vntoe_Sica vntoe_Tiwala vntoe_Uca vntoe_Wassena vntoe_Weagna vntoe_Wilcin vntoe_Wisea vntoe_Woltiga vntoe_Woltina vntoe_Woltoma vntoe_Wota
+			}
+			0 = { #Old names - Some can still can be used as variants  
+            	vntoe_Ecyt vntoe_Eler vntoe_Emitec vntoe_Enditec vntoe_Endit vntoe_Eplisic vntoe_Erb vntoe_Eriyn vntoe_Errpitec vntoe_Iscile vntoe_Ette vntoe_Baet vntoe_Billin vntoe_Boegien vntoe_Boegie vntoe_Broegyc vntoe_Bydecie vntoe_Dipierec vntoe_Dipier vntoe_Dillec vntoe_Dille vntoe_Iben vntoe_Icgist vntoe_Iogtoer vntoe_Inne vntoe_Inigie vntoe_Inittgie vntoe_Inoegaen vntoe_Ioerrin vntoe_Fioge vntoe_Foent vntoe_Fygoent vntoe_Fremist vntoe_Fycgie vntoe_Cgiegie vntoe_Graece vntoe_Hoestiew vntoe_Hoew vntoe_Hytt vntoe_Iowaen vntoe_Caente vntoe_Cremne vntoe_Ciestecie vntoe_Cill vntoe_Cietin vntoe_Ctylst vntoe_Cwit vntoe_Leomyre vntoe_Lent vntoe_Lefsc vntoe_Liomtoer vntoe_Lyc vntoe_Mits vntoe_Meld vntoe_Gelcen vntoe_Naesonc vntoe_Naese vntoe_Oecigaec vntoe_Oeppe vntoe_Oerce vntoe_Oest vntoe_Pener vntoe_Pilynecie vntoe_Pilpoet vntoe_Plid vntoe_Raetwgie vntoe_Raet vntoe_Riosynce vntoe_Sice vntoe_Syr vntoe_Ticgie vntoe_Toemtaere vntoe_Trisece vntoe_Tyr vntoe_Yce vntoe_Yrclge vntoe_Yrcl vntoe_Went vntoe_Wessgne vntoe_Wecgin vntoe_Weme vntoe_Winne vntoe_Wercwel vntoe_Woeltecgin vntoe_Woeltien vntoe_Woet
+			}
+		}
+
+		female_names = {
+			100 = {
+				vntoe_Fowa vntoe_Wrota vntoe_Icewona vntoe_Leavna vntoe_Lessa vntoe_Usedica vntoe_Wenna vntoe_Iuwanta vntoe_Ostela vntoe_Acutna vntoe_Andetena vntoe_Apea vntoe_Atta vntoe_Bealla vntoe_Bucca vntoe_Efa vntoe_Egestna vntoe_Egetora vntoe_Fugonta vntoe_Frema vntoe_Fremestna vntoe_Fremena vntoe_Frutana vntoe_Fugia vntoe_Fuginia vntoe_Fugsia vntoe_Iuwantna vntoe_Ituria vntoe_Canta vntoe_Lemetorna vntoe_Lossia vntoe_Macna vntoe_Moldna vntoe_Muscelna vntoe_Musta vntoe_Nerca vntoe_Rumana vntoe_Seakna vntoe_Suwna vntoe_Turcna vntoe_Urcleana vntoe_Woltoma vntoe_Wotina vntoe_Fugontna vntoe_Catacna
+			}
+			0 = { #Old names - Some can still can be used as variants  
+            	vntoe_Aeclyt vntoe_f_Endit vntoe_Epie vntoe_Escaell vntoe_Aette vntoe_Begsen vntoe_Baetoen vntoe_Brigdin vntoe_Bycce vntoe_Ibe vntoe_Ifae vntoe_f_Icgist vntoe_Iogtoere vntoe_Fitien vntoe_f_Fygoent vntoe_Frime vntoe_f_Fremist vntoe_Fremisten vntoe_Fycg vntoe_Fycgio vntoe_Ient vntoe_Iciowienn vntoe_Ithyr vntoe_Iewent vntoe_Cent vntoe_Coell vntoe_Cyicyt vntoe_Mecine vntoe_Meldoen vntoe_Myscil vntoe_Myst vntoe_Nirc vntoe_Niorc vntoe_Oeten vntoe_Ribten vntoe_Raette vntoe_Toerst vntoe_Yrclin vntoe_Ysteg vntoe_Wentcenng vntoe_Winn vntoe_Wercndre 
+			}
+		}
+	dynasty_of_location_prefix = "dynnp_dy"
+
+	patronym_suffix_male = "dynnpat_suf_file_oe"
+	patronym_suffix_female = "dynnpat_suf_fily_oe"
+	always_use_patronym = yes					
+}
+
+name_list_wintissh = {
+		cadet_dynasty_names = {
+	        dynn_vnteme_Albarne dynn_vnteme_Andawe dynn_vnteme_Andete dynn_vnteme_Andeke dynn_vnteme_Ascule dynn_vnteme_Beaden dynn_vnteme_Boie dynn_vnteme_Boykene dynn_vnteme_Egeste dynn_vnteme_Egetare dynn_vnteme_Eane dynn_vnteme_Ennone dynn_vnteme_Enopete dynn_vnteme_Ersine dynn_vnteme_Fugonte dynn_vnteme_Iuwante dynn_vnteme_Caranmane dynn_vnteme_Catuse dynn_vnteme_Clute dynn_vnteme_Cole dynn_vnteme_Cuprike dynn_vnteme_Otnye dynn_vnteme_Rebetone dynn_vnteme_Seche dynn_vnteme_Segte dynn_vnteme_Twale dynn_vnteme_Tomatare dynn_vnteme_Tuppe dynn_vnteme_Troste dynn_vnteme_Wupaside dynn_vnteme_Urcle dynn_vnteme_Wantcane dynn_vnteme_Wennone dynn_vnteme_Westine dynn_vnteme_Wultigane dynn_vnteme_Wultomne dynn_vnteme_Wotte
+		}
+
+		dynasty_names = {
+	        dynn_vnteme_Albarne dynn_vnteme_Andawe dynn_vnteme_Andete dynn_vnteme_Andeke dynn_vnteme_Ascule dynn_vnteme_Beaden dynn_vnteme_Boie dynn_vnteme_Boykene dynn_vnteme_Egeste dynn_vnteme_Egetare dynn_vnteme_Eane dynn_vnteme_Ennone dynn_vnteme_Enopete dynn_vnteme_Ersine dynn_vnteme_Fugonte dynn_vnteme_Iuwante dynn_vnteme_Caranmane dynn_vnteme_Catuse dynn_vnteme_Clute dynn_vnteme_Cole dynn_vnteme_Cuprike dynn_vnteme_Otnye dynn_vnteme_Rebetone dynn_vnteme_Seche dynn_vnteme_Segte dynn_vnteme_Twale dynn_vnteme_Tomatare dynn_vnteme_Tuppe dynn_vnteme_Troste dynn_vnteme_Wupaside dynn_vnteme_Urcle dynn_vnteme_Wantcane dynn_vnteme_Wennone dynn_vnteme_Westine dynn_vnteme_Wultigane dynn_vnteme_Wultomne dynn_vnteme_Wotte
+		}
+
+		male_names = {
+            vnteme_Aelre vnteme_Ette vnteme_Awyr vnteme_Butik vnteme_Deole vnteme_Ebe vnteme_Enne vnteme_Geawe vnteme_Fowe vnteme_Fug vnteme_Futte vnteme_Chestike vnteme_Kelle vnteme_Cug vnteme_Cuht vnteme_Luce vnteme_Meling vnteme_Metse vnteme_Oppe vnteme_Osten vnteme_Ost vnteme_Ostiere vnteme_Querte vnteme_Sur vnteme_Tydeme vnteme_Ture vnteme_Turyon vnteme_Weome vnteme_Kedrik vnteme_Lafsche vnteme_Padre vnteme_Pledufe vnteme_Werkwale vnteme_Want vnteme_Afre vnteme_Acute vnteme_Arie vnteme_Belle vnteme_Egest vnteme_Ennon vnteme_Enog vnteme_Encleve vnteme_Fonte vnteme_Fugont vnteme_Fremest vnteme_Fugie vnteme_Greake vnteme_Hosthaf vnteme_Cante vnteme_Caranmen vnteme_Chiotin vnteme_Quite vnteme_Lemeter vnteme_Lemet vnteme_Lese vnteme_Molde vnteme_Moldon vnteme_Mole vnteme_Molot vnteme_Molton vnteme_Nagale vnteme_Pilpot vnteme_Plede vnteme_Pupon vnteme_Reawe vnteme_Syke vnteme_Tiwal vnteme_Uke vnteme_Wassene vnteme_Wilkin vnteme_Wise vnteme_Woltig vnteme_Woltin vnteme_Woltome vnteme_Wote
+		}
+
+		female_names = {
+            vnteme_f_Fowe vnteme_Wrote vnteme_Ichewune vnteme_Leavene vnteme_Lesse vnteme_Usedike vnteme_Wenne vnteme_Iuwante vnteme_Ostele vnteme_f_Acute vnteme_Andetene vnteme_Apee vnteme_Atte vnteme_Bealle vnteme_Bucke vnteme_Efe vnteme_Egestene vnteme_Egetore vnteme_Fugonte vnteme_Freme vnteme_Fremestene vnteme_Frutane vnteme_Fuge vnteme_Fugine vnteme_Fugse vnteme_Iuwantene vnteme_Iture vnteme_f_Cante vnteme_Lemetorne vnteme_Losse vnteme_Makene vnteme_Moldene vnteme_Muschelne vnteme_Muste vnteme_Nerke vnteme_Rumane vnteme_Seakene vnteme_Suwne vnteme_Turcne vnteme_Urkleane vnteme_f_Woltome vnteme_Wotine vnteme_Fugontne vnteme_Catacne
+		}
+
+	dynasty_of_location_prefix = "dynnp_dy"
+
+	patronym_suffix_male = "dynnpat_suf_file_oe"
+	patronym_suffix_female = "dynnpat_suf_fily_oe"
+	always_use_patronym = yes					
+
+}
+
+name_list_wintissh_biblical = {
+		cadet_dynasty_names = {
+	        dynn_vnteme_Albarne dynn_vnteme_Andawe dynn_vnteme_Andete dynn_vnteme_Andeke dynn_vnteme_Ascule dynn_vnteme_Beaden dynn_vnteme_Boie dynn_vnteme_Boykene dynn_vnteme_Egeste dynn_vnteme_Egetare dynn_vnteme_Eane dynn_vnteme_Ennone dynn_vnteme_Enopete dynn_vnteme_Ersine dynn_vnteme_Fugonte dynn_vnteme_Iuwante dynn_vnteme_Caranmane dynn_vnteme_Catuse dynn_vnteme_Clute dynn_vnteme_Cole dynn_vnteme_Cuprike dynn_vnteme_Otnye dynn_vnteme_Rebetone dynn_vnteme_Seche dynn_vnteme_Segte dynn_vnteme_Twale dynn_vnteme_Tomatare dynn_vnteme_Tuppe dynn_vnteme_Troste dynn_vnteme_Wupaside dynn_vnteme_Urcle dynn_vnteme_Wantcane dynn_vnteme_Wennone dynn_vnteme_Westine dynn_vnteme_Wultigane dynn_vnteme_Wultomne dynn_vnteme_Wotte
+		}
+
+		dynasty_names = {
+	        dynn_vnteme_Albarne dynn_vnteme_Andawe dynn_vnteme_Andete dynn_vnteme_Andeke dynn_vnteme_Ascule dynn_vnteme_Beaden dynn_vnteme_Boie dynn_vnteme_Boykene dynn_vnteme_Egeste dynn_vnteme_Egetare dynn_vnteme_Eane dynn_vnteme_Ennone dynn_vnteme_Enopete dynn_vnteme_Ersine dynn_vnteme_Fugonte dynn_vnteme_Iuwante dynn_vnteme_Caranmane dynn_vnteme_Catuse dynn_vnteme_Clute dynn_vnteme_Cole dynn_vnteme_Cuprike dynn_vnteme_Otnye dynn_vnteme_Rebetone dynn_vnteme_Seche dynn_vnteme_Segte dynn_vnteme_Twale dynn_vnteme_Tomatare dynn_vnteme_Tuppe dynn_vnteme_Troste dynn_vnteme_Wupaside dynn_vnteme_Urcle dynn_vnteme_Wantcane dynn_vnteme_Wennone dynn_vnteme_Westine dynn_vnteme_Wultigane dynn_vnteme_Wultomne dynn_vnteme_Wotte
+		}
+
+		male_names = {
+		    90 = {
+                vnteme_Aelre vnteme_Ette vnteme_Awyr vnteme_Butik vnteme_Deole vnteme_Ebe vnteme_Enne vnteme_Geawe vnteme_Fowe vnteme_Fug vnteme_Futte vnteme_Chestike vnteme_Kelle vnteme_Cug vnteme_Cuht vnteme_Luce vnteme_Meling vnteme_Metse vnteme_Oppe vnteme_Osten vnteme_Ost vnteme_Ostiere vnteme_Querte vnteme_Sur vnteme_Tydeme vnteme_Ture vnteme_Turyon vnteme_Weome vnteme_Kedrik vnteme_Lafsche vnteme_Padre vnteme_Pledufe vnteme_Werkwale vnteme_Want vnteme_Afre vnteme_Acute vnteme_Arie vnteme_Belle vnteme_Egest vnteme_Ennon vnteme_Enog vnteme_Encleve vnteme_Fonte vnteme_Fugont vnteme_Fremest vnteme_Fugie vnteme_Greake vnteme_Hosthaf vnteme_Cante vnteme_Caranmen vnteme_Chiotin vnteme_Quite vnteme_Lemeter vnteme_Lemet vnteme_Lese vnteme_Molde vnteme_Moldon vnteme_Mole vnteme_Molot vnteme_Molton vnteme_Nagale vnteme_Pilpot vnteme_Plede vnteme_Pupon vnteme_Reawe vnteme_Syke vnteme_Tiwal vnteme_Uke vnteme_Wassene vnteme_Wilkin vnteme_Wise vnteme_Woltig vnteme_Woltin vnteme_Woltome vnteme_Wote
+		    }
+		    10 = { #Christian
+		        Benedict John
+		    }
+		}
+
+		female_names = {
+		    85 = {
+                vnteme_f_Fowe vnteme_Wrote vnteme_Ichewune vnteme_Leavene vnteme_Lesse vnteme_Usedike vnteme_Wenne vnteme_Iuwante vnteme_Ostele vnteme_f_Acute vnteme_Andetene vnteme_Apee vnteme_Atte vnteme_Bealle vnteme_Bucke vnteme_Efe vnteme_Egestene vnteme_Egetore vnteme_Fugonte vnteme_Freme vnteme_Fremestene vnteme_Frutane vnteme_Fuge vnteme_Fugine vnteme_Fugse vnteme_Iuwantene vnteme_Iture vnteme_f_Cante vnteme_Lemetorne vnteme_Losse vnteme_Makene vnteme_Moldene vnteme_Muschelne vnteme_Muste vnteme_Nerke vnteme_Rumane vnteme_Seakene vnteme_Suwne vnteme_Turcne vnteme_Urkleane vnteme_f_Woltome vnteme_Wotine vnteme_Fugontne vnteme_Catacne
+		    }
+		    15 = { #Christian
+		        Agnes Cecily Margret Eve Anneis Sybil
+		    }
+		}
+	dynasty_of_location_prefix = "dynnp_dy"
+
+	patronym_suffix_male = "dynnpat_suf_file_oe"
+	patronym_suffix_female = "dynnpat_suf_fily_oe"
+	always_use_patronym = yes					
+
+}
+
+name_list_wyntish_venetians = {
+		cadet_dynasty_names = {
+	        dynn_vnteng_Albarn dynn_vnteng_Andow dynn_vnteng_Andett dynn_vnteng_Andek dynn_vnteng_Askell dynn_vnteng_Beadon dynn_vnteng_Boy dynn_vnteng_Boykin dynn_vnteng_Egeston dynn_vnteng_Ean dynn_vnteng_Ennon dynn_vnteng_Enopett dynn_vnteng_Ersin dynn_vnteng_Iwant dynn_vnteng_Carman dynn_vnteng_Catus dynn_vnteng_Cole dynn_vnteng_Cuprick dynn_vnteng_Otney dynn_vnteng_Rybeton dynn_vnteng_Seach dynn_vnteng_Segt dynn_vnteng_Twyll dynn_vnteng_Tupp dynn_vnteng_Trost dynn_vnteng_Wupside dynn_vnteng_Urkle dynn_vnteng_Wantcane dynn_vnteng_Weston dynn_vnteng_Woltigan dynn_vnteng_Walton dynn_vnteng_Wott { "dynnp_dy" "dynn_vnteng_dyDifeslyck" } { "dynnp_dy" "dynn_vnteng_dyTetrech" } { "dynnp_dy" "dynn_vnteng_dyRechkef" } { "dynnp_dy" "dynn_vnteng_dyTetlyck" } { "dynnp_dy" "dynn_vnteng_dyWeltylin" } { "dynnp_dy" "dynn_vnteng_dyEperdgin" } { "dynnp_dy" "dynn_vnteng_dyCenerde" } { "dynnp_dy" "dynn_vnteng_dyWicktin" }
+	        dynn_Adoaldo dynn_Balby dynn_Bon dynn_Badowyr dynn_Barbarig dynn_da_Canal dynn_da_Gueda dynn_da_Lezze dynn_da_Molin dynn_da_Mostoe dynn_da_Muela dynn_da_Ponte dynn_da_Pozzoe dynn_Grimany dynn_Orswol dynn_Stenoe dynn_Storlad dynn_Tallyapetra dynn_Typoll  dynn_Tirabosck dynn_Tradomeneg dynn_Trasontin dynn_Tribun dynn_Trevisan dynn_Tron dynn_Tuvian dynn_Valaress dynn_Vendramin dynn_Venier dynn_Verzin dynn_Viar dynn_Vingona dynn_Viscard dynn_Zamblott dynn_Zanchan dynn_Zanott
+		}
+
+		dynasty_names = {
+	        dynn_vnteng_Albarn dynn_vnteng_Andow dynn_vnteng_Andett dynn_vnteng_Andek dynn_vnteng_Askell dynn_vnteng_Beadon dynn_vnteng_Boy dynn_vnteng_Boykin dynn_vnteng_Egeston dynn_vnteng_Ean dynn_vnteng_Ennon dynn_vnteng_Enopett dynn_vnteng_Ersin dynn_vnteng_Iwant dynn_vnteng_Carman dynn_vnteng_Catus dynn_vnteng_Cole dynn_vnteng_Cuprick dynn_vnteng_Otney dynn_vnteng_Rybeton dynn_vnteng_Seach dynn_vnteng_Segt dynn_vnteng_Twyll dynn_vnteng_Tupp dynn_vnteng_Trost dynn_vnteng_Wupside dynn_vnteng_Urkle dynn_vnteng_Wantcane dynn_vnteng_Weston dynn_vnteng_Woltigan dynn_vnteng_Walton dynn_vnteng_Wott { "dynnp_dy" "dynn_vnteng_dyDifeslyck" } { "dynnp_dy" "dynn_vnteng_dyTetrech" } { "dynnp_dy" "dynn_vnteng_dyRechkef" } { "dynnp_dy" "dynn_vnteng_dyTetlyck" } { "dynnp_dy" "dynn_vnteng_dyWeltylin" } { "dynnp_dy" "dynn_vnteng_dyEperdgin" } { "dynnp_dy" "dynn_vnteng_dyCenerde" } { "dynnp_dy" "dynn_vnteng_dyWicktin" }
+	        dynn_Adoaldo dynn_Balby dynn_Bon dynn_Badowyr dynn_Barbarig dynn_da_Canal dynn_da_Gueda dynn_da_Lezze dynn_da_Molin dynn_da_Mostoe dynn_da_Muela dynn_da_Ponte dynn_da_Pozzoe dynn_Grimany dynn_Orswol dynn_Stenoe dynn_Storlad dynn_Tallyapetra dynn_Typoll  dynn_Tirabosck dynn_Tradomeneg dynn_Trasontin dynn_Tribun dynn_Trevisan dynn_Tron dynn_Tuvian dynn_Valaress dynn_Vendramin dynn_Venier dynn_Verzin dynn_Viar dynn_Vingona dynn_Viscard dynn_Zamblott dynn_Zanchan dynn_Zanott
+		}
+
+		male_names = {
+			40 = {
+				vnteng_Ayler vnteng_Ette vnteng_Aver vnteng_Butick vnteng_Deole vnteng_Ebe vnteng_Enne vnteng_Gaye vnteng_Foe vnteng_Fug vnteng_Futt vnteng_Chestick vnteng_Kell vnteng_Cogg vnteng_Coat vnteng_Lewch vnteng_Melling vnteng_Mets vnteng_Oapp vnteng_Osten vnteng_Oast vnteng_Ostir vnteng_Quert vnteng_Suer vnteng_Tidam vnteng_Ture vnteng_Turion vnteng_Weam vnteng_Kedric vnteng_Laffs vnteng_Padder vnteng_Pledow vnteng_Werkwel vnteng_Avyer vnteng_Acute vnteng_Ary vnteng_Edgest vnteng_Ennon vnteng_Enog vnteng_Encleve vnteng_Font vnteng_Fugant vnteng_Fremes vnteng_Fugey vnteng_Greak vnteng_Hostaff vnteng_Cant vnteng_Carman vnteng_Chiton vnteng_Quait vnteng_Lemater vnteng_Lemett vnteng_Lees vnteng_Molde vnteng_Molden vnteng_Moll vnteng_Mollot vnteng_Molton vnteng_Nagle vnteng_Pillpot vnteng_Plede vnteng_Pupin vnteng_Rew vnteng_Syke vnteng_Tival vnteng_Uke vnteng_Wassen vnteng_Wyse vnteng_Woltig vnteng_Woltin vnteng_Wolton vnteng_Wott
+			}
+            25 = {  #Anglic Christian names
+                Andrew Benedict Christian Christopher Clement Constantine David Eustace George Gregory Jacob John Jordan Joseph Marcus Matthew Nicholas Patrick Paul Peter Samuel Simon Stephen Thomas Abraham Alexander Daniel Joshua Luke
+            }
+            25 = {  #Anglicised noble venetian names
+                Agustin Alexander Andrea Antony Alvise vnteng_Anzol vnteng_Aurely vnteng_Austin vnteng_Baldisser vnteng_Bortolamy Bastian vnteng_Cristofal vnteng_Domeneg vnteng_Enrig vnteng_Franchescko vnteng_Fazin Gaspar vnteng_Jacom Lorenz Marc Marin vnteng_Mickiel vnteng_Orsoe vnteng_Pier vnteng_Tribun vnteng_Vidal vnteng_Ventur Vivian vnteng_Zuan 
+            }
+		}
+
+		female_names = {
+			40 = {
+				vnteng_Fow vnteng_Wrote vnteng_Ichewonne vnteng_Levine vnteng_Less vnteng_Usdike vnteng_f_Wenne vnteng_Iwant vnteng_Ostle vnteng_f_Acute vnteng_Andene vnteng_Apee vnteng_Atte vnteng_Beale vnteng_Bucke vnteng_Effie vnteng_Egsten vnteng_Egator vnteng_f_Fugant vnteng_Frem vnteng_Fremen vnteng_Fruton vnteng_Fugie vnteng_Fugin vnteng_Iwanten vnteng_Itury vnteng_f_Cant vnteng_Lemetone vnteng_Lossie vnteng_Makin vnteng_f_Molden vnteng_Mushell vnteng_Must vnteng_Nerk vnteng_Ruman vnteng_Seakin vnteng_Sowen vnteng_Turkin vnteng_Urkleen vnteng_Woltone vnteng_Wotin vnteng_Fugonton vnteng_Catakin
+			}
+            25 = {  #Anglic Christian names
+                Beatrice Benedicta Brigid Catherine Cecilia Christina Clementia Constance Dorothy Elisabeth Joan Judith Juliana Helen Marine Patricia Rachel Sarah Sophia Stephania
+            }
+            25 = {  #Anglicised noble venetian names
+                Agnese vnteng_Alba Alessandra Angela Anna vnteng_Anzola Barbara vnteng_Bella Bianca Camilla Caterina Chiara Clara Cristina vnteng_Daniela Diana vnteng_Dionora Elena Emilia Eugenia Felicita Filomena vnteng_Gabriella Giulia Isabella vnteng_Iseppa Julia Laura Lavinia vnteng_Leandra Lucia Madalena Marcella Maria vnteng_Menega vnteng_Olivia vnteng_Orseta vnteng_Orsolina Philippa vnteng_Polonia Regina Rosa Sabina Simona Stella Susanna Valeria Veronica Virginia Vittoria vnteng_Zanetta vnteng_Zuanna
+            }
+		}
+	dynasty_of_location_prefix = "dynnp_dy"
+
+	patronym_suffix_male = "dynnpat_suf_fil_wnt"
+	patronym_suffix_female = "dynnpat_suf_fily_wnt"				
+
+}
+
+
+name_list_wyntish = {
+		cadet_dynasty_names = {
+	        dynn_vnteng_Albarn dynn_vnteng_Andow dynn_vnteng_Andett dynn_vnteng_Andek dynn_vnteng_Askell dynn_vnteng_Beadon dynn_vnteng_Boy dynn_vnteng_Boykin dynn_vnteng_Egeston dynn_vnteng_Ean dynn_vnteng_Ennon dynn_vnteng_Enopett dynn_vnteng_Ersin dynn_vnteng_Iwant dynn_vnteng_Carman dynn_vnteng_Catus dynn_vnteng_Cole dynn_vnteng_Cuprick dynn_vnteng_Otney dynn_vnteng_Rybeton dynn_vnteng_Seach dynn_vnteng_Segt dynn_vnteng_Twyll dynn_vnteng_Tupp dynn_vnteng_Trost dynn_vnteng_Wupside dynn_vnteng_Urkle dynn_vnteng_Wantcane dynn_vnteng_Weston dynn_vnteng_Woltigan dynn_vnteng_Walton dynn_vnteng_Wott { "dynnp_dy" "dynn_vnteng_dyDifeslyck" } { "dynnp_dy" "dynn_vnteng_dyTetrech" } { "dynnp_dy" "dynn_vnteng_dyRechkef" } { "dynnp_dy" "dynn_vnteng_dyTetlyck" } { "dynnp_dy" "dynn_vnteng_dyWeltylin" } { "dynnp_dy" "dynn_vnteng_dyEperdgin" } { "dynnp_dy" "dynn_vnteng_dyCenerde" } { "dynnp_dy" "dynn_vnteng_dyWicktin" }
+		}
+
+		dynasty_names = {
+	        dynn_vnteng_Albarn dynn_vnteng_Andow dynn_vnteng_Andett dynn_vnteng_Andek dynn_vnteng_Askell dynn_vnteng_Beadon dynn_vnteng_Boy dynn_vnteng_Boykin dynn_vnteng_Egeston dynn_vnteng_Ean dynn_vnteng_Ennon dynn_vnteng_Enopett dynn_vnteng_Ersin dynn_vnteng_Iwant dynn_vnteng_Carman dynn_vnteng_Catus dynn_vnteng_Cole dynn_vnteng_Cuprick dynn_vnteng_Otney dynn_vnteng_Rybeton dynn_vnteng_Seach dynn_vnteng_Segt dynn_vnteng_Twyll dynn_vnteng_Tupp dynn_vnteng_Trost dynn_vnteng_Wupside dynn_vnteng_Urkle dynn_vnteng_Wantcane dynn_vnteng_Weston dynn_vnteng_Woltigan dynn_vnteng_Walton dynn_vnteng_Wott { "dynnp_dy" "dynn_vnteng_dyDifeslyck" } { "dynnp_dy" "dynn_vnteng_dyTetrech" } { "dynnp_dy" "dynn_vnteng_dyRechkef" } { "dynnp_dy" "dynn_vnteng_dyTetlyck" } { "dynnp_dy" "dynn_vnteng_dyWeltylin" } { "dynnp_dy" "dynn_vnteng_dyEperdgin" } { "dynnp_dy" "dynn_vnteng_dyCenerde" } { "dynnp_dy" "dynn_vnteng_dyWicktin" }
+		}
+
+		male_names = {
+			vnteng_Ayler vnteng_Ette vnteng_Aver vnteng_Butick vnteng_Deole vnteng_Ebe vnteng_Enne vnteng_Gaye vnteng_Foe vnteng_Fug vnteng_Futt vnteng_Chestick vnteng_Kell vnteng_Cogg vnteng_Coat vnteng_Lewch vnteng_Melling vnteng_Mets vnteng_Oapp vnteng_Osten vnteng_Oast vnteng_Ostir vnteng_Quert vnteng_Suer vnteng_Tidam vnteng_Ture vnteng_Turion vnteng_Weam vnteng_Kedric vnteng_Laffs vnteng_Padder vnteng_Pledow vnteng_Werkwel vnteng_Avyer vnteng_Acute vnteng_Ary vnteng_Edgest vnteng_Ennon vnteng_Enog vnteng_Encleve vnteng_Font vnteng_Fugant vnteng_Fremes vnteng_Fugey vnteng_Greak vnteng_Hostaff vnteng_Cant vnteng_Carman vnteng_Chiton vnteng_Quait vnteng_Lemater vnteng_Lemett vnteng_Lees vnteng_Molde vnteng_Molden vnteng_Moll vnteng_Mollot vnteng_Molton vnteng_Nagle vnteng_Pillpot vnteng_Plede vnteng_Pupin vnteng_Rew vnteng_Syke vnteng_Tival vnteng_Uke vnteng_Wassen vnteng_Wyse vnteng_Woltig vnteng_Woltin vnteng_Wolton vnteng_Wott
+		}
+
+		female_names = {
+			vnteng_Fow vnteng_Wrote vnteng_Ichewonne vnteng_Levine vnteng_Less vnteng_Usdike vnteng_f_Wenne vnteng_Iwant vnteng_Ostle vnteng_f_Acute vnteng_Andene vnteng_Apee vnteng_Atte vnteng_Beale vnteng_Bucke vnteng_Effie vnteng_Egsten vnteng_Egator vnteng_f_Fugant vnteng_Frem vnteng_Fremen vnteng_Fruton vnteng_Fugie vnteng_Fugin vnteng_Iwanten vnteng_Itury vnteng_f_Cant vnteng_Lemetone vnteng_Lossie vnteng_Makin vnteng_f_Molden vnteng_Mushell vnteng_Must vnteng_Nerk vnteng_Ruman vnteng_Seakin vnteng_Sowen vnteng_Turkin vnteng_Urkleen vnteng_Woltone vnteng_Wotin vnteng_Fugonton vnteng_Catakin
+		}
+
+	dynasty_of_location_prefix = "dynnp_dy"
+
+	patronym_suffix_male = "dynnpat_suf_s"
+	patronym_suffix_female = "dynnpat_suf_s"			
+
+}
+
+name_list_wyntish_biblical = {
+		cadet_dynasty_names = {
+	        dynn_vnteng_Albarn dynn_vnteng_Andow dynn_vnteng_Andett dynn_vnteng_Andek dynn_vnteng_Askell dynn_vnteng_Beadon dynn_vnteng_Boy dynn_vnteng_Boykin dynn_vnteng_Egeston dynn_vnteng_Ean dynn_vnteng_Ennon dynn_vnteng_Enopett dynn_vnteng_Ersin dynn_vnteng_Iwant dynn_vnteng_Carman dynn_vnteng_Catus dynn_vnteng_Cole dynn_vnteng_Cuprick dynn_vnteng_Otney dynn_vnteng_Rybeton dynn_vnteng_Seach dynn_vnteng_Segt dynn_vnteng_Twyll dynn_vnteng_Tupp dynn_vnteng_Trost dynn_vnteng_Wupside dynn_vnteng_Urkle dynn_vnteng_Wantcane dynn_vnteng_Weston dynn_vnteng_Woltigan dynn_vnteng_Walton dynn_vnteng_Wott { "dynnp_dy" "dynn_vnteng_dyDifeslyck" } { "dynnp_dy" "dynn_vnteng_dyTetrech" } { "dynnp_dy" "dynn_vnteng_dyRechkef" } { "dynnp_dy" "dynn_vnteng_dyTetlyck" } { "dynnp_dy" "dynn_vnteng_dyWeltylin" } { "dynnp_dy" "dynn_vnteng_dyEperdgin" } { "dynnp_dy" "dynn_vnteng_dyCenerde" } { "dynnp_dy" "dynn_vnteng_dyWicktin" }
+		}
+
+		dynasty_names = {
+	        dynn_vnteng_Albarn dynn_vnteng_Andow dynn_vnteng_Andett dynn_vnteng_Andek dynn_vnteng_Askell dynn_vnteng_Beadon dynn_vnteng_Boy dynn_vnteng_Boykin dynn_vnteng_Egeston dynn_vnteng_Ean dynn_vnteng_Ennon dynn_vnteng_Enopett dynn_vnteng_Ersin dynn_vnteng_Iwant dynn_vnteng_Carman dynn_vnteng_Catus dynn_vnteng_Cole dynn_vnteng_Cuprick dynn_vnteng_Otney dynn_vnteng_Rybeton dynn_vnteng_Seach dynn_vnteng_Segt dynn_vnteng_Twyll dynn_vnteng_Tupp dynn_vnteng_Trost dynn_vnteng_Wupside dynn_vnteng_Urkle dynn_vnteng_Wantcane dynn_vnteng_Weston dynn_vnteng_Woltigan dynn_vnteng_Walton dynn_vnteng_Wott { "dynnp_dy" "dynn_vnteng_dyDifeslyck" } { "dynnp_dy" "dynn_vnteng_dyTetrech" } { "dynnp_dy" "dynn_vnteng_dyRechkef" } { "dynnp_dy" "dynn_vnteng_dyTetlyck" } { "dynnp_dy" "dynn_vnteng_dyWeltylin" } { "dynnp_dy" "dynn_vnteng_dyEperdgin" } { "dynnp_dy" "dynn_vnteng_dyCenerde" } { "dynnp_dy" "dynn_vnteng_dyWicktin" }
+		}
+
+		male_names = {
+			60 = {
+				vnteng_Ayler vnteng_Ette vnteng_Aver vnteng_Butick vnteng_Deole vnteng_Ebe vnteng_Enne vnteng_Gaye vnteng_Foe vnteng_Fug vnteng_Futt vnteng_Chestick vnteng_Kell vnteng_Cogg vnteng_Coat vnteng_Lewch vnteng_Melling vnteng_Mets vnteng_Oapp vnteng_Osten vnteng_Oast vnteng_Ostir vnteng_Quert vnteng_Suer vnteng_Tidam vnteng_Ture vnteng_Turion vnteng_Weam vnteng_Kedric vnteng_Laffs vnteng_Padder vnteng_Pledow vnteng_Werkwel vnteng_Avyer vnteng_Acute vnteng_Ary vnteng_Edgest vnteng_Ennon vnteng_Enog vnteng_Encleve vnteng_Font vnteng_Fugant vnteng_Fremes vnteng_Fugey vnteng_Greak vnteng_Hostaff vnteng_Cant vnteng_Carman vnteng_Chiton vnteng_Quait vnteng_Lemater vnteng_Lemett vnteng_Lees vnteng_Molde vnteng_Molden vnteng_Moll vnteng_Mollot vnteng_Molton vnteng_Nagle vnteng_Pillpot vnteng_Plede vnteng_Pupin vnteng_Rew vnteng_Syke vnteng_Tival vnteng_Uke vnteng_Wassen vnteng_Wyse vnteng_Woltig vnteng_Woltin vnteng_Wolton vnteng_Wott
+			}
+            40 = {  #Anglic Christian names
+                Andrew Benedict Christian Christopher Clement Constantine David Eustace George Gregory Jacob John Jordan Joseph Marcus Matthew Nicholas Patrick Paul Peter Samuel Simon Stephen Thomas Abraham Alexander Daniel Joshua Luke
+            }
+		}
+
+		female_names = {
+			60 = {
+				vnteng_Fow vnteng_Wrote vnteng_Ichewonne vnteng_Levine vnteng_Less vnteng_Usdike vnteng_f_Wenne vnteng_Iwant vnteng_Ostle vnteng_f_Acute vnteng_Andene vnteng_Apee vnteng_Atte vnteng_Beale vnteng_Bucke vnteng_Effie vnteng_Egsten vnteng_Egator vnteng_f_Fugant vnteng_Frem vnteng_Fremen vnteng_Fruton vnteng_Fugie vnteng_Fugin vnteng_Iwanten vnteng_Itury vnteng_f_Cant vnteng_Lemetone vnteng_Lossie vnteng_Makin vnteng_f_Molden vnteng_Mushell vnteng_Must vnteng_Nerk vnteng_Ruman vnteng_Seakin vnteng_Sowen vnteng_Turkin vnteng_Urkleen vnteng_Woltone vnteng_Wotin vnteng_Fugonton vnteng_Catakin
+			}
+            40 = {  #Anglic Christian names
+                Beatrice Benedicta Brigid Catherine Cecilia Christina Clementia Constance Dorothy Elisabeth Joan Judith Juliana Helen Marine Patricia Rachel Sarah Sophia Stephania
+            }
+		}
+	dynasty_of_location_prefix = "dynnp_dy"
+
+	patronym_suffix_male = "dynnpat_suf_s"
+	patronym_suffix_female = "dynnpat_suf_s"			
+
+}

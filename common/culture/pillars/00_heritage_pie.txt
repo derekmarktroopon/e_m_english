@@ -1,0 +1,20 @@
+﻿
+heritage_pie = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_pie
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_indo_germanic = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_indo_germanic
+		}
+	}
+	audio_parameter = indian
+}

@@ -1,0 +1,660 @@
+﻿venetic_briton_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			OR = {
+				AND = {
+					any_sub_realm_county = {
+						OR = {
+							any_this_title_or_de_jure_above = { this = title:d_canterbury }
+							any_this_title_or_de_jure_above = { this = title:d_bedford }
+							any_this_title_or_de_jure_above = { this = title:d_norfolk }
+							any_this_title_or_de_jure_above = { this = title:d_somerset }
+							any_this_title_or_de_jure_above = { this = title:d_cornwall }
+							any_this_title_or_de_jure_above = { this = title:d_gloucester }
+							any_this_title_or_de_jure_above = { this = title:d_hereford }
+							any_this_title_or_de_jure_above = { this = title:d_york }
+							any_this_title_or_de_jure_above = { this = title:d_lancaster }
+							any_this_title_or_de_jure_above = { this = title:d_northumberland }
+							any_this_title_or_de_jure_above = { this = title:d_galloway }
+							any_this_title_or_de_jure_above = { this = title:d_deheubarth }
+							any_this_title_or_de_jure_above = { this = title:d_powys }
+							any_this_title_or_de_jure_above = { this = title:d_gwynedd }
+						}
+					}
+					current_date <= 450
+				}
+				AND = {
+					any_sub_realm_county = {
+						OR = {
+							any_this_title_or_de_jure_above = { this = title:d_canterbury }
+							any_this_title_or_de_jure_above = { this = title:d_bedford }
+							any_this_title_or_de_jure_above = { this = title:d_norfolk }
+							any_this_title_or_de_jure_above = { this = title:d_somerset }
+							any_this_title_or_de_jure_above = { this = title:d_cornwall }
+							any_this_title_or_de_jure_above = { this = title:d_gloucester }
+							any_this_title_or_de_jure_above = { this = title:d_hereford }
+							any_this_title_or_de_jure_above = { this = title:d_york }
+							any_this_title_or_de_jure_above = { this = title:d_lancaster }
+							any_this_title_or_de_jure_above = { this = title:d_northumberland }
+							any_this_title_or_de_jure_above = { this = title:d_galloway }
+							any_this_title_or_de_jure_above = { this = title:d_deheubarth }
+							any_this_title_or_de_jure_above = { this = title:d_powys }
+							any_this_title_or_de_jure_above = { this = title:d_gwynedd }
+							any_this_title_or_de_jure_above = { this = title:d_lothian }
+							any_this_title_or_de_jure_above = { this = title:d_albany }
+							any_this_title_or_de_jure_above = { this = title:d_moray }
+							any_this_title_or_de_jure_above = { this = title:d_western_isles }
+						}
+					}
+					current_date <= 150
+				}
+			}
+		}
+	}
+ 
+	coa_gfx = { scottish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx } 
+
+	name_list = name_list_venetic_briton
+
+	#ai_will_do = {
+	#	value = 10
+	#	if = {
+	#		NOT = {
+	#			scope:character = { has_trait = stubborn }
+	#		}
+	#		multiply = 5
+	#	}
+	#}
+
+}
+
+venetic_pictish_aesthetic = {
+	is_shown = {
+		current_date > 150
+		scope:character = {
+			culture = {
+				OR = {
+					has_name_list = name_list_venetic_culture
+					has_name_list = name_list_venetic_briton
+				}
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			OR = {
+				AND = {
+					any_sub_realm_county = {
+						any_this_title_or_de_jure_above = { this = title:d_western_isles }
+					}
+					has_name_list = name_list_venetic_briton
+				}
+				AND = {
+					any_sub_realm_county = {
+						OR = {
+							any_this_title_or_de_jure_above = { this = title:d_albany }
+							any_this_title_or_de_jure_above = { this = title:d_moray }
+							any_this_title_or_de_jure_above = { this = title:d_the_isles }
+						}
+					}
+				}
+			}
+		}
+	}
+ 
+	coa_gfx = { scottish_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { northern_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 
+
+	name_list = name_list_venetic_pictish
+}
+
+venetic_pictish_biblical_aesthetic = {
+	is_shown = {
+		current_date > 150
+		scope:character = {
+			culture = {
+				OR = {
+					has_name_list = name_list_venetic_culture
+					has_name_list = name_list_venetic_briton
+				}
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			OR = {
+				AND = {
+					any_sub_realm_county = {
+						any_this_title_or_de_jure_above = { this = title:d_western_isles }
+					}
+					has_name_list = name_list_venetic_briton
+				}
+				AND = {
+					any_sub_realm_county = {
+						OR = {
+							any_this_title_or_de_jure_above = { this = title:d_albany }
+							any_this_title_or_de_jure_above = { this = title:d_moray }
+							any_this_title_or_de_jure_above = { this = title:d_the_isles }
+						}
+					}
+				}
+			}
+		}
+	}
+ 
+	coa_gfx = { scottish_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { northern_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 
+
+	name_list = name_list_venetic_pictish_biblical
+
+}
+
+venetic_gaelic_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			OR = {
+				AND = {
+					any_sub_realm_county = {
+						any_this_title_or_de_jure_above = { this = title:d_western_isles }
+					}
+					current_date > 150
+				}
+				any_sub_realm_county = {
+					OR = {
+						any_this_title_or_de_jure_above = { this = title:d_munster }
+						any_this_title_or_de_jure_above = { this = title:d_leinster }
+						any_this_title_or_de_jure_above = { this = title:d_meath }
+						any_this_title_or_de_jure_above = { this = title:d_connacht }
+						any_this_title_or_de_jure_above = { this = title:d_ulster }
+					}
+				}
+			}
+		}
+	}
+ 
+	coa_gfx = { scottish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	name_list = name_list_venetic_gaelic
+
+}
+
+venetic_gaelic_biblical_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			OR = {
+				AND = {
+					any_sub_realm_county = {
+						any_this_title_or_de_jure_above = { this = title:d_western_isles }
+					}
+					current_date > 150
+				}
+				any_sub_realm_county = {
+					OR = {
+						any_this_title_or_de_jure_above = { this = title:d_munster }
+						any_this_title_or_de_jure_above = { this = title:d_leinster }
+						any_this_title_or_de_jure_above = { this = title:d_meath }
+						any_this_title_or_de_jure_above = { this = title:d_connacht }
+						any_this_title_or_de_jure_above = { this = title:d_ulster }
+					}
+				}
+			}
+		}
+	}
+ 
+	coa_gfx = { scottish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	name_list = name_list_venetic_gaelic_biblical
+
+}
+
+venetic_welsh_aesthetic = {
+	is_shown = {
+		current_date > 450
+		scope:character = {
+			culture = {
+				OR = {
+					has_name_list = name_list_venetic_culture
+					has_name_list = name_list_venetic_briton
+				}
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			NOR = {
+				any_sub_realm_county = {
+					any_this_title_or_de_jure_above = { this = title:k_england }
+				}
+				any_sub_realm_county = {
+					scope:county.culture = { has_cultural_pillar = heritage_west_germanic } 
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_canterbury }
+					any_this_title_or_de_jure_above = { this = title:d_bedford }
+					any_this_title_or_de_jure_above = { this = title:d_norfolk }
+					any_this_title_or_de_jure_above = { this = title:d_somerset }
+					any_this_title_or_de_jure_above = { this = title:d_cornwall }
+					any_this_title_or_de_jure_above = { this = title:d_gloucester }
+					any_this_title_or_de_jure_above = { this = title:d_hereford }
+					any_this_title_or_de_jure_above = { this = title:d_york }
+					any_this_title_or_de_jure_above = { this = title:d_lancaster }
+					any_this_title_or_de_jure_above = { this = title:d_northumberland }
+					any_this_title_or_de_jure_above = { this = title:d_galloway }
+					any_this_title_or_de_jure_above = { this = title:d_deheubarth }
+					any_this_title_or_de_jure_above = { this = title:d_powys }
+					any_this_title_or_de_jure_above = { this = title:d_gwynedd }
+				}
+			}
+		}
+	}
+ 
+	coa_gfx = { welsh_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx } 
+
+	name_list = name_list_venetic_welsh
+
+}
+
+venetic_welsh_biblical_aesthetic = {
+	is_shown = {
+		current_date > 450
+		scope:character = {
+			culture = {
+				OR = {
+					has_name_list = name_list_venetic_culture
+					has_name_list = name_list_venetic_briton
+				}
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			NOR = {
+				any_sub_realm_county = {
+					any_this_title_or_de_jure_above = { this = title:k_england }
+				}
+				any_sub_realm_county = {
+					scope:county.culture = { has_cultural_pillar = heritage_west_germanic } 
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_canterbury }
+					any_this_title_or_de_jure_above = { this = title:d_bedford }
+					any_this_title_or_de_jure_above = { this = title:d_norfolk }
+					any_this_title_or_de_jure_above = { this = title:d_somerset }
+					any_this_title_or_de_jure_above = { this = title:d_cornwall }
+					any_this_title_or_de_jure_above = { this = title:d_gloucester }
+					any_this_title_or_de_jure_above = { this = title:d_hereford }
+					any_this_title_or_de_jure_above = { this = title:d_york }
+					any_this_title_or_de_jure_above = { this = title:d_lancaster }
+					any_this_title_or_de_jure_above = { this = title:d_northumberland }
+					any_this_title_or_de_jure_above = { this = title:d_galloway }
+					any_this_title_or_de_jure_above = { this = title:d_deheubarth }
+					any_this_title_or_de_jure_above = { this = title:d_powys }
+					any_this_title_or_de_jure_above = { this = title:d_gwynedd }
+				}
+			}
+		}
+	}
+ 
+	coa_gfx = { welsh_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx } 
+
+	name_list = name_list_venetic_welsh_biblical
+
+}
+
+venetic_anglo_saxon_aesthetic = {
+	is_shown = {
+		current_date > 250
+		current_date < 1050
+		scope:character = {
+			OR = {
+				culture = {
+					OR = {
+						has_name_list = name_list_venetic_culture
+						has_name_list = name_list_winitken_pg
+					}
+				}
+				AND = {
+					culture = {
+						has_name_list = name_list_venetic_frisian
+					}
+					current_date < 600
+				}
+			}
+			OR = {
+				any_sub_realm_county = {
+					any_this_title_or_de_jure_above = { this = title:k_england }
+				}
+				any_sub_realm_county = {
+					scope:county.culture = { has_cultural_pillar = heritage_west_germanic } 
+				}
+				AND = {
+					culture = { has_name_list = name_list_venetic_frisian } 
+					current_date < 600
+				}
+				AND = {
+					culture = { has_name_list = name_list_winitken_pg } 
+					current_date < 600
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_canterbury }
+					any_this_title_or_de_jure_above = { this = title:d_bedford }
+					any_this_title_or_de_jure_above = { this = title:d_norfolk }
+					any_this_title_or_de_jure_above = { this = title:d_somerset }
+					any_this_title_or_de_jure_above = { this = title:d_cornwall }
+					any_this_title_or_de_jure_above = { this = title:d_gloucester }
+					any_this_title_or_de_jure_above = { this = title:d_hereford }
+					any_this_title_or_de_jure_above = { this = title:d_york }
+					any_this_title_or_de_jure_above = { this = title:d_lancaster }
+					any_this_title_or_de_jure_above = { this = title:d_northumberland }
+					any_this_title_or_de_jure_above = { this = title:d_galloway }
+					any_this_title_or_de_jure_above = { this = title:d_deheubarth }
+					any_this_title_or_de_jure_above = { this = title:d_powys }
+					any_this_title_or_de_jure_above = { this = title:d_gwynedd }
+				}
+			}
+		}
+	}
+ 
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { northern_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+	name_list = name_list_wintcin
+
+}
+
+venetic_early_middle_english_aesthetic = {
+	is_shown = {
+		current_date >= 1050
+		current_date < 1250
+		scope:character = {
+			culture = {
+				has_name_list = name_list_wintcin
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_canterbury }
+					any_this_title_or_de_jure_above = { this = title:d_bedford }
+					any_this_title_or_de_jure_above = { this = title:d_norfolk }
+					any_this_title_or_de_jure_above = { this = title:d_somerset }
+					any_this_title_or_de_jure_above = { this = title:d_cornwall }
+					any_this_title_or_de_jure_above = { this = title:d_gloucester }
+					any_this_title_or_de_jure_above = { this = title:d_hereford }
+					any_this_title_or_de_jure_above = { this = title:d_york }
+					any_this_title_or_de_jure_above = { this = title:d_lancaster }
+					any_this_title_or_de_jure_above = { this = title:d_northumberland }
+					any_this_title_or_de_jure_above = { this = title:d_galloway }
+					any_this_title_or_de_jure_above = { this = title:d_deheubarth }
+					any_this_title_or_de_jure_above = { this = title:d_powys }
+					any_this_title_or_de_jure_above = { this = title:d_gwynedd }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { english_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	name_list = name_list_wintissh
+
+}
+
+venetic_early_middle_english_biblical_aesthetic = {
+	is_shown = {
+		current_date >= 1050
+		current_date < 1250
+		scope:character = {
+			culture = {
+				has_name_list = name_list_wintcin
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_canterbury }
+					any_this_title_or_de_jure_above = { this = title:d_bedford }
+					any_this_title_or_de_jure_above = { this = title:d_norfolk }
+					any_this_title_or_de_jure_above = { this = title:d_somerset }
+					any_this_title_or_de_jure_above = { this = title:d_cornwall }
+					any_this_title_or_de_jure_above = { this = title:d_gloucester }
+					any_this_title_or_de_jure_above = { this = title:d_hereford }
+					any_this_title_or_de_jure_above = { this = title:d_york }
+					any_this_title_or_de_jure_above = { this = title:d_lancaster }
+					any_this_title_or_de_jure_above = { this = title:d_northumberland }
+					any_this_title_or_de_jure_above = { this = title:d_galloway }
+					any_this_title_or_de_jure_above = { this = title:d_deheubarth }
+					any_this_title_or_de_jure_above = { this = title:d_powys }
+					any_this_title_or_de_jure_above = { this = title:d_gwynedd }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { english_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	name_list = name_list_wintissh_biblical
+
+}
+
+venetic_english_aesthetic = {
+	is_shown = {
+		current_date >= 1250
+		scope:character = {
+			culture = {
+				OR = {
+					has_name_list = name_list_wintcin
+					has_name_list = name_list_wintissh
+				}
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_canterbury }
+					any_this_title_or_de_jure_above = { this = title:d_bedford }
+					any_this_title_or_de_jure_above = { this = title:d_norfolk }
+					any_this_title_or_de_jure_above = { this = title:d_somerset }
+					any_this_title_or_de_jure_above = { this = title:d_cornwall }
+					any_this_title_or_de_jure_above = { this = title:d_gloucester }
+					any_this_title_or_de_jure_above = { this = title:d_hereford }
+					any_this_title_or_de_jure_above = { this = title:d_york }
+					any_this_title_or_de_jure_above = { this = title:d_lancaster }
+					any_this_title_or_de_jure_above = { this = title:d_northumberland }
+					any_this_title_or_de_jure_above = { this = title:d_galloway }
+					any_this_title_or_de_jure_above = { this = title:d_deheubarth }
+					any_this_title_or_de_jure_above = { this = title:d_powys }
+					any_this_title_or_de_jure_above = { this = title:d_gwynedd }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { english_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	name_list = name_list_wyntish
+
+}
+
+venetic_english_biblical_aesthetic = {
+	is_shown = {
+		current_date >= 1250
+		scope:character = {
+			OR = {
+				AND = {
+					culture = {
+						OR = {
+							has_name_list = name_list_wintcin
+							has_name_list = name_list_wintissh
+						}
+					}
+					religion = {
+						is_in_family = rf_abrahamic
+					}
+				}
+				culture = {
+					has_name_list = name_list_wintissh_biblical
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_canterbury }
+					any_this_title_or_de_jure_above = { this = title:d_bedford }
+					any_this_title_or_de_jure_above = { this = title:d_norfolk }
+					any_this_title_or_de_jure_above = { this = title:d_somerset }
+					any_this_title_or_de_jure_above = { this = title:d_cornwall }
+					any_this_title_or_de_jure_above = { this = title:d_gloucester }
+					any_this_title_or_de_jure_above = { this = title:d_hereford }
+					any_this_title_or_de_jure_above = { this = title:d_york }
+					any_this_title_or_de_jure_above = { this = title:d_lancaster }
+					any_this_title_or_de_jure_above = { this = title:d_northumberland }
+					any_this_title_or_de_jure_above = { this = title:d_galloway }
+					any_this_title_or_de_jure_above = { this = title:d_deheubarth }
+					any_this_title_or_de_jure_above = { this = title:d_powys }
+					any_this_title_or_de_jure_above = { this = title:d_gwynedd }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { english_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	name_list = name_list_wyntish
+
+}
+
+#venetic_english_venetian_aesthetic = {
+#	is_shown = {
+#		current_date >= 1250
+#		scope:character = {
+#			culture = {
+#				OR = {
+#					has_name_list = name_list_wintcin
+#					has_name_list = name_list_wintissh
+#				}
+#			}
+#			OR = {
+#				AND = {
+#					any_sub_realm_county = {
+#						any_this_title_or_de_jure_above = {
+#							any_de_jure_top_liege = {
+#								OR = {
+#									has_culture = culture:venetian
+#									has_culture = {
+#										has_name_list = name_list_venetian
+#									}
+#								}
+#							}
+#						}
+#					}
+#					any_sub_realm_county = {
+#						culture = { has_name_list = name_list_venetian }
+#					}
+#					any_sub_realm_county = {
+#						OR = {
+#							any_this_title_or_de_jure_above = { this = title:d_canterbury }
+#							any_this_title_or_de_jure_above = { this = title:d_bedford }
+#							any_this_title_or_de_jure_above = { this = title:d_norfolk }
+#							any_this_title_or_de_jure_above = { this = title:d_somerset }
+#							any_this_title_or_de_jure_above = { this = title:d_cornwall }
+#							any_this_title_or_de_jure_above = { this = title:d_gloucester }
+#							any_this_title_or_de_jure_above = { this = title:d_hereford }
+#							any_this_title_or_de_jure_above = { this = title:d_york }
+#							any_this_title_or_de_jure_above = { this = title:d_lancaster }
+#							any_this_title_or_de_jure_above = { this = title:d_northumberland }
+#							any_this_title_or_de_jure_above = { this = title:d_galloway }
+#							any_this_title_or_de_jure_above = { this = title:d_deheubarth }
+#							any_this_title_or_de_jure_above = { this = title:d_powys }
+#							any_this_title_or_de_jure_above = { this = title:d_gwynedd }
+#						}
+#					}
+#				}
+#				AND = {
+#					any_sub_realm_county = {
+#						OR = {
+#							any_this_title_or_de_jure_above = { this = title:d_venice }
+#							any_this_title_or_de_jure_above = { this = title:d_friuli }
+#							any_this_title_or_de_jure_above = { this = title:d_verona }
+#							any_this_title_or_de_jure_above = { this = title:d_istria }
+#						}
+#					}
+#					religion = {
+#						is_in_family = rf_abrahamic
+#					}
+#				}
+#			}
+#		}
+#	}
+#
+#	coa_gfx = { english_coa_gfx western_coa_gfx }
+#	building_gfx = { mediterranean_building_gfx }
+#	clothing_gfx = { western_clothing_gfx }
+#	unit_gfx = { western_unit_gfx }
+#
+#	name_list = name_list_wyntish_venetians
+#}

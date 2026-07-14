@@ -1,0 +1,10 @@
+﻿l_english:
+ trait_true_camunian:0 "True Camunian"
+ trait_true_camunian_character_desc:0 "Coursing through the veins of [ROOT.GetCharacter.GetFirstNameNoTooltip] is the Blood of a True Camunian."
+ trait_true_camunian_desc:0 "Coursing through the veins of this character is the Blood of a True Camunian"
+ trait_rose_chosen:0 "Rose Chosen"
+ trait_rose_chosen_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been chosen by the Rosa Camuna to lead the Camunian people"
+ trait_rose_chosen_desc:0 "This character has been chosen by the Rosa Camuna to lead the Camunian people"
+ trait_rose_chosen_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been chosen by the Rosa Camuna to lead the Camunic faith"
+ trait_rose_chosen_2_desc:0 "This character has been chosen by the Rosa Camuna to lead the Camunic faith"
+ trait_rose_chosen_2:0 "Rose Chosen"

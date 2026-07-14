@@ -1,0 +1,160 @@
+﻿	
+predynastic_egyptian = {
+	color = rgb { 222 220 89 }
+	
+	name_list = name_list_predynastic_egyptian
+	heritage = heritage_egyptian
+	language = language_egyptian
+	martial_custom = martial_custom_equal # Questionable, women in Egyptian court had equal status to men, but they were granted that status *by* men
+	head_determination = head_determination_domain
+
+	ethos = ethos_bureaucratic
+	
+	traditions = {
+		tradition_hard_working 
+		tradition_zealous_people
+		tradition_land_of_the_bow
+	}
+
+	ethnicities = {
+		10 = arab
+		1 = east_african
+	}
+
+	coa_gfx = { berber_group_coa_gfx  }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	#clothing_gfx = { african_clothing_gfx }
+	clothing_gfx = { kemetic_clothing_gfx papuan_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+}
+
+middle_egyptian = {
+	parents = { predynastic_egyptian }
+	created =  -1550.1.1 
+	color = rgb { 252 186 3 }
+	
+	name_list = name_list_kemetic
+	heritage = heritage_egyptian
+	language = language_egyptian
+	martial_custom = martial_custom_equal # Questionable, women in Egyptian court had equal status to men, but they were granted that status *by* men
+	head_determination = head_determination_domain
+
+	ethos = ethos_bureaucratic
+	
+	traditions = {
+		tradition_pyramid_builders
+		tradition_hard_working 
+        tradition_agrarian
+		tradition_zealous_people
+		tradition_land_of_the_bow
+	}
+
+	ethnicities = {
+		10 = arab
+		1 = east_african
+	}
+
+	coa_gfx = { berber_group_coa_gfx  }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { kemetic_clothing_gfx papuan_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+}
+
+ancient_egyptian = {
+	parents = { middle_egyptian }
+	created =  -650.1.1 
+	color = ancient_egyptian
+	
+	name_list = name_list_demotic
+	heritage = heritage_egyptian
+	language = language_egyptian
+	martial_custom = martial_custom_equal # Questionable, women in Egyptian court had equal status to men, but they were granted that status *by* men
+	head_determination = head_determination_domain
+
+	ethos = ethos_bureaucratic
+	
+	traditions = {
+		tradition_pyramid_builders
+		tradition_hard_working 
+        tradition_agrarian
+		tradition_zealous_people
+		tradition_land_of_the_bow
+	}
+
+	ethnicities = {
+		10 = arab
+		1 = east_african
+	}
+
+	coa_gfx = { berber_group_coa_gfx  }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { kemetic_clothing_gfx papuan_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+}
+
+coptic_culture = {
+	parents = { greek ancient_egyptian }
+	created =  350.1.1 
+	color = rgb { 210 235 87 }
+	name_list = name_list_coptic
+	heritage = heritage_egyptian
+	language = language_coptic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	ethos = ethos_spiritual
+	
+	traditions = {
+		tradition_warriors_of_the_dry
+		tradition_faith_bound 
+        tradition_agrarian
+		tradition_zealous_people
+		tradition_monastic_communities
+	}
+
+	ethnicities = {
+		10 = arab
+		1 = east_african		
+	}
+
+	coa_gfx = { berber_group_coa_gfx }
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	building_gfx = { berber_group_building_gfx mena_building_gfx  }
+	clothing_gfx = { byzantine_clothing_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+}
+
+neo_kemetic = {
+	parents = { middle_egyptian coptic_culture egyptian }
+	created =  800.1.1 
+	color = rgb { 245 197 66 }
+	
+	name_list = name_list_kemetic
+	heritage = heritage_egyptian
+	language = language_egyptian
+	martial_custom = martial_custom_equal # Questionable, women in Egyptian court had equal status to men, but they were granted that status *by* men
+	head_determination = head_determination_domain
+
+	ethos = ethos_bureaucratic
+	
+	traditions = {
+		tradition_pyramid_builders
+		tradition_hard_working 
+        tradition_agrarian
+		tradition_mubarizuns
+		tradition_land_of_the_bow
+	}
+
+	ethnicities = {
+		10 = arab
+		1 = east_african
+	}
+
+	coa_gfx = { berber_group_coa_gfx  }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	clothing_gfx = { kemetic_clothing_gfx papuan_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+}

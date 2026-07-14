@@ -1,0 +1,25 @@
+﻿l_english:
+
+  english_divergence.1.t:0 "Fate of the English"
+  english_divergence.1.desc:0 "In the years following foreign conquest, the local Anglo-Saxon people have slowly had to come to terms with more permanently being closed out of the ruling class of their country. The old noblility having being more or less destroyed. Though tensions between the locals and the new, continental, lords have simmered down, a vast cultural disconnect remains inbetween the two peoples.\n\nAfter the faliure of rebellions in the north of the country in the immediate aftermath of the invasion, the English now seem to have settled into the current status quo."
+  english_divergence.1.a:0 "We must get along with these foreign nobles."
+
+  english_divergence.2.t:0 "$english_divergence.1.t$"
+  english_divergence.2.desc:0 "$english_divergence.1.desc$"
+  english_divergence.2.a:0 "A peculiar development"
+  english_divergence.2.b:0 "There is little more we can do."
+
+  divergence_of_the_english_decision:0 "Future of the English"
+  divergence_of_the_english_decision_desc:0 "An unsustainable tension remains between our Anglo-Saxon people, and our new overlords. However, as our nobility has now been massacred, there is little we can do to dislodge them.\n\nIn light of the new status-quo, it may be more prudent to accept the current situation for the time being."
+
+  english_divergence.3.t:0 "Freedom of the English"
+  english_divergence.3.desc:0 "England is free at last.\n\n After so long, the English are once again masters of their own destiny. Come! let us reinstitute those institutions long supplanted by those of foreigners, those of the house-guards and the Whitmoot!"
+  english_divergence.3.a:0 "Never again shall we be slaves..."
+
+  english_divergence.4.t:0 "$english_divergence.3.t$"
+  english_divergence.4.desc:0 "Having rid themselves of their foreign conquerors, the English now seek to reclaim many of their former insitutions, including their former Whitmoot. Time will tell whether this cultural rebirth will prove fruitfull for the people of their kingdom, or if it shall prove to be folly."
+  english_divergence.4.a:0 "A peculiar development"
+  english_divergence.4.b:0 "A great victory for the English."
+
+  reform_english_culture_decision:0 "A free England"
+  reform_english_culture_decision_desc:0 "Regardless of by which means it has been achieved, England no longer suffers under the iron rule of foreign overlords. Let us formalize our newfound freedom, and reclaim those lost traditions that we had for so long been forced to forgo!"

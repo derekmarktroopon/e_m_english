@@ -1,0 +1,214 @@
+﻿
+venetic_slavic_aesthetic = {
+	is_shown = {
+		current_date <= 650
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			any_sub_realm_county = {
+				OR = { #Sorry to group the baltics in with the proto-slavs for now
+					any_this_title_or_de_jure_above = { this = title:d_mazovia }
+					any_this_title_or_de_jure_above = { this = title:d_prussia }
+					any_this_title_or_de_jure_above = { this = title:d_masuria }
+					any_this_title_or_de_jure_above = { this = title:d_volhynia }
+					any_this_title_or_de_jure_above = { this = title:d_kiev }
+					any_this_title_or_de_jure_above = { this = title:d_grodno }
+					any_this_title_or_de_jure_above = { this = title:d_turov }
+					any_this_title_or_de_jure_above = { this = title:d_pereyaslavl }
+					any_this_title_or_de_jure_above = { this = title:d_chernigov }
+					any_this_title_or_de_jure_above = { this = title:d_ryazan }
+					any_this_title_or_de_jure_above = { this = title:d_karachev }
+					any_this_title_or_de_jure_above = { this = title:d_novosil }
+					any_this_title_or_de_jure_above = { this = title:d_novgorod }
+					any_this_title_or_de_jure_above = { this = title:d_vepsia }
+					any_this_title_or_de_jure_above = { this = title:d_luki }
+					any_this_title_or_de_jure_above = { this = title:d_pinsk }
+					any_this_title_or_de_jure_above = { this = title:d_minsk }
+					any_this_title_or_de_jure_above = { this = title:d_polotsk }
+					any_this_title_or_de_jure_above = { this = title:d_smolensk }
+					any_this_title_or_de_jure_above = { this = title:d_opolye }
+					any_this_title_or_de_jure_above = { this = title:d_esthonia }
+					any_this_title_or_de_jure_above = { this = title:d_livonia }
+					any_this_title_or_de_jure_above = { this = title:d_lithuanians }
+					any_this_title_or_de_jure_above = { this = title:d_courland }
+					any_this_title_or_de_jure_above = { this = title:d_latgalians }
+					any_this_title_or_de_jure_above = { this = title:d_samogitia }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	name_list = name_list_venetic_slavic
+
+}
+
+
+venetic_ruthenian_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				OR = {
+					AND = {
+						has_name_list = name_list_venetic_culture
+						current_date > 650
+					}
+					has_name_list = name_list_venetic_slavic
+				}
+			}
+			any_sub_realm_county = {
+				OR = { #Sorry to group the baltics in with the proto-slavs for now
+					any_this_title_or_de_jure_above = { this = title:d_volhynia }
+					any_this_title_or_de_jure_above = { this = title:d_kiev }
+					any_this_title_or_de_jure_above = { this = title:d_grodno }
+					any_this_title_or_de_jure_above = { this = title:d_turov }
+					any_this_title_or_de_jure_above = { this = title:d_pereyaslavl }
+					any_this_title_or_de_jure_above = { this = title:d_chernigov }
+					any_this_title_or_de_jure_above = { this = title:d_ryazan }
+					any_this_title_or_de_jure_above = { this = title:d_karachev }
+					any_this_title_or_de_jure_above = { this = title:d_novosil }
+					any_this_title_or_de_jure_above = { this = title:d_novgorod }
+					any_this_title_or_de_jure_above = { this = title:d_vepsia }
+					any_this_title_or_de_jure_above = { this = title:d_luki }
+					any_this_title_or_de_jure_above = { this = title:d_pinsk }
+					any_this_title_or_de_jure_above = { this = title:d_minsk }
+					any_this_title_or_de_jure_above = { this = title:d_polotsk }
+					any_this_title_or_de_jure_above = { this = title:d_smolensk }
+					any_this_title_or_de_jure_above = { this = title:d_opolye }
+					any_this_title_or_de_jure_above = { this = title:d_esthonia }
+					any_this_title_or_de_jure_above = { this = title:d_livonia }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	name_list = name_list_venetic_ruthenian
+
+}
+
+venetic_polish_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_slavic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_lesser_poland }#Poland
+					any_this_title_or_de_jure_above = { this = title:d_wielkopolska }
+					any_this_title_or_de_jure_above = { this = title:d_mazovia }
+					any_this_title_or_de_jure_above = { this = title:d_upper_silesia }
+					any_this_title_or_de_jure_above = { this = title:d_lower_silesia }
+					any_this_title_or_de_jure_above = { this = title:d_kuyavia }
+					any_this_title_or_de_jure_above = { this = title:d_pommerania }#Pommerania
+					any_this_title_or_de_jure_above = { this = title:d_nordmark }
+					any_this_title_or_de_jure_above = { this = title:d_pomerelia }
+					any_this_title_or_de_jure_above = { this = title:d_ostmark }
+					any_this_title_or_de_jure_above = { this = title:d_prussia }#lithuania
+					any_this_title_or_de_jure_above = { this = title:d_masuria }
+					any_this_title_or_de_jure_above = { this = title:d_courland }
+					any_this_title_or_de_jure_above = { this = title:d_samogitia }
+					any_this_title_or_de_jure_above = { this = title:d_latgalians }
+					any_this_title_or_de_jure_above = { this = title:d_meissen }#Sorbia
+					any_this_title_or_de_jure_above = { this = title:d_lausitz }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { west_slavic_clothing_gfx western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	name_list = name_list_venetic_polish
+
+}
+
+venetic_czech_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_slavic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_bohemia }#Czechia
+					any_this_title_or_de_jure_above = { this = title:d_moravia }
+					any_this_title_or_de_jure_above = { this = title:d_nyitra }#Slovenia/Moravia
+				}
+			}
+		}
+	}
+
+	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { west_slavic_clothing_gfx western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	name_list = name_list_venetic_czech
+
+}
+
+venetic_south_slavic_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_slavic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_somogy }#Pannonia
+					any_this_title_or_de_jure_above = { this = title:d_gyor }
+					any_this_title_or_de_jure_above = { this = title:d_visegrad }
+					any_this_title_or_de_jure_above = { this = title:d_bacs }
+					any_this_title_or_de_jure_above = { this = title:d_temes }
+					any_this_title_or_de_jure_above = { this = title:d_bihar }
+					any_this_title_or_de_jure_above = { this = title:d_transcarpathia }
+					any_this_title_or_de_jure_above = { this = title:d_ungvar }
+					any_this_title_or_de_jure_above = { this = title:d_bulgaria }#Bulgaria
+					any_this_title_or_de_jure_above = { this = title:d_vidin }
+					any_this_title_or_de_jure_above = { this = title:d_turnovo }
+					any_this_title_or_de_jure_above = { this = title:d_philippopolis }
+					any_this_title_or_de_jure_above = { this = title:d_dobrudja }
+					any_this_title_or_de_jure_above = { this = title:d_oltenia }#Romania
+					any_this_title_or_de_jure_above = { this = title:d_muntenia }
+					any_this_title_or_de_jure_above = { this = title:d_transylvanian_alps }
+					any_this_title_or_de_jure_above = { this = title:d_transylvania }
+					any_this_title_or_de_jure_above = { this = title:d_bugeac }
+					any_this_title_or_de_jure_above = { this = title:d_moldova }
+					any_this_title_or_de_jure_above = { this = title:d_bukovina }
+					any_this_title_or_de_jure_above = { this = title:d_croatia }#Croatia, Greater Serbia, Slovenia and Bosnia
+					any_this_title_or_de_jure_above = { this = title:d_dalmatia }
+					any_this_title_or_de_jure_above = { this = title:d_slavonia }
+					any_this_title_or_de_jure_above = { this = title:d_lower_bosna }
+					any_this_title_or_de_jure_above = { this = title:d_bosna }
+					any_this_title_or_de_jure_above = { this = title:d_usora }
+					any_this_title_or_de_jure_above = { this = title:d_ragusa }
+					any_this_title_or_de_jure_above = { this = title:d_macva }
+					any_this_title_or_de_jure_above = { this = title:d_rashka }
+					any_this_title_or_de_jure_above = { this = title:d_duklja }
+					any_this_title_or_de_jure_above = { this = title:d_dyrrachion }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	name_list = name_list_venetic_south_slavic
+
+}

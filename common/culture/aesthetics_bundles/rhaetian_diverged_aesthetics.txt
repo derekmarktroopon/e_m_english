@@ -1,0 +1,44 @@
+﻿
+neo_raetic_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_raetic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_transjurania }
+					any_this_title_or_de_jure_above = { this = title:d_currezia }
+					any_this_title_or_de_jure_above = { this = title:d_tyrol }
+					any_this_title_or_de_jure_above = { this = title:d_carinthia }
+					any_this_title_or_de_jure_above = { this = title:d_krain }
+					any_this_title_or_de_jure_above = { this = title:d_steyermark }
+					any_this_title_or_de_jure_above = { this = title:d_lombardia }
+					any_this_title_or_de_jure_above = { this = title:d_emilia }
+					any_this_title_or_de_jure_above = { this = title:d_romagna }
+					any_this_title_or_de_jure_above = { this = title:d_piedmonte }
+					any_this_title_or_de_jure_above = { this = title:d_genoa }
+					any_this_title_or_de_jure_above = { this = title:d_toscana }
+					any_this_title_or_de_jure_above = { this = title:d_pisa }
+					any_this_title_or_de_jure_above = { this = title:d_ancona }
+					any_this_title_or_de_jure_above = { this = title:d_spoleto }
+					any_this_title_or_de_jure_above = { this = title:d_latium }
+					any_this_title_or_de_jure_above = { this = title:d_capua }
+					any_this_title_or_de_jure_above = { this = title:d_benevento }
+					any_this_title_or_de_jure_above = { this = title:d_apulia }
+					any_this_title_or_de_jure_above = { this = title:d_salerno }
+					any_this_title_or_de_jure_above = { this = title:d_calabria }
+					any_this_title_or_de_jure_above = { this = title:d_sicily }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	name_list = name_list_neo_raetic
+
+}

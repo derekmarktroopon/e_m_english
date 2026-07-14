@@ -1,0 +1,35 @@
+﻿tradition_pyramid_builders = {
+	category = regional
+
+	layers = {
+		0 = steward
+		1 = mena
+		4 = desert_mountains.dds
+	}
+
+    is_shown = {
+		has_cultural_pillar = heritage_egyptian		
+	}
+
+	can_pick = {
+		has_cultural_pillar = heritage_egyptian
+	}
+
+	parameters = {
+		can_build_pyramids = yes
+	}
+
+	character_modifier = {
+		diplomacy = 1
+	}
+
+	province_modifier = {
+		desert_construction_gold_cost = -0.15
+		drylands_construction_gold_cost = -0.15
+		desert_holding_construction_gold_cost = -0.15
+		drylands_holding_construction_gold_cost = -0.15
+		build_speed = 0.2
+		floodplains_construction_gold_cost = -0.2
+	}
+
+}

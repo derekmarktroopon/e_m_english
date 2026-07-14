@@ -1,0 +1,140 @@
+﻿namespace = old_middle_english_events
+
+##################################################
+# English culture Diverges
+##################################################
+
+old_middle_english_events.1 = { #Anglo-Saxon culture switches name list to early middle english
+	hidden = yes
+
+	immediate = {
+		culture:anglo_saxon = {
+			if = {
+				limit = {
+					title:k_england = {
+						holder = {
+							culture = {
+								OR = {
+									any_parent_culture = {
+										this = culture:norman
+									}
+									has_cultural_pillar = heritage_frankish
+								}
+								NOT = {
+									this = culture:english
+								}
+							}
+						}
+					}
+				}
+				set_name_list = name_list_early_middle_english
+			}
+			else_if = {
+				limit = {
+					title:k_england = {
+						holder = {
+							culture = {
+								NOT = {
+									this = culture:english
+								}
+							}
+						}
+					}
+				}
+				set_name_list = name_list_early_middle_english_no_normans
+			}
+		}
+	}
+}
+
+old_middle_english_events.2 = { #Early middle english anglo saxon either switches back to Anglo-Saxon (if English has emerged) or Takes a more modern form (either from natural development, or shaking off the Norman yolk before lasting cultural impact)
+	hidden = yes
+
+	immediate = {
+		culture:english = {
+			every_culture_county = {
+				limit = {
+					title_province = { geographical_region = custom_england }
+				}
+				add_to_list = english_counties_in_england
+			}
+		}
+		culture:anglo_saxon = {
+			if = {
+				limit = {
+					NOR = {
+						title:k_england = {
+							holder = {
+								culture = {
+									OR = {
+										any_parent_culture = {
+											this = culture:norman
+										}
+										has_cultural_pillar = heritage_frankish
+									}
+									NOT = {
+										this = culture:english
+									}
+								}
+							}
+						}
+						english_counties_in_england >= 3
+					}
+					set_name_list = later_english_no_normans
+				}
+			}
+			else = {
+				set_name_list = name_list_anglo_saxon
+			}
+		}
+	}
+}
+
+old_middle_english_events.3 = { #Gothic adopts later name list
+	hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			if = {
+				limit = {
+					has_name_list = name_list_gothic
+					NOR = {
+						has_cultural_pillar = heritage_byzantine
+						has_cultural_pillar = heritage_latin
+						has_cultural_pillar = heritage_iberian
+						has_cultural_pillar = heritage_west_germanic
+					}
+				}
+				set_name_list = name_list_late_gothic
+			}
+			else_if = {
+				limit = {
+					has_name_list = name_list_gothic
+					has_cultural_pillar = heritage_byzantine
+				}
+				set_name_list = name_list_gotho_greek
+			}
+			else_if = {
+				limit = {
+					has_name_list = name_list_gothic
+					has_cultural_pillar = heritage_latin
+				}
+				set_name_list = name_list_gotho_roman
+			}
+			else_if = {
+				limit = {
+					has_name_list = name_list_gothic
+					has_cultural_pillar = heritage_iberian
+				}
+				set_name_list = name_list_visigothic
+			}
+			else_if = {
+				limit = {
+					has_name_list = name_list_gothic
+					has_cultural_pillar = heritage_west_germanic
+				}
+				set_name_list = name_list_late_gothic_northwestern
+			}
+		}
+	}
+}

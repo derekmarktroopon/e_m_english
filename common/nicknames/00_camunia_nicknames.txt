@@ -1,0 +1,2 @@
+﻿nick_of_the_camunians = {}
+nick_chosen_of_the_rose = {}

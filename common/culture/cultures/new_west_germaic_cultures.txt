@@ -1,0 +1,405 @@
+﻿west_saxon = {
+	color = { 219 124 121 }
+	created = 510.1.1 
+	parents = { ingaevonic }
+	
+	ethos = ethos_stoic
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_the_witenagemot
+		tradition_hird
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_west_saxon
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { northern_clothing_gfx } 
+	clothing_gfx = { english_clothing_gfx western_clothing_gfx }  
+	unit_gfx = { western_unit_gfx } 	
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair510.1.1
+		25 = caucasian_dark_hair
+	}
+}
+
+mercian = {
+	color = { 240 150 64 }
+	created = 550.1.1 
+	parents = { ingaevonic }
+	
+	ethos = ethos_stoic
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_the_witenagemot
+		tradition_hird
+		tradition_quarrelsome
+	}
+	
+	name_list = name_list_mercian
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { northern_clothing_gfx } 
+	clothing_gfx = { english_clothing_gfx western_clothing_gfx }     
+	unit_gfx = { western_unit_gfx } 	
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+northumbrian = {
+	color = { 227 67 37 }
+	created = 550.1.1
+	parents = { ingaevonic }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_the_witenagemot
+		tradition_hird
+		tradition_monastic_communities
+	}
+	
+	name_list = name_list_northumbrian
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { northern_clothing_gfx } 
+	clothing_gfx = { english_clothing_gfx western_clothing_gfx }  
+	unit_gfx = { western_unit_gfx } 	
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+kentish = {
+	color = { 212 135 54 }
+	parents = { ingaevonic } 
+
+	created = 510.1.1 
+	
+	ethos = ethos_spiritual
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_the_witenagemot
+		tradition_hird
+		tradition_maritime_mercantilism
+	}
+	
+	name_list = name_list_jutish
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { northern_clothing_gfx } 
+	clothing_gfx = { english_clothing_gfx western_clothing_gfx }  
+	unit_gfx = { western_unit_gfx } 	
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+east_anglian = {
+	color = { 222 127 76 }
+	created = 550.1.1 
+	parents = { ingaevonic }
+	
+	ethos = ethos_stoic
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_the_witenagemot
+		tradition_hird
+		tradition_wetlanders
+	}
+	
+	name_list = name_list_east_anglian
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { northern_clothing_gfx } 
+	clothing_gfx = { english_clothing_gfx western_clothing_gfx }  
+	unit_gfx = { western_unit_gfx } 	
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+east_saxon = {
+	color = { 0.729 0.221 0.229 }
+	created = 510.1.1
+	parents = { ingaevonic }
+	
+	ethos = ethos_stoic
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_the_witenagemot
+		tradition_loyal_soldiers
+		tradition_hird
+	}
+	
+	name_list = name_list_east_saxon
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { northern_clothing_gfx } 
+	clothing_gfx = { english_clothing_gfx western_clothing_gfx }  
+	unit_gfx = { western_unit_gfx } 	
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+ingaevonic = {
+	color = { 181 128 56 }
+	parents = { proto_germanic }
+	created = 200.1.1
+	
+	ethos = ethos_bellicose
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_seafaring		
+	}
+	
+	dlc_tradition = {
+		trait = tradition_fp1_performative_honour
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_poetry
+	}
+	
+	dlc_tradition = {
+		trait = tradition_fp1_northern_stories
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_runestones
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_late_ingaevonic
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { northern_clothing_gfx } 
+	clothing_gfx = { english_clothing_gfx western_clothing_gfx }  
+	unit_gfx = { western_unit_gfx } 	
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+anglo_saxon = {
+	color = { 0.8 0.3 0.3 }
+	created = 840.1.1
+	parents = { west_saxon mercian }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_the_witenagemot
+		tradition_city_keepers
+		tradition_hird
+	}
+	
+	name_list = name_list_anglo_saxon
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { northern_clothing_gfx } 
+	clothing_gfx = { english_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+old_saxon = {
+	color = { 0.5 0.1 0.1 }
+
+	created = 550.1.1
+	parents = { ingaevonic }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_things
+		tradition_seafaring
+		tradition_hird
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_old_saxon
+
+	coa_gfx = { western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx } 	
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		25 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		35 = caucasian_northern_brown_hair
+		25 = caucasian_northern_dark_hair
+	}
+}
+
+scottish = {
+	color = hsv{ 0.035 0.8 0.8 }
+	created = 1050.1.1
+	parents = { northumbrian cumbrian }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_city_keepers
+		tradition_xenophilic
+		tradition_strong_kinship
+	}
+	
+	name_list = name_list_scottish
+	
+	coa_gfx = { scottish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { english_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+frisian = {	#Consider this to be "old frisian", in the times of "Frankish" culture, so 760s and before.
+	# Effectively, this culture isn't playable in game
+	color = { 0.7 0.3 0.0 }
+	created = 550.1.1
+	parents = { ingaevonic }
+	
+	ethos = ethos_stoic
+	heritage = heritage_central_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_fishermen
+		tradition_zealous_people
+		tradition_battlefield_looters
+	}
+	
+	name_list = name_list_frisian
+
+	coa_gfx = { frisian_coa_gfx german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 		
+	house_coa_frame = house_frame_25
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}

@@ -1,0 +1,199 @@
+﻿
+duke_venetic_culture = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 30
+	name_lists = { name_list_venetic_culture }
+	governments = { feudal_government republic_government }
+}
+
+duke_female_venetic_culture = {
+	type = character
+	gender = female	
+	special = holder
+	tier = duchy
+	priority = 30
+	name_lists = { name_list_venetic_culture  }
+	governments = { feudal_government republic_government }
+}
+
+king_venetic_culture = {
+	type = character
+	gender = male	
+	special = holder
+	tier = kingdom
+	priority = 67
+	name_lists = { name_list_venetic_culture  }
+	governments = { feudal_government republic_government }
+}
+
+king_female_venetic_culture = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 67
+	name_lists = { name_list_venetic_culture  }
+	governments = { feudal_government republic_government }
+}
+emperor_venetic_culture = {
+	type = character
+	gender = male	
+	special = holder
+	tier = empire
+	priority = 67
+	name_lists = { name_list_venetic_culture  }
+	governments = { feudal_government republic_government }
+}
+
+emperor_female_venetic_culture = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 67
+	name_lists = { name_list_venetic_culture  }
+	governments = { feudal_government republic_government }
+}
+duke_venetic_venetian = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 30
+	name_lists = { name_list_venetic_venetian }
+	governments = { feudal_government republic_government }
+}
+
+duke_female_venetic_venetian = {
+	type = character
+	gender = female	
+	special = holder
+	tier = duchy
+	priority = 30
+	name_lists = { name_list_venetic_venetian  }
+	governments = { feudal_government republic_government }
+}
+
+king_venetic_venetian = {
+	type = character
+	gender = male	
+	special = holder
+	tier = kingdom
+	priority = 67
+	name_lists = { name_list_venetic_venetian  }
+	governments = { feudal_government republic_government }
+}
+
+king_female_venetic_venetian = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 67
+	name_lists = { name_list_venetic_venetian  }
+	governments = { feudal_government republic_government }
+}
+
+emperor_venetic_venetian = {
+	type = character
+	gender = male	
+	special = holder
+	tier = empire
+	priority = 67
+	name_lists = { name_list_venetic_venetian  }
+	governments = { feudal_government republic_government }
+}
+
+emperor_female_venetic_venetian = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 67
+	name_lists = { name_list_venetic_venetian  }
+	governments = { feudal_government republic_government }
+}
+
+count_feudal_male_wyntish = { # Earl
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 17
+	governments = { feudal_government }
+	name_lists = { name_list_wintcin name_list_wintissh name_list_wyntish name_list_wyntish_venetians }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+count_feudal_female_wyntish = { # Countess
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 17
+	governments = { feudal_government }
+	name_lists = { name_list_wintcin name_list_wintissh name_list_wyntish name_list_wyntish_venetians }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+county_feudal_wyntish = {
+	type = title
+	tier = county
+	priority = 13
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_wintcin name_list_wintissh name_list_wyntish name_list_wyntish_venetians }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+duke_republic_male_venetian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 47
+	flavourization_rules = { 
+		top_liege = no
+	}
+	governments = { republic_government }
+	name_lists = { name_list_venetian name_list_venetic_venetian }
+}
+duke_republic_female_venetian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 47
+	flavourization_rules = { 
+		top_liege = no
+	}
+	governments = { republic_government }
+	name_lists = { name_list_venetian name_list_venetic_venetian }
+}
+male_venetian = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 77
+	flavourization_rules = { 
+		top_liege = no
+	}
+	governments = { republic_government }
+	name_lists = { name_list_venetian name_list_venetic_venetian }
+}
+female_venetian = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 77
+	flavourization_rules = { 
+		top_liege = no
+	}
+	governments = { republic_government }
+	name_lists = { name_list_venetian name_list_venetic_venetian }
+}

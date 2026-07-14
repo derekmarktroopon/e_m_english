@@ -1,0 +1,476 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+
+e_italy = {
+	color = { 234 217 110 }
+
+	capital = c_roma # Rome
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:italian
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	k_italy = {
+		color = { 244 227 160 }
+
+		capital = c_lombardia # Pavia
+
+			d_friuli = {
+				color = { 170 255 170 }
+		
+				capital = c_aquileia
+				cultural_names = {
+					name_list_wintcin = cn_d_friuli_wyntish
+					name_list_wintissh = cn_d_friuli_wyntish
+					name_list_wyntish = cn_d_friuli_wyntish
+					name_list_wyntish_venetians = cn_d_friuli_wyntish
+					name_list_venetic_culture = cn_d_friuli_venetic
+				}	
+		
+				ai_primary_priority = {
+					if = {
+						limit = {
+							culture = { has_cultural_pillar = heritage_central_germanic } # Unruoch of Friuli
+						}
+						add = @correct_culture_primary_score
+					}
+				}
+		
+				c_aquileia = {
+					color = { 170 255 170 }
+					cultural_names = {
+						name_list_wintcin = cn_c_aquileia_wyntish
+						name_list_wintissh = cn_c_aquileia_wyntish
+						name_list_wyntish = cn_c_aquileia_wyntish
+						name_list_wyntish_venetians = cn_c_aquileia_wyntish
+						name_list_venetian = cn_c_aquileia_venetian
+						name_list_venetic_venetian = cn_c_aquileia_venetian
+						name_list_venetic_culture = cn_c_aquileia_venetic
+					}	
+		
+					b_aquileia = {
+						province = 2508
+		
+						color = { 170 255 170 }
+						cultural_names = {
+					    	name_list_wintcin = cn_b_aquileia_wyntish
+					    	name_list_wintissh = cn_b_aquileia_wyntish
+					    	name_list_wyntish = cn_b_aquileia_wyntish
+					    	name_list_wyntish_venetians = cn_b_aquileia_wyntish
+					    	name_list_venetian = cn_b_aquileia_venetian
+					    	name_list_venetic_venetian = cn_b_aquileia_venetian
+					    	name_list_venetic_culture = cn_b_aquileia_venetic
+					    }	
+					}
+					b_trieste = {
+						province = 2514
+		
+						color = { 170 255 170 }
+						cultural_names = {
+					    	name_list_wintcin = cn_b_trieste_wyntish
+					    	name_list_wintissh = cn_b_trieste_wyntish
+					    	name_list_wyntish = cn_b_trieste_wyntish
+					    	name_list_wyntish_venetians = cn_b_trieste_wyntish
+					    	name_list_venetian = cn_b_trieste_venetian
+					    	name_list_venetic_venetian = cn_b_trieste_venetian
+					    }	
+					}
+					b_udine = {
+						province = 2510
+		
+						color = { 170 255 170 }
+						cultural_names = {
+					    	name_list_wintcin = cn_b_udine_wyntish
+					    	name_list_wintissh = cn_b_udine_wyntish
+					    	name_list_wyntish = cn_b_udine_wyntish
+					    	name_list_wyntish_venetians = cn_b_udine_wyntish
+					    	name_list_venetian = cn_b_udine_venetian
+					    	name_list_venetic_venetian = cn_b_udine_venetian
+					    }	
+					}
+					b_grado = {
+						province = 2507
+		
+						color = { 170 255 170 }
+						cultural_names = {
+					    	name_list_wintcin = cn_b_grado_wyntish
+					    	name_list_wintissh = cn_b_grado_wyntish
+					    	name_list_wyntish = cn_b_grado_wyntish
+					    	name_list_wyntish_venetians = cn_b_grado_wyntish
+					    }	
+					}
+				}
+		
+				c_friuli = {
+					color = { 155 255 175 }
+					cultural_names = {
+						name_list_wintcin = cn_c_friuli_wyntish
+						name_list_wintissh = cn_c_friuli_wyntish
+						name_list_wyntish = cn_c_friuli_wyntish
+						name_list_wyntish_venetians = cn_c_friuli_wyntish
+						name_list_venetic_culture = cn_c_friuli_venetic
+						name_list_venetic_venetian = cn_c_friuli_venetic
+					}	
+		
+					b_caorle = {
+						province = 2512
+		
+						color = { 155 255 175 }
+						cultural_names = {
+							name_list_venetic_culture = cn_b_caorle_venetic
+					    	name_list_wintcin = cn_b_caorle_wyntish
+					    	name_list_wintissh = cn_b_caorle_wyntish
+					    	name_list_wyntish = cn_b_caorle_wyntish
+					    	name_list_wyntish_venetians = cn_b_caorle_wyntish
+					    }	
+					}
+					b_pordenone = {
+						province = 2513
+		
+						color = { 155 255 175 }
+						cultural_names = {
+					    	name_list_wintcin = cn_b_pordenone_wyntish
+					    	name_list_wintissh = cn_b_pordenone_wyntish
+					    	name_list_wyntish = cn_b_pordenone_wyntish
+					    	name_list_wyntish_venetians = cn_b_pordenone_wyntish
+					    	name_list_venetian = cn_b_pordenone_venetian
+					    	name_list_venetic_venetian = cn_b_pordenone_venetian
+					    }	
+					}
+					b_portogruaro = {
+						province = 8766
+		
+						color = { 155 255 175 }
+						cultural_names = {
+					    	name_list_wintcin = cn_b_portogruaro_wyntish
+					    	name_list_wintissh = cn_b_portogruaro_wyntish
+					    	name_list_wyntish = cn_b_portogruaro_wyntish
+					    	name_list_wyntish_venetians = cn_b_portogruaro_wyntish
+					    }	
+					}
+				}
+			}
+		
+			d_verona = {
+				color = { 145 240 205 }
+		
+				capital = c_verona # Verona
+					cultural_names = {
+						name_list_venetic_culture = cn_d_verona_venetic
+						name_list_wintcin = cn_d_verona_wyntish
+						name_list_wintissh = cn_d_verona_wyntish
+						name_list_wyntish = cn_d_verona_wyntish
+						name_list_wyntish_venetians = cn_d_verona_wyntish
+					}			
+		
+				c_verona = {
+					color = { 150 245 210 }
+					cultural_names = {
+						name_list_venetic_culture = cn_c_verona_venetic
+						name_list_wintcin = cn_c_verona_wyntish
+						name_list_wintissh = cn_c_verona_wyntish
+						name_list_wyntish = cn_c_verona_wyntish
+						name_list_wyntish_venetians = cn_c_verona_wyntish
+					}				
+		
+					b_verona = {
+						province = 2501
+		
+						color = { 150 245 210 }
+					    cultural_names = {
+					    	name_list_venetic_culture = cn_b_verona_venetic
+					    	name_list_wintcin = cn_b_verona_wyntish
+					    	name_list_wintissh = cn_b_verona_wyntish
+					    	name_list_wyntish = cn_b_verona_wyntish
+					    	name_list_wyntish_venetians = cn_b_verona_wyntish
+					    }					
+					}
+				}
+		
+				c_treviso = {
+					color = { 160 225 210 }
+					cultural_names = {
+						name_list_venetic_culture = cn_c_treviso_venetic
+						name_list_wintcin = cn_c_treviso_wyntish
+						name_list_wintissh = cn_c_treviso_wyntish
+						name_list_wyntish = cn_c_treviso_wyntish
+						name_list_wyntish_venetians = cn_c_treviso_wyntish
+					}	
+		
+					b_treviso = {
+						province = 2505
+	
+						color = { 160 225 210 }
+						cultural_names = {
+							name_list_venetic_culture = cn_b_treviso_venetic
+					    	name_list_wintcin = cn_b_treviso_wyntish
+					    	name_list_wintissh = cn_b_treviso_wyntish
+					    	name_list_wyntish = cn_b_treviso_wyntish
+					    	name_list_wyntish_venetians = cn_b_treviso_wyntish
+					    }	
+					}
+					b_ceneta = {
+						province = 2511
+	
+						color = { 160 225 210 }
+						cultural_names = {
+							name_list_venetic_culture = cn_b_ceneta_venetic
+					    	name_list_wintcin = cn_b_ceneta_wyntish
+					    	name_list_wintissh = cn_b_ceneta_wyntish
+					    	name_list_wyntish = cn_b_ceneta_wyntish
+					    	name_list_wyntish_venetians = cn_b_ceneta_wyntish
+					    }	
+					}
+					b_vicenza = {
+						province = 2500
+	
+						color = { 160 225 210 }
+						cultural_names = {
+							name_list_venetic_culture = cn_b_vicenza_venetic
+					    	name_list_wintcin = cn_b_vicenza_wyntish
+					    	name_list_wintissh = cn_b_vicenza_wyntish
+					    	name_list_wyntish = cn_b_vicenza_wyntish
+					    	name_list_wyntish_venetians = cn_b_vicenza_wyntish
+					    }	
+					}
+				}
+		
+				c_padua = {
+					color = { 130 215 190 }
+					cultural_names = {
+						name_list_venetic_culture = cn_c_padua_venetic
+						name_list_wintcin = cn_c_padua_wyntish
+						name_list_wintissh = cn_c_padua_wyntish
+						name_list_wyntish = cn_c_padua_wyntish
+						name_list_wyntish_venetians = cn_c_padua_wyntish
+						name_list_venetian = cn_c_padua_venetian
+						name_list_venetic_venetian = cn_c_padua_venetian
+					}
+	
+					b_padua = {
+						province = 2503
+	
+						color = { 130 215 190 }
+					    cultural_names = {
+					    	name_list_venetic_culture = cn_b_padua_venetic
+					    	name_list_wintcin = cn_b_padua_wyntish
+					    	name_list_wintissh = cn_b_padua_wyntish
+					    	name_list_wyntish = cn_b_padua_wyntish
+					    	name_list_wyntish_venetians = cn_b_padua_wyntish
+					    	name_list_venetian = cn_b_padua_venetian
+					    	name_list_venetic_venetian = cn_b_padua_venetian
+					    }					
+					}
+					b_lonigo = {
+						province = 2509
+	
+						color = { 130 215 190 }
+						cultural_names = {
+					    	name_list_wintcin = cn_b_lonigo_wyntish
+					    	name_list_wintissh = cn_b_lonigo_wyntish
+					    	name_list_wyntish = cn_b_lonigo_wyntish
+					    	name_list_wyntish_venetians = cn_b_lonigo_wyntish
+					    }	
+					}
+					b_montagnana = {
+						province = 2666
+	
+						color = { 130 215 190 }
+						cultural_names = {
+					    	name_list_wintcin = cn_b_montagnana_wyntish
+					    	name_list_wintissh = cn_b_montagnana_wyntish
+					    	name_list_wyntish = cn_b_montagnana_wyntish
+					    	name_list_wyntish_venetians = cn_b_montagnana_wyntish
+					    }	
+					}
+					b_este = {
+						province = 8765
+	
+						color = { 130 215 190 }
+					    cultural_names = {
+					    	name_list_venetic_culture = cn_b_este_venetic
+					    	name_list_wintcin = cn_b_este_wyntish
+					    	name_list_wintissh = cn_b_este_wyntish
+					    	name_list_wyntish = cn_b_este_wyntish
+					    	name_list_wyntish_venetians = cn_b_este_wyntish
+					    }						
+					}
+				}
+	
+			c_polesine = {
+				color = { 145 230 225 }
+				cultural_names = {
+					name_list_wintcin = cn_c_polesine_wyntish
+					name_list_wintissh = cn_c_polesine_wyntish
+					name_list_wyntish = cn_c_polesine_wyntish
+					name_list_wyntish_venetians = cn_c_polesine_wyntish
+				}		
+				b_rovigo = {
+					province = 2525
+	
+					color = { 145 230 225 }
+					cultural_names = {
+				    	name_list_wintcin = cn_b_rovigo_wyntish
+				    	name_list_wintissh = cn_b_rovigo_wyntish
+				    	name_list_wyntish = cn_b_rovigo_wyntish
+				    	name_list_wyntish_venetians = cn_b_rovigo_wyntish
+				    }		
+				}
+				b_adria = {
+					province = 2524
+	
+					color = { 145 230 225 }
+					cultural_names = {
+					   	name_list_wintcin = cn_b_adria_wyntish
+					   	name_list_wintissh = cn_b_adria_wyntish
+					   	name_list_wyntish = cn_b_adria_wyntish
+					   	name_list_wyntish_venetians = cn_b_adria_wyntish
+					}
+				}
+			}
+		}
+		d_istria = {
+			color = { 75 110 105 }
+			cultural_names = {
+				name_list_venetic_culture = cn_d_istria_venetic
+			}
+
+			c_pula = {
+				color = { 75 110 105 }
+				cultural_names = {
+					name_list_venetic_culture = cn_c_istria_venetic
+				}
+				b_pula = {
+					color = { 75 110 105 }
+					province = 2518
+					cultural_names = {
+						name_list_venetic_culture = cn_b_istria_venetic
+					}
+				}
+			}
+		}
+    }
+
+	k_venice = {
+		color = { 54 167 156 }
+		capital = c_venezia # Venice
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:italian
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		cultural_names = {
+			name_list_venetic_culture = cn_k_venice_venetic
+			name_list_wintcin = cn_k_venice_wintcin
+			name_list_wintissh = cn_k_venice_wintissh
+			name_list_wyntish = cn_k_venice_wyntish
+			name_list_wyntish_venetians = cn_k_venice_wyntish
+			name_list_venetian = cn_k_venice_venetian
+			name_list_venetic_venetian = cn_k_venice_venetian
+		}		
+
+		d_venice = {
+			color = { 34 137 126 }
+
+			capital = c_venezia # Venice
+				cultural_names = {
+					name_list_venetic_culture = cn_c_venezia_venetic
+					name_list_wintcin = cn_d_venice_wyntish
+					name_list_wintissh = cn_d_venice_wyntish
+					name_list_wyntish = cn_d_venice_wyntish
+					name_list_wyntish_venetians = cn_d_venice_wyntish
+					name_list_venetian = cn_d_venice_venetian
+					name_list_venetic_venetian = cn_d_venice_venetian
+				}	
+
+			c_venezia = {
+				color = { 40 143 132 }
+				cultural_names = {
+					name_list_venetic_culture = cn_c_venice_venetic
+					name_list_wintcin = cn_c_venezia_wyntish
+					name_list_wintissh = cn_c_venezia_wyntish
+					name_list_wyntish = cn_c_venezia_wyntish
+					name_list_wyntish_venetians = cn_c_venezia_wyntish
+					name_list_venetian = cn_c_venezia_venetian
+					name_list_venetic_venetian = cn_c_venezia_venetian
+				}				
+
+				b_venezia = {
+					province = 2517
+
+					color = { 40 143 132 }
+				    cultural_names = {
+				    	name_list_venetic_culture = cn_c_venice_venetic
+				    	name_list_wintcin = cn_b_venezia_wyntish
+						name_list_wintissh = cn_b_venezia_wyntish
+						name_list_wyntish = cn_b_venezia_wyntish
+						name_list_wyntish_venetians = cn_b_venezia_wyntish
+						name_list_venetian = cn_b_venezia_venetian
+						name_list_venetic_venetian = cn_b_venezia_venetian
+				    }	
+				}
+			}
+			c_veneto = {
+				color = { 40 143 132 }
+				cultural_names = {
+					name_list_wintcin = cn_c_veneto_wyntish
+		            name_list_wintissh = cn_c_veneto_wyntish
+		            name_list_wyntish = cn_c_veneto_wyntish
+		            name_list_wyntish_venetians = cn_c_veneto_wyntish
+		            name_list_venetic_culture = cn_c_veneto_venetic
+				}	
+
+				b_mestre = {
+					province = 2506
+
+					color = { 40 143 132 }
+					cultural_names = {
+						name_list_venetic_culture = cn_b_mestre_venetic
+				    	name_list_wintcin = cn_b_mestre_wyntish
+		                name_list_wintissh = cn_b_mestre_wyntish
+		                name_list_wyntish = cn_b_mestre_wyntish
+		                name_list_wyntish_venetians = cn_b_mestre_wyntish
+				    }	
+				}
+				b_chioggia = {
+					province = 2504
+
+					color = { 40 143 132 }
+					cultural_names = {
+				    	name_list_wintcin = cn_b_chioggia_wyntish
+		                name_list_wintissh = cn_b_chioggia_wyntish
+		                name_list_wyntish = cn_b_chioggia_wyntish
+		                name_list_wyntish_venetians = cn_b_chioggia_wyntish
+		                name_list_venetian = cn_b_chioggia_venetian
+		                name_list_venetic_venetian = cn_b_chioggia_venetian
+				    }	
+				}
+				b_malamacco = {
+					province = 8767
+
+					color = { 40 143 132 }
+					cultural_names = {
+				    	name_list_wintcin = cn_b_malamacco_wyntish
+		                name_list_wintissh = cn_b_malamacco_wyntish
+		                name_list_wyntish = cn_b_malamacco_wyntish
+		                name_list_wyntish_venetians = cn_b_malamacco_wyntish
+				    }	
+				}
+			}
+		}
+	}
+}

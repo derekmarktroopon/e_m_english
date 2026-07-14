@@ -1,0 +1,6 @@
+﻿l_english:
+ tradition_pyramid_builders_name:0 "Pyramid Builders"
+ tradition_pyramid_builders_desc:0 "The rulers of this culture have a strong tradition of funding expensive construction projects (with people of this culture being skilled builders) to, not only show their might to their subjects, but to leave mighty legacies meant to last an eternity."
+
+ culture_parameter_can_build_pyramids:0 "Can build Pyramids"
+ can_build_pyramids_name:0 "#T $tradition_pyramid_builders_name$#!"

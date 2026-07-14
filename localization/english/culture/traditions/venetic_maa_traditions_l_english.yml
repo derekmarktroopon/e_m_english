@@ -1,0 +1,18 @@
+﻿l_english:
+ ekvopetobos:0 "Eppetars" #source on ekupetaris: https://www.studietruschi.org/wp-content/uploads/2021/06/SE81_14.pdf
+ ekvopetobos_flavor:0 "Eppetars are the mighty horsemen of the Veneti."
+ tradition_ekvopetobos_name:0 "Ekupetabos"
+ tradition_ekvopetobos_desc:0 "The Eppetabos/Ekupetabos (literally, 'horselords') were a social class of horsemen in Venetken society, akin to the knights of medieval societies. Highly revered, and incredibly effective, they held the line for their people against inumerous invasions." 
+ culture_parameter_unlock_maa_ekvopetobos:0 "Unlocks Eppetars as Men at Arms"
+
+ ekfopetaboz:0 "Ekfopetars" 
+ ekfopetaboz_flavor:0 "The mighty horsemen of the Winitkens, stories tell of their heroic deeds against ancient foes."
+ tradition_ekfopetaboz_name:0 "Ekfopetaboz"
+ tradition_ekfopetaboz_desc:0 "While the Winitken people at present inhabit the northern germanic lands, they retain the old horseback traditions of their forefathers. Born destined to excel in horsemanship, the harsh realities of life make the Winitken horsemen indomidable in battle." 
+ culture_parameter_unlock_maa_ekfopetaboz:0 "Unlocks Ekfopetars as Men at Arms"
+
+ icfepters:0 "Icfepters" 
+ icfepters_flavor:0 "The knights of Wintic society."
+ tradition_icfepters_name:0 "Icfepters"
+ tradition_icfepters_desc:0 "Wintic society revolves heavily around the Icef (horse). As long as their people could remember, he who masters the way of horsemanship and battle prowess has a real chance at rising in society, be he a noble or a peasant. The Icfepter not only serves as the protector of their kingdom, but as a rightious and noble protector of their community." 
+ culture_parameter_unlock_maa_icfepters:0 "Unlocks Icfepters as Men at Arms"

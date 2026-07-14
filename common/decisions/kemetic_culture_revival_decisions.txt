@@ -1,0 +1,180 @@
+﻿
+
+
+look_for_egyptian_tomb_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_activity.dds"
+	}
+	
+	sort_order = 75
+
+	desc = look_for_egyptian_tomb_decision_desc
+	selection_tooltip = look_for_egyptian_tomb_decision_tooltip
+
+	cooldown = { days = 365 }
+
+    is_shown = {
+    	is_ai = no
+    	NOR = {
+    		has_variable =  searched_for_the_pharaohs_tombs 
+    		has_global_variable = ancient_egyptian_tomb_found 
+    		culture = culture:predynastic_egyptian
+    		culture = culture:middle_egyptian
+    		culture = culture:ancient_egyptian
+    	}
+    	AND = {
+    	    OR = {
+    	        any_county_in_region = {
+                    region = world_africa_north_east
+    	        	this = root.capital_county
+    	        	count >= 1
+    	        }	
+    	    	culture = culture:coptic_culture
+    	    	culture = culture:egyptian
+    	    }    
+    	    OR = {
+    	    	knows_language = language_coptic
+    	    	knows_language = language_kemetic
+    	    	learning > 10
+    	    }
+    	}
+    }    
+
+	effect = {
+		ROOT = {
+			set_variable = {
+				name = searching_for_the_pharaohs_tombs
+				value = 1
+			}
+		}
+		trigger_event = {
+			id = kemetic_revival_event.1
+	    }
+	}
+	
+	ai_check_interval = 60
+
+	ai_potential = {
+		always = no
+	}
+}
+
+study_the_heiroglyphs_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/tgp_poet.dds"
+	}
+	
+	sort_order = 75
+
+	desc = study_the_heiroglyphs_decision_desc
+	selection_tooltip = study_the_heiroglyphs_decision_tooltip
+
+    is_shown = {
+    	is_ai = no
+    	has_global_variable = ancient_egyptian_tomb_found 
+    	NOT = {
+    		OR = {
+    			knows_language = language_egyptian
+    			has_variable = failed_to_dicipher_heiroglyphs
+    			has_variable = studying_heiroglyphs		
+    		}
+    	}
+    	any_directly_owned_province = {
+    		any_county_in_region = {
+                region = ghw_region_egypt
+    		}	    
+    	}
+    }
+
+	effect = {
+		ROOT = {
+			set_variable = {
+				name = studying_heiroglyphs
+				value = 1
+			}
+		}
+		trigger_event = {
+			id = kemetic_revival_event.9
+			days = { 1 2 }
+		}
+	}
+
+	ai_check_interval = 60
+
+	ai_potential = {
+		always = no
+	}
+}
+
+
+#build_tomb_decision = {
+#	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+#
+#	desc = build_tomb_decision_desc
+#	selection_tooltip = build_tomb_decision_tooltip
+#
+#	is_shown = {
+#		faith = {
+#			has_doctrine_parameter = mummification_active
+#		}
+#		NOT = { has_character_flag = built_egyptian_tomb }
+#	}
+
+#	is_valid = {
+#	}
+
+#	is_valid_showing_failures_only = {
+
+#	}
+
+#	effect = {
+		#The modifier will only be active if a character of your dynasty holds it
+#		capital_province = {
+#			county = {
+#				set_variable = {
+#					name = ancestor_to_bury
+#					value = root.var:ancestor_to_bury
+#				}
+#				root = {
+#					send_interface_toast = {
+#						title = Built_egyptian_tomb_decision_toast
+#						left_icon = root
+
+#						prev = {
+#							add_county_modifier = {
+#								modifier = built_egyptian_tomb_in_location
+#							}
+#						}
+#					}
+#				}
+#			}
+#		}
+#		add_character_flag = built_egyptian_tomb
+#		add_piety = high_piety_value
+#		every_vassal = {
+#			faith = {
+#				has_doctrine_parameter = mummification_active
+#			}
+#			custom = built_egyptian_tomb_vassals
+#			add_opinion = {
+#				modifier = pleased_opinion
+#				target = root
+#				opinion = 10
+#			}
+#		}
+#		#Show a warning about it being destroyed if someone outside of your dynasty takes over the county it's built in
+#		custom_description_no_bullet = {
+#			text = build_tomb_decision_warning
+#		}
+#	}
+
+#	ai_check_interval = 36
+	
+#	ai_potential = {
+#		always = yes
+#	}
+
+#	ai_will_do = {
+#		base = 100
+#	}
+#}

@@ -1,0 +1,86 @@
+﻿
+name_list_venetic_tibetan = {
+		cadet_dynasty_names = {
+            dynn_Adro dynn_Akyong dynn_Apang dynn_Arik dynn_Azha dynn_Ba dynn_Ber dynn_Bitsa dynn_Bochung dynn_Chakgong dynn_Chakhung dynn_Chungpa dynn_Dak dynn_Denma dynn_Dilgo dynn_Dong dynn_Drokmi dynn_Dru dynn_Ga dynn_Gazi dynn_Gung dynn_Kyuchok dynn_Mukpo dynn_Ngok dynn_Shen dynn_TsongpO_n dynn_Wangda dynn_Yu dynn_Yungok dynn_Zhak dynn_Zhangpa
+            dynn_tbtvnt_akutiyo dynn_tbtvnt_alabareniyo dynn_tbtvnt_anetiyayo dynn_tbtvnt_apelisika dynn_tbtvnt_arasbetijaka dynn_tbtvnt_boyo dynn_tbtvnt_bokana dynn_tbtvnt_poroyoka dynn_tbtvnt_depiyarika dynn_tbtvnt_debolayayo dynn_tbtvnt_dilikasa dynn_tbtvnt_egetoriyo dynn_tbtvnt_enayo dynn_tbtvnt_phugiyo dynn_tbtvnt_yubantiyo dynn_tbtvnt_kulatabika dynn_tbtvnt_kuparikoniyo dynn_tbtvnt_makana dynn_tbtvnt_nagalakana dynn_tbtvnt_naisoka dynn_tbtvnt_osokasa dynn_tbtvnt_pitamanika dynn_tbtvnt_pomapeteguyayo dynn_tbtvnt_ratebeyo dynn_tbtvnt_resuka dynn_tbtvnt_tibaliyo dynn_tbtvnt_tomatoriyo dynn_tbtvnt_tupeyo dynn_tbtvnt_tarishika dynn_tbtvnt_taritiyoniyo dynn_tbtvnt_uposetiyo dynn_tbtvnt_besatiniyo dynn_tbtvnt_botigeneyo dynn_tbtvnt_botiyomunayo dynn_tbtvnt_botolarika dynn_tbtvnt_boteyosa
+		}
+
+		dynasty_names = {
+	        dynn_Adro dynn_Akyong dynn_Apang dynn_Arik dynn_Azha dynn_Ba dynn_Ber dynn_Bitsa dynn_Bochung dynn_Chakgong dynn_Chakhung dynn_Chungpa dynn_Dak dynn_Denma dynn_Dilgo dynn_Dong dynn_Drokmi dynn_Dru dynn_Ga dynn_Gazi dynn_Gung dynn_Kyuchok dynn_Mukpo dynn_Ngok dynn_Shen dynn_TsongpO_n dynn_Wangda dynn_Yu dynn_Yungok dynn_Zhak dynn_Zhangpa
+            dynn_tbtvnt_akutiyo dynn_tbtvnt_alabareniyo dynn_tbtvnt_anetiyayo dynn_tbtvnt_apelisika dynn_tbtvnt_arasbetijaka dynn_tbtvnt_boyo dynn_tbtvnt_bokana dynn_tbtvnt_poroyoka dynn_tbtvnt_depiyarika dynn_tbtvnt_debolayayo dynn_tbtvnt_dilikasa dynn_tbtvnt_egetoriyo dynn_tbtvnt_enayo dynn_tbtvnt_phugiyo dynn_tbtvnt_yubantiyo dynn_tbtvnt_kulatabika dynn_tbtvnt_kuparikoniyo dynn_tbtvnt_makana dynn_tbtvnt_nagalakana dynn_tbtvnt_naisoka dynn_tbtvnt_osokasa dynn_tbtvnt_pitamanika dynn_tbtvnt_pomapeteguyayo dynn_tbtvnt_ratebeyo dynn_tbtvnt_resuka dynn_tbtvnt_tibaliyo dynn_tbtvnt_tomatoriyo dynn_tbtvnt_tupeyo dynn_tbtvnt_tarishika dynn_tbtvnt_taritiyoniyo dynn_tbtvnt_uposetiyo dynn_tbtvnt_besatiniyo dynn_tbtvnt_botigeneyo dynn_tbtvnt_botiyomunayo dynn_tbtvnt_botolarika dynn_tbtvnt_boteyosa
+		}
+
+		male_names = {
+			70 = {
+            	tbtvnt_aphro tbtvnt_amo tbtvnt_akutsa tbtvnt_alero tbtvnt_ametika tbtvnt_anetiyo tbtvnt_aneto tbtvnt_apelisika tbtvnt_arobo tbtvnt_ariyu tbtvnt_arasbetiyaka tbtvnt_asokola tbtvnt_ato tbtvnt_baito tbtvnt_belene tbtvnt_boyala tbtvnt_boyo tbtvnt_poroyoka tbtvnt_budiyaka tbtvnt_depiyarika tbtvnt_depiyari tbtvnt_dilika tbtvnt_dili tbtvnt_ebo tbtvnt_egetsa tbtvnt_egetora tbtvnt_enayo tbtvnt_eniyo tbtvnt_enetiyo tbtvnt_enogene tbtvnt_erasiniyo tbtvnt_phugo tbtvnt_phonte tbtvnt_phugonte tbtvnt_pheramaito tbtvnt_phugiyo tbtvnt_kayo tbtvnt_karaika tbtvnt_hositakhabo tbtvnt_hubo tbtvnt_huto tbtvnt_yuban tbtvnt_kante tbtvnt_karaman tbtvnt_kasitika tbtvnt_kelosa tbtvnt_keutine tbtvnt_katulisata tbtvnt_kupito tbtvnt_lamushiyo tbtvnt_lantsa tbtvnt_labusika tbtvnt_lemetora tbtvnt_lukasa tbtvnt_metsho tbtvnt_molado tbtvnt_nagalakano tbtvnt_naisoka tbtvnt_naisho tbtvnt_okiyayyo tbtvnt_opasa tbtvnt_osoka tbtvnt_osatsa tbtvnt_panariyo tbtvnt_pelonika tbtvnt_pilapotsa tbtvnt_peleta tbtvnt_ratebeyo tbtvnt_retiye tbtvnt_resuka tbtvnt_shika tbtvnt_suro tbtvnt_tekiyo tbtvnt_tomatoriyo tbtvnt_tarishika tbtvnt_turiyo tbtvnt_uko tbtvnt_urkaliyo tbtvnt_urkala tbtvnt_bante tbtvnt_bantsa tbtvnt_baseno tbtvnt_beyino tbtvnt_beyime tbtvnt_benoni tbtvnt_bekabala tbtvnt_botigene tbtvnt_botiyomuna tbtvnt_boto
+			}
+			30 = {
+				Adzom Aglen Ajidamel Akar Aktsom Amoghasiddi Anenmel Asok AsokdE_ Balpo BardE_ BO_nchung BO_ndak BO_ndE_ BO_nden BO_ndrO_ BO_ndU_ BO_ngO_
+				BO_ngO_n BO_ngyel BO_ngyen BO_nkyi BO_nnE_ BO_npo BO_npoche BO_npodE_ BO_nsong BO_nsung BO_nten BO_ntok BO_ntsang BO_ntsen BO_ntsun Boshay
+				Bumdegon BummE_ Chakna Ceba Cepla Cetan Champa Champo Changchub Chatri ChE_chentsa Chenpa ChidE_ ChidE_tsen Chime ChO_dak ChO_den ChO_drO_n
+				ChO_ejor ChO_gyel ChO_kyap ChO_kyi ChO_mden ChO_phel Chukpo Cimba Dache Dachen Daivika Daktri Dampa Dar Dawa Dechen Dedan Degyel Dekyi DenO_l Denpa
+				Denpo Desho Detrin Detrul DE_tsen DE_tsukgO_n Deu Dhargey Dharmapala Dhondup Diki Dingtri Dompu DO_ndrup DonyO_ Dorje Dorjee Drak Drakpa
+				DrakpadE_ Draktsen DraktsendE_ Dranga Drigum DrimE_ DrogO_n DromtO_n Drongnyen DruksE_ Drupchok Dujom Dusong Dzamling Esho GakyE_ Gampo Gangkarwa
+				Garkan Gawa GE_bum Gedun GE_khO_ Geleg Gemang Gephel GE_sar Getong Ghaden Goba GO_dem Golung GO_n Gongpa GO_ngyel GO_npo GO_podE_ Gongru GO_ntsen
+				GO_sE_ Gunggyel Gungsong Gungtsen Gyagar Gyatso Gyel GyeldE_ Gyelpa Gyelpo GyelsE_ Gyeltore Gyeltsap Gyeltsen Gyeltso GyelwE_ GyurmE_ Isho Jalus
+				JamgO_n Jamhel Jampa Jampo Jamyang Jangbu Jangchup Jekundag Jetsan Jetsun Jidarmel Jigme Jinpa Jinpo Jodrung Jotok Jotra JotsE_ Jowo JowojE_ Ju
+				JungnE_ Kaba Kamala Karma KarsE_ Kasa Kelden Keldroma Kelsang Kelyenmel Khadroma Khalama Khandro Khenchok KhorrE_ KhyentsE_ Kipu Kitsi Kona KO_nchok
+				KongtrU_l Kunchen Kundun Kunga Kungpa Kunsang KU_ntu KU_nzang Kushen KyidE_ Kyipo Langdarma Lek Lekpa Lha Lhachen LhadE_ Lhakpa Lhakyi Lhamo
+				Lhanang Lhundup Lingpa Lobsang LodrO_ LodrO_senggE_ Longtsen LO_ntsen Lotsen Lozang Luga Lukhong Lutsek Mangban Mangnyen Mangpoje Mangsham MangsO_l
+				Mangsong Mangtsen Manggyel ME_ ME_aktsom MengO_ ME_rok Mertri Michewa Mida Migmar Mingma Mipam Mipham Miyo MunE_ Mutik Mutri Muzu Muzuk NakdE_ Nakpo Nam
+				NamchO_ NamdE_ NamdE_tsen Namgyel NamgyeldE_ Namkha Nampo Namri Namzhungtsen Nawang Ngawang Ngodup Ngor Nima Norbu Norzang Nuba Nyandak Nyantsen
+				Nyasig Nyatri NyigO_n Nyima NyimadE_ NyimagO_n Nyingpo Nytari O_dE_tsen O_gyel O_gyen Omade O_poche O_sung O_zer Pabu Pasang Pel Pelden PeldrO_n
+				Pelchen PelgO_nsE_ PelgyigO_n PelkhorrE_ Pelkhortsen Pelkye Pelzangpo PE_ma Pemba Penden Phakpa Phuntsok Phurbu Po PodE_ Ponlob PO_nsE_ Popo Poso
+				Pude Pungse Pungtsen Punimel Rabten Raksita Ramsha Rapsel Razhak Relpachen Rime Rinchen Rinzen Riumel Sachen Sambhota Samdup Samlo Samten
+				Sangye Sashi Seba Selbar SE_nalek Senge Sengemel SenggE_ SenO_l Seupa Sey Shakya Shang Shanglon Shangnang ShentsO_n Sherab ShidU_ Shok Siptri Skamar
+				Somba SO_nam SO_namtsE_ SongngE_ Songtsen SO_nnE_ Sotri Sumnang Sung Sutse Tagbu Takdra Taknang Taknye Taktsab Tarjay Taru Tashi Tawen Temba
+				Tensung Tenzin Tenzing Thamdrin ThayE_ Thekchen Thinley Thokmay ThO_nmi Thothori Thrikhyiding Thubten Tingngezin Tisho Tongtsen Tori Trasel Trashi
+				TrashidE_ TrashigO_n TrashitsE_ Tratapmel TridE_ Tridra Tridring TridU_ Trikyongdar Trimang TrinlE_ Trinring Trinyen Trisong Trisu Trisumje Tritimel
+				Tritok Tritsen Tritsuk Trogyelbum Tromo Trongzhi TsamchO_ TsangdE_ Tsangma TsangmochE_ Tsangpo TsE_bartsen TsE_dE_ TsE_mE_ TsE_mo Tsen TsenchukdE_
+				TsendrO_ Tsenpo Tsensong Tsentsen Tsenye TsE_phel TsE_ring TsE_ten TsE_undU_ TsE_wang Tsugru Tsuktsen Tsultrim Udumtsen Wangchuk Wangdak WangdE_
+				Wangdu Wangpo Wanggyel WO_ser Yaksherpen Yang Yangchen Yangdrin Yanggolung YangtsE_mE_ YE_ YE_lekpo YE_shE_ YE_shE_gyeltsen Yongten Yonten YO_ntsun
+				YU_lsung Yumten Zanam ZangdE_ Zanggyel Zangpa Zangpo Zangtsa Zangtang Zangtsen Zangwa Zapa Zenji Zhangtsun Zhiwa Zhonnu Zigsa Zimun ZindE_ Zonpa Zopa
+				Zungtsen
+			}
+		}
+
+		female_names = {
+            70 = {
+            	tbtvnt_akuta tbtvnt_anetina tbtvnt_apaya tbtvnt_asokoliya tbtvnt_ata tbtvnt_bagasoniya tbtvnt_baitoniya tbtvnt_perigadina tbtvnt_buka tbtvnt_epha tbtvnt_egesatana tbtvnt_egetora tbtvnt_phetiyana tbtvnt_phugonta tbtvnt_pherama tbtvnt_pheramaisata tbtvnt_pheramaisatana tbtvnt_phugiya tbtvnt_phugasiya tbtvnt_iyanta tbtvnt_ikebeyoneya tbtvnt_ituriya tbtvnt_yubantana tbtvnt_kanta tbtvnt_koliya tbtvnt_kuikuta tbtvnt_makana tbtvnt_moladana tbtvnt_musakayalana tbtvnt_musata tbtvnt_neraka tbtvnt_otaniya tbtvnt_rebetoniya tbtvnt_retiya tbtvnt_tainontiya tbtvnt_tarosatiya tbtvnt_urkalena tbtvnt_ushedika tbtvnt_bantekeniya tbtvnt_bena tbtvnt_berakondarana
+            }
+            30 = {
+            	Akar Amala Amrita Belmoza Bhasundara Bhuti BO_nmo Boshay Bumphulwa Bum Busing Ceba Cepla Cham Chesa Chewa Chime Chimza ChO_dak ChO_den ChO_drO_n
+				ChO_ejor ChO_kyi ChO_mden ChO_mo ChO_mo_Lungma ChO_phel ChO_ying Cimba Cogrobza Dakmo Dawa Dechen Dekyi Devitara Dhargey Diki Dohna Dolkar
+				Dolma Dongkar Dorjne Dorjne_Naljorma Draksinmo Dringma Driza Dro DrO_nma DronmalO_n DrO_nnE_ Droza Dunkyi Dzeden Ekadzati Garkan Garma Gawa Gedun
+				Geleg GE_maspranglod GE_mathar Gewa Ghaden Gokarmo Gulang Gyatso Gyelmo GyelmotsU_n Gyeltsen Gyelwa Gyelyum Gyimsheng Hariti Jalus Jammo
+				Jampa Jamyang Jangchup JangchupsagO_n Jangmo Jangmu Jashi Jetsun Jetsunmo Jinmo Jinpa Jomo Jungney Kaba Kamala Karma Kasa Kelsang Kelzang
+				Ketu Keyuri Khadrobum Khadroma Khalama Khandro Khonma Khribang Khrimalod Khritsun Kipu Kitsi Koboza Kona KO_nchok Kunchen Kunga Kungcho
+				Kunphel Kunsang Kunzang Kurukulla Kyeden Kyi Kyimsheng Lasya Leki Lenchikma Lha Lhagyel Lhagyen Lhai Lhakee Lhakpa Lhamgonza Lhami Lhamo LhamotsU_n
+				Lhamu Lhathrimo LhE_ Lhundup Lobsang Lungma Machig Magyel Mangalal Mangmo MangmojE_ MangpojE_ ME_tok Michewa Mida Mongza Mungchang Nagaza Nagzib Naljorma
+				Namkha Nanamza Nele Ngawang Ngodup Nguntre Nima Ninguerre Norbu Nuba Nyandak Nyendrak Nyima Nyitri O_gyen Opame Pabu Pasang Pelden PeldrO_n
+				Pelgyimo PelmO_ Pema Pemala Penden Phoyongsa Phuntsok Phurbulcam Pogong Pongza Popo Poso Rabten Rinchen Rinzen Ritikmen Ritvija Sal Samdup
+				Samlo SanggyE_kha Sangmu Sangye Sashi Seba Sengdroma Sengemo Seupa Shenden Sherab Shonnu Skamar Somba SO_nam Tara Taramo Tashi Temba Tenzin
+				Tenzing Thekchen Thokmay Thridang Thrisong Thubten Togo Took Torma TO_karma Toktokteng Torma Tricham Tridaka Trikar TrimalO_ Trimonyen TrinlE_
+				TritsU_n Tromo TsamchO_ Tsangma Tsangmo Tse Tsenma Tsenmo Tsenmotok Tsephel Tsering Tseten Tsewang TshistO_ng Tsomo Tsogyel TsU_nmo TsU_nmotog
+				Tubten Wangchuck Wangdak Wangdue Wangmo WO_ser Yangchen Yangmo YE_lekmo YE_shE_ Yon Yongten Yondagmo Yumchenmo Zangmo Zhiting Zhyelmo Zhyelmots_Un
+				Zigsa Zopa
+            }
+		}
+
+	dynasty_of_location_prefix = "dynnp_de"
+
+	patronym_suffix_male = "dynnpat_pre_vtcjap_yo"
+	patronym_suffix_female = "dynnpat_pre_vtcjap_ya"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5		
+
+	dynasty_name_first = yes		
+}

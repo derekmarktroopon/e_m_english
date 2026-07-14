@@ -1,0 +1,186 @@
+﻿gothic = {
+	color = gothic
+
+	parents = { proto_germanic }
+	created = 150.1.1
+	
+	ethos = ethos_bellicose
+	heritage = heritage_gothic
+	language = language_gothic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_swords_for_hire
+		tradition_martial_admiration
+		tradition_stand_and_fight
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_gothic
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_16
+	
+	ethnicities = { # Copied from Norse
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
+	}
+}
+
+crimean_gothic = {
+	color = { 85 73 99 }
+
+	parents = { gothic }
+	created = 900.1.1
+	
+	ethos = ethos_stoic
+	heritage = heritage_gothic
+	language = language_gothic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_swords_for_hire
+		tradition_martial_admiration
+		tradition_stand_and_fight
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_late_gothic
+	
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_16
+	
+	ethnicities = { # Copied from Norse
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
+	}
+}
+
+ostrogothic = {
+	color = { 133 132 103 }
+
+	parents = { gothic }
+	created = 500.1.1
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_gothic
+	language = language_gothic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_xenophilic
+		tradition_martial_admiration
+		tradition_stand_and_fight
+		tradition_republican_legacy
+	}
+	
+	name_list = name_list_ostrogothic
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_16
+	
+	ethnicities = { # Copied from Norse
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
+	}
+}
+
+visigothic = {
+	color = { 0.55 0.55 0.15 }
+
+	created = 500.1.1 # Switching the split to 500 - After heavier latinisation
+	parents = { gothic roman }
+
+	ethos = ethos_egalitarian
+	heritage = heritage_iberian
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_visigothic_codes
+		tradition_hit_and_run
+		tradition_martial_admiration
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_malleable_subjects
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	name_list = name_list_visigothic
+	
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+	
+	ethnicities = {
+		100 = mediterranean
+	}
+}
+
+vandal = {
+	color = { 89 64 29 }
+
+	parents = { proto_germanic }
+	created = 150.1.1
+	
+	ethos = ethos_bellicose
+	heritage = heritage_gothic
+	language = language_vandalic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_swords_for_hire
+		tradition_martial_admiration
+		tradition_practiced_pirates
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_vandalic
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_16
+	
+	ethnicities = { # Copied from Norse
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
+	}
+}
+

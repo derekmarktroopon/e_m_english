@@ -1,0 +1,33 @@
+#k_venice
+##d_venice ###################################
+###c_venezia
+2517 = {	#VENEZIA
+	culture = romanoveneti
+	religion = catholic
+	holding = castle_holding
+	special_building_slot = doges_palace_01
+	special_building = doges_palace_01
+    620.1.1 = {
+        culture = venetian
+    }
+	
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			curtain_walls_01
+			military_camps_01
+		}
+	}
+}
+
+###c_veneto
+2506 = {	#MESTRE
+
+	religion = catholic
+	culture = romanoveneti
+	holding = castle_holding
+	
+	620.1.1 = {
+        culture = venetian
+    }
+}

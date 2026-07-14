@@ -1,0 +1,47 @@
+﻿l_english:
+ ############################################################
+ # Prefixes #################################################
+ ############################################################
+
+ dynnpat_suf_ios_pi:0 "ios"
+ dynnpat_suf_ia_pi:0 "ia"
+
+ ############################################################
+ # Dynasty Names ############################################
+ ############################################################
+
+ dynn_Enokleuios:0 "Enokleuios"
+ dynn_Gaiujios:0 "Gaiujios"
+ dynn_Gnaiuios:0 "Gnaiuios"
+ dynn_Kluthednjios:0 "Kluthednjios"
+ dynn_Loukjios:0 "Loukjios"
+ dynn_Septemios:0 "Septemios"
+ dynn_Urukleuios:0 "Urukleuios"
+ dynn_Uesukleuios:0 "Uesukleuios"
+ dynn_Uoltigenios:0 "Uoltigenios"
+ dynn_Enogenios:0 "Enogenios"
+ dynn_Fugigenios:0 "Fugigenios"
+
+ Enokleues:0 "Enokleues"
+ Gaiujos:0 "Gaiujos"
+ Gnaiuos:0 "Gnaiuos"
+ Kluthednjos:0 "Kluthednjos"
+ Loukjos:0 "Loukjos"
+ Septemos:0 "Septemos"
+ Urukleues:0 "Urukleues"
+ Uesukleues:0 "Uesukleues"
+ Uoltigenes:0 "Uoltigenes"
+ Enogenes:0 "Enogenes"
+ Fugigenes:0 "Fugigenes"
+
+ Enokleua:0 "Enokleua"
+ Gaiuja:0 "Gaiuja"
+ Gnaiua:0 "Gnaiua"
+ Kluthednja:0 "Kluthednja"
+ Loukja:0 "Loukja"
+ Septema:0 "Septema"
+ Urukleua:0 "Urukleua"
+ Uesukleua:0 "Uesukleua"
+ Uoltigena:0 "Uoltigena"
+ Enogena:0 "Enogena"
+ Fugigena:0 "Fugigena"

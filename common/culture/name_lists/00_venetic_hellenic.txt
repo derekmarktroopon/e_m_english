@@ -1,0 +1,147 @@
+﻿name_list_uenetoi = {
+	cadet_dynasty_names = {
+    	#"dynn_Kantakouzenos" "dynn_Palaiologos" "dynn_Komnenos" "dynn_Macrodoukas" "dynn_Aineidas" "dynn_Kantakouzenos" "dynn_Kastriotis" "dynn_Doukas_Kamateros" "dynn_Skleros" "dynn_Palaiologos" "dynn_Makrembolites" "dynn_Botaneiates" "dynn_Diogenes" "dynn_Komnenos" "dynn_Monomachos" "dynn_Argyros" "dynn_Kourkouas" "dynn_Phokas" "dynn_Stryphnos" "dynn_Gabras" "dynn_Aaron" "dynn_Grammatikos" "dynn_Zeno" "dynn_Bua_Spatas" "dynn_Gavalas" "dynn_Axuchos" "dynn_Kamonas" "dynn_Asidenos" "dynn_Komnenos_Doukas" "dynn_Karatzas" "dynn_Amiroutzes" "dynn_Bessarion" "dynn_Callistus" "dynn_Chalkokondyles" "dynn_Gazis" "dynn_Kourtesios" "dynn_Kallistos" "dynn_Kladas"
+		dynn_grkvnt_akoutios dynn_grkvnt_albarenios dynn_grkvnt_anteiaios dynn_grkvnt_aplisikos dynn_grkvnt_arspetiakos dynn_grkvnt_boios dynn_grkvnt_boiknos dynn_grkvnt_broiokos dynn_grkvnt_deipiarikos dynn_grkvnt_deibolaios dynn_grkvnt_dillikos dynn_grkvnt_egetorios dynn_grkvnt_einaios dynn_grkvnt_phougios dynn_grkvnt_ioubantios dynn_grkvnt_kloutauikos dynn_grkvnt_kuprikonios dynn_grkvnt_makknos dynn_grkvnt_nagalknos dynn_grkvnt_naisonkos dynn_grkvnt_ossokos dynn_grkvnt_pittamnikos dynn_grkvnt_pompetegouaios dynn_grkvnt_raitebios dynn_grkvnt_resounkos dynn_grkvnt_tibalios dynn_grkvnt_tomatorios dynn_grkvnt_toupeios dynn_grkvnt_trisikos dynn_grkvnt_tritionios dynn_grkvnt_ouposetios dynn_grkvnt_bestinios dynn_grkvnt_boltigeneios dynn_grkvnt_boltiomnios dynn_grkvnt_boltolarikos dynn_grkvnt_boteios
+	}
+
+	dynasty_names = {
+		#"dynn_Kantakouzenos" "dynn_Palaiologos" "dynn_Komnenos" "dynn_Macrodoukas" "dynn_Aineidas" "dynn_Kantakouzenos" "dynn_Kastriotis" "dynn_Doukas_Kamateros" "dynn_Skleros" "dynn_Palaiologos" "dynn_Makrembolites" "dynn_Botaneiates" "dynn_Diogenes" "dynn_Komnenos" "dynn_Monomachos" "dynn_Argyros" "dynn_Kourkouas" "dynn_Phokas" "dynn_Stryphnos" "dynn_Gabras" "dynn_Aaron" "dynn_Grammatikos" "dynn_Zeno" "dynn_Bua_Spatas" "dynn_Gavalas" "dynn_Axuchos" "dynn_Kamonas" "dynn_Asidenos" "dynn_Komnenos_Doukas" "dynn_Karatzas" "dynn_Amiroutzes" "dynn_Bessarion" "dynn_Callistus" "dynn_Chalkokondyles" "dynn_Gazis" "dynn_Kourtesios" "dynn_Kallistos" "dynn_Kladas"
+		dynn_grkvnt_akoutios dynn_grkvnt_albarenios dynn_grkvnt_anteiaios dynn_grkvnt_aplisikos dynn_grkvnt_arspetiakos dynn_grkvnt_boios dynn_grkvnt_boiknos dynn_grkvnt_broiokos dynn_grkvnt_deipiarikos dynn_grkvnt_deibolaios dynn_grkvnt_dillikos dynn_grkvnt_egetorios dynn_grkvnt_einaios dynn_grkvnt_phougios dynn_grkvnt_ioubantios dynn_grkvnt_kloutauikos dynn_grkvnt_kuprikonios dynn_grkvnt_makknos dynn_grkvnt_nagalknos dynn_grkvnt_naisonkos dynn_grkvnt_ossokos dynn_grkvnt_pittamnikos dynn_grkvnt_pompetegouaios dynn_grkvnt_raitebios dynn_grkvnt_resounkos dynn_grkvnt_tibalios dynn_grkvnt_tomatorios dynn_grkvnt_toupeios dynn_grkvnt_trisikos dynn_grkvnt_tritionios dynn_grkvnt_ouposetios dynn_grkvnt_bestinios dynn_grkvnt_boltigeneios dynn_grkvnt_boltiomnios dynn_grkvnt_boltolarikos dynn_grkvnt_boteios
+	}
+
+	male_names = {
+		#50 = {
+			grkvnt_aphros grkvnt_aimos grkvnt_akoutos grkvnt_aleros grkvnt_ametikos grkvnt_andetios grkvnt_andetos grkvnt_aplisikos grkvnt_arbos grkvnt_arion grkvnt_arspetiakos grkvnt_askolos grkvnt_attos grkvnt_baitos grkvnt_bellenes grkvnt_boialos grkvnt_boios grkvnt_broiokos grkvnt_boudiakos grkvnt_deipiarikos grkvnt_deipiares grkvnt_dillikos grkvnt_dillis grkvnt_ebos grkvnt_egestes grkvnt_egetor grkvnt_einaios grkvnt_enios grkvnt_enetios grkvnt_enogenes grkvnt_ersinos grkvnt_pheugos grkvnt_phontes grkvnt_phougontes grkvnt_phremaistos grkvnt_phugios grkvnt_gaios grkvnt_graikos grkvnt_hostichabos grkvnt_oybos grkvnt_huttos grkvnt_ioubantes grkvnt_kantes grkvnt_karamnos grkvnt_kastikos grkvnt_kellos grkvnt_keutines grkvnt_ktulistos grkvnt_kouitos grkvnt_lamousios grkvnt_lantes grkvnt_lauskos grkvnt_lemetor grkvnt_loux grkvnt_metsos grkvnt_moldos grkvnt_nagalknos grkvnt_naisonkos grkvnt_naisos grkvnt_okiaios grkvnt_oppos grkvnt_ossokos grkvnt_ostes grkvnt_panarios grkvnt_pelonikos grkvnt_pilpotes grkvnt_pledes grkvnt_raitebios grkvnt_reities grkvnt_resounkos grkvnt_sikos grkvnt_suros grkvnt_tekios grkvnt_tomatorios grkvnt_trisikos grkvnt_tourion grkvnt_oukos grkvnt_ourkleios grkvnt_ourkles grkvnt_bantes grkvnt_bassenos grkvnt_beignos grkvnt_beimes grkvnt_bennones grkvnt_berkbalos grkvnt_boltigenes grkvnt_boltiomnos grkvnt_botos
+		#}
+		#50 = {
+			#Akakios Alexandros Alexios Anastasios Anatolios Andreas Andronikos Anthemios Anthimos Antiochos Apollonios Arsenios Artemios Athanasios Bardas Bartholomaios Basileios Belisarios Boethios Bosporios Christophoros Chrysanthos Chrysogonos Damianos Demetrios Diogenes Dionysios Dorotheos Eirenaios Eudoxios Eustratios Eugenios Euphemios Eusebios Eustathios Evangelos Gabriel Gennadios Georgios Gerasimos Germanos Gregoras Gregorios Hektorios Helias Herakleios Hierotheos Himerios Hippolytos Hypatios Iakobos Ignatios Innokentios Ioannes Ioannikios Iordanes Isaakios Isaias Isidoros Kaisarios Kallinikos Kallistos Komitas Konstas Kosmas Kyriakos Kyrillos Kyros Lazaros Leon Leontios Loukas Makarios Manuel Matthaios Maurikios Megistos Meletios Methodios Michael Narses Neophytos Nikephoros Niketas Nikodemos Nikolaos Niphon Orestes Pamphilios Pankratios Pantoleon Paschalis Pelagios Philaretos Philippos Philotheos Phokas Photios Polykarpos Porphyrios Prokopios Pyrros Raphail Sabas Samuel Serapion Sebastianos Sergios Stephanos Staurakios Symeon Symmachos Theocharistos Theodoros Theodosios Theodotos Theodoulos Theoktistos Theophanes Theophilos Theophylaktos Thomas Timotheos Tryphon Zacharias Zenobios Zenon Aristarchus Aristarchos
+		#}
+	}
+
+	female_names = {
+		#50 = {
+        	grkvnt_akouta grkvnt_andetine grkvnt_apaia grkvnt_askolia grkvnt_atta grkvnt_bagsonia grkvnt_baitonia grkvnt_brigdina grkvnt_boukka grkvnt_ebpha grkvnt_epha grkvnt_egestena grkvnt_egetora grkvnt_phetiane grkvnt_phougonta grkvnt_phrema grkvnt_phremaista grkvnt_phremaistina grkvnt_phugia grkvnt_phugsia grkvnt_ianta grkvnt_ikeueioneia grkvnt_itouria grkvnt_ioubantena grkvnt_kanta grkvnt_kolia grkvnt_kuikouta grkvnt_makna grkvnt_moldena grkvnt_mouskialina grkvnt_mousta grkvnt_neirka grkvnt_nerka grkvnt_otinia grkvnt_rebetonia grkvnt_reitia grkvnt_tainontia grkvnt_trostia grkvnt_ourkleina grkvnt_ousedika grkvnt_bantkenia grkvnt_benna grkvnt_berkondarna
+		#}
+		#50 = {
+	        #Adriane Agathe Agne Aikaterine Alexandra Alexeia Anastasia Anna Anthe Anthousa Antipatra Apollonia Athanasia Barbara Basillike
+			#Chrysogone Damiane Demetra Dionysia Dorothea Eirene Elaiodora Epiphania Eudokia Eudoxia Eugenia Eulalia Eunike Euphemia Euphrasia Euphrosyne
+			#Eupraxia Eusebia Eustathia Evanthia Gabrielia Garyphallia Georgia Gregoria Helene Hypatia Ioanna Kale Kyra Kyriake
+			#Leontia Margarita Maria Markia Martha Melissa Nikarete Nikoletta Nonna Parthena Pavlina Pelagia Philippa Phyllis Pulcheria Rhodanthe Romylia Sergia Sibylla
+			#Simonis Sophia Stephania Thekla Theochariste Theodora Theodosia Theognosia Theoktiste Theophano Thomais Valeria Viviana Xene Zenobia Zoe
+		#}
+	}
+
+	dynasty_of_location_prefix = "dynnp_de"
+	
+
+	#mercenary_names = {
+		#{ name = "mercenary_company_cretans" }
+		#{ name = "mercenary_company_heruli" }
+		#{ name = "mercenary_company_hoplites_of_place" }
+	#}		
+
+}
+
+name_list_venetic_armenian = {
+	cadet_dynasty_names = {
+    	dynn_armvnt_akotyan dynn_armvnt_albarenyan dynn_armvnt_anteyan dynn_armvnt_apliskyan dynn_armvnt_arspetjakyan dynn_armvnt_boyan dynn_armvnt_boykanyan dynn_armvnt_brojakyan dynn_armvnt_tepjarikyan dynn_armvnt_teyvolyan dynn_armvnt_dillikyan dynn_armvnt_yegetoryan dynn_armvnt_eynyan dynn_armvnt_pukyan dynn_armvnt_yuvantyan dynn_armvnt_klutavyan dynn_armvnt_kuprikyan dynn_armvnt_maknyan dynn_armvnt_nagalknyan dynn_armvnt_naysonkyan dynn_armvnt_ossokyan dynn_armvnt_pitamnigyan dynn_armvnt_pompetegyan dynn_armvnt_raidivyan dynn_armvnt_resunkyan dynn_armvnt_tivalyan dynn_armvnt_tomatoryan dynn_armvnt_topyan dynn_armvnt_trishikyan dynn_armvnt_tridinyan dynn_armvnt_uposdyan dynn_armvnt_vestinyan dynn_armvnt_voltikenyan dynn_armvnt_voltomyan dynn_armvnt_voldarikyan dynn_armvnt_voteyan
+	}
+
+	dynasty_names = {
+		dynn_armvnt_akotyan dynn_armvnt_albarenyan dynn_armvnt_anteyan dynn_armvnt_apliskyan dynn_armvnt_arspetjakyan dynn_armvnt_boyan dynn_armvnt_boykanyan dynn_armvnt_brojakyan dynn_armvnt_tepjarikyan dynn_armvnt_teyvolyan dynn_armvnt_dillikyan dynn_armvnt_yegetoryan dynn_armvnt_eynyan dynn_armvnt_pukyan dynn_armvnt_yuvantyan dynn_armvnt_klutavyan dynn_armvnt_kuprikyan dynn_armvnt_maknyan dynn_armvnt_nagalknyan dynn_armvnt_naysonkyan dynn_armvnt_ossokyan dynn_armvnt_pitamnigyan dynn_armvnt_pompetegyan dynn_armvnt_raidivyan dynn_armvnt_resunkyan dynn_armvnt_tivalyan dynn_armvnt_tomatoryan dynn_armvnt_topyan dynn_armvnt_trishikyan dynn_armvnt_tridinyan dynn_armvnt_uposdyan dynn_armvnt_vestinyan dynn_armvnt_voltikenyan dynn_armvnt_voltomyan dynn_armvnt_voldarikyan dynn_armvnt_voteyan
+	}
+
+	male_names = {
+		armvnt_afros armvnt_aymo armvnt_akots armvnt_alero armvnt_amedikos armvnt_andedos armvnt_andetos armvnt_apliskos armvnt_arbos armvnt_aryuns armvnt_arspetakos armvnt_askolos armvnt_ato armvnt_baytos armvnt_pellen armvnt_boyals armvnt_boyos armvnt_brojakos armvnt_putyakos armvnt_tepjarikos armvnt_tepjaris armvnt_dilikos armvnt_dilis armvnt_evos armvnt_yegets armvnt_yegetor armvnt_enayo armvnt_enijos armvnt_enetos armvnt_enogen armvnt_ersinos armvnt_pugo armvnt_pont armvnt_pugont armvnt_premaistos armvnt_pugos armvnt_gayos armvnt_graykos armvnt_hostavos armvnt_hovos armvnt_hutos armvnt_yuvants armvnt_kant armvnt_karams armvnt_kastikos armvnt_kellos armvnt_kutines armvnt_tulistos armvnt_kvito armvnt_lamusyo armvnt_lants armvnt_lavskos armvnt_lemetor armvnt_luks armvnt_metso armvnt_moldo armvnt_nagalknos armvnt_naysonkos armvnt_nayshos armvnt_okiayos armvnt_oppos armvnt_ossokos armvnt_osts armvnt_panaryos armvnt_pelonikos armvnt_pilpots armvnt_pledos armvnt_raydevios armvnt_reyt armvnt_resunkos armvnt_shikos armvnt_suros armvnt_tekos armvnt_tomatoros armvnt_trishikos armvnt_turo armvnt_uko armvnt_urkleyos armvnt_urklos armvnt_vant armvnt_vants armvnt_vaseno armvnt_vengos armvnt_veymos armvnt_vennonis armvnt_verkvalos armvnt_voltigen armvnt_voltiomnos armvnt_voto
+	}
+
+	female_names = {
+		armvnt_akota armvnt_andedina armvnt_apaya armvnt_askolia armvnt_ata armvnt_baksonia armvnt_baydonia armvnt_briktina armvnt_puka armvnt_epa armvnt_yegestna armvnt_yegetora armvnt_pediana armvnt_pugonda armvnt_prema armvnt_premaida armvnt_premaisna armvnt_pugia armvnt_puksia armvnt_yanda armvnt_ikeveyane armvnt_iturea armvnt_yuvantsna armvnt_kanda armvnt_kolia armvnt_kokota armvnt_makena armvnt_moldena armvnt_muskilana armvnt_mosta armvnt_nerika armvnt_nerka armvnt_otnya armvnt_repetonia armvnt_reitea armvnt_taynondia armvnt_trosdia armvnt_urklena armvnt_ushedika armvnt_vandkena armvnt_vena armvnt_verkondarna
+	}
+
+	dynasty_of_location_prefix = "dynnp_de"	
+
+}
+
+name_list_venetic_armenian_biblical = {
+	cadet_dynasty_names = {
+    	dynn_armvnt_akotyan dynn_armvnt_albarenyan dynn_armvnt_anteyan dynn_armvnt_apliskyan dynn_armvnt_arspetjakyan dynn_armvnt_boyan dynn_armvnt_boykanyan dynn_armvnt_brojakyan dynn_armvnt_tepjarikyan dynn_armvnt_teyvolyan dynn_armvnt_dillikyan dynn_armvnt_yegetoryan dynn_armvnt_eynyan dynn_armvnt_pukyan dynn_armvnt_yuvantyan dynn_armvnt_klutavyan dynn_armvnt_kuprikyan dynn_armvnt_maknyan dynn_armvnt_nagalknyan dynn_armvnt_naysonkyan dynn_armvnt_ossokyan dynn_armvnt_pitamnigyan dynn_armvnt_pompetegyan dynn_armvnt_raidivyan dynn_armvnt_resunkyan dynn_armvnt_tivalyan dynn_armvnt_tomatoryan dynn_armvnt_topyan dynn_armvnt_trishikyan dynn_armvnt_tridinyan dynn_armvnt_uposdyan dynn_armvnt_vestinyan dynn_armvnt_voltikenyan dynn_armvnt_voltomyan dynn_armvnt_voldarikyan dynn_armvnt_voteyan
+	}
+
+	dynasty_names = {
+		dynn_armvnt_akotyan dynn_armvnt_albarenyan dynn_armvnt_anteyan dynn_armvnt_apliskyan dynn_armvnt_arspetjakyan dynn_armvnt_boyan dynn_armvnt_boykanyan dynn_armvnt_brojakyan dynn_armvnt_tepjarikyan dynn_armvnt_teyvolyan dynn_armvnt_dillikyan dynn_armvnt_yegetoryan dynn_armvnt_eynyan dynn_armvnt_pukyan dynn_armvnt_yuvantyan dynn_armvnt_klutavyan dynn_armvnt_kuprikyan dynn_armvnt_maknyan dynn_armvnt_nagalknyan dynn_armvnt_naysonkyan dynn_armvnt_ossokyan dynn_armvnt_pitamnigyan dynn_armvnt_pompetegyan dynn_armvnt_raidivyan dynn_armvnt_resunkyan dynn_armvnt_tivalyan dynn_armvnt_tomatoryan dynn_armvnt_topyan dynn_armvnt_trishikyan dynn_armvnt_tridinyan dynn_armvnt_uposdyan dynn_armvnt_vestinyan dynn_armvnt_voltikenyan dynn_armvnt_voltomyan dynn_armvnt_voldarikyan dynn_armvnt_voteyan
+	}
+
+	male_names = {
+		70 = {
+			armvnt_afros armvnt_aymo armvnt_akots armvnt_alero armvnt_amedikos armvnt_andedos armvnt_andetos armvnt_apliskos armvnt_arbos armvnt_aryuns armvnt_arspetakos armvnt_askolos armvnt_ato armvnt_baytos armvnt_pellen armvnt_boyals armvnt_boyos armvnt_brojakos armvnt_putyakos armvnt_tepjarikos armvnt_tepjaris armvnt_dilikos armvnt_dilis armvnt_evos armvnt_yegets armvnt_yegetor armvnt_enayo armvnt_enijos armvnt_enetos armvnt_enogen armvnt_ersinos armvnt_pugo armvnt_pont armvnt_pugont armvnt_premaistos armvnt_pugos armvnt_gayos armvnt_graykos armvnt_hostavos armvnt_hovos armvnt_hutos armvnt_yuvants armvnt_kant armvnt_karams armvnt_kastikos armvnt_kellos armvnt_kutines armvnt_tulistos armvnt_kvito armvnt_lamusyo armvnt_lants armvnt_lavskos armvnt_lemetor armvnt_luks armvnt_metso armvnt_moldo armvnt_nagalknos armvnt_naysonkos armvnt_nayshos armvnt_okiayos armvnt_oppos armvnt_ossokos armvnt_osts armvnt_panaryos armvnt_pelonikos armvnt_pilpots armvnt_pledos armvnt_raydevios armvnt_reyt armvnt_resunkos armvnt_shikos armvnt_suros armvnt_tekos armvnt_tomatoros armvnt_trishikos armvnt_turo armvnt_uko armvnt_urkleyos armvnt_urklos armvnt_vant armvnt_vants armvnt_vaseno armvnt_vengos armvnt_veymos armvnt_vennonis armvnt_verkvalos armvnt_voltigen armvnt_voltiomnos armvnt_voto
+		}
+		30 = {
+			Bedros Davit Hagop Hovhannes Hovsep Kapriel Mikayel Sahag Taniel Tovmas Yeghishe Yeghise Ananias Joab 
+		}
+	}
+
+	female_names = {
+		70 = {
+			armvnt_akota armvnt_andedina armvnt_apaya armvnt_askolia armvnt_ata armvnt_baksonia armvnt_baydonia armvnt_briktina armvnt_puka armvnt_epa armvnt_epa armvnt_yegestna armvnt_yegetora armvnt_pediana armvnt_pugonda armvnt_prema armvnt_premaida armvnt_premaisna armvnt_pugia armvnt_puksia armvnt_yanda armvnt_ikeveyane armvnt_iturea armvnt_yuvantsna armvnt_kanda armvnt_kolia armvnt_kokota armvnt_makena armvnt_moldena armvnt_muskilana armvnt_mosta armvnt_nerika armvnt_nerka armvnt_otnya armvnt_repetonia armvnt_reitea armvnt_taynondia armvnt_trosdia armvnt_urklena armvnt_ushedika armvnt_vandkena armvnt_vena armvnt_verkondarna
+		}
+		30 = {
+			Anna Eliz Zabel Maria Mariyam Ovsanna Tamar Yeva
+		}
+	}
+
+	dynasty_of_location_prefix = "dynnp_de"	
+
+}
+
+name_list_venetic_georgian = {
+	cadet_dynasty_names = {
+    	dynn_grgvnt_akuti dynn_grgvnt_albareni dynn_grgvnt_antiai dynn_grgvnt_aplisiki dynn_grgvnt_arspetijaki dynn_grgvnt_boii dynn_grgvnt_boikni dynn_grgvnt_broioki dynn_grgvnt_deipariki dynn_grgvnt_deivola dynn_grgvnt_diliki dynn_grgvnt_egetori dynn_grgvnt_einai dynn_grgvnt_fugi dynn_grgvnt_ivanti dynn_grgvnt_kutavaki dynn_grgvnt_kuprikuni dynn_grgvnt_makni dynn_grgvnt_nagalkani dynn_grgvnt_naisonki dynn_grgvnt_osoki dynn_grgvnt_pitamiki dynn_grgvnt_pompetegua dynn_grgvnt_raitevi dynn_grgvnt_resunki dynn_grgvnt_tivali dynn_grgvnt_tomatori dynn_grgvnt_tupi dynn_grgvnt_trishiki dynn_grgvnt_tritioni dynn_grgvnt_uposeti dynn_grgvnt_vestini dynn_grgvnt_voltigene dynn_grgvnt_voltiomi dynn_grgvnt_voltolariki dynn_grgvnt_voteii
+	}
+
+	dynasty_names = {
+		dynn_grgvnt_akuti dynn_grgvnt_albareni dynn_grgvnt_antiai dynn_grgvnt_aplisiki dynn_grgvnt_arspetijaki dynn_grgvnt_boii dynn_grgvnt_boikni dynn_grgvnt_broioki dynn_grgvnt_deipariki dynn_grgvnt_deivola dynn_grgvnt_diliki dynn_grgvnt_egetori dynn_grgvnt_einai dynn_grgvnt_fugi dynn_grgvnt_ivanti dynn_grgvnt_kutavaki dynn_grgvnt_kuprikuni dynn_grgvnt_makni dynn_grgvnt_nagalkani dynn_grgvnt_naisonki dynn_grgvnt_osoki dynn_grgvnt_pitamiki dynn_grgvnt_pompetegua dynn_grgvnt_raitevi dynn_grgvnt_resunki dynn_grgvnt_tivali dynn_grgvnt_tomatori dynn_grgvnt_tupi dynn_grgvnt_trishiki dynn_grgvnt_tritioni dynn_grgvnt_uposeti dynn_grgvnt_vestini dynn_grgvnt_voltigene dynn_grgvnt_voltiomi dynn_grgvnt_voltolariki dynn_grgvnt_voteii
+	}
+
+	male_names = {
+		grgvnt_afro grgvnt_aimo grgvnt_akutsi grgvnt_alero grgvnt_ametiko grgvnt_andeti grgvnt_aplisiko grgvnt_arbo grgvnt_ariuni grgvnt_arspetiako grgvnt_askolo grgvnt_ato grgvnt_baito grgvnt_belleni grgvnt_boiali grgvnt_boi grgvnt_broioko grgvnt_budiako grgvnt_deipariko grgvnt_deipari grgvnt_diliko grgvnt_dili grgvnt_ebo grgvnt_egesti grgvnt_egetori grgvnt_eina grgvnt_eni grgvnt_eneti grgvnt_enogene grgvnt_ersini grgvnt_pugo grgvnt_ponti grgvnt_pugonte grgvnt_premaisto grgvnt_pugi grgvnt_gai grgvnt_graiko grgvnt_hostavo grgvnt_hovo grgvnt_huti grgvnt_ivanti grgvnt_kante grgvnt_karami grgvnt_kastiko grgvnt_kelo grgvnt_kutine grgvnt_tulisto grgvnt_kvito grgvnt_lamosi grgvnt_lanti grgvnt_lavsiko grgvnt_lemetori grgvnt_luksi grgvnt_metsho grgvnt_moldo grgvnt_nagalkoni grgvnt_naisonko grgvnt_naishi grgvnt_okiadji grgvnt_opo grgvnt_osoko grgvnt_osti grgvnt_panari grgvnt_peloniko grgvnt_pilpoti grgvnt_plede grgvnt_raitevi grgvnt_reitie grgvnt_resunko grgvnt_shiko grgvnt_suro grgvnt_teki grgvnt_tomatori grgvnt_trishiko grgvnt_turio grgvnt_uko grgvnt_urkli grgvnt_urkle grgvnt_vante grgvnt_vanti grgvnt_vaseno grgvnt_veigno grgvnt_veime grgvnt_venoni grgvnt_verkvalo grgvnt_voltikene grgvnt_voltiomi grgvnt_voto
+	}
+
+	female_names = {
+		grgvnt_akuta grgvnt_andetina grgvnt_apaia grgvnt_askolia grgvnt_ata grgvnt_basonia grgvnt_baitonia grgvnt_bridina grgvnt_buka grgvnt_ebafa grgvnt_efa grgvnt_egestina grgvnt_egetora grgvnt_petiana grgvnt_pugonta grgvnt_prema grgvnt_premasta grgvnt_premastina grgvnt_pugia grgvnt_pusia grgvnt_ianta grgvnt_ikeviona grgvnt_ituria grgvnt_ivantina grgvnt_kanta grgvnt_kolia grgvnt_kukuta grgvnt_makina grgvnt_moldina grgvnt_muskalina grgvnt_musta grgvnt_nerka grgvnt_otnia grgvnt_repetonia grgvnt_reitia grgvnt_tainontia grgvnt_trostia grgvnt_urkleina grgvnt_ushedika grgvnt_vankenia grgvnt_vena grgvnt_verkondarna
+	}
+
+	dynasty_of_location_prefix = "dynnp_di"	
+
+}
+
+name_list_venetic_georgian_biblical = {
+	cadet_dynasty_names = {
+    	dynn_grgvnt_akuti dynn_grgvnt_albareni dynn_grgvnt_antiai dynn_grgvnt_aplisiki dynn_grgvnt_arspetijaki dynn_grgvnt_boii dynn_grgvnt_boikni dynn_grgvnt_broioki dynn_grgvnt_deipariki dynn_grgvnt_deivola dynn_grgvnt_diliki dynn_grgvnt_egetori dynn_grgvnt_einai dynn_grgvnt_fugi dynn_grgvnt_ivanti dynn_grgvnt_kutavaki dynn_grgvnt_kuprikuni dynn_grgvnt_makni dynn_grgvnt_nagalkani dynn_grgvnt_naisonki dynn_grgvnt_osoki dynn_grgvnt_pitamiki dynn_grgvnt_pompetegua dynn_grgvnt_raitevi dynn_grgvnt_resunki dynn_grgvnt_tivali dynn_grgvnt_tomatori dynn_grgvnt_tupi dynn_grgvnt_trishiki dynn_grgvnt_tritioni dynn_grgvnt_uposeti dynn_grgvnt_vestini dynn_grgvnt_voltigene dynn_grgvnt_voltiomi dynn_grgvnt_voltolariki dynn_grgvnt_voteii
+	}
+
+	dynasty_names = {
+		dynn_grgvnt_akuti dynn_grgvnt_albareni dynn_grgvnt_antiai dynn_grgvnt_aplisiki dynn_grgvnt_arspetijaki dynn_grgvnt_boii dynn_grgvnt_boikni dynn_grgvnt_broioki dynn_grgvnt_deipariki dynn_grgvnt_deivola dynn_grgvnt_diliki dynn_grgvnt_egetori dynn_grgvnt_einai dynn_grgvnt_fugi dynn_grgvnt_ivanti dynn_grgvnt_kutavaki dynn_grgvnt_kuprikuni dynn_grgvnt_makni dynn_grgvnt_nagalkani dynn_grgvnt_naisonki dynn_grgvnt_osoki dynn_grgvnt_pitamiki dynn_grgvnt_pompetegua dynn_grgvnt_raitevi dynn_grgvnt_resunki dynn_grgvnt_tivali dynn_grgvnt_tomatori dynn_grgvnt_tupi dynn_grgvnt_trishiki dynn_grgvnt_tritioni dynn_grgvnt_uposeti dynn_grgvnt_vestini dynn_grgvnt_voltigene dynn_grgvnt_voltiomi dynn_grgvnt_voltolariki dynn_grgvnt_voteii
+	}
+
+	male_names = {
+		70 = {
+			grgvnt_afro grgvnt_aimo grgvnt_akutsi grgvnt_alero grgvnt_ametiko grgvnt_andeti grgvnt_aplisiko grgvnt_arbo grgvnt_ariuni grgvnt_arspetiako grgvnt_askolo grgvnt_ato grgvnt_baito grgvnt_belleni grgvnt_boiali grgvnt_boi grgvnt_broioko grgvnt_budiako grgvnt_deipariko grgvnt_deipari grgvnt_diliko grgvnt_dili grgvnt_ebo grgvnt_egesti grgvnt_egetori grgvnt_eina grgvnt_eni grgvnt_eneti grgvnt_enogene grgvnt_ersini grgvnt_pugo grgvnt_ponti grgvnt_pugonte grgvnt_premaisto grgvnt_pugi grgvnt_gai grgvnt_graiko grgvnt_hostavo grgvnt_hovo grgvnt_huti grgvnt_ivanti grgvnt_kante grgvnt_karami grgvnt_kastiko grgvnt_kelo grgvnt_kutine grgvnt_tulisto grgvnt_kvito grgvnt_lamosi grgvnt_lanti grgvnt_lavsiko grgvnt_lemetori grgvnt_luksi grgvnt_metsho grgvnt_moldo grgvnt_nagalkoni grgvnt_naisonko grgvnt_naishi grgvnt_okiadji grgvnt_opo grgvnt_osoko grgvnt_osti grgvnt_panari grgvnt_peloniko grgvnt_pilpoti grgvnt_plede grgvnt_raitevi grgvnt_reitie grgvnt_resunko grgvnt_shiko grgvnt_suro grgvnt_teki grgvnt_tomatori grgvnt_trishiko grgvnt_turio grgvnt_uko grgvnt_urkli grgvnt_urkle grgvnt_vante grgvnt_vanti grgvnt_vaseno grgvnt_veigno grgvnt_veime grgvnt_venoni grgvnt_verkvalo grgvnt_voltikene grgvnt_voltiomi grgvnt_voto
+		}
+		30 = {
+			Davit Gabrieli Giorgi Iese Ioane Mikheil Nikoloz Samoeli Simon
+		}
+	}
+
+	female_names = {
+		70 = {
+			grgvnt_akuta grgvnt_andetina grgvnt_apaia grgvnt_askolia grgvnt_ata grgvnt_basonia grgvnt_baitonia grgvnt_bridina grgvnt_buka grgvnt_ebafa grgvnt_efa grgvnt_egestina grgvnt_egetora grgvnt_petiana grgvnt_pugonta grgvnt_prema grgvnt_premasta grgvnt_premastina grgvnt_pugia grgvnt_pusia grgvnt_ianta grgvnt_ikeviona grgvnt_ituria grgvnt_ivantina grgvnt_kanta grgvnt_kolia grgvnt_kukuta grgvnt_makina grgvnt_moldina grgvnt_muskalina grgvnt_musta grgvnt_nerka grgvnt_otnia grgvnt_repetonia grgvnt_reitia grgvnt_tainontia grgvnt_trostia grgvnt_urkleina grgvnt_ushedika grgvnt_vankenia grgvnt_vena grgvnt_verkondarna
+		}
+		30 = { 
+			Ana Elene Eliso Mariami Tamari Judjuna
+		}
+	}
+
+	dynasty_of_location_prefix = "dynnp_di"	
+
+}

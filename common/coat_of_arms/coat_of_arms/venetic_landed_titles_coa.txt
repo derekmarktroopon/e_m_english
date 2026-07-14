@@ -1,0 +1,368 @@
+﻿d_verona_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 4 39 92 } #Navy Blue
+	color2 = rgb { 4 39 92 } #Navy Blue
+
+    colored_emblem = {
+        texture = "ce_venetic_stele_1.dds"
+        color1 = rgb { 227 224 195 } #Light Gold
+    }
+}
+
+k_venice_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 0 85 145 } #Venetic Empire Blue
+	color2 = rgb { 214 153 54 } #Gold
+
+    colored_emblem = {
+        texture = "ce_venetic_sphinx_matte.dds"
+        color1 = rgb { 214 153 54 } #Gold
+        instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+    }
+
+	colored_emblem = {
+	    texture = "ce_border_venetic_2.dds"
+	    color1 = rgb { 214 153 54 } #Gold
+
+	    instance = { rotation = 0 }
+	    instance = { rotation = 180 }
+	}
+}
+
+d_venice_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 0 85 145 } #Venetic Empire Blue
+	color2 = rgb { 214 153 54 } #Gold
+
+    colored_emblem = {
+        texture = "ce_venetic_sphinx_matte.dds"
+        color1 = rgb { 214 153 54 } #Gold
+        instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+    }
+}
+
+c_venezia_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 4 39 92 } #Navy Blue
+	color2 = rgb { 4 39 92 } #Navy Blue
+
+    colored_emblem = {
+        texture = "ce_venetic_sphinx_matte.dds"
+        color1 = rgb { 250 248 237 } #Olympian white
+        instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+    }
+}
+
+b_venezia_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 4 39 92 } #Navy Blue
+	color2 = rgb { 4 39 92 } #Navy Blue
+
+    colored_emblem = {
+        texture = "ce_venetic_sphinx_matte.dds"
+        color1 = rgb { 250 248 237 } #Olympian white
+        instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+    }
+}
+
+c_veneto_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 212 198 186 } # darkened beige
+	color2 = rgb { 145 53 3 } # dark rust
+
+	colored_emblem = {
+		texture = "ce_border_venetic_4.dds" 
+		color1 = rgb { 145 53 3 } # dark rust
+		instance = { rotation = 90 }
+		instance = { rotation = 270 }
+	}
+
+	colored_emblem = {
+		texture = "ce_venetic_dagger.dds" 
+		color1 = rgb { 145 53 3 } # dark rust
+	}
+}
+
+b_mestre_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 212 198 186 } # darkened beige
+	color2 = rgb { 145 53 3 } # dark rust
+
+	colored_emblem = {
+		texture = "ce_venetic_dagger.dds" 
+		color1 = rgb { 145 53 3 } # dark rust
+	}
+}
+
+b_ceneta_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_border_venetic_7.dds" 
+		color1 = "yellow"
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+
+	colored_emblem = {
+		texture = "ce_venetic_goat_1.dds" 
+		color1 = "yellow"
+		color2 = "white"
+		instance = { scale = { 0.95 0.95 }}
+	}
+}
+
+b_vicenza_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 252 229 98 }  # mid yellow
+	color2 = rgb { 212 139 4 } # Mid dark orange
+
+	colored_emblem = {
+		texture = "ce_border_venetic_8.dds" 
+		color1 = rgb { 212 139 4 } # Mid dark orange
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+
+	colored_emblem = {
+		texture = "ce_venetic_goat_2.dds" 
+		color1 = rgb { 212 139 4 } # Mid dark orange
+	}
+}
+
+b_este_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = rgb { 250 234 220 } # bright beige
+
+	colored_emblem = {
+		texture = "ce_border_venetic_5.dds" 
+		color1 = "white"
+		color2 = rgb { 156 130 120 } #red nougat
+	}
+
+	colored_emblem = {
+		texture = "ce_venetic_woman.dds" 
+		color1 = "white"
+	}
+}
+
+c_padua_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 2 54 158 } #Patavion Blue
+	color2 = rgb { 255 247 92 } #light yellow
+
+	colored_emblem = {
+		texture = "ce_venetic_warrior.dds"
+		color1 = rgb { 250 248 237 } #Olympian white
+		color2 = rgb { 255 247 92 } #light yellow
+		color3 = "black"
+		instance = { scale = { 0.8 0.8 }}
+	}
+
+	colored_emblem = {
+		texture = "ce_border_venetic_7.dds"
+		color1 = rgb { 255 247 92 } #light yellow
+
+		instance = { rotation = 0 }
+	    instance = { rotation = 180 }
+	}
+}
+
+b_padua_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 2 54 158 } #Patavion Blue
+	color2 = rgb { 255 247 92 } #light yellow
+
+	colored_emblem = {
+		texture = "ce_venetic_warrior.dds"
+		color1 = rgb { 250 248 237 } #Olympian white
+		color2 = rgb { 255 247 92 } #light yellow
+		color3 = "black"
+	}
+}
+
+d_friuli_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 255 247 92 } #light yellow
+	color2 = rgb { 86 135 108 } # desaturated green
+
+    colored_emblem = {
+		texture = "ce_african_frame_bg_10.dds" 
+		color1 = rgb { 86 135 108 } # desaturated green
+		instance = { scale = { 1.2 1.2 }}
+	}
+
+    colored_emblem = {
+		texture = "ce_african_frame_01.dds" 
+		color1 = rgb { 2 54 158 } #Patavion Blue
+		color2 = rgb { 255 247 92 } #light yellow
+		instance = { scale = { 1.2 1.2 }}
+	}
+
+	colored_emblem = {
+		texture = "ce_venetic_spiral.dds" 
+		color1 = rgb { 2 54 158 } #Patavion Blue
+		instance = { scale = { 0.7 0.7 }}
+	}
+}
+
+c_friuli_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 24 87 52 } #Dark Green
+	color2 = rgb { 111 173 138 } # desaturated green
+
+	colored_emblem = {
+		texture = "ce_border_venetic_6.dds" 
+		color1 = rgb { 250 234 220 } # bright beige
+		color2 = rgb { 111 173 138 } # desaturated green
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+
+	colored_emblem = {
+		texture = "ce_venetic_bird.dds" 
+		color1 = "white"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.52 } }
+	}
+}
+
+c_treviso_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 105 80 29 } #Treviso Brown 
+	color2 = rgb { 48 219 199 } #Light cyan
+
+	colored_emblem = {
+		texture = "ce_border_venetic_10.dds" 
+		color1 = rgb { 53 242 220 } #Light cyan
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+
+	colored_emblem = {
+		texture = "ce_venetic_shield_emblem.dds" 
+		color1 = rgb { 53 242 220 } #Light cyan
+	}
+}
+
+b_treviso_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 105 80 29 } #Treviso Brown 
+	color2 = rgb { 53 242 220 } #Light cyan
+
+	colored_emblem = {
+		texture = "ce_venetic_shield_emblem.dds" 
+		color1 = rgb { 53 242 220 } #Light cyan
+	}
+}
+
+d_istria_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 194 142 0 } #Off orange
+	color2 = rgb { 56 35 4 } #Super-dark Brown
+
+	colored_emblem = {
+		texture = "ce_venetic_wheel_shield.dds" 
+		color1 = rgb { 56 35 4 } #Super-dark Brown
+	}
+}
+
+c_pula_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 194 142 0 } #Off orange
+	color2 = rgb { 56 35 4 } #Super-dark Brown
+
+	colored_emblem = {
+		texture = "ce_venetic_wheel_shield.dds" 
+		color1 = rgb { 56 35 4 } #Super-dark Brown
+	}
+}
+
+b_pula_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 194 142 0 } #Off orange
+	color2 = rgb { 56 35 4 } #Super-dark Brown
+
+	colored_emblem = {
+		texture = "ce_venetic_wheel_shield.dds" 
+		color1 = rgb { 56 35 4 } #Super-dark Brown
+	}
+}
+
+c_aquileia_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 6 122 111 } #cyan blue
+	color2 = rgb { 227 224 195 } #Light Gold
+
+	colored_emblem = {
+		texture = "ce_border_venetic_9.dds" 
+		color1 = rgb { 227 224 195 } #Light Gold
+		color2 = rgb { 6 122 111 } #cyan blue
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+
+	colored_emblem = {
+		texture = "ce_venetic_arm.dds" 
+		color1 = rgb { 227 224 195 } #Light Gold
+	}
+}
+
+b_aquileia_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 5 168 152 } #cyan blue
+	color2 = rgb { 227 224 195 } #Light Gold
+
+	colored_emblem = {
+		texture = "ce_venetic_arm.dds" 
+		color1 = rgb { 227 224 195 } #Light Gold
+	}
+}
+
+b_caorle_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 255 247 92 } #light yellow
+	color2 = rgb { 86 135 108 } # desaturated green
+
+    colored_emblem = {
+		texture = "ce_african_frame_bg_10.dds" 
+		color1 = rgb { 86 135 108 } # desaturated green
+	}
+
+    colored_emblem = {
+		texture = "ce_african_frame_01.dds" 
+		color1 = rgb { 2 54 158 } #Patavion Blue
+		color2 = rgb { 255 247 92 } #light yellow
+	}
+
+	colored_emblem = {
+		texture = "ce_venetic_spiral.dds" 
+		color1 = rgb { 2 54 158 } #Patavion Blue
+		instance = { scale = { 0.65 0.65 }}
+	}
+}
+
+c_polesine_venetic = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 27 177 207 } # ocean blue
+	color2 = rgb { 27 177 207 } # ocean blue
+
+	colored_emblem = {
+		texture = "ce_african_frame_bg_10.dds" 
+		color1 = rgb { 4 39 92 } #Navy Blue
+	}
+
+    colored_emblem = {
+		texture = "ce_african_frame_01.dds" 
+		color1 = rgb { 4 39 92 } #Navy Blue
+		color2 = rgb { 27 177 207 } # ocean blue
+	}
+
+	colored_emblem = {
+		texture = "ce_adria_horse.dds" 
+		color1 = rgb { 4 39 92 } #Navy Blue
+		instance = { scale = { 0.7 0.7 }}
+	}
+}

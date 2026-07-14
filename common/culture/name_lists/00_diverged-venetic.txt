@@ -1,0 +1,879 @@
+﻿
+name_list_venetic_venetian = {
+		cadet_dynasty_names = {
+            dynn_vnven_Ametego dynn_vnven_Aplizego dynn_vnven_Arspezago dynn_vnven_Brezogo dynn_vnven_Devezarego dynn_vnven_Delego dynn_vnven_Enezo dynn_vnven_Fasio dynn_vnven_Fovonego dynn_vnven_Enezontego dynn_vnven_Castego dynn_vnven_Ciodavego dynn_vnven_Crevigneo dynn_vnven_Nesongo dynn_vnven_Osezezo dynn_vnven_Osogo dynn_vnven_Oszango dynn_vnven_Pelonego dynn_vnven_Pedamego dynn_vnven_Rezongo dynn_vnven_Trezego dynn_vnven_Trezonezo dynn_vnven_Voltolarego dynn_vnven_Panaro dynn_vnven_Pompedegueo dynn_vnven_Vodongo dynn_vnven_Agozo dynn_vnven_Alvaregno dynn_vnven_Antaveo dynn_vnven_Andezo dynn_vnven_Andezeo dynn_vnven_Asgolio dynn_vnven_Bedogno dynn_vnven_Beio dynn_vnven_Begno dynn_vnven_Ezesteo dynn_vnven_Ezedoro dynn_vnven_Eneo dynn_vnven_Enogno dynn_vnven_Enovezaro dynn_vnven_Ersegno dynn_vnven_Fogonzago dynn_vnven_Fogonzo dynn_vnven_Zovanzo dynn_vnven_Caranmeo dynn_vnven_Cadozeo dynn_vnven_Cioziar dynn_vnven_Coio dynn_vnven_Copregogno dynn_vnven_Magno dynn_vnven_Ogno dynn_vnven_Revedogno dynn_vnven_Sezo dynn_vnven_Tivaio dynn_vnven_Tomadoro dynn_vnven_Toveo dynn_vnven_Trosteo dynn_vnven_Ovosezo dynn_vnven_Orcleo dynn_vnven_Vansegno dynn_vnven_Venon dynn_vnven_Vestegno dynn_vnven_Voltizeneo dynn_vnven_Voltiomio dynn_vnven_Vodeo
+            { "dynnp_de" "dynn_vnven_da_Este" } { "dynnp_de" "dynn_vnven_da_Monferrato" } { "dynnp_de" "dynn_vnven_da_Conto" } { "dynnp_de" "dynn_vnven_da_Allucingollo" } { "dynnp_de" "dynn_vnven_da_Padoa" } { "dynnp_de" "dynn_vnven_da_Veceteno" } { "dynnp_de" "dynn_vnven_da_Ateste" } { "dynnp_de" "dynn_vnven_da_Opeterghio" } { "dynnp_de" "dynn_vnven_da_Altino" } { "dynnp_de" "dynn_vnven_da_Tarvezio" }
+		} 
+
+		dynasty_names = {
+            dynn_vnven_Ametego dynn_vnven_Aplizego dynn_vnven_Arspezago dynn_vnven_Brezogo dynn_vnven_Devezarego dynn_vnven_Delego dynn_vnven_Enezo dynn_vnven_Fasio dynn_vnven_Fovonego dynn_vnven_Enezontego dynn_vnven_Castego dynn_vnven_Ciodavego dynn_vnven_Crevigneo dynn_vnven_Nesongo dynn_vnven_Osezezo dynn_vnven_Osogo dynn_vnven_Oszango dynn_vnven_Pelonego dynn_vnven_Pedamego dynn_vnven_Rezongo dynn_vnven_Trezego dynn_vnven_Trezonezo dynn_vnven_Voltolarego dynn_vnven_Panaro dynn_vnven_Pompedegueo dynn_vnven_Vodongo dynn_vnven_Agozo dynn_vnven_Alvaregno dynn_vnven_Antaveo dynn_vnven_Andezo dynn_vnven_Andezeo dynn_vnven_Asgolio dynn_vnven_Bedogno dynn_vnven_Beio dynn_vnven_Begno dynn_vnven_Ezesteo dynn_vnven_Ezedoro dynn_vnven_Eneo dynn_vnven_Enogno dynn_vnven_Enovezaro dynn_vnven_Ersegno dynn_vnven_Fogonzago dynn_vnven_Fogonzo dynn_vnven_Zovanzo dynn_vnven_Caranmeo dynn_vnven_Cadozeo dynn_vnven_Cioziar dynn_vnven_Coio dynn_vnven_Copregogno dynn_vnven_Magno dynn_vnven_Ogno dynn_vnven_Revedogno dynn_vnven_Sezo dynn_vnven_Tivaio dynn_vnven_Tomadoro dynn_vnven_Toveo dynn_vnven_Trosteo dynn_vnven_Ovosezo dynn_vnven_Orcleo dynn_vnven_Vansegno dynn_vnven_Venon dynn_vnven_Vestegno dynn_vnven_Voltizeneo dynn_vnven_Voltiomio dynn_vnven_Vodeo
+            { "dynnp_de" "dynn_vnven_da_Este" } { "dynnp_de" "dynn_vnven_da_Monferrato" } { "dynnp_de" "dynn_vnven_da_Conto" } { "dynnp_de" "dynn_vnven_da_Allucingollo" } { "dynnp_de" "dynn_vnven_da_Padoa" } { "dynnp_de" "dynn_vnven_da_Veceteno" } { "dynnp_de" "dynn_vnven_da_Ateste" } { "dynnp_de" "dynn_vnven_da_Opeterghio" } { "dynnp_de" "dynn_vnven_da_Altino" } { "dynnp_de" "dynn_vnven_da_Tarvezio" }
+		}
+
+	male_names = {
+		5 = {
+			vnven_Volzomo
+		}
+		4 = {
+			vnven_Vante
+		}
+		6 = {
+			vnven_Fremesto vnven_Zovante
+		}
+		5 = {
+			vnven_Foto vnven_Opo
+		}
+		23 = {
+			vnven_Agudo vnven_Ezesto vnven_Enozen vnven_Fogonte vnven_Fozeo vnven_Cante vnven_Selo vnven_Coze vnven_Lemedor vnven_Molon vnven_Oszo vnven_Ogo vnven_Velsen vnven_Voltezen
+		}
+		57 = {
+			vnven_Afro vnven_Emo vnven_Alero vnven_Arbo vnven_Arion vnven_Ato vnven_Avero  vnven_Belene vnven_Bodezago vnven_Devolezo vnven_Evo vnven_Eno vnven_Enon vnven_Enocleve vnven_Ezeva vnven_Fonte vnven_Fovo vnven_Fozen vnven_Zezo  vnven_Goltano vnven_Grego vnven_Oszavo vnven_Cadreago vnven_Caramo vnven_Castego vnven_Cadolsto vnven_Codeno vnven_Cromelon vnven_Coezoda vnven_Cvarzo vnven_Cvedo vnven_Lante vnven_Lavsco vnven_Lemedor vnven_Lemedo vnven_Lezo vnven_Loze vnven_Melengo vnven_Mezo vnven_Moldo vnven_Moldonzeo vnven_Molodo vnven_Molton vnven_Nagalgno vnven_Nezo vnven_Oszango vnven_Oszaro vnven_Oste vnven_Paro vnven_Pilpot vnven_Piede vnven_Piedove vnven_Povon vnven_Redeveo vnven_Zego vnven_Soro vnven_Tedeme vnven_Teval vnven_Torezo vnven_Torezon vnven_Vaseno vnven_Vegno vnven_Veme vnven_Vercvalo vnven_Vezeo vnven_Voltegno vnven_Vodo
+		}   	               	          
+	}
+
+	female_names = {
+		14 = {
+			vnven_Fozia vnven_Canta
+		}
+		18 = {
+			vnven_Zovanta vnven_Nerga
+		}
+		10 = {
+			vnven_Fogonta vnven_Fremesna
+		}
+		7 = {
+			vnven_Frema vnven_Volteomena
+		}
+		14 = {
+			vnven_Fogona vnven_Levna vnven_Lemedorna vnven_Oszala vnven_Romana vnven_Voina vnven_Vroda
+		}
+		37 = {
+			vnven_Agotna vnven_Andena vnven_Avea vnven_Ata vnven_Bezalna vnven_Buca vnven_Efa vnven_Ezesna vnven_Ezeora vnven_Fova vnven_Fremeno vnven_Froana vnven_Fozegna vnven_Esevionia vnven_Ioria vnven_Zovana vnven_Cadagna vnven_Lesa vnven_Losia vnven_Magna vnven_Moldna vnven_Moscialna vnven_Mosta vnven_Segna vnven_Sovna vnven_Torgna vnven_Orclena vnven_Ozedega vnven_Vena vnven_Vercondarna
+		}        
+	}
+
+	dynasty_of_location_prefix = "dynnp_de"
+			
+}
+
+name_list_venetic_venetian_biblical = {
+		cadet_dynasty_names = {
+            dynn_vnven_Ametego dynn_vnven_Aplizego dynn_vnven_Arspezago dynn_vnven_Brezogo dynn_vnven_Devezarego dynn_vnven_Delego dynn_vnven_Enezo dynn_vnven_Fasio dynn_vnven_Fovonego dynn_vnven_Enezontego dynn_vnven_Castego dynn_vnven_Ciodavego dynn_vnven_Crevigneo dynn_vnven_Nesongo dynn_vnven_Osezezo dynn_vnven_Osogo dynn_vnven_Oszango dynn_vnven_Pelonego dynn_vnven_Pedamego dynn_vnven_Rezongo dynn_vnven_Trezego dynn_vnven_Trezonezo dynn_vnven_Voltolarego dynn_vnven_Panaro dynn_vnven_Pompedegueo dynn_vnven_Vodongo dynn_vnven_Agozo dynn_vnven_Alvaregno dynn_vnven_Antaveo dynn_vnven_Andezo dynn_vnven_Andezeo dynn_vnven_Asgolio dynn_vnven_Bedogno dynn_vnven_Beio dynn_vnven_Begno dynn_vnven_Ezesteo dynn_vnven_Ezedoro dynn_vnven_Eneo dynn_vnven_Enogno dynn_vnven_Enovezaro dynn_vnven_Ersegno dynn_vnven_Fogonzago dynn_vnven_Fogonzo dynn_vnven_Zovanzo dynn_vnven_Caranmeo dynn_vnven_Cadozeo dynn_vnven_Cioziar dynn_vnven_Coio dynn_vnven_Copregogno dynn_vnven_Magno dynn_vnven_Ogno dynn_vnven_Revedogno dynn_vnven_Sezo dynn_vnven_Tivaio dynn_vnven_Tomadoro dynn_vnven_Toveo dynn_vnven_Trosteo dynn_vnven_Ovosezo dynn_vnven_Orcleo dynn_vnven_Vansegno dynn_vnven_Venon dynn_vnven_Vestegno dynn_vnven_Voltizeneo dynn_vnven_Voltiomio dynn_vnven_Vodeo
+            { "dynnp_de" "dynn_vnven_da_Este" } { "dynnp_de" "dynn_vnven_da_Monferrato" } { "dynnp_de" "dynn_vnven_da_Conto" } { "dynnp_de" "dynn_vnven_da_Allucingollo" } { "dynnp_de" "dynn_vnven_da_Padoa" } { "dynnp_de" "dynn_vnven_da_Veceteno" } { "dynnp_de" "dynn_vnven_da_Ateste" } { "dynnp_de" "dynn_vnven_da_Opeterghio" } { "dynnp_de" "dynn_vnven_da_Altino" } { "dynnp_de" "dynn_vnven_da_Tarvezio" }
+		} 
+
+		dynasty_names = {
+            dynn_vnven_Ametego dynn_vnven_Aplizego dynn_vnven_Arspezago dynn_vnven_Brezogo dynn_vnven_Devezarego dynn_vnven_Delego dynn_vnven_Enezo dynn_vnven_Fasio dynn_vnven_Fovonego dynn_vnven_Enezontego dynn_vnven_Castego dynn_vnven_Ciodavego dynn_vnven_Crevigneo dynn_vnven_Nesongo dynn_vnven_Osezezo dynn_vnven_Osogo dynn_vnven_Oszango dynn_vnven_Pelonego dynn_vnven_Pedamego dynn_vnven_Rezongo dynn_vnven_Trezego dynn_vnven_Trezonezo dynn_vnven_Voltolarego dynn_vnven_Panaro dynn_vnven_Pompedegueo dynn_vnven_Vodongo dynn_vnven_Agozo dynn_vnven_Alvaregno dynn_vnven_Antaveo dynn_vnven_Andezo dynn_vnven_Andezeo dynn_vnven_Asgolio dynn_vnven_Bedogno dynn_vnven_Beio dynn_vnven_Begno dynn_vnven_Ezesteo dynn_vnven_Ezedoro dynn_vnven_Eneo dynn_vnven_Enogno dynn_vnven_Enovezaro dynn_vnven_Ersegno dynn_vnven_Fogonzago dynn_vnven_Fogonzo dynn_vnven_Zovanzo dynn_vnven_Caranmeo dynn_vnven_Cadozeo dynn_vnven_Cioziar dynn_vnven_Coio dynn_vnven_Copregogno dynn_vnven_Magno dynn_vnven_Ogno dynn_vnven_Revedogno dynn_vnven_Sezo dynn_vnven_Tivaio dynn_vnven_Tomadoro dynn_vnven_Toveo dynn_vnven_Trosteo dynn_vnven_Ovosezo dynn_vnven_Orcleo dynn_vnven_Vansegno dynn_vnven_Venon dynn_vnven_Vestegno dynn_vnven_Voltizeneo dynn_vnven_Voltiomio dynn_vnven_Vodeo
+            { "dynnp_de" "dynn_vnven_da_Este" } { "dynnp_de" "dynn_vnven_da_Monferrato" } { "dynnp_de" "dynn_vnven_da_Conto" } { "dynnp_de" "dynn_vnven_da_Allucingollo" } { "dynnp_de" "dynn_vnven_da_Padoa" } { "dynnp_de" "dynn_vnven_da_Veceteno" } { "dynnp_de" "dynn_vnven_da_Ateste" } { "dynnp_de" "dynn_vnven_da_Opeterghio" } { "dynnp_de" "dynn_vnven_da_Altino" } { "dynnp_de" "dynn_vnven_da_Tarvezio" }
+		}
+
+		male_names = {
+			5 = {
+				vnven_Volzomo
+			}
+			4 = {
+				vnven_Vante
+			}
+			6 = {
+				vnven_Fremesto vnven_Zovante
+			}
+			5 = {
+				vnven_Foto vnven_Opo
+			}
+			23 = {
+				vnven_Agudo vnven_Ezesto vnven_Enozen vnven_Fogonte vnven_Fozeo vnven_Cante vnven_Selo vnven_Coze vnven_Lemedor vnven_Molon vnven_Oszo vnven_Ogo vnven_Velsen vnven_Voltezen
+			}
+			57 = {
+				vnven_Afro vnven_Emo vnven_Alero vnven_Arbo vnven_Arion vnven_Ato vnven_Avero  vnven_Belene vnven_Bodezago vnven_Devolezo vnven_Evo vnven_Eno vnven_Enon vnven_Enocleve vnven_Ezeva vnven_Fonte vnven_Fovo vnven_Fozen vnven_Zezo  vnven_Goltano vnven_Grego vnven_Oszavo vnven_Cadreago vnven_Caramo vnven_Castego vnven_Cadolsto vnven_Codeno vnven_Cromelon vnven_Coezoda vnven_Cvarzo vnven_Cvedo vnven_Lante vnven_Lavsco vnven_Lemedor vnven_Lemedo vnven_Lezo vnven_Loze vnven_Melengo vnven_Mezo vnven_Moldo vnven_Moldonzeo vnven_Molodo vnven_Molton vnven_Nagalgno vnven_Nezo vnven_Oszango vnven_Oszaro vnven_Oste vnven_Paro vnven_Pilpot vnven_Piede vnven_Piedove vnven_Povon vnven_Redeveo vnven_Zego vnven_Soro vnven_Tedeme vnven_Teval vnven_Torezo vnven_Torezon vnven_Vaseno vnven_Vegno vnven_Veme vnven_Vercvalo vnven_Vezeo vnven_Voltegno vnven_Vodo
+				Alexander Ambrogio Ambroso Andrea Angelo Annibale Antonio Benedetto Benetto Cristofalo Cristofolo Filippo Gabriele Lorenzo Marco Marin Martin Michiel Matteo Paolo Pasqual Pasqualin Paulo Petro Raffaele Sebastian Stefano Tobias Zuan Zuann Zuanne Zuano
+			}  
+		}
+
+		female_names = {
+			14 = {
+				vnven_Fozia vnven_Canta
+			}
+			18 = {
+				vnven_Zovanta vnven_Nerga
+			}
+			10 = {
+				vnven_Fogonta vnven_Fremesna
+			}
+			7 = {
+				vnven_Frema vnven_Volteomena
+			}
+			14 = {
+				vnven_Fogona vnven_Levna vnven_Lemedorna vnven_Oszala vnven_Romana vnven_Voina vnven_Vroda
+			}
+			37 = {
+				vnven_Agotna vnven_Andena vnven_Avea vnven_Ata vnven_Bezalna vnven_Buca vnven_Efa vnven_Ezesna vnven_Ezeora vnven_Fova vnven_Fremeno vnven_Froana vnven_Fozegna vnven_Esevionia vnven_Ioria vnven_Zovana vnven_Cadagna vnven_Lesa vnven_Losia vnven_Magna vnven_Moldna vnven_Moscialna vnven_Mosta vnven_Segna vnven_Sovna vnven_Torgna vnven_Orclena vnven_Ozedega vnven_Vena vnven_Vercondarna
+				Agnese Agnesina Alessandra Angela Angelica Anna Catarina Caterina Cattarina Catterina Christina Elisabetta Gabriella Helena Isabella Isabetta Iseppa Maria Matthia Paola Paolina Pasqueta Paula Philippa Susanna Thomasina Tomasina Zuanna
+			} 
+		}
+
+	dynasty_of_location_prefix = "dynnp_de"
+			
+}
+
+name_list_venetic_cisalpine = {
+		cadet_dynasty_names = {
+            dynn_vncslp_aguti dynn_vncslp_alerogo dynn_vncslp_arvogo dynn_vncslp_aplezego dynn_vncslp_addogo dynn_vncslp_boiani dynn_vncslp_bregoni dynn_vncslp_boiogo dynn_vncslp_brejogo dynn_vncslp_beogo dynn_vncslp_dipjarego dynn_vncslp_deleghi dynn_vncslp_evogo dynn_vncslp_egestogo dynn_vncslp_eneogo dynn_vncslp_enogeni dynn_vncslp_ersenogo dynn_vncslp_feoghi dynn_vncslp_fogontego dynn_vncslp_fremesti dynn_vncslp_gieni dynn_vncslp_greghi dynn_vncslp_zovandi dynn_vncslp_odogo dynn_vncslp_zandego dynn_vncslp_colestio dynn_vncslp_cuitogo dynn_vncslp_logi dynn_vncslp_mesogo dynn_vncslp_landego dynn_vncslp_nagalni dynn_vncslp_nesongo dynn_vncslp_ocego dynn_vncslp_ossogo dynn_vncslp_vennogo dynn_vncslp_osedego dynn_vncslp_pilbodi dynn_vncslp_vasseni dynn_vncslp_voldejeni { "dynnp_de" "dynn_vncslp_da_Ivrea" } { "dynnp_de" "dynn_vncslp_da_Medici" } { "dynnp_de" "dynn_vncslp_da_Savoia" } { "dynnp_de" "dynn_vncslp_da_Este" } { "dynnp_de" "dynn_vncslp_da_Monferrato" } { "dynnp_de" "dynn_vncslp_da_Conto" } { "dynnp_de" "dynn_vncslp_da_Allucingollo" } { "dynnp_de" "dynn_vncslp_da_Padaveo" } { "dynnp_de" "dynn_vncslp_da_Veceteno" } { "dynnp_de" "dynn_vncslp_da_Ateste" } { "dynnp_de" "dynn_vncslp_da_Opetergeo" } { "dynnp_de" "dynn_vncslp_da_Alteno" }
+		}
+
+		dynasty_names = {
+            dynn_vncslp_aguti dynn_vncslp_alerogo dynn_vncslp_arvogo dynn_vncslp_aplezego dynn_vncslp_addogo dynn_vncslp_boiani dynn_vncslp_bregoni dynn_vncslp_boiogo dynn_vncslp_brejogo dynn_vncslp_beogo dynn_vncslp_dipjarego dynn_vncslp_deleghi dynn_vncslp_evogo dynn_vncslp_egestogo dynn_vncslp_eneogo dynn_vncslp_enogeni dynn_vncslp_ersenogo dynn_vncslp_feoghi dynn_vncslp_fogontego dynn_vncslp_fremesti dynn_vncslp_gieni dynn_vncslp_greghi dynn_vncslp_zovandi dynn_vncslp_odogo dynn_vncslp_zandego dynn_vncslp_colestio dynn_vncslp_cuitogo dynn_vncslp_logi dynn_vncslp_mesogo dynn_vncslp_landego dynn_vncslp_nagalni dynn_vncslp_nesongo dynn_vncslp_ocego dynn_vncslp_ossogo dynn_vncslp_vennogo dynn_vncslp_osedego dynn_vncslp_pilbodi dynn_vncslp_vasseni dynn_vncslp_voldejeni { "dynnp_de" "dynn_vncslp_da_Ivrea" } { "dynnp_de" "dynn_vncslp_da_Medici" } { "dynnp_de" "dynn_vncslp_da_Savoia" } { "dynnp_de" "dynn_vncslp_da_Este" } { "dynnp_de" "dynn_vncslp_da_Monferrato" } { "dynnp_de" "dynn_vncslp_da_Conto" } { "dynnp_de" "dynn_vncslp_da_Allucingollo" } { "dynnp_de" "dynn_vncslp_da_Padaveo" } { "dynnp_de" "dynn_vncslp_da_Veceteno" } { "dynnp_de" "dynn_vncslp_da_Ateste" } { "dynnp_de" "dynn_vncslp_da_Opetergeo" } { "dynnp_de" "dynn_vncslp_da_Alteno" }
+		}
+
+		male_names = {
+            vncslp_Avro vncslp_Emo vncslp_Aguto vncslp_Alero vncslp_Amedeg vncslp_Andedejo vncslp_Andedo vncslp_Apleseo vncslp_Arvo vncslp_Arien vncslp_Accolo vncslp_Addo vncslp_Bedo vncslp_Belen vncslp_Boian vncslp_Boio vncslp_Brejogo vncslp_Bodejago vncslp_Dipjareg vncslp_Dipjar vncslp_Delego vncslp_Delle vncslp_Evo vncslp_Egesto vncslp_Egetor vncslp_Eneo vncslp_Ened vncslp_Enogene vncslp_Erseno vncslp_Feogo vncslp_Fonde vncslp_Fogonte vncslp_Fremesto vncslp_Fojien vncslp_Gien vncslp_Gien vncslp_Grego vncslp_Ostevo vncslp_Oddo vncslp_Zovande vncslp_Cande vncslp_Caran vncslp_Castego vncslp_Chelo vncslp_Cheoden vncslp_Coleso vncslp_Cuito vncslp_Lamoso vncslp_Land vncslp_Lavasco vncslp_Lemedor vncslp_Loge vncslp_Meso vncslp_Moldo vncslp_Nagalno vncslp_Nesongo vncslp_Neso vncslp_Ocejo vncslp_Opo vncslp_Ossogo vncslp_Ost vncslp_Panare vncslp_Pelonego vncslp_Pilbodo vncslp_Plede vncslp_Redeve vncslp_Redo vncslp_Resongo vncslp_Seccio vncslp_Soro vncslp_Tece vncslp_Tomadore vncslp_Tresego vncslp_Turejo vncslp_Ogo vncslp_Orclee vncslp_Orcle vncslp_Vande vncslp_Vante vncslp_Vassen vncslp_Vegno vncslp_Veme vncslp_Vennon vncslp_Verzvalo vncslp_Voldejen vncslp_Voldomon vncslp_Vodo
+		}
+
+		female_names = {
+            vncslp_Agoda vncslp_Andeda vncslp_Abea vncslp_Acolea vncslp_Ada vncslp_Bagsonea vncslp_Bedonea vncslp_Bregena vncslp_Boga vncslp_Eboa vncslp_Eva vncslp_Egheda vncslp_Egedora vncslp_Fedena vncslp_Fogonda vncslp_Frema vncslp_Fremeda vncslp_Fremena vncslp_Fugea vncslp_Ganda vncslp_Egeveonia vncslp_Edorea vncslp_Zovanda vncslp_Canda vncslp_Colea vncslp_Coccoda vncslp_Magna vncslp_Moldona vncslp_Mociala vncslp_Mosta vncslp_Nierga vncslp_Nerga vncslp_Odnea vncslp_Rebedona vncslp_Reda vncslp_Trostea vncslp_Orclena vncslp_Osedea vncslp_Vancenna vncslp_Venna vncslp_Verzondarna
+		}
+
+	dynasty_of_location_prefix = "dynnp_de"		
+}
+
+name_list_venetic_cisalpine_biblical = {
+		cadet_dynasty_names = {
+            dynn_vncslp_aguti dynn_vncslp_alerogo dynn_vncslp_arvogo dynn_vncslp_aplezego dynn_vncslp_addogo dynn_vncslp_boiani dynn_vncslp_bregoni dynn_vncslp_boiogo dynn_vncslp_brejogo dynn_vncslp_beogo dynn_vncslp_dipjarego dynn_vncslp_deleghi dynn_vncslp_evogo dynn_vncslp_egestogo dynn_vncslp_eneogo dynn_vncslp_enogeni dynn_vncslp_ersenogo dynn_vncslp_feoghi dynn_vncslp_fogontego dynn_vncslp_fremesti dynn_vncslp_gieni dynn_vncslp_greghi dynn_vncslp_zovandi dynn_vncslp_odogo dynn_vncslp_zandego dynn_vncslp_colestio dynn_vncslp_cuitogo dynn_vncslp_logi dynn_vncslp_mesogo dynn_vncslp_landego dynn_vncslp_nagalni dynn_vncslp_nesongo dynn_vncslp_ocego dynn_vncslp_ossogo dynn_vncslp_vennogo dynn_vncslp_osedego dynn_vncslp_pilbodi dynn_vncslp_vasseni dynn_vncslp_voldejeni { "dynnp_de" "dynn_vncslp_da_Ivrea" } { "dynnp_de" "dynn_vncslp_da_Medici" } { "dynnp_de" "dynn_vncslp_da_Savoia" } { "dynnp_de" "dynn_vncslp_da_Este" } { "dynnp_de" "dynn_vncslp_da_Monferrato" } { "dynnp_de" "dynn_vncslp_da_Conto" } { "dynnp_de" "dynn_vncslp_da_Allucingollo" } { "dynnp_de" "dynn_vncslp_da_Padaveo" } { "dynnp_de" "dynn_vncslp_da_Veceteno" } { "dynnp_de" "dynn_vncslp_da_Ateste" } { "dynnp_de" "dynn_vncslp_da_Opetergeo" } { "dynnp_de" "dynn_vncslp_da_Alteno" }
+		}
+
+		dynasty_names = {
+            dynn_vncslp_aguti dynn_vncslp_alerogo dynn_vncslp_arvogo dynn_vncslp_aplezego dynn_vncslp_addogo dynn_vncslp_boiani dynn_vncslp_bregoni dynn_vncslp_boiogo dynn_vncslp_brejogo dynn_vncslp_beogo dynn_vncslp_dipjarego dynn_vncslp_deleghi dynn_vncslp_evogo dynn_vncslp_egestogo dynn_vncslp_eneogo dynn_vncslp_enogeni dynn_vncslp_ersenogo dynn_vncslp_feoghi dynn_vncslp_fogontego dynn_vncslp_fremesti dynn_vncslp_gieni dynn_vncslp_greghi dynn_vncslp_zovandi dynn_vncslp_odogo dynn_vncslp_zandego dynn_vncslp_colestio dynn_vncslp_cuitogo dynn_vncslp_logi dynn_vncslp_mesogo dynn_vncslp_landego dynn_vncslp_nagalni dynn_vncslp_nesongo dynn_vncslp_ocego dynn_vncslp_ossogo dynn_vncslp_vennogo dynn_vncslp_osedego dynn_vncslp_pilbodi dynn_vncslp_vasseni dynn_vncslp_voldejeni { "dynnp_de" "dynn_vncslp_da_Ivrea" } { "dynnp_de" "dynn_vncslp_da_Medici" } { "dynnp_de" "dynn_vncslp_da_Savoia" } { "dynnp_de" "dynn_vncslp_da_Este" } { "dynnp_de" "dynn_vncslp_da_Monferrato" } { "dynnp_de" "dynn_vncslp_da_Conto" } { "dynnp_de" "dynn_vncslp_da_Allucingollo" } { "dynnp_de" "dynn_vncslp_da_Padaveo" } { "dynnp_de" "dynn_vncslp_da_Veceteno" } { "dynnp_de" "dynn_vncslp_da_Ateste" } { "dynnp_de" "dynn_vncslp_da_Opetergeo" } { "dynnp_de" "dynn_vncslp_da_Alteno" }
+		}
+
+		male_names = {
+			60 = {
+            	vncslp_Avro vncslp_Emo vncslp_Aguto vncslp_Alero vncslp_Amedeg vncslp_Andedejo vncslp_Andedo vncslp_Apleseo vncslp_Arvo vncslp_Arien vncslp_Accolo vncslp_Addo vncslp_Bedo vncslp_Belen vncslp_Boian vncslp_Boio vncslp_Brejogo vncslp_Bodejago vncslp_Dipjareg vncslp_Dipjar vncslp_Delego vncslp_Delle vncslp_Evo vncslp_Egesto vncslp_Egetor vncslp_Eneo vncslp_Ened vncslp_Enogene vncslp_Erseno vncslp_Feogo vncslp_Fonde vncslp_Fogonte vncslp_Fremesto vncslp_Fojien vncslp_Gien vncslp_Gien vncslp_Grego vncslp_Ostevo vncslp_Oddo vncslp_Zovande vncslp_Cande vncslp_Caran vncslp_Castego vncslp_Chelo vncslp_Cheoden vncslp_Coleso vncslp_Cuito vncslp_Lamoso vncslp_Land vncslp_Lavasco vncslp_Lemedor vncslp_Loge vncslp_Meso vncslp_Moldo vncslp_Nagalno vncslp_Nesongo vncslp_Neso vncslp_Ocejo vncslp_Opo vncslp_Ossogo vncslp_Ost vncslp_Panare vncslp_Pelonego vncslp_Pilbodo vncslp_Plede vncslp_Redeve vncslp_Redo vncslp_Resongo vncslp_Seccio vncslp_Soro vncslp_Tece vncslp_Tomadore vncslp_Tresego vncslp_Turejo vncslp_Ogo vncslp_Orclee vncslp_Orcle vncslp_Vande vncslp_Vante vncslp_Vassen vncslp_Vegno vncslp_Veme vncslp_Vennon vncslp_Verzvalo vncslp_Voldejen vncslp_Voldomon vncslp_Vodo
+			}
+			40 = {
+				Alessandro Ambrogio Antonio Benedetto Bernardo Filippo Giovanni Giuliano Giuseppe Lorenzo Martin Matteo Paolo Pietro Sebastiano Stefano Tommaso 
+			}
+		}
+
+		female_names = {
+			60 = {
+            	vncslp_Agoda vncslp_Andeda vncslp_Abea vncslp_Acolea vncslp_Ada vncslp_Bagsonea vncslp_Bedonea vncslp_Bregena vncslp_Boga vncslp_Eboa vncslp_Eva vncslp_Egheda vncslp_Egedora vncslp_Enocleva vncslp_Fedena vncslp_Fogonda vncslp_Frema vncslp_Fremeda vncslp_Fremena vncslp_Fugea vncslp_Fugea vncslp_Ganda vncslp_Egeveonia vncslp_Edorea vncslp_Zovanda vncslp_Canda vncslp_Colea vncslp_Coccoda vncslp_Magna vncslp_Moldona vncslp_Mociala vncslp_Mosta vncslp_Nierga vncslp_Nerga vncslp_Odnea vncslp_Rebedona vncslp_Reda vncslp_Trostea vncslp_Orclena vncslp_Osedea vncslp_Vancenna vncslp_Venna vncslp_Verzondarna
+			}
+			40 = {
+				Agnese Alessandra Anna Caterina Elisa Elisabetta Giovanna Giuseppa Isabella Maria Mariana Paola Sofia Stefania Tomasina
+			}
+		}
+
+	dynasty_of_location_prefix = "dynnp_de"		
+}
+
+name_list_venetic_italian = {
+		cadet_dynasty_names = {
+            dynn_vnita_Acuteo dynn_vnita_Arsetegeo dynn_vnita_Bagsuoneo dynn_vnita_Boialeo dynn_vnita_Bregiuoceo dynn_vnita_Bodegiaceo dynn_vnita_Fremesteneo dynn_vnita_Fremeo dynn_vnita_Gipiareo dynn_vnita_Enaeo dynn_vnita_Casteo dynn_vnita_Ttolesteo dynn_vnita_Cviteo dynn_vnita_Lanteo dynn_vnita_Lavsceo dynn_vnita_Mezeo dynn_vnita_Moscialeo dynn_vnita_Nalcneo dynn_vnita_Nesuonceo dynn_vnita_Ocegeceo dynn_vnita_Uocchieo dynn_vnita_Uoppeo dynn_vnita_Panareo dynn_vnita_Peluoneceo dynn_vnita_Peluoneo 
+            { "dynnp_di" "dynn_vnita_da_Ivrea" } { "dynnp_di" "dynn_vnita_da_Medici" } { "dynnp_di" "dynn_vnita_da_Savoia" } { "dynnp_di" "dynn_vnita_da_Este" } { "dynnp_di" "dynn_vnita_da_Monferrato" } { "dynnp_di" "dynn_vnita_da_Conto" } { "dynnp_di" "dynn_vnita_da_Allucingollo" } { "dynnp_di" "dynn_vnita_da_Pataveo" } { "dynnp_di" "dynn_vnita_da_Veceteno" } { "dynnp_di" "dynn_vnita_da_Ateste" } { "dynnp_di" "dynn_vnita_da_Opetergeo" } { "dynnp_di" "dynn_vnita_da_Alteno" }
+		}
+
+		dynasty_names = {
+            dynn_vnita_Acuteo dynn_vnita_Arsetegeo dynn_vnita_Bagsuoneo dynn_vnita_Boialeo dynn_vnita_Bregiuoceo dynn_vnita_Bodegiaceo dynn_vnita_Fremesteneo dynn_vnita_Fremeo dynn_vnita_Gipiareo dynn_vnita_Enaeo dynn_vnita_Casteo dynn_vnita_Ttolesteo dynn_vnita_Cviteo dynn_vnita_Lanteo dynn_vnita_Lavsceo dynn_vnita_Mezeo dynn_vnita_Moscialeo dynn_vnita_Nalcneo dynn_vnita_Nesuonceo dynn_vnita_Ocegeceo dynn_vnita_Uocchieo dynn_vnita_Uoppeo dynn_vnita_Panareo dynn_vnita_Peluoneceo dynn_vnita_Peluoneo 
+            { "dynnp_di" "dynn_vnita_da_Ivrea" } { "dynnp_di" "dynn_vnita_da_Medici" } { "dynnp_di" "dynn_vnita_da_Savoia" } { "dynnp_di" "dynn_vnita_da_Este" } { "dynnp_di" "dynn_vnita_da_Monferrato" } { "dynnp_di" "dynn_vnita_da_Conto" } { "dynnp_di" "dynn_vnita_da_Allucingollo" } { "dynnp_di" "dynn_vnita_da_Pataveo" } { "dynnp_di" "dynn_vnita_da_Veceteno" } { "dynnp_di" "dynn_vnita_da_Ateste" } { "dynnp_di" "dynn_vnita_da_Opetergeo" } { "dynnp_di" "dynn_vnita_da_Alteno" }
+		}
+
+		male_names = {
+            vnita_Afro vnita_Emo vnita_Acuto vnita_Alero vnita_Amegio vnita_Andetegio vnita_Andeto vnita_Apleseco vnita_Arbo vnita_Areo vnita_Ascolo vnita_Atto vnita_Beto vnita_Bellene vnita_Boial vnita_Boio vnita_Bregiuoco vnita_Bodegiaco vnita_Dippiareco vnita_Gipiare vnita_Delleco vnita_Delle vnita_Evo vnita_Egesto vnita_Egeto vnita_Eneo vnita_Enete vnita_Enogene vnita_Erseno vnita_Feogo vnita_Fuonte vnita_Fuonto vnita_Foguonte vnita_Fremesto vnita_Fogeo vnita_Geo vnita_Greco vnita_Ostevo vnita_Uovo vnita_Otto vnita_Giovante vnita_Cante vnita_Caramno vnita_Cascio vnita_Cello vnita_Ceoteno vnita_Ttolesto vnita_Cvito vnita_Lamoso vnita_Lante vnita_Lavsco vnita_Lemeto vnita_Loce vnita_Mezo vnita_Moldo vnita_Nalcno vnita_Nesuonco vnita_Neso vnita_Ocegeo vnita_Uoppo vnita_Uossoco vnita_Uoste vnita_Panare vnita_Peluoneco vnita_Pilpuoto vnita_Piede vnita_Reteveo vnita_Reto vnita_Resonco vnita_Seco vnita_Soro vnita_Teceo vnita_Tomatoreo vnita_Treseco vnita_Turegio vnita_Oco vnita_Orcleo vnita_Orcle vnita_Vante vnita_Vasseno vnita_Vegno vnita_Veme vnita_Vennone vnita_Vercvalo vnita_Voltegene vnita_Volzomno vnita_Vuoto
+		}
+
+		female_names = {
+            vnita_Acota vnita_Andeta vnita_Apea vnita_Ascolea vnita_Atta vnita_Betuonea vnita_Bregdena vnita_Bocca vnita_Evoa vnita_Efa vnita_Egesta vnita_Egetora vnita_Feteana vnita_Foguonta vnita_Frema vnita_Fremesta vnita_Fremestena vnita_Fugea vnita_Fussea vnita_Gianta vnita_Ecevviogna vnita_Etorea vnita_Giovanta vnita_Canta vnita_Colea vnita_Coecota vnita_Macna vnita_Molduona vnita_Mosceala vnita_Mosta vnita_Nerca vnita_Uotnea vnita_Rebetuona vnita_Retza vnita_Truostea vnita_Orclena vnita_Osedegia vnita_Vantcegna vnita_Venna vnita_Vercuondarna
+		}
+
+	dynasty_of_location_prefix = "dynnp_di"
+}
+
+name_list_venetic_italian_biblical = {
+		cadet_dynasty_names = {
+            dynn_vnita_Acuteo dynn_vnita_Arsetegeo dynn_vnita_Bagsuoneo dynn_vnita_Boialeo dynn_vnita_Bregiuoceo dynn_vnita_Bodegiaceo dynn_vnita_Fremesteneo dynn_vnita_Fremeo dynn_vnita_Gipiareo dynn_vnita_Enaeo dynn_vnita_Casteo dynn_vnita_Ttolesteo dynn_vnita_Cviteo dynn_vnita_Lanteo dynn_vnita_Lavsceo dynn_vnita_Mezeo dynn_vnita_Moscialeo dynn_vnita_Nalcneo dynn_vnita_Nesuonceo dynn_vnita_Ocegeceo dynn_vnita_Uocchieo dynn_vnita_Uoppeo dynn_vnita_Panareo dynn_vnita_Peluoneceo dynn_vnita_Peluoneo 
+            { "dynnp_di" "dynn_vnita_da_Ivrea" } { "dynnp_di" "dynn_vnita_da_Medici" } { "dynnp_di" "dynn_vnita_da_Savoia" } { "dynnp_di" "dynn_vnita_da_Este" } { "dynnp_di" "dynn_vnita_da_Monferrato" } { "dynnp_di" "dynn_vnita_da_Conto" } { "dynnp_di" "dynn_vnita_da_Allucingollo" } { "dynnp_di" "dynn_vnita_da_Pataveo" } { "dynnp_di" "dynn_vnita_da_Veceteno" } { "dynnp_di" "dynn_vnita_da_Ateste" } { "dynnp_di" "dynn_vnita_da_Opetergeo" } { "dynnp_di" "dynn_vnita_da_Alteno" }
+		}
+
+		dynasty_names = {
+            dynn_vnita_Acuteo dynn_vnita_Arsetegeo dynn_vnita_Bagsuoneo dynn_vnita_Boialeo dynn_vnita_Bregiuoceo dynn_vnita_Bodegiaceo dynn_vnita_Fremesteneo dynn_vnita_Fremeo dynn_vnita_Gipiareo dynn_vnita_Enaeo dynn_vnita_Casteo dynn_vnita_Ttolesteo dynn_vnita_Cviteo dynn_vnita_Lanteo dynn_vnita_Lavsceo dynn_vnita_Mezeo dynn_vnita_Moscialeo dynn_vnita_Nalcneo dynn_vnita_Nesuonceo dynn_vnita_Ocegeceo dynn_vnita_Uocchieo dynn_vnita_Uoppeo dynn_vnita_Panareo dynn_vnita_Peluoneceo dynn_vnita_Peluoneo 
+            { "dynnp_di" "dynn_vnita_da_Ivrea" } { "dynnp_di" "dynn_vnita_da_Medici" } { "dynnp_di" "dynn_vnita_da_Savoia" } { "dynnp_di" "dynn_vnita_da_Este" } { "dynnp_di" "dynn_vnita_da_Monferrato" } { "dynnp_di" "dynn_vnita_da_Conto" } { "dynnp_di" "dynn_vnita_da_Allucingollo" } { "dynnp_di" "dynn_vnita_da_Pataveo" } { "dynnp_di" "dynn_vnita_da_Veceteno" } { "dynnp_di" "dynn_vnita_da_Ateste" } { "dynnp_di" "dynn_vnita_da_Opetergeo" } { "dynnp_di" "dynn_vnita_da_Alteno" }
+		}
+
+		male_names = {
+			60 = {
+            	vnita_Afro vnita_Emo vnita_Acuto vnita_Alero vnita_Amegio vnita_Andetegio vnita_Andeto vnita_Apleseco vnita_Arbo vnita_Areo vnita_Ascolo vnita_Atto vnita_Beto vnita_Bellene vnita_Boial vnita_Boio vnita_Bregiuoco vnita_Bodegiaco vnita_Dippiareco vnita_Gipiare vnita_Delleco vnita_Delle vnita_Evo vnita_Egesto vnita_Egeto vnita_Eneo vnita_Enete vnita_Enogene vnita_Erseno vnita_Feogo vnita_Fuonte vnita_Fuonto vnita_Foguonte vnita_Fremesto vnita_Fogeo vnita_Geo vnita_Greco vnita_Ostevo vnita_Uovo vnita_Otto vnita_Giovante vnita_Cante vnita_Caramno vnita_Cascio vnita_Cello vnita_Ceoteno vnita_Ttolesto vnita_Cvito vnita_Lamoso vnita_Lante vnita_Lavsco vnita_Lemeto vnita_Loce vnita_Mezo vnita_Moldo vnita_Nalcno vnita_Nesuonco vnita_Neso vnita_Ocegeo vnita_Uoppo vnita_Uossoco vnita_Uoste vnita_Panare vnita_Peluoneco vnita_Pilpuoto vnita_Piede vnita_Reteveo vnita_Reto vnita_Resonco vnita_Seco vnita_Soro vnita_Teceo vnita_Tomatoreo vnita_Treseco vnita_Turegio vnita_Oco vnita_Orcleo vnita_Orcle vnita_Vante vnita_Vasseno vnita_Vegno vnita_Veme vnita_Vennone vnita_Vercvalo vnita_Voltegene vnita_Volzomno vnita_Vuoto
+			}
+			40 = {
+				Achille Alessandro Alessio Ambrogio Andrea Angelo Annibale Antonino Antonio Antoniotto Attilio Baldassarre Bartolomeo Basilio Cristoforo Filippo Gabriele Gian Giovanni Marco Marino Matteo Michelangelo Michele Paolo Pasquale Tommaso Zaccaria
+			}
+		}
+
+		female_names = {
+			60 = {
+            	vnita_Acota vnita_Andeta vnita_Apea vnita_Ascolea vnita_Atta vnita_Betuonea vnita_Bregdena vnita_Bocca vnita_Evoa vnita_Efa vnita_Egesta vnita_Egetora vnita_Feteana vnita_Foguonta vnita_Frema vnita_Fremesta vnita_Fremestena vnita_Fugea vnita_Fussea vnita_Gianta vnita_Ecevviogna vnita_Etorea vnita_Giovanta vnita_Canta vnita_Colea vnita_Coecota vnita_Macna vnita_Molduona vnita_Mosceala vnita_Mosta vnita_Nerca vnita_Uotnea vnita_Rebetuona vnita_Retza vnita_Truostea vnita_Orclena vnita_Osedegia vnita_Vantcegna vnita_Venna vnita_Vercuondarna
+			}
+			40 = {
+				Agnese Alessandra Ambrosia Anna Caterina Elena Elisa Elisabetta Giovanna Isabella Maria Martina Paola Sofia 
+			}
+		}
+
+	dynasty_of_location_prefix = "dynnp_di"
+	
+}
+
+name_list_venetic_dalmatian = {
+		cadet_dynasty_names = {
+            dynn_vndal_Aclunio dynn_vndal_Ametio dynn_vndal_Antetio dynn_vndal_Aplesio dynn_vndal_Ascolio dynn_vndal_Betio dynn_vndal_Bregio dynn_vndal_Bodeacio dynn_vndal_Dipiario dynn_vndal_Gipario dynn_vndal_Egestio dynn_vndal_Enetio dynn_vndal_Fontio dynn_vndal_Grecio dynn_vndal_Ostevio dynn_vndal_Giovantio dynn_vndal_Catio dynn_vndal_Cvitio dynn_vndal_Lemetio dynn_vndal_Moldonio dynn_vndal_Nagalio dynn_vndal_Ocegio dynn_vndal_Uossio dynn_vndal_Pelonio dynn_vndal_Piedio dynn_vndal_Retvio dynn_vndal_Resonio dynn_vndal_Sorio dynn_vndal_Tresecio dynn_vndal_Truostio dynn_vndal_Orclio dynn_vndal_Vantenio dynn_vndal_Vennonio dynn_vndal_Vercondio dynn_vndal_Volgenio dynn_vndal_Votio
+		}
+
+		dynasty_names = {
+            dynn_vndal_Aclunio dynn_vndal_Ametio dynn_vndal_Antetio dynn_vndal_Aplesio dynn_vndal_Ascolio dynn_vndal_Betio dynn_vndal_Bregio dynn_vndal_Bodeacio dynn_vndal_Dipiario dynn_vndal_Gipario dynn_vndal_Egestio dynn_vndal_Enetio dynn_vndal_Fontio dynn_vndal_Grecio dynn_vndal_Ostevio dynn_vndal_Giovantio dynn_vndal_Catio dynn_vndal_Cvitio dynn_vndal_Lemetio dynn_vndal_Moldonio dynn_vndal_Nagalio dynn_vndal_Ocegio dynn_vndal_Uossio dynn_vndal_Pelonio dynn_vndal_Piedio dynn_vndal_Retvio dynn_vndal_Resonio dynn_vndal_Sorio dynn_vndal_Tresecio dynn_vndal_Truostio dynn_vndal_Orclio dynn_vndal_Vantenio dynn_vndal_Vennonio dynn_vndal_Vercondio dynn_vndal_Volgenio dynn_vndal_Votio
+		}
+
+		male_names = {
+            vndal_Afro vndal_Emo vndal_Acuto vndal_Alero vndal_Amego vndal_Andegio vndal_Ando vndal_Apleco vndal_Arbo vndal_Aro vndal_Ascolo vndal_Atto vndal_Beto vndal_Bellene vndal_Boial vndal_Boio vndal_Breoco vndal_Bodeaco vndal_Dipiaro vndal_Gipare vndal_Dellico vndal_Delle vndal_Evo vndal_Egesto vndal_Egeto vndal_Enio vndal_Enete vndal_Enogene vndal_Erso vndal_Foge vndal_Fonto vndal_Fogonte vndal_Fremesto vndal_Fogeo vndal_Geo vndal_Greco vndal_Ostevo vndal_Ovo vndal_Otto vndal_Giovante vndal_Cante vndal_Caramno vndal_Cascio vndal_Cello vndal_Ceteno vndal_Tolto vndal_Cvito vndal_Lemo vndal_Lante vndal_Lavsco vndal_Lemeto vndal_Loce vndal_Mezo vndal_Moldo vndal_Nalno vndal_Nesuno vndal_Neso vndal_Ocege vndal_Oppo vndal_Uosso vndal_Uosto vndal_Panaro vndal_Peloneco vndal_Pilpoto vndal_Piede vndal_Retveo vndal_Reto vndal_Resono vndal_Seco vndal_Soro vndal_Teceo vndal_Tomateo vndal_Treseco vndal_Turegio vndal_Oco vndal_Orcle vndal_Vante vndal_Vasseno vndal_Vegno vndal_Veme vndal_Vennone vndal_Vervalo vndal_Volgene vndal_Volzo vndal_Voto
+		}
+
+		female_names = {
+            vndal_Acota vndal_Anda vndal_Apea vndal_Ascola vndal_Atta vndal_Bagsona vndal_Betuna vndal_Bregda vndal_Bocca vndal_Evoa vndal_Efa vndal_Egesta vndal_Egetora vndal_Fetena vndal_Fogunta vndal_Frema vndal_Fremesta vndal_Fugia vndal_Fussia vndal_Ecevvia vndal_Etorea vndal_Giovanta vndal_Canta vndal_Colea vndal_Coeta vndal_Macna vndal_Molda vndal_Mosca vndal_Mosta vndal_Nerca vndal_Uotnia vndal_Rebuna vndal_Retza vndal_Truostea vndal_Orclena vndal_Osegia vndal_Vantena vndal_Venna vndal_Vercuonna
+		}
+
+	dynasty_of_location_prefix = "dynnp_di"
+	
+}
+
+name_list_venetic_dalmatian_biblical = {
+		cadet_dynasty_names = {
+            dynn_vndal_Aclunio dynn_vndal_Ametio dynn_vndal_Antetio dynn_vndal_Aplesio dynn_vndal_Ascolio dynn_vndal_Betio dynn_vndal_Bregio dynn_vndal_Bodeacio dynn_vndal_Dipiario dynn_vndal_Gipario dynn_vndal_Egestio dynn_vndal_Enetio dynn_vndal_Fontio dynn_vndal_Grecio dynn_vndal_Ostevio dynn_vndal_Giovantio dynn_vndal_Catio dynn_vndal_Cvitio dynn_vndal_Lemetio dynn_vndal_Moldonio dynn_vndal_Nagalio dynn_vndal_Ocegio dynn_vndal_Uossio dynn_vndal_Pelonio dynn_vndal_Piedio dynn_vndal_Retvio dynn_vndal_Resonio dynn_vndal_Sorio dynn_vndal_Tresecio dynn_vndal_Truostio dynn_vndal_Orclio dynn_vndal_Vantenio dynn_vndal_Vennonio dynn_vndal_Vercondio dynn_vndal_Volgenio dynn_vndal_Votio
+		}
+
+		dynasty_names = {
+            dynn_vndal_Aclunio dynn_vndal_Ametio dynn_vndal_Antetio dynn_vndal_Aplesio dynn_vndal_Ascolio dynn_vndal_Betio dynn_vndal_Bregio dynn_vndal_Bodeacio dynn_vndal_Dipiario dynn_vndal_Gipario dynn_vndal_Egestio dynn_vndal_Enetio dynn_vndal_Fontio dynn_vndal_Grecio dynn_vndal_Ostevio dynn_vndal_Giovantio dynn_vndal_Catio dynn_vndal_Cvitio dynn_vndal_Lemetio dynn_vndal_Moldonio dynn_vndal_Nagalio dynn_vndal_Ocegio dynn_vndal_Uossio dynn_vndal_Pelonio dynn_vndal_Piedio dynn_vndal_Retvio dynn_vndal_Resonio dynn_vndal_Sorio dynn_vndal_Tresecio dynn_vndal_Truostio dynn_vndal_Orclio dynn_vndal_Vantenio dynn_vndal_Vennonio dynn_vndal_Vercondio dynn_vndal_Volgenio dynn_vndal_Votio
+		}
+
+		male_names = {
+			60 = {
+            	vndal_Afro vndal_Emo vndal_Acuto vndal_Alero vndal_Amego vndal_Andegio vndal_Ando vndal_Apleco vndal_Arbo vndal_Aro vndal_Ascolo vndal_Atto vndal_Beto vndal_Bellene vndal_Boial vndal_Boio vndal_Breoco vndal_Bodeaco vndal_Dipiaro vndal_Gipare vndal_Dellico vndal_Delle vndal_Evo vndal_Egesto vndal_Egeto vndal_Enio vndal_Enete vndal_Enogene vndal_Erso vndal_Foge vndal_Fonto vndal_Fogonte vndal_Fremesto vndal_Fogeo vndal_Geo vndal_Greco vndal_Ostevo vndal_Ovo vndal_Otto vndal_Giovante vndal_Cante vndal_Caramno vndal_Cascio vndal_Cello vndal_Ceteno vndal_Tolto vndal_Cvito vndal_Lemo vndal_Lante vndal_Lavsco vndal_Lemeto vndal_Loce vndal_Mezo vndal_Moldo vndal_Nalno vndal_Nesuno vndal_Neso vndal_Ocege vndal_Oppo vndal_Uosso vndal_Uosto vndal_Panaro vndal_Peloneco vndal_Pilpoto vndal_Piede vndal_Retveo vndal_Reto vndal_Resono vndal_Seco vndal_Soro vndal_Teceo vndal_Tomateo vndal_Treseco vndal_Turegio vndal_Oco vndal_Orcle vndal_Vante vndal_Vasseno vndal_Vegno vndal_Veme vndal_Vennone vndal_Vervalo vndal_Volgene vndal_Volzo vndal_Voto
+			}
+            40 = {
+				Achille Alessandro Alessio Ambrogio Andrea Angelo Annibale Antonino Antonio Antoniotto Attilio Baldassarre Bartolomeo Basilio Cristoforo Filippo Gabriele Gian Giovanni Marco Marino Matteo Michelangelo Michele Paolo Pasquale Tommaso Zaccaria
+			}
+		}
+
+		female_names = {
+			60 = {
+            	vndal_Acota vndal_Anda vndal_Apea vndal_Ascola vndal_Atta vndal_Bagsona vndal_Betuna vndal_Bregda vndal_Bocca vndal_Evoa vndal_Efa vndal_Egesta vndal_Egetora vndal_Fetena vndal_Fogunta vndal_Frema vndal_Fremesta vndal_Fugia vndal_Fussia vndal_Ecevvia vndal_Etorea vndal_Giovanta vndal_Canta vndal_Colea vndal_Coeta vndal_Macna vndal_Molda vndal_Mosca vndal_Mosta vndal_Nerca vndal_Uotnia vndal_Rebuna vndal_Retza vndal_Truostea vndal_Orclena vndal_Osegia vndal_Vantena vndal_Venna vndal_Vercuonna
+			}
+			40 = {
+				Agnese Alessandra Ambrosia Anna Caterina Elena Elisa Elisabetta Giovanna Isabella Maria Martina Paola Sofia 
+			}
+		}
+
+	dynasty_of_location_prefix = "dynnp_di"
+	
+}
+
+name_list_venetic_sardinian = {
+		cadet_dynasty_names = {
+            dynn_vnsard_Agndezinio dynn_vnsard_Antetio dynn_vnsard_Ariunini dynn_vnsard_Arsoetigio dynn_vnsard_Bagsonio dynn_vnsard_Boialnini dynn_vnsard_Broiucio dynn_vnsard_Deipiarini dynn_vnsard_Eghestio dynn_vnsard_Egotorio dynn_vnsard_Eneini dynn_vnsard_Enogenio dynn_vnsard_Feugio dynn_vnsard_Fougontio dynn_vnsard_Fremezio dynn_vnsard_Uttio dynn_vnsard_Cantio dynn_vnsard_Catazini dynn_vnsard_Tullstio dynn_vnsard_Lantini dynn_vnsard_Lemetorio dynn_vnsard_Muzialio dynn_vnsard_Nesoncio dynn_vnsard_Nesonini dynn_vnsard_Oziecio dynn_vnsard_Ossucio dynn_vnsard_Ostini dynn_vnsard_Panarini dynn_vnsard_Pelonini dynn_vnsard_Pilpotio dynn_vnsard_Reteini dynn_vnsard_Resuncio dynn_vnsard_Trisicio dynn_vnsard_Urcheini dynn_vnsard_Bassenio dynn_vnsard_Bennonini dynn_vnsard_Boltighenio 
+            { "dynnp_di" "dynn_vnsard_da_Ateste" } { "dynnp_di" "dynn_vnsard_da_Pataion" } { "dynnp_di" "dynn_vnsard_da_Opiterghio" } { "dynnp_di" "dynn_vnsard_da_Tergeste" } { "dynnp_di" "dynn_vnsard_da_Cartago" } { "dynnp_di" "dynn_vnsard_da_Talvision" } { "dynnp_di" "dynn_vnsard_da_Concoddia" } 
+		}
+
+		dynasty_names = {
+            dynn_vnsard_Agndezinio dynn_vnsard_Antetio dynn_vnsard_Ariunini dynn_vnsard_Arsoetigio dynn_vnsard_Bagsonio dynn_vnsard_Boialnini dynn_vnsard_Broiucio dynn_vnsard_Deipiarini dynn_vnsard_Eghestio dynn_vnsard_Egotorio dynn_vnsard_Eneini dynn_vnsard_Enogenio dynn_vnsard_Feugio dynn_vnsard_Fougontio dynn_vnsard_Fremezio dynn_vnsard_Uttio dynn_vnsard_Cantio dynn_vnsard_Catazini dynn_vnsard_Tullstio dynn_vnsard_Lantini dynn_vnsard_Lemetorio dynn_vnsard_Muzialio dynn_vnsard_Nesoncio dynn_vnsard_Nesonini dynn_vnsard_Oziecio dynn_vnsard_Ossucio dynn_vnsard_Ostini dynn_vnsard_Panarini dynn_vnsard_Pelonini dynn_vnsard_Pilpotio dynn_vnsard_Reteini dynn_vnsard_Resuncio dynn_vnsard_Trisicio dynn_vnsard_Urcheini dynn_vnsard_Bassenio dynn_vnsard_Bennonini dynn_vnsard_Boltighenio 
+            { "dynnp_di" "dynn_vnsard_da_Ateste" } { "dynnp_di" "dynn_vnsard_da_Pataion" } { "dynnp_di" "dynn_vnsard_da_Opiterghio" } { "dynnp_di" "dynn_vnsard_da_Tergeste" } { "dynnp_di" "dynn_vnsard_da_Cartago" } { "dynnp_di" "dynn_vnsard_da_Talvision" } { "dynnp_di" "dynn_vnsard_da_Concoddia" } 
+		}
+
+		male_names = {
+            vnsard_Afro vnsard_Emo vnsard_Acuto vnsard_Alero vnsard_Ametico vnsard_Agndezio vnsard_Agndeto vnsard_Apzsico vnsard_Albo vnsard_Ariuni vnsard_Assolo vnsard_Atto vnsard_Beto vnsard_Beddene vnsard_Boialni vnsard_Boio vnsard_Broiuco vnsard_Buiaco vnsard_Deipiarico vnsard_Deipiari vnsard_Diddico vnsard_Diddi vnsard_Epo vnsard_Eghesto vnsard_Eghetor vnsard_Einaio vnsard_Enezo vnsard_Enogene vnsard_Ersino vnsard_Feugo vnsard_Fonte vnsard_Fonto vnsard_Fougonte vnsard_Fremesto vnsard_Fugio vnsard_Gaio vnsard_Greco vnsard_Ozeo vnsard_Ofo vnsard_Utto vnsard_Iuante vnsard_Cante vnsard_Caramno vnsard_Castico vnsard_Cheddo vnsard_Cheutino vnsard_Tullsto vnsard_Cvito vnsard_Lamuso vnsard_Lanti vnsard_Lavsso vnsard_Lemetor vnsard_Lutsi vnsard_Mezo vnsard_Moddo vnsard_Nagalno vnsard_Nesonco vnsard_Neso vnsard_Ozieiu vnsard_Oppo vnsard_Ossuco vnsard_Osti vnsard_Panario vnsard_Pelonico vnsard_Pilpoto vnsard_Plede vnsard_Plete vnsard_Reteio vnsard_Reito vnsard_Resunco vnsard_Sico vnsard_Suro vnsard_Tetsio vnsard_Tomatorio vnsard_Trisico vnsard_Turio vnsard_Uco vnsard_Urcheio vnsard_Urche vnsard_Bante vnsard_Banti vnsard_Basseno vnsard_Beinno vnsard_Beime vnsard_Bennoni vnsard_Bervalo vnsard_Boltighene vnsard_Bolzomno vnsard_Boto
+		}
+
+		female_names = {
+            vnsard_Acuta vnsard_Agndeta vnsard_Apia vnsard_Assogia vnsard_Atta vnsard_Bagsongia vnsard_Betongia vnsard_Brigdina vnsard_Bucca vnsard_Eua vnsard_Efa vnsard_Eghesta vnsard_Eghetora vnsard_Fezana vnsard_Fougonta vnsard_Frema vnsard_Fremesta vnsard_Fremestina vnsard_Fughia vnsard_Fussia vnsard_Ianta vnsard_Iceioneia vnsard_Ituria vnsard_Iuanta vnsard_Canta vnsard_Coza vnsard_Cuicuta vnsard_Macna vnsard_Moddona vnsard_Muziala vnsard_Musta vnsard_Neirca vnsard_Nerca vnsard_Otngia vnsard_Retona vnsard_Reiza vnsard_Troza vnsard_Urcheina vnsard_Useia vnsard_Banchengia vnsard_Benna vnsard_Bercogndarna
+		}
+
+	dynasty_of_location_prefix = "dynnp_di"
+	
+}
+
+name_list_venetic_sardinian_biblical = {
+		cadet_dynasty_names = {
+            dynn_vnsard_Agndezinio dynn_vnsard_Antetio dynn_vnsard_Ariunini dynn_vnsard_Arsoetigio dynn_vnsard_Bagsonio dynn_vnsard_Boialnini dynn_vnsard_Broiucio dynn_vnsard_Deipiarini dynn_vnsard_Eghestio dynn_vnsard_Egotorio dynn_vnsard_Eneini dynn_vnsard_Enogenio dynn_vnsard_Feugio dynn_vnsard_Fougontio dynn_vnsard_Fremezio dynn_vnsard_Uttio dynn_vnsard_Cantio dynn_vnsard_Catazini dynn_vnsard_Tullstio dynn_vnsard_Lantini dynn_vnsard_Lemetorio dynn_vnsard_Muzialio dynn_vnsard_Nesoncio dynn_vnsard_Nesonini dynn_vnsard_Oziecio dynn_vnsard_Ossucio dynn_vnsard_Ostini dynn_vnsard_Panarini dynn_vnsard_Pelonini dynn_vnsard_Pilpotio dynn_vnsard_Reteini dynn_vnsard_Resuncio dynn_vnsard_Trisicio dynn_vnsard_Urcheini dynn_vnsard_Bassenio dynn_vnsard_Bennonini dynn_vnsard_Boltighenio 
+            { "dynnp_di" "dynn_vnsard_da_Ateste" } { "dynnp_di" "dynn_vnsard_da_Pataion" } { "dynnp_di" "dynn_vnsard_da_Opiterghio" } { "dynnp_di" "dynn_vnsard_da_Tergeste" } { "dynnp_di" "dynn_vnsard_da_Cartago" } { "dynnp_di" "dynn_vnsard_da_Talvision" } { "dynnp_di" "dynn_vnsard_da_Concoddia" } 
+		}
+
+		dynasty_names = {
+            dynn_vnsard_Agndezinio dynn_vnsard_Antetio dynn_vnsard_Ariunini dynn_vnsard_Arsoetigio dynn_vnsard_Bagsonio dynn_vnsard_Boialnini dynn_vnsard_Broiucio dynn_vnsard_Deipiarini dynn_vnsard_Eghestio dynn_vnsard_Egotorio dynn_vnsard_Eneini dynn_vnsard_Enogenio dynn_vnsard_Feugio dynn_vnsard_Fougontio dynn_vnsard_Fremezio dynn_vnsard_Uttio dynn_vnsard_Cantio dynn_vnsard_Catazini dynn_vnsard_Tullstio dynn_vnsard_Lantini dynn_vnsard_Lemetorio dynn_vnsard_Muzialio dynn_vnsard_Nesoncio dynn_vnsard_Nesonini dynn_vnsard_Oziecio dynn_vnsard_Ossucio dynn_vnsard_Ostini dynn_vnsard_Panarini dynn_vnsard_Pelonini dynn_vnsard_Pilpotio dynn_vnsard_Reteini dynn_vnsard_Resuncio dynn_vnsard_Trisicio dynn_vnsard_Urcheini dynn_vnsard_Bassenio dynn_vnsard_Bennonini dynn_vnsard_Boltighenio 
+            { "dynnp_di" "dynn_vnsard_da_Ateste" } { "dynnp_di" "dynn_vnsard_da_Pataion" } { "dynnp_di" "dynn_vnsard_da_Opiterghio" } { "dynnp_di" "dynn_vnsard_da_Tergeste" } { "dynnp_di" "dynn_vnsard_da_Cartago" } { "dynnp_di" "dynn_vnsard_da_Talvision" } { "dynnp_di" "dynn_vnsard_da_Concoddia" } 
+		}
+
+		male_names = {
+			60 = {
+            	vnsard_Afro vnsard_Emo vnsard_Acuto vnsard_Alero vnsard_Ametico vnsard_Agndezio vnsard_Agndeto vnsard_Apzsico vnsard_Albo vnsard_Ariuni vnsard_Assolo vnsard_Atto vnsard_Beto vnsard_Beddene vnsard_Boialni vnsard_Boio vnsard_Broiuco vnsard_Buiaco vnsard_Deipiarico vnsard_Diddico vnsard_Epo vnsard_Eghesto vnsard_Eghetor vnsard_Einaio vnsard_Enezo vnsard_Enogene vnsard_Ersino vnsard_Feugo vnsard_Fonte vnsard_Fonto vnsard_Fougonte vnsard_Fremesto vnsard_Fugio vnsard_Gaio vnsard_Greco vnsard_Ozeo vnsard_Ofo vnsard_Utto vnsard_Iuante vnsard_Cante vnsard_Caramno vnsard_Castico vnsard_Cheddo vnsard_Cheutino vnsard_Tullsto vnsard_Cvito vnsard_Lamuso vnsard_Lanti vnsard_Lavsso vnsard_Lemetor vnsard_Lutsi vnsard_Mezo vnsard_Moddo vnsard_Nagalno vnsard_Nesonco vnsard_Neso vnsard_Ozieiu vnsard_Oppo vnsard_Ossuco vnsard_Osti vnsard_Panario vnsard_Pelonico vnsard_Pilpoto vnsard_Plede vnsard_Plete vnsard_Reteio vnsard_Reito vnsard_Resunco vnsard_Sico vnsard_Suro vnsard_Tetsio vnsard_Tomatorio vnsard_Trisico vnsard_Turio vnsard_Uco vnsard_Urcheio vnsard_Urche vnsard_Bante vnsard_Banti vnsard_Basseno vnsard_Beinno vnsard_Beime vnsard_Bennoni vnsard_Bervalo vnsard_Boltighene vnsard_Bolzomno vnsard_Boto
+			}
+			40 = {
+				Basiliu Crabiele Cristolu Giuanne Giustinu Giustu Juanne Marku Martinu Mattia Matteu Micheli Mighele Mikelli Pascale Simione Tommasu Zuseppe
+			}
+		}
+
+		female_names = {
+			60 = {
+            	vnsard_Acuta vnsard_Agndeta vnsard_Apia vnsard_Assogia vnsard_Atta vnsard_Bagsongia vnsard_Betongia vnsard_Brigdina vnsard_Bucca vnsard_Eua vnsard_Efa vnsard_Eghesta vnsard_Eghetora vnsard_Enuclea vnsard_Fezana vnsard_Fougonta vnsard_Frema vnsard_Fremesta vnsard_Fremestina vnsard_Fughia vnsard_Fussia vnsard_Ianta vnsard_Iceioneia vnsard_Ituria vnsard_Iuanta vnsard_Canta vnsard_Coza vnsard_Cuicuta vnsard_Macna vnsard_Moddona vnsard_Muziala vnsard_Musta vnsard_Neirca vnsard_Nerca vnsard_Otngia vnsard_Retona vnsard_Reiza vnsard_Troza vnsard_Urcheina vnsard_Useia vnsard_Banchengia vnsard_Benna vnsard_Bercogndarna
+			}
+			40 = {
+				Agnese Angelica Anna Catellina Giuanna Ispella Juanna Maria Marianna Markusa Pascalina Susanna Teresa Zuseppa
+			}
+		}
+
+	dynasty_of_location_prefix = "dynnp_di"
+	
+}
+
+name_list_venetic_sicilian = {
+		cadet_dynasty_names = {
+            dynn_vensic_emuni dynn_vensic_acutisi dynn_vensic_aleruni dynn_vensic_ametechisi dynn_vensic_anditegiaru dynn_vensic_andetuni dynn_vensic_apiesecu dynn_vensic_arbuisi dynn_vensic_ariunaru dynn_vensic_aspitegiaci dynn_vensic_asculisi dynn_vensic_attusu dynn_vensic_betuni dynn_vensic_billenisi dynn_vensic_buialu dynn_vensic_briegiocu dynn_vensic_bodegiaci dynn_vensic_dipiarisi dynn_vensic_dielleci dynn_vensic_egiettu dynn_vensic_egetuni dynn_vensic_ieniusu dynn_vensic_enegiuni dynn_vensic_enogenisi dynn_vensic_enolevici dynn_vensic_ersenaru dynn_vensic_fuggonti dynn_vensic_frimestisi dynn_vensic_fogiaru
+		}
+
+		dynasty_names = {
+            dynn_vensic_emuni dynn_vensic_acutisi dynn_vensic_aleruni dynn_vensic_ametechisi dynn_vensic_anditegiaru dynn_vensic_andetuni dynn_vensic_apiesecu dynn_vensic_arbuisi dynn_vensic_ariunaru dynn_vensic_aspitegiaci dynn_vensic_asculisi dynn_vensic_attusu dynn_vensic_betuni dynn_vensic_billenisi dynn_vensic_buialu dynn_vensic_briegiocu dynn_vensic_bodegiaci dynn_vensic_dipiarisi dynn_vensic_dielleci dynn_vensic_egiettu dynn_vensic_egetuni dynn_vensic_ieniusu dynn_vensic_enegiuni dynn_vensic_enogenisi dynn_vensic_enolevici dynn_vensic_ersenaru dynn_vensic_fuggonti dynn_vensic_frimestisi dynn_vensic_fogiaru
+		}
+
+		male_names = {
+            vensic_afru vensic_emu vensic_acutu vensic_aleru vensic_ametecu vensic_anditegiu vensic_andetu vensic_apiesecu vensic_arbu vensic_ariun vensic_aspitegiacu vensic_ascolu vensic_attu vensic_betu vensic_billeni vensic_buiali vensic_buiu vensic_briegiocu vensic_bodegiacu vensic_dipiarecu vensic_dipiaru vensic_diellecu vensic_dielli vensic_ebu vensic_egiestu vensic_egetu vensic_ieniu vensic_enegiu vensic_eneti vensic_enogeni vensic_ersenu vensic_fiogu vensic_fonti vensic_fugonti vensic_friemestu vensic_fogiu vensic_geiu vensic_grecu vensic_ostievu vensic_ouvu vensic_ottu vensic_giuvanti vensic_canti vensic_caragnu vensic_castecu vensic_ciellu vensic_ciutinu vensic_tolestu vensic_cvitu vensic_lamosu vensic_lanti vensic_lavscu vensic_lemitu vensic_luci vensic_mezu vensic_moldu vensic_nagalu vensic_nesoncu vensic_nesu vensic_ocegeu vensic_oppu vensic_ossocu vensic_ostu vensic_panari vensic_pelonecu vensic_pilpoti vensic_piedi vensic_reteviu vensic_rietu vensic_resoncu vensic_secu vensic_suoru vensic_teciu vensic_tomatoriu vensic_tresecu vensic_turegiu vensic_ocu vensic_orleiu vensic_orli vensic_vanti vensic_vassenu vensic_viegnu vensic_viemi vensic_vennoni vensic_vervalu vensic_voltegeni vensic_voltiognu vensic_votu
+		}
+
+		female_names = {
+            vensic_acota vensic_andeta vensic_apia vensic_ascolia vensic_atta vensic_bagsonia vensic_betonia vensic_bredina vensic_bocca vensic_ebua vensic_efa vensic_egesta vensic_egetora vensic_fetiana vensic_fugota vensic_frema vensic_frimesta vensic_frimestena vensic_fugia vensic_fugsia vensic_gianta vensic_eceviunia vensic_etoria vensic_giuvanta vensic_canta vensic_colia vensic_cuicota vensic_mana vensic_muldona vensic_mosciala vensic_mosta vensic_nierca vensic_nerca vensic_otnia vensic_rebitona vensic_rietia vensic_trostia vensic_orliena vensic_osidegia vensic_vancenia vensic_vegna vensic_vercuondana
+		}
+
+	dynasty_of_location_prefix = "dynnp_di"
+}
+
+name_list_venetic_sicilian_biblical = {
+		cadet_dynasty_names = {
+            dynn_vensic_emuni dynn_vensic_acutisi dynn_vensic_aleruni dynn_vensic_ametechisi dynn_vensic_anditegiaru dynn_vensic_andetuni dynn_vensic_apiesecu dynn_vensic_arbuisi dynn_vensic_ariunaru dynn_vensic_aspitegiaci dynn_vensic_asculisi dynn_vensic_attusu dynn_vensic_betuni dynn_vensic_billenisi dynn_vensic_buialu dynn_vensic_briegiocu dynn_vensic_bodegiaci dynn_vensic_dipiarisi dynn_vensic_dielleci dynn_vensic_egiettu dynn_vensic_egetuni dynn_vensic_ieniusu dynn_vensic_enegiuni dynn_vensic_enogenisi dynn_vensic_enolevici dynn_vensic_ersenaru dynn_vensic_fuggonti dynn_vensic_frimestisi dynn_vensic_fogiaru
+		}
+
+		dynasty_names = {
+            dynn_vensic_emuni dynn_vensic_acutisi dynn_vensic_aleruni dynn_vensic_ametechisi dynn_vensic_anditegiaru dynn_vensic_andetuni dynn_vensic_apiesecu dynn_vensic_arbuisi dynn_vensic_ariunaru dynn_vensic_aspitegiaci dynn_vensic_asculisi dynn_vensic_attusu dynn_vensic_betuni dynn_vensic_billenisi dynn_vensic_buialu dynn_vensic_briegiocu dynn_vensic_bodegiaci dynn_vensic_dipiarisi dynn_vensic_dielleci dynn_vensic_egiettu dynn_vensic_egetuni dynn_vensic_ieniusu dynn_vensic_enegiuni dynn_vensic_enogenisi dynn_vensic_enolevici dynn_vensic_ersenaru dynn_vensic_fuggonti dynn_vensic_frimestisi dynn_vensic_fogiaru
+		}
+
+		male_names = {
+			60 = {
+            	vensic_afru vensic_emu vensic_acutu vensic_aleru vensic_ametecu vensic_anditegiu vensic_andetu vensic_apiesecu vensic_arbu vensic_ariun vensic_aspitegiacu vensic_ascolu vensic_attu vensic_betu vensic_billeni vensic_buiali vensic_buiu vensic_briegiocu vensic_bodegiacu vensic_dipiarecu vensic_dipiaru vensic_diellecu vensic_dielli vensic_ebu vensic_egiestu vensic_egetu vensic_ieniu vensic_enegiu vensic_eneti vensic_enogeni vensic_ersenu vensic_fiogu vensic_fonti vensic_fugonti vensic_friemestu vensic_fogiu vensic_geiu vensic_grecu vensic_ostievu vensic_ouvu vensic_ottu vensic_giuvanti vensic_canti vensic_caragnu vensic_castecu vensic_ciellu vensic_ciutinu vensic_tolestu vensic_cvitu vensic_lamosu vensic_lanti vensic_lavscu vensic_lemitu vensic_luci vensic_mezu vensic_moldu vensic_nagalu vensic_nesoncu vensic_nesu vensic_ocegeu vensic_oppu vensic_ossocu vensic_ostu vensic_panari vensic_pelonecu vensic_pilpoti vensic_piedi vensic_reteviu vensic_rietu vensic_resoncu vensic_secu vensic_suoru vensic_teciu vensic_tomatoriu vensic_tresecu vensic_turegiu vensic_ocu vensic_orleiu vensic_orli vensic_vanti vensic_vassenu vensic_viegnu vensic_viemi vensic_vennoni vensic_vervalu vensic_voltegeni vensic_voltiognu vensic_votu
+			}
+			40 = {
+				Andrea Danieli Elia Filippu Gabbriele Giuacchinu Giordanu Giuseppe Giuvanni Luca Matteu Micheli Nicudemu Petru Samueli Simuni Zaccaria 
+			}
+		}
+
+		female_names = {
+			60 = {
+            	vensic_acota vensic_andeta vensic_apia vensic_ascolia vensic_atta vensic_bagsonia vensic_betonia vensic_bredina vensic_bocca vensic_ebua vensic_efa vensic_egesta vensic_egetora vensic_fetiana vensic_fugota vensic_frema vensic_frimesta vensic_frimestena vensic_fugia vensic_fugsia vensic_gianta vensic_eceviunia vensic_etoria vensic_giuvanta vensic_canta vensic_colia vensic_cuicota vensic_mana vensic_muldona vensic_mosciala vensic_mosta vensic_nierca vensic_nerca vensic_otnia vensic_rebitona vensic_rietia vensic_trostia vensic_orliena vensic_osidegia vensic_vancenia vensic_vegna vensic_vercuondana
+			}
+			40 = {
+				Anna Catarina Cristina Giordana Giuditta Giuseppa Giuvanna Isabella Lisabetta Maddalena MarIIa Marianna Olimpia Sibbila Simuna
+			}
+		}
+
+	dynasty_of_location_prefix = "dynnp_di"
+}
+
+name_list_venetic_romanian = {
+		cadet_dynasty_names = {
+            dynn_vnrom_afruescu dynn_vnrom_acutescu dynn_vnrom_amietescu dynn_vnrom_ariescu dynn_vnrom_bruijescu dynn_vnrom_daiparescu dynn_vnrom_iegetorescu dynn_vnrom_fuguntescu dynn_vnrom_fogiescu dynn_vnrom_castescu dynn_vnrom_lentescu dynn_vnrom_mietescu dynn_vnrom_nesunescu dynn_vnrom_ocijescu dynn_vnrom_panariescu dynn_vnrom_palpotescu dynn_vnrom_ratevescu dynn_vnrom_vantescu dynn_vnrom_vultsunescu dynn_vnrom_viaimescu dynn_vnrom_patavesti dynn_vnrom_opitergusti dynn_vnrom_atiesti dynn_vnrom_concurdisti dynn_vnrom_viecatsinsti dynn_vnrom_altinesti
+		}
+
+		dynasty_names = {
+            dynn_vnrom_afruescu dynn_vnrom_acutescu dynn_vnrom_amietescu dynn_vnrom_ariescu dynn_vnrom_bruijescu dynn_vnrom_daiparescu dynn_vnrom_iegetorescu dynn_vnrom_fuguntescu dynn_vnrom_fogiescu dynn_vnrom_castescu dynn_vnrom_lentescu dynn_vnrom_mietescu dynn_vnrom_nesunescu dynn_vnrom_ocijescu dynn_vnrom_panariescu dynn_vnrom_palpotescu dynn_vnrom_ratevescu dynn_vnrom_vantescu dynn_vnrom_vultsunescu dynn_vnrom_viaimescu dynn_vnrom_patavesti dynn_vnrom_opitergusti dynn_vnrom_atiesti dynn_vnrom_concurdisti dynn_vnrom_viecatsinsti dynn_vnrom_altinesti
+		}
+
+		male_names = {
+            vnrom_afru vnrom_im vnrom_acut vnrom_aieru vnrom_amietcu vnrom_anzietiu vnrom_anziet vnrom_aplescu vnrom_arb vnrom_ariu vnrom_ascoru vnrom_att vnrom_bet vnrom_baine vnrom_boial vnrom_boiu vnrom_brujucu vnrom_budajacu vnrom_daiparicu vnrom_daipare vnrom_dalecu vnrom_dale vnrom_ieb vnrom_egest vnrom_iegetor vnrom_eineu vnrom_ineiu vnrom_inietu vnrom_inugine vnrom_esin vnrom_fieug vnrom_funte vnrom_fugunte vnrom_frimetu vnrom_fogiu vnrom_geu vnrom_gracu vnrom_osteu vnrom_ofu vnrom_ot vnrom_ioante vnrom_cante vnrom_caraun vnrom_castacu vnrom_cialoi vnrom_ceutin vnrom_tulest vnrom_cvet vnrom_lamusu vnrom_lente vnrom_lavscu vnrom_jimetor vnrom_lu vnrom_mietu vnrom_mold vnrom_nagalcan vnrom_nesuncu vnrom_niesu vnrom_ocijeju vnrom_opu vnrom_osocu vnrom_os vnrom_panariu vnrom_parunecu vnrom_palpot vnrom_plede vnrom_ratev vnrom_riet vnrom_rasuncoi vnrom_secu vnrom_soru vnrom_teciu vnrom_tumatoriu vnrom_trasicu vnrom_turiju vnrom_ocu vnrom_orcieu vnrom_orcie vnrom_vante vnrom_vasien vnrom_viainoi vnrom_viaime vnrom_vinune vnrom_vercval vnrom_vultigene vnrom_vultsun vnrom_vot
+		}
+
+		female_names = {
+            vnrom_acuta vnrom_anziata vnrom_apa vnrom_ascoia vnrom_atta vnrom_bagsunia vnrom_batunia vnrom_bragzina vnrom_boca vnrom_iea vnrom_iefa vnrom_egiasta vnrom_iagetora vnrom_fetana vnrom_fugunta vnrom_frima vnrom_framista vnrom_frimestina vnrom_fogia vnrom_fosia vnrom_ianta vnrom_eceiunia vnrom_eturia vnrom_ioanta vnrom_canta vnrom_coia vnrom_cuicuta vnrom_macna vnrom_mulduna vnrom_musceara vnrom_mosta vnrom_niarca vnrom_otnia vnrom_ratuna vnrom_riacia vnrom_trosta vnrom_orcieina vnrom_osedaja vnrom_vantcinia vnrom_vina vnrom_vercundarna
+		}
+
+	dynasty_of_location_prefix = "dynnp_du"
+	
+}
+
+name_list_venetic_romanian_biblical = {
+		cadet_dynasty_names = {
+            dynn_vnrom_afruescu dynn_vnrom_acutescu dynn_vnrom_amietescu dynn_vnrom_ariescu dynn_vnrom_bruijescu dynn_vnrom_daiparescu dynn_vnrom_iegetorescu dynn_vnrom_fuguntescu dynn_vnrom_fogiescu dynn_vnrom_castescu dynn_vnrom_lentescu dynn_vnrom_mietescu dynn_vnrom_nesunescu dynn_vnrom_ocijescu dynn_vnrom_panariescu dynn_vnrom_palpotescu dynn_vnrom_ratevescu dynn_vnrom_vantescu dynn_vnrom_vultsunescu dynn_vnrom_viaimescu dynn_vnrom_patavesti dynn_vnrom_opitergusti dynn_vnrom_atiesti dynn_vnrom_concurdisti dynn_vnrom_viecatsinsti dynn_vnrom_altinesti
+		}
+
+		dynasty_names = {
+            dynn_vnrom_afruescu dynn_vnrom_acutescu dynn_vnrom_amietescu dynn_vnrom_ariescu dynn_vnrom_bruijescu dynn_vnrom_daiparescu dynn_vnrom_iegetorescu dynn_vnrom_fuguntescu dynn_vnrom_fogiescu dynn_vnrom_castescu dynn_vnrom_lentescu dynn_vnrom_mietescu dynn_vnrom_nesunescu dynn_vnrom_ocijescu dynn_vnrom_panariescu dynn_vnrom_palpotescu dynn_vnrom_ratevescu dynn_vnrom_vantescu dynn_vnrom_vultsunescu dynn_vnrom_viaimescu dynn_vnrom_patavesti dynn_vnrom_opitergusti dynn_vnrom_atiesti dynn_vnrom_concurdisti dynn_vnrom_viecatsinsti dynn_vnrom_altinesti
+		}
+
+		male_names = {
+			65 = {
+            	vnrom_afru vnrom_im vnrom_acut vnrom_aieru vnrom_amietcu vnrom_anzietiu vnrom_anziet vnrom_aplescu vnrom_arb vnrom_ariu vnrom_ascoru vnrom_att vnrom_bet vnrom_baine vnrom_boial vnrom_boiu vnrom_brujucu vnrom_budajacu vnrom_daiparicu vnrom_daipare vnrom_dalecu vnrom_dale vnrom_ieb vnrom_egest vnrom_iegetor vnrom_eineu vnrom_ineiu vnrom_inietu vnrom_inugine vnrom_esin vnrom_fieug vnrom_funte vnrom_fugunte vnrom_frimetu vnrom_fogiu vnrom_geu vnrom_gracu vnrom_osteu vnrom_ofu vnrom_ot vnrom_ioante vnrom_cante vnrom_caraun vnrom_castacu vnrom_cialoi vnrom_ceutin vnrom_tulest vnrom_cvet vnrom_lamusu vnrom_lente vnrom_lavscu vnrom_jimetor vnrom_lu vnrom_mietu vnrom_mold vnrom_nagalcan vnrom_nesuncu vnrom_niesu vnrom_ocijeju vnrom_opu vnrom_osocu vnrom_os vnrom_panariu vnrom_parunecu vnrom_palpot vnrom_plede vnrom_ratev vnrom_riet vnrom_rasuncoi vnrom_secu vnrom_soru vnrom_teciu vnrom_tumatoriu vnrom_trasicu vnrom_turiju vnrom_ocu vnrom_orcieu vnrom_orcie vnrom_vante vnrom_vasien vnrom_viainoi vnrom_viaime vnrom_vinune vnrom_vercval vnrom_vultigene vnrom_vultsun vnrom_vot
+			}
+			35 = {
+				Alexandru Anghel Aron Gheorghe Iacob Ioan Marin Nicolaie Petre Simion Stefan
+			}
+		}
+
+		female_names = {
+			60 = {
+            	vnrom_acuta vnrom_anziata vnrom_apa vnrom_ascoia vnrom_atta vnrom_bagsunia vnrom_batunia vnrom_bragzina vnrom_boca vnrom_iea vnrom_iefa vnrom_egiasta vnrom_iagetora vnrom_fetana vnrom_fugunta vnrom_frima vnrom_framista vnrom_frimestina vnrom_fogia vnrom_fosia vnrom_ianta vnrom_eceiunia vnrom_eturia vnrom_ioanta vnrom_canta vnrom_coia vnrom_cuicuta vnrom_macna vnrom_mulduna vnrom_musceara vnrom_mosta vnrom_niarca vnrom_otnia vnrom_ratuna vnrom_riacia vnrom_trosta vnrom_orcieina vnrom_osedaja vnrom_vantcinia vnrom_vina vnrom_vercundarna
+			}
+			40 = {
+				Alexandra Alexia Ana Angela Christina Elena Elisabeta Iacoba Ioana Maria Sophia Stefana Stefania Tereza Zina
+			}
+		}
+
+	dynasty_of_location_prefix = "dynnp_du"
+	
+}
+
+name_list_venetic_pannonian = {
+		cadet_dynasty_names = {
+            dynn_vnpan_Akutscu dynn_vnpan_Antatscu dynn_vnpan_Arsetescu dynn_vnpan_Betscu dynn_vnpan_Breziscu dynn_vnpan_Bodegjakiscu dynn_vnpan_Dipjarakiscu dynn_vnpan_Evuiscu dynn_vnpan_Enezcu dynn_vnpan_Enoklevcu dynn_vnpan_Fremestenscu dynn_vnpan_Zuscu dynn_vnpan_Ostevscu dynn_vnpan_Jantscu dynn_vnpan_Cotenscu dynn_vnpan_Lavsku dynn_vnpan_Ljemetscu dynn_vnpan_Moldonscu dynn_vnpan_Nagalscu dynn_vnpan_Nescu dynn_vnpan_Ocegekscu dynn_vnpan_Panarscu dynn_vnpan_Pelunekscu dynn_vnpan_Pilputscu dynn_vnpan_Retjescu dynn_vnpan_Revetuonscu dynn_vnpan_Resiscu dynn_vnpan_Sekiscu dynn_vnpan_Tenscu dynn_vnpan_Tomaturscu dynn_vnpan_Tresekscu dynn_vnpan_Turjezcu dynn_vnpan_Osedscu dynn_vnpan_Vassenscu dynn_vnpan_Venunscu dynn_vnpan_Verkonscu dynn_vnpan_Voltjenscu dynn_vnpan_Volzomscu dynn_vnpan_Vuotiscu
+		}
+
+		dynasty_names = {
+            dynn_vnpan_Akutscu dynn_vnpan_Antatscu dynn_vnpan_Arsetescu dynn_vnpan_Betscu dynn_vnpan_Breziscu dynn_vnpan_Bodegjakiscu dynn_vnpan_Dipjarakiscu dynn_vnpan_Evuiscu dynn_vnpan_Enezcu dynn_vnpan_Enoklevcu dynn_vnpan_Fremestenscu dynn_vnpan_Zuscu dynn_vnpan_Ostevscu dynn_vnpan_Jantscu dynn_vnpan_Cotenscu dynn_vnpan_Lavsku dynn_vnpan_Ljemetscu dynn_vnpan_Moldonscu dynn_vnpan_Nagalscu dynn_vnpan_Nescu dynn_vnpan_Ocegekscu dynn_vnpan_Panarscu dynn_vnpan_Pelunekscu dynn_vnpan_Pilputscu dynn_vnpan_Retjescu dynn_vnpan_Revetuonscu dynn_vnpan_Resiscu dynn_vnpan_Sekiscu dynn_vnpan_Tenscu dynn_vnpan_Tomaturscu dynn_vnpan_Tresekscu dynn_vnpan_Turjezcu dynn_vnpan_Osedscu dynn_vnpan_Vassenscu dynn_vnpan_Venunscu dynn_vnpan_Verkonscu dynn_vnpan_Voltjenscu dynn_vnpan_Volzomscu dynn_vnpan_Vuotiscu
+		}
+
+		male_names = {
+            vnpan_afar vnpan_emu vnpan_akuto vnpan_aliru vnpan_amite vnpan_andezu vnpan_andatu vnpan_aplesek vnpan_arb vnpan_aru vnpan_askelu vnpan_atu vnpan_betu vnpan_belene vnpan_bojal vnpan_boju vnpan_brezoku vnpan_bodegjak vnpan_dipjarak vnpan_dipjar vnpan_djelak vnpan_djele vnpan_evu vnpan_egestu vnpan_eziotur vnpan_eniu vnpan_eneju vnpan_enite vnpan_enogne vnpan_ersenu vnpan_feogu vnpan_fonte vnpan_fogont vnpan_fremestu vnpan_fozu vnpan_zu vnpan_greku vnpan_ostevu vnpan_uovu vnpan_otu vnpan_jovantu vnpan_kantu vnpan_karamnu vnpan_kaste vnpan_kelu vnpan_kotenu vnpan_toletu vnpan_kvitu vnpan_lamusu vnpan_lantu vnpan_lavsku vnpan_ljemetu vnpan_loke vnpan_mezu vnpan_moldu vnpan_nagalu vnpan_nesunku vnpan_nesu vnpan_okege vnpan_uopu vnpan_uosok vnpan_uostu vnpan_panaru vnpan_pelunek vnpan_pilputu vnpan_pjate vnpan_retjevu vnpan_retu vnpan_resonku vnpan_seku vnpan_suar vnpan_teke vnpan_tomatur vnpan_tresek vnpan_turjezu vnpan_oku vnpan_orkleu vnpan_orkle vnpan_vantje vnpan_vantu vnpan_vassenu vnpan_vjenu vnpan_vemu vnpan_venun vnpan_verkvalu vnpan_voltjen vnpan_volzomnu vnpan_vuotu
+		}
+
+		female_names = {
+            vnpan_akota vnpan_andeta vnpan_apa vnpan_askolea vnpan_ata vnpan_bagsuona vnpan_betuona vnpan_bregdina vnpan_boka vnpan_eva vnpan_efa vnpan_egesta vnpan_egetura vnpan_fetjana vnpan_fogonta vnpan_frema vnpan_fremesta vnpan_fremestena vnpan_fuda vnpan_fusa vnpan_janta vnpan_ecevjogna vnpan_etura vnpan_jovanta vnpan_kanta vnpan_kolea vnpan_kokota vnpan_makna vnpan_molda vnpan_mosala vnpan_mosta vnpan_njerka vnpan_nerka vnpan_uotna vnpan_rebetuna vnpan_reka vnpan_trosta vnpan_orklena vnpan_oseda vnpan_vantjena vnpan_vena vnpan_verkondra 
+		}
+
+	dynasty_of_location_prefix = "dynnp_de"
+}
+
+name_list_venetic_pannonian_biblical = {
+		cadet_dynasty_names = {
+            dynn_vnpan_Akutscu dynn_vnpan_Antatscu dynn_vnpan_Arsetescu dynn_vnpan_Betscu dynn_vnpan_Breziscu dynn_vnpan_Bodegjakiscu dynn_vnpan_Dipjarakiscu dynn_vnpan_Evuiscu dynn_vnpan_Enezcu dynn_vnpan_Enoklevcu dynn_vnpan_Fremestenscu dynn_vnpan_Zuscu dynn_vnpan_Ostevscu dynn_vnpan_Jantscu dynn_vnpan_Cotenscu dynn_vnpan_Lavsku dynn_vnpan_Ljemetscu dynn_vnpan_Moldonscu dynn_vnpan_Nagalscu dynn_vnpan_Nescu dynn_vnpan_Ocegekscu dynn_vnpan_Panarscu dynn_vnpan_Pelunekscu dynn_vnpan_Pilputscu dynn_vnpan_Retjescu dynn_vnpan_Revetuonscu dynn_vnpan_Resiscu dynn_vnpan_Sekiscu dynn_vnpan_Tenscu dynn_vnpan_Tomaturscu dynn_vnpan_Tresekscu dynn_vnpan_Turjezcu dynn_vnpan_Osedscu dynn_vnpan_Vassenscu dynn_vnpan_Venunscu dynn_vnpan_Verkonscu dynn_vnpan_Voltjenscu dynn_vnpan_Volzomscu dynn_vnpan_Vuotiscu
+		}
+
+		dynasty_names = {
+            dynn_vnpan_Akutscu dynn_vnpan_Antatscu dynn_vnpan_Arsetescu dynn_vnpan_Betscu dynn_vnpan_Breziscu dynn_vnpan_Bodegjakiscu dynn_vnpan_Dipjarakiscu dynn_vnpan_Evuiscu dynn_vnpan_Enezcu dynn_vnpan_Enoklevcu dynn_vnpan_Fremestenscu dynn_vnpan_Zuscu dynn_vnpan_Ostevscu dynn_vnpan_Jantscu dynn_vnpan_Cotenscu dynn_vnpan_Lavsku dynn_vnpan_Ljemetscu dynn_vnpan_Moldonscu dynn_vnpan_Nagalscu dynn_vnpan_Nescu dynn_vnpan_Ocegekscu dynn_vnpan_Panarscu dynn_vnpan_Pelunekscu dynn_vnpan_Pilputscu dynn_vnpan_Retjescu dynn_vnpan_Revetuonscu dynn_vnpan_Resiscu dynn_vnpan_Sekiscu dynn_vnpan_Tenscu dynn_vnpan_Tomaturscu dynn_vnpan_Tresekscu dynn_vnpan_Turjezcu dynn_vnpan_Osedscu dynn_vnpan_Vassenscu dynn_vnpan_Venunscu dynn_vnpan_Verkonscu dynn_vnpan_Voltjenscu dynn_vnpan_Volzomscu dynn_vnpan_Vuotiscu
+		}
+
+		male_names = {
+			65 = {
+            	vnpan_afar vnpan_emu vnpan_akuto vnpan_aliru vnpan_amite vnpan_andezu vnpan_andatu vnpan_aplesek vnpan_arb vnpan_aru vnpan_askelu vnpan_atu vnpan_betu vnpan_belene vnpan_bojal vnpan_boju vnpan_brezoku vnpan_bodegjak vnpan_dipjarak vnpan_dipjar vnpan_djelak vnpan_djele vnpan_evu vnpan_egestu vnpan_eziotur vnpan_eniu vnpan_eneju vnpan_enite vnpan_enogne vnpan_ersenu vnpan_feogu vnpan_fonte vnpan_fogont vnpan_fremestu vnpan_fozu vnpan_zu vnpan_greku vnpan_ostevu vnpan_uovu vnpan_otu vnpan_jovantu vnpan_kantu vnpan_karamnu vnpan_kaste vnpan_kelu vnpan_kotenu vnpan_toletu vnpan_kvitu vnpan_lamusu vnpan_lantu vnpan_lavsku vnpan_ljemetu vnpan_loke vnpan_mezu vnpan_moldu vnpan_nagalu vnpan_nesunku vnpan_nesu vnpan_okege vnpan_uopu vnpan_uosok vnpan_uostu vnpan_panaru vnpan_pelunek vnpan_pilputu vnpan_pjate vnpan_retjevu vnpan_retu vnpan_resonku vnpan_seku vnpan_suar vnpan_teke vnpan_tomatur vnpan_tresek vnpan_turjezu vnpan_oku vnpan_orkleu vnpan_orkle vnpan_vantje vnpan_vantu vnpan_vassenu vnpan_vjenu vnpan_vemu vnpan_venun vnpan_verkvalu vnpan_voltjen vnpan_volzomnu vnpan_vuotu
+			}
+			35 = {
+				Alexandru Anghel Aron Gheorghe Iacob Ioan Marin Nicolaie Petre Simion Stefan
+			}
+		}
+
+		female_names = {
+			60 = {
+            	vnpan_akota vnpan_andeta vnpan_apa vnpan_askolea vnpan_ata vnpan_bagsuona vnpan_betuona vnpan_bregdina vnpan_boka vnpan_eva vnpan_efa vnpan_egesta vnpan_egetura vnpan_fetjana vnpan_fogonta vnpan_frema vnpan_fremesta vnpan_fremestena vnpan_fuda vnpan_fusa vnpan_janta vnpan_ecevjogna vnpan_etura vnpan_jovanta vnpan_kanta vnpan_kolea vnpan_kokota vnpan_makna vnpan_molda vnpan_mosala vnpan_mosta vnpan_njerka vnpan_nerka vnpan_uotna vnpan_rebetuna vnpan_reka vnpan_trosta vnpan_orklena vnpan_oseda vnpan_vantjena vnpan_vena vnpan_verkondra
+			}
+            40 = {
+				Alexandra Alexia Ana Angela Christina Elena Elisabeta Iacoba Ioana Maria Sophia Stefana Stefania Tereza Zina
+			}
+		}
+
+	dynasty_of_location_prefix = "dynnp_de"
+	
+}
+
+name_list_venetic_portuguese = {
+		cadet_dynasty_names = {
+            dynn_vnport_agudes dynn_vnport_ameiges dynn_vnport_andedio dynn_vnport_arves dynn_vnport_bagsomes dynn_vnport_belemes dynn_vnport_dibarges dynn_vnport_dilges dynn_vnport_egedores dynn_vnport_enogemes dynn_vnport_ersinhes dynn_vnport_fontio dynn_vnport_fremaistinhes dynn_vnport_fremaistio dynn_vnport_fremio dynn_vnport_graiges dynn_vnport_enodes dynn_vnport_ochevio dynn_vnport_jandes dynn_vnport_casties dynn_vnport_cvides dynn_vnport_lomedes dynn_vnport_juvandes dynn_vnport_naisomes dynn_vnport_vantemes dynn_vnport_voldigemio dynn_vnport_voltomes 
+            { "dynnp_de" "dynn_vnport_da_Padava" } { "dynnp_de" "dynn_vnport_da_Adeste" } { "dynnp_de" "dynn_vnport_da_Obidergom" } { "dynnp_de" "dynn_vnport_da_Tergeste" } { "dynnp_de" "dynn_vnport_da_Altinho" } { "dynnp_de" "dynn_vnport_da_Lisboa" } { "dynnp_de" "dynn_vnport_da_Porto" }{ "dynnp_de" "dynn_vnport_da_Tervizom" } { "dynnp_de" "dynn_vnport_da_Concordia" } { "dynnp_de" "dynn_vnport_da_Braganca" }
+		}
+
+		dynasty_names = {
+            dynn_vnport_agudes dynn_vnport_ameiges dynn_vnport_andedio dynn_vnport_arves dynn_vnport_bagsomes dynn_vnport_belemes dynn_vnport_dibarges dynn_vnport_dilges dynn_vnport_egedores dynn_vnport_enogemes dynn_vnport_ersinhes dynn_vnport_fontio dynn_vnport_fremaistinhes dynn_vnport_fremaistio dynn_vnport_fremio dynn_vnport_graiges dynn_vnport_enodes dynn_vnport_ochevio dynn_vnport_jandes dynn_vnport_casties dynn_vnport_cvides dynn_vnport_lomedes dynn_vnport_juvandes dynn_vnport_naisomes dynn_vnport_vantemes dynn_vnport_voldigemio dynn_vnport_voltomes 
+            { "dynnp_de" "dynn_vnport_da_Padava" } { "dynnp_de" "dynn_vnport_da_Adeste" } { "dynnp_de" "dynn_vnport_da_Obidergom" } { "dynnp_de" "dynn_vnport_da_Tergeste" } { "dynnp_de" "dynn_vnport_da_Altinho" } { "dynnp_de" "dynn_vnport_da_Lisboa" } { "dynnp_de" "dynn_vnport_da_Porto" }{ "dynnp_de" "dynn_vnport_da_Tervizom" } { "dynnp_de" "dynn_vnport_da_Concordia" } { "dynnp_de" "dynn_vnport_da_Braganca" }
+		}
+
+		male_names = {
+        	vnport_afro vnport_aimo vnport_agudo vnport_alero vnport_ameigo vnport_andeio vnport_andedo vnport_abrico vnport_arvo vnport_aro vnport_acho vnport_ado vnport_baido vnport_belem vnport_boiao vnport_boio vnport_brogo vnport_buiago vnport_dibargo vnport_deibar vnport_dilgo vnport_dil vnport_evo vnport_egesto vnport_egedor vnport_einao vnport_eneijo vnport_enedo vnport_enogem vnport_ersinho vnport_feugo vnport_fonte vnport_fougonte vnport_fremaisdo vnport_fugo vnport_gaio vnport_graigo vnport_ochevo vnport_ouvo vnport_udo vnport_juvande vnport_cande vnport_carao vnport_castigo vnport_celo vnport_ceudinho vnport_tuisto vnport_cvido vnport_lamuso vnport_lande vnport_lavco vnport_lomedor vnport_luis vnport_metso vnport_moldo vnport_nagalgo vnport_naicongo vnport_naiso vnport_ojaio vnport_ovo vnport_osogo vnport_osto vnport_panaro vnport_pelongo vnport_pilpodo vnport_chede vnport_raidevo vnport_reido vnport_resungo vnport_sigo vnport_suro vnport_teo vnport_tomadoro vnport_tricigo vnport_tuiro vnport_ugo vnport_ulheo vnport_ulho vnport_vante vnport_vaseno vnport_veinho vnport_veinhe vnport_venao vnport_vercvalo vnport_voldigem vnport_voltomo vnport_vodo
+		}
+
+		female_names = {
+            vnport_aguda vnport_andeda vnport_abia vnport_asgola vnport_ada vnport_bagcomia vnport_baidomia vnport_brigdinha vnport_buga vnport_eva vnport_efa vnport_egesta vnport_egedora vnport_feiana vnport_fougonda vnport_frema vnport_fremaisda vnport_fremaistinha vnport_fugia vnport_fuchia vnport_janda vnport_igeveomia vnport_idura vnport_juvanda vnport_canda vnport_cola vnport_cuiguda vnport_macna vnport_moldomia vnport_muchiala vnport_muja vnport_neirca vnport_nerca vnport_otnia vnport_revedoma vnport_reia vnport_trochia vnport_ulhinha vnport_useja vnport_vantemia vnport_vema vnport_vercomara
+		}
+
+	dynasty_of_location_prefix = "dynnp_de"
+	
+}
+
+name_list_venetic_portuguese_biblical = {
+		cadet_dynasty_names = {
+            dynn_vnport_agudes dynn_vnport_ameiges dynn_vnport_andedio dynn_vnport_arves dynn_vnport_bagsomes dynn_vnport_belemes dynn_vnport_dibarges dynn_vnport_dilges dynn_vnport_egedores dynn_vnport_enogemes dynn_vnport_ersinhes dynn_vnport_fontio dynn_vnport_fremaistinhes dynn_vnport_fremaistio dynn_vnport_fremio dynn_vnport_graiges dynn_vnport_enodes dynn_vnport_ochevio dynn_vnport_jandes dynn_vnport_casties dynn_vnport_cvides dynn_vnport_lomedes dynn_vnport_juvandes dynn_vnport_naisomes dynn_vnport_vantemes dynn_vnport_voldigemio dynn_vnport_voltomes 
+            { "dynnp_de" "dynn_vnport_da_Padava" } { "dynnp_de" "dynn_vnport_da_Adeste" } { "dynnp_de" "dynn_vnport_da_Obidergom" } { "dynnp_de" "dynn_vnport_da_Tergeste" } { "dynnp_de" "dynn_vnport_da_Altinho" } { "dynnp_de" "dynn_vnport_da_Lisboa" } { "dynnp_de" "dynn_vnport_da_Porto" }{ "dynnp_de" "dynn_vnport_da_Tervizom" } { "dynnp_de" "dynn_vnport_da_Concordia" } { "dynnp_de" "dynn_vnport_da_Braganca" }
+		}
+
+		dynasty_names = {
+            dynn_vnport_agudes dynn_vnport_ameiges dynn_vnport_andedio dynn_vnport_arves dynn_vnport_bagsomes dynn_vnport_belemes dynn_vnport_dibarges dynn_vnport_dilges dynn_vnport_egedores dynn_vnport_enogemes dynn_vnport_ersinhes dynn_vnport_fontio dynn_vnport_fremaistinhes dynn_vnport_fremaistio dynn_vnport_fremio dynn_vnport_graiges dynn_vnport_enodes dynn_vnport_ochevio dynn_vnport_jandes dynn_vnport_casties dynn_vnport_cvides dynn_vnport_lomedes dynn_vnport_juvandes dynn_vnport_naisomes dynn_vnport_vantemes dynn_vnport_voldigemio dynn_vnport_voltomes 
+            { "dynnp_de" "dynn_vnport_da_Padava" } { "dynnp_de" "dynn_vnport_da_Adeste" } { "dynnp_de" "dynn_vnport_da_Obidergom" } { "dynnp_de" "dynn_vnport_da_Tergeste" } { "dynnp_de" "dynn_vnport_da_Altinho" } { "dynnp_de" "dynn_vnport_da_Lisboa" } { "dynnp_de" "dynn_vnport_da_Porto" }{ "dynnp_de" "dynn_vnport_da_Tervizom" } { "dynnp_de" "dynn_vnport_da_Concordia" } { "dynnp_de" "dynn_vnport_da_Braganca" }
+		}
+
+		male_names = {
+			60 = {
+        	    vnport_afro vnport_aimo vnport_agudo vnport_alero vnport_ameigo vnport_andeio vnport_andedo vnport_abrico vnport_arvo vnport_aro vnport_acho vnport_ado vnport_baido vnport_belem vnport_boiao vnport_boio vnport_brogo vnport_buiago vnport_dibargo vnport_deibar vnport_dilgo vnport_dil vnport_evo vnport_egesto vnport_egedor vnport_einao vnport_eneijo vnport_enedo vnport_enogem vnport_ersinho vnport_feugo vnport_fonte vnport_fougonte vnport_fremaisdo vnport_fugo vnport_gaio vnport_graigo vnport_ochevo vnport_ouvo vnport_udo vnport_juvande vnport_cande vnport_carao vnport_castigo vnport_celo vnport_ceudinho vnport_tuisto vnport_cvido vnport_lamuso vnport_lande vnport_lavco vnport_lomedor vnport_luis vnport_metso vnport_moldo vnport_nagalgo vnport_naicongo vnport_naiso vnport_ojaio vnport_ovo vnport_osogo vnport_osto vnport_panaro vnport_pelongo vnport_pilpodo vnport_chede vnport_raidevo vnport_reido vnport_resungo vnport_sigo vnport_suro vnport_teo vnport_tomadoro vnport_tricigo vnport_tuiro vnport_ugo vnport_ulheo vnport_ulho vnport_vante vnport_vante vnport_vaseno vnport_veinho vnport_veinhe vnport_venao vnport_vercvalo vnport_voldigem vnport_voltomo vnport_vodo
+			}
+			40 = {
+				AndrE_ Dinis EstE_vA_o Heitor JoA_o LourenC_o Martim Martinho Pedro SebastiA_o Xelmirio
+			}
+		}
+
+		female_names = {
+			60 = {
+            	vnport_aguda vnport_andeda vnport_abia vnport_asgola vnport_ada vnport_bagcomia vnport_baidomia vnport_brigdinha vnport_buga vnport_eva vnport_efa vnport_egesta vnport_egedora vnport_feiana vnport_fougonda vnport_frema vnport_fremaisda vnport_fremaistinha vnport_fugia vnport_fuchia vnport_janda vnport_igeveomia vnport_idura vnport_juvanda vnport_canda vnport_cola vnport_cuiguda vnport_macna vnport_moldomia vnport_muchiala vnport_muja vnport_neirca vnport_nerca vnport_otnia vnport_revedoma vnport_reia vnport_trochia vnport_ulhinha vnport_useja vnport_vantemia vnport_vema vnport_vercomara
+			}
+			40 = {
+				Catarina Cristina Estevainha EstefA_nia Isabel Joana Maria Marinha Ximena
+			}
+		}
+
+	dynasty_of_location_prefix = "dynnp_de"
+	
+}
+
+name_list_venetic_spanish = {
+		cadet_dynasty_names = {
+            dynn_vnspa_alerez dynn_vnspa_albrenio dynn_vnspa_allisgio dynn_vnspa_ascuelez dynn_vnspa_huillenez dynn_vnspa_dibargo dynn_vnspa_dillez dynn_vnspa_caraniez dynn_vnspa_eciedorez dynn_vnspa_hontiez dynn_vnspa_friemasdez dynn_vnspa_ceundez dynn_vnspa_hugez dynn_vnspa_mezio dynn_vnspa_enuedio dynn_vnspa_nasonquiez dynn_vnspa_chulistez dynn_vnspa_panario dynn_vnspa_lamusio dynn_vnspa_moldio dynn_vnspa_mueldonio dynn_vnspa_reidez 
+            { "dynnp_de" "dynn_vnspa_da_Padava" } { "dynnp_de" "dynn_vnspa_da_Adse" } { "dynnp_de" "dynn_vnspa_da_Obdergo" } { "dynnp_de" "dynn_vnspa_da_Terieste" } { "dynnp_de" "dynn_vnspa_da_Toledo" } { "dynnp_de" "dynn_vnspa_da_Madrid" } { "dynnp_de" "dynn_vnspa_da_Barcelona" }{ "dynnp_de" "dynn_vnspa_da_Vegtino" } 
+		}
+
+		dynasty_names = {
+            dynn_vnspa_alerez dynn_vnspa_albrenio dynn_vnspa_allisgio dynn_vnspa_ascuelez dynn_vnspa_huillenez dynn_vnspa_dibargo dynn_vnspa_dillez dynn_vnspa_caraniez dynn_vnspa_eciedorez dynn_vnspa_hontiez dynn_vnspa_friemasdez dynn_vnspa_ceundez dynn_vnspa_hugez dynn_vnspa_mezio dynn_vnspa_enuedio dynn_vnspa_nasonquiez dynn_vnspa_chulistez dynn_vnspa_panario dynn_vnspa_lamusio dynn_vnspa_moldio dynn_vnspa_mueldonio dynn_vnspa_reidez 
+            { "dynnp_de" "dynn_vnspa_da_Padava" } { "dynnp_de" "dynn_vnspa_da_Adse" } { "dynnp_de" "dynn_vnspa_da_Obdergo" } { "dynnp_de" "dynn_vnspa_da_Terieste" } { "dynnp_de" "dynn_vnspa_da_Toledo" } { "dynnp_de" "dynn_vnspa_da_Madrid" } { "dynnp_de" "dynn_vnspa_da_Barcelona" }{ "dynnp_de" "dynn_vnspa_da_Vegtino" } 
+		}
+
+		male_names = {
+           vnspa_afro vnspa_aimo vnspa_agudo vnspa_alero vnspa_amedigo vnspa_andeo vnspa_allisgo vnspa_arbo vnspa_ario vnspa_ascuelo vnspa_ato vnspa_baido vnspa_huillen vnspa_buealo vnspa_bueo vnspa_uruego vnspa_budiago vnspa_dibargo vnspa_dibare vnspa_dilligo vnspa_dille vnspa_ebo vnspa_ecesto vnspa_eciedor vnspa_enayo vnspa_eneyo vnspa_enedo vnspa_enuecen vnspa_ersino vnspa_huego vnspa_honte vnspa_hugonte vnspa_friemasdo vnspa_hugo vnspa_gayo vnspa_graigo vnspa_oscevo vnspa_huvo vnspa_udo vnspa_hivante vnspa_cante vnspa_carano vnspa_castigo vnspa_cello vnspa_ceundo vnspa_chulisto vnspa_cuido vnspa_lamuso vnspa_lante vnspa_lausco vnspa_lemedor vnspa_luis vnspa_mezo vnspa_moldo vnspa_nagalgo vnspa_nasonco vnspa_naso vnspa_uzjaio vnspa_obo vnspa_osgo vnspa_osto vnspa_panario vnspa_pielongo vnspa_pilpodo vnspa_plede vnspa_radevo vnspa_reido vnspa_riesungo vnspa_sigo vnspa_suro vnspa_teguio vnspa_tuemadoro vnspa_trisigo vnspa_turiyo vnspa_ugo vnspa_urgeo vnspa_urge vnspa_vante vnspa_vaseno vnspa_veino vnspa_veime vnspa_vienon vnspa_viercualo vnspa_vueldiene vnspa_vueldono vnspa_vodo
+		}
+
+		female_names = {
+            vnspa_aguda vnspa_andeda vnspa_abia vnspa_asgolia vnspa_ada vnspa_bejuenia vnspa_baiduenia vnspa_urigdina vnspa_buga vnspa_evua vnspa_eja vnspa_eguesta vnspa_eciedora vnspa_hiediana vnspa_huguenta vnspa_frema vnspa_friemasda vnspa_friemstina vnspa_hucia vnspa_huja vnspa_jianda vnspa_icievenia vnspa_iduria vnspa_jivanta vnspa_canda vnspa_colia vnspa_cuiguda vnspa_mana vnspa_mueunda vnspa_musala vnspa_musda vnspa_nerca vnspa_otna vnspa_rievdona vnspa_redia vnspa_trostia vnspa_urgena vnspa_usedya vnspa_vancentia vnspa_vena vnspa_viercuendarna
+		}
+
+	dynasty_of_location_prefix = "dynnp_de"
+	
+}
+
+name_list_venetic_spanish_biblical = {
+		cadet_dynasty_names = {
+            dynn_vnspa_alerez dynn_vnspa_albrenio dynn_vnspa_allisgio dynn_vnspa_ascuelez dynn_vnspa_huillenez dynn_vnspa_dibargo dynn_vnspa_dillez dynn_vnspa_caraniez dynn_vnspa_eciedorez dynn_vnspa_hontiez dynn_vnspa_friemasdez dynn_vnspa_ceundez dynn_vnspa_hugez dynn_vnspa_mezio dynn_vnspa_enuedio dynn_vnspa_nasonquiez dynn_vnspa_chulistez dynn_vnspa_panario dynn_vnspa_lamusio dynn_vnspa_moldio dynn_vnspa_mueldonio dynn_vnspa_reidez 
+            { "dynnp_de" "dynn_vnspa_da_Padava" } { "dynnp_de" "dynn_vnspa_da_Adse" } { "dynnp_de" "dynn_vnspa_da_Obdergo" } { "dynnp_de" "dynn_vnspa_da_Terieste" } { "dynnp_de" "dynn_vnspa_da_Toledo" } { "dynnp_de" "dynn_vnspa_da_Madrid" } { "dynnp_de" "dynn_vnspa_da_Barcelona" }{ "dynnp_de" "dynn_vnspa_da_Vegtino" } 
+		}
+
+		dynasty_names = {
+            dynn_vnspa_alerez dynn_vnspa_albrenio dynn_vnspa_allisgio dynn_vnspa_ascuelez dynn_vnspa_huillenez dynn_vnspa_dibargo dynn_vnspa_dillez dynn_vnspa_caraniez dynn_vnspa_eciedorez dynn_vnspa_hontiez dynn_vnspa_friemasdez dynn_vnspa_ceundez dynn_vnspa_hugez dynn_vnspa_mezio dynn_vnspa_enuedio dynn_vnspa_nasonquiez dynn_vnspa_chulistez dynn_vnspa_panario dynn_vnspa_lamusio dynn_vnspa_moldio dynn_vnspa_mueldonio dynn_vnspa_reidez 
+            { "dynnp_de" "dynn_vnspa_da_Padava" } { "dynnp_de" "dynn_vnspa_da_Adse" } { "dynnp_de" "dynn_vnspa_da_Obdergo" } { "dynnp_de" "dynn_vnspa_da_Terieste" } { "dynnp_de" "dynn_vnspa_da_Toledo" } { "dynnp_de" "dynn_vnspa_da_Madrid" } { "dynnp_de" "dynn_vnspa_da_Barcelona" }{ "dynnp_de" "dynn_vnspa_da_Vegtino" } 
+		}
+
+		male_names = {
+			60 = {
+            	vnspa_afro vnspa_aimo vnspa_agudo vnspa_alero vnspa_amedigo vnspa_andeo vnspa_allisgo vnspa_arbo vnspa_ario vnspa_ascuelo vnspa_ato vnspa_baido vnspa_huillen vnspa_buealo vnspa_bueo vnspa_uruego vnspa_budiago vnspa_dibargo vnspa_dibare vnspa_dilligo vnspa_dille vnspa_ebo vnspa_ecesto vnspa_eciedor vnspa_enayo vnspa_eneyo vnspa_enedo vnspa_enuecen vnspa_ersino vnspa_huego vnspa_honte vnspa_hugonte vnspa_friemasdo vnspa_hugo vnspa_gayo vnspa_graigo vnspa_oscevo vnspa_huvo vnspa_udo vnspa_hivante vnspa_cante vnspa_carano vnspa_castigo vnspa_cello vnspa_ceundo vnspa_chulisto vnspa_cuido vnspa_lamuso vnspa_lante vnspa_lausco vnspa_lemedor vnspa_luis vnspa_mezo vnspa_moldo vnspa_nagalgo vnspa_nasonco vnspa_naso vnspa_uzjaio vnspa_obo vnspa_osgo vnspa_osto vnspa_panario vnspa_pielongo vnspa_pilpodo vnspa_plede vnspa_radevo vnspa_reido vnspa_riesungo vnspa_sigo vnspa_suro vnspa_teguio vnspa_tuemadoro vnspa_trisigo vnspa_turiyo vnspa_ugo vnspa_urgeo vnspa_urge vnspa_vante vnspa_vaseno vnspa_veino vnspa_veime vnspa_vienon vnspa_viercualo vnspa_vueldiene vnspa_vueldono vnspa_vodo
+			}
+			40 = {
+				Antonino Benito Felipe GarcI_a Jaime Juan Lorenzo MartI_n Pedro SebastiA_n SimO_n
+			}
+		}
+
+		female_names = {
+			60 = {
+            	vnspa_aguda vnspa_andeda vnspa_abia vnspa_asgolia vnspa_ada vnspa_bejuenia vnspa_baiduenia vnspa_urigdina vnspa_buga vnspa_evua vnspa_eja vnspa_eguesta vnspa_eciedora vnspa_hiediana vnspa_huguenta vnspa_frema vnspa_friemasda vnspa_friemstina vnspa_hucia vnspa_huja vnspa_jianda vnspa_icievenia vnspa_iduria vnspa_jivanta vnspa_canda vnspa_colia vnspa_cuiguda vnspa_mana vnspa_mueunda vnspa_musala vnspa_musda vnspa_nerca vnspa_otna vnspa_rievdona vnspa_redia vnspa_trostia vnspa_urgena vnspa_usedya vnspa_vancentia vnspa_vena vnspa_viercuendarna
+			}
+			40 = {
+				Alicia Catalina Cristina EstefanI_a Isabel Juana MarI_a Marina Teresa
+			}
+		}
+
+	dynasty_of_location_prefix = "dynnp_de"
+	
+}
+
+name_list_venetic_french = {
+		cadet_dynasty_names = {
+            dynn_vnfrenc_amecet dynn_vnfrenc_andedet dynn_vnfrenc_asleau dynn_vnfrenc_aseget dynn_vnfrenc_asleau dynn_vnfrenc_baudiet dynn_vnfrenc_bueauet dynn_vnfrenc_beauet dynn_vnfrenc_boudieau dynn_vnfrenc_beulienet dynn_vnfrenc_delaiet dynn_vnfrenc_eiesteau dynn_vnfrenc_eiedouret dynn_vnfrenc_enouvienet dynn_vnfrenc_esseneau dynn_vnfrenc_fiugeau dynn_vnfrenc_fountet dynn_vnfrenc_fremiesteau dynn_vnfrenc_feugieau dynn_vnfrenc_jeuet dynn_vnfrenc_greuau dynn_vnfrenc_oisvet dynn_vnfrenc_chanteau dynn_vnfrenc_charanet dynn_vnfrenc_chasseart dynn_vnfrenc_lameuset dynn_vnfrenc_lasseau dynn_vnfrenc_leuiart dynn_vnfrenc_maudet dynn_vnfrenc_naissanceau dynn_vnfrenc_osseau dynn_vnfrenc_pelonceau dynn_vnfrenc_ireideart dynn_vnfrenc_resonceau dynn_vnfrenc_suereau dynn_vnfrenc_toumeduieret dynn_vnfrenc_ourliet dynn_vnfrenc_vasienet dynn_vnfrenc_jemeart dynn_vnfrenc_venoneau dynn_vnfrenc_vuedeau dynn_vnfrenc_voultionet
+            { "dynnp_de" "dynn_vnfrenc_de_Adeste" } { "dynnp_de" "dynn_vnfrenc_de_Padafne" } { "dynnp_de" "dynn_vnfrenc_de_Treveise" } { "dynnp_de" "dynn_vnfrenc_de_Oupeiterie" } { "dynnp_de" "dynn_vnfrenc_de_Concourdie" } { "dynnp_de" "dynn_vnfrenc_de_Terieste" } { "dynnp_de" "dynn_vnfrenc_de_Auteine" }{ "dynnp_de" "dynn_vnfrenc_de_Orleans" } 
+		}
+
+		dynasty_names = {
+            dynn_vnfrenc_amecet dynn_vnfrenc_andedet dynn_vnfrenc_asleau dynn_vnfrenc_aseget dynn_vnfrenc_asleau dynn_vnfrenc_baudiet dynn_vnfrenc_bueauet dynn_vnfrenc_beauet dynn_vnfrenc_boudieau dynn_vnfrenc_beulienet dynn_vnfrenc_delaiet dynn_vnfrenc_eiesteau dynn_vnfrenc_eiedouret dynn_vnfrenc_enouvienet dynn_vnfrenc_esseneau dynn_vnfrenc_fiugeau dynn_vnfrenc_fountet dynn_vnfrenc_fremiesteau dynn_vnfrenc_feugieau dynn_vnfrenc_jeuet dynn_vnfrenc_greuau dynn_vnfrenc_oisvet dynn_vnfrenc_chanteau dynn_vnfrenc_charanet dynn_vnfrenc_chasseart dynn_vnfrenc_lameuset dynn_vnfrenc_lasseau dynn_vnfrenc_leuiart dynn_vnfrenc_maudet dynn_vnfrenc_naissanceau dynn_vnfrenc_osseau dynn_vnfrenc_pelonceau dynn_vnfrenc_ireideart dynn_vnfrenc_resonceau dynn_vnfrenc_suereau dynn_vnfrenc_toumeduieret dynn_vnfrenc_ourliet dynn_vnfrenc_vasienet dynn_vnfrenc_jemeart dynn_vnfrenc_venoneau dynn_vnfrenc_vuedeau dynn_vnfrenc_voultionet
+            { "dynnp_de" "dynn_vnfrenc_de_Adeste" } { "dynnp_de" "dynn_vnfrenc_de_Padafne" } { "dynnp_de" "dynn_vnfrenc_de_Treveise" } { "dynnp_de" "dynn_vnfrenc_de_Oupeiterie" } { "dynnp_de" "dynn_vnfrenc_de_Concourdie" } { "dynnp_de" "dynn_vnfrenc_de_Terieste" } { "dynnp_de" "dynn_vnfrenc_de_Auteine" }{ "dynnp_de" "dynn_vnfrenc_de_Orleans" } 
+		}
+
+		male_names = {
+            vnfrenc_afre vnfrenc_eme vnfrenc_aude vnfrenc_aure vnfrenc_amece vnfrenc_anteie vnfrenc_anded vnfrenc_ablesse vnfrenc_arbe vnfrenc_arie vnfrenc_asle vnfrenc_ate vnfrenc_bete vnfrenc_beulien vnfrenc_beau vnfrenc_boeu vnfrenc_bruice vnfrenc_baudie vnfrenc_devierce vnfrenc_deveire vnfrenc_delaie vnfrenc_delu vnfrenc_eve vnfrenc_eieste vnfrenc_eiedour vnfrenc_aine vnfrenc_egnie vnfrenc_eiese vnfrenc_enouvien vnfrenc_essene vnfrenc_fiuge vnfrenc_fonte vnfrenc_fount vnfrenc_fremiest vnfrenc_feugie vnfrenc_jeu vnfrenc_greu vnfrenc_oisve vnfrenc_ouve vnfrenc_ote vnfrenc_euvant vnfrenc_chante vnfrenc_charane vnfrenc_chasse vnfrenc_ceu vnfrenc_sutaine vnfrenc_itouleste vnfrenc_iveite vnfrenc_lameuse vnfrenc_lant vnfrenc_lasse vnfrenc_liemteur vnfrenc_leuis vnfrenc_miez vnfrenc_maude vnfrenc_naune vnfrenc_naissance vnfrenc_nesse vnfrenc_oseau vnfrenc_ope vnfrenc_osse vnfrenc_ost vnfrenc_panar vnfrenc_pelonce vnfrenc_peupede vnfrenc_bled vnfrenc_redege vnfrenc_ireide vnfrenc_resonce vnfrenc_seie vnfrenc_suere vnfrenc_tiece vnfrenc_toumeduier vnfrenc_tresse vnfrenc_tureie vnfrenc_ousse vnfrenc_ourlie vnfrenc_ourle vnfrenc_vant vnfrenc_vasien vnfrenc_jegne vnfrenc_jeme vnfrenc_venone vnfrenc_verval vnfrenc_voultien vnfrenc_voultion vnfrenc_vuede
+		}
+
+		female_names = {
+            vnfrenc_aeude vnfrenc_andede vnfrenc_ache vnfrenc_ascolle vnfrenc_f_ate vnfrenc_baisogne vnfrenc_bedogne vnfrenc_breine vnfrenc_beuche vnfrenc_ebeue vnfrenc_efe vnfrenc_f_eieste vnfrenc_eituere vnfrenc_fediane vnfrenc_fouonte vnfrenc_fieme vnfrenc_fremieste vnfrenc_fremesteine vnfrenc_feuiee vnfrenc_fouisee vnfrenc_eante vnfrenc_eseviegne vnfrenc_edeuree vnfrenc_euvante vnfrenc_f_chante vnfrenc_collee vnfrenc_couieude vnfrenc_magne vnfrenc_moune vnfrenc_muesele vnfrenc_mouste vnfrenc_gnerche vnfrenc_nierche vnfrenc_osnie vnfrenc_revedone vnfrenc_iretee vnfrenc_tristee vnfrenc_ourlleine vnfrenc_osedie vnfrenc_vansiegne vnfrenc_vienne vnfrenc_verdarne
+		}
+
+	dynasty_of_location_prefix = "dynnp_da"
+	
+}
+
+name_list_venetic_french_biblical = {
+		cadet_dynasty_names = {
+            dynn_vnfrenc_amecet dynn_vnfrenc_andedet dynn_vnfrenc_asleau dynn_vnfrenc_aseget dynn_vnfrenc_asleau dynn_vnfrenc_baudiet dynn_vnfrenc_bueauet dynn_vnfrenc_beauet dynn_vnfrenc_boudieau dynn_vnfrenc_beulienet dynn_vnfrenc_delaiet dynn_vnfrenc_eiesteau dynn_vnfrenc_eiedouret dynn_vnfrenc_enouvienet dynn_vnfrenc_esseneau dynn_vnfrenc_fiugeau dynn_vnfrenc_fountet dynn_vnfrenc_fremiesteau dynn_vnfrenc_feugieau dynn_vnfrenc_jeuet dynn_vnfrenc_greuau dynn_vnfrenc_oisvet dynn_vnfrenc_chanteau dynn_vnfrenc_charanet dynn_vnfrenc_chasseart dynn_vnfrenc_lameuset dynn_vnfrenc_lasseau dynn_vnfrenc_leuiart dynn_vnfrenc_maudet dynn_vnfrenc_naissanceau dynn_vnfrenc_osseau dynn_vnfrenc_pelonceau dynn_vnfrenc_ireideart dynn_vnfrenc_resonceau dynn_vnfrenc_suereau dynn_vnfrenc_toumeduieret dynn_vnfrenc_ourliet dynn_vnfrenc_vasienet dynn_vnfrenc_jemeart dynn_vnfrenc_venoneau dynn_vnfrenc_vuedeau dynn_vnfrenc_voultionet
+            { "dynnp_de" "dynn_vnfrenc_de_Adeste" } { "dynnp_de" "dynn_vnfrenc_de_Padafne" } { "dynnp_de" "dynn_vnfrenc_de_Treveise" } { "dynnp_de" "dynn_vnfrenc_de_Oupeiterie" } { "dynnp_de" "dynn_vnfrenc_de_Concourdie" } { "dynnp_de" "dynn_vnfrenc_de_Terieste" } { "dynnp_de" "dynn_vnfrenc_de_Auteine" }{ "dynnp_de" "dynn_vnfrenc_de_Orleans" } 
+		}
+
+		dynasty_names = {
+            dynn_vnfrenc_amecet dynn_vnfrenc_andedet dynn_vnfrenc_asleau dynn_vnfrenc_aseget dynn_vnfrenc_asleau dynn_vnfrenc_baudiet dynn_vnfrenc_bueauet dynn_vnfrenc_beauet dynn_vnfrenc_boudieau dynn_vnfrenc_beulienet dynn_vnfrenc_delaiet dynn_vnfrenc_eiesteau dynn_vnfrenc_eiedouret dynn_vnfrenc_enouvienet dynn_vnfrenc_esseneau dynn_vnfrenc_fiugeau dynn_vnfrenc_fountet dynn_vnfrenc_fremiesteau dynn_vnfrenc_feugieau dynn_vnfrenc_jeuet dynn_vnfrenc_greuau dynn_vnfrenc_oisvet dynn_vnfrenc_chanteau dynn_vnfrenc_charanet dynn_vnfrenc_chasseart dynn_vnfrenc_lameuset dynn_vnfrenc_lasseau dynn_vnfrenc_leuiart dynn_vnfrenc_maudet dynn_vnfrenc_naissanceau dynn_vnfrenc_osseau dynn_vnfrenc_pelonceau dynn_vnfrenc_ireideart dynn_vnfrenc_resonceau dynn_vnfrenc_suereau dynn_vnfrenc_toumeduieret dynn_vnfrenc_ourliet dynn_vnfrenc_vasienet dynn_vnfrenc_jemeart dynn_vnfrenc_venoneau dynn_vnfrenc_vuedeau dynn_vnfrenc_voultionet
+            { "dynnp_de" "dynn_vnfrenc_de_Adeste" } { "dynnp_de" "dynn_vnfrenc_de_Padafne" } { "dynnp_de" "dynn_vnfrenc_de_Treveise" } { "dynnp_de" "dynn_vnfrenc_de_Oupeiterie" } { "dynnp_de" "dynn_vnfrenc_de_Concourdie" } { "dynnp_de" "dynn_vnfrenc_de_Terieste" } { "dynnp_de" "dynn_vnfrenc_de_Auteine" }{ "dynnp_de" "dynn_vnfrenc_de_Orleans" } 
+		}
+
+		male_names = {
+			70 = {
+            	vnfrenc_afre vnfrenc_eme vnfrenc_aude vnfrenc_aure vnfrenc_amece vnfrenc_anteie vnfrenc_anded vnfrenc_ablesse vnfrenc_arbe vnfrenc_arie vnfrenc_asle vnfrenc_ate vnfrenc_bete vnfrenc_beulien vnfrenc_beau vnfrenc_boeu vnfrenc_bruice vnfrenc_baudie vnfrenc_devierce vnfrenc_deveire vnfrenc_delaie vnfrenc_delu vnfrenc_eve vnfrenc_eieste vnfrenc_eiedour vnfrenc_aine vnfrenc_egnie vnfrenc_eiese vnfrenc_enouvien vnfrenc_essene vnfrenc_fiuge vnfrenc_fonte vnfrenc_fount vnfrenc_fremiest vnfrenc_feugie vnfrenc_jeu vnfrenc_greu vnfrenc_oisve vnfrenc_ouve vnfrenc_ote vnfrenc_euvant vnfrenc_chante vnfrenc_charane vnfrenc_chasse vnfrenc_ceu vnfrenc_sutaine vnfrenc_itouleste vnfrenc_iveite vnfrenc_lameuse vnfrenc_lant vnfrenc_lasse vnfrenc_liemteur vnfrenc_leuis vnfrenc_miez vnfrenc_maude vnfrenc_naune vnfrenc_naissance vnfrenc_nesse vnfrenc_oseau vnfrenc_ope vnfrenc_osse vnfrenc_ost vnfrenc_panar vnfrenc_pelonce vnfrenc_peupede vnfrenc_bled vnfrenc_redege vnfrenc_ireide vnfrenc_resonce vnfrenc_seie vnfrenc_suere vnfrenc_tiece vnfrenc_toumeduier vnfrenc_tresse vnfrenc_tureie vnfrenc_ousse vnfrenc_ourlie vnfrenc_ourle vnfrenc_vant vnfrenc_vasien vnfrenc_jegne vnfrenc_jeme vnfrenc_venone vnfrenc_verval vnfrenc_voultien vnfrenc_voultion vnfrenc_vuede
+			}
+			30 = {
+				AndrE_ Antoine Jacques Jean Mathieu Pierre Simon Thomas 
+			}
+		}
+
+		female_names = {
+			60 = {
+            	vnfrenc_aeude vnfrenc_andede vnfrenc_ache vnfrenc_ascolle vnfrenc_f_ate vnfrenc_baisogne vnfrenc_bedogne vnfrenc_breine vnfrenc_beuche vnfrenc_ebeue vnfrenc_efe vnfrenc_f_eieste vnfrenc_eituere vnfrenc_fediane vnfrenc_fouonte vnfrenc_fieme vnfrenc_fremieste vnfrenc_fremesteine vnfrenc_feuiee vnfrenc_fouisee vnfrenc_eante vnfrenc_eseviegne vnfrenc_edeuree vnfrenc_euvante vnfrenc_f_chante vnfrenc_collee vnfrenc_couieude vnfrenc_magne vnfrenc_moune vnfrenc_muesele vnfrenc_mouste vnfrenc_gnerche vnfrenc_nierche vnfrenc_osnie vnfrenc_revedone vnfrenc_iretee vnfrenc_tristee vnfrenc_ourlleine vnfrenc_osedie vnfrenc_vansiegne vnfrenc_vienne vnfrenc_verdarne
+			}
+			40 = {
+				Agathe Catherine Denise Elisabeth Judith Jeanne Judith Marie Sophie Stephanie 
+			}
+		}
+
+	dynasty_of_location_prefix = "dynnp_da"
+	
+}
+
+name_list_venetic_french_with_franks = {
+		cadet_dynasty_names = {
+            dynn_vnfrenc_amecet dynn_vnfrenc_andedet dynn_vnfrenc_asleau dynn_vnfrenc_aseget dynn_vnfrenc_asleau dynn_vnfrenc_baudiet dynn_vnfrenc_bueauet dynn_vnfrenc_beauet dynn_vnfrenc_boudieau dynn_vnfrenc_beulienet dynn_vnfrenc_delaiet dynn_vnfrenc_eiesteau dynn_vnfrenc_eiedouret dynn_vnfrenc_enouvienet dynn_vnfrenc_esseneau dynn_vnfrenc_fiugeau dynn_vnfrenc_fountet dynn_vnfrenc_fremiesteau dynn_vnfrenc_feugieau dynn_vnfrenc_jeuet dynn_vnfrenc_greuau dynn_vnfrenc_oisvet dynn_vnfrenc_chanteau dynn_vnfrenc_charanet dynn_vnfrenc_chasseart dynn_vnfrenc_lameuset dynn_vnfrenc_lasseau dynn_vnfrenc_leuiart dynn_vnfrenc_maudet dynn_vnfrenc_naissanceau dynn_vnfrenc_osseau dynn_vnfrenc_pelonceau dynn_vnfrenc_ireideart dynn_vnfrenc_resonceau dynn_vnfrenc_suereau dynn_vnfrenc_toumeduieret dynn_vnfrenc_ourliet dynn_vnfrenc_vasienet dynn_vnfrenc_jemeart dynn_vnfrenc_venoneau dynn_vnfrenc_vuedeau dynn_vnfrenc_voultionet
+            { "dynnp_de" "dynn_vnfrenc_de_Adeste" } { "dynnp_de" "dynn_vnfrenc_de_Padafne" } { "dynnp_de" "dynn_vnfrenc_de_Treveise" } { "dynnp_de" "dynn_vnfrenc_de_Oupeiterie" } { "dynnp_de" "dynn_vnfrenc_de_Concourdie" } { "dynnp_de" "dynn_vnfrenc_de_Terieste" } { "dynnp_de" "dynn_vnfrenc_de_Auteine" }{ "dynnp_de" "dynn_vnfrenc_de_Orleans" } 
+		}
+
+		dynasty_names = {
+            dynn_vnfrenc_amecet dynn_vnfrenc_andedet dynn_vnfrenc_asleau dynn_vnfrenc_aseget dynn_vnfrenc_asleau dynn_vnfrenc_baudiet dynn_vnfrenc_bueauet dynn_vnfrenc_beauet dynn_vnfrenc_boudieau dynn_vnfrenc_beulienet dynn_vnfrenc_delaiet dynn_vnfrenc_eiesteau dynn_vnfrenc_eiedouret dynn_vnfrenc_enouvienet dynn_vnfrenc_esseneau dynn_vnfrenc_fiugeau dynn_vnfrenc_fountet dynn_vnfrenc_fremiesteau dynn_vnfrenc_feugieau dynn_vnfrenc_jeuet dynn_vnfrenc_greuau dynn_vnfrenc_oisvet dynn_vnfrenc_chanteau dynn_vnfrenc_charanet dynn_vnfrenc_chasseart dynn_vnfrenc_lameuset dynn_vnfrenc_lasseau dynn_vnfrenc_leuiart dynn_vnfrenc_maudet dynn_vnfrenc_naissanceau dynn_vnfrenc_osseau dynn_vnfrenc_pelonceau dynn_vnfrenc_ireideart dynn_vnfrenc_resonceau dynn_vnfrenc_suereau dynn_vnfrenc_toumeduieret dynn_vnfrenc_ourliet dynn_vnfrenc_vasienet dynn_vnfrenc_jemeart dynn_vnfrenc_venoneau dynn_vnfrenc_vuedeau dynn_vnfrenc_voultionet
+            { "dynnp_de" "dynn_vnfrenc_de_Adeste" } { "dynnp_de" "dynn_vnfrenc_de_Padafne" } { "dynnp_de" "dynn_vnfrenc_de_Treveise" } { "dynnp_de" "dynn_vnfrenc_de_Oupeiterie" } { "dynnp_de" "dynn_vnfrenc_de_Concourdie" } { "dynnp_de" "dynn_vnfrenc_de_Terieste" } { "dynnp_de" "dynn_vnfrenc_de_Auteine" }{ "dynnp_de" "dynn_vnfrenc_de_Orleans" } 
+		}
+
+		male_names = {
+			60 = {
+            	vnfrenc_afre vnfrenc_eme vnfrenc_aude vnfrenc_aure vnfrenc_amece vnfrenc_anteie vnfrenc_anded vnfrenc_ablesse vnfrenc_arbe vnfrenc_arie vnfrenc_asle vnfrenc_ate vnfrenc_bete vnfrenc_beulien vnfrenc_beau vnfrenc_boeu vnfrenc_bruice vnfrenc_baudie vnfrenc_devierce vnfrenc_deveire vnfrenc_delaie vnfrenc_delu vnfrenc_eve vnfrenc_eieste vnfrenc_eiedour vnfrenc_aine vnfrenc_egnie vnfrenc_eiese vnfrenc_enouvien vnfrenc_essene vnfrenc_fiuge vnfrenc_fonte vnfrenc_fount vnfrenc_fremiest vnfrenc_feugie vnfrenc_jeu vnfrenc_greu vnfrenc_oisve vnfrenc_ouve vnfrenc_ote vnfrenc_euvant vnfrenc_chante vnfrenc_charane vnfrenc_chasse vnfrenc_ceu vnfrenc_sutaine vnfrenc_itouleste vnfrenc_iveite vnfrenc_lameuse vnfrenc_lant vnfrenc_lasse vnfrenc_liemteur vnfrenc_leuis vnfrenc_miez vnfrenc_maude vnfrenc_naune vnfrenc_naissance vnfrenc_nesse vnfrenc_oseau vnfrenc_ope vnfrenc_osse vnfrenc_ost vnfrenc_panar vnfrenc_pelonce vnfrenc_peupede vnfrenc_bled vnfrenc_redege vnfrenc_ireide vnfrenc_resonce vnfrenc_seie vnfrenc_suere vnfrenc_tiece vnfrenc_toumeduier vnfrenc_tresse vnfrenc_tureie vnfrenc_ousse vnfrenc_ourlie vnfrenc_ourle vnfrenc_vant vnfrenc_vasien vnfrenc_jegne vnfrenc_jeme vnfrenc_venone vnfrenc_verval vnfrenc_voultien vnfrenc_voultion vnfrenc_vuede
+			}
+			40 = {#Frankish names 
+				Adalbert AdE_mar Adrien Aimery Alain Aldebert AldE_ric Amaury Angelbert Archambaud Arnaud Arnault Arnoul Aymar Baudouin Bernard Bertrand Bohemond Boson Bouchard Charles Clotaire Ebbon Enguerrand Eudes Evrard Foulques FranC_ois FrE_dE_ric GE_raud Gargamel Gaucher Gauthier Geoffroy GE_raud Gelduin Gilbert Gilles Godefroy Guichard Guiges Guilhem Guillaume Guy HE_lie Hamelin Henri Herbert Hildebert Hugues Humbert JaufrE_ Lothaire Louis Raimbaut Raoul Raymond Raynaud Renaud Richard Robert Robin Roger Rorgon Roubaud Sigismond Thibault ThiE_baut Thierry 
+			}
+		}
+
+		female_names = {
+			40 = {
+            	vnfrenc_aeude vnfrenc_andede vnfrenc_ache vnfrenc_ascolle vnfrenc_f_ate vnfrenc_baisogne vnfrenc_bedogne vnfrenc_breine vnfrenc_beuche vnfrenc_ebeue vnfrenc_efe vnfrenc_f_eieste vnfrenc_eituere vnfrenc_fediane vnfrenc_fouonte vnfrenc_fieme vnfrenc_fremieste vnfrenc_fremesteine vnfrenc_feuiee vnfrenc_fouisee vnfrenc_eante vnfrenc_eseviegne vnfrenc_edeuree vnfrenc_euvante vnfrenc_f_chante vnfrenc_collee vnfrenc_couieude vnfrenc_magne vnfrenc_moune vnfrenc_muesele vnfrenc_mouste vnfrenc_gnerche vnfrenc_nierche vnfrenc_osnie vnfrenc_revedone vnfrenc_iretee vnfrenc_tristee vnfrenc_ourlleine vnfrenc_osedie vnfrenc_vansiegne vnfrenc_vienne vnfrenc_verdarne
+			}
+			50 = {#Frankish names
+				E_lE_onore AdE_le Adalmode Adelaide Adelinde AliE_nor Alix Almodis BE_atrice BE_atrix BE_rengE_re Berthe Bourgogne Bourguigne Echive Ermengarde Ermessinde Esclarmonde Guillaumette Helvis Hodierne Ide Ida IldE_garde Mahaut Margot Marguerite Raymonde Tiburge 
+ 
+			}
+		}
+
+	dynasty_of_location_prefix = "dynnp_da"
+	
+}
+
+name_list_venetic_french_with_franks_biblical = {
+		cadet_dynasty_names = {
+            dynn_vnfrenc_amecet dynn_vnfrenc_andedet dynn_vnfrenc_asleau dynn_vnfrenc_aseget dynn_vnfrenc_asleau dynn_vnfrenc_baudiet dynn_vnfrenc_bueauet dynn_vnfrenc_beauet dynn_vnfrenc_boudieau dynn_vnfrenc_beulienet dynn_vnfrenc_delaiet dynn_vnfrenc_eiesteau dynn_vnfrenc_eiedouret dynn_vnfrenc_enouvienet dynn_vnfrenc_esseneau dynn_vnfrenc_fiugeau dynn_vnfrenc_fountet dynn_vnfrenc_fremiesteau dynn_vnfrenc_feugieau dynn_vnfrenc_jeuet dynn_vnfrenc_greuau dynn_vnfrenc_oisvet dynn_vnfrenc_chanteau dynn_vnfrenc_charanet dynn_vnfrenc_chasseart dynn_vnfrenc_lameuset dynn_vnfrenc_lasseau dynn_vnfrenc_leuiart dynn_vnfrenc_maudet dynn_vnfrenc_naissanceau dynn_vnfrenc_osseau dynn_vnfrenc_pelonceau dynn_vnfrenc_ireideart dynn_vnfrenc_resonceau dynn_vnfrenc_suereau dynn_vnfrenc_toumeduieret dynn_vnfrenc_ourliet dynn_vnfrenc_vasienet dynn_vnfrenc_jemeart dynn_vnfrenc_venoneau dynn_vnfrenc_vuedeau dynn_vnfrenc_voultionet
+            { "dynnp_de" "dynn_vnfrenc_de_Adeste" } { "dynnp_de" "dynn_vnfrenc_de_Padafne" } { "dynnp_de" "dynn_vnfrenc_de_Treveise" } { "dynnp_de" "dynn_vnfrenc_de_Oupeiterie" } { "dynnp_de" "dynn_vnfrenc_de_Concourdie" } { "dynnp_de" "dynn_vnfrenc_de_Terieste" } { "dynnp_de" "dynn_vnfrenc_de_Auteine" }{ "dynnp_de" "dynn_vnfrenc_de_Orleans" } 
+		}
+
+		dynasty_names = {
+            dynn_vnfrenc_amecet dynn_vnfrenc_andedet dynn_vnfrenc_asleau dynn_vnfrenc_aseget dynn_vnfrenc_asleau dynn_vnfrenc_baudiet dynn_vnfrenc_bueauet dynn_vnfrenc_beauet dynn_vnfrenc_boudieau dynn_vnfrenc_beulienet dynn_vnfrenc_delaiet dynn_vnfrenc_eiesteau dynn_vnfrenc_eiedouret dynn_vnfrenc_enouvienet dynn_vnfrenc_esseneau dynn_vnfrenc_fiugeau dynn_vnfrenc_fountet dynn_vnfrenc_fremiesteau dynn_vnfrenc_feugieau dynn_vnfrenc_jeuet dynn_vnfrenc_greuau dynn_vnfrenc_oisvet dynn_vnfrenc_chanteau dynn_vnfrenc_charanet dynn_vnfrenc_chasseart dynn_vnfrenc_lameuset dynn_vnfrenc_lasseau dynn_vnfrenc_leuiart dynn_vnfrenc_maudet dynn_vnfrenc_naissanceau dynn_vnfrenc_osseau dynn_vnfrenc_pelonceau dynn_vnfrenc_ireideart dynn_vnfrenc_resonceau dynn_vnfrenc_suereau dynn_vnfrenc_toumeduieret dynn_vnfrenc_ourliet dynn_vnfrenc_vasienet dynn_vnfrenc_jemeart dynn_vnfrenc_venoneau dynn_vnfrenc_vuedeau dynn_vnfrenc_voultionet
+            { "dynnp_de" "dynn_vnfrenc_de_Adeste" } { "dynnp_de" "dynn_vnfrenc_de_Padafne" } { "dynnp_de" "dynn_vnfrenc_de_Treveise" } { "dynnp_de" "dynn_vnfrenc_de_Oupeiterie" } { "dynnp_de" "dynn_vnfrenc_de_Concourdie" } { "dynnp_de" "dynn_vnfrenc_de_Terieste" } { "dynnp_de" "dynn_vnfrenc_de_Auteine" }{ "dynnp_de" "dynn_vnfrenc_de_Orleans" } 
+		}
+
+		male_names = {
+			30 = {
+            	vnfrenc_afre vnfrenc_eme vnfrenc_aude vnfrenc_aure vnfrenc_amece vnfrenc_anteie vnfrenc_anded vnfrenc_ablesse vnfrenc_arbe vnfrenc_arie vnfrenc_asle vnfrenc_ate vnfrenc_bete vnfrenc_beulien vnfrenc_beau vnfrenc_boeu vnfrenc_bruice vnfrenc_baudie vnfrenc_devierce vnfrenc_deveire vnfrenc_delaie vnfrenc_delu vnfrenc_eve vnfrenc_eieste vnfrenc_eiedour vnfrenc_aine vnfrenc_egnie vnfrenc_eiese vnfrenc_enouvien vnfrenc_essene vnfrenc_fiuge vnfrenc_fonte vnfrenc_fount vnfrenc_fremiest vnfrenc_feugie vnfrenc_jeu vnfrenc_greu vnfrenc_oisve vnfrenc_ouve vnfrenc_ote vnfrenc_euvant vnfrenc_chante vnfrenc_charane vnfrenc_chasse vnfrenc_ceu vnfrenc_sutaine vnfrenc_itouleste vnfrenc_iveite vnfrenc_lameuse vnfrenc_lant vnfrenc_lasse vnfrenc_liemteur vnfrenc_leuis vnfrenc_miez vnfrenc_maude vnfrenc_naune vnfrenc_naissance vnfrenc_nesse vnfrenc_oseau vnfrenc_ope vnfrenc_osse vnfrenc_ost vnfrenc_panar vnfrenc_pelonce vnfrenc_peupede vnfrenc_bled vnfrenc_redege vnfrenc_ireide vnfrenc_resonce vnfrenc_seie vnfrenc_suere vnfrenc_tiece vnfrenc_toumeduier vnfrenc_tresse vnfrenc_tureie vnfrenc_ousse vnfrenc_ourlie vnfrenc_ourle vnfrenc_vant vnfrenc_vasien vnfrenc_jegne vnfrenc_jeme vnfrenc_venone vnfrenc_verval vnfrenc_voultien vnfrenc_voultion vnfrenc_vuede
+			}
+			40 = {#Frankish names 
+				Adalbert AdE_mar Adrien Aimery Alain Aldebert AldE_ric Amaury Angelbert Archambaud Arnaud Arnault Arnoul Aymar Baudouin Bernard Bertrand Bohemond Boson Bouchard Charles Clotaire Ebbon Enguerrand Eudes Evrard Foulques FranC_ois FrE_dE_ric GE_raud Gargamel Gaucher Gauthier Geoffroy GE_raud Gelduin Gilbert Gilles Godefroy Guichard Guiges Guilhem Guillaume Guy HE_lie Hamelin Henri Herbert Hildebert Hugues Humbert JaufrE_ Lothaire Louis Raimbaut Raoul Raymond Raynaud Renaud Richard Robert Robin Roger Rorgon Roubaud Sigismond Thibault ThiE_baut Thierry 
+			}
+			30 = {
+				AndrE_ Antoine Jacques Jean Jourdain Mathieu Pierre Simon Thomas 
+			}
+		}
+
+		female_names = {
+			40 = {
+            	vnfrenc_aeude vnfrenc_andede vnfrenc_ache vnfrenc_ascolle vnfrenc_f_ate vnfrenc_baisogne vnfrenc_bedogne vnfrenc_breine vnfrenc_beuche vnfrenc_ebeue vnfrenc_efe vnfrenc_f_eieste vnfrenc_eituere vnfrenc_fediane vnfrenc_fouonte vnfrenc_fieme vnfrenc_fremieste vnfrenc_fremesteine vnfrenc_feuiee vnfrenc_fouisee vnfrenc_eante vnfrenc_eseviegne vnfrenc_edeuree vnfrenc_euvante vnfrenc_f_chante vnfrenc_collee vnfrenc_couieude vnfrenc_magne vnfrenc_moune vnfrenc_muesele vnfrenc_mouste vnfrenc_gnerche vnfrenc_nierche vnfrenc_osnie vnfrenc_revedone vnfrenc_iretee vnfrenc_tristee vnfrenc_ourlleine vnfrenc_osedie vnfrenc_vansiegne vnfrenc_vienne vnfrenc_verdarne
+			}
+			30 = {#Frankish names
+				E_lE_onore AdE_le Adalmode Adelaide Adelinde AliE_nor Alix Almodis BE_atrice BE_atrix BE_rengE_re Berthe Bourgogne Bourguigne Echive Ermengarde Ermessinde Esclarmonde Guillaumette Helvis Hodierne Ide Ida IldE_garde Mahaut Margot Marguerite Raymonde Tiburge 
+ 
+			}
+			30 = {
+				Agathe Alice Catherine Denise Elisabeth Isabeau Isabelle Judith Jeanne Judith Marie Sophie Stephanie 
+			}
+		}
+
+	dynasty_of_location_prefix = "dynnp_da"
+	
+}
+
+name_list_venetic_occitan = {
+	cadet_dynasty_names = {
+        { "dynnp_de" "dynn_Rodez" } { "dynnp_de" "dynn_Bergerac" } { "dynnp_de" "dynn_L_isle_Jourdain" } { "dynnp_de" "dynn_Poitiers-Valentinois" } "dynn_Trencval" { "dynnp_de" "dynn_ChA_tellerault" } { "dynnp_de" "dynn_Rancon" } { "dynnp_de" "dynn_Guyenne" } { "dynnp_de" "dynn_Bezieres" } { "dynnp_de" "dynn_Arelat" } { "dynnp_de" "dynn_Ponthieu" } { "dynnp_de" "dynn_Provence" } { "dynnp_de" "dynn_Toulouse" } { "dynnp_d_" "dynn_Aquitaine" } { "dynnp_de" "dynn_PontevE_s" } { "dynnp_de" "dynn_Sabran" } { "dynnp_de" "dynn_Crussol" } { "dynnp_de" "dynn_Quatrebarbes" }
+		dynn_vnocc_Amedicou dynn_vnocc_Ablescot dynn_vnocc_Ascolou dynn_vnocc_Anediot dynn_vnocc_Baitou dynn_vnocc_Belenot dynn_vnocc_Eguedorou dynn_vnocc_Eseniot dynn_vnocc_Fontou dynn_vnocc_Oisavot dynn_vnocc_Euvanot dynn_vnocc_Casticou dynn_vnocc_Lamosiot dynn_vnocc_Lemederou dynn_vnocc_Vosocot dynn_vnocc_Pelpodou dynn_vnocc_Tomadoriot dynn_vnocc_Iresicou dynn_vnocc_Urliot dynn_vnocc_Vasenou dynn_vnocc_Veimot dynn_vnocc_Venoniou dynn_vnocc_Vouteguenot dynn_vnocc_Voutevot
+	}
+
+	dynasty_names = {
+        { "dynnp_de" "dynn_Rodez" } { "dynnp_de" "dynn_Bergerac" } { "dynnp_de" "dynn_Poitiers-Valentinois" } "dynn_Trencval" { "dynnp_de" "dynn_ChA_tellerault" } { "dynnp_de" "dynn_Rancon" } { "dynnp_de" "dynn_Guyenne" } { "dynnp_de" "dynn_Bezieres" } { "dynnp_de" "dynn_Arelat" } { "dynnp_de" "dynn_Ponthieu" } { "dynnp_de" "dynn_Provence" } { "dynnp_de" "dynn_Toulouse" } { "dynnp_d_" "dynn_Aquitaine" } { "dynnp_de" "dynn_PontevE_s" } { "dynnp_de" "dynn_Sabran" } { "dynnp_de" "dynn_Crussol" } { "dynnp_de" "dynn_Quatrebarbes" }
+		dynn_vnocc_Amedicou dynn_vnocc_Ablescot dynn_vnocc_Ascolou dynn_vnocc_Anediot dynn_vnocc_Baitou dynn_vnocc_Belenot dynn_vnocc_Eguedorou dynn_vnocc_Eseniot dynn_vnocc_Fontou dynn_vnocc_Oisavot dynn_vnocc_Euvanot dynn_vnocc_Casticou dynn_vnocc_Lamosiot dynn_vnocc_Lemederou dynn_vnocc_Vosocot dynn_vnocc_Pelpodou dynn_vnocc_Tomadoriot dynn_vnocc_Iresicou dynn_vnocc_Urliot dynn_vnocc_Vasenou dynn_vnocc_Veimot dynn_vnocc_Venoniou dynn_vnocc_Vouteguenot dynn_vnocc_Voutevot
+	}
+
+	male_names = {
+		vnocc_afre vnocc_aime vnocc_acus vnocc_aler vnocc_amedici vnocc_anedia vnocc_anet vnocc_ablesse vnocc_arbe vnocc_ariu vnocc_ascole vnocc_ate vnocc_bait vnocc_belenes vnocc_boials vnocc_boia vnocc_irejuoce vnocc_budejace vnocc_dibiarece vnocc_dibiar vnocc_dilesse vnocc_dilis vnocc_eve vnocc_egues vnocc_eguedors vnocc_enatge vnocc_enetia vnocc_enoguen vnocc_esenie vnocc_feugue vnocc_fonts vnocc_fouguont vnocc_fremaist vnocc_foguia vnocc_iatge vnocc_iraisse vnocc_oisava vnocc_uove vnocc_ute vnocc_euvan vnocc_cants vnocc_caran vnocc_castici vnocc_celo vnocc_ceudis vnocc_tulest vnocc_cevet vnocc_lamosia vnocc_lant vnocc_lausce vnocc_lemeder vnocc_lus vnocc_metze vnocc_moud vnocc_nagualne vnocc_naisonca vnocc_naica vnocc_isejatge vnocc_uopa vnocc_vosoca vnocc_vost vnocc_panaire vnocc_peloneca vnocc_pelpodes vnocc_blezes vnocc_raivia vnocc_reidis vnocc_resonca vnocc_ceca vnocc_sura vnocc_tesia vnocc_tomadoria vnocc_iresisse vnocc_torige vnocc_uca vnocc_urlia vnocc_urles vnocc_vante vnocc_vans vnocc_vasen vnocc_veicna vnocc_veimes vnocc_venonis vnocc_vervala vnocc_vouteguen vnocc_vouteva vnocc_vot
+	}
+
+	female_names = {
+		vnocc_acoda vnocc_andedena vnocc_abaia vnocc_ascolia vnocc_ata vnocc_basnia vnocc_baidonia vnocc_irecdena vnocc_busa vnocc_eba vnocc_efa vnocc_eguestena vnocc_eguedora vnocc_fejana vnocc_fouguonta vnocc_frema vnocc_fremaista vnocc_fremaistina vnocc_f_foguia vnocc_fuisia vnocc_ianta vnocc_iseveonha vnocc_edoria vnocc_ieuvantena vnocc_canta vnocc_calia vnocc_ceucuda vnocc_macena vnocc_maudona vnocc_muscialna vnocc_musta vnocc_neirca vnocc_nerca vnocc_votenia vnocc_revedonia vnocc_reja vnocc_tainanissa vnocc_iroisa vnocc_urleina vnocc_uciesica vnocc_vancenia vnocc_vena vnocc_vercondarna
+	}
+
+	dynasty_of_location_prefix = "dynnp_da"
+}
+
+name_list_venetic_occitan_biblical = {
+	cadet_dynasty_names = {
+        { "dynnp_de" "dynn_Rodez" } { "dynnp_de" "dynn_Bergerac" } { "dynnp_de" "dynn_L_isle_Jourdain" } { "dynnp_de" "dynn_Poitiers-Valentinois" } "dynn_Trencval" { "dynnp_de" "dynn_ChA_tellerault" } { "dynnp_de" "dynn_Rancon" } { "dynnp_de" "dynn_Guyenne" } { "dynnp_de" "dynn_Bezieres" } { "dynnp_de" "dynn_Arelat" } { "dynnp_de" "dynn_Ponthieu" } { "dynnp_de" "dynn_Provence" } { "dynnp_de" "dynn_Toulouse" } { "dynnp_d_" "dynn_Aquitaine" } { "dynnp_de" "dynn_PontevE_s" } { "dynnp_de" "dynn_Sabran" } { "dynnp_de" "dynn_Crussol" } { "dynnp_de" "dynn_Quatrebarbes" }
+		dynn_vnocc_Amedicou dynn_vnocc_Ablescot dynn_vnocc_Ascolou dynn_vnocc_Anediot dynn_vnocc_Baitou dynn_vnocc_Belenot dynn_vnocc_Eguedorou dynn_vnocc_Eseniot dynn_vnocc_Fontou dynn_vnocc_Oisavot dynn_vnocc_Euvanot dynn_vnocc_Casticou dynn_vnocc_Lamosiot dynn_vnocc_Lemederou dynn_vnocc_Vosocot dynn_vnocc_Pelpodou dynn_vnocc_Tomadoriot dynn_vnocc_Iresicou dynn_vnocc_Urliot dynn_vnocc_Vasenou dynn_vnocc_Veimot dynn_vnocc_Venoniou dynn_vnocc_Vouteguenot dynn_vnocc_Voutevot
+	}
+
+	dynasty_names = {
+        { "dynnp_de" "dynn_Rodez" } { "dynnp_de" "dynn_Bergerac" } { "dynnp_de" "dynn_L_isle_Jourdain" } { "dynnp_de" "dynn_Poitiers-Valentinois" } "dynn_Trencval" { "dynnp_de" "dynn_ChA_tellerault" } { "dynnp_de" "dynn_Rancon" } { "dynnp_de" "dynn_Guyenne" } { "dynnp_de" "dynn_Bezieres" } { "dynnp_de" "dynn_Arelat" } { "dynnp_de" "dynn_Ponthieu" } { "dynnp_de" "dynn_Provence" } { "dynnp_de" "dynn_Toulouse" } { "dynnp_d_" "dynn_Aquitaine" } { "dynnp_de" "dynn_PontevE_s" } { "dynnp_de" "dynn_Sabran" } { "dynnp_de" "dynn_Crussol" } { "dynnp_de" "dynn_Quatrebarbes" }
+		dynn_vnocc_Amedicou dynn_vnocc_Ablescot dynn_vnocc_Ascolou dynn_vnocc_Anediot dynn_vnocc_Baitou dynn_vnocc_Belenot dynn_vnocc_Eguedorou dynn_vnocc_Eseniot dynn_vnocc_Fontou dynn_vnocc_Oisavot dynn_vnocc_Euvanot dynn_vnocc_Casticou dynn_vnocc_Lamosiot dynn_vnocc_Lemederou dynn_vnocc_Vosocot dynn_vnocc_Pelpodou dynn_vnocc_Tomadoriot dynn_vnocc_Iresicou dynn_vnocc_Urliot dynn_vnocc_Vasenou dynn_vnocc_Veimot dynn_vnocc_Venoniou dynn_vnocc_Vouteguenot dynn_vnocc_Voutevot
+	}
+
+	male_names = {
+		70 = {
+			vnocc_afre vnocc_aime vnocc_acus vnocc_aler vnocc_amedici vnocc_anedia vnocc_anet vnocc_ablesse vnocc_arbe vnocc_ariu vnocc_ascole vnocc_ate vnocc_bait vnocc_belenes vnocc_boials vnocc_boia vnocc_irejuoce vnocc_budejace vnocc_dibiarece vnocc_dibiar vnocc_dilesse vnocc_dilis vnocc_eve vnocc_egues vnocc_eguedors vnocc_enatge vnocc_enetia vnocc_enoguen vnocc_esenie vnocc_feugue vnocc_fonts vnocc_fouguont vnocc_fremaist vnocc_foguia vnocc_iatge vnocc_iraisse vnocc_oisava vnocc_uove vnocc_ute vnocc_euvan vnocc_cants vnocc_caran vnocc_castici vnocc_celo vnocc_ceudis vnocc_tulest vnocc_cevet vnocc_lamosia vnocc_lant vnocc_lausce vnocc_lemeder vnocc_lus vnocc_metze vnocc_moud vnocc_nagualne vnocc_naisonca vnocc_naica vnocc_isejatge vnocc_uopa vnocc_vosoca vnocc_vost vnocc_panaire vnocc_peloneca vnocc_pelpodes vnocc_blezes vnocc_raivia vnocc_reidis vnocc_resonca vnocc_ceca vnocc_sura vnocc_tesia vnocc_tomadoria vnocc_iresisse vnocc_torige vnocc_uca vnocc_urlia vnocc_urles vnocc_vante vnocc_vans vnocc_vasen vnocc_veicna vnocc_veimes vnocc_venonis vnocc_vervala vnocc_vouteguen vnocc_vouteva vnocc_vot
+		} 
+		30 = {
+			AndrE_ Aton Joan Jordan Martin Matias Miquel Nicholaus PE_ire Simon Toumas
+		}
+	}
+
+	female_names = {
+		60 = {
+			vnocc_acoda vnocc_andedena vnocc_abaia vnocc_ascolia vnocc_ata vnocc_basnia vnocc_baidonia vnocc_irecdena vnocc_busa vnocc_eba vnocc_efa vnocc_eguestena vnocc_eguedora vnocc_fejana vnocc_fouguonta vnocc_frema vnocc_fremaista vnocc_fremaistina vnocc_f_foguia vnocc_fuisia vnocc_ianta vnocc_iseveonha vnocc_edoria vnocc_ieuvantena vnocc_canta vnocc_calia vnocc_ceucuda vnocc_macena vnocc_maudona vnocc_muscialna vnocc_musta vnocc_neirca vnocc_nerca vnocc_votenia vnocc_revedonia vnocc_reja vnocc_tainanissa vnocc_iroisa vnocc_urleina vnocc_uciesica vnocc_vancenia vnocc_vena vnocc_vercondarna
+		}
+		40 = {
+			Agata AinE_s AliC_ Beatritz Caterina EisabE_u Elena Elisa ElisabE_ta IsabE_u IsabE_la Joana Maria Marta Sibilla TerE_sa
+		}
+	}
+
+	dynasty_of_location_prefix = "dynnp_da"
+}
+
+name_list_venetic_african = {
+	cadet_dynasty_names = {
+        dynn_vnafric_Aplisicju dynn_vnafric_Alerju dynn_vnafric_Ariunju dynn_vnafric_Ascolju  dynn_vnafric_Bellenju dynn_vnafric_Deipiaricju dynn_vnafric_Egestju dynn_vnafric_Egetorju dynn_vnafric_Enocleiju dynn_vnafric_Fremestju dynn_vnafric_Grecju dynn_vnafric_Ostieju dynn_vnafric_Caramnju dynn_vnafric_Lamusju dynn_vnafric_Ossocju dynn_vnafric_Resuncju dynn_vnafric_Sicju dynn_vnafric_Tenju dynn_vnafric_Tomatoriju dynn_vnafric_Ucju dynn_vnafric_Vantju dynn_vnafric_Veignju dynn_vnafric_Voltigenju dynn_vnafric_Voltiomnju dynn_vnafric_Votju
+	}
+
+	dynasty_names = {
+    	dynn_vnafric_Aplisicju dynn_vnafric_Alerju dynn_vnafric_Ariunju dynn_vnafric_Ascolju  dynn_vnafric_Bellenju dynn_vnafric_Deipiaricju dynn_vnafric_Egestju dynn_vnafric_Egetorju dynn_vnafric_Enocleiju dynn_vnafric_Fremestju dynn_vnafric_Grecju dynn_vnafric_Ostieju dynn_vnafric_Caramnju dynn_vnafric_Lamusju dynn_vnafric_Ossocju dynn_vnafric_Resuncju dynn_vnafric_Sicju dynn_vnafric_Tenju dynn_vnafric_Tomatoriju dynn_vnafric_Ucju dynn_vnafric_Vantju dynn_vnafric_Veignju dynn_vnafric_Voltigenju dynn_vnafric_Voltiomnju dynn_vnafric_Votju
+	}
+
+	male_names = {
+		vnafric_afru vnafric_emu vnafric_acutu vnafric_aleru vnafric_ameticu vnafric_andetiju vnafric_andetu vnafric_aplisicu vnafric_arbu vnafric_ariuni vnafric_ascolu vnafric_attu vnafric_betu vnafric_belleni vnafric_bojalni vnafric_boju vnafric_broijocu vnafric_budijacu vnafric_deipiaricu vnafric_deipiari vnafric_dillicu vnafric_dilli vnafric_epu vnafric_egestu vnafric_egetor vnafric_einaju vnafric_enetiu vnafric_enogeni vnafric_ersinu vnafric_feugu vnafric_fonti vnafric_fougonti vnafric_fremestu vnafric_fugiu vnafric_gaju vnafric_grecu vnafric_ostieu vnafric_ofu vnafric_uttu vnafric_iuanti vnafric_canti vnafric_caramnu vnafric_casticu vnafric_cellu vnafric_ceutinu vnafric_ctulistu vnafric_cvitu vnafric_lamusu vnafric_lanti vnafric_lavscu vnafric_lemetor vnafric_luci vnafric_metsu vnafric_moldu vnafric_nagalcnu vnafric_nesoncu vnafric_nesu vnafric_ocijecu vnafric_oppu vnafric_ossocu vnafric_osti vnafric_panariu vnafric_pelonicu vnafric_pilpotu vnafric_plede vnafric_reteiu vnafric_reitu vnafric_resuncu vnafric_sicu vnafric_suru vnafric_teciu vnafric_tomatoriu vnafric_trisicu vnafric_turiju vnafric_ucu vnafric_urcleju vnafric_urcle vnafric_vante vnafric_vanti vnafric_vassenu vnafric_veignu vnafric_veime vnafric_voltigene vnafric_voltiomnu vnafric_votu
+	}
+
+	female_names = {
+        vnafric_acuta vnafric_andeta vnafric_apia vnafric_ascolia vnafric_atta vnafric_bagsonia vnafric_betonia vnafric_brigdina vnafric_bucca vnafric_eua vnafric_efa vnafric_egesta vnafric_egetora vnafric_fetiana vnafric_fougonta vnafric_frema vnafric_fremesta vnafric_fremestina vnafric_fugia vnafric_fucsia vnafric_ianta vnafric_iceejoneja vnafric_ituria vnafric_iuanta vnafric_canta vnafric_colia vnafric_cuicuta vnafric_macna vnafric_moldona vnafric_musciala vnafric_musta vnafric_neirca vnafric_nerca vnafric_otnia vnafric_reetona vnafric_reitia vnafric_trostia vnafric_urcleina vnafric_usedija vnafric_vantcenia vnafric_venna vnafric_vercondarna
+	}
+
+	dynasty_of_location_prefix = "dynnp_de"
+}
+
+name_list_venetic_african_biblical = {
+	cadet_dynasty_names = {
+        dynn_vnafric_Aplisicju dynn_vnafric_Alerju dynn_vnafric_Ariunju dynn_vnafric_Ascolju  dynn_vnafric_Bellenju dynn_vnafric_Deipiaricju dynn_vnafric_Egestju dynn_vnafric_Egetorju dynn_vnafric_Enocleiju dynn_vnafric_Fremestju dynn_vnafric_Grecju dynn_vnafric_Ostieju dynn_vnafric_Caramnju dynn_vnafric_Lamusju dynn_vnafric_Ossocju dynn_vnafric_Resuncju dynn_vnafric_Sicju dynn_vnafric_Tenju dynn_vnafric_Tomatoriju dynn_vnafric_Ucju dynn_vnafric_Vantju dynn_vnafric_Veignju dynn_vnafric_Voltigenju dynn_vnafric_Voltiomnju dynn_vnafric_Votju
+	}
+
+	dynasty_names = {
+    	dynn_vnafric_Aplisicju dynn_vnafric_Alerju dynn_vnafric_Ariunju dynn_vnafric_Ascolju  dynn_vnafric_Bellenju dynn_vnafric_Deipiaricju dynn_vnafric_Egestju dynn_vnafric_Egetorju dynn_vnafric_Enocleiju dynn_vnafric_Fremestju dynn_vnafric_Grecju dynn_vnafric_Ostieju dynn_vnafric_Caramnju dynn_vnafric_Lamusju dynn_vnafric_Ossocju dynn_vnafric_Resuncju dynn_vnafric_Sicju dynn_vnafric_Tenju dynn_vnafric_Tomatoriju dynn_vnafric_Ucju dynn_vnafric_Vantju dynn_vnafric_Veignju dynn_vnafric_Voltigenju dynn_vnafric_Voltiomnju dynn_vnafric_Votju
+	}
+
+	male_names = {
+		70 = {
+			vnafric_afru vnafric_emu vnafric_acutu vnafric_aleru vnafric_ameticu vnafric_andetiju vnafric_andetu vnafric_aplisicu vnafric_arbu vnafric_ariuni vnafric_ascolu vnafric_attu vnafric_betu vnafric_belleni vnafric_bojalni vnafric_boju vnafric_broijocu vnafric_budijacu vnafric_deipiaricu vnafric_deipiari vnafric_dillicu vnafric_dilli vnafric_epu vnafric_egestu vnafric_egetor vnafric_einaju vnafric_enetiu vnafric_enogeni vnafric_ersinu vnafric_feugu vnafric_fonti vnafric_fougonti vnafric_fremestu vnafric_fugiu vnafric_gaju vnafric_grecu vnafric_ostieu vnafric_ofu vnafric_uttu vnafric_iuanti vnafric_canti vnafric_caramnu vnafric_casticu vnafric_cellu vnafric_ceutinu vnafric_ctulistu vnafric_cvitu vnafric_lamusu vnafric_lanti vnafric_lavscu vnafric_lemetor vnafric_luci vnafric_metsu vnafric_moldu vnafric_nagalcnu vnafric_nesoncu vnafric_nesu vnafric_ocijecu vnafric_oppu vnafric_ossocu vnafric_osti vnafric_panariu vnafric_pelonicu vnafric_pilpotu vnafric_plede vnafric_reteiu vnafric_reitu vnafric_resuncu vnafric_sicu vnafric_suru vnafric_teciu vnafric_tomatoriu vnafric_trisicu vnafric_turiju vnafric_ucu vnafric_urcleju vnafric_urcle vnafric_vante vnafric_vanti vnafric_vassenu vnafric_veignu vnafric_veime vnafric_voltigene vnafric_voltiomnu vnafric_votu
+		} 
+		30 = {
+			Basiliu Beneitu Crabiele Cristolu Giuanne Giustinu Giustu Juanne Marku Martinu Mattia Matteu Micheli Mighele Mikelli Pascale Simione Tommasu 
+		}
+	}
+
+	female_names = {
+		60 = {
+           	vnafric_acuta vnafric_andeta vnafric_apia vnafric_ascolia vnafric_atta vnafric_bagsonia vnafric_betonia vnafric_brigdina vnafric_bucca vnafric_eua vnafric_efa vnafric_egesta vnafric_egetora vnafric_fetiana vnafric_fougonta vnafric_frema vnafric_fremesta vnafric_fremestina vnafric_fugia vnafric_fucsia vnafric_ianta vnafric_iceejoneja vnafric_ituria vnafric_iuanta vnafric_canta vnafric_colia vnafric_cuicuta vnafric_macna vnafric_moldona vnafric_musciala vnafric_musta vnafric_neirca vnafric_nerca vnafric_otnia vnafric_reetona vnafric_reitia vnafric_trostia vnafric_urcleina vnafric_usedija vnafric_vantcenia vnafric_venna vnafric_vercondarna
+		}
+		40 = {
+			Agnese Angelica Anna Catellina Giuanna Ispella Juanna Maria Marianna Markusa Pascalina PA_ula Susanna Teresa Zuseppa
+		}
+	}
+
+	dynasty_of_location_prefix = "dynnp_de"
+}
+
+name_list_venetic_romansh = {
+	cadet_dynasty_names = {
+        dynn_vnrmnsh_Eimin dynn_vnrmnsh_Ameitieghi dynn_vnrmnsh_Andeitieghin dynn_vnrmnsh_Andeiti dynn_vnrmnsh_Ettin dynn_vnrmnsh_Beillieni dynn_vnrmnsh_Boialin dynn_vnrmnsh_Escoli dynn_vnrmnsh_Beitin dynn_vnrmnsh_Beillieni dynn_vnrmnsh_Breigioughi dynn_vnrmnsh_Bouteigaghi dynn_vnrmnsh_Dellegin dynn_vnrmnsh_Bouteigaghi dynn_vnrmnsh_Eibin dynn_vnrmnsh_Iegheistin dynn_vnrmnsh_Eighietourin dynn_vnrmnsh_Feioughi dynn_vnrmnsh_Jenougheini dynn_vnrmnsh_Jenoucleivin dynn_vnrmnsh_Greighi dynn_vnrmnsh_Oustieivin dynn_vnrmnsh_Outtin dynn_vnrmnsh_Giovanti dynn_vnrmnsh_Tschantin dynn_vnrmnsh_Tscharemnin dynn_vnrmnsh_Cheilli dynn_vnrmnsh_Levscin dynn_vnrmnsh_Niesonghi dynn_vnrmnsh_Ouchiegieighin dynn_vnrmnsh_Ossoghin dynn_vnrmnsh_Toumatorin dynn_vnrmnsh_Ventin dynn_vnrmnsh_Vasseini dynn_vnrmnsh_Voultiegheini dynn_vnrmnsh_Voultiomni dynn_vnrmnsh_Votin
+	}
+
+	dynasty_names = {
+    	dynn_vnrmnsh_Eimin dynn_vnrmnsh_Ameitieghi dynn_vnrmnsh_Andeitieghin dynn_vnrmnsh_Andeiti dynn_vnrmnsh_Ettin dynn_vnrmnsh_Beillieni dynn_vnrmnsh_Boialin dynn_vnrmnsh_Escoli dynn_vnrmnsh_Beitin dynn_vnrmnsh_Beillieni dynn_vnrmnsh_Breigioughi dynn_vnrmnsh_Bouteigaghi dynn_vnrmnsh_Dellegin dynn_vnrmnsh_Bouteigaghi dynn_vnrmnsh_Eibin dynn_vnrmnsh_Iegheistin dynn_vnrmnsh_Eighietourin dynn_vnrmnsh_Feioughi dynn_vnrmnsh_Jenougheini dynn_vnrmnsh_Jenoucleivin dynn_vnrmnsh_Greighi dynn_vnrmnsh_Oustieivin dynn_vnrmnsh_Outtin dynn_vnrmnsh_Giovanti dynn_vnrmnsh_Tschantin dynn_vnrmnsh_Tscharemnin dynn_vnrmnsh_Cheilli dynn_vnrmnsh_Levscin dynn_vnrmnsh_Niesonghi dynn_vnrmnsh_Ouchiegieighin dynn_vnrmnsh_Ossoghin dynn_vnrmnsh_Toumatorin dynn_vnrmnsh_Ventin dynn_vnrmnsh_Vasseini dynn_vnrmnsh_Voultiegheini dynn_vnrmnsh_Voultiomni dynn_vnrmnsh_Votin
+	}
+
+	male_names = {
+		vnrmnsh_efre vnrmnsh_eime vnrmnsh_ecut vnrmnsh_eleir vnrmnsh_ameitieg vnrmnsh_andeitieg vnrmnsh_andeit vnrmnsh_apliesieg vnrmnsh_erb vnrmnsh_arieun vnrmnsh_escol vnrmnsh_ette vnrmnsh_beit vnrmnsh_beillien vnrmnsh_boial vnrmnsh_boi vnrmnsh_breigioug vnrmnsh_bouteigag vnrmnsh_dipjarieg vnrmnsh_dipjar vnrmnsh_delleg vnrmnsh_dell vnrmnsh_eib vnrmnsh_iegheist vnrmnsh_eighietur vnrmnsh_ejenej vnrmnsh_einiet vnrmnsh_jenougain vnrmnsh_eirien vnrmnsh_feioug vnrmnsh_font vnrmnsh_fougont vnrmnsh_friemeist vnrmnsh_foug vnrmnsh_gej vnrmnsh_greig vnrmnsh_ustiev vnrmnsh_ouv vnrmnsh_outt vnrmnsh_giovant vnrmnsh_tschant vnrmnsh_tscharemn vnrmnsh_chestieg vnrmnsh_cheill vnrmnsh_cheiutien vnrmnsh_ctouliest vnrmnsh_cvit vnrmnsh_lamous vnrmnsh_lent vnrmnsh_levsce vnrmnsh_leimietur vnrmnsh_loug vnrmnsh_miez vnrmnsh_mold vnrmnsh_naghelgne vnrmnsh_niesong vnrmnsh_neis vnrmnsh_uchigeig vnrmnsh_opp vnrmnsh_ossog vnrmnsh_ost vnrmnsh_paner vnrmnsh_pielunieg vnrmnsh_pilpot vnrmnsh_pleid vnrmnsh_rietev vnrmnsh_rejet vnrmnsh_reisong vnrmnsh_sieg vnrmnsh_sore vnrmnsh_teig vnrmnsh_toumator vnrmnsh_triesieg vnrmnsh_turieg vnrmnsh_oug vnrmnsh_orclej vnrmnsh_orcl vnrmnsh_vent vnrmnsh_vassein vnrmnsh_vejegne vnrmnsh_vejem vnrmnsh_veinnon vnrmnsh_viercval vnrmnsh_voultieghein vnrmnsh_voultion vnrmnsh_vot
+	}
+
+	female_names = {
+        vnrmnsh_ecouta vnrmnsh_andeitiena vnrmnsh_epeia vnrmnsh_asgola vnrmnsh_etta vnrmnsh_bagsonia vnrmnsh_beitonia vnrmnsh_brigdiena vnrmnsh_bucca vnrmnsh_eiba vnrmnsh_eifa vnrmnsh_eighiesta vnrmnsh_jeghietora vnrmnsh_fietiena vnrmnsh_fougonta vnrmnsh_freima vnrmnsh_friemeista vnrmnsh_friemeistiena vnrmnsh_fugia vnrmnsh_fugsia vnrmnsh_genta vnrmnsh_jechieviunia vnrmnsh_jeturia vnrmnsh_gioventa vnrmnsh_chenta vnrmnsh_colia vnrmnsh_cujecouta vnrmnsh_mecna vnrmnsh_mudona vnrmnsh_muschielna vnrmnsh_musta vnrmnsh_nejerca vnrmnsh_neierca vnrmnsh_otnia vnrmnsh_riebietona vnrmnsh_rejetia vnrmnsh_teinuntia vnrmnsh_trostia vnrmnsh_urclejena vnrmnsh_usiediegia vnrmnsh_vantxenia vnrmnsh_veinna vnrmnsh_verconderna
+	}
+
+	dynasty_of_location_prefix = "dynnp_de"
+}
+
+name_list_venetic_romansh_biblical = {
+	cadet_dynasty_names = {
+        dynn_vnrmnsh_Eimin dynn_vnrmnsh_Ameitieghi dynn_vnrmnsh_Andeitieghin dynn_vnrmnsh_Andeiti dynn_vnrmnsh_Ettin dynn_vnrmnsh_Beillieni dynn_vnrmnsh_Boialin dynn_vnrmnsh_Escoli dynn_vnrmnsh_Beitin dynn_vnrmnsh_Beillieni dynn_vnrmnsh_Breigioughi dynn_vnrmnsh_Bouteigaghi dynn_vnrmnsh_Dellegin dynn_vnrmnsh_Bouteigaghi dynn_vnrmnsh_Eibin dynn_vnrmnsh_Iegheistin dynn_vnrmnsh_Eighietourin dynn_vnrmnsh_Feioughi dynn_vnrmnsh_Jenougheini dynn_vnrmnsh_Jenoucleivin dynn_vnrmnsh_Greighi dynn_vnrmnsh_Oustieivin dynn_vnrmnsh_Outtin dynn_vnrmnsh_Giovanti dynn_vnrmnsh_Tschantin dynn_vnrmnsh_Tscharemnin dynn_vnrmnsh_Cheilli dynn_vnrmnsh_Levscin dynn_vnrmnsh_Niesonghi dynn_vnrmnsh_Ouchiegieighin dynn_vnrmnsh_Ossoghin dynn_vnrmnsh_Toumatorin dynn_vnrmnsh_Ventin dynn_vnrmnsh_Vasseini dynn_vnrmnsh_Voultiegheini dynn_vnrmnsh_Voultiomni dynn_vnrmnsh_Votin
+	}
+
+	dynasty_names = {
+    	dynn_vnrmnsh_Eimin dynn_vnrmnsh_Ameitieghi dynn_vnrmnsh_Andeitieghin dynn_vnrmnsh_Andeiti dynn_vnrmnsh_Ettin dynn_vnrmnsh_Beillieni dynn_vnrmnsh_Boialin dynn_vnrmnsh_Escoli dynn_vnrmnsh_Beitin dynn_vnrmnsh_Beillieni dynn_vnrmnsh_Breigioughi dynn_vnrmnsh_Bouteigaghi dynn_vnrmnsh_Dellegin dynn_vnrmnsh_Bouteigaghi dynn_vnrmnsh_Eibin dynn_vnrmnsh_Iegheistin dynn_vnrmnsh_Eighietourin dynn_vnrmnsh_Feioughi dynn_vnrmnsh_Jenougheini dynn_vnrmnsh_Jenoucleivin dynn_vnrmnsh_Greighi dynn_vnrmnsh_Oustieivin dynn_vnrmnsh_Outtin dynn_vnrmnsh_Giovanti dynn_vnrmnsh_Tschantin dynn_vnrmnsh_Tscharemnin dynn_vnrmnsh_Cheilli dynn_vnrmnsh_Levscin dynn_vnrmnsh_Niesonghi dynn_vnrmnsh_Ouchiegieighin dynn_vnrmnsh_Ossoghin dynn_vnrmnsh_Toumatorin dynn_vnrmnsh_Ventin dynn_vnrmnsh_Vasseini dynn_vnrmnsh_Voultiegheini dynn_vnrmnsh_Voultiomni dynn_vnrmnsh_Votin
+	}
+
+	male_names = {
+		70 = {
+			vnrmnsh_efre vnrmnsh_eime vnrmnsh_ecut vnrmnsh_eleir vnrmnsh_ameitieg vnrmnsh_andeitieg vnrmnsh_andeit vnrmnsh_apliesieg vnrmnsh_erb vnrmnsh_arieun vnrmnsh_escol vnrmnsh_ette vnrmnsh_beit vnrmnsh_beillien vnrmnsh_boial vnrmnsh_boi vnrmnsh_breigioug vnrmnsh_bouteigag vnrmnsh_dipjarieg vnrmnsh_dipjar vnrmnsh_delleg vnrmnsh_dell vnrmnsh_eib vnrmnsh_iegheist vnrmnsh_eighietur vnrmnsh_ejenej vnrmnsh_einiet vnrmnsh_jenougain vnrmnsh_eirien vnrmnsh_feioug vnrmnsh_font vnrmnsh_fougont vnrmnsh_friemeist vnrmnsh_foug vnrmnsh_gej vnrmnsh_greig vnrmnsh_ustiev vnrmnsh_ouv vnrmnsh_outt vnrmnsh_giovant vnrmnsh_tschant vnrmnsh_tscharemn vnrmnsh_chestieg vnrmnsh_cheill vnrmnsh_cheiutien vnrmnsh_ctouliest vnrmnsh_cvit vnrmnsh_lamous vnrmnsh_lent vnrmnsh_levsce vnrmnsh_leimietur vnrmnsh_loug vnrmnsh_miez vnrmnsh_mold vnrmnsh_naghelgne vnrmnsh_niesong vnrmnsh_neis vnrmnsh_uchigeig vnrmnsh_opp vnrmnsh_ossog vnrmnsh_ost vnrmnsh_paner vnrmnsh_pielunieg vnrmnsh_pilpot vnrmnsh_pleid vnrmnsh_rietev vnrmnsh_rejet vnrmnsh_reisong vnrmnsh_sieg vnrmnsh_sore vnrmnsh_teig vnrmnsh_toumator vnrmnsh_triesieg vnrmnsh_turieg vnrmnsh_oug vnrmnsh_orclej vnrmnsh_orcl vnrmnsh_vent vnrmnsh_vassein vnrmnsh_vejegne vnrmnsh_vejem vnrmnsh_veinnon vnrmnsh_viercval vnrmnsh_voultieghein vnrmnsh_voultion vnrmnsh_vot
+		} 
+		30 = {
+			Andreia Chrest Chiaspar Eusebi Gion Gisep Gionas Josua Martegn Mathiu Mitgel NicolA_
+		}
+	}
+
+	female_names = {
+		60 = {
+           	vnrmnsh_ecouta vnrmnsh_andeitiena vnrmnsh_epeia vnrmnsh_asgola vnrmnsh_etta vnrmnsh_bagsonia vnrmnsh_beitonia vnrmnsh_brigdiena vnrmnsh_bucca vnrmnsh_eiba vnrmnsh_eifa vnrmnsh_eighiesta vnrmnsh_jeghietora vnrmnsh_fietiena vnrmnsh_fougonta vnrmnsh_freima vnrmnsh_friemeista vnrmnsh_friemeistiena vnrmnsh_fugia vnrmnsh_fugsia vnrmnsh_genta vnrmnsh_jechieviunia vnrmnsh_jeturia vnrmnsh_gioventa vnrmnsh_chenta vnrmnsh_colia vnrmnsh_cujecouta vnrmnsh_mecna vnrmnsh_mudona vnrmnsh_muschielna vnrmnsh_musta vnrmnsh_nejerca vnrmnsh_neierca vnrmnsh_otnia vnrmnsh_riebietona vnrmnsh_rejetia vnrmnsh_teinuntia vnrmnsh_trostia vnrmnsh_urclejena vnrmnsh_usiediegia vnrmnsh_vantxenia vnrmnsh_veinna vnrmnsh_verconderna
+
+		}
+		40 = {
+			Annamengia Anna Catrina Cristigna Giuanna Jacobea Lisabetta Maria Sibila SU_sanna
+		}
+	}
+
+	dynasty_of_location_prefix = "dynnp_de"
+}

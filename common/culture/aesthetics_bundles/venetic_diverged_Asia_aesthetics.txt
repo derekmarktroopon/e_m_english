@@ -1,0 +1,261 @@
+﻿venetic_japanese_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_kinai }
+					any_this_title_or_de_jure_above = { this = title:d_nankaido }
+					any_this_title_or_de_jure_above = { this = title:d_east_sanindo }
+					any_this_title_or_de_jure_above = { this = title:d_west_sanindo }
+					any_this_title_or_de_jure_above = { this = title:d_west_sanyodo }
+					any_this_title_or_de_jure_above = { this = title:d_east_sanyodo }
+					any_this_title_or_de_jure_above = { this = title:d_east_bando }
+					any_this_title_or_de_jure_above = { this = title:d_west_bando }
+					any_this_title_or_de_jure_above = { this = title:d_tokaido }
+					any_this_title_or_de_jure_above = { this = title:d_tosando }
+					any_this_title_or_de_jure_above = { this = title:d_hokurikudo }
+					any_this_title_or_de_jure_above = { this = title:d_north_saikaido }
+					any_this_title_or_de_jure_above = { this = title:d_south_saikaido }
+				}
+			}
+			any_sub_realm_county = {
+				title_province = {
+					NOR = {
+						geographical_region = world_europe
+						geographical_region = world_africa_north
+						geographical_region = world_africa_west
+						geographical_region = world_middle_east
+						geographical_region = world_middle_east_persia
+						geographical_region = world_asia_minor
+					}
+				}
+			}
+		}
+	}
+
+	coa_gfx = { japanese_coa_gfx }
+	building_gfx = { japanese_building_gfx }
+	clothing_gfx = { japanese_clothing_gfx }
+	unit_gfx = { japanese_unit_gfx }
+	house_coa_frame = house_japan
+
+	name_list = name_list_venetic_japanese
+
+	name_order_convention = dynasty_always_first
+
+	#ai_chance = {
+	#	value = 10
+	#	if = {
+	#		NOT = {
+	#			scope:character = { has_trait = stubborn }
+	#		}
+	#		multiply = 5
+	#	}
+	#}
+}
+
+venetic_chinese_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_dongji }
+					any_this_title_or_de_jure_above = { this = title:d_biansong }
+					any_this_title_or_de_jure_above = { this = title:d_shanguo }
+					any_this_title_or_de_jure_above = { this = title:d_zhenghua }
+					any_this_title_or_de_jure_above = { this = title:d_chenxu }
+					any_this_title_or_de_jure_above = { this = title:d_ziqing }
+					any_this_title_or_de_jure_above = { this = title:d_yanhai }
+					any_this_title_or_de_jure_above = { this = title:d_xusi }
+					any_this_title_or_de_jure_above = { this = title:d_yuncao }
+					any_this_title_or_de_jure_above = { this = title:d_weibo }
+					any_this_title_or_de_jure_above = { this = title:d_xingming }
+					any_this_title_or_de_jure_above = { this = title:d_chengde }
+					any_this_title_or_de_jure_above = { this = title:d_cangjing }
+					any_this_title_or_de_jure_above = { this = title:d_heyang }
+					any_this_title_or_de_jure_above = { this = title:d_hedong }
+					any_this_title_or_de_jure_above = { this = title:d_yanmen }
+					any_this_title_or_de_jure_above = { this = title:d_hezhong }
+					any_this_title_or_de_jure_above = { this = title:d_zelu }
+					any_this_title_or_de_jure_above = { this = title:d_youzhou }
+					any_this_title_or_de_jure_above = { this = title:d_yideng }
+					any_this_title_or_de_jure_above = { this = title:d_yingmo }
+					any_this_title_or_de_jure_above = { this = title:d_yunshuo }
+					any_this_title_or_de_jure_above = { this = title:d_sanggan }
+					any_this_title_or_de_jure_above = { this = title:d_xinan }
+					any_this_title_or_de_jure_above = { this = title:d_yongxing }
+					any_this_title_or_de_jure_above = { this = title:d_fengxiang }
+					any_this_title_or_de_jure_above = { this = title:d_jinshang }
+					any_this_title_or_de_jure_above = { this = title:d_binning }
+					any_this_title_or_de_jure_above = { this = title:d_fufang }
+					any_this_title_or_de_jure_above = { this = title:d_jingyuan }
+					any_this_title_or_de_jure_above = { this = title:d_qincheng }
+					any_this_title_or_de_jure_above = { this = title:d_xingfeng }
+					any_this_title_or_de_jure_above = { this = title:d_hexi }
+					any_this_title_or_de_jure_above = { this = title:d_longyou }
+					any_this_title_or_de_jure_above = { this = title:d_qilian }
+					any_this_title_or_de_jure_above = { this = title:d_guasha }
+					any_this_title_or_de_jure_above = { this = title:d_shuofang }
+					any_this_title_or_de_jure_above = { this = title:d_xiasui }
+					any_this_title_or_de_jure_above = { this = title:d_tiande }
+					any_this_title_or_de_jure_above = { this = title:d_langshan }
+					any_this_title_or_de_jure_above = { this = title:d_xiutu }
+					any_this_title_or_de_jure_above = { this = title:d_juyan }
+					any_this_title_or_de_jure_above = { this = title:d_jiangdong }
+					any_this_title_or_de_jure_above = { this = title:d_xuanshe }
+					any_this_title_or_de_jure_above = { this = title:d_zhexi }
+					any_this_title_or_de_jure_above = { this = title:d_zhedong }
+					any_this_title_or_de_jure_above = { this = title:d_weiwu }
+					any_this_title_or_de_jure_above = { this = title:d_pinghai }
+					any_this_title_or_de_jure_above = { this = title:d_jianning }
+					any_this_title_or_de_jure_above = { this = title:d_huainan }
+					any_this_title_or_de_jure_above = { this = title:d_huaixi }
+					any_this_title_or_de_jure_above = { this = title:d_jiangxi }
+					any_this_title_or_de_jure_above = { this = title:d_dingjiang }
+					any_this_title_or_de_jure_above = { this = title:d_zhaoxin }
+					any_this_title_or_de_jure_above = { this = title:d_xiangdeng }
+					any_this_title_or_de_jure_above = { this = title:d_jingnan }
+					any_this_title_or_de_jure_above = { this = title:d_eyue }
+					any_this_title_or_de_jure_above = { this = title:d_hunan }
+					any_this_title_or_de_jure_above = { this = title:d_lingling }
+					any_this_title_or_de_jure_above = { this = title:d_xichuan }
+					any_this_title_or_de_jure_above = { this = title:d_qiongnan }
+					any_this_title_or_de_jure_above = { this = title:d_xingyuan }
+					any_this_title_or_de_jure_above = { this = title:d_lilang }
+					any_this_title_or_de_jure_above = { this = title:d_baqu }
+					any_this_title_or_de_jure_above = { this = title:d_dongchuan }
+					any_this_title_or_de_jure_above = { this = title:d_wuxin }
+					any_this_title_or_de_jure_above = { this = title:d_kuizhong }
+					any_this_title_or_de_jure_above = { this = title:d_qianzhong }
+					any_this_title_or_de_jure_above = { this = title:d_wuxi }
+					any_this_title_or_de_jure_above = { this = title:d_luodian }
+					any_this_title_or_de_jure_above = { this = title:d_shimen }
+					any_this_title_or_de_jure_above = { this = title:d_zangke }
+					any_this_title_or_de_jure_above = { this = title:d_xiyuan }
+					any_this_title_or_de_jure_above = { this = title:d_jianchuan }
+					any_this_title_or_de_jure_above = { this = title:d_huichuan }
+					any_this_title_or_de_jure_above = { this = title:d_yinsheng }
+					any_this_title_or_de_jure_above = { this = title:d_tuodong }
+					any_this_title_or_de_jure_above = { this = title:d_tonghai }
+					any_this_title_or_de_jure_above = { this = title:d_lingnan }
+					any_this_title_or_de_jure_above = { this = title:d_huixun }
+					any_this_title_or_de_jure_above = { this = title:d_gaoliang }
+					any_this_title_or_de_jure_above = { this = title:d_qiongguan }
+					any_this_title_or_de_jure_above = { this = title:d_guiguan }
+					any_this_title_or_de_jure_above = { this = title:d_jingjiang }
+					any_this_title_or_de_jure_above = { this = title:d_rongguan }
+					any_this_title_or_de_jure_above = { this = title:d_yongguan }
+				}
+			}
+			any_sub_realm_county = {
+				title_province = {
+					NOR = {
+						geographical_region = world_europe
+						geographical_region = world_africa_north
+						geographical_region = world_africa_west
+						geographical_region = world_middle_east
+						geographical_region = world_middle_east_persia
+						geographical_region = world_asia_minor
+					}
+				}
+			}
+		}
+	}
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_china
+
+	name_order_convention = dynasty_always_first
+
+	name_list = name_list_venetic_han
+
+}
+
+venetic_tibetan_aesthetic = {
+	is_shown = {
+		scope:character = { 
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			any_sub_realm_county = {
+				OR = {
+					scope:county.culture = { has_cultural_pillar = heritage_tibetan } 
+					any_this_title_or_de_jure_above = { this = title:d_yarlung }
+					any_this_title_or_de_jure_above = { this = title:d_lhasa }
+					any_this_title_or_de_jure_above = { this = title:d_nagchu }
+					any_this_title_or_de_jure_above = { this = title:d_conyi }
+					any_this_title_or_de_jure_above = { this = title:d_xigaze }
+					any_this_title_or_de_jure_above = { this = title:d_sagya }
+					any_this_title_or_de_jure_above = { this = title:d_ngamring }
+					any_this_title_or_de_jure_above = { this = title:d_nyima }
+					any_this_title_or_de_jure_above = { this = title:d_qamdo }
+					any_this_title_or_de_jure_above = { this = title:d_boyul }
+					any_this_title_or_de_jure_above = { this = title:d_nyingchi }
+					any_this_title_or_de_jure_above = { this = title:d_nangqen }
+					any_this_title_or_de_jure_above = { this = title:d_lhatok }
+					any_this_title_or_de_jure_above = { this = title:d_lingtsang }
+					any_this_title_or_de_jure_above = { this = title:d_dege }
+					any_this_title_or_de_jure_above = { this = title:d_batang }
+					any_this_title_or_de_jure_above = { this = title:d_litang }
+					any_this_title_or_de_jure_above = { this = title:d_xining }
+					any_this_title_or_de_jure_above = { this = title:d_tuyuhun }
+					any_this_title_or_de_jure_above = { this = title:d_nagormo }
+					any_this_title_or_de_jure_above = { this = title:d_amdo }
+					any_this_title_or_de_jure_above = { this = title:d_zadoi }
+					any_this_title_or_de_jure_above = { this = title:d_qumarleb }
+					any_this_title_or_de_jure_above = { this = title:d_gyalrong }
+					any_this_title_or_de_jure_above = { this = title:d_chakla }
+					any_this_title_or_de_jure_above = { this = title:d_golog }
+					any_this_title_or_de_jure_above = { this = title:d_malho }
+					any_this_title_or_de_jure_above = { this = title:d_gainlho }
+					any_this_title_or_de_jure_above = { this = title:d_ngari }
+					any_this_title_or_de_jure_above = { this = title:d_kinnaur }
+					any_this_title_or_de_jure_above = { this = title:d_purang }
+					any_this_title_or_de_jure_above = { this = title:d_ladakh }
+					any_this_title_or_de_jure_above = { this = title:d_zanskar }
+					any_this_title_or_de_jure_above = { this = title:d_baltiyul }
+					any_this_title_or_de_jure_above = { this = title:d_aksai_chin }
+					any_this_title_or_de_jure_above = { this = title:d_rutog }
+					any_this_title_or_de_jure_above = { this = title:d_bumthang }
+					any_this_title_or_de_jure_above = { this = title:d_paro }
+					any_this_title_or_de_jure_above = { this = title:d_monyul }
+					any_this_title_or_de_jure_above = { this = title:d_lhoyul }
+					any_this_title_or_de_jure_above = { this = title:d_dzayul }
+				}
+			}
+			any_sub_realm_county = {
+				title_province = {
+					NOR = {
+						geographical_region = world_europe
+						geographical_region = world_africa_north
+						geographical_region = world_africa_west
+						geographical_region = world_middle_east
+						geographical_region = world_middle_east_persia
+						geographical_region = world_asia_minor
+					}
+				}
+			}
+		}
+	}
+
+	coa_gfx = { tibetan_group_coa_gfx }
+	building_gfx = { tibetan_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_28
+
+	name_list = name_list_venetic_tibetan
+
+}
+
+
+

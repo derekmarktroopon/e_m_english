@@ -1,0 +1,40 @@
+﻿
+heritage_venetic = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_venetic
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_osco_umbrian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_venetic
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_raetic = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_raetic
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_old_ligurian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_old_ligurian
+		}
+	}
+	audio_parameter = european
+}

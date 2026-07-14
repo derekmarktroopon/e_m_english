@@ -1,0 +1,161 @@
+﻿
+name_list_celtiberian = {
+		cadet_dynasty_names = {
+			dynn_ctib_Abboiocus dynn_ctib_Acuicus dynn_ctib_Alidocus dynn_ctib_Austunicus dynn_ctib_Austicus dynn_ctib_Babocus dynn_ctib_Calmicus dynn_ctib_Calocus dynn_ctib_Counesicus dynn_ctib_Deiuanticus dynn_ctib_Litanocus dynn_ctib_Mailicus dynn_ctib_Nissicus dynn_ctib_Segossoqus dynn_ctib_Tirtanicus dynn_ctib_Turicus
+			#Abboiocus Acuicus Alidocus Austunicus Austicus Babocus Calmicus Calocus Counesicus Deiuanticus Litanocus Mailicus Nissicus Segossoqus Tirtanicus Turicus
+		}
+
+		dynasty_names = {
+			dynn_ctib_Abboiocus dynn_ctib_Acuicus dynn_ctib_Alidocus dynn_ctib_Austunicus dynn_ctib_Austicus dynn_ctib_Babocus dynn_ctib_Calmicus dynn_ctib_Calocus dynn_ctib_Counesicus dynn_ctib_Deiuanticus dynn_ctib_Litanocus dynn_ctib_Mailicus dynn_ctib_Nissicus dynn_ctib_Segossoqus dynn_ctib_Tirtanicus dynn_ctib_Turicus
+		}
+
+		male_names = {
+			ctib_Abulu ctib_Acuios ctib_Alidos ctib_Aios ctib_Aiu ctib_Amu ctib_Anu ctib_Atto ctib_Atu ctib_Calaitos ctib_Calos ctib_Clouitos ctib_Babos ctib_Belsu ctib_Diogenesos ctib_Eladunos ctib_Elu ctib_Guandos ctib_Letontu ctib_Loucio ctib_Lubos ctib_Medugenos ctib_Memu ctib_Pistiros ctib_Pressus ctib_Rectugenos ctib_Sego ctib_Segontios ctib_Statulu ctib_Statu ctib_Steniotes ctib_Stenu ctib_Tecos ctib_Tercinos ctib_Tirtanos ctib_Tirtu ctib_Turaios ctib_Turos
+			#Abulu Acuios Alidos Aios Aiu Amu Anu Atto Atu Calaitos Calos Clouitos Babos Belsu Diogenesos Eladunos Elu Guandos Letontu Loucio Lubos Medugenos Memu Pistiros Pressus Rectugenos Sego Segontios Statulu Statu Steniotes Stenu Tecos Tercinos Tirtanos Tirtu Turaios Turos
+		}
+		female_names = {
+			ctib_Aba ctib_Aia ctib_Acuia ctib_Ama ctib_Ana ctib_Arganta ctib_Atta ctib_Belsa ctib_Cara ctib_Cari ctib_Ceca ctib_Cinbiria ctib_Corta ctib_Eladuna ctib_Raieni ctib_Segontia ctib_Stena ctib_Suola
+			#Aba Aia Acuia Ama Ana Arganta Atta Belsa Cara Cari Ceca Cinbiria Corta Eladuna Raieni Segontia Stena Suola
+		}
+
+		patronym_prefix_male = "dynnpat_pre_sunos"
+		patronym_prefix_female = "dynnpat_pre_duater"
+		always_use_patronym = yes	
+
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 15
+	father_name_chance = 5
+	
+	pat_grm_name_chance = 30
+	mat_grm_name_chance = 15
+	mother_name_chance = 10
+}
+
+name_list_lusitanian = {#
+		cadet_dynasty_names = {
+			dynn_lus_Arabrigenus dynn_lus_Araocelenus dynn_lus_Caielobricos dynn_lus_Calontienus dynn_lus_Calurus dynn_lus_Corenus dynn_lus_Coilarnus dynn_lus_Elbocorus dynn_lus_Igaeditanus dynn_lus_Interamnienus dynn_lus_Lancienus dynn_lus_Loiminus dynn_lus_Magareaicos dynn_lus_Meidubrigenus dynn_lus_Ocelenus dynn_lus_Oppidanus dynn_lus_Palantius dynn_lus_Petranios dynn_lus_Tangius dynn_lus_Talurus dynn_lus_Taporus dynn_lus_Transcudanus dynn_lus_Veaminicorus dynn_lus_Vissaieicus
+			#Arabrigenus Araocelenus Caielobricos Calontienus Calurus Corenus Coilarnus Elbocorus Igaeditanus Interamnienus Lancienus Loiminus Magareaicos Meidubrigenus Ocelenus Oppidanus Palantius Petranios Tangius Talurus Taporus Transcudanus Veaminicorus Vissaieicus
+		}
+
+		dynasty_names = {
+			dynn_lus_Arabrigenus dynn_lus_Araocelenus dynn_lus_Caielobricos dynn_lus_Calontienus dynn_lus_Calurus dynn_lus_Corenus dynn_lus_Coilarnus dynn_lus_Elbocorus dynn_lus_Igaeditanus dynn_lus_Interamnienus dynn_lus_Lancienus dynn_lus_Loiminus dynn_lus_Magareaicos dynn_lus_Meidubrigenus dynn_lus_Ocelenus dynn_lus_Oppidanus dynn_lus_Palantius dynn_lus_Petranios dynn_lus_Tangius dynn_lus_Talurus dynn_lus_Taporus dynn_lus_Transcudanus dynn_lus_Veaminicorus dynn_lus_Vissaieicus
+		}
+
+		male_names = {
+			lus_Aelatus lus_Ambatus lus_Apinus lus_Bouius lus_Boualus lus_Buanus lus_Cancilus lus_Cancilius lus_Cuna lus_Cuntius lus_Cuntinus lus_Cundigus lus_Equaesus lus_Equalius lus_Eponeilus lus_Eriacainus lus_Iccauos lus_Iccalus lus_Iccianus lus_Isaiccis lus_Lebo lus_Matucenus lus_Matugenus lus_Melmandus lus_Pecunius lus_Pumpus lus_Taurus lus_Vendicus
+			# Aelatus Ambatus Apinus Bouius Boualus Buanus Cancilus Cancilius Cuna Cuntius Cuntinus Cundigus Equaesus Equalius Eponeilus Eriacainus Iccauos Iccalus Iccianus Isaiccis Lebo Matucenus Matugenus Melmandus Pecunius Pumpus Taurus Vendicus				   
+		}
+		female_names = {
+			lus_Acuia lus_Arganta lus_Attedia lus_Belsa lus_Bouia lus_Bouana lus_Cara lus_Cinbiria lus_Corta lus_Eladuna lus_Iccona lus_Lapona lus_Segontia lus_Stena lus_Suola
+			# Acuia Arganta Attedia Belsa Bouia Bouana Cara Cinbiria Corta Eladuna Iccona Lapona Segontia Stena Suola
+		}
+
+		patronym_prefix_male = "dynnpat_pre_sunos"
+		patronym_prefix_female = "dynnpat_pre_duater"
+		always_use_patronym = yes	
+
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 15
+	father_name_chance = 5
+	
+	pat_grm_name_chance = 30
+	mat_grm_name_chance = 15
+	mother_name_chance = 10
+}
+
+name_list_neo_gallaecian = {
+		cadet_dynasty_names = {
+			dynn_nglae_Aboigo dynn_nglae_Acigo dynn_nglae_Alido dynn_nglae_Ostonigo dynn_nglae_Ostigo dynn_nglae_Babogo dynn_nglae_Calmigo dynn_nglae_Calouco dynn_nglae_Consego dynn_nglae_Deandigo dynn_nglae_Litanouco dynn_nglae_Maligo dynn_nglae_Nisigo dynn_nglae_Segouco dynn_nglae_Tirtanigo dynn_nglae_Torigo
+			# Aboigo Acigo Alido Ostonigo Ostigo Babogo Calmigo Calouco Consego Deandigo Litanouco Maligo Nisigo Segouco Tirtanigo Torigo
+		}
+
+		dynasty_names = {
+			dynn_nglae_Aboigo dynn_nglae_Acigo dynn_nglae_Alido dynn_nglae_Ostonigo dynn_nglae_Ostigo dynn_nglae_Babogo dynn_nglae_Calmigo dynn_nglae_Calouco dynn_nglae_Consego dynn_nglae_Deandigo dynn_nglae_Litanouco dynn_nglae_Maligo dynn_nglae_Nisigo dynn_nglae_Segouco dynn_nglae_Tirtanigo dynn_nglae_Torigo
+		}
+
+		male_names = {
+			nglae_Abulo nglae_Acio nglae_Alido nglae_Aio nglae_Amo nglae_Ano nglae_Ato nglae_Calaido nglae_Calo nglae_Clovido nglae_Babo nglae_Belso nglae_Diogenes nglae_Eladuno nglae_Elo nglae_Guando nglae_Ledonto nglae_Loucio nglae_Lubo nglae_Medugeno nglae_Memo nglae_Pistiro nglae_Preso nglae_Rectugeno nglae_Sego nglae_Segontio nglae_Estadulo nglae_Estato nglae_Estenote nglae_Esteno nglae_Teco nglae_Tercino nglae_Tirtao nglae_Tirto nglae_Turiao nglae_Turo
+			# Abulo Ácio Alido Aio Amo Ano Ato Calaito Calo Clovito Babo Bélso Diógenes Eladuno Elo Guando Letonto Lóucio Lubo Medugeno Memo Pistiro Preso Rectugeno Sego Segontio Estadulo Estato Estenote Esteno Teco Tercino Tirtão Tirto Turião Túro
+		}
+		female_names = {
+			nglae_Aba nglae_Aia nglae_Acuia nglae_Ama nglae_Ana nglae_Arganta nglae_Ata nglae_Belsa nglae_Cara nglae_Cari nglae_Ceca nglae_Cimberia nglae_Corta nglae_Eladuna nglae_Raiene nglae_Segontia nglae_Estena nglae_Sola
+			# Aba Aia Acuía Ama Ana Arganta Ata Belsa Cara Cári Ceca Cimbéria Corta Eladuna Raiene Segóntia Estena Sola
+		}
+
+		patronym_prefix_male = "dynnpat_pre_suno"
+		patronym_prefix_female = "dynnpat_pre_duador"
+		always_use_patronym = yes	
+
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 15
+	father_name_chance = 5
+	
+	pat_grm_name_chance = 30
+	mat_grm_name_chance = 15
+	mother_name_chance = 10
+}
+
+name_list_neo_celtiberian = {
+		cadet_dynasty_names = {
+			dynn_nctib_Aboyoco dynn_nctib_Acuico dynn_nctib_Alidoco dynn_nctib_Astunico dynn_nctib_Astico dynn_nctib_Baboco dynn_nctib_Calmico dynn_nctib_Caloco dynn_nctib_Conesico dynn_nctib_Devantico dynn_nctib_Litanoco dynn_nctib_Malico dynn_nctib_Nisico dynn_nctib_Segoso dynn_nctib_Tirtanico dynn_nctib_Turico
+			# Aboyoco Acuico Alidoco Astúnico Astico Baboco Calmico Caloco Conesico Devántico Litanoco Malico Nísico Segoso Tirtánico Turico
+		}
+
+		dynasty_names = {
+			dynn_nctib_Aboyoco dynn_nctib_Acuico dynn_nctib_Alidoco dynn_nctib_Astunico dynn_nctib_Astico dynn_nctib_Baboco dynn_nctib_Calmico dynn_nctib_Caloco dynn_nctib_Conesico dynn_nctib_Devantico dynn_nctib_Litanoco dynn_nctib_Malico dynn_nctib_Nisico dynn_nctib_Segoso dynn_nctib_Tirtanico dynn_nctib_Turico
+		}
+
+		male_names = {
+			nctib_Abulo nctib_Acuio nctib_Alido nctib_Aio nctib_Amo nctib_Ano nctib_Ato nctib_Calaito nctib_Calo nctib_Cloito nctib_Babo nctib_Belso nctib_Diogenes nctib_Eladuno nctib_Elo nctib_Guando nctib_Letonto nctib_Lucio nctib_Lubo nctib_Medugeno nctib_Memo nctib_Pistiro nctib_Preso nctib_Rectugeno nctib_Sego nctib_Segontio nctib_Estadulo nctib_Estato nctib_Esteniote nctib_Esteno nctib_Teco nctib_Tercino nctib_Tirtano nctib_Tirto nctib_Turayo nctib_Turo
+			# Abulo Acuio Alido Aio Amo Ano Ato Calaito Calo Cloito Babo Belso Diógenes Eladuno Elo Guando Letonto Lucio Lubo Medugeno Memo Pistiro Preso Rectugeno Sego Segontio Estadulo Estato Esteniote Esteno Teco Tercino Tirtano Tirto Turayo Turo
+		}
+		female_names = {
+			nctib_Aba nctib_Aia nctib_Acuia nctib_Ama nctib_Ana nctib_Arganta nctib_Ata nctib_Belsa nctib_Cara nctib_Cari nctib_Ceca nctib_Cimbiria nctib_Corta nctib_Eladuna nctib_Raiena nctib_Segontia nctib_Estena nctib_Suela
+			# Aba Aia Acúia Ama Ana Arganta Ata Belsa Cara Cari Céca Cimbiria Corta Eladuna Raiena Segontia Estena Suela
+
+		}
+
+		patronym_prefix_male = "dynnpat_pre_suno"
+		patronym_prefix_female = "dynnpat_pre_duador"
+		always_use_patronym = yes	
+
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 15
+	father_name_chance = 5
+	
+	pat_grm_name_chance = 30
+	mat_grm_name_chance = 15
+	mother_name_chance = 10
+}
+
+name_list_neo_lusitanian = {
+		cadet_dynasty_names = {
+			dynn_nlusi_Arabrigeno dynn_nlusi_Araoceleno dynn_nlusi_Caielobrigo dynn_nlusi_Calontieno dynn_nlusi_Caluro dynn_nlusi_Coreno dynn_nlusi_Coilarno dynn_nlusi_Elbocoro dynn_nlusi_Igaditano dynn_nlusi_Interameno dynn_nlusi_Lanceno dynn_nlusi_Loimino dynn_nlusi_Magareigo dynn_nlusi_Meidubrigeno dynn_nlusi_Oceleno dynn_nlusi_Opidano dynn_nlusi_Palantigo dynn_nlusi_Pedranio dynn_nlusi_Tangio dynn_nlusi_Taluro dynn_nlusi_Taporo dynn_nlusi_Transcudano dynn_nlusi_Veaminicoro dynn_nlusi_Visaiego
+			# Arabrigeno Arãoceleno Caielobrigo Calontieno Caluro Coreno Coilarno Elbocoro Igaditano Interameno Lanceno Loimino Magareigo Meidubrigeno Oceleno Opidano Palantigo Pedranio Tangio Taluro Taporo Transcudano Veaminicoro Visaiego
+		}
+
+		dynasty_names = {
+			dynn_nlusi_Arabrigeno dynn_nlusi_Araoceleno dynn_nlusi_Caielobrigo dynn_nlusi_Calontieno dynn_nlusi_Caluro dynn_nlusi_Coreno dynn_nlusi_Coilarno dynn_nlusi_Elbocoro dynn_nlusi_Igaditano dynn_nlusi_Interameno dynn_nlusi_Lanceno dynn_nlusi_Loimino dynn_nlusi_Magareigo dynn_nlusi_Meidubrigeno dynn_nlusi_Oceleno dynn_nlusi_Opidano dynn_nlusi_Palantigo dynn_nlusi_Pedranio dynn_nlusi_Tangio dynn_nlusi_Taluro dynn_nlusi_Taporo dynn_nlusi_Transcudano dynn_nlusi_Veaminicoro dynn_nlusi_Visaiego
+		}
+
+		male_names = {
+			nlusi_Aelado nlusi_Ambado nlusi_Apino nlusi_Boio nlusi_Boal nlusi_Boano nlusi_Cancil nlusi_Cancilho nlusi_Cuna nlusi_Cuncio nlusi_Cuntino nlusi_Cundigo nlusi_Equeco nlusi_Ecalho nlusi_Eponeilo nlusi_Eriacao nlusi_Icau nlusi_Icalo nlusi_Iciano nlusi_Isaiz nlusi_Lebo nlusi_Matuceno nlusi_Matugeno nlusi_Melmando nlusi_Pecunio nlusi_Pompo nlusi_Touro nlusi_Vendigo
+			# Aelado Ambado Apino Boio Boal Boano Cancil Cancílho Cuna Cúncio Cuntino Cundigo Equeço Ecalho Eponeilo Eriacão Icaú Icalo Iciano Isaiz Lebo Matuceno Matugeno Melmando Pecúnio Pompo Touro Vêndigo
+		} 
+		female_names = {
+			nlusi_Acuia nlusi_Arganta nlusi_Atedia nlusi_Belsa nlusi_Boia nlusi_Boana nlusi_Cara nlusi_Cimberia nlusi_Corta nlusi_Eladuna nlusi_Icona nlusi_Lapona nlusi_Segontia nlusi_Estena nlusi_Suela
+			# Acuia Arganta Atedia Belsa Boia Boana Cara Cimbíria Corta Eladuna Icona Lapona Segóntia Estena Suela
+		}
+
+		patronym_prefix_male = "dynnpat_pre_suno"
+		patronym_prefix_female = "dynnpat_pre_duador"
+		always_use_patronym = yes	
+
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 15
+	father_name_chance = 5
+	
+	pat_grm_name_chance = 30
+	mat_grm_name_chance = 15
+	mother_name_chance = 10
+}

@@ -1,0 +1,37 @@
+﻿l_english:
+
+ #############################################
+#General names:
+ duke_venetic_culture:0 "Doukos" # Doukei attested
+ duke_female_venetic_culture:0 "Douka"
+ king_venetic_culture:0 "Rakos" # Rakoi attested
+ king_female_venetic_culture:0 "Raka"
+ emperor_venetic_culture:0 "Altos Rakos"
+ emperor_female_venetic_culture:0 "Alta Raka"
+
+ duke_venetic_venetian:0 "Dogo"
+ duke_female_venetic_venetian:0 "Doga"
+ king_venetic_venetian:0 "Rago"
+ king_female_venetic_venetian:0 "Raga"
+ emperor_venetic_venetian:0 "Altorago"
+ emperor_female_venetic_venetian:0 "Altoraga"
+
+ 
+ baron_plural_venetic_culture:0 "Barons"
+ count_plural_venetic_culture:0 "Counts"
+ duke_plural_venetic_culture:0 "Doukobos"
+ king_plural_venetic_culture:0 "Rakobos"
+
+ knight_ekvopetars:0 "Eppetar"
+
+ count_feudal_male_wyntish:0 "Earl"
+ count_feudal_female_wyntish:0 "Countess"
+ count_feudal_wyntish:0 "Earl"
+ county_feudal_wyntish:0 "Earldom"
+
+ duke_republic_male_venetian:0 "Doxe"
+ duke_republic_female_venetian:0 "Doxaressa"
+ male_venetian:0 "Serene Doxe"
+ female_venetian:0 "Serene Doxaressa"
+ venetian_king_republic_male_venetian:0 "Serene Doxe"
+ venetian_king_republic_female_venetian:0 "Serene Doxaressa"

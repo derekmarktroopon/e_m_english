@@ -1,0 +1,136 @@
+name_list_indo_germanic = {
+	cadet_dynasty_names = {
+		dynn_Albigejinja dynn_Albiharyinga dynn_Andasaringa dynn_Asuharyinga dynn_Anulebinga dynn_Odamundinga dynn_Odavardinga dynn_Athalagejinja dynn_Bernuhardinga dynn_Prithubertinga dynn_Prithugejinja dynn_Prodinga dynn_Gejahardinga dynn_Gejarikinga dynn_Griminga dynn_Gumasinthinga dynn_Gunthilebinga dynn_Gunthivulvinga dynn_Hemarikinga dynn_Haryabrandinga dynn_Rothirikinga dynn_Ingomiringa dynn_Othalarikinga dynn_Raginaharyinja dynn_Sigivardinga dynn_Tenavaryinja dynn_Thedubalithinga dynn_Thedumiringa dynn_Thedurikinga
+	}
+
+	dynasty_names = {
+		dynn_Albigejinja dynn_Albiharyinga dynn_Andasaringa dynn_Asuharyinga dynn_Anulebinga dynn_Odamundinga dynn_Odavardinga dynn_Athalagejinja dynn_Bernuhardinga dynn_Prithubertinga dynn_Prithugejinja dynn_Prodinga dynn_Gejahardinga dynn_Gejarikinga dynn_Griminga dynn_Gumasinthinga dynn_Gunthilebinga dynn_Gunthivulvinga dynn_Hemarikinga dynn_Haryabrandinga dynn_Rothirikinga dynn_Ingomiringa dynn_Othalarikinga dynn_Raginaharyinja dynn_Sigivardinga dynn_Tenavaryinja dynn_Thedubalithinga dynn_Thedumiringa dynn_Thedurikinga
+	}
+	male_names = { 
+	    Agila Agitheva Alarika Albigeja Albiharya Amalarika Andasara Asuberta Asuharya Asuleba Asuvalla Anuleba Anulo Arnuvulva Odamundu Odarika Odavakra Odavardu Odavini Odavulva Ojivandila Athalageja Athalavulva Balithavini Bernuhardu Prithuberta Prithugeja Prithumundu Prithurika Prodo Phukkameriya Gejahardu Gejarika Gejavalla Gejavulva Grima Gumasintha Gunthiharya Gunthileba Gunthivulva Hemarika Harigasti Haryabranda Haryamoda Haryavalla Hathuvulva Helparika Hillirika Rothiberta Rothigeja Rothirika Rothivulva Ingella Ingomira Iva Kunyamundu Othalarika Raginahardu Raginaharya Raginavalla Redavulva Rikahardu Sigiberta Sigiprithu Sigimira Sigimundu Sigivardu Tenavarya Vallaharya Vilyahelma Thedubalitha Theduberta Thedumira Thedurika
+	}
+		
+	female_names = { 
+        Amalasinthi Athalagunthi Asuburigi Asugebo Asugunthi Odi Odagunthi Brunyohilli Baduhilli Ermunaburigi Ermunahilli Ermunasinthi Gejatruthi Gunthihilli Gudagebo Hilliburigi Ludahilli Kunyasinthi Lebagebo Lebavaro Matihilli Othalaburigi Redaburigi Redagunthi Rikatruthi Sevigebo Sevigunthi Sigiburigi Thedisinthi Vallagunthi Vallatruthi Vilyogunthi Vinitruthi Vulvagunthi Vulvahilli
+	}
+
+	house_based_map_names = yes
+
+	dynasty_of_location_prefix = "Locationprefix_aba"		
+}
+
+		    #Agilaz Agiþewaz Alariks Albigaizaz Albiharjaz Amalariks Andaswaraz Ansuberhtaz Ansuharjaz Ansulaibaz Ansuwaldaz Anulaibaz Anulo Arnuwulfaz Audamunduz Audariks Audawakraz Audawarduz Audawiniz Audawulfaz Auziwandilaz Aþalagaizaz Aþalawulfaz Balþawiniz Bernuharduz Friþuberhtaz Friþugaizaz Friþumunduz Friþuriks Frodo Fulkamerijaz Gaizaharduz Gaizariks Gaizawalda Gaizawulfaz Grimaz Gumasinþaz Gunþiharjaz Gunþilaibaz Gunþiwulfaz Haimariks Harigastiz Harjabrandaz Harjamodaz Harjawaldaz Haþuwulfaz Helpariks Hildiriks Hroþiberhtaz Hroþigaizaz Hroþiriks Hroþiwulfaz Ingeldaz Ingwomeraz Iwaz Kunjamunduz Oþalariks Raginaharduz Raginaharjaz Raginawaldaz Redawulfaz Rikaharduz Sigiberhtaz Sigifriþuz Sigimeraz Sigimunduz Sigiwarduz Stainawarjaz Waldaharjaz Wiljahelmaz Þeudobalþaz Þeudoberhtaz Þeudomeraz Þeudoriks
+
+		    # Amalaswinþ Aþalagunþiz Ansuburgz Ansugebo Ansugunþiz Audi Audagunþiz Brunjohildiz Badwohildiz Ermunaburgz Ermunahildiz Ermunaswinþ Gaizaþruþiz Gunþhildiz Gudagebo Hildiburgz Hludahildiz Kunjaswinþ Leubagebo Leubawaro Mahtihildiz Oþalaburgz Redaburgz Redagunþiz Rikaþruþiz Saiwigeibo Saiwigunþiz Sigiburgz Þeudiswinþ Waldagunþiz Waldaþruþiz Wiljogunþiz Winiþruþiz Wulfagunþiz Wulfahildiz 
+
+
+name_list_late_indo_germanic = {
+	cadet_dynasty_names = {
+		dynn_Abbigejinja dynn_Abbihariyinja dynn_Andasaringa dynn_Asuhariyinga dynn_Anulebinga dynn_Odamundinga dynn_Odavaddinga dynn_Adhalagejinja dynn_Bennuhaddinga dynn_Pidhubettinga dynn_Pidhugejinja dynn_Podinga dynn_Gejahaddinga dynn_Gejariginga dynn_Giminga dynn_Gumasindinga dynn_Gundilebinga dynn_Gundivullinga dynn_Hemariginga dynn_Hariyabbandinga dynn_Rodhiriginga dynn_Ingomiringa dynn_Odhalariginga dynn_Raginahariyinja dynn_Sigivaddinga dynn_Tenavariyinja dynn_Thedubalidhinga dynn_Thedumiringa dynn_Theduriginga
+	}
+
+	dynasty_names = {
+		dynn_Abbigejinja dynn_Abbihariyinja dynn_Andasaringa dynn_Asuhariyinga dynn_Anulebinga dynn_Odamundinga dynn_Odavaddinga dynn_Adhalagejinja dynn_Bennuhaddinga dynn_Pidhubettinga dynn_Pidhugejinja dynn_Podinga dynn_Gejahaddinga dynn_Gejariginga dynn_Giminga dynn_Gumasindinga dynn_Gundilebinga dynn_Gundivullinga dynn_Hemariginga dynn_Hariyabbandinga dynn_Rodhiriginga dynn_Ingomiringa dynn_Odhalariginga dynn_Raginahariyinja dynn_Sigivaddinga dynn_Tenavariyinja dynn_Thedubalidhinga dynn_Thedumiringa dynn_Theduriginga
+	}
+	male_names = { 
+	    Agila Agidheva Alariga Abbigeja Abbihariya Amalariga Andasara Asubetta Asuhariya Asuleba Asuvalla Anuleba Anulo Annuvulla Odamundu Odariga Odavakka Odavaddu Odavini Odavulla Ojivandila Adhalageja Adhalavulla Balidhavini Bennuhaddu Pidhubetta Pidhugeja Pidhumundu Pidhuriga Podo Phukkameriya Gejahaddu Gejariga Gejavalla Gejavulla Gima Gumasinda Gundihariya Gundileba Gundivulla Hemariga Harigatthi Hariyabbanda Hariyamoda Hariyavalla Hadhuvulla Heppariga Hilliriga Rodhibetta Rodhigeja Rodhiriga Rodhivulla Ingella Ingomira Iva Kunnamundu Odhalariga Raginahaddu Raginahariya Raginavalla Redavulla Rigahaddu Sigibetta Sigippidhu Sigimira Sigimundu Sigivaddu Tenavariya Vallahariya Vilahemma Thedubalidha Thedubetta Thedumira Theduriga
+	}
+		
+	female_names = { 
+        Amalasindi Adhalagundi Asuburigi Asugebo Asugundi Odi Odagundi Bunnohilli Baduhilli Emmunaburigi Emmunahilli Emmunasindi Gejattudhi Gundihilli Gudagebo Hilliburigi Ludahilli Kunnasindi Lebagebo Lebavaro Madihilli Odhalaburigi Redaburigi Redagundi Rigattudhi Sevigebo Sevigundi Sigiburigi Thedisindi Vallagundi Vallattudhi Vilogundi Vinittudhi Vullagundi Vullahilli
+	}
+
+	house_based_map_names = yes
+
+	dynasty_of_location_prefix = "Locationprefix_aba"		
+}
+
+name_list_south_indo_germanic = {
+	cadet_dynasty_names = {
+		dynn_Alpigecinga dynn_Alpihariyinga dynn_Antacaringa dynn_Acuhariyinga dynn_Anulibinga dynn_Odamuntinga dynn_Odavartinga dynn_Atalagecinga dynn_Berunuhartinga dynn_Piritubertinga dynn_Piritugecinga dynn_Pirodinga dynn_Gecahartinga dynn_Gecarikinga dynn_Giriminga dynn_Gumacintinga dynn_Guntilibinga dynn_Guntivuluvinga dynn_Hemarikinga dynn_Hariyabirantinga dynn_Rotirikinga dynn_Ingomiringa dynn_Otalarikinga dynn_Raginahariyinca dynn_Sigivartinga dynn_Tenavariyinca dynn_Tetubalitinga dynn_Tetumiringa dynn_Teturikinga
+	}
+
+	dynasty_names = {
+		dynn_Alpigecinga dynn_Alpihariyinga dynn_Antacaringa dynn_Acuhariyinga dynn_Anulibinga dynn_Odamuntinga dynn_Odavartinga dynn_Atalagecinga dynn_Berunuhartinga dynn_Piritubertinga dynn_Piritugecinga dynn_Pirodinga dynn_Gecahartinga dynn_Gecarikinga dynn_Giriminga dynn_Gumacintinga dynn_Guntilibinga dynn_Guntivuluvinga dynn_Hemarikinga dynn_Hariyabirantinga dynn_Rotirikinga dynn_Ingomiringa dynn_Otalarikinga dynn_Raginahariyinca dynn_Sigivartinga dynn_Tenavariyinca dynn_Tetubalitinga dynn_Tetumiringa dynn_Teturikinga
+	}
+	male_names = { 
+	    Agila Agiteva Alarika Alpigeca Alpihariya Amalarika Antacara Acuberta Acuhariya Aculiba Acuvalla Anuliba Anulo Arunuvuluva Odamuntu Odarika Odavakira Odavartu Odavini Odavuluva Ocivantila Atalageca Atalavuluva Balitavini Berunuhartu Pirituberta Piritugeca Piritumuntu Piriturika Pirodo Pukkameriya Gecahartu Gecarika Gecavalla Gecavuluva Girima Gumacinta Guntihariya Guntiliba Guntivuluva Hemarika Harigaciti Hariyabiranta Hariyamoda Hariyavalla Hatuvuluva Helparika Hillirika Rotiberta Rotigeca Rotirika Rotivuluva Ingella Ingomira Iva Kuniyamuntu Otalarika Raginahartu Raginahariya Raginavalla Redavuluva Rikahartu Sigiberta Sigipiritu Sigimira Sigimuntu Sigivartu Tenavariya Vallahariya Viliyaheluma Tedubalita Teduberta Tedumira Tedurika
+	}
+		
+	female_names = { 
+        Amalacinti Atalagunti Acuburigi Acugibo Acugunti Odi Odagunti Biruniyohilli Baduhilli Erumunaburigi Erumunahilli Erumunacinti Gecatiruti Guntihilli Gudagibo Hilliburigi Ludahilli Kuniyacinti Libagibo Libavaro Matihilli Otalaburigi Redaburigi Redagunti Rikatiruti Sevigibo Sevigunti Sigiburigi Tedisinti Vallagunti Vallatiruti Viliyogunti Vinitiruti Vuluvagunti Vuluvahilli
+	}
+
+	house_based_map_names = yes
+
+	dynasty_of_location_prefix = "Locationprefix_aba"		
+}
+
+name_list_tamilo_germanic = {
+	cadet_dynasty_names = {
+		dynn_Alpikaicinka dynn_Alpikariyinka dynn_Antaciwarinka dynn_Ancukariyinka dynn_Anculaipinka dynn_Autamuntinka dynn_Autawartinka dynn_Atalakaicinka dynn_Perunukartinka dynn_Piritupertinka dynn_Piritukaicinka dynn_Pirotinka dynn_Kaicakartinka dynn_Kaicaricinka dynn_Kiriminka dynn_Kumacintinka dynn_Kuntilaipinka dynn_Kuntiwulpinka dynn_Kaimaricinka dynn_Kariyapirantinka dynn_Kirotiricinka dynn_Inkiwomerinka dynn_Otalaricinka dynn_Irakinakariyinka dynn_Cikiwartinka dynn_Citainawariyinka dynn_Tautopalitinka dynn_Tautomerinka dynn_Tautoricinka
+	}
+
+	dynasty_names = {
+		dynn_Alpikaicinka dynn_Alpikariyinka dynn_Antaciwarinka dynn_Ancukariyinka dynn_Anculaipinka dynn_Autamuntinka dynn_Autawartinka dynn_Atalakaicinka dynn_Perunukartinka dynn_Piritupertinka dynn_Piritukaicinka dynn_Pirotinka dynn_Kaicakartinka dynn_Kaicaricinka dynn_Kiriminka dynn_Kumacintinka dynn_Kuntilaipinka dynn_Kuntiwulpinka dynn_Kaimaricinka dynn_Kariyapirantinka dynn_Kirotiricinka dynn_Inkiwomerinka dynn_Otalaricinka dynn_Irakinakariyinka dynn_Cikiwartinka dynn_Citainawariyinka dynn_Tautopalitinka dynn_Tautomerinka dynn_Tautoricinka
+	}
+	male_names = { 
+	    Akila Akitewa Alaritca Alpikaica Alpikariya Amalaritca Antaciwara Ancuperta Ancukariya Anculaipa Ancuwalita Anulaipa Anulo Arunuwulpa Autamuntu Autaritca Autawakira Autawartu Autawini Autawulpa Auciwantila Atalakaica Atalawulpa Palitawini Perunukartu Pirituperta Piritukaica Piritumuntu Pirituritca Piroto Pulkameriya Kaicakartu Kaicaritca Kaicawalita Kaicawulpa Kirima Kumacinta Kuntikariya Kuntilaipa Kuntiwulpa Kaimaritca Karikaciti Kariyapiranta Kariyamota Kariyawalita Katuwulpa Kelparitca Kilitiritca Kirotiperta Kirotikaica Kirotiritca Kirotiwulpa Inkelita Inkuwomera Iwa Kuniyamuntu Otalaritca Irakinakartu Irakinakariya Irakinawalita Eretawulpa Irikakartu Cikiperta Cikipiritu Cikimera Cikimuntu Cikiwartu Citainawariya Walitakariya Wiliyakeluma Tautopalita Tautoperta Tautomera Tautoritca
+	}
+		
+	female_names = { 
+        Amalaciwinti Atalakunti Ancupurki Ancukepo Ancukunti Auti Autakunti Piruniyokiliti Patuwokiliti Erumunapurki Erumunakiliti Erumunaciwinti Kaicatiruti Kuntikiliti Kutakepo Kilitipurki Kilutakiliti Kuniyaciwinti Elepakepo Alaupawaro Matikiliti Otalapurki Eretapurki Eretakunti Irikatiruti Caiwikepo Caiwikunti Cikipurki Tauticiwinti Walitakunti Walitatiruti Wiliyokunti Winitiruti Wulpakunti Wulpakiliti
+	}
+
+	house_based_map_names = yes
+
+	dynasty_of_location_prefix = "Locationprefix_api"		
+}
+
+name_list_late_tamilo_germanic = {
+	cadet_dynasty_names = {
+		dynn_Alpikaicinka dynn_Alpikariyinka dynn_Antacivarinka dynn_Ancukariyinka dynn_Anculaipinka dynn_Autamuntinka dynn_Autavartinka dynn_Atalakaicinka dynn_Perunukartinka dynn_Piritupertinka dynn_Piritukaicinka dynn_Pirotinka dynn_Kaicakartinka dynn_Kaicaricinka dynn_Kiriminka dynn_Kumacintinka dynn_Kuntilaipinka dynn_Kuntivulpinka dynn_Kaimaricinka dynn_Kariyapirantinka dynn_Kirotiricinka dynn_Inkivamerinka dynn_Otalaricinka dynn_Irakinakariyinka dynn_Sikivartinka dynn_Sitainavariyinka dynn_Tautopalitinka dynn_Tautomerinka dynn_Tautoricinka
+	}
+
+	dynasty_names = {
+		dynn_Alpikaicinka dynn_Alpikariyinka dynn_Antacivarinka dynn_Ancukariyinka dynn_Anculaipinka dynn_Autamuntinka dynn_Autavartinka dynn_Atalakaicinka dynn_Perunukartinka dynn_Piritupertinka dynn_Piritukaicinka dynn_Pirotinka dynn_Kaicakartinka dynn_Kaicaricinka dynn_Kiriminka dynn_Kumacintinka dynn_Kuntilaipinka dynn_Kuntivulpinka dynn_Kaimaricinka dynn_Kariyapirantinka dynn_Kirotiricinka dynn_Inkivamerinka dynn_Otalaricinka dynn_Irakinakariyinka dynn_Sikivartinka dynn_Sitainavariyinka dynn_Tautopalitinka dynn_Tautomerinka dynn_Tautoricinka
+	}
+	male_names = { 
+	    Akila Akiteva Alaritca Alpikaica Alpikariya Amalaritca Antacivara Ancuperta Ancukariya Anculaipa Ancuvalita Anulaipa Anulo Arunuvulpa Autamuntu Autaritca Autavakira Autavartu Autavini Autavulpa Aucivantila Atalakaica Atalavulpa Palitavini Perunukartu Pirituperta Piritukaica Piritumuntu Pirituritca Piroto Pulkameriya Kaicakartu Kaicaritca Kaicavalita Kaicavulpa Kirima Kumacinta Kuntikariya Kuntilaipa Kuntivulpa Kaimaritca Karikaciti Kariyapiranta Kariyamota Kariyavalita Katuvulpa Kelparitca Kilitiritca Kirotiperta Kirotikaica Kirotiritca Kirotivulpa Inkelita Inkuvamera Iva Kuniyamuntu Otalaritca Irakinakartu Irakinakariya Irakinavalita Eretavulpa Irikakartu Sikiperta Sikipiritu Sikimera Sikimuntu Sikivartu Sitainavariya Valitakariya Viliyakeluma Tautopalita Tautoperta Tautomera Tautoritca
+	}
+		
+	female_names = { 
+        Amalacivinti Atalakunti Ancupurki Ancukepo Ancukunti Auti Autakunti Piruniyokiliti Patuvakiliti Erumunapurki Erumunakiliti Erumunacivinti Kaicatiruti Kuntikiliti Kutakepo Kilitipurki Kilutakiliti Kuniyacivinti Elepakepo Alaupavaro Matikiliti Otalapurki Eretapurki Eretakunti Irikatiruti Caivikepo Caivikunti Sikipurki Tauticivinti Valitakunti Valitatiruti Viliyokunti Vinitiruti Vulpakunti Vulpakiliti 
+	}
+
+	house_based_map_names = yes
+
+	dynasty_of_location_prefix = "Locationprefix_api"		
+}
+
+#Intital Sanskrit
+
+# Albigejinja Albiharyinga Andasaringa Asuharyinga Anulebinga Odamundinga Odavardinga Athalagejinja Bernuhardinga Prithubertinga Prithugejinja Prodinga Gejahardinga Gejarikinga Griminga Gumasinthinga Gunthilebinga Gunthivulvinga Hemarikinga Haryabrandinga Rothirikinga Ingomiringa Othalarikinga Raginaharyinja Sigivardinga Tenavaryinja Thedubalithinga Thedumiringa Thedurikinga
+
+#Agila Agitheva Alarika Albigeja Albiharya Amalarika Andasara Asuberta Asuharya Asuleba Asuvalla Anuleba Anulo Arnuvulva Odamundu Odarika Odavakra Odavardu Odavini Odavulva Ojivandila Athalageja Athalavulva Balithavini Bernuhardu Prithuberta Prithugeja Prithumundu Prithurika Prodo Phukkameriya Gejahardu Gejarika Gejavalla Gejavulva Grima Gumasintha Gunthiharya Gunthileba Gunthivulva Hemarika Harigasti Haryabranda Haryamoda Haryavalla Hathuvulva Helparika Hillirika Rothiberta Rothigeja Rothirika Rothivulva Ingella Ingomira Iva Kunyamundu Othalarika Raginahardu Raginaharya Raginavalla Redavulva Rikahardu Sigiberta Sigiprithu Sigimira Sigimundu Sigivardu Tenavarya Vallaharya Vilyahelma Thedubalitha Theduberta Thedumira Thedurika
+
+# Amalasinthi Athalagunthi Asuburigi Asugebo Asugunthi Odi Odagunthi Brunyohilli Baduhilli Ermunaburigi Ermunahilli Ermunasinthi Gejatruthi Gunthihilli Gudagebo Hilliburigi Ludahilli Kunyasinthi Lebagebo Lebavaro Matihilli Othalaburigi Redaburigi Redagunthi Rikatruthi Sevigebo Sevigunthi Sigiburigi Thedisinthi Vallagunthi Vallatruthi Vilyogunthi Vinitruthi Vulvagunthi Vulvahilli 
+
+# Prakrit
+
+# Abbigejinja Abbihariyinja Andasaringa Asuhariyinga Anulebinga Odamundinga Odavaddinga Adhalagejinja Bennuhaddinga Pidhubettinga Pidhugejinja Podinga Gejahaddinga Gejariginga Giminga Gumasindinga Gundilebinga Gundivullinga Hemariginga Hariyabbandinga Rodhiriginga Ingomiringa Odhalariginga Raginahariyinja Sigivaddinga Tenavariyinja Thedubalidhinga Thedumiringa Theduriginga
+
+#Agila Agidheva Alariga Abbigeja Abbihariya Amalariga Andasara Asubetta Asuhariya Asuleba Asuvalla Anuleba Anulo Annuvulla Odamundu Odariga Odavakka Odavaddu Odavini Odavulla Ojivandila Adhalageja Adhalavulla Balidhavini Bennuhaddu Pidhubetta Pidhugeja Pidhumundu Pidhuriga Podo Phukkameriya Gejahaddu Gejariga Gejavalla Gejavulla Gima Gumasinda Gundihariya Gundileba Gundivulla Hemariga Harigatthi Hariyabbanda Hariyamoda Hariyavalla Hadhuvulla Heppariga Hilliriga Rodhibetta Rodhigeja Rodhiriga Rodhivulla Ingella Ingomira Iva Kunnamundu Odhalariga Raginahaddu Raginahariya Raginavalla Redavulla Rigahaddu Sigibetta Sigippidhu Sigimira Sigimundu Sigivaddu Tenavariya Vallahariya Vilahemma Thedubalidha Thedubetta Thedumira Theduriga
+
+# Amalasindi Adhalagundi Asuburigi Asugebo Asugundi Odi Odagundi Bunnohilli Baduhilli Emmunaburigi Emmunahilli Emmunasindi Gejattudhi Gundihilli Gudagebo Hilliburigi Ludahilli Kunnasindi Lebagebo Lebavaro Madihilli Odhalaburigi Redaburigi Redagundi Rigattudhi Sevigebo Sevigundi Sigiburigi Thedisindi Vallagundi Vallattudhi Vilogundi Vinittudhi Vullagundi Vullahilli 
+
+
+# God names should always be in Sanskrit
+
+# Tiva Vodana Pravyo Thunara Priyo Nertu
+
+# Tiwaz Wodanaz Frawjo Thunraz Frijjo Nerthuz
+
+# Tiva Votana Piraviyo Tunara Piriyo Nertu
+
+

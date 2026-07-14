@@ -1,0 +1,104 @@
+﻿
+gaulish = {
+	color = rgb { 4 176 101 }
+	heritage = heritage_gaulish
+	language = language_gaulish
+	traditions = { 
+		tradition_hit_and_run 
+		tradition_warrior_culture
+		tradition_stalwart_defenders
+		tradition_parochialism
+	}
+	name_list = name_list_gaulish
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	ethos = ethos_stoic
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+	coa_gfx = { breton_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+}
+
+celtiberian = {
+	color = rgb { 128 153 30 }
+	heritage = heritage_iberian
+	language = language_celtiberian
+	traditions = { 
+		tradition_hit_and_run 
+		tradition_mountaineers
+		tradition_wedding_ceremonies
+		tradition_stalwart_defenders
+	}
+	name_list = name_list_celtiberian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	ethos = ethos_communal
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+}
+
+lusitanian = {
+	color = rgb { 94 89 17 }
+	heritage = heritage_iberian
+	language = language_lusitanian
+	traditions = { 
+		tradition_highland_warriors 
+		tradition_adaptive_skirmishing 
+		tradition_martial_admiration
+		tradition_swords_for_hire
+	}
+	name_list = name_list_lusitanian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	ethos = ethos_stoic
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+}
+
+lepontic = {
+	color = rgb { 85 212 161 }
+	heritage = heritage_gaulish
+	language = language_lepontic
+	traditions = { 
+		tradition_parochialism 
+		tradition_poetry
+		tradition_mountain_homes
+		tradition_stalwart_defenders
+	}
+	name_list = name_list_lepontic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	ethos = ethos_communal
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+	coa_gfx = { breton_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+}

@@ -1,0 +1,536 @@
+﻿# Used in definition order
+
+vnt_han_wennegan = {
+	trigger = {
+		scope:culture = {
+			has_name_list = name_list_venetic_han
+		}
+	}
+}
+
+vnt_japanese_henechiken = {
+	trigger = {
+		scope:culture = {
+			has_name_list = name_list_venetic_japanese
+		}
+	}
+}
+
+vnt_prs_farsikin = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_persian
+				has_name_list = name_list_venetic_culture
+			}
+		}
+		scope:character = {
+			any_sub_realm_county = {
+				any_this_title_or_de_jure_above = { this = title:k_persia }
+			}
+		}
+	}
+}
+
+vnt_sog_sogokin = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_sogdian
+				has_name_list = name_list_venetic_culture
+			}
+		}
+		scope:character = {
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_khorezm }
+					any_this_title_or_de_jure_above = { this = title:d_soghd }
+					any_this_title_or_de_jure_above = { this = title:d_osrushana }
+					any_this_title_or_de_jure_above = { this = title:d_khuttal }
+					any_this_title_or_de_jure_above = { this = title:d_badakhshan }
+				}
+			}
+		}
+	}
+}
+
+vnt_ara_asyrysko = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_aramean
+				has_name_list = name_list_venetic_culture
+			}
+		}
+		scope:character = {
+			any_sub_realm_county = {
+				any_this_title_or_de_jure_above = { this = title:k_jazira }
+			}
+		}
+	}
+}
+
+vnt_ara_syriko = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_aramean
+				has_name_list = name_list_venetic_culture
+			}
+		}
+		scope:character = {
+			any_sub_realm_county = {
+				any_this_title_or_de_jure_above = { this = title:k_syria }
+			}
+		}
+	}
+}
+
+vnt_cpt_kemetken = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_coptic
+				has_name_list = name_list_venetic_culture
+			}
+		}
+		scope:character = {
+			any_sub_realm_county = {
+				any_this_title_or_de_jure_above = { this = title:k_egypt }
+			}
+		}
+	}
+}
+
+vnt_frc_franscai = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_french_with_franks
+				has_name_list = name_list_venetic_french_with_franks_biblical
+			}
+		}
+		scope:character = {
+			any_sub_realm_county = {
+				any_this_title_or_de_jure_above = { this = title:e_france }
+			}
+		}
+	}
+}
+
+vnt_ven_venecchien = {
+	trigger = {
+		scope:culture = {
+			has_name_list = name_list_venetic_venetian
+		}
+		scope:character = {
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_venice }
+					any_this_title_or_de_jure_above = { this = title:d_friuli }
+					any_this_title_or_de_jure_above = { this = title:d_verona }
+				}
+			}
+		}
+	}
+}
+
+vnt_arb_fanitkin = {
+	trigger = {
+		scope:culture = {
+			has_name_list = name_list_venetic_arabic
+		}
+	}
+}
+
+venetic_proto_germanic = {
+	trigger = {
+		scope:culture = {
+			has_name_list = name_list_winitken_pg
+		}
+	}
+}
+
+venetic_anglo_saxon = {
+	trigger = {
+		scope:culture = {
+			has_name_list = name_list_wintcin
+		}
+	}
+}
+
+venetic_early_middle_english = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_wintissh
+				has_name_list = name_list_wintissh_biblical
+			}
+		}
+	}
+}
+
+venetic_english = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_wyntish
+				has_name_list = name_list_wyntish_biblical
+			}
+		}
+	}
+}
+
+venetic_german = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_german
+				has_name_list = name_list_venetic_german_biblical
+			}
+		}
+	}
+}
+
+venetic_saxon = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_saxon
+				has_name_list = name_list_venetic_saxon_biblical
+			}
+		}
+	}
+}
+
+venetic_frisian = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_frisian
+				has_name_list = name_list_venetic_frisian_biblical
+			}
+		}
+	}
+}
+
+venetic_dutch = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_dutch
+				has_name_list = name_list_venetic_dutch_biblical
+			}
+		}
+	}
+}
+
+venetic_norse = {
+	trigger = {
+		scope:culture = {
+			has_name_list = name_list_venetic_norse
+		}
+	}
+}
+
+venetic_swedish = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_swedish
+				has_name_list = name_list_venetic_swedish_biblical
+			}
+		}
+	}
+}
+
+venetic_norwegian = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_norwegian
+				has_name_list = name_list_venetic_norwegian_biblical
+			}
+		}
+	}
+}
+
+venetic_danish = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_danish
+				has_name_list = name_list_venetic_danish_biblical
+			}
+		}
+	}
+}
+
+venetic_icelandic = {
+	trigger = {
+		scope:culture = {
+			has_name_list = name_list_venetic_icelandic
+		}
+	}
+}
+
+venetic_gothic = {
+	trigger = {
+		scope:culture = {
+			has_name_list = name_list_venetic_gothic
+		}
+	}
+}
+
+venetic_gaelic = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_gaelic
+				has_name_list = name_list_venetic_gaelic_biblical
+			}
+		}
+	}
+}
+
+name_list_venetic_briton = {
+	trigger = {
+		scope:culture = {
+			has_name_list = venetic_briton
+		}
+	}
+}
+
+venetic_pictish = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_pictish
+				has_name_list = name_list_venetic_pictish_biblical
+			}
+		}
+	}
+}
+
+venetic_welsh = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_welsh
+				has_name_list = name_list_venetic_welsh_biblical
+			}
+		}
+	}
+}
+
+venetic_italian = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_italian
+				has_name_list = name_list_venetic_italian_biblical
+			}
+		}
+	}
+}
+
+venetic_cisalpine = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_cisalpine
+				has_name_list = name_list_venetic_cisalpine_biblical
+			}
+		}
+	}
+}
+
+venetic_sicilian = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_sicilian
+				has_name_list = name_list_venetic_sicilian_biblical
+			}
+		}
+	}
+}
+
+venetic_romansh = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_romansh
+				has_name_list = name_list_venetic_romansh_biblical
+			}
+		}
+	}
+}
+
+espano_venetic = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_spanish
+				has_name_list = name_list_venetic_spanish_biblical
+			}
+		}
+	}
+}
+
+venetic_lusitanian = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_portuguese
+				has_name_list = name_list_venetic_portuguese_biblical
+			}
+		}
+	}
+}
+
+venetic_occitan = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_occitan
+				has_name_list = name_list_venetic_occitan_biblical
+			}
+		}
+	}
+}
+
+venetic_dalmatian = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_dalmatian
+				has_name_list = name_list_venetic_dalmatian_biblical
+			}
+		}
+	}
+}
+
+venetic_pannonian = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_pannonian
+				has_name_list = name_list_venetic_pannonian_biblical
+			}
+		}
+	}
+}
+
+venetic_romanian = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_romanian
+				has_name_list = name_list_venetic_romanian_biblical
+			}
+		}
+	}
+}
+
+venetic_sardinian = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_sardinian
+				has_name_list = name_list_venetic_sardinian_biblical
+			}
+		}
+	}
+}
+
+venetic_african = {
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_name_list = name_list_venetic_african
+				has_name_list = name_list_venetic_african_biblical
+			}
+		}
+	}
+}
+
+venetic_greek = {
+	trigger = {
+		scope:culture = {
+			has_name_list = name_list_uenetoi
+		}
+	}
+}
+
+neo_raetian_culture = {
+	trigger = {
+		scope:culture = {
+			has_name_list = name_list_neo_raetic
+		}
+	}
+}
+
+neo_ligurian_culture = {
+	trigger = {
+		scope:culture = {
+			has_name_list = name_list_neo_ligurian
+		}
+	}
+}
+
+gaulespanic_culture = {
+	trigger = {
+		scope:culture = {
+			has_name_list = name_list_late_ibero_gaulish
+		}
+	}
+}
+
+cisalpinegaul_culture = {
+	trigger = {
+		scope:culture = {
+			has_name_list = name_list_late_cisalpine_gaulish
+		}
+	}
+}
+
+gaule_culture = {
+	trigger = {
+		scope:culture = {
+			has_name_list = name_list_neo_gaule
+		}
+	}
+}
+
+neo_gallaecian = {
+	trigger = {
+		scope:culture = {
+			has_name_list = name_list_neo_gallaecian
+		}
+	}
+}
+
+neo_celtiberian = {
+	trigger = {
+		scope:culture = {
+			has_name_list = name_list_neo_celtiberian
+		}
+	}
+}
+
+neo_lusitanian = {
+	trigger = {
+		scope:culture = {
+			has_name_list = name_list_neo_lusitanian
+		}
+	}
+}
+
+neo_lepontic = {
+	trigger = {
+		scope:culture = {
+			has_name_list = name_list_lepontic
+		}
+	}
+}

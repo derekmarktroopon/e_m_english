@@ -1,0 +1,12 @@
+﻿
+coa_venetic_raetian_trigger = {
+	scope:culture = { 
+		has_coa_gfx = venetic_coa_gfx 
+	}
+}
+
+coa_venetic_raetian_holder_trigger = {
+	holder.culture = { 
+		has_coa_gfx = venetic_coa_gfx 
+	}
+}

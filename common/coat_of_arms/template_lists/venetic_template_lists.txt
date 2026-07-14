@@ -1,0 +1,16 @@
+﻿coat_of_arms_template_lists = {
+	venetic_coa_list = {
+		special_selection = {
+			trigger = {
+				scope:culture = { has_coa_gfx = venetic_coa_gfx }
+			}
+			1000 = basic_venetic
+			1000 = circled_venetic_template_offset
+			1000 = circled_venetic_template_inverted
+			1000 = circled_venetic_template_offset_inverted
+			1000 = geometrical_venetic_template
+			1000 = geometrical_venetic_template_senester
+			1000 = geometrical_venetic_template_inverted
+		}
+	}
+}

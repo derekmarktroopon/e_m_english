@@ -1,0 +1,282 @@
+﻿venetic_greek_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_cephalonia }
+					any_this_title_or_de_jure_above = { this = title:d_epirus }
+					any_this_title_or_de_jure_above = { this = title:d_achaia }
+					any_this_title_or_de_jure_above = { this = title:d_athens }
+					any_this_title_or_de_jure_above = { this = title:d_krete }
+					any_this_title_or_de_jure_above = { this = title:d_aegean_islands }
+					any_this_title_or_de_jure_above = { this = title:d_thessaly }
+					any_this_title_or_de_jure_above = { this = title:d_thessalonika }
+					any_this_title_or_de_jure_above = { this = title:d_strymon }
+					any_this_title_or_de_jure_above = { this = title:d_thrace }
+					any_this_title_or_de_jure_above = { this = title:d_ephese }
+					any_this_title_or_de_jure_above = { this = title:d_optimatoi }
+					any_this_title_or_de_jure_above = { this = title:d_opsikion }
+					any_this_title_or_de_jure_above = { this = title:d_thracesia }
+					any_this_title_or_de_jure_above = { this = title:d_cibyrrhaeot }
+					any_this_title_or_de_jure_above = { this = title:d_anatolia }
+					any_this_title_or_de_jure_above = { this = title:d_bucellaria }
+					any_this_title_or_de_jure_above = { this = title:d_paphlagonia }
+					any_this_title_or_de_jure_above = { this = title:d_armeniac }
+					any_this_title_or_de_jure_above = { this = title:d_cilicia }
+					any_this_title_or_de_jure_above = { this = title:d_cyprus }
+					any_this_title_or_de_jure_above = { this = title:d_antioch }
+					any_this_title_or_de_jure_above = { this = title:d_cappadocia }
+					any_this_title_or_de_jure_above = { this = title:d_charsianon }
+					any_this_title_or_de_jure_above = { this = title:d_chaldia }
+					any_this_title_or_de_jure_above = { this = title:d_sebasteia }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	name_list = name_list_uenetoi
+
+	#ai_will_do = {
+	#	value = 10
+	#	if = {
+	#		NOT = {
+	#			scope:character = { has_trait = stubborn }
+	#		}
+	#		multiply = 5
+	#	}
+	#}
+}
+
+venetic_coptic_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_cyrenaica }
+					any_this_title_or_de_jure_above = { this = title:d_alexandria }
+					any_this_title_or_de_jure_above = { this = title:d_delta }
+					any_this_title_or_de_jure_above = { this = title:d_cairo }
+					any_this_title_or_de_jure_above = { this = title:d_sinai }
+					any_this_title_or_de_jure_above = { this = title:d_al-said }
+					any_this_title_or_de_jure_above = { this = title:d_al-wahat }
+					any_this_title_or_de_jure_above = { this = title:d_eastern_desert }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	name_list = name_list_venetic_coptic
+
+}
+
+venetic_aramaic_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_palestine }
+					any_this_title_or_de_jure_above = { this = title:d_urdunn }
+					any_this_title_or_de_jure_above = { this = title:d_damascus }
+					any_this_title_or_de_jure_above = { this = title:d_lebanon }
+					any_this_title_or_de_jure_above = { this = title:d_homs }
+					any_this_title_or_de_jure_above = { this = title:d_aleppo }
+					any_this_title_or_de_jure_above = { this = title:d_palmyra }
+					any_this_title_or_de_jure_above = { this = title:d_edessa }
+					any_this_title_or_de_jure_above = { this = title:d_diyarbakr }
+					any_this_title_or_de_jure_above = { this = title:d_diyarrabia }
+					any_this_title_or_de_jure_above = { this = title:d_euphrates }
+					any_this_title_or_de_jure_above = { this = title:d_kurdistan }
+					any_this_title_or_de_jure_above = { this = title:d_samarra }
+					any_this_title_or_de_jure_above = { this = title:d_baghdad }
+					any_this_title_or_de_jure_above = { this = title:d_kufa }
+					any_this_title_or_de_jure_above = { this = title:d_wasit }
+					any_this_title_or_de_jure_above = { this = title:d_basra }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { mena_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 		
+
+	name_list = name_list_venetic_aramean
+
+}
+
+venetic_arabic_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_oultrejourdain }
+					any_this_title_or_de_jure_above = { this = title:d_amman }
+					any_this_title_or_de_jure_above = { this = title:d_jawf }
+					any_this_title_or_de_jure_above = { this = title:d_shammar }
+					any_this_title_or_de_jure_above = { this = title:d_medina }
+					any_this_title_or_de_jure_above = { this = title:d_najd }
+					any_this_title_or_de_jure_above = { this = title:d_mecca }
+					any_this_title_or_de_jure_above = { this = title:d_asir }
+					any_this_title_or_de_jure_above = { this = title:d_yamama }
+					any_this_title_or_de_jure_above = { this = title:d_bahrain }
+					any_this_title_or_de_jure_above = { this = title:d_al-hasa }
+					any_this_title_or_de_jure_above = { this = title:d_oman }
+					any_this_title_or_de_jure_above = { this = title:d_mahra }
+					any_this_title_or_de_jure_above = { this = title:d_hadramawt }
+					any_this_title_or_de_jure_above = { this = title:d_jawf-al-yamani }
+					any_this_title_or_de_jure_above = { this = title:d_sanaa }
+					any_this_title_or_de_jure_above = { this = title:d_taizz }
+					any_this_title_or_de_jure_above = { this = title:d_socotra }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 		
+
+	name_list = name_list_venetic_arabic
+
+}
+
+venetic_armenian_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_greater_armenia }
+					any_this_title_or_de_jure_above = { this = title:d_vaspurakan }
+					any_this_title_or_de_jure_above = { this = title:d_mesopotamia }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }		
+
+	name_list = name_list_venetic_armenian
+
+}
+
+venetic_armenian_biblical_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_greater_armenia }
+					any_this_title_or_de_jure_above = { this = title:d_vaspurakan }
+					any_this_title_or_de_jure_above = { this = title:d_mesopotamia }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }		
+
+	name_list = name_list_venetic_armenian_biblical
+
+}
+
+venetic_georgian_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_georgia }
+					any_this_title_or_de_jure_above = { this = title:d_tao-klarjeti }
+					any_this_title_or_de_jure_above = { this = title:d_abkhazia }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx } 		
+
+	name_list = name_list_venetic_georgian
+
+}
+
+venetic_georgian_biblical_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_georgia }
+					any_this_title_or_de_jure_above = { this = title:d_tao-klarjeti }
+					any_this_title_or_de_jure_above = { this = title:d_abkhazia }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx } 		
+
+	name_list = name_list_venetic_georgian_biblical
+
+}

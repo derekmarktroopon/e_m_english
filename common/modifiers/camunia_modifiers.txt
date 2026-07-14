@@ -1,0 +1,26 @@
+﻿##################################################
+# #General Character Modifiers
+
+true_camunian_modifier = {
+	icon = health_positive
+	negative_inactive_inheritance_chance = -0.5
+	positive_random_genetic_chance = 0.5
+	positive_inactive_inheritance_chance = 0.5
+	negative_random_genetic_chance = -0.5
+	genetic_trait_strengthen_chance = 0.5
+	inbreeding_chance = -1.0
+	learning = 1
+	prowess = 2
+	life_expectancy = 5
+}
+
+battleaxe_of_ariald_modifier = {
+	prowess = 20
+	pursue_efficiency = 0.2
+	men_at_arms_limit = 2
+	enemy_hard_casualty_modifier = 0.3
+	advantage = 10
+	raid_speed = 0.5
+	retic_religion_opinion  = 5
+}
+

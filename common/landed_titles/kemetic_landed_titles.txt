@@ -1,0 +1,1875 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+
+# EMPIRES
+
+
+
+
+	e_arabia = {
+		color = { 32 150 85 }
+	
+		capital = c_damascus # Damascus
+	
+		definite_form = yes
+	
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = { has_cultural_pillar = heritage_arabic }
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+	
+	
+		k_egypt = {
+			color = { 10 255 80 }
+			
+			capital	= c_cairo
+			cultural_names = {
+				name_list_predynastic_egyptian = cn_k_egypt_kemetic
+				name_list_kemetic = cn_k_egypt_kemetic
+				name_list_demotic = cn_k_egypt_kemetic
+				name_list_coptic = cn_k_egypt_coptic
+			}
+			ai_primary_priority = {
+				if = {
+					limit = {
+						OR = {
+							culture = culture:egyptian
+							culture = culture:predynastic_egyptian
+							culture = culture:middle_egyptian
+							culture = culture:ancient_egyptian
+							culture = culture:coptic													
+						}
+					}
+					add = @correct_culture_primary_score
+				}
+			}
+	
+			d_cyrenaica = {
+				color = { 32 150 63 }
+	
+				capital = c_barqa # Cyrenaica
+				c_barqa = {
+					color = { 34 152 65 }
+					b_barqa-al-marj = {
+						province = 6104
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_barqa-al-marj_kemetic
+							name_list_demotic = cn_b_barqa-al-marj_kemetic
+							name_list_kemetic = cn_b_barqa-al-marj_kemetic
+							name_list_coptic = cn_b_barqa-al-marj_coptic
+						}	
+						color = { 34 152 65 }
+					}
+				}
+			}
+	
+			d_alexandria = {
+				color = { 100 219 134 }
+	
+				capital = c_alexandria
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_d_alexandria_kemetic
+						name_list_demotic = cn_d_alexandria_kemetic
+						name_list_kemetic = cn_d_alexandria_kemetic
+						name_list_coptic = cn_d_alexandria_coptic
+					}
+				c_alexandria = {
+					color = { 102 221 136 }
+					
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_alexandria_kemetic
+						name_list_demotic = cn_c_alexandria_kemetic
+						name_list_kemetic = cn_c_alexandria_kemetic
+						name_list_coptic = cn_c_alexandria_coptic
+					}
+					#b_alexandria = {
+					#	pentarchy = yes
+					#}
+					b_alexandria = {
+						province = 6053
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_b_alexandria_kemetic
+						name_list_demotic = cn_b_alexandria_kemetic
+						name_list_kemetic = cn_b_alexandria_kemetic
+						name_list_coptic = cn_b_alexandria_coptic
+					}
+						color = { 102 221 136 }
+						
+					}
+					b_al-hamam = {
+						province = 6094
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_b_al-hamam_kemetic
+						name_list_demotic = cn_b_al-hamam_kemetic
+						name_list_kemetic = cn_b_al-hamam_kemetic
+						name_list_coptic = cn_b_al-hamam_coptic
+					}
+						color = { 102 221 136 }
+						
+					}
+					b_wadi_natrun = {
+						province = 6116
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_b_wadi_natrun_kemetic
+						name_list_demotic = cn_b_wadi_natrun_kemetic
+						name_list_kemetic = cn_b_wadi_natrun_kemetic
+						name_list_coptic = cn_b_wadi_natrun_coptic
+					}
+						color = { 102 221 136 }
+						
+					}
+				}
+				c_sullum = { #AKA Marmarica
+					color = { 104 223 138 }
+					
+					b_sullum = {
+						province = 6097
+						color = { 104 223 138 }
+						
+					}
+					b_qasr_ash-shams = {
+						province = 6095
+						color = { 104 223 138 }
+						
+					}
+					b_kanais_al-hadid = {
+						province = 6096
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_b_kanais_al-hadid_kemetic
+						name_list_demotic = cn_b_kanais_al-hadid_kemetic
+						name_list_kemetic = cn_b_kanais_al-hadid_kemetic
+						name_list_coptic = cn_b_kanais_al-hadid_coptic
+					}
+						color = { 104 223 138 }
+						
+					}
+				}
+				c_siwa = {
+					color = { 106 225 140 }
+					
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_siwa_kemetic
+						name_list_demotic = cn_c_siwa_kemetic
+						name_list_kemetic = cn_c_siwa_kemetic
+						name_list_coptic = cn_c_siwa_coptic
+					}
+					b_siwa = {
+						province = 6093
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_b_siwa_kemetic
+						name_list_demotic = cn_b_siwa_kemetic
+						name_list_kemetic = cn_b_siwa_kemetic
+						name_list_coptic = cn_b_siwa_coptic
+					}
+						color = { 106 225 140 }
+						
+					}
+					b_ain_al-gharbi = {
+						province = 6092
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_b_ain_al-gharbi_kemetic
+						name_list_demotic = cn_b_ain_al-gharbi_kemetic
+						name_list_kemetic = cn_b_ain_al-gharbi_kemetic
+						name_list_coptic = cn_b_ain_al-gharbi_coptic
+					}
+						color = { 106 225 140 }
+						
+					}
+					b_qara = {
+						province = 6117
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_b_qara_kemetic
+						name_list_demotic = cn_b_qara_kemetic
+						name_list_kemetic = cn_b_qara_kemetic
+						name_list_coptic = cn_b_qara_coptic
+					}
+						color = { 106 225 140 }
+						
+					}
+				}
+			}
+	
+			d_delta = {
+				color = { 3 255 74 }
+				
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_d_delta_kemetic
+						name_list_demotic = cn_d_delta_kemetic
+						name_list_kemetic = cn_d_delta_kemetic
+						name_list_coptic = cn_d_delta_coptic
+					}
+				capital = c_damietta
+	
+				c_damietta = {
+					color = { 12 255 83 }
+					
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_damietta_kemetic
+						name_list_demotic = cn_c_damietta_kemetic
+						name_list_kemetic = cn_c_damietta_kemetic
+						name_list_coptic = cn_c_damietta_coptic
+					}
+					b_dumiyat = {
+						province = 6046
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_b_dumiyat_kemetic
+						name_list_demotic = cn_b_dumiyat_kemetic
+						name_list_kemetic = cn_b_dumiyat_kemetic
+						name_list_coptic = cn_b_dumiyat_coptic
+					}
+						color = { 12 255 83 }
+						
+					}
+					b_daqahla = {
+						province = 6043
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_b_daqahla_kemetic
+						name_list_demotic = cn_b_daqahla_kemetic
+						name_list_kemetic = cn_b_daqahla_kemetic
+						name_list_coptic = cn_b_daqahla_coptic
+					}
+						color = { 12 255 83 }
+						
+					}
+					b_tinnis = {
+						province = 6045
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_b_tinnis_kemetic
+						name_list_demotic = cn_b_tinnis_kemetic
+						name_list_kemetic = cn_b_tinnis_kemetic
+						name_list_coptic = cn_b_tinnis_coptic
+					}
+						color = { 12 255 83 }
+						
+					}
+				}
+				c_al-buhaira = {
+					color = { 61 245 114 }
+					
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_al-buhaira_kemetic
+						name_list_demotic = cn_c_al-buhaira_kemetic
+						name_list_kemetic = cn_c_al-buhaira_kemetic
+						name_list_coptic = cn_c_al-buhaira_coptic
+					}
+					b_rashid = {
+						province = 6052
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_b_rashid_kemetic
+						name_list_demotic = cn_b_rashid_kemetic
+						name_list_kemetic = cn_b_rashid_kemetic
+						name_list_coptic = cn_b_rashid_coptic
+					}
+						color = { 61 245 114 }
+						
+					}
+					b_damanhur = {
+						province = 6054
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_damanhur_kemetic
+							name_list_demotic = cn_b_damanhur_kemetic
+							name_list_kemetic = cn_b_damanhur_kemetic
+							name_list_coptic = cn_b_damanhur_coptic
+						}
+						color = { 61 245 114 }
+						
+					}
+					b_ramsis = {
+						province = 6055
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_ramsis_kemetic
+							name_list_demotic = cn_b_ramsis_kemetic
+							name_list_kemetic = cn_b_ramsis_kemetic
+							name_list_coptic = cn_b_ramsis_coptic
+						}
+						color = { 61 245 114 }
+						
+					}
+				}
+				c_al-gharbiya = {
+					color = { 9 255 80 }
+					
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_al-gharbiya_kemetic
+						name_list_demotic = cn_c_al-gharbiya_kemetic
+						name_list_kemetic = cn_c_al-gharbiya_kemetic
+						name_list_coptic = cn_c_al-gharbiya_coptic
+					}
+					b_minuf = {
+						province = 6051
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_minuf_kemetic
+							name_list_demotic = cn_b_minuf_kemetic
+							name_list_kemetic = cn_b_minuf_kemetic
+							name_list_coptic = cn_b_minuf_coptic
+						}
+						color = { 9 255 80 }
+						
+					}
+					b_samannud = {
+						province = 6047
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_samannud_kemetic
+							name_list_demotic = cn_b_samannud_kemetic
+							name_list_kemetic = cn_b_samannud_kemetic
+							name_list_coptic = cn_b_samannud_coptic
+						}
+						color = { 9 255 80 }
+					}
+					b_burullus = {
+						province = 6048
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_burullus_kemetic
+							name_list_demotic = cn_b_burullus_kemetic
+							name_list_kemetic = cn_b_burullus_kemetic
+							name_list_coptic = cn_b_burullus_coptic
+						}
+						color = { 9 255 80 }
+					}
+					b_nastarawa = {
+						province = 6049
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_nastarawa_kemetic
+							name_list_demotic = cn_b_nastarawa_kemetic
+							name_list_kemetic = cn_b_nastarawa_kemetic
+							name_list_coptic = cn_b_nastarawa_coptic
+						}
+						color = { 9 255 80 }
+					}
+					b_ibyar = {
+						province = 6050
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_ibyar_kemetic
+							name_list_demotic = cn_b_ibyar_kemetic
+							name_list_kemetic = cn_b_ibyar_kemetic
+							name_list_coptic = cn_b_ibyar_coptic
+						}
+						color = { 9 255 80 }
+					}
+				}
+				c_sharkiya = {
+					color = { 41 214 91 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_sharkiya_kemetic
+						name_list_demotic = cn_c_sharkiya_kemetic
+						name_list_kemetic = cn_c_sharkiya_kemetic
+						name_list_coptic = cn_c_sharkiya_coptic
+					}
+					b_bilbays = {
+						province = 6040
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_bilbays_kemetic
+							name_list_demotic = cn_b_bilbays_kemetic
+							name_list_kemetic = cn_b_bilbays_kemetic
+							name_list_coptic = cn_b_bilbays_coptic
+						}
+						color = { 41 214 91 }
+					}
+					b_qalyub = {
+						province = 6041
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_qalyub_kemetic
+							name_list_demotic = cn_b_qalyub_kemetic
+							name_list_kemetic = cn_b_qalyub_kemetic
+							name_list_coptic = cn_b_qalyub_coptic
+						}
+						color = { 41 214 91 }
+					}
+					b_faqus = {
+						province = 6044
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_faqus_kemetic
+							name_list_demotic = cn_b_faqus_kemetic
+							name_list_kemetic = cn_b_faqus_kemetic
+							name_list_coptic = cn_b_faqus_coptic
+						}
+						color = { 41 214 91 }
+					}
+				}
+			}
+	
+			d_cairo = {
+				color = { 32 245 138 }
+				cultural_names = {
+					name_list_predynastic_egyptian = cn_d_cairo_kemetic
+					name_list_demotic = cn_d_cairo_kemetic
+					name_list_kemetic = cn_d_cairo_kemetic
+					name_list_coptic = cn_d_cairo_coptic
+				}
+				capital = c_cairo
+	
+				c_cairo = {
+					color = { 26 214 120 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_cairo_kemetic
+						name_list_demotic = cn_c_cairo_kemetic
+						name_list_kemetic = cn_c_cairo_kemetic
+						name_list_coptic = cn_c_cairo_coptic
+					}
+					b_cairo = {
+						province = 6042
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_cairo_kemetic
+							name_list_demotic = cn_b_cairo_kemetic
+							name_list_kemetic = cn_b_cairo_kemetic
+							name_list_coptic = cn_b_cairo_coptic
+						}
+						color = { 26 214 120 }
+					}
+					b_quzlum = {
+						province = 6039
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_quzlum_kemetic
+							name_list_demotic = cn_b_quzlum_kemetic
+							name_list_kemetic = cn_b_quzlum_kemetic
+							name_list_coptic = cn_b_quzlum_coptic
+						}
+						color = { 26 214 120 }
+					}
+					b_atfih = {
+						province = 6065
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_atfih_kemetic
+							name_list_demotic = cn_b_atfih_kemetic
+							name_list_kemetic = cn_b_atfih_kemetic
+							name_list_coptic = cn_b_atfih_coptic
+						}
+						color = { 26 214 120 }
+					}
+					b_hulwan-cairo = {
+						province = 6066
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_hulwan-cairo_kemetic
+							name_list_demotic = cn_b_hulwan-cairo_kemetic
+							name_list_kemetic = cn_b_hulwan-cairo_kemetic
+							name_list_coptic = cn_b_hulwan-cairo_coptic
+						}
+						color = { 26 214 120 }
+					}
+				}
+				c_giza = {
+					color = { 2 181 91 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_giza_kemetic
+						name_list_demotic = cn_c_giza_kemetic
+						name_list_kemetic = cn_c_giza_kemetic
+						name_list_coptic = cn_c_giza_coptic
+					}
+					b_gizeh = {
+						province = 6057
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_gizeh_kemetic
+							name_list_demotic = cn_b_gizeh_kemetic
+							name_list_kemetic = cn_b_gizeh_kemetic
+							name_list_coptic = cn_b_gizeh_coptic
+						}
+						color = { 2 181 91 }
+					}
+					b_abu_ghalib = {
+						province = 6056
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_abu_ghalib_kemetic
+							name_list_demotic = cn_b_abu_ghalib_kemetic
+							name_list_kemetic = cn_b_abu_ghalib_kemetic
+							name_list_coptic = cn_b_abu_ghalib_coptic
+						}
+						color = { 2 181 91 }
+					}
+					b_busir = {
+						province = 6058
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_busir_kemetic
+							name_list_demotic = cn_b_busir_kemetic
+							name_list_kemetic = cn_b_busir_kemetic
+							name_list_coptic = cn_b_busir_coptic
+						}
+						color = { 2 181 91 }
+					}
+				}
+				c_fayyum = {
+					color = { 36 156 95 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_fayyum_kemetic
+						name_list_demotic = cn_c_fayyum_kemetic
+						name_list_kemetic = cn_c_fayyum_kemetic
+						name_list_coptic = cn_c_fayyum_coptic
+					}
+					b_al-fayyum = {
+						province = 6060
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_al-fayyum_kemetic
+							name_list_demotic = cn_b_al-fayyum_kemetic
+							name_list_kemetic = cn_b_al-fayyum_kemetic
+							name_list_coptic = cn_b_al-fayyum_coptic
+						}
+						color = { 36 156 95 }
+					}
+					b_tirsa = {
+						province = 6059
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_tirsa_kemetic
+							name_list_demotic = cn_b_tirsa_kemetic
+							name_list_kemetic = cn_b_tirsa_kemetic
+							name_list_coptic = cn_b_tirsa_coptic
+						}
+						color = { 36 156 95 }
+					}
+					b_iqna = {
+						province = 6061
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_iqna_kemetic
+							name_list_demotic = cn_b_iqna_kemetic
+							name_list_kemetic = cn_b_iqna_kemetic
+							name_list_coptic = cn_b_iqna_coptic
+						}
+						color = { 36 156 95 }
+					}
+				}
+			}
+	
+			d_al-wahat = {
+				color = { 40 160 140 }
+				cultural_names = {
+					name_list_predynastic_egyptian = cn_d_al-wahat_kemetic
+					name_list_demotic = cn_d_al-wahat_kemetic
+					name_list_kemetic = cn_d_al-wahat_kemetic
+					name_list_coptic = cn_d_al-wahat_kemetic
+				}
+				capital = c_bahriya
+	
+				c_bahriya = {
+					color = { 45 165 145 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_bahriya_kemetic
+						name_list_demotic = cn_c_bahriya_kemetic
+						name_list_kemetic = cn_c_bahriya_kemetic
+						name_list_coptic = cn_c_bahriya_coptic
+					}
+					b_al-bahriya = {
+						province = 6089
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_al-bahriya_kemetic
+							name_list_demotic = cn_b_al-bahriya_kemetic
+							name_list_kemetic = cn_b_al-bahriya_kemetic
+							name_list_coptic = cn_b_al-bahriya_coptic
+						}
+						color = { 45 165 145 }
+					}
+					b_bawiti = {
+						province = 6090
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_bawiti_kemetic
+							name_list_demotic = cn_b_bawiti_kemetic
+							name_list_kemetic = cn_b_bawiti_kemetic
+							name_list_coptic = cn_b_bawiti_coptic
+						}
+						color = { 45 165 145 }
+					}
+					b_al-harra = {
+						province = 6091
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_al-harra_kemetic
+							name_list_demotic = cn_b_al-harra_kemetic
+							name_list_kemetic = cn_b_al-harra_kemetic
+							name_list_coptic = cn_b_al-harra_coptic
+						}
+						color = { 45 165 145 }
+					}
+				}
+				c_farafra = {
+					color = { 34 148 129 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_farafra_kemetic
+						name_list_demotic = cn_c_farafra_kemetic
+						name_list_kemetic = cn_c_farafra_kemetic
+						name_list_coptic = cn_c_farafra_coptic
+					}
+					b_al-farafra = {
+						province = 6088
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_al-farafra_kemetic
+							name_list_demotic = cn_b_al-farafra_kemetic
+							name_list_kemetic = cn_b_al-farafra_kemetic
+							name_list_coptic = cn_b_al-farafra_coptic
+						}
+						color = { 34 148 129 }
+					}
+				}
+				c_dakhla = {
+					color = { 108 217 168 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_dakhla_kemetic
+						name_list_demotic = cn_c_dakhla_kemetic
+						name_list_kemetic = cn_c_dakhla_kemetic
+						name_list_coptic = cn_c_dakhla_coptic
+					}
+					b_mut = {
+						province = 6085
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_mut_kemetic
+							name_list_demotic = cn_b_mut_kemetic
+							name_list_kemetic = cn_b_mut_kemetic
+							name_list_coptic = cn_b_mut_coptic
+						}
+						color = { 108 217 168 }
+					}
+					b_tunayda = {
+						province = 6086
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_tunayda_kemetic
+							name_list_demotic = cn_b_tunayda_kemetic
+							name_list_kemetic = cn_b_tunayda_kemetic
+							name_list_coptic = cn_b_tunayda_coptic
+						}
+						color = { 108 217 168 }
+					}
+					b_al-qasr-dakhla = {
+						province = 6087
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_al-qasr-dakhla_kemetic
+							name_list_demotic = cn_b_al-qasr-dakhla_kemetic
+							name_list_kemetic = cn_b_al-qasr-dakhla_kemetic
+							name_list_coptic = cn_b_al-qasr-dakhla_coptic
+						}
+						color = { 108 217 168 }
+					}
+				}
+				c_kharga = {
+					color = { 39 219 126 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_kharga_kemetic
+						name_list_demotic = cn_c_kharga_kemetic
+						name_list_kemetic = cn_c_kharga_kemetic
+						name_list_coptic = cn_c_kharga_coptic
+					}
+					b_kharga = {
+						province = 6083
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_kharga_kemetic
+							name_list_demotic = cn_b_kharga_kemetic
+							name_list_kemetic = cn_b_kharga_kemetic
+							name_list_coptic = cn_b_kharga_coptic
+						}
+						color = { 39 219 126 }
+					}
+					b_baris = {
+						province = 6084
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_baris_kemetic
+							name_list_demotic = cn_b_baris_kemetic
+							name_list_kemetic = cn_b_baris_kemetic
+							name_list_coptic = cn_b_baris_coptic
+						}
+						color = { 39 219 126 }
+					}
+				}
+			}
+	
+			d_al-said = {
+				color = { 85 217 87 }
+				cultural_names = {
+					name_list_predynastic_egyptian = cn_d_al-said_kemetic
+					name_list_demotic = cn_d_al-said_kemetic
+					name_list_kemetic = cn_d_al-said_kemetic
+					name_list_coptic = cn_d_al-said_coptic
+				}
+				capital = c_qus
+	
+				c_qus = {
+					color = { 76 194 77 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_qus_kemetic
+						name_list_demotic = cn_c_qus_kemetic
+						name_list_kemetic = cn_c_qus_kemetic
+						name_list_coptic = cn_c_qus_coptic
+					}
+					b_qus = {
+						province = 6077
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_qus_kemetic
+							name_list_demotic = cn_b_qus_kemetic
+							name_list_kemetic = cn_b_qus_kemetic
+							name_list_coptic = cn_b_qus_coptic
+						}
+						color = { 76 194 77 }
+					}
+					b_huw = {
+						province = 6074
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_huw_kemetic
+							name_list_demotic = cn_b_huw_kemetic
+							name_list_kemetic = cn_b_huw_kemetic
+							name_list_coptic = cn_b_huw_coptic
+						}
+						color = { 76 194 77 }
+					}
+					b_faw = {
+						province = 6075
+						color = { 76 194 77 }
+					}
+					b_qina = {
+						province = 6076
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_qina_kemetic
+							name_list_demotic = cn_b_qina_kemetic
+							name_list_kemetic = cn_b_qina_kemetic
+							name_list_coptic = cn_b_qina_coptic
+						}
+						color = { 76 194 77 }
+					}
+					b_armant = {
+						province = 6078
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_armant_kemetic
+							name_list_demotic = cn_b_armant_kemetic
+							name_list_kemetic = cn_b_armant_kemetic
+							name_list_coptic = cn_b_armant_coptic
+						}
+						color = { 76 194 77 }
+					}
+				}
+				c_bahnasa = {
+					color = { 50 173 51 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_bahnasa_kemetic
+						name_list_demotic = cn_c_bahnasa_kemetic
+						name_list_kemetic = cn_c_bahnasa_kemetic
+						name_list_coptic = cn_c_bahnasa_coptic
+					}
+					b_al-bahnasa = {
+						province = 6063
+						color = { 50 173 51 }
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_c_bahnasa_kemetic
+							name_list_demotic = cn_b_al-bahnasa_kemetic
+							name_list_kemetic = cn_b_al-bahnasa_kemetic
+							name_list_coptic = cn_b_al-bahnasa_coptic
+						}			
+				    }
+					b_ahnas = {
+						province = 6062
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_ahnas_kemetic
+							name_list_demotic = cn_b_ahnas_kemetic
+							name_list_kemetic = cn_b_ahnas_kemetic
+							name_list_coptic = cn_b_ahnas_coptic
+						}
+						color = { 50 173 51 }
+					}
+					b_ihrit = {
+						province = 6064
+						color = { 50 173 51 }
+					}
+				}
+				c_ushmun = {
+					color = { 72 176 73 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_ushmun_kemetic
+						name_list_demotic = cn_c_ushmun_kemetic
+						name_list_kemetic = cn_c_ushmun_kemetic
+						name_list_coptic = cn_c_ushmun_coptic
+					}
+					b_al-ushmunain = {
+						province = 6067
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_al-ushmunain_kemetic
+							name_list_demotic = cn_b_al-ushmunain_kemetic
+							name_list_kemetic = cn_b_al-ushmunain_kemetic
+							name_list_coptic = cn_b_al-ushmunain_coptic
+						}
+						color = { 72 176 73 }
+					}
+					b_ansina = {
+						province = 6068
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_ansina_kemetic
+							name_list_demotic = cn_b_ansina_kemetic
+							name_list_kemetic = cn_b_ansina_kemetic
+							name_list_coptic = cn_b_ansina_coptic
+						}
+						color = { 72 176 73 }
+					}
+					b_manfalut = {
+						province = 6069
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_manfalut_kemetic
+							name_list_demotic = cn_b_manfalut_kemetic
+							name_list_kemetic = cn_b_manfalut_kemetic
+							name_list_coptic = cn_b_manfalut_coptic
+						}
+						color = { 72 176 73 }
+					}
+				}
+				c_asyut = {
+					color = { 39 194 40 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_asyut_kemetic
+						name_list_demotic = cn_c_asyut_kemetic
+						name_list_kemetic = cn_c_asyut_kemetic
+						name_list_coptic = cn_c_asyut_coptic
+					}
+					b_asyut = {
+						province = 6070
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_asyut_kemetic
+							name_list_demotic = cn_b_asyut_kemetic
+							name_list_kemetic = cn_b_asyut_kemetic
+							name_list_coptic = cn_b_asyut_coptic
+						}
+						color = { 39 194 40 }
+					}
+					b_bawit = {
+						province = 6071
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_bawit_kemetic
+							name_list_demotic = cn_b_bawit_kemetic
+							name_list_kemetic = cn_b_bawit_kemetic
+							name_list_coptic = cn_b_bawit_coptic
+						}
+						color = { 39 194 40 }
+					}
+					b_ikhmin = {
+						province = 6072
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_ikhmin_kemetic
+							name_list_demotic = cn_b_ikhmin_kemetic
+							name_list_kemetic = cn_b_ikhmin_kemetic
+							name_list_coptic = cn_b_ikhmin_coptic
+						}
+						color = { 39 194 40 }
+					}
+					b_ibshaya = {
+						province = 6073
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_ibshaya_kemetic
+							name_list_demotic = cn_b_ibshaya_kemetic
+							name_list_kemetic = cn_b_ibshaya_kemetic
+							name_list_coptic = cn_b_ibshaya_coptic
+						}
+						color = { 39 194 40 }
+					}
+				}
+				c_aswan = {
+					color = { 16 163 17 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_aswan_kemetic
+						name_list_demotic = cn_c_aswan_kemetic
+						name_list_kemetic = cn_c_aswan_kemetic
+						name_list_coptic = cn_c_aswan_coptic
+					}
+					b_aswan = {
+						province = 6081
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_aswan_kemetic
+							name_list_demotic = cn_b_aswan_kemetic
+							name_list_kemetic = cn_b_aswan_kemetic
+							name_list_coptic = cn_b_aswan_coptic
+						}
+						color = { 16 163 17 }
+					}
+					b_udfu = {
+						province = 6079
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_udfu_kemetic
+							name_list_demotic = cn_b_udfu_kemetic
+							name_list_kemetic = cn_b_udfu_kemetic
+							name_list_coptic = cn_b_udfu_coptic
+						}
+						color = { 16 163 17 }
+					}
+					b_zarnikh = {
+						province = 6080
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_zarnikh_kemetic
+							name_list_demotic = cn_b_zarnikh_kemetic
+							name_list_kemetic = cn_b_zarnikh_kemetic
+							name_list_coptic = cn_b_zarnikh_coptic
+						}
+						color = { 16 163 17 }
+					}
+					b_aswan-west = {
+						province = 6082
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_aswan-west_kemetic
+							name_list_demotic = cn_b_aswan-west_kemetic
+							name_list_kemetic = cn_b_aswan-west_kemetic
+							name_list_coptic = cn_b_aswan-west_coptic
+						}
+						color = { 16 163 17 }
+					}
+				}
+			}
+	
+			d_eastern_desert = {
+				color = { 40 200 140 }
+				cultural_names = {
+					name_list_predynastic_egyptian = cn_d_eastern_desert_kemetic
+					name_list_demotic = cn_d_eastern_desert_kemetic
+					name_list_kemetic = cn_d_eastern_desert_kemetic
+				}
+				capital = c_qusayr
+	
+				c_qusayr = {
+					color = { 45 205 135 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_qusayr_kemetic
+						name_list_demotic = cn_c_qusayr_kemetic
+						name_list_kemetic = cn_c_qusayr_kemetic
+						name_list_coptic = cn_c_qusayr_coptic
+					}
+					b_qusayr = {
+						province = 6109
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_qusayr_kemetic
+							name_list_demotic = cn_b_qusayr_kemetic
+							name_list_kemetic = cn_b_qusayr_kemetic
+							name_list_coptic = cn_b_qusayr_coptic
+						}
+						color = { 45 205 135 }
+					}
+					b_safaga = {
+						province = 6122
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_safaga_kemetic
+							name_list_demotic = cn_b_safaga_kemetic
+							name_list_kemetic = cn_b_safaga_kemetic
+							name_list_coptic = cn_b_safaga_coptic
+						}
+						color = { 45 205 135 }
+					}
+				}
+				c_jabal_quzlum = {
+					color = { 45 195 130 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_jabal_quzlum_kemetic
+						name_list_demotic = cn_c_jabal_quzlum_kemetic
+						name_list_kemetic = cn_c_jabal_quzlum_kemetic
+					}
+					b_north_jbl_quzlum = {
+						province = 6118
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_north_jbl_quzlum_kemetic
+							name_list_demotic = cn_b_north_jbl_quzlum_kemetic
+							name_list_kemetic = cn_b_north_jbl_quzlum_kemetic
+						}
+						color = { 45 195 130 }
+					}
+					b_central_jbl_quzlum = {
+						province = 6119
+						color = { 45 195 130 }
+					}
+					b_south_jbl_quzlum = {
+						province = 6120
+						color = { 45 195 130 }
+					}
+					b_um_shashoba = {
+						province = 6121
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_um_shashoba_kemetic
+							name_list_demotic = cn_b_um_shashoba_kemetic
+							name_list_kemetic = cn_b_um_shashoba_kemetic
+						}
+						color = { 45 195 130 }
+					}
+				}
+			}
+	
+			d_sinai = {
+				color = { 88 99 2 }
+				cultural_names = {
+					name_list_predynastic_egyptian = cn_d_sinai_kemetic
+					name_list_demotic = cn_d_sinai_kemetic
+					name_list_kemetic = cn_d_sinai_kemetic
+					name_list_coptic = cn_d_sinai_coptic
+				}
+				capital = c_farama
+	
+				c_farama = {
+					color = { 141 198 5 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_farama_kemetic
+						name_list_demotic = cn_c_farama_kemetic
+						name_list_kemetic = cn_c_farama_kemetic
+						name_list_coptic = cn_c_farama_coptic
+					}
+					b_farama = {
+						province = 6038
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_farama_kemetic
+							name_list_demotic = cn_b_farama_kemetic
+							name_list_kemetic = cn_b_farama_kemetic
+							name_list_coptic = cn_b_farama_coptic
+						}
+						color = { 141 198 5 }
+					}
+					b_warrada = {
+						province = 6036
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_warrada_kemetic
+							name_list_demotic = cn_b_warrada_kemetic
+							name_list_kemetic = cn_b_warrada_kemetic
+							name_list_coptic = cn_b_warrada_coptic
+						}
+						color = { 141 198 5 }
+					}
+					b_al-arish = {
+						province = 5970
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_al-arish_kemetic
+							name_list_demotic = cn_b_al-arish_kemetic
+							name_list_kemetic = cn_b_al-arish_kemetic
+							name_list_coptic = cn_b_al-arish_coptic
+						}
+						color = { 141 198 5 }
+					}
+				}
+				c_sinai = {
+					color = { 143 201 8 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_sinai_kemetic
+						name_list_demotic = cn_c_sinai_kemetic
+						name_list_kemetic = cn_c_sinai_kemetic
+						name_list_coptic = cn_c_sinai_coptic
+					}
+					b_at-tur = {
+						province = 6033
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_at-tur_kemetic
+							name_list_demotic = cn_b_at-tur_kemetic
+							name_list_kemetic = cn_b_at-tur_kemetic
+							name_list_coptic = cn_b_at-tur_coptic
+						}
+						color = { 143 201 8 }
+					}
+					b_stcatherine = {
+						province = 6032
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_stcatherine_kemetic
+							name_list_demotic = cn_b_stcatherine_kemetic
+							name_list_kemetic = cn_b_stcatherine_kemetic
+							name_list_coptic = cn_b_stcatherine_coptic
+						}
+						color = { 143 201 8 }
+					}
+					b_faran = {
+						province = 6034
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_faran_kemetic
+							name_list_demotic = cn_b_faran_kemetic
+							name_list_kemetic = cn_b_faran_kemetic
+							name_list_coptic = cn_b_faran_coptic
+						}
+						color = { 143 201 8 }
+					}
+					b_qalat_jundi = {
+						province = 6035
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_qalat_jundi_kemetic
+							name_list_demotic = cn_b_qalat_jundi_kemetic
+							name_list_kemetic = cn_b_qalat_jundi_kemetic
+							name_list_coptic = cn_b_qalat_jundi_coptic
+						}
+						color = { 143 201 8 }
+					}
+					b_tih = {
+						province = 6037
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_tih_kemetic
+							name_list_demotic = cn_b_tih_kemetic
+							name_list_kemetic = cn_b_tih_kemetic
+							name_list_coptic = cn_b_tih_coptic
+						}
+						color = { 143 201 8 }
+					}
+				}
+				c_firaun = {
+					color = { 145 203 10 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_firaun_kemetic
+						name_list_demotic = cn_c_firaun_kemetic
+						name_list_kemetic = cn_c_firaun_kemetic
+						name_list_coptic = cn_c_firaun_coptic
+					}
+					b_firaun = {
+						province = 6030
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_tih_kemetic
+							name_list_demotic = cn_b_tih_kemetic
+							name_list_kemetic = cn_b_firaun_kemetic
+							name_list_coptic = cn_b_firaun_coptic
+						}
+						color = { 145 203 10 }
+					}
+					b_dahab = {
+						province = 6031
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_dahab_kemetic
+							name_list_demotic = cn_b_dahab_kemetic
+							name_list_kemetic = cn_b_dahab_kemetic
+							name_list_coptic = cn_b_dahab_coptic
+						}
+						color = { 145 203 10 }
+					}
+				}
+			}
+		}
+	
+		k_jerusalem = {
+			color = { 180 180 180 }
+	
+			capital = c_jerusalem
+	
+			can_create = {
+				faith = { religion_tag = christianity_religion }
+			}
+	
+			can_create_on_partition = {
+				faith = { religion_tag = christianity_religion }
+			}
+	
+			ai_primary_priority = {
+				if = {
+					limit = {
+						faith = faith:catholic
+					}
+					add = @always_primary_score
+				}
+			}
+	
+			d_palestine = {
+				color = { 160 160 200 }
+	
+				capital = c_jerusalem
+				cultural_names = {
+					name_list_predynastic_egyptian = cn_d_palestine_kemetic
+					name_list_demotic = cn_d_palestine_kemetic
+					name_list_kemetic = cn_d_palestine_kemetic
+				}		
+				c_jerusalem = {
+					color = { 176 190 140 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_jerusalem_kemetic
+						name_list_demotic = cn_c_jerusalem_kemetic
+						name_list_kemetic = cn_c_jerusalem_kemetic
+					}		
+					b_jerusalem = {
+						province = 5965
+						cultural_names = {
+							name_list_predynastic_egyptian = cn_b_jerusalem_kemetic
+							name_list_demotic = cn_b_jerusalem_kemetic
+							name_list_kemetic = cn_b_jerusalem_kemetic
+						}		
+						color = { 176 190 140 }
+					}
+					b_ar-ramla = {
+						province = 5963
+	
+						color = { 176 190 140 }
+					}
+					b_nablus = {
+						province = 5964
+	
+						color = { 176 190 140 }
+					}
+					b_hebron = {
+						province = 5966
+	
+						color = { 176 190 140 }
+					}
+				}
+				c_ghazza = {
+					color = { 167 165 190 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_ghazza_kemetic
+						name_list_demotic = cn_c_ghazza_kemetic
+						name_list_kemetic = cn_c_ghazza_kemetic
+				    }	
+					b_ghazza = {
+						province = 5968
+	
+						color = { 167 165 190 }
+					}
+					b_ascalon = {
+						province = 5967
+	
+						color = { 167 165 190 }
+					}
+				}
+
+				c_jaffa = {
+					color = { 167 190 150 }
+					cultural_names = {
+						name_list_predynastic_egyptian = cn_c_jaffa_kemetic
+						name_list_demotic = cn_c_jaffa_kemetic
+						name_list_kemetic = cn_c_jaffa_kemetic
+				    }	
+					b_yaffa = {
+						province = 5962
+	
+						color = { 167 190 150 }
+					}
+					b_cesarea = {
+						province = 5961
+	
+						color = { 167 190 150 }
+					}
+				}
+			}
+	
+			d_urdunn = { #AKA Galilee
+				color = { 225 200 160 }
+	
+				capital = c_tiberias
+	
+				c_tiberias = {
+					color = { 225 220 160 }
+	
+					b_tiberias = {
+						province = 5959
+	
+						color = { 225 220 160 }
+					}
+					b_baniyas = {
+						province = 5922
+	
+						color = { 225 220 160 }
+					}
+				}
+				c_acre = {
+					color = { 245 245 200 }
+	
+					b_acre = {
+						province = 5960
+	
+						color = { 245 245 200 }
+					}
+					b_tyre = {
+						province = 5921
+	
+						color = { 245 245 200 }
+					}
+				}
+				c_irbid = {
+					color = { 230 250 190 }
+	
+					b_irbid = {
+						province = 5958
+	
+						color = { 230 250 190 }
+					}
+					b_jarash = {
+						province = 5985
+	
+						color = { 230 250 190 }
+					}
+				}
+			}
+		}
+	}
+
+
+
+
+e_abyssinia = {
+	color = { 181 133 68 }
+
+	capital = c_lasta
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = { has_cultural_pillar = heritage_east_african }
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	k_nubia = {
+		color = { 180 85 39 }
+		cultural_names = {
+			name_list_predynastic_egyptian = cn_k_nubia_kemetic
+			name_list_demotic = cn_k_nubia_kemetic
+			name_list_kemetic = cn_k_nubia_kemetic
+		}
+		capital = c_dongola
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = { has_cultural_pillar = heritage_east_african }
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+
+		d_nobatia = {
+			color = { 162 133 85 }
+			cultural_names = {
+				name_list_predynastic_egyptian = cn_d_nobatia_kemetic
+				name_list_demotic = cn_d_nobatia_kemetic
+				name_list_kemetic = cn_d_nobatia_kemetic
+			}
+			capital = c_faras
+
+			c_qasr_ibrim = {
+				color = { 165 135 85 }
+				cultural_names = {
+					name_list_predynastic_egyptian = cn_c_qasr_ibrim_kemetic
+					name_list_demotic = cn_c_qasr_ibrim_kemetic
+					name_list_kemetic = cn_c_qasr_ibrim_kemetic
+				}
+				b_qasr_ibrim = {
+					province = 6334
+
+					color = { 165 135 85 }
+				}
+				b_korosko = {
+					province = 6332
+
+					color = { 165 135 85 }
+				}
+				b_sheikh_dawud = {
+					province = 6333
+
+					color = { 165 135 85 }
+				}
+			}
+			c_faras = {
+				color = { 160 130 85 }
+				cultural_names = {
+					name_list_predynastic_egyptian = cn_c_faras_kemetic
+					name_list_demotic = cn_c_faras_kemetic
+					name_list_kemetic = cn_c_faras_kemetic
+				}
+				b_faras = {
+					province = 6336
+
+					color = { 160 130 85 }
+				}
+				b_serra = {
+					province = 6335
+
+					color = { 160 130 85 }
+				}
+			}
+			c_batn_al-hajar = {
+				color = { 150 140 65 }
+				cultural_names = {
+					name_list_predynastic_egyptian = cn_c_batn_al-hajar_kemetic
+					name_list_demotic = cn_c_batn_al-hajar_kemetic
+					name_list_kemetic = cn_c_batn_al-hajar_kemetic
+				}
+				b_semna = {
+					province = 6337
+
+					color = { 150 140 65 }
+				}
+				b_akasha = {
+					province = 6338
+
+					color = { 150 140 65 }
+				}
+			}
+			c_qurta = {
+				color = { 155 130 60 }
+				cultural_names = {
+					name_list_predynastic_egyptian = cn_c_qurta_kemetic
+					name_list_demotic = cn_c_qurta_kemetic
+					name_list_kemetic = cn_c_qurta_kemetic
+				}
+				b_qurta = {
+					province = 6329
+
+					color = { 155 130 60 }
+				}
+				b_ikhmindi = {
+					province = 6330
+
+					color = { 155 130 60 }
+				}
+				b_sayala = {
+					province = 6331
+
+					color = { 155 130 60 }
+				}
+			}
+			c_kalabsha = {
+				color = { 165 130 80 }
+
+				b_kalabsha = {
+					province = 6362
+
+					color = { 165 130 80 }
+				}
+				b_sabagura = {
+					province = 6361
+
+					color = { 165 130 80 }
+				}
+			}
+		}
+
+		d_makuria = {
+			color = { 141 162 79 }
+
+			capital = c_dongola
+			cultural_names = {
+				name_list_predynastic_egyptian = cn_d_makuria_kemetic
+				name_list_demotic = cn_d_makuria_kemetic
+				name_list_kemetic = cn_d_makuria_kemetic
+			}
+			c_dongola = {
+				color = { 145 150 80 }
+				cultural_names = {
+					name_list_predynastic_egyptian = cn_c_dongola_kemetic
+					name_list_demotic = cn_c_dongola_kemetic
+					name_list_kemetic = cn_c_dongola_kemetic
+				}
+				b_old_dongola = {
+					province = 6344
+
+					color = { 145 150 80 }
+				}
+				b_tumbus = {
+					province = 6341
+
+					color = { 145 150 80 }
+				}
+				b_kemna = {
+					province = 6342
+
+					color = { 145 150 80 }
+				}
+				b_dongola = {
+					province = 6343
+
+					color = { 145 150 80 }
+				}
+				b_debba = {
+					province = 6345
+
+					color = { 145 150 80 }
+				}
+			}
+			c_sai = {
+				color = { 140 155 75 }
+				cultural_names = {
+					name_list_predynastic_egyptian = cn_c_sai_kemetic
+					name_list_demotic = cn_c_sai_kemetic
+					name_list_kemetic = cn_c_sai_kemetic
+				}
+				b_sai = {
+					province = 6339
+
+					color = { 140 155 75 }
+				}
+				b_delgo = {
+					province = 6340
+
+					color = { 140 155 75 }
+				}
+				b_kassi-markol = {
+					province = 6359
+
+					color = { 140 155 75 }
+				}
+			}
+			c_meroe = {
+				color = { 155 140 67 }
+
+				b_grnetti = {
+					province = 6346
+
+					color = { 155 140 67 }
+				}
+				b_tankasi = {
+					province = 6347
+
+					color = { 155 140 67 }
+				}
+				b_kareima = {
+					province = 6348
+
+					color = { 155 140 67 }
+				}
+				b_nuri = {
+					province = 6349
+
+					color = { 155 140 67 }
+				}
+				b_diffar = {
+					province = 6360
+
+					color = { 155 140 67 }
+				}
+			}
+			c_wadi_el-milk = {
+				color = { 140 160 70 }
+
+				b_wadi_el-milk = {
+					province = 6415
+
+					color = { 140 160 70 }
+				}
+				b_jebel_abu_negila = {
+					province = 6427
+
+					color = { 140 160 70 }
+				}
+				b_bir_el-kai = {
+					province = 6428
+
+					color = { 140 160 70 }
+				}
+				b_upper_milk = {
+					province = 6896
+
+					color = { 140 160 70 }
+				}
+			}
+			c_abwab = {
+				color = { 145 160 75 }
+
+				b_al-abwab = {
+					province = 6363
+
+					color = { 145 160 75 }
+				}
+				b_shendi = {
+					province = 6364
+
+					color = { 145 160 75 }
+				}
+				b_keli = {
+					province = 6365
+
+					color = { 145 160 75 }
+				}
+				b_wad_hamid = {
+					province = 6366
+
+					color = { 145 160 75 }
+				}
+				b_al-ghazali = {
+					province = 6350
+
+					color = { 145 160 75 }
+				}
+			}
+			c_atbara = {
+				color = { 150 160 50 }
+
+				b_atbara = {
+					province = 6356
+
+					color = { 150 160 50 }
+				}
+				b_berber = {
+					province = 6355
+
+					color = { 150 160 50 }
+				}
+				b_al-bawga = {
+					province = 6357
+
+					color = { 150 160 50 }
+				}
+				b_ed-damer = {
+					province = 6358
+
+					color = { 150 160 50 }
+				}
+				b_shunqayr = {
+					province = 6389
+
+					color = { 150 160 50 }
+				}
+			}
+		}
+
+		d_shamir = { # Abu-Hammad
+			color = { 137 123 44 }
+
+			capital = c_shamir
+			cultural_names = {
+				name_list_predynastic_egyptian = cn_d_shamir_kemetic
+				name_list_demotic = cn_d_shamir_kemetic
+				name_list_kemetic = cn_d_shamir_kemetic
+			}
+			c_shamir = {
+				color = { 140 125 45 }
+				cultural_names = {
+					name_list_predynastic_egyptian = cn_c_shamir_kemetic
+					name_list_demotic = cn_c_shamir_kemetic
+					name_list_kemetic = cn_c_shamir_kemetic
+				}
+				b_shemkhiya = {
+					province = 6367
+
+					color = { 140 125 45 }
+				}
+				b_redab = {
+					province = 6368
+
+					color = { 140 125 45 }
+				}
+				b_kuweib = {
+					province = 6369
+
+					color = { 140 125 45 }
+				}
+			}
+			c_abu_hammad = {
+				color = { 135 120 55 }
+				cultural_names = {
+					name_list_predynastic_egyptian = cn_c_abu_hammad_kemetic
+					name_list_demotic = cn_c_abu_hammad_kemetic
+					name_list_kemetic = cn_c_abu_hammad_kemetic
+				}
+				b_abu_hammad = {
+					province = 6352
+
+					color = { 135 120 55 }
+				}
+				b_korosko_road = {
+					province = 6354
+
+					color = { 135 120 55 }
+				}
+				b_al-hajar_nubia = {
+					province = 6370
+
+					color = { 135 120 55 }
+				}
+			}
+			c_kurgus = {
+				color = { 145 130 40 }
+
+				b_kurgus = {
+					province = 6351
+
+					color = { 145 130 40 }
+				}
+				b_tarfaya = {
+					province = 6353
+
+					color = { 145 130 40 }
+				}
+			}
+		}
+
+		d_alwa = { # Alodia
+			color = { 128 60 20 }
+
+			capital = c_alodia
+
+			c_alodia = {
+				color = { 135 65 20 }
+
+				b_soba = {
+					province = 6394
+
+					color = { 135 65 20 }
+				}
+				b_geili = {
+					province = 6391
+
+					color = { 135 65 20 }
+				}
+				b_kadero = {
+					province = 6392
+
+					color = { 135 65 20 }
+				}
+				b_alti = {
+					province = 6395
+
+					color = { 135 65 20 }
+				}
+				b_kamlin = {
+					province = 6397
+
+					color = { 135 65 20 }
+				}
+			}
+			c_naga = {
+				color = { 130 55 25 }
+
+				b_naga = {
+					province = 6407
+
+					color = { 130 55 25 }
+				}
+				b_basa = {
+					province = 6408
+
+					color = { 130 55 25 }
+				}
+				b_umm_usuda = {
+					province = 6409
+
+					color = { 130 55 25 }
+				}
+				b_jebel_geili = {
+					province = 6410
+
+					color = { 130 55 25 }
+				}
+			}
+			c_gezira= {
+				color = { 125 60 30 }
+
+				b_geteina = {
+					province = 6396
+
+					color = { 125 60 30 }
+				}
+				b_arbaji = {
+					province = 6398
+
+					color = { 125 60 30 }
+				}
+				b_um_sunt = {
+					province = 6399
+
+					color = { 125 60 30 }
+				}
+				b_saqadi = {
+					province = 6401
+
+					color = { 125 60 30 }
+				}
+			}
+			c_eleila = {
+				color = { 135 70 40 }
+
+				b_el-eleila = {
+					province = 6405
+
+					color = { 135 70 40 }
+				}
+				b_abu_geili = {
+					province = 6404
+
+					color = { 135 70 40 }
+				}
+				b_basharga = {
+					province = 6406
+
+					color = { 135 70 40 }
+				}
+			}
+			c_ushara = {
+				color = { 135 50 30 }
+
+				b_ushara = {
+					province = 6393
+
+					color = { 135 50 30 }
+				}
+				b_shaheinab = {
+					province = 6390
+
+					color = { 135 50 30 }
+				}
+			}
+		}
+
+		d_sennar = { # Alodia
+			color = { 113 53 23 }
+
+			capital = c_sennar
+
+			c_sennar = {
+				color = { 115 60 20 }
+
+				b_sennar = {
+					province = 6400
+
+					color = { 115 60 20 }
+				}
+				b_jebel_moya = {
+					province = 6402
+
+					color = { 115 60 20 }
+				}
+				b_singa = {
+					province = 6403
+
+					color = { 115 60 20 }
+				}
+				b_renk = {
+					province = 6432
+
+					color = { 115 60 20 }
+				}
+			}
+			c_fazughli = {
+				color = { 110 55 25 }
+
+				b_fazughli = {
+					province = 6433
+
+					color = { 110 55 25 }
+				}
+				b_al-rusayrisi = {
+					province = 6434
+
+					color = { 110 55 25 }
+				}
+				b_fazughli_east = {
+					province = 6435
+
+					color = { 110 55 25 }
+				}
+			}
+			c_tagali = {
+				color = { 120 60 15 }
+
+				b_kosti = {
+					province = 6429
+
+					color = { 120 60 15 }
+				}
+				b_tagali = {
+					province = 6430
+
+					color = { 120 60 15 }
+				}
+				b_tagali_south = {
+					province = 6431
+
+					color = { 120 60 15 }
+				}
+			}
+			c_gumuz = {
+				color = { 113 58 28 }
+
+				b_gumuz_north = {
+					province = 8514
+
+					color = { 113 58 28 }
+				}
+				b_gumuz_west = {
+					province = 8515
+
+					color = { 113 58 28 }
+				}
+				b_gumuz_south = {
+					province = 8516
+
+					color = { 113 58 28 }
+				}
+			}
+		}
+	}
+}
+
+
+
+

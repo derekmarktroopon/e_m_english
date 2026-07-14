@@ -1,0 +1,64 @@
+﻿
+
+tradition_koryos = {
+	category = combat
+
+	layers = {
+		0 = martial
+		1 = mena
+		4 = knight.dds
+	}
+	
+	is_shown = {
+		has_cultural_pillar = heritage_pie
+	}
+	can_pick = {
+		has_cultural_pillar = heritage_pie
+	}
+	
+	parameters = {
+		unlock_maa_koryos = yes
+		prowess_traits_more_valued = yes	
+		culture_can_raid_over_land_even_if_feudal_no_restrictions = yes
+		steppe_hunt_success_chance = 0.25
+		can_use_conquest_cbs = yes
+		unlock_voluntary_laampdom = yes
+		more_likely_to_be_laamps = yes
+	}
+	
+	character_modifier = {
+		knight_effectiveness_mult = 0.1		
+		skirmishers_damage_mult = 0.1	
+		skirmishers_pursuit_mult = 0.15	
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOT = {
+						scope:character = {
+							any_knight = {
+								count >= 6
+								prowess >= 12
+							}
+						}
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = knights_with_prowess_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 0 }
+}

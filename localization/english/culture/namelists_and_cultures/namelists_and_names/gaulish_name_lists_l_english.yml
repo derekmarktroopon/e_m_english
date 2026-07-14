@@ -1,0 +1,22 @@
+﻿l_english:
+ 
+ # Gaulish
+
+ name_list_gaulish:0 "Gaulish"
+ name_list_late_luso_gaulish:0 "Luso-Gaulish"
+ name_list_neo_gaule:0 "Gaule"
+ name_list_late_ibero_gaulish:0 "Gaulespanic"
+ name_list_late_cisalpine_gaulish:0 "Cisalpine-Gaul"
+
+ #Iberian Celtic
+
+ name_list_celtiberian:0 "Celtiberian"
+ name_list_lusitanian:0 "Lusitanian"
+ name_list_neo_gallaecian:0 "Neo Gallaecian"
+ name_list_neo_celtiberian:0 "Celtespanic"
+ name_list_neo_lusitanian:0 "Neo Lusitanian"
+
+ # Cisalpine Celtic
+
+ name_list_lepontic:0 "Lepontic"
+ name_list_neo_lepontic:0 "Neo Lepontic"

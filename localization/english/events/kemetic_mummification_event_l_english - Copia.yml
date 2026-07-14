@@ -1,0 +1,17 @@
+﻿l_english:
+
+mummify_ancestor_decision:0 "Embalm Ancestor"
+mummify_ancestor_decision_desc:0 "My [ROOT.Char.Custom2('RelationToMe', ROOT.Var('ancestor_to_bury').Char)] has sadly passed from this life, it is my duty to make sure that [ROOT.Var('ancestor_to_bury').Char.GetHerHis] body and possestions are prepared for the next, and for [ROOT.Var('ancestor_to_bury').Char.GetHerHis] journey to Duat."
+mummify_ancestor_decision_tooltip:0 "You start the processo of mummifying your [ROOT.Char.Custom2('RelationToMe', ROOT.Var('ancestor_to_bury').Char)]."
+mummify_ancestor_vassals:0 "Vassals opinion on mummification."
+
+mummification_event.2.t:0 "Embalming"
+mummification_event.2.desc:0 "I wait outside the temple, so that [ROOT.Char.Custom2('RelationToMe', ROOT.Var('ancestor_to_bury').Char)] body may be prepared for [ROOT.Var('ancestor_to_bury').Char.GetHerHis] journey to Duat. The overseers take [ROOT.Var('ancestor_to_bury').Char.GetFirstNamePossessive] body into the temple, where they will place it on a table to be prepared. Next, [ROOT.Var('ancestor_to_bury').Char.GetFirstNamePossessive] organs will be taken out, and placed in canopic jars. The [ROOT.Char.GetFaith.PriestNeuterPlural] will then cover the body in packed salt, where it will rest for several days."
+mummification_event.2.a:0 "I'll be back in a month or two then?"
+mummification_event.2.aa:0 "When can I see my [ROOT.Char.Custom2('RelationToMe', ROOT.Var('ancestor_to_bury').Char)]?"
+
+mummification_event.3.t:0 "Embalming"
+mummification_event.3.desc:0 "I enter the temple room, to see that [ROOT.Var('ancestor_to_bury').Char.GetFirstNamePossessive] preserved body has been wrapped in resin and linen, with an extravegant facemask placed over [ROOT.Var('ancestor_to_bury').Char.GetHerHis] head. "My [ROOT.Char.GetTitleAsNameNoTooltip]", a [ROOT.Char.GetFaith.PriestNeuter] tells me, "We will take [ROOT.Var('ancestor_to_bury').Char.GetFirstNamePossessive] body to [ROOT.Var('ancestor_to_bury').Char.GetHerHis] tomb, where [ROOT.Var('ancestor_to_bury').Char.GetHerHis] possesions are already awaiting him for [ROOT.Var('ancestor_to_bury').Char.GetHerHis] journey to Duat"."
+mummification_event.3.a:0 "Thank you. Rest in peace, [ROOT.Char.Custom2('RelationToMe', ROOT.Var('ancestor_to_bury').Char)]."
+
+mummify_ancestor_decision_confirm:0 "Start Embalment"

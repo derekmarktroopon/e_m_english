@@ -1,0 +1,168 @@
+﻿# Shared dynasties for the compressed ancient Egyptian royal succession (V8)
+# Historical numbered dynasties are represented as CK3 dynasties by user request.
+
+kec_dynasty_00 = {
+	name = "dynn_kec_ancient_egypt_00"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_01 = {
+	name = "dynn_kec_ancient_egypt_01"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_02 = {
+	name = "dynn_kec_ancient_egypt_02"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_03 = {
+	name = "dynn_kec_ancient_egypt_03"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_04 = {
+	name = "dynn_kec_ancient_egypt_04"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_05 = {
+	name = "dynn_kec_ancient_egypt_05"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_06 = {
+	name = "dynn_kec_ancient_egypt_06"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_08 = {
+	name = "dynn_kec_ancient_egypt_08"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_09 = {
+	name = "dynn_kec_ancient_egypt_09"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_10 = {
+	name = "dynn_kec_ancient_egypt_10"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_11 = {
+	name = "dynn_kec_ancient_egypt_11"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_12 = {
+	name = "dynn_kec_ancient_egypt_12"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_13 = {
+	name = "dynn_kec_ancient_egypt_13"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_14 = {
+	name = "dynn_kec_ancient_egypt_14"
+	culture = "levantine"
+}
+
+kec_dynasty_15 = {
+	name = "dynn_kec_ancient_egypt_15"
+	culture = "levantine"
+}
+
+kec_dynasty_16 = {
+	name = "dynn_kec_ancient_egypt_16"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_abydos = {
+	name = "dynn_kec_ancient_egypt_abydos"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_17 = {
+	name = "dynn_kec_ancient_egypt_17"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_18 = {
+	name = "dynn_kec_ancient_egypt_18"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_19 = {
+	name = "dynn_kec_ancient_egypt_19"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_20 = {
+	name = "dynn_kec_ancient_egypt_20"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_21 = {
+	name = "dynn_kec_ancient_egypt_21"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_22 = {
+	name = "dynn_kec_ancient_egypt_22"
+	culture = "butr"
+}
+
+kec_dynasty_23 = {
+	name = "dynn_kec_ancient_egypt_23"
+	culture = "butr"
+}
+
+kec_dynasty_24 = {
+	name = "dynn_kec_ancient_egypt_24"
+	culture = "butr"
+}
+
+kec_dynasty_25 = {
+	name = "dynn_kec_ancient_egypt_25"
+	culture = "nubian"
+}
+
+kec_dynasty_26 = {
+	name = "dynn_kec_ancient_egypt_26"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_27 = {
+	name = "dynn_kec_ancient_egypt_27"
+	culture = "persian"
+}
+
+kec_dynasty_28 = {
+	name = "dynn_kec_ancient_egypt_28"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_29 = {
+	name = "dynn_kec_ancient_egypt_29"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_30 = {
+	name = "dynn_kec_ancient_egypt_30"
+	culture = "ancient_egyptian"
+}
+
+kec_dynasty_31 = {
+	name = "dynn_kec_ancient_egypt_31"
+	culture = "persian"
+}
+
+kec_dynasty_khababash = {
+	name = "dynn_kec_ancient_egypt_khababash"
+	culture = "ancient_egyptian"
+}
+

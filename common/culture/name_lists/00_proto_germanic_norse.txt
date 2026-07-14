@@ -1,0 +1,86 @@
+﻿name_list_proto_norse = {
+		cadet_dynasty_names = {
+			#Proto Norse
+            dynn_Frawarading dynn_Godagasting dynn_Helding dynn_Hlewagasting dynn_Holting dynn_Hrabning dynn_Hrathing dynn_Hrazing dynn_Kunimunding dynn_Leubing dynn_Mariing dynn_Naudigasting dynn_Skelbathewing dynn_Stainawaring dynn_Thrawing dynn_Ubing    
+		}
+
+		dynasty_names = {
+			#Proto Norse 
+            dynn_Frawarading dynn_Godagasting dynn_Helding dynn_Hlewagasting dynn_Holting dynn_Hrabning dynn_Hrathing dynn_Hrazing dynn_Kunimunding dynn_Leubing dynn_Mariing dynn_Naudigasting dynn_Skelbathewing dynn_Stainawaring dynn_Thrawing dynn_Ubing   
+		}
+		male_names = { 
+		    70 = {    
+                Aithalatar Andswarur Anulaibar Anuwinduz Anula_pn Asugastir Asugisalar Bidawarijar Farawisa Frawaradaz Frohila Godagastiz Hadulaikar Hagiradar Hathuwolafr Hathuwulafr Hariwolafr Haeruwulafr Heldar Hugilaikar Harija Hlewagast Hlewagastir Holt Hrabnaz Hrathaz Hrazaz Hrorar Hirila Kunimundir Leubaz Leugar Landawarjar Mari_pn Maritheubar Naudigastiz Niuwila Niujila Nithijo Owlthuthewar Raskar_pn Swabaharjar Saligastiz Sigimaraz Skelbathewas Stainawarijaz Thrawija Ubaz Wagagastir Wage_pn Wiwar Wiwilan Widugastir Widuhudar Woduride
+            }
+            30 = {
+		        Agilaz Agithewaz Alariks Albigaizaz Albiharjaz Asulaibaz Asuwaldaz Arnuwulfaz Audawiniz Audawulfaz Auziwandilaz Athalagaizaz Balthawiniz Frithuberhtaz Frithugaizaz Frithumunduz Frodo Fulkamerijaz Gaizaharduz Gaizawalda Gaizawulfaz Grimaz Gunthiharjaz Gunthilaibaz Gunthiwulfaz Haimariks Harigastiz Harjabrandaz Harjamodaz Harjawaldaz Hrothiberhtaz Hrothigaizaz Hrothiriks Hrothiwulfaz Ingwomeraz Ingeldaz Iwaz Raginaharjaz Raginawaldaz Redawulfaz Rikaharduz Sigifrithuz Sigimunduz Sigiwarduz Stainawarijar Uzdagaizaz Uzdawulfaz Waldaharjaz Wiljahelmaz Theudobalthaz Theudoberhtaz Theudomeraz Theudoriks
+		    }
+		}
+		female_names = { 
+            Audi Awa_pn Brunjohildir Badwohildiz Ermunahildiz Gudagebo Gunthiz Gunthhildir Guntharuno Gundaruno Hludahildiz Idibera Mahtihildir 
+		}
+
+	dynasty_of_location_prefix = Locationprefix_ab		
+}
+
+name_list_later_vendel = {
+		cadet_dynasty_names = {
+			#Proto Norse
+            dynn_Frawarading dynn_Godagasting dynn_Helding dynn_Hlewagasting dynn_Holting dynn_Hrabning dynn_Hrathing dynn_Hraring dynn_Kunimunding dynn_Leubing dynn_Mariing dynn_Naudigasting dynn_Skelbathewing dynn_Stainawaring dynn_Thrawing dynn_Ubing    
+		}
+
+		dynasty_names = {
+			#Proto Norse 
+            dynn_Frawarading dynn_Godagasting dynn_Helding dynn_Hlewagasting dynn_Holting dynn_Hrabning dynn_Hrathing dynn_Hraring dynn_Kunimunding dynn_Leubing dynn_Mariing dynn_Naudigasting dynn_Skelbathewing dynn_Stainawaring dynn_Thrawing dynn_Ubing   
+
+            #Frawarading Godagasting Helding Hlewagasting Holting Hrabning Hraþing Hraring Kunimunding Leubing Mariing Naudigasting Skelbaþewing Stainawaring Þrawing Ubing 
+		}
+		male_names = {   
+            Aithalatar Albigairar Andswarur Anulaibar Anuwindur Anula_pn Asugastir Asugisalar Audawulfar Balthawinir Bidawarijar Farawisa Frawaradar Frodo Frohila Fulkamerjar Godagastir Grimar Gunthiharjar Hadulaikar Hagiradar Harjabrandar Hathuwolafr Hathuwulafr Hariwolafr Haeruwulafr Harjawaldar Heldar Hugilaikar Harija Hlewagast Hlewagastir Holt Hravnar Hrathar Hrothigairar Hrothirikr Hrorar Hirila Iwar Kunimundir Leugar Landawarjar Mari_pn Maritheubar Naudigastir Niuwila Niujila Nithijo Owlthuthewar Raskar_pn Ingeldar Raginaharjar Raginawaldar Swabaharjar Saligastir Sigimarar Sigiwardur Skelbathewar Stainawar Thrawija Ubar Wagagastir Wage_pn Waldaharjar Wiwar Wiwilan Widugastir Widuhudar Woduride
+
+            #Aiþalatar Albigairar Andswarur Anulaibar Anuwindur Anula Asugastir Asugisalar Audawulfar Balþawinir Bidawarijar Farawisa Frawaradar Frodo Frohila Fulkamerjar Godagastir Grimar Gunþiharjar Hadulaikar Hagiradar Harjabrandar Haþuwolafr Haþuwulafr Hariwolafr Haeruwulafr Harjawaldar Heldar Hugilaikar Harija Hlewagast Hlewagastir Holt Hravnar Hraþar Hroþigairar Hroþirikr Hrorar Hirila Iwar Kunimundir Leugar Landawarjar Mari Mariþeubar Naudigastir Niuwila Niujila Niþijo Owlþuþewar Raskar Ingeldar Raginaharjar Raginawaldar Swabaharjar Saligastir Sigimarar Sigiwardur Skelbaþewar Stainawar Þrawija Ubar Wagagastir Wage Waldaharjar Wiwar Wiwilan Widugastir Widuhudar Woduride
+		}
+		female_names = { 
+            Audir Awa_pn Brunjohildir Badwohildir Ermunahildir Gudagebo Gunthir Gunthhildir Guntharuno Gundaruno Hludahildir Idibera Mahtihildir 
+
+            #Audir Awa Brunjohildir Badwohildir Ermunahildir Gudagebo Gunþir Gunþhildir Gunþaruno Gundaruno Hludahildir Idibera Mahtihildir 
+		}
+
+	dynasty_of_location_prefix = Locationprefix_ab			
+
+}
+
+name_list_proto_germanic = { 
+		cadet_dynasty_names = {
+            dynn_Agiling dynn_Agithewing dynn_Alariking dynn_Albiging dynn_Albiharing dynn_Andaswaring dynn_Ansulaibing dynn_Anulaibing dynn_Arowulfing dynn_Audariking dynn_Audawakring dynn_Audawarding dynn_Audawining dynn_Audawulfing dynn_Auziwandiling dynn_Athalagaing dynn_Balthawining dynn_Frithuberhting dynn_Frithuging dynn_Frithumunding dynn_Froding dynn_Fulkamering dynn_Gaizaharding dynn_Gaizawalding dynn_Gaizawulfing dynn_Griming dynn_Gunthiharing dynn_Gunthilaibing dynn_Gunthiwulfing dynn_Haimariking dynn_Harigasting dynn_Harjabranding dynn_Harjamoding dynn_Harjawalding dynn_Hrothiberhting dynn_Hrothiging dynn_Hrothiriking dynn_Hrothiwulfing dynn_Ingumering dynn_Kunjamunding dynn_Raginaharing dynn_Raginawalding dynn_Redawulfing dynn_Rikaharding dynn_Sigifrithing dynn_Sigimunding dynn_Sigiwarding dynn_Waldaharing dynn_Wiljahelming dynn_Theudobalthing dynn_Theudoberhting dynn_Theudomering dynn_Theudoriking
+		}
+
+		dynasty_names = {
+            dynn_Agiling dynn_Agithewing dynn_Alariking dynn_Albiging dynn_Albiharing dynn_Andaswaring dynn_Ansulaibing dynn_Anulaibing dynn_Arowulfing dynn_Audariking dynn_Audawakring dynn_Audawarding dynn_Audawining dynn_Audawulfing dynn_Auziwandiling dynn_Athalagaing dynn_Balthawining dynn_Frithuberhting dynn_Frithuging dynn_Frithumunding dynn_Froding dynn_Fulkamering dynn_Gaizaharding dynn_Gaizawalding dynn_Gaizawulfing dynn_Griming dynn_Gunthiharing dynn_Gunthilaibing dynn_Gunthiwulfing dynn_Haimariking dynn_Harigasting dynn_Harjabranding dynn_Harjamoding dynn_Harjawalding dynn_Hrothiberhting dynn_Hrothiging dynn_Hrothiriking dynn_Hrothiwulfing dynn_Ingumering dynn_Kunjamunding dynn_Raginaharing dynn_Raginawalding dynn_Redawulfing dynn_Rikaharding dynn_Sigifrithing dynn_Sigimunding dynn_Sigiwarding dynn_Waldaharing dynn_Wiljahelming dynn_Theudobalthing dynn_Theudoberhting dynn_Theudomering dynn_Theudoriking   
+		}
+		male_names = {  
+		    Agilaz Agithewaz Alariks Albigaizaz Albiharjaz Amalariks Andaswaraz Ansuberhtaz Ansuharjaz Ansulaibaz Ansuwaldaz Anulaibaz Anulo Arnuwulfaz Audamunduz Audariks Audawakraz Audawarduz Audawiniz Audawulfaz Auziwandilaz Athalagaizaz Athalawulfaz Balthawiniz Bernuharduz Frithuberhtaz Frithugaizaz Frithumunduz Frithuriks Frodo Fulkamerijaz Gaizaharduz Gaizariks Gaizawalda Gaizawulfaz Grimaz Gumasinthaz Gunthiharjaz Gunthilaibaz Gunthiwulfaz Haimariks Harigastiz Harjabrandaz Harjamodaz Harjawaldaz Hathuwulfaz Helpariks Hildiriks Hrothiberhtaz Hrothigaizaz Hrothiriks Hrothiwulfaz Ingeldaz Ingwomeraz Iwaz Kunjamunduz Othalariks Raginaharduz Raginaharjaz Raginawaldaz Redawulfaz Rikaharduz Sigiberhtaz Sigifrithuz Sigimeraz Sigimunduz Sigiwarduz Stainawarjaz Waldaharjaz Wiljahelmaz Theudobalthaz Theudoberhtaz Theudomeraz Theudoriks
+
+		    #Agilaz Agiþewaz Alariks Albigaizaz Albiharjaz Amalariks Andaswaraz Ansuberhtaz Ansuharjaz Ansulaibaz Ansuwaldaz Anulaibaz Anulo Arnuwulfaz Audamunduz Audariks Audawakraz Audawarduz Audawiniz Audawulfaz Auziwandilaz Aþalagaizaz Aþalawulfaz Balþawiniz Bernuharduz Friþuberhtaz Friþugaizaz Friþumunduz Friþuriks Frodo Fulkamerijaz Gaizaharduz Gaizariks Gaizawalda Gaizawulfaz Grimaz Gumasinþaz Gunþiharjaz Gunthilaibaz Gunthiwulfaz Haimariks Harigastiz Harjabrandaz Harjamodaz Harjawaldaz Haþuwulfaz Helpariks Hildiriks Hroþiberhtaz Hroþigaizaz Hroþiriks Hroþiwulfaz Ingeldaz Ingwomeraz Iwaz Kunjamunduz Oþalariks Raginaharduz Raginaharjaz Raginawaldaz Redawulfaz Rikaharduz Sigiberhtaz Sigifrithuz Sigimeraz Sigimunduz Sigiwarduz Stainawarjaz Waldaharjaz Wiljahelmaz Þeudobalþaz Þeudoberhtaz Þeudomeraz Þeudoriks
+		} 
+		female_names = { 
+		    Amalaswinth Athalagunthiz Ansuburgz Ansugebo Ansugunthiz Audi Audagunthiz Brunjohildiz Badwohildiz Ermunaburgz Ermunahildiz Ermunaswinth Gaizathruthiz Gunthhildiz Gudagebo Hludahildiz Kunjaswinth Leubagebo Leubawaro Mahtihildiz Othalaburgz Redaburgz Redagunthiz Rikathruthiz Saiwigeibo Saiwigunthiz Sigiburgz Theudiswinth Waldagunthiz Waldathruthiz Wiljogunthiz Winithruthiz Wulfagunthiz Wulfahildiz   
+		    # Amalaswinþ Aþalagunþiz Ansuburgz Ansugebo Ansugunþiz Audi Audagunþiz Brunjohildiz Badwohildiz Ermunaburgz Ermunahildiz Ermunaswinþ Gaizaþruþiz Gunþhildiz Gudagebo Hildiburgz Hludahildiz Kunjaswinþ Leubagebo Leubawaro Mahtihildiz Oþalaburgz Redaburgz Redagunþiz Rikaþruþiz Saiwigeibo Saiwigunþiz Sigiburgz Þeudiswinþ Waldagunþiz Waldathruthiz Wiljogunþiz Winiþruþiz Wulfagunþiz Wulfahildiz 
+		}
+
+	dynasty_of_location_prefix = Locationprefix_ab			
+
+}
+
+
+#Albigejani Albikharjani Annasarani Ansukharjani Ansulebani Odamunnuni Odavadduni Atalagejani Bernukhadduni Pritubettani Pritugejani Prodoni Gejakhadduni Gejarikani Pritubettani Grimani Gumasittani Guttilebani Guttivuppani Hemarikani Harjabrannani Rotirikani Ingomirani Otalarikani Raginakharjani Sigivadduni Tenavarjani Teudobanatani Teudomirani Teudorikani
+
+
+#Agila Agiteva Alarika Albigeja Albikharja Amalarika Annasara Ansubetta Ansukharja Ansuleba Ansuvadda Anuleba Anulo Arnuvuppa Odamunnu Odarika Odavakra Odavaddu Odavini Odavuppa Ojivannila Atalageja Atalavuppa Balatavini Bernukhaddu Pritubetta Pritugeja Pritumunnu Priturika Prodo Pulkamerija Gejakhaddu Gejarika Gejavadda Gejavuppa Grima Gumasitta Guttikharja Guttileba Guttivuppa Hemarika Harigati Harjabranna Harjamoda Harjavadda Hatuvuppa Hepparika Hiddirika Rotibetta Rotigeja Rotirika Rotivuppa Ingedda Ingomira Iva Kunjamunnu Otalarika Raginakhaddu Raginakharja Raginavadda Redavuppa Rikakhaddu Sigibeta Sigipritu Sigimira Sigimunnu Sigivaddu Tenavarja Vaddakharja Viljakhemma Teudobanata Teudobetta Teudomira Teudorika
+
+
+# Amalasitti Atalagutti Ansuburgi Ansugebo Ansugutti Odi Odagutti Brunjokhiddi Badokhiddi Ermunaburgi Ermunakhiddi Ermunasitti Gejatruti Guttiddi Gudagebo Hiddiburgi Ludakhiddi Kunjasitti Leubagebo Leubavaro Matikhiddi Otalaburgi Redaburgi Redagutti Rikatruti Sevigeibo Sevigutti Sigiburgi Teudisitti Vaddagutti Vaddatruti Viljogutti Vinitruti Vuppagutti Vuppakhiddi 
+
+# Tiva Vodana Pravjo Tunra Prijo Nettu
+
+# Tiwaz Wodanaz Frawjo Thunraz Frijjo Nerthuz

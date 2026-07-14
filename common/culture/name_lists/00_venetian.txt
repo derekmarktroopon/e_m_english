@@ -1,0 +1,87 @@
+﻿name_list_venetian = {
+		cadet_dynasty_names = {
+		    "dynn_Barbarigo" "dynn_Morosini" "dynn_Papaziza" "dynn_Dente" "dynn_Adoaldo" "dynn_Agadi" "dynn_Albizo" "dynn_Amizo" { "dynnp_di" "dynn_Antenori" }
+			"dynn_Arimondo" "dynn_Aventurado" "dynn_Badoer" "dynn_Baffo" "dynn_Balbi" "dynn_Barsiano" "dynn_Barozzi" "dynn_Bastio" "dynn_Bembo"
+			"dynn_Benedetto" { "dynnp_de" "dynn_De_Bernardo" } "dynn_Bobizo" { "dynnp_dalle" "dynn_Dalle_Boccole" } "dynn_Boldu" "dynn_Bollani" "dynn_Bon" "dynn_Bondulmier" 
+			"dynn_Boninsegna" "dynn_Bragadin" "dynn_Brizzi" "dynn_Cabalio" "dynn_Calbo" { "dynnp_da" "dynn_Da_Canal" } "dynn_Candian" "dynn_Caotorta" "dynn_Capello" "dynn_Caucho" "dynn_Centranigo" "dynn_Celsi"
+			"dynn_Condulmer" "dynn_Contarini" "dynn_Coppo" "dynn_Corner" "dynn_Correr" "dynn_Dandolo" "dynn_Darpin" "dynn_Diedo" "dynn_Dolfin" 
+			"dynn_Donado" "dynn_Duodo" "dynn_Emo" "dynn_Falier" "dynn_Fiabenigo" { "dynnp_della" "dynn_Della_Fontana" } "dynn_Foschari" "dynn_Foscarini" "dynn_Gabriel" { "dynnp_di" "dynn_Di_Garzoni" } "dynn_Gaulo" "dynn_Ghezzo" 
+	        "dynn_Ghisi" "dynn_Girardi" "dynn_Giustinian" "dynn_Gomberto" "dynn_Gradenigo" "dynn_Grimani" "dynn_Grioni" "dynn_Gritti"
+			"dynn_Guoro" "dynn_Ipato" "dynn_Lando" { "dynnp_da" "dynn_Da_Lezze" } "dynn_Lombardo" "dynn_Longo" "dynn_Loredan" { "dynnp_de" "dynn_De_Lorenzo" } "dynn_Magno" 
+			"dynn_Malipiero" "dynn_Marcelo" "dynn_Marin" "dynn_Marmora" "dynn_MaistroPiero" "dynn_Mazzaman" "dynn_Memo" { "dynnp_de" "dynn_De_Mezzo" } "dynn_Michiel" "dynn_Minio" "dynn_Mocenigo" "dynn_Monegario"
+			{ "dynnp_da" "dynn_Da_Molin" } "dynn_Moro" "dynn_Morosini" "dynn_Moresini" { "dynnp_da" "dynn_Da_Mosto" } { "dynnp_da" "dynn_Da_Mula" } "dynn_Nadal" "dynn_Nani" "dynn_Navager" "dynn_Nicola"
+			"dynn_Onoradi" "dynn_Orio" "dynn_Orsuolo" "dynn_Paradiso" "dynn_Pasqualigo" "dynn_Pesaro" "dynn_Pizaman" "dynn_Polani" { "dynnp_da" "dynn_Da_Ponte" } { "dynnp_da" "dynn_Da_Pozzo" }
+			"dynn_Premarin" "dynn_Priuli" "dynn_Querini" "dynn_Quintavalle" { "dynnp_de" "dynn_De_Riva" } "dynn_Sagredo" "dynn_Salamon" "dynn_Sanudo" "dynn_Selvo" "dynn_Signolo"
+			"dynn_Soranza" "dynn_Spirito" "dynn_Steno" "dynn_Storlado" "dynn_Stornado" "dynn_Tagliapietra" "dynn_Tanolico" "dynn_Tiepolo" "dynn_Tradomenego" "dynn_Tribun"
+			"dynn_Trivisan" "dynn_Tron" "dynn_Valaresso" "dynn_Vendramin" "dynn_Venier" "dynn_Viaro" "dynn_Vielmo" "dynn_Zanchani" "dynn_Zantani" "dynn_Zen" 
+			"dynn_Ziani"
+			"dynn_Zorzi" "dynn_Zusto" "dynn_Participazo" "dynn_Polo" "dynn_Zobenigo" "dynn_Memmo"  #"Polo_was not in the source that I found, but come on."
+
+			# Magister Militum dyn names of early venice
+			"dynn_Fabricio" "dynn_Tegalin"
+		}
+
+		dynasty_names = {
+	    	"dynn_Barbarigo" "dynn_Morosini" "dynn_Papaziza" "dynn_Dente" "dynn_Adoaldo" "dynn_Agadi" "dynn_Albizo" "dynn_Amizo" { "dynnp_di" "dynn_Antenori" }
+			"dynn_Arimondo" "dynn_Aventurado" "dynn_Badoer" "dynn_Baffo" "dynn_Balbi" "dynn_Barsiano" "dynn_Barozzi" "dynn_Bastio" "dynn_Bembo"
+			"dynn_Benedetto" { "dynnp_de" "dynn_De_Bernardo" } "dynn_Bobizo" { "dynnp_dalle" "dynn_Dalle_Boccole" } "dynn_Boldu" "dynn_Bollani" "dynn_Bon" "dynn_Bondulmier" 
+			"dynn_Boninsegna" "dynn_Bragadin" "dynn_Brizzi" "dynn_Cabalio" "dynn_Calbo" { "dynnp_da" "dynn_Da_Canal" } "dynn_Candian" "dynn_Caotorta" "dynn_Capello" "dynn_Caucho" "dynn_Centranigo" "dynn_Celsi"
+			"dynn_Condulmer" "dynn_Contarini" "dynn_Coppo" "dynn_Corner" "dynn_Correr" "dynn_Dandolo" "dynn_Darpin" "dynn_Diedo" "dynn_Dolfin" 
+			"dynn_Donado" "dynn_Duodo" "dynn_Emo" "dynn_Falier" "dynn_Fiabenigo" { "dynnp_della" "dynn_Della_Fontana" } "dynn_Foschari" "dynn_Foscarini" "dynn_Gabriel" { "dynnp_di" "dynn_Di_Garzoni" } "dynn_Gaulo" "dynn_Ghezzo" 
+	        "dynn_Ghisi" "dynn_Girardi" "dynn_Giustinian" "dynn_Gomberto" "dynn_Gradenigo" "dynn_Grimani" "dynn_Grioni" "dynn_Gritti"
+			"dynn_Guoro" "dynn_Ipato" "dynn_Lando" { "dynnp_da" "dynn_Da_Lezze" } "dynn_Lombardo" "dynn_Longo" "dynn_Loredan" { "dynnp_de" "dynn_De_Lorenzo" } "dynn_Magno" 
+			"dynn_Malipiero" "dynn_Marcelo" "dynn_Marin" "dynn_Marmora" "dynn_MaistroPiero" "dynn_Mazzaman" "dynn_Memo" { "dynnp_de" "dynn_De_Mezzo" } "dynn_Michiel" "dynn_Minio" "dynn_Mocenigo" "dynn_Monegario"
+			{ "dynnp_da" "dynn_Da_Molin" } "dynn_Moro" "dynn_Morosini" "dynn_Moresini" { "dynnp_da" "dynn_Da_Mosto" } { "dynnp_da" "dynn_Da_Mula" } "dynn_Nadal" "dynn_Nani" "dynn_Navager" "dynn_Nicola"
+			"dynn_Onoradi" "dynn_Orio" "dynn_Orsuolo" "dynn_Paradiso" "dynn_Pasqualigo" "dynn_Pesaro" "dynn_Pizaman" "dynn_Polani" { "dynnp_da" "dynn_Da_Ponte" } { "dynnp_da" "dynn_Da_Pozzo" }
+			"dynn_Premarin" "dynn_Priuli" "dynn_Querini" "dynn_Quintavalle" { "dynnp_de" "dynn_De_Riva" } "dynn_Sagredo" "dynn_Salamon" "dynn_Sanudo" "dynn_Selvo" "dynn_Signolo"
+			"dynn_Soranza" "dynn_Spirito" "dynn_Steno" "dynn_Storlado" "dynn_Stornado" "dynn_Tagliapietra" "dynn_Tanolico" "dynn_Tiepolo" "dynn_Tradomenego" "dynn_Tribun"
+			"dynn_Trivisan" "dynn_Tron" "dynn_Valaresso" "dynn_Vendramin" "dynn_Venier" "dynn_Viaro" "dynn_Vielmo" "dynn_Zanchani" "dynn_Zantani" "dynn_Zen" 
+			"dynn_Ziani"
+			"dynn_Zorzi" "dynn_Zusto" "dynn_Participazo" "dynn_Polo" "dynn_Zobenigo" "dynn_Memmo"  #"Polo_was not in the source that I found, but come on."
+		}
+
+		male_names = {
+			9 = {
+				Piero
+			}
+			9 = {
+				Domenego Zuane
+			}
+			3 = {
+				Andrea
+			}
+			4 = {
+				Francescho Vidal
+			}
+			10 = {
+				Antonio Lorenzo Marco Marin Nicolo Orsso
+			}
+			5 = {
+				Agustin Anzolo Jacomo Iacomo Michiel
+			}
+			61 = {
+				Alexander Aloysius Alvise Ambrogio Ambrosius Ambroso Angelo Annibale Aurelio Auro Austin Bado Baldissere Bartholomio Bastian Bastiano Batista Battista Benedetto Benetto Bernardin Bernardo Biasio Bortholo Bortolamio Bortolo Camillus Carlo Claudio Cristofalo Cristofolo Diodato Dionisio Enrigo Fazzin Filippo Gabriele Galeazzo Galla Gasparo Giacomo Giambattista Gieronimo Giovanbattista Giovanni Giovanni_Battista Girolamo Giulio Guglielmo Hieronimo Ippolito Iulio Iustinian Lazaro Lunardo Leonardo Lodovico Luca Lunardo Magno Marcantonio Marcello Marco_Antonio Martin Mercurio Miro Moricio Obelnigerio Ordelafo Otto Paolo Pasqual Pasqualin Paulo Petro PierAntonio Raffaele Renier Rocco Rugir Salvador Salvator Sebastian Stefano Teodor Tobias Tomado Tomaso Tommaso Tranquilo Tribun Valentin Valerio Ventura Venturo Vincenzo Vittorio Vivian Zacharia Zago Zanetto Zordan Zorzi Zuan Zuan_Antonio Zuandomenego ZuanGiacomo Zuann Zuanne Zuano
+			}   
+			1 = { #Italianized forms attested
+				Fantin Bon Simon Abondio Abondansio Boldo_ven Leon
+			}
+		}
+
+		female_names = {
+			3 = {
+				Cornelia Marcella
+			}
+			97 = {
+		    	Agnese Agnesina Alba Alessandra Anastasia Andriana Angela Angelica Anna Antonia Anzola Barbara Bella Benetta Benvegnuda Betta Bettina Bianca Borthola Camilla Cassandra Catarina Caterina Cattarina Catterina Cecilia Chiara Chiaretta Christina Clara Claudia Contarina Corona Cristina Daniela Diana Dianora Dionora Elena Elisabetta Emilia Eugenia Faustina Felicita_ven Fiametta Filomena Fiordelise Fiorenza Franceschina Gabriella Gaspara Giulia Giustina Gratiosa Helena Helia Hortensa Iacoma Isabella Isabetta Iseppa Jacomina Julia Justina Laura Lavinia Leandra Leonarda Libera Livia Lodovica Lucia Lucieta Lucrezia Lugretia Madalena Maddalena Margarita Margherita Maria Marieta Marina Marita Matthia Menega Meneghina Moderata Nicolosa Olivia Orelia Orsa Orseta Orsolina Osana Paola Paolina Pasqueta Paula Paulissena Pelegrina Perina Philippa Pollonia Polonia Portia Prudentia Pulisena Pulissena Regina Rosa Sabina Samaritana Santina Simona Simonetta Stella Susanna Thomasina Tomasina Valentina Valeria Vendramina Venedranda Veniera Veronica Viena Vienna Vincenza Violante Virginia Vittoria Zaneta Zanetta Zuanna
+			}
+			1 = { #Italianized forms attested
+				Rizarda
+			}	
+		}
+	
+	dynasty_of_location_prefix = "dynnp_de"		
+
+	patronym_prefix_male = "dynnpat_pre_de"
+	patronym_prefix_female = "dynnpat_pre_de"		
+
+}

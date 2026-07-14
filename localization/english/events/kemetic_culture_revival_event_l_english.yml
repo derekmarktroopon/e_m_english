@@ -1,0 +1,59 @@
+﻿l_english:
+
+kemetic_revival_event.1.t:0 "Whispers of The Nile"
+kemetic_revival_event.1.desc:0 "Traveling on the banks of the Nile, I often ponder on the history that these ancient lands have seen, and of those who existed here before me. Looking on past the green of the Nile's banks, I now wonder if the deserts may hold some of the secrets that I seek."
+kemetic_revival_event.1.a:0 "I wonder what could be hiding out there,"
+kemetic_revival_event.1.b:0 "Bah, best not to waste my time."
+kemetic_revival_event.2.t:0 "Whispers of The Nile: An empty Desert"
+kemetic_revival_event.2.desc:0 "I have been wandering through the Egyptian Deserts for days, finding nothing but sand, traders and the occasional oasis, and my folly has brought me nothing but time from my family wasted."
+kemetic_revival_event.2.a:0 "And my shoes are filled with sand,"
+kemetic_revival_event.3.t:0 "Whispers of The Nile: A Grand Discovery"
+kemetic_revival_event.3.desc:0 "After days of wandering about in the dry wilderness and deserts close to the Nile, I have eventualy found the enterance to a massive structure. Upon entering I found countless decorated items of furniture, linen wrapped animals along with objects of all sorts, though it is clear that scavangers had been here before me. Heading into a hidden room, I find an ornate golden coffin, surrounded by priceless treasures, and more linen wrapped bodies. The walls are covered in images of strange, animal headed gods, along with many series of cryptic glyphs, perhaps hidding the secrets of this ancient place."
+kemetic_revival_event.3.a:0 "These treasures will serve me well!"
+kemetic_revival_event.3.b:0 "I wonder if these glyphs can be diciphered?"
+kemetic_revival_event.4.t:0 "Cryptic Messages: An elusive script"
+kemetic_revival_event.4.desc:0 "Both I and my head priest are left exausted after days of fruitlessly labouring to dicipher what these glyphs could mean. Are they an undicovered language? A code of dates? Only one thing is sure, that this will take a long time to figure out."
+kemetic_revival_event.4.a:0 "This has been a waste of time"
+kemetic_revival_event.4.b:0 "Let's keep trying"
+kemetic_revival_event.5.t:0 "Cryptic Messages: Undicipherable"
+kemetic_revival_event.5.desc:0 "After months of trying, both me and my Head Priest have made little progress. Now that other matters call my attention, I can no longer afford to waste any more time or resouces on this folly."
+kemetic_revival_event.5.a:0 "Oh well"
+kemetic_revival_event.6.t:0 "Cryptic Messages: A helpful Tounge"
+kemetic_revival_event.6.desc:0 "Looking for a missing link to this ancient civilization, my High Priest has suggested that there may be links between the ancient inhabitants of these lands, and those who lived here before us, the Copts. In a bid to see if there culture may help me better understand these glyphs, I have painstakingly devoted myself to learning their language. Is it possible that this tounge may be connected to the contents of this ancient script?"
+kemetic_revival_event.6.a: "Is this the key?"
+kemetic_revival_event.7.t:0 "Cryptic Messages: Eureka!"
+kemetic_revival_event.7.desc:0 "We've done it! After comparing texts of these Heiroglyphs with the coptic language (and a helpful text of papyrus, filled with both an easier version of these glyphs, and with a primative form of Greek) we have managed to crack the code of this ancient language! So much information on this ancient civilization has been unlocked, their beliefs, their ways of life, their history, I can understand it all!"
+kemetic_revival_event.7.a:0 "What a wonderful language!"
+kemetic_revival_event.7.b:0 "What if I adopted some of these ancient practices as my own?"
+kemetic_revival_event.7.c:0 "We should devise a rebirth this magnificant culture!"
+kemetic_revival_event.7.d:0 "The purity of these ancient ways shall be returned in whole!!"
+kemetic_revival_event.7.e:0 "ALL HAIL THE SUPREME VOICE OF RA!!!"
+kemetic_revival_event.7.edesc:0 "You kill your dissenting court chaplain."
+
+kemetic_revival_event.1.adesc:0 "You start looking for ancient structures" #You start looking for ancient structures
+kemetic_revival_event.1.bdesc:0 "You carry on with your life as usual" #You carry on with your life as usual
+kemetic_revival_event.2.adesc:0 "You return home" #You return home
+kemetic_revival_event.3.adesc:0 "You return home, pockets full" #You return home, pockets full
+kemetic_revival_event.3.bdesc:0 "You start investigating the strange glyphs" #You start investigating the strange glyphs
+kemetic_revival_event.4.adesc:0 "You give up" #You give up
+kemetic_revival_event.4.bdesc:0 "You continue to try dicipering the glyphs" #You continue to try dicipering the glyphs
+kemetic_revival_event.5.adesc:0 "You have failed to dicipher the glyphs" #You have failed to dicipher the glyphs
+kemetic_revival_event.6.adesc:0 "you have learned the Coptic language" #you have learned the coptic language
+
+kemetic_revival_event.9.t:0 "Cryptic Messages"
+kemetic_revival_event.9.desc:0 "Having traced copies of the glyphs from their desert tomb, I have made it my mission to uncover the secrets of these ancient Egyptians. My Head Priest arrives with a pile of books, ready to assist in this ambitious endevour."
+kemetic_revival_event.9.a:0 "Time to hit the pages!"
+kemetic_revival_event.9.adesc:0 "You begin trying to decipher the Heiroglyphic script"
+
+
+# descisions
+
+look_for_egyptian_tomb_decision:0 "Wander into the Desert"
+look_for_egyptian_tomb_decision_desc:0 "The deserts beyond the banks of the Nile, though empty and daunting seem to call those who are brave enough to explore it."
+look_for_egyptian_tomb_decision_tooltip:0 "You wander into the desert, beside the banks of the river nile."
+look_for_egyptian_tomb_decision_confirm:0 "Is there something out there?."
+
+study_the_heiroglyphs_decision:0 "Study the Heiroglyphs."
+study_the_heiroglyphs_decision_desc:0 "A previous ruler of these lands has gained great fame for their discovery of an Ancient Egyptian tomb, however their strange codes, written on the tomb walls, remain undicipered. With a lot of effort, maybe it's possible to complete this feat, and gain a little fame for myself."
+study_the_heiroglyphs_decision_tooltip:0 "You start studying the strange glyphs"
+study_the_heiroglyphs_decision_confirm:0 "Time to hit the study!"

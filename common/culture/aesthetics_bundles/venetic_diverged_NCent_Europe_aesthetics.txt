@@ -1,0 +1,794 @@
+﻿venetic_proto_germanic_aesthetic = {
+	is_shown = {
+		current_date < 250
+		scope:character = {
+			culture = {
+				AND = {
+					has_cultural_pillar = language_venetic_culture
+					has_name_list = name_list_venetic_culture
+				}
+			}
+			any_sub_realm_county = {
+				AND = {
+					culture = root.culture
+					OR = {
+						any_this_title_or_de_jure_above = { this = title:d_flanders }
+						any_this_title_or_de_jure_above = { this = title:d_brabant }
+						any_this_title_or_de_jure_above = { this = title:d_luxembourg }
+						any_this_title_or_de_jure_above = { this = title:d_julich }
+						any_this_title_or_de_jure_above = { this = title:d_lower_lorraine }
+						any_this_title_or_de_jure_above = { this = title:d_gelre }
+						any_this_title_or_de_jure_above = { this = title:d_utrecht }
+						any_this_title_or_de_jure_above = { this = title:d_holland }
+						any_this_title_or_de_jure_above = { this = title:d_frisia }
+						any_this_title_or_de_jure_above = { this = title:d_westfalen }
+						any_this_title_or_de_jure_above = { this = title:d_angria }
+						any_this_title_or_de_jure_above = { this = title:d_holstein }
+						any_this_title_or_de_jure_above = { this = title:d_ostfalen }
+						any_this_title_or_de_jure_above = { this = title:d_anhalt }
+						any_this_title_or_de_jure_above = { this = title:d_meissen }
+						any_this_title_or_de_jure_above = { this = title:d_lausitz }
+						any_this_title_or_de_jure_above = { this = title:d_ostmark }
+						any_this_title_or_de_jure_above = { this = title:d_nordmark }
+						any_this_title_or_de_jure_above = { this = title:d_hesse }
+						any_this_title_or_de_jure_above = { this = title:d_thuringia }
+						any_this_title_or_de_jure_above = { this = title:d_upper_lorraine }
+						any_this_title_or_de_jure_above = { this = title:d_alsace }
+						any_this_title_or_de_jure_above = { this = title:d_west_franconia }
+						any_this_title_or_de_jure_above = { this = title:d_east_franconia }
+						any_this_title_or_de_jure_above = { this = title:d_nordgau }
+						any_this_title_or_de_jure_above = { this = title:d_bavaria }
+						any_this_title_or_de_jure_above = { this = title:d_salzburg }
+						any_this_title_or_de_jure_above = { this = title:d_nordgau }
+						any_this_title_or_de_jure_above = { this = title:d_osterreich }
+						any_this_title_or_de_jure_above = { this = title:d_bohemia }
+						any_this_title_or_de_jure_above = { this = title:d_moravia }
+						any_this_title_or_de_jure_above = { this = title:d_lesser_poland }
+						any_this_title_or_de_jure_above = { this = title:d_wielkopolska }
+						any_this_title_or_de_jure_above = { this = title:d_mazovia }
+						any_this_title_or_de_jure_above = { this = title:d_upper_silesia }
+						any_this_title_or_de_jure_above = { this = title:d_lower_silesia }
+						any_this_title_or_de_jure_above = { this = title:d_kuyavia }
+						any_this_title_or_de_jure_above = { this = title:d_pommerania }
+						any_this_title_or_de_jure_above = { this = title:d_pomerelia }
+						any_this_title_or_de_jure_above = { this = title:d_grodno }
+						any_this_title_or_de_jure_above = { this = title:d_pinsk }
+						any_this_title_or_de_jure_above = { this = title:d_minsk }
+						any_this_title_or_de_jure_above = { this = title:d_polotsk }
+						any_this_title_or_de_jure_above = { this = title:d_smolensk }
+						any_this_title_or_de_jure_above = { this = title:d_opolye }
+						any_this_title_or_de_jure_above = { this = title:d_volhynia }
+						any_this_title_or_de_jure_above = { this = title:d_halych }
+						any_this_title_or_de_jure_above = { this = title:d_cherven_cities }
+						any_this_title_or_de_jure_above = { this = title:d_kiev }
+						any_this_title_or_de_jure_above = { this = title:d_turov }
+						any_this_title_or_de_jure_above = { this = title:d_pereyaslavl }
+						any_this_title_or_de_jure_above = { this = title:d_chernigov }
+						any_this_title_or_de_jure_above = { this = title:d_ryazan }
+						any_this_title_or_de_jure_above = { this = title:d_karachev }
+						any_this_title_or_de_jure_above = { this = title:d_novosil }
+						any_this_title_or_de_jure_above = { this = title:d_novgorod }
+						any_this_title_or_de_jure_above = { this = title:d_vepsia }
+						any_this_title_or_de_jure_above = { this = title:d_luki }
+						any_this_title_or_de_jure_above = { this = title:d_prussia }
+						any_this_title_or_de_jure_above = { this = title:d_masuria }
+						any_this_title_or_de_jure_above = { this = title:d_esthonia }
+						any_this_title_or_de_jure_above = { this = title:d_livonia }
+						any_this_title_or_de_jure_above = { this = title:d_lithuanians }
+						any_this_title_or_de_jure_above = { this = title:d_courland }
+						any_this_title_or_de_jure_above = { this = title:d_latgalians }
+						any_this_title_or_de_jure_above = { this = title:d_samogitia }
+						any_this_title_or_de_jure_above = { this = title:d_sjaelland }
+						any_this_title_or_de_jure_above = { this = title:d_skane }
+						any_this_title_or_de_jure_above = { this = title:d_jylland }
+						any_this_title_or_de_jure_above = { this = title:d_slesvig }
+						any_this_title_or_de_jure_above = { this = title:d_jylland }
+						any_this_title_or_de_jure_above = { this = title:d_slesvig }
+						any_this_title_or_de_jure_above = { this = title:d_svealand }
+						any_this_title_or_de_jure_above = { this = title:d_bergslagen }
+						any_this_title_or_de_jure_above = { this = title:d_vastergotland }
+						any_this_title_or_de_jure_above = { this = title:d_ostergotland }
+						any_this_title_or_de_jure_above = { this = title:d_smaland }
+						any_this_title_or_de_jure_above = { this = title:d_norrland }
+						any_this_title_or_de_jure_above = { this = title:d_gotland }
+						any_this_title_or_de_jure_above = { this = title:d_viken }
+						any_this_title_or_de_jure_above = { this = title:d_agder }
+						any_this_title_or_de_jure_above = { this = title:d_vestlandi }
+						any_this_title_or_de_jure_above = { this = title:d_trandalog }
+						any_this_title_or_de_jure_above = { this = title:d_dalir }
+						any_this_title_or_de_jure_above = { this = title:d_halogaland }
+						any_this_title_or_de_jure_above = { this = title:d_jamtland }
+					}
+				}
+			}
+		}
+	}
+
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+
+	name_list = name_list_winitken_pg
+
+	#ai_will_do = {
+	#	value = 10
+	#	if = {
+	#		NOT = {
+	#			scope:character = { has_trait = stubborn }
+	#		}
+	#		multiply = 5
+	#	}
+	#}
+}
+
+venetic_dutch_aesthetic = {
+	is_shown = {
+		current_date >= 250
+		scope:character = {
+			culture = {
+				OR = {
+					AND = {
+						has_cultural_pillar = language_venetic_culture
+						has_name_list = name_list_venetic_culture
+					}
+					has_name_list = name_list_winitken_pg
+				}
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				AND = {
+					culture = root.culture
+					OR = {
+						any_this_title_or_de_jure_above = { this = title:d_flanders }
+						any_this_title_or_de_jure_above = { this = title:d_brabant }
+						any_this_title_or_de_jure_above = { this = title:d_luxembourg }
+						any_this_title_or_de_jure_above = { this = title:d_julich }
+						any_this_title_or_de_jure_above = { this = title:d_lower_lorraine }
+						any_this_title_or_de_jure_above = { this = title:d_gelre }
+						any_this_title_or_de_jure_above = { this = title:d_utrecht }
+					}
+				}
+			}
+		}
+	}
+
+	coa_gfx = { frisian_coa_gfx german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 
+
+	name_list = name_list_venetic_dutch
+
+}
+
+venetic_dutch_biblical_aesthetic = {
+	is_shown = {
+		current_date >= 250
+		scope:character = {
+			culture = {
+				OR = {
+					AND = {
+						has_cultural_pillar = language_venetic_culture
+						has_name_list = name_list_venetic_culture
+					}
+					has_name_list = name_list_winitken_pg
+				}
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				AND = {
+					culture = root.culture
+					OR = {
+						any_this_title_or_de_jure_above = { this = title:d_flanders }
+						any_this_title_or_de_jure_above = { this = title:d_brabant }
+						any_this_title_or_de_jure_above = { this = title:d_luxembourg }
+						any_this_title_or_de_jure_above = { this = title:d_julich }
+						any_this_title_or_de_jure_above = { this = title:d_lower_lorraine }
+						any_this_title_or_de_jure_above = { this = title:d_gelre }
+						any_this_title_or_de_jure_above = { this = title:d_utrecht }
+					}
+				}
+			}
+		}
+	}
+
+	coa_gfx = { frisian_coa_gfx german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 
+
+	name_list = name_list_venetic_dutch_biblical
+
+}
+
+venetic_frisian_aesthetic = {
+	is_shown = {
+		current_date >= 250
+		scope:character = {
+			culture = {
+				OR = {
+					has_name_list = name_list_venetic_culture
+					has_name_list = name_list_winitken_pg
+				}
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_holland }
+					any_this_title_or_de_jure_above = { this = title:d_frisia }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { frisian_coa_gfx german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 
+
+	name_list = name_list_venetic_frisian
+
+}
+
+venetic_frisian_biblical_aesthetic = {
+	is_shown = {
+		current_date >= 250
+		scope:character = {
+			culture = {
+				OR = {
+					has_name_list = name_list_venetic_culture
+					has_name_list = name_list_winitken_pg
+				}
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_holland }
+					any_this_title_or_de_jure_above = { this = title:d_frisia }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { frisian_coa_gfx german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 
+
+	name_list = name_list_venetic_frisian_biblical
+
+}
+
+venetic_saxon_aesthetic = {
+	is_shown = {
+		current_date >= 250
+		scope:character = {
+			culture = {
+				OR = {
+					has_name_list = name_list_venetic_culture
+					has_name_list = name_list_winitken_pg
+				}
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_westfalen }
+					any_this_title_or_de_jure_above = { this = title:d_angria }
+					any_this_title_or_de_jure_above = { this = title:d_holstein }
+					any_this_title_or_de_jure_above = { this = title:d_ostfalen }
+					any_this_title_or_de_jure_above = { this = title:d_anhalt }
+					any_this_title_or_de_jure_above = { this = title:d_meissen }
+					any_this_title_or_de_jure_above = { this = title:d_lausitz }
+					any_this_title_or_de_jure_above = { this = title:d_ostmark }
+					any_this_title_or_de_jure_above = { this = title:d_nordmark }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+	name_list = name_list_venetic_saxon
+
+}
+
+venetic_saxon_biblical_aesthetic = {
+	is_shown = {
+		current_date >= 250
+		scope:character = {
+			culture = {
+				OR = {
+					has_name_list = name_list_venetic_culture
+					has_name_list = name_list_winitken_pg
+				}
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_westfalen }
+					any_this_title_or_de_jure_above = { this = title:d_angria }
+					any_this_title_or_de_jure_above = { this = title:d_holstein }
+					any_this_title_or_de_jure_above = { this = title:d_ostfalen }
+					any_this_title_or_de_jure_above = { this = title:d_anhalt }
+					any_this_title_or_de_jure_above = { this = title:d_meissen }
+					any_this_title_or_de_jure_above = { this = title:d_lausitz }
+					any_this_title_or_de_jure_above = { this = title:d_ostmark }
+					any_this_title_or_de_jure_above = { this = title:d_nordmark }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+	name_list = name_list_venetic_saxon_biblical
+
+}
+
+venetic_german_aesthetic = {
+	is_shown = {
+		current_date >= 250
+		scope:character = {
+			culture = {
+				OR = {
+					has_name_list = name_list_venetic_culture
+					has_name_list = name_list_winitken_pg
+				}
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_hesse }
+					any_this_title_or_de_jure_above = { this = title:d_thuringia }
+					any_this_title_or_de_jure_above = { this = title:d_upper_lorraine }
+					any_this_title_or_de_jure_above = { this = title:d_alsace }
+					any_this_title_or_de_jure_above = { this = title:d_west_franconia }
+					any_this_title_or_de_jure_above = { this = title:d_east_franconia }
+					any_this_title_or_de_jure_above = { this = title:d_nordgau }
+					any_this_title_or_de_jure_above = { this = title:d_bavaria }
+					any_this_title_or_de_jure_above = { this = title:d_salzburg }
+					any_this_title_or_de_jure_above = { this = title:d_osterreich }
+					any_this_title_or_de_jure_above = { this = title:d_bohemia }
+					any_this_title_or_de_jure_above = { this = title:d_moravia }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx }
+
+	name_list = name_list_venetic_german
+
+}
+
+venetic_german_biblical_aesthetic = {
+	is_shown = {
+		current_date >= 250
+		scope:character = {
+			culture = {
+				OR = {
+					has_name_list = name_list_venetic_culture
+					has_name_list = name_list_winitken_pg
+				}
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_hesse }
+					any_this_title_or_de_jure_above = { this = title:d_thuringia }
+					any_this_title_or_de_jure_above = { this = title:d_upper_lorraine }
+					any_this_title_or_de_jure_above = { this = title:d_alsace }
+					any_this_title_or_de_jure_above = { this = title:d_west_franconia }
+					any_this_title_or_de_jure_above = { this = title:d_east_franconia }
+					any_this_title_or_de_jure_above = { this = title:d_nordgau }
+					any_this_title_or_de_jure_above = { this = title:d_bavaria }
+					any_this_title_or_de_jure_above = { this = title:d_salzburg }
+					any_this_title_or_de_jure_above = { this = title:d_nordgau }
+					any_this_title_or_de_jure_above = { this = title:d_osterreich }
+					any_this_title_or_de_jure_above = { this = title:d_bohemia }
+					any_this_title_or_de_jure_above = { this = title:d_moravia }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx }
+
+	name_list = name_list_venetic_german_biblical
+
+}
+
+venetic_gothic_aesthetic = {
+	is_shown = {
+		current_date >= 250
+		scope:character = {
+			culture = {
+				OR = {
+					has_name_list = name_list_venetic_culture
+					has_name_list = name_list_winitken_pg
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_lesser_poland }
+					any_this_title_or_de_jure_above = { this = title:d_wielkopolska }
+					any_this_title_or_de_jure_above = { this = title:d_upper_silesia }
+					any_this_title_or_de_jure_above = { this = title:d_lower_silesia }
+					any_this_title_or_de_jure_above = { this = title:d_kuyavia }
+					any_this_title_or_de_jure_above = { this = title:d_pommerania }
+					any_this_title_or_de_jure_above = { this = title:d_pomerelia }
+					any_this_title_or_de_jure_above = { this = title:d_halych }
+					any_this_title_or_de_jure_above = { this = title:d_cherven_cities }
+					any_this_title_or_de_jure_above = { this = title:d_yedisan }
+					any_this_title_or_de_jure_above = { this = title:d_kizilyedisan }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { west_slavic_clothing_gfx western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	name_list = name_list_venetic_gothic
+}
+
+venetic_slavic_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			any_sub_realm_county = {
+				OR = { #Sorry to group the baltics in with the proto-slavs for now
+					any_this_title_or_de_jure_above = { this = title:d_mazovia }#Exclude 
+					any_this_title_or_de_jure_above = { this = title:d_prussia }
+					any_this_title_or_de_jure_above = { this = title:d_masuria }
+					any_this_title_or_de_jure_above = { this = title:d_volhynia }
+					any_this_title_or_de_jure_above = { this = title:d_kiev }
+					any_this_title_or_de_jure_above = { this = title:d_grodno }
+					any_this_title_or_de_jure_above = { this = title:d_turov }
+					any_this_title_or_de_jure_above = { this = title:d_pereyaslavl }
+					any_this_title_or_de_jure_above = { this = title:d_chernigov }
+					any_this_title_or_de_jure_above = { this = title:d_ryazan }
+					any_this_title_or_de_jure_above = { this = title:d_karachev }
+					any_this_title_or_de_jure_above = { this = title:d_novosil }
+					any_this_title_or_de_jure_above = { this = title:d_novgorod }
+					any_this_title_or_de_jure_above = { this = title:d_vepsia }
+					any_this_title_or_de_jure_above = { this = title:d_luki }
+					any_this_title_or_de_jure_above = { this = title:d_pinsk }
+					any_this_title_or_de_jure_above = { this = title:d_minsk }
+					any_this_title_or_de_jure_above = { this = title:d_polotsk }
+					any_this_title_or_de_jure_above = { this = title:d_smolensk }
+					any_this_title_or_de_jure_above = { this = title:d_opolye }
+					any_this_title_or_de_jure_above = { this = title:d_esthonia }#Exclude Baltics later
+					any_this_title_or_de_jure_above = { this = title:d_livonia }
+					any_this_title_or_de_jure_above = { this = title:d_lithuanians }
+					any_this_title_or_de_jure_above = { this = title:d_courland }
+					any_this_title_or_de_jure_above = { this = title:d_latgalians }
+					any_this_title_or_de_jure_above = { this = title:d_samogitia }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	name_list = name_list_venetic_slavic
+
+}
+
+venetic_norse_aesthetic = {
+	is_shown = {
+		current_date >= 250
+		scope:character = {
+			culture = {
+				OR = {
+					has_name_list = name_list_venetic_culture
+					has_name_list = name_list_winitken_pg
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_iceland }
+					any_this_title_or_de_jure_above = { this = title:d_northern_isles }
+					any_this_title_or_de_jure_above = { this = title:d_sjaelland }
+					any_this_title_or_de_jure_above = { this = title:d_skane }
+					any_this_title_or_de_jure_above = { this = title:d_jylland }
+					any_this_title_or_de_jure_above = { this = title:d_slesvig }
+					any_this_title_or_de_jure_above = { this = title:d_jylland }
+					any_this_title_or_de_jure_above = { this = title:d_slesvig }
+					any_this_title_or_de_jure_above = { this = title:d_svealand }
+					any_this_title_or_de_jure_above = { this = title:d_bergslagen }
+					any_this_title_or_de_jure_above = { this = title:d_vastergotland }
+					any_this_title_or_de_jure_above = { this = title:d_ostergotland }
+					any_this_title_or_de_jure_above = { this = title:d_smaland }
+					any_this_title_or_de_jure_above = { this = title:d_norrland }
+					any_this_title_or_de_jure_above = { this = title:d_gotland }
+					any_this_title_or_de_jure_above = { this = title:d_viken }
+					any_this_title_or_de_jure_above = { this = title:d_agder }
+					any_this_title_or_de_jure_above = { this = title:d_vestlandi }
+					any_this_title_or_de_jure_above = { this = title:d_trandalog }
+					any_this_title_or_de_jure_above = { this = title:d_dalir }
+					any_this_title_or_de_jure_above = { this = title:d_halogaland }
+					any_this_title_or_de_jure_above = { this = title:d_jamtland }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+
+	name_list = name_list_venetic_norse
+
+}
+
+venetic_icelandic_aesthetic = {
+	is_shown = {
+		current_date >= 900
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_norse
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_iceland }
+					any_this_title_or_de_jure_above = { this = title:d_northern_isles }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+
+	name_list = name_list_venetic_icelandic
+
+}
+
+venetic_danish_aesthetic = {
+	is_shown = {
+		current_date >= 900
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_norse
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_sjaelland }
+					any_this_title_or_de_jure_above = { this = title:d_skane }
+					any_this_title_or_de_jure_above = { this = title:d_jylland }
+					any_this_title_or_de_jure_above = { this = title:d_slesvig }
+					any_this_title_or_de_jure_above = { this = title:d_jylland }
+					any_this_title_or_de_jure_above = { this = title:d_slesvig }
+				}
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+		}
+	}
+
+	coa_gfx = { danish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	name_list = name_list_venetic_danish
+}
+
+venetic_danish_biblical_aesthetic = {
+	is_shown = {
+		current_date >= 900
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_norse
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_sjaelland }
+					any_this_title_or_de_jure_above = { this = title:d_skane }
+					any_this_title_or_de_jure_above = { this = title:d_jylland }
+					any_this_title_or_de_jure_above = { this = title:d_slesvig }
+					any_this_title_or_de_jure_above = { this = title:d_jylland }
+					any_this_title_or_de_jure_above = { this = title:d_slesvig }
+				}
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+		}
+	}
+
+	coa_gfx = { danish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	name_list = name_list_venetic_danish_biblical
+
+}
+
+venetic_swedish_aesthetic = {
+	is_shown = {
+		current_date >= 900
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_norse
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_svealand }
+					any_this_title_or_de_jure_above = { this = title:d_bergslagen }
+					any_this_title_or_de_jure_above = { this = title:d_vastergotland }
+					any_this_title_or_de_jure_above = { this = title:d_ostergotland }
+					any_this_title_or_de_jure_above = { this = title:d_smaland }
+					any_this_title_or_de_jure_above = { this = title:d_norrland }
+					any_this_title_or_de_jure_above = { this = title:d_gotland }
+				}
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+		}
+	}
+
+	coa_gfx = { swedish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	name_list = name_list_venetic_swedish
+
+}
+
+venetic_swedish_biblical_aesthetic = {
+	is_shown = {
+		current_date >= 900
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_norse
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_svealand }
+					any_this_title_or_de_jure_above = { this = title:d_bergslagen }
+					any_this_title_or_de_jure_above = { this = title:d_vastergotland }
+					any_this_title_or_de_jure_above = { this = title:d_ostergotland }
+					any_this_title_or_de_jure_above = { this = title:d_smaland }
+					any_this_title_or_de_jure_above = { this = title:d_norrland }
+					any_this_title_or_de_jure_above = { this = title:d_gotland }
+				}
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+		}
+	}
+
+	coa_gfx = { swedish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	name_list = name_list_venetic_swedish_biblical
+
+}
+
+venetic_norwegian_aesthetic = {
+	is_shown = {
+		current_date >= 900
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_norse
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_viken }
+					any_this_title_or_de_jure_above = { this = title:d_agder }
+					any_this_title_or_de_jure_above = { this = title:d_vestlandi }
+					any_this_title_or_de_jure_above = { this = title:d_trandalog }
+					any_this_title_or_de_jure_above = { this = title:d_dalir }
+					any_this_title_or_de_jure_above = { this = title:d_halogaland }
+					any_this_title_or_de_jure_above = { this = title:d_jamtland }
+				}
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+		}
+	}
+
+	coa_gfx = { norwegian_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	name_list = name_list_venetic_norwegian
+
+}
+
+venetic_norwegian_biblical_aesthetic = {
+	is_shown = {
+		current_date >= 900
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_norse
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_viken }
+					any_this_title_or_de_jure_above = { this = title:d_agder }
+					any_this_title_or_de_jure_above = { this = title:d_vestlandi }
+					any_this_title_or_de_jure_above = { this = title:d_trandalog }
+					any_this_title_or_de_jure_above = { this = title:d_dalir }
+					any_this_title_or_de_jure_above = { this = title:d_halogaland }
+					any_this_title_or_de_jure_above = { this = title:d_jamtland }
+				}
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+		}
+	}
+
+	coa_gfx = { norwegian_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	name_list = name_list_venetic_norwegian_biblical
+
+}

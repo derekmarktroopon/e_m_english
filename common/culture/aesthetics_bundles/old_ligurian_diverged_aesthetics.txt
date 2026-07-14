@@ -1,0 +1,53 @@
+﻿neo_ligurian_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_old_ligurian
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_venice }
+					any_this_title_or_de_jure_above = { this = title:d_friuli }
+					any_this_title_or_de_jure_above = { this = title:d_verona }
+					any_this_title_or_de_jure_above = { this = title:d_istria }
+					any_this_title_or_de_jure_above = { this = title:d_lombardia }
+					any_this_title_or_de_jure_above = { this = title:d_emilia }
+					any_this_title_or_de_jure_above = { this = title:d_romagna }
+					any_this_title_or_de_jure_above = { this = title:d_piedmonte }
+					any_this_title_or_de_jure_above = { this = title:d_genoa }
+					any_this_title_or_de_jure_above = { this = title:d_toscana }
+					any_this_title_or_de_jure_above = { this = title:d_pisa }
+					any_this_title_or_de_jure_above = { this = title:d_ancona }
+					any_this_title_or_de_jure_above = { this = title:d_spoleto }
+					any_this_title_or_de_jure_above = { this = title:d_latium }
+					any_this_title_or_de_jure_above = { this = title:d_capua }
+					any_this_title_or_de_jure_above = { this = title:d_benevento }
+					any_this_title_or_de_jure_above = { this = title:d_apulia }
+					any_this_title_or_de_jure_above = { this = title:d_salerno }
+					any_this_title_or_de_jure_above = { this = title:d_calabria }
+					any_this_title_or_de_jure_above = { this = title:d_sicily }
+					any_this_title_or_de_jure_above = { this = title:d_sardinia }
+					any_this_title_or_de_jure_above = { this = title:d_corsica }
+					any_this_title_or_de_jure_above = { this = title:d_mallorca }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	name_list = name_list_neo_ligurian
+
+	#ai_will_do = {
+	#	value = 10
+	#	if = {
+	#		NOT = {
+	#			scope:character = { has_trait = stubborn }
+	#		}
+	#		multiply = 5
+	#	}
+	#}
+}

@@ -1,0 +1,31 @@
+﻿venetic_indian_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			any_sub_realm_county = {
+				title_province = {
+					geographical_region = world_india
+				}
+			}
+		}
+	}
+
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	name_list = name_list_venetic_apabhramsa
+
+	#ai_will_do = {
+	#	value = 10
+	#	if = {
+	#		NOT = {
+	#			scope:character = { has_trait = stubborn }
+	#		}
+	#		multiply = 5
+	#	}
+	#}
+}

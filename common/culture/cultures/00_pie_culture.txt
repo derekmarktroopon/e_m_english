@@ -1,0 +1,37 @@
+﻿
+pie_culture = {
+
+	color = { 1 33 66 }	
+	
+	name_list = name_list_pie
+	heritage = heritage_pie
+	language = language_pie
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	ethos = ethos_bellicose
+
+	traditions = {
+		tradition_koryos
+		tradition_pastoralists
+		tradition_hit_and_run
+		tradition_storytellers
+		tradition_poetry	
+	}
+
+	
+	
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+		30 = caucasian_northern_blond
+		5 = caucasian_northern_ginger
+		30 = caucasian_northern_brown_hair
+		35 = caucasian_northern_dark_hair
+	}
+}

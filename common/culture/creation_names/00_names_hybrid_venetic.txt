@@ -1,0 +1,184 @@
+﻿# Used in definition order
+
+venetic_anatolian = {
+	trigger = {
+		capital_county = {
+			title_province = { geographical_region = ghw_region_anatolia }
+		}
+		any_sub_realm_county = {
+			OR = {
+				culture = scope:culture
+				culture = scope:other_culture
+			}
+			title_province = {
+				geographical_region = ghw_region_anatolia
+			}
+		}
+		OR = {
+			scope:culture = { has_cultural_pillar = heritage_venetic }
+			scope:other_culture = { has_cultural_pillar = heritage_venetic }
+		}
+	}
+	hybrid = yes
+}
+
+venetic_gael = {
+	trigger = {
+		OR = {
+			AND = {
+				scope:culture = { has_cultural_pillar = heritage_goidelic }
+				scope:other_culture = { has_cultural_pillar = heritage_venetic }
+			}
+			AND = {
+				scope:culture = { has_cultural_pillar = heritage_venetic }
+				scope:other_culture = { has_cultural_pillar = heritage_goidelic }
+			}
+		}
+	}
+	hybrid = yes
+}
+
+venetic_anglo = {
+	trigger = {
+		OR = {
+			AND = {
+				OR = {
+					scope:culture = culture:anglo_saxon
+					scope:culture = culture:english
+				}
+				scope:other_culture = { has_cultural_pillar = heritage_venetic }
+			}
+			AND = {
+				scope:culture = { has_cultural_pillar = heritage_venetic }
+				OR = {
+					scope:other_culture = culture:anglo_saxon
+					scope:other_culture = culture:english
+				}
+			}
+		}
+	}
+	hybrid = yes
+}
+
+vnt_ven_venetken_venetians = {
+	trigger = {
+		OR = {
+			AND = {
+				scope:culture = { has_name_list = name_list_venetic_culture }
+				scope:other_culture = { has_name_list = name_list_venetian }
+			}
+			AND = {
+				scope:culture = { has_name_list = name_list_venetian }
+				scope:other_culture = { has_name_list = name_list_venetic_culture }
+			}
+		}
+	}
+	hybrid = yes
+}
+
+venetic_indi = {
+	trigger = {
+		capital_county = {
+			title_province = { geographical_region = ghw_region_northern_india }
+		}
+		OR = {
+			AND = {
+				scope:culture = { has_cultural_pillar = heritage_venetic }
+				scope:other_culture = { has_cultural_pillar = heritage_indo_aryan }
+			}
+		}
+		any_sub_realm_county = {
+			OR = {
+				culture = scope:culture
+				culture = scope:other_culture
+			}
+			title_province = {
+				geographical_region = ghw_region_northern_india
+			}
+		}
+	}
+	hybrid = yes
+}
+
+venetic_lebanese = {
+	trigger = {
+		OR = {
+			AND = {
+				scope:culture = { has_cultural_pillar = heritage_venetic }
+				scope:other_culture = { has_cultural_pillar = heritage_arabic }
+			}
+			AND = {
+				scope:culture = { has_cultural_pillar = heritage_arabic }
+				scope:other_culture = { has_cultural_pillar = heritage_venetic }
+			}
+		}
+		OR = {
+			capital_county = {
+				title:k_syria = {
+					is_de_jure_liege_or_above_target = prev
+				}
+			}
+			primary_title = title:k_syria
+		}
+		any_sub_realm_county = {
+			title:k_syria = {
+				is_de_jure_liege_or_above_target = prev
+			}
+		}
+	}
+	hybrid = yes
+}
+
+
+venetic_palestine = {
+	trigger = {
+		scope:culture = { has_cultural_pillar = heritage_venetic }
+		scope:other_culture = { has_cultural_pillar = heritage_arabic }
+		any_sub_realm_county = {
+			title_province = { geographical_region = world_middle_east_jerusalem }
+		}
+	}
+	hybrid = yes
+}
+
+histrian = {
+	trigger = {
+		capital_county = {
+			# Is in the Balkans but not Greece, Bulgaria, or Romania
+			title_province = {
+				geographical_region = custom_south_slavia
+			}
+			NOR = {
+				title:k_dacia = {
+					is_de_jure_liege_or_above_target = prev
+				}
+				title:k_moldavia = {
+					is_de_jure_liege_or_above_target = prev
+				}
+				title:k_bulgaria = {
+					is_de_jure_liege_or_above_target = prev
+				}
+			}
+		}
+		scope:culture = {
+			OR = {
+				has_cultural_pillar = heritage_venetic
+			}
+		}
+		scope:other_culture = {
+			OR = {
+				has_cultural_pillar = heritage_south_slavic
+				has_cultural_pillar = heritage_byzantine
+				has_cultural_pillar = heritage_latin
+			}
+		}
+		any_sub_realm_county = {
+			OR = {
+				culture = scope:culture
+				culture = scope:other_culture
+			}
+			any_county_province = { is_coastal = yes }
+		}
+	}
+	hybrid = yes
+}

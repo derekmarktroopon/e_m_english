@@ -1,0 +1,10 @@
+﻿l_english:
+ 
+ #Koryos
+ koryos_maa:0 "Kóryos"
+ koryos_maa_desc:0 "Made up of bands of unmarried young men, sent out to seek fortune, glory and plunder for their communities, the Kóryos bands not only serve as a rite of passage for the youth, but also increase the lands and wealth held by their communities."
+ culture_parameter_unlock_maa_koryos:0 "This culture can recruit Kóryos units"
+ unlock_maa_koryos:0 "This culture can recruit Kóryos units"
+ tradition_koryos_name:0 "Kóryos Bands"
+ tradition_koryos:0 "Kóryos Bands"
+ tradition_koryos_desc:0 "Before they can join polite society, youths of this culture spend their formative years cattle-raiding and pillaging in Kóryos war bands. These bands are often called upon by leaders to aid them in expanding both their lands and their cattle herds."

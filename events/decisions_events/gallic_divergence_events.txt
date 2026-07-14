@@ -1,0 +1,615 @@
+﻿namespace = gallic_divergence_events
+
+##################################################
+# Gaulish culture Diverges
+##################################################
+
+gallic_divergence_events.1 = {
+hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			if = {
+				limit = {
+					has_name_list = name_list_gaulish
+				}
+				every_culture_county = { #Northern France
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_brittany }
+							title_province = { duchy = title:d_poitou }
+							title_province = { duchy = title:d_berry }
+							title_province = { duchy = title:d_anjou }
+							title_province = { duchy = title:d_normandy }
+							title_province = { duchy = title:d_orleans }
+							title_province = { duchy = title:d_burgundy }
+							title_province = { duchy = title:d_upper_burgundy }
+							title_province = { duchy = title:d_bar }
+							title_province = { duchy = title:d_champagne }
+							title_province = { duchy = title:d_valois }
+						}
+					}
+					add_to_list = gaulish_cult_count_for_france
+				}
+				if = {
+					limit = {
+						any_culture_global.any_culture_county = {
+							is_in_list = gaulish_cult_count_for_france
+							count >= 1
+						}
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = gaulish_cult_count_for_france
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_gaulish_county
+							set_culture = culture:gaulish
+							create_divergent_culture = yes
+                            scope:holder_of_gaulish_county.culture = {
+								save_scope_as = gaulish_french_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_neo_gaule
+							}
+						}
+					}
+					every_in_list = {#####
+						list = gaulish_cult_count_for_france
+						set_county_culture = scope:gaulish_french_culture
+					}
+				}
+				every_culture_county = { #Occitania
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_savoie }
+							title_province = { duchy = title:d_provence }
+							title_province = { duchy = title:d_dauphine }
+							title_province = { duchy = title:d_languedoc }
+							title_province = { duchy = title:d_toulouse }
+							title_province = { duchy = title:d_auvergne }
+							title_province = { duchy = title:d_bourbon }
+							title_province = { duchy = title:d_aquitaine }
+							title_province = { duchy = title:d_gascogne }
+							title_province = { duchy = title:d_armagnac }
+						}
+					}
+					add_to_list = gaulish_cult_count_for_occitania
+				}
+				if = {
+					limit = {
+						any_culture_global.any_culture_county = {
+							is_in_list = gaulish_cult_count_for_occitania
+							count >= 1
+						}
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = gaulish_cult_count_for_occitania
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_gaulish_county
+							set_culture = culture:gaulish
+							create_divergent_culture = yes
+                            scope:holder_of_gaulish_county.culture = {
+								save_scope_as = gaulish_occitan_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_neo_gaule
+							}
+						}
+					}
+					every_in_list = {#####
+						list = gaulish_cult_count_for_occitania
+						set_county_culture = scope:gaulish_occitan_culture
+					}
+				}
+				every_culture_county = { #Iberia
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_viscaya }
+							title_province = { duchy = title:d_navarra }
+							title_province = { duchy = title:d_aragon }
+							title_province = { duchy = title:d_valencia }
+							title_province = { duchy = title:d_murcia }
+							title_province = { duchy = title:d_toledo }
+							title_province = { duchy = title:d_badajoz }
+							title_province = { duchy = title:d_granada }
+							title_province = { duchy = title:d_sevilla }
+							title_province = { duchy = title:d_castilla }
+							title_province = { duchy = title:d_leon }
+							title_province = { duchy = title:d_cantabria }
+							title_province = { duchy = title:d_asturias }
+							title_province = { duchy = title:d_galicia }
+							title_province = { duchy = title:d_porto }
+							title_province = { duchy = title:d_coimbra }
+							title_province = { duchy = title:d_beja }
+							title_province = { duchy = title:d_badajoz }
+							title_province = { duchy = title:d_barcelona }
+						}
+					}
+					add_to_list = gaulish_cult_count_for_iberia
+				}
+				if = {
+					limit = {
+						any_culture_global.any_culture_county = {
+							is_in_list = gaulish_cult_count_for_iberia
+							count >= 1
+						}
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = gaulish_cult_count_for_iberia
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_gaulish_county
+							set_culture = culture:gaulish
+							create_divergent_culture = yes
+                            scope:holder_of_gaulish_county.culture = {
+								save_scope_as = gaulish_iberian_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_late_ibero_gaulish
+							}
+						}
+					}
+					every_in_list = {#####
+						list = gaulish_cult_count_for_iberia
+						set_county_culture = scope:gaulish_iberian_culture
+					}
+				}
+				every_culture_county = { #Italy
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_venice }
+							title_province = { duchy = title:d_friuli }
+							title_province = { duchy = title:d_verona }
+							title_province = { duchy = title:d_albany }
+							title_province = { duchy = title:d_istria }
+							title_province = { duchy = title:d_lombardia }
+							title_province = { duchy = title:d_emilia }
+							title_province = { duchy = title:d_romagna }
+							title_province = { duchy = title:d_piedmonte }
+							title_province = { duchy = title:d_genoa }
+							title_province = { duchy = title:d_toscana }
+							title_province = { duchy = title:d_pisa }
+							title_province = { duchy = title:d_ancona }
+							title_province = { duchy = title:d_spoleto }
+							title_province = { duchy = title:d_latium }
+							title_province = { duchy = title:d_capua }
+							title_province = { duchy = title:d_benevento }
+							title_province = { duchy = title:d_apulia }
+							title_province = { duchy = title:d_salerno }
+							title_province = { duchy = title:d_calabria }
+							title_province = { duchy = title:d_sicily }
+						}
+					}
+					add_to_list = gaulish_cult_count_for_italy
+				}
+				if = {
+					limit = {
+						any_culture_global.any_culture_county = {
+							is_in_list = gaulish_cult_count_for_italy
+							count >= 1
+						}
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = gaulish_cult_count_for_italy
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_gaulish_county
+							set_culture = culture:gaulish
+							create_divergent_culture = yes
+                            scope:holder_of_gaulish_county.culture = {
+								save_scope_as = gaulish_italy_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_late_cisalpine_gaulish
+							}
+						}
+					}
+					every_in_list = {#####
+						list = gaulish_cult_count_for_italy
+						set_county_culture = scope:gaulish_italy_culture
+					}
+				}
+			}
+		}
+	}
+}
+
+##################################################
+# Celtiberian culture Diverges
+##################################################
+
+gallic_divergence_events.2 = {
+hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			if = {
+				limit = {
+					has_name_list = name_list_celtiberian
+				}
+				every_culture_county = { #Spain (minus Galicia)
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_viscaya }
+							title_province = { duchy = title:d_navarra }
+							title_province = { duchy = title:d_aragon }
+							title_province = { duchy = title:d_valencia }
+							title_province = { duchy = title:d_murcia }
+							title_province = { duchy = title:d_toledo }
+							title_province = { duchy = title:d_badajoz }
+							title_province = { duchy = title:d_granada }
+							title_province = { duchy = title:d_sevilla }
+							title_province = { duchy = title:d_castilla }
+							title_province = { duchy = title:d_leon }
+							title_province = { duchy = title:d_cantabria }
+							title_province = { duchy = title:d_asturias }
+						}
+					}
+					add_to_list = celtiberian_cult_count_for_spain
+				}
+				if = {
+					limit = {
+						any_culture_global.any_culture_county = {
+							is_in_list = celtiberian_cult_count_for_spain
+							count >= 1
+						}
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = celtiberian_cult_count_for_spain
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_celtiberian_county
+							set_culture = culture:celtiberian
+							create_divergent_culture = yes
+                            scope:holder_of_celtiberian_county.culture = {
+								save_scope_as = neo_celtiberian_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_neo_celtiberian
+							}
+						}
+					}
+					every_in_list = {#####
+						list = celtiberian_cult_count_for_spain
+						set_county_culture = scope:neo_celtiberian_culture
+					}
+				}
+				every_culture_county = { #Galicia + Portugal
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_galicia }
+							title_province = { duchy = title:d_porto }
+							title_province = { duchy = title:d_coimbra }
+							title_province = { duchy = title:d_beja }
+							title_province = { duchy = title:d_badajoz }
+						}
+					}
+					add_to_list = celtiberian_cult_count_for_portugal
+				}
+				if = {
+					limit = {
+						any_culture_global.any_culture_county = {
+							is_in_list = celtiberian_cult_count_for_portugal
+							count >= 1
+						}
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = celtiberian_cult_count_for_portugal
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_celtiberian_county
+							set_culture = culture:celtiberian
+							create_divergent_culture = yes
+                            scope:holder_of_celtiberian_county.culture = {
+								save_scope_as = gallaecian_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_neo_gallaecian
+							}
+						}
+					}
+					every_in_list = {#####
+						list = celtiberian_cult_count_for_portugal
+						set_county_culture = scope:gallaecian_culture
+					}
+				}
+			}
+		}
+	}
+}
+
+##################################################
+# Lusitanian culture Diverges
+##################################################
+
+gallic_divergence_events.3 = {
+hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			if = {
+				limit = {
+					has_name_list = name_list_lusitanian
+				}
+				every_culture_county = { #Spain (minus Galicia)
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_viscaya }
+							title_province = { duchy = title:d_navarra }
+							title_province = { duchy = title:d_aragon }
+							title_province = { duchy = title:d_valencia }
+							title_province = { duchy = title:d_murcia }
+							title_province = { duchy = title:d_toledo }
+							title_province = { duchy = title:d_badajoz }
+							title_province = { duchy = title:d_granada }
+							title_province = { duchy = title:d_sevilla }
+							title_province = { duchy = title:d_castilla }
+							title_province = { duchy = title:d_leon }
+							title_province = { duchy = title:d_cantabria }
+							title_province = { duchy = title:d_asturias }
+						}
+					}
+					add_to_list = lusitanian_cult_count_for_spain
+				}
+				if = {
+					limit = {
+						any_culture_global.any_culture_county = {
+							is_in_list = lusitanian_cult_count_for_spain
+							count >= 1
+						}
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = lusitanian_cult_count_for_spain
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_lusitanian_county
+							set_culture = culture:lusitanian
+							create_divergent_culture = yes
+                            scope:holder_of_lusitanian_county.culture = {
+								save_scope_as = spain_lusitanian_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_neo_lusitanian
+							}
+						}
+					}
+					every_in_list = {#####
+						list = lusitanian_cult_count_for_spain
+						set_county_culture = scope:spain_lusitanian_culture
+					}
+				}
+				every_culture_county = { #Galicia + Portugal
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_galicia }
+							title_province = { duchy = title:d_porto }
+							title_province = { duchy = title:d_coimbra }
+							title_province = { duchy = title:d_beja }
+							title_province = { duchy = title:d_badajoz }
+						}
+					}
+					add_to_list = lusitanian_cult_count_for_portugal
+				}
+				if = {
+					limit = {
+						any_culture_global.any_culture_county = {
+							is_in_list = lusitanian_cult_count_for_portugal
+							count >= 1
+						}
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = lusitanian_cult_count_for_portugal
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_lusitanian_county
+							set_culture = culture:lusitanian
+							create_divergent_culture = yes
+                            scope:holder_of_lusitanian_county.culture = {
+								save_scope_as = portugal_lusitanian_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_neo_lusitanian
+							}
+						}
+					}
+					every_in_list = {#####
+						list = lusitanian_cult_count_for_portugal
+						set_county_culture = scope:portugal_lusitanian_culture
+					}
+				}
+			}
+		}
+	}
+}
+
+##################################################
+# Lepontic culture Diverges
+##################################################
+
+gallic_divergence_events.4 = {
+hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			if = {
+				limit = {
+					has_name_list = name_list_lepontic
+				}
+				every_culture_county = { #Northern Italy
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_lombardia }
+							title_province = { duchy = title:d_emilia }
+							title_province = { duchy = title:d_romagna }
+							title_province = { duchy = title:d_piedmonte }
+							title_province = { duchy = title:d_genoa }
+							title_province = { duchy = title:d_venice }
+							title_province = { duchy = title:d_friuli }
+							title_province = { duchy = title:d_verona }
+							title_province = { duchy = title:d_albany }
+							title_province = { duchy = title:d_istria }
+						}
+					}
+					add_to_list = lepontic_cult_count_for_cisalpine
+				}
+				if = {
+					limit = {
+						any_culture_global.any_culture_county = {
+							is_in_list = lepontic_cult_count_for_cisalpine
+							count >= 1
+						}
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = lepontic_cult_count_for_cisalpine
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_lepontic_county
+							set_culture = culture:lepontic
+							create_divergent_culture = yes
+                            scope:holder_of_lepontic_county.culture = {
+								save_scope_as = lepontic_cisalpine_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_neo_lepontic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = lepontic_cult_count_for_cisalpine
+						set_county_culture = scope:lepontic_cisalpine_culture
+					}
+				}
+				every_culture_county = { #Occitania
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_savoie }
+							title_province = { duchy = title:d_provence }
+							title_province = { duchy = title:d_dauphine }
+							title_province = { duchy = title:d_languedoc }
+							title_province = { duchy = title:d_barcelona }
+							title_province = { duchy = title:d_toulouse }
+							title_province = { duchy = title:d_auvergne }
+							title_province = { duchy = title:d_bourbon }
+							title_province = { duchy = title:d_aquitaine }
+							title_province = { duchy = title:d_gascogne }
+							title_province = { duchy = title:d_armagnac }
+						}
+					}
+					add_to_list = lepontic_cult_count_for_occitania
+				}
+				if = {
+					limit = {
+						any_culture_global.any_culture_county = {
+							is_in_list = lepontic_cult_count_for_occitania
+							count >= 1
+						}
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = lepontic_cult_count_for_occitania
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_lepontic_county
+							set_culture = culture:lepontic
+							create_divergent_culture = yes
+                            scope:holder_of_lepontic_county.culture = {
+								save_scope_as = lepontic_occitan_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_neo_lepontic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = lepontic_cult_count_for_occitania
+						set_county_culture = scope:lepontic_occitan_culture
+					}
+				}
+				every_culture_county = { #Alps
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_transjurania }
+							title_province = { duchy = title:d_currezia }
+							title_province = { duchy = title:d_tyrol }
+							title_province = { duchy = title:d_carinthia }
+							title_province = { duchy = title:d_krain }
+							title_province = { duchy = title:d_steyermark }
+						}
+					}
+					add_to_list = lepontic_cult_count_for_romansh
+				}
+				if = {
+					limit = {
+						any_culture_global.any_culture_county = {
+							is_in_list = lepontic_cult_count_for_romansh
+							count >= 1
+						}
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = lepontic_cult_count_for_romansh
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_lepontic_county
+							set_culture = culture:lepontic
+							create_divergent_culture = yes
+                            scope:holder_of_lepontic_county.culture = {
+								save_scope_as = lepontic_raetian_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_neo_lepontic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = lepontic_cult_count_for_romansh
+						set_county_culture = scope:lepontic_raetian_culture
+					}
+				}
+			}
+		}
+	}
+}

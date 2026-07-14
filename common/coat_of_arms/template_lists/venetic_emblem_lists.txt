@@ -1,0 +1,53 @@
+﻿colored_emblem_texture_lists = {
+	venetic_charge = {
+		special_selection = {
+			trigger = {
+				coa_venetic_raetian_trigger = yes
+			}
+			10 = "ce_venetic_arm.dds"
+			10 = "ce_venetic_bird.dds"
+			10 = "ce_venetic_boat.dds"
+			10 = "ce_venetic_boat_3.dds"
+			10 = "ce_venetic_dagger.dds"
+			10 = "ce_venetic_goat_1.dds"
+			10 = "ce_venetic_goat_2.dds"
+			10 = "ce_venetic_shield_emblem.dds"
+			10 = "ce_venetic_spiral.dds"
+			10 = "ce_venetic_wheel_shield.dds"
+			10 = "ce_venetic_stele_1.dds"
+			10 = "ce_venetic_stele_2.dds"
+			10 = "ce_venetic_sphinx_matte.dds"
+			10 = "ce_venetic_woman.dds"
+			10 = "ce_camunian_rose.dds"
+			10 = "ce_raetia_double_horse_plain.dds"
+			10 = "ce_raetia_horseman.dds"
+			10 = "ce_venetic_horseman.dds"
+			10 = "ce_raetic_warrior.dds"
+			10 = "ce_venetic_warrior.dds"
+		}
+	}
+
+	venetic_patterns = {
+		special_selection = {
+			trigger = {
+				coa_venetic_raetian_trigger = yes
+			}
+			10 = "ce_border_venetic_2.dds"
+			10 = "ce_border_venetic_3.dds"
+			10 = "ce_border_venetic_4.dds"
+			10 = "ce_border_venetic_5.dds"
+			10 = "ce_border_venetic_6.dds"
+			10 = "ce_border_venetic_7.dds"
+			10 = "ce_border_venetic_8.dds"
+			10 = "ce_border_venetic_9.dds"
+			10 = "ce_border_venetic_10.dds"
+			10 = "ce_border_venetic_11.dds"
+			10 = "ce_border_venetic_12.dds"
+			10 = "ce_border_venetic_13.dds"
+			10 = "ce_border_venetic_14.dds"
+			10 = "ce_border_venetic_15.dds"
+			10 = "ce_border_venetic_16.dds"
+
+		}
+	}
+}

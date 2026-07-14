@@ -1,0 +1,11 @@
+﻿l_english:
+
+ neo_gallic_aesthetic_name:0 "Later Gaulish"
+ late_ibero_gaulish_aesthetic_name:0 "$name_list_late_ibero_gaulish$"
+ late_luso_gaulish_aesthetic_name:0 "$name_list_late_luso_gaulish$"
+ late_cisalpine_gaulish_aesthetic_name:0 "$name_list_late_cisalpine_gaulish$"
+
+ neo_celtiberian_aesthetic_name:0 "$name_list_neo_celtiberian$"
+ neo_gallaecian_aesthetic_name:0 "$name_list_neo_gallaecian$"
+ neo_lusitanian_aesthetic_name:0 "$name_list_neo_lusitanian$"
+ neo_leponti_aesthetic_name:0 "$name_list_neo_lepontic$"

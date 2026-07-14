@@ -1,0 +1,355 @@
+﻿
+namespace = venetic_religious_decision
+
+
+venetic_religious_decision.2 = {
+	type = character_event
+	title = venetic_religious_decision.2.t
+	desc = venetic_religious_decision.2.desc
+	theme = faith
+	override_background = {
+		reference = wilderness
+	}
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	option = { # Ok
+		name = venetic_religious_decision.2.a
+		custom_tooltip = venetic_religious_decision.2.a.tooltip
+		hidden_effect = {
+			trigger_event = {
+				id = venetic_religious_decision.21
+				days = { 6 7 }
+			}
+		}
+	}
+}
+	
+
+venetic_religious_decision.21 = {
+	type = character_event
+	title = venetic_religious_decision.21.t
+	desc = venetic_religious_decision.21.desc
+	theme = learning
+	override_background = {
+		reference = wilderness_scope
+	}
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	immediate = {
+		add_piety = minor_piety_gain
+		random_list = {
+			25 = {
+				save_scope_value_as = {
+					name = outcome
+					value = 1
+				}
+			}
+			25 = {
+				save_scope_value_as = {
+					name = outcome
+					value = 2
+				}
+			}
+			25 = {
+				save_scope_value_as = {
+					name = outcome
+					value = 3
+				}
+			}
+			25 = {
+				save_scope_value_as = {
+					name = outcome
+					value = 4
+				}
+			}
+		}
+	}
+	option = { # Ok
+		name = {
+			trigger = { scope:outcome = 1 }
+			text = venetic_religious_decision.21.a1deivobos
+		}
+        name = {
+			trigger = { scope:outcome = 2 }
+			text = venetic_religious_decision.21.a2deivobos
+		}
+		name = {
+			trigger = { scope:outcome = 3 }
+			text = venetic_religious_decision.21.a3deivobos
+		}
+		name = {
+			trigger = { scope:outcome = 4 }
+			text = venetic_religious_decision.21.a4deivobos
+		}
+		flavor = venetic_religious_decision.21.adeivobos
+		trigger = {
+			NOR = {
+				has_character_modifier = bhakti_venetic_reitia
+				has_character_modifier = bhakti_venetic_tumusiates
+				has_character_modifier = bhakti_venetic_altino
+				has_character_modifier = bhakti_venetic_alkomno
+			}
+		}
+	    custom_tooltip = venetic_religious_decision.21.adeivobos.tooltip
+        trigger_event = { id = venetic_religious_decision.2001 }
+	}
+	option = { # Ok
+	   	name = {
+			trigger = { scope:outcome = 1 }
+			text = venetic_religious_decision.21.a1reitia
+		}
+        name = {
+			trigger = { scope:outcome = 2 }
+			text = venetic_religious_decision.21.a2reitia
+		}
+		name = {
+			trigger = { scope:outcome = 3 }
+			text = venetic_religious_decision.21.a3reitia
+		}
+		name = {
+			trigger = { scope:outcome = 4 }
+			text = venetic_religious_decision.21.a4reitia
+		}
+		flavor = venetic_religious_decision.21.areitia		
+		trigger = {
+				has_character_modifier = bhakti_venetic_reitia
+		}
+	    custom_tooltip = venetic_religious_decision.21.areitia.tooltip
+        trigger_event = { id = venetic_religious_decision.2001 }
+	}
+	option = { # Ok
+	    name = {
+			trigger = { scope:outcome = 1 }
+			text = venetic_religious_decision.21.a1tumusiates
+		}
+        name = {
+			trigger = { scope:outcome = 2 }
+			text = venetic_religious_decision.21.a2tumusiates
+		}
+		name = {
+			trigger = { scope:outcome = 3 }
+			text = venetic_religious_decision.21.a3tumusiates
+		}
+		name = {
+			trigger = { scope:outcome = 4 }
+			text = venetic_religious_decision.21.a4tumusiates
+		}
+		flavor = venetic_religious_decision.21.atumusiates		
+		trigger = {
+				has_character_modifier = bhakti_venetic_tumusiates
+		}
+	    custom_tooltip = venetic_religious_decision.21.atumusiates.tooltip
+        trigger_event = { id = venetic_religious_decision.2001 }
+	}
+	option = { # Ok
+	    name = {
+			trigger = { scope:outcome = 1 }
+			text = venetic_religious_decision.21.a1altino
+		}
+        name = {
+			trigger = { scope:outcome = 2 }
+			text = venetic_religious_decision.21.a2altino
+		}
+		name = {
+			trigger = { scope:outcome = 3 }
+			text = venetic_religious_decision.21.a3altino
+		}
+		name = {
+			trigger = { scope:outcome = 4 }
+			text = venetic_religious_decision.21.a4altino
+		}
+		flavor = venetic_religious_decision.21.aaltino		
+		trigger = {
+				has_character_modifier = bhakti_venetic_altino
+		}
+	    custom_tooltip = venetic_religious_decision.21.aaltino.tooltip
+        trigger_event = { id = venetic_religious_decision.2001 }
+	}
+	option = { # Ok
+	    name = {
+			trigger = { scope:outcome = 1 }
+			text = venetic_religious_decision.21.a1alkomno
+		}
+        name = {
+			trigger = { scope:outcome = 2 }
+			text = venetic_religious_decision.21.a2alkomno
+		} 
+		name = {
+			trigger = { scope:outcome = 3 }
+			text = venetic_religious_decision.21.a3alkomno
+		}
+		name = {
+			trigger = { scope:outcome = 4 }
+			text = venetic_religious_decision.21.a4alkomno
+		}
+		flavor = venetic_religious_decision.21.aalkomno
+		trigger = {
+				has_character_modifier = bhakti_venetic_alkomno
+		}
+	    custom_tooltip = venetic_religious_decision.21.aalkomno.tooltip
+        trigger_event = { id = venetic_religious_decision.2001 }
+	}
+}	
+
+venetic_religious_decision.2001 = {
+	type = character_event
+    hidden = yes
+	immediate = {
+		    random_list = {
+		    40 = {
+                    trigger_event = { id = venetic_religious_decision.3001 days = { 6 7 } }
+			}
+			35 = {
+ 			        trigger_event = { id = venetic_religious_decision.3002 days = { 6 7 } }
+			}
+			10 = {
+ 			        trigger_event = { id = venetic_religious_decision.3003 days = { 6 7 } }
+			}
+			07 = {
+ 			        trigger_event = { id = venetic_religious_decision.3004 days = { 6 7 } }
+			}
+			05 = {
+ 			        trigger_event = { id = venetic_religious_decision.3005 days = { 6 7 } }			
+			}
+			03 = {
+ 			        trigger_event = { id = venetic_religious_decision.3006 days = { 6 7 } }
+			}
+	    }
+	}
+}
+
+venetic_religious_decision.3001 = {
+	type = character_event
+	title = venetic_religious_decision.3001.t
+	desc = venetic_religious_decision.3001.desc.a
+	theme = faith
+
+	override_background = {
+		reference = wilderness_forest_pine
+	}
+
+	right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	option = { 
+	    name = venetic_religious_decision.3001.a
+	    add_piety = minor_piety_gain	
+    }
+}
+
+venetic_religious_decision.3002 = {
+	type = character_event
+	title = venetic_religious_decision.3001.t
+	desc = venetic_religious_decision.3002.desc.a
+	theme = faith
+
+	override_background = {
+		reference = wilderness_forest_pine
+	}
+
+	right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	option = {
+	    name = venetic_religious_decision.3002.a	
+ 		add_piety = medium_piety_gain	
+    }
+}
+
+venetic_religious_decision.3003 = {
+	type = character_event
+	title = venetic_religious_decision.3001.t
+	desc = venetic_religious_decision.3003.desc.a
+	theme = faith
+
+	override_background = {
+		reference = wilderness_forest_pine
+	}
+
+	right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	option = { 
+		name = venetic_religious_decision.3003.a
+ 		add_piety = major_piety_gain
+		add_prestige = minor_prestige_gain		
+    }
+}
+
+venetic_religious_decision.3004 = {
+	type = character_event
+	title = venetic_religious_decision.3001.t
+	desc = venetic_religious_decision.3004.desc.a
+	theme = faith
+
+	override_background = {
+		reference = wilderness_forest_pine
+	}
+
+	right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	option = {
+	    name = venetic_religious_decision.3004.a 	
+	    add_prowess_skill = 2	
+		add_prestige = 150
+		add_trait = zealous
+	}
+}
+
+venetic_religious_decision.3005 = {
+	type = character_event
+	title = venetic_religious_decision.3001.t
+	desc = venetic_religious_decision.3005.desc.a
+	theme = faith
+
+	override_background = {
+		reference = wilderness_forest_pine
+	}
+
+	right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	option = {
+	    name = venetic_religious_decision.3005.a	
+	    add_prowess_skill = 1
+		add_stewardship_skill = 1	
+	    add_diplomacy_skill = 1	
+	    add_trait = lifestyle_mystic
+	    add_trait = lifestyle_poet		
+    }
+}
+
+venetic_religious_decision.3006 = {
+	type = character_event
+	title = venetic_religious_decision.3001.t
+	desc = venetic_religious_decision.3006.desc.a
+	theme = faith
+
+	override_background = {
+		reference = wilderness_forest_pine
+	}
+
+	right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	option = {
+	    name = venetic_religious_decision.3006.a	
+	    add_prowess_skill = 5
+		add_stewardship_skill = 5
+	    add_martial_skill = 5					
+		add_trait = lifestyle_mystic
+		add_trait = zealous
+    }
+}

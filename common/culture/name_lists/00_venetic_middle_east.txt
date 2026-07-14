@@ -1,0 +1,134 @@
+﻿	
+name_list_venetic_coptic = {
+		cadet_dynasty_names = {
+            #dynn_Ma_Pashati dynn_Ma_Alexanaria dynn_Ma_Pakoti dynn_Ma_Shmun dynn_Youhanna dynn_Atia dynn_Ma_Pmanhabin dynn_Sa_Pishoy dynn_Sa_Kleopatros
+			#dynn_Sa_Ouenofre dynn_Sa_Piroou dynn_Talaia dynn_La_Thout dynn_La_Paopi dynn_La_Hathor dynn_La_Koiak dynn_Tobi dynn_La_Meshir dynn_La_Paremhat
+			#dynn_La_Parmouti dynn_La_Pashons dynn_La_Paoni dynn_La_Epip dynn_La_Mesori dynn_Mn_Akhet dynn_Mn_Proyet dynn_Mn_Shomu
+			dynn_cptvnt_akoutios dynn_cptvnt_albarenios dynn_cptvnt_anteiaios dynn_cptvnt_aplisikos dynn_cptvnt_arspetijakos dynn_cptvnt_boiios dynn_cptvnt_boiknos dynn_cptvnt_broijokos dynn_cptvnt_deipijarikos dynn_cptvnt_deivolajios dynn_cptvnt_dillikos dynn_cptvnt_egetorios dynn_cptvnt_einaios dynn_cptvnt_phugios dynn_cptvnt_ioubantios dynn_cptvnt_klytavikos dynn_cptvnt_kyprikonios dynn_cptvnt_makknos dynn_cptvnt_nagalknos dynn_cptvnt_naisonkos dynn_cptvnt_ossokos dynn_cptvnt_pittamnikos dynn_cptvnt_pompeteguaios dynn_cptvnt_raitebios dynn_cptvnt_resounkos dynn_cptvnt_tivalios dynn_cptvnt_tomatorios dynn_cptvnt_toupeio dynn_cptvnt_trishikos dynn_cptvnt_tritijonios dynn_cptvnt_uposetios dynn_cptvnt_vestinios dynn_cptvnt_voltigeneios dynn_cptvnt_voltiomnios dynn_cptvnt_voltolarikos dynn_cptvnt_voteiios
+		}
+		dynasty_names = {
+            #dynn_Ma_Pashati dynn_Ma_Alexanaria dynn_Ma_Pakoti dynn_Ma_Shmun dynn_Youhanna dynn_Atia dynn_Ma_Pmanhabin dynn_Sa_Pishoy dynn_Sa_Kleopatros
+			#dynn_Sa_Ouenofre dynn_Sa_Piroou dynn_Talaia dynn_La_Thout dynn_La_Paopi dynn_La_Hathor dynn_La_Koiak dynn_Tobi dynn_La_Meshir dynn_La_Paremhat
+			#dynn_La_Parmouti dynn_La_Pashons dynn_La_Paoni dynn_La_Epip dynn_La_Mesori dynn_Mn_Akhet dynn_Mn_Proyet dynn_Mn_Shomu
+			dynn_cptvnt_akoutios dynn_cptvnt_albarenios dynn_cptvnt_anteiaios dynn_cptvnt_aplisikos dynn_cptvnt_arspetijakos dynn_cptvnt_boiios dynn_cptvnt_boiknos dynn_cptvnt_broijokos dynn_cptvnt_deipijarikos dynn_cptvnt_deivolajios dynn_cptvnt_dillikos dynn_cptvnt_egetorios dynn_cptvnt_einaios dynn_cptvnt_phugios dynn_cptvnt_ioubantios dynn_cptvnt_klytavikos dynn_cptvnt_kyprikonios dynn_cptvnt_makknos dynn_cptvnt_nagalknos dynn_cptvnt_naisonkos dynn_cptvnt_ossokos dynn_cptvnt_pittamnikos dynn_cptvnt_pompeteguaios dynn_cptvnt_raitebios dynn_cptvnt_resounkos dynn_cptvnt_tivalios dynn_cptvnt_tomatorios dynn_cptvnt_toupeio dynn_cptvnt_trishikos dynn_cptvnt_tritijonios dynn_cptvnt_uposetios dynn_cptvnt_vestinios dynn_cptvnt_voltigeneios dynn_cptvnt_voltiomnios dynn_cptvnt_voltolarikos dynn_cptvnt_voteiios
+		}
+		male_names = {
+			#45 = {
+				cptvnt_athom cptvnt_abonah cptvnt_ammon cptvnt_amoun cptvnt_amon cptvnt_ammonios cptvnt_anoub cptvnt_apaskhuron cptvnt_atoum cptvnt_apamoun cptvnt_apanoub cptvnt_apater cptvnt_askla cptvnt_bane cptvnt_benipi cptvnt_benofer cptvnt_bes cptvnt_besa cptvnt_besamon cptvnt_ethom cptvnt_ebonh cptvnt_efonx cptvnt_menrit cptvnt_kharakhte cptvnt_sarapamon cptvnt_shenouda cptvnt_shenouti cptvnt_pennouti cptvnt_pishoy cptvnt_panoub cptvnt_psote cptvnt_phnouti cptvnt_harmine cptvnt_herwoch cptvnt_hol cptvnt_hor cptvnt_horsiese cptvnt_horsiesi cptvnt_calashire cptvnt_titoue cptvnt_papnoute cptvnt_pamoun cptvnt_ouershenoufi cptvnt_ouenofre cptvnt_kalashire cptvnt_niran cptvnt_nahroou cptvnt_paphnouti cptvnt_pishoi cptvnt_pishennoufi cptvnt_pashonti cptvnt_paxom cptvnt_paape cptvnt_piroou cptvnt_paesi cptvnt_parsoma cptvnt_pambo cptvnt_panipan cptvnt_patape cptvnt_patermoute cptvnt_pausire cptvnt_petephre cptvnt_pichimi cptvnt_pichol cptvnt_pisthani cptvnt_phaesi cptvnt_phib cptvnt_psahte cptvnt_psati cptvnt_pigol cptvnt_psote cptvnt_chichoi cptvnt_chicoi cptvnt_cishoi cptvnt_cichoi cptvnt_usire cptvnt_techi
+			#}
+            #10 = {
+				#Gabriel Dauid Iosep Ioseph Mikhael Markos Kuros Ouriel 
+			#}
+			#45 = {
+	            cptvnt_aphros cptvnt_aimo cptvnt_akouts cptvnt_alero cptvnt_ametikos cptvnt_andetios cptvnt_andetos cptvnt_aplisikos cptvnt_arbos cptvnt_ariouns cptvnt_arspetijakos cptvnt_askolos cptvnt_atto cptvnt_baitos cptvnt_bellenes cptvnt_boiials cptvnt_boiios cptvnt_broijokos cptvnt_budijakos cptvnt_deipijarikos cptvnt_deipijaris cptvnt_dillikos cptvnt_dillis cptvnt_ebos cptvnt_egestes cptvnt_egetor cptvnt_einaio cptvnt_enijos cptvnt_enetios cptvnt_enogenes cptvnt_ersinios cptvnt_pheugo cptvnt_phontes cptvnt_phougontes cptvnt_phremaistos cptvnt_phugios cptvnt_gaios cptvnt_graikos cptvnt_hostihabos cptvnt_houbos cptvnt_huttos cptvnt_ioubants cptvnt_kantes cptvnt_karamens cptvnt_kastikos cptvnt_kellos cptvnt_keutines cptvnt_ktoulistos cptvnt_kvito cptvnt_lamusio cptvnt_lants cptvnt_lavskos cptvnt_lemetor cptvnt_louks cptvnt_metsho cptvnt_moldo cptvnt_nagalknos cptvnt_naisonkos cptvnt_naishos cptvnt_okijaios cptvnt_oppos cptvnt_ossokos cptvnt_osts cptvnt_panarios cptvnt_pelonikos cptvnt_pilpots cptvnt_pledes cptvnt_raitevios cptvnt_reities cptvnt_resounkos cptvnt_shikos cptvnt_suros cptvnt_tekios cptvnt_tomatorios cptvnt_trishikos cptvnt_tourijo cptvnt_uko cptvnt_ourkleios cptvnt_ourkles cptvnt_vantes cptvnt_vants cptvnt_vasseno cptvnt_veignos cptvnt_veimes cptvnt_vennonis cptvnt_verkbalos cptvnt_voltigenes cptvnt_voltiomnos cptvnt_voto
+			#}
+		}
+		female_names = {
+			#60 = {
+            	#cptvnt_arisone cptvnt_anthelia cptvnt_berenike cptvnt_diane cptvnt_demiana cptvnt_eudoksia cptvnt_eunike cptvnt_ese cptvnt_fibruniyah cptvnt_gerges cptvnt_zoe cptvnt_thekla cptvnt_thekle cptvnt_kleopatra cptvnt_kleupatra cptvnt_kouloche cptvnt_mariam cptvnt_potamiana cptvnt_salome cptvnt_ilisabek cptvnt_kattrin cptvnt_sara cptvnt_sarra cptvnt_taphamoun cptvnt_upateia cptvnt_chemmahor cptvnt_lucra cptvnt_ourt cptvnt_paphnutia cptvnt_tanoute
+			#}
+			#40 = {
+				cptvnt_akouta cptvnt_andetina cptvnt_apaia cptvnt_askolia cptvnt_atta cptvnt_bagsonia cptvnt_baitonia cptvnt_brigdina cptvnt_boukka cptvnt_ebpha cptvnt_epha cptvnt_egestna cptvnt_egetora cptvnt_phetiana cptvnt_phougonta cptvnt_phrema cptvnt_phremaista cptvnt_phremaistna cptvnt_phugia cptvnt_phogsia cptvnt_ianta cptvnt_ikeveioneia cptvnt_itouria cptvnt_ioubantna cptvnt_kanta cptvnt_kolia cptvnt_kouikouta cptvnt_makna cptvnt_moldna cptvnt_mouskialna cptvnt_mousta cptvnt_neirka cptvnt_nerka cptvnt_otnia cptvnt_rebetonia cptvnt_reitia cptvnt_tainontia cptvnt_trostia cptvnt_ourkleina cptvnt_shedika cptvnt_vantkenia cptvnt_venna cptvnt_verkondarna 
+			#}
+		}   
+	#https://en.wiktionary.org/wiki/Category:Coptic_prefixes
+	dynasty_of_location_prefix = "dynnp_de" #"dynnp_cptvnt_ma"
+	
+	# https://en.wiktionary.org/wiki/Category:Coptic_prefixes
+	#patronym_prefix_male = "dynnp_cptvnt_sa"
+
+}
+
+name_list_venetic_aramean = {
+		cadet_dynasty_names = {
+            #"dynn_Bukhtishu" "dynn_Qatwa" "dynn_Nimreh" "dynn_Gazarta" "dynn_Salamas" "dynn_Zakho" "dynn_Arbilaya"
+            dynn_aravnt_agudis dynn_aravnt_albareno dynn_aravnt_andeyayo dynn_aravnt_apliziko dynn_aravnt_arspedyako dynn_aravnt_bayo dynn_aravnt_baguno dynn_aravnt_brayoko dynn_aravnt_dipyaryako dynn_aravnt_dibolayo dynn_aravnt_diliko dynn_aravnt_egetoro dynn_aravnt_inayo dynn_aravnt_bugis dynn_aravnt_ibantis dynn_aravnt_kuludabiko dynn_aravnt_guprigonyo dynn_aravnt_magno dynn_aravnt_nagalguno dynn_aravnt_nesongos dynn_aravnt_ossoko dynn_aravnt_pitamnikho dynn_aravnt_bombeteguyo dynn_aravnt_retebyo dynn_aravnt_resungo dynn_aravnt_tibalis dynn_aravnt_tomatoro dynn_aravnt_tobeyo dynn_aravnt_trishiko dynn_aravnt_tridyoniyo dynn_aravnt_ubosetis dynn_aravnt_bestinis dynn_aravnt_boltegenayo dynn_aravnt_boltimnis dynn_aravnt_boltolariko dynn_aravnt_botiyo
+		}
+		dynasty_names = {
+            #"dynn_Bukhtishu" "dynn_Qatwa" "dynn_Nimreh" "dynn_Gazarta" "dynn_Salamas" "dynn_Zakho" "dynn_Arbilaya"
+            dynn_aravnt_agudis dynn_aravnt_albareno dynn_aravnt_andeyayo dynn_aravnt_apliziko dynn_aravnt_arspedyako dynn_aravnt_bayo dynn_aravnt_baguno dynn_aravnt_brayoko dynn_aravnt_dipyaryako dynn_aravnt_dibolayo dynn_aravnt_diliko dynn_aravnt_egetoro dynn_aravnt_inayo dynn_aravnt_bugis dynn_aravnt_ibantis dynn_aravnt_kuludabiko dynn_aravnt_guprigonyo dynn_aravnt_magno dynn_aravnt_nagalguno dynn_aravnt_nesongos dynn_aravnt_ossoko dynn_aravnt_pitamnikho dynn_aravnt_bombeteguyo dynn_aravnt_retebyo dynn_aravnt_resungo dynn_aravnt_tibalis dynn_aravnt_tomatoro dynn_aravnt_tobeyo dynn_aravnt_trishiko dynn_aravnt_tridyoniyo dynn_aravnt_ubosetis dynn_aravnt_bestinis dynn_aravnt_boltegenayo dynn_aravnt_boltimnis dynn_aravnt_boltolariko dynn_aravnt_botiyo
+		}
+		male_names = {
+			#50 = {
+				#Aba Abahu Abaya Abaye Abayi Abba Abdima Abdisho Abgar Abimalek Abraham Abris #Abrisius Acacius Achan Achina Addai Adlai Aggai Ahai Ahadabui Ahha Akha_d_abuh Akh_es_Samain Aqib_Alaha Asa Ashur Avahu Avda Avdima Avdimi Avina Avira Azai Babaeus Babai Babowai Babwahi Bar Bar_Abba Barba_shimin Bar_Nabha Bar_Talmai Bar_Timai Bar_Tolmai Bustan Caiaphas Cephas Cephus Chadlai Chama Chanin Chanina Chaninai Chinena Chozai Chuma Chunya Clopas
+				#Dadisho Denha Dikla Diklah Dimi Dinkha Dunanu Elisha Eliya Emmanuel Enosh Ezekiel Farbokht Foma Giwargis Grwgari
+				#Hanina Hnanisho Hozai Idan Idra Ila Isaac Isho Isho_yahb Israel Kaiapha Karna Katsiu Kelaya
+				#Laszio Lazar Lazare Lazaro Lazaros Lazarus Lazarz Lazer Lebbaeus Maadai Macabee Maccabee Magna Makkikha Maluch Ma_na Marabokht Maremmeh Mari Mikha_il Moqli Muna
+				#Nahir Nahor Nahur Narsai Nazuk Nechunya Nehor Nehorai Niv Nun Nur Oran Pappa Paul Pethion Petros Petuel Qaligh Qayyoma Raca Rachim Rahim Raka Raz Raziel Rubil
+				#Saad Saba Sabah Sabba_e Sabrisho Sabr_Ishu Salu Samal Sami Samiy Sagi Sargis Sava Sawma Shafer Shahdost
+				#Shahlufa Shai Shalmai Shama Shamir Shammai Shemaiah Shem_on Sheraga Shila Shovai Shraga Sima Sliba-zkha Surin
+				#Tabbai Taddai Talia Taliah Talmai Talya Tam Tam_as Ta_mhas Targhal Tauma Tavi Tavish Tevis Th_amhais Thoma Timai Tiv Toba Todos Tolmai Tomarsa Tamuza Tulmay
+				#Ukba Yahballaha Yanai Ya_qob Yeshua Yohannan Yosip Yousef Yunanis Zerika
+			#}
+			#50 = {
+	            aravnt_apros aravnt_amo aravnt_agudis aravnt_alero aravnt_ametigo aravnt_andedyo aravnt_anded aravnt_aplizgo aravnt_arbos aravnt_aruno aravnt_arspedyakos aravnt_askolo aravnt_ato aravnt_beto aravnt_belne aravnt_baylis aravnt_bayos aravnt_braygo aravnt_budyako aravnt_dipyariygo aravnt_dipyaris aravnt_diliko aravnt_dilis aravnt_ebo aravnt_egeste aravnt_egetor aravnt_inayo aravnt_enyo aravnt_enedis aravnt_enogen aravnt_ersine aravnt_pogo aravnt_pontes aravnt_pogontes aravnt_premistos aravnt_bugis aravnt_geyos aravnt_grekos aravnt_hosthabo aravnt_hobos aravnt_hutos aravnt_ibantis aravnt_kandes aravnt_karamis aravnt_kastiko aravnt_kelo aravnt_kotines aravnt_ktulistos aravnt_kbito aravnt_lamusyo aravnt_lantis aravnt_labsako aravnt_lemetor aravnt_luks aravnt_metsho aravnt_moldo aravnt_nagalkon aravnt_nesonko aravnt_nesho aravnt_okiyeo aravnt_oppos aravnt_ossoko aravnt_ostis aravnt_panaros aravnt_peloniko aravnt_pilpotis aravnt_pledes aravnt_retebis aravnt_rides aravnt_resonko aravnt_shikos aravnt_suros aravnt_tegis aravnt_tumatoris aravnt_trishikos aravnt_turiyo aravnt_uko aravnt_urkleyo aravnt_urkles aravnt_bandes aravnt_bandis aravnt_basono aravnt_bigonos aravnt_bimes aravnt_benonis aravnt_berkbalo aravnt_boltigen aravnt_boltimno aravnt_boto
+			#}
+		}
+		female_names = {
+			#50 = {
+            	#Adva Alya Anena Anina Bustan Chanina Chasina Chayuta China Chiyuta
+				#Dikla Diklah Diklit Duvsha Hanina Hasna Hayuta Hina Ketina Kitra
+				#Magdala Mahalia Mahalie Marfa Mariam Marta Marte Martha Marthe Marti
+				#Martita Mehalia Meiriona Meirona Morta Nahara Nura Raz Reuma
+				#Saba Sabah Samantha Sameah Samee Sameea Samiya Samiyah Samiyya Samya Sava Shapira Sima
+				#Tabatha Tabby Tabetha Tabitha Tadea Talia Taliah Talya Talitha
+				#Tam Tamasin Tami Tammy Tamsin Tamsyn Tamzin Thaddea Thomasa
+				#Zeita Zeta
+			#}
+			#50 = {
+				aravnt_aguda aravnt_andina aravnt_abaya aravnt_askola aravnt_ata aravnt_bagusna aravnt_bedona aravnt_bridina aravnt_buqa aravnt_ebeba aravnt_eba aravnt_egestana aravnt_egedora aravnt_pedana aravnt_bogonda aravnt_brema aravnt_bremesta aravnt_bremesna aravnt_buga aravnt_bugsi aravnt_anta aravnt_ikebeyonya aravnt_itura aravnt_ibantana aravnt_ganda aravnt_kolya aravnt_gaguda aravnt_magna aravnt_muldana aravnt_muskalna aravnt_mista aravnt_nirka aravnt_narga aravnt_odni aravnt_rebedoni aravnt_riti aravnt_denonti aravnt_trosti aravnt_urklina aravnt_ushedika aravnt_bandikna aravnt_benna aravnt_bergandarna
+			#}
+		}   
+	
+	dynasty_of_location_prefix = "dynnp_de"
+	
+	patronym_prefix_male = "dynnp_aravnt_bilo"
+	patronym_prefix_male = "dynnp_aravnt_bila"
+
+}
+
+name_list_venetic_arabic = {
+		cadet_dynasty_names = {
+			#"dynn_Rasulid" "dynn_Umarid" "dynn_Najadid" "dynn_Dinnid" "dynn_Qutalmish" "dynn_Qadir" "dynn_Toghan" "dynn_Walashma" "dynn_Usfurid" "dynn_Jarwanid" "dynn_Zurayid" "dynn_Muazzamid" "dynn_Banu_Hatim" "dynn_Qubaybid" "dynn_Halabanid" "dynn_Basri" "dynn_Hallaj" "dynn_Baghdadi" "dynn_Bistami" "dynn_Karkhi" "dynn_Qadir" "dynn_Jilani" "dynn_Chishti" "dynn_Badr" "dynn_Miqadiyid" "dynn_Munirid" "dynn_Nadjafid" "dynn_Hamdan" "dynn_Ashhadid" "dynn_Quraishid" "dynn_Kamalid" "dynn_Mosulid" "dynn_Jazrid" "dynn_Husayn" "dynn_Nazeerid" "dynn_Nasrid" "dynn_Bichrid" "dynn_Hafizid" "dynn_Fakhourid" "dynn_Nawawid" "dynn_Naderid" "dynn_Chakroun" "dynn_Atrashid" "dynn_Shehhid" "dynn_Hasanid" "dynn_Qasimid" "dynn_Sulaymanid"
+            dynn_arbvnt_akutiyus dynn_arbvnt_albariniyus dynn_arbvnt_antiya_iyus dynn_arbvnt_ablisikus dynn_arbvnt_arsbatiyakus dynn_arbvnt_buyyiyus dynn_arbvnt_buyiknus dynn_arbvnt_bruyukus dynn_arbvnt_dibiyarikus dynn_arbvnt_dayfulayiyus dynn_arbvnt_dilikus dynn_arbvnt_ijituriyus dynn_arbvnt_inayus dynn_arbvnt_fughiyus dynn_arbvnt_yufantiyus dynn_arbvnt_klutafikus dynn_arbvnt_kubrikuniyus dynn_arbvnt_maknus dynn_arbvnt_naghalknus dynn_arbvnt_naysunkus dynn_arbvnt_usukus dynn_arbvnt_bitamnikus dynn_arbvnt_bumbatigu_ayiyus dynn_arbvnt_raytafiyus dynn_arbvnt_risunkus dynn_arbvnt_tifaliyus dynn_arbvnt_tumaturiyus dynn_arbvnt_tubayu dynn_arbvnt_trishikus dynn_arbvnt_tritijuniyus dynn_arbvnt_ubusitiyus dynn_arbvnt_fastiniyus dynn_arbvnt_fultijiniyus dynn_arbvnt_fultiyumniyus dynn_arbvnt_fultularikus dynn_arbvnt_futiyyiyus
+		}
+		dynasty_names = {
+			#"dynn_Rasulid" "dynn_Umarid" "dynn_Najadid" "dynn_Dinnid" "dynn_Qutalmish" "dynn_Qadir" "dynn_Toghan" "dynn_Walashma" "dynn_Usfurid" "dynn_Jarwanid" "dynn_Zurayid" "dynn_Muazzamid" "dynn_Banu_Hatim" "dynn_Qubaybid" "dynn_Halabanid" "dynn_Basri" "dynn_Hallaj" "dynn_Baghdadi" "dynn_Bistami" "dynn_Karkhi" "dynn_Qadir" "dynn_Jilani" "dynn_Chishti" "dynn_Badr" "dynn_Miqadiyid" "dynn_Munirid" "dynn_Nadjafid" "dynn_Hamdan" "dynn_Ashhadid" "dynn_Quraishid" "dynn_Kamalid" "dynn_Mosulid" "dynn_Jazrid" "dynn_Husayn" "dynn_Nazeerid" "dynn_Nasrid" "dynn_Bichrid" "dynn_Hafizid" "dynn_Fakhourid" "dynn_Nawawid" "dynn_Naderid" "dynn_Chakroun" "dynn_Atrashid" "dynn_Shehhid" "dynn_Hasanid" "dynn_Qasimid" "dynn_Sulaymanid"
+            dynn_arbvnt_akutiyus dynn_arbvnt_albariniyus dynn_arbvnt_antiya_iyus dynn_arbvnt_ablisikus dynn_arbvnt_arsbatiyakus dynn_arbvnt_buyyiyus dynn_arbvnt_buyiknus dynn_arbvnt_bruyukus dynn_arbvnt_dibiyarikus dynn_arbvnt_dayfulayiyus dynn_arbvnt_dilikus dynn_arbvnt_ijituriyus dynn_arbvnt_inayus dynn_arbvnt_fughiyus dynn_arbvnt_yufantiyus dynn_arbvnt_klutafikus dynn_arbvnt_kubrikuniyus dynn_arbvnt_maknus dynn_arbvnt_naghalknus dynn_arbvnt_naysunkus dynn_arbvnt_usukus dynn_arbvnt_bitamnikus dynn_arbvnt_bumbatigu_ayiyus dynn_arbvnt_raytafiyus dynn_arbvnt_risunkus dynn_arbvnt_tifaliyus dynn_arbvnt_tumaturiyus dynn_arbvnt_tubayu dynn_arbvnt_trishikus dynn_arbvnt_tritijuniyus dynn_arbvnt_ubusitiyus dynn_arbvnt_fastiniyus dynn_arbvnt_fultijiniyus dynn_arbvnt_fultiyumniyus dynn_arbvnt_fultularikus dynn_arbvnt_futiyyiyus
+		}
+		male_names = {
+			#40 = {
+				#Abu-Bakr Aarif Abdul-Gafur Abdul-Jaleel Abdul-Qadir Abdul-Wahab Abdullah Aghlab Akin Ali Alim Aram Azam Bahir
+				#Fadil Fadl Faruk Ghalib Hafiz Halil Hasan Husam Hussayn Ibrahim Idris Is_mail Isa Jabir Jalil Jibril Khalil Mahdi Mahmud
+				#Mansur Mirza Mubarak Muhammad Mukhtar Murad Musa Najib Nasr Nizam Qawurd Ramadan Sadiq Sami Samir Shaiban
+				#Shamir Shujah Sulayman Talib Ubayd Uways Yahya Ya_qub Youkhanna Yusuf Zeyd
+			#}
+			#60 = {
+				arbvnt_afrus arbvnt_ayma arbvnt_akutus arbvnt_aliru arbvnt_amatikus arbvnt_andatiyus arbvnt_andatus arbvnt_aflisikus arbvnt_arbus arbvnt_ariyunus arbvnt_arsfatijakus arbvnt_askulus arbvnt_attu arbvnt_baytus arbvnt_balinis arbvnt_buyiyalus arbvnt_buyiyus arbvnt_baruyukus arbvnt_budijakus arbvnt_dayfijarikus arbvnt_dayfijaris arbvnt_dilikus arbvnt_dilis arbvnt_ibus arbvnt_ijistus arbvnt_ijatur arbvnt_aynayu arbvnt_inijus arbvnt_inatiyus arbvnt_inujinis arbvnt_irsiniyus arbvnt_fawwuju arbvnt_funtis arbvnt_fujuntis arbvnt_faramaystus arbvnt_fujiyus arbvnt_jayyus arbvnt_jurakus arbvnt_hustihafus arbvnt_hawwufus arbvnt_hutus arbvnt_yufantus arbvnt_kantis arbvnt_karamus arbvnt_kastikus arbvnt_kallus arbvnt_kaytinis arbvnt_kutulistus arbvnt_kafitu arbvnt_lamusiyu arbvnt_lantus arbvnt_lafaskus arbvnt_limatur arbvnt_lukus arbvnt_matshu arbvnt_muldu arbvnt_najaliknus arbvnt_nayusankus arbvnt_nayshus arbvnt_ukijayyus arbvnt_ubbus arbvnt_usukus arbvnt_ustus arbvnt_banariyyus arbvnt_bilunikus arbvnt_bilfutus arbvnt_blidis arbvnt_ratayfiyyus arbvnt_rataytis arbvnt_rasunukus arbvnt_shikus arbvnt_surus arbvnt_takiyyus arbvnt_tumaturiyus arbvnt_tarishikus arbvnt_turiyu arbvnt_uku arbvnt_urkaliyus arbvnt_urkalis arbvnt_bantis arbvnt_bantus arbvnt_bassanu arbvnt_baynajus arbvnt_baymis arbvnt_bannunis arbvnt_barakfalus arbvnt_bultijinis arbvnt_bultiyamnus arbvnt_butu         
+			#}
+		}
+		female_names = {
+			#50 = {
+            	#Adila Amsha Asiya Faghira Habiba Hanifa Jahaira Kamala Layla Maryam Nafisa #Nyawela Parand Parween Paymaneh Paywand Qamara Rafiqa Rasa Rashida Reshawna
+				#Saaman Sabba Saghar Sahba Sajida Samira Semeah Setara Shahrbano Shahzadah Shameem Shararah Sheeftah Sheeva Shogofa Shokouh Shola Sholah Simin Souzan
+				#Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
+			#}
+			#50 = {
+				arbvnt_akuta arbvnt_andatina arbvnt_abaya arbvnt_askuliyya arbvnt_atta arbvnt_baghsuniyya arbvnt_baytyniyya arbvnt_barijdina arbvnt_bukka arbvnt_ibfa arbvnt_ifa arbvnt_ijistna arbvnt_ijitura arbvnt_fitiyana arbvnt_fugunta arbvnt_firima arbvnt_faramaysta arbvnt_faramaystna arbvnt_fujiya arbvnt_fujisiyya arbvnt_yanta arbvnt_ikifiyuniya arbvnt_ituriya arbvnt_yufantna arbvnt_qanta arbvnt_quliya arbvnt_kuykuta arbvnt_makna arbvnt_maldna arbvnt_muskyalna arbvnt_musta arbvnt_nayrka arbvnt_nirka arbvnt_utniyya arbvnt_ribatuniyya arbvnt_raytiyya arbvnt_taynuntiyya arbvnt_turustiyya arbvnt_urkulayna arbvnt_ushaydika arbvnt_fantkiniya arbvnt_fanna arbvnt_farkundarna
+			#}
+		}   
+
+	dynasty_of_location_prefix = "dynnp_mn"
+	
+
+	patronym_prefix_male = "dynnp_aravnt_filiyu"
+	patronym_prefix_male = "dynnp_aravnt_filiya"
+
+	founder_named_dynasties = yes
+
+	mercenary_names = {
+		{ name = "mercenary_company_the_wanderers" }
+		{ name = "mercenary_company_bedouin_company_of_place" }
+	}
+
+}

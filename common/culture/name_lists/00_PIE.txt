@@ -1,0 +1,31 @@
+﻿name_list_pie = {
+		cadet_dynasty_names = {
+            dynn_Athal-Bhrehg dynn_Klut-wig dynn_Uihro-geus dynn_Tewteh-hrex dynn_Klewos-wesu dynn_Yohroklewos dynn_Hsu-wlkwos dynn_Hregs-kartos dynn_Hmbi-wihros
+			dynn_Regh-klewos dynn_Klewo-regh dynn_Stegwhos dynn_Helbhos-hrehdh 
+			dynn_Wlkwos-Genhos dynn_Hekwos-Genhos dynn_Bher-Genhos dynn_Bel-Genhos dynn_Nmrtos-Genhos
+			
+		}
+
+		dynasty_names = {
+            dynn_Athal-Bhrehg dynn_Klut-wig dynn_Uihro-geus dynn_Tewteh-hrex dynn_Klewos-wesu dynn_Yohroklewos dynn_Hsu-wlkwos dynn_Hregs-kartos dynn_Hmbi-wihros
+			dynn_Regh-klewos dynn_Klewo-regh dynn_Stegwhos dynn_Helbhos-hrehdh 
+			dynn_Wlkwos-Genhos dynn_Hekwos-Genhos dynn_Bher-Genhos dynn_Bel-Genhos dynn_Nmrtos-Genhos	    
+		}
+        # Wlkwos-Génhos Hékwos-Génhos
+		male_names = {
+            Athal-Bhrehg Kluto-wig Uihro-geus Tewteh-hregs Klewos-wesu Yohroklewos Hsu-wlkwos Hregs-kartos Hmbi-wihros
+			Regh-klewos Klewo-regh Stegwhos Helbhos-hrehdh
+			Trito Manu_PIE Yemo Gweru-hekwos Hekwos-Suhnu Klewo-Hner Wlkwos-Whiro Hwesus-Hregs Nogw-Wlkwos Nmrtos-Manu Bel-Hekwos 
+			Hrtkos Wlop Wlkwos 
+		}
+        #Gwéru-Hékwos Hwes-Hrégs Hsu-Hrégs Hékwos-Suhnú Wlkwos-Suhnú Kléwo-Hner Wlkwos-Whiro Hwésus-Hrégs Nogw-Wlkwos Nmrtós-Manu Bel-Hékwos
+		female_names = {
+            Klewos-atta Bhrghentih Bhrghntyeh Hster-ker 
+			Wlkwos-dhughter Hekwos-dhughter Hsu-Wlkweh Swepnos-dhughter Bhewdeh Hwesus-dhughter Bel-Hekweh Bherh
+			Wlopeh Heweh
+		}
+        #Wlkwos-dhughtér Hékwos-dhughtér Hsu-Wlkweh Hekwos-dhughtér Swepnos-dhughtér Bhewdeh Hwésus-dhughtér Bel-Hékweh Bherh
+	dynasty_of_location_prefix = Locationprefix_apo				
+
+}
+#source:https://blog.as.uky.edu/thebhlog/?p=144 https://www.pdfdrive.com/indo-european-poetry-and-myth-e184916537.html

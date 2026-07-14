@@ -1,0 +1,39 @@
+﻿
+@cultural_maa_extra_ai_score = 60 # Equivalent to having 6 extra regiments beyond what the code scoring would indicate (see NEGATIVE_SCORE_PER_EXISTING_REGIMENT)
+
+koryos_maa = {
+	type = skirmishers
+	
+	damage = 25
+	toughness = 15
+	pursuit = 35
+	screen = 25
+	
+	terrain_bonus = {
+		plains = { damage = 20 }
+		forest = { damage = 10 }
+		hills = { damage = 5 }
+		desert = { damage = -5 }
+		desert_mountains = { damage = -5 }
+		wetlands = { pursuit = -25 screen = -15 }
+	}
+
+	counters = {
+		archers = 1
+		skirmishers = 1	
+		horse_archers = 1	
+		heavy_infantry = 1		
+	}
+
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_koryos }
+	}	
+
+	buy_cost = { gold = 35 }
+	low_maintenance_cost = { gold = 0.1 }
+	high_maintenance_cost = { gold = 0.2 }
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = skirmishers
+}

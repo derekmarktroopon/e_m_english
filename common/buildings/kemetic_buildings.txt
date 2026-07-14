@@ -1,0 +1,109 @@
+﻿
+building_medium_kemetic_pyramid = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_the_pyramids.dds"
+
+	can_construct_potential = {
+		or = {
+			scope:holder.culture = { has_cultural_parameter = can_build_pyramids }
+			culture = { has_cultural_parameter = can_build_pyramids }
+		}
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		scope:holder.culture = { has_cultural_parameter = can_build_pyramids }
+		culture = { has_cultural_parameter = can_build_pyramids }
+	}
+
+	is_enabled = {
+		county.holder = { has_title = prev.duchy }
+	}
+
+	show_disabled = yes
+
+    cost_gold = expensive_building_tier_4_cost
+
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.05
+		short_reign_duration_mult = -0.1
+        monthly_piety = 0.5
+        monthly_prestige = 1
+	}
+
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}   
+
+	ai_value = {
+		base = 44
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+		modifier = { # Fill all building slots before going for duchy buildings
+			factor = 0
+			free_building_slots > 0
+		}
+		modifier = { # Less likely when the AI should build regular buildings first
+			factor = 0.1
+			scope:holder = { ai_should_focus_on_building_in_their_capital = yes }
+		}
+	}
+
+	type = duchy_capital
+	
+	flag = duchy_building
+
+	next_building = building_large_kemetic_pyramid
+}
+
+building_large_kemetic_pyramid = {
+
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_the_pyramids.dds"
+	can_construct_potential = {
+		or = {
+			scope:holder.culture = { has_cultural_parameter = can_build_pyramids }
+			culture = { has_cultural_parameter = can_build_pyramids }
+		}
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = { has_cultural_parameter = can_build_pyramids }
+		culture = { has_cultural_parameter = can_build_pyramids }
+	}
+	is_enabled = {
+		county.holder = { has_title = prev.duchy }
+	}
+	show_disabled = yes
+	cost_gold = expensive_building_tier_5_cost
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.05
+		short_reign_duration_mult = -0.2
+        monthly_piety = 2
+        monthly_prestige = 2
+	}
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.4
+		development_growth = 0.2
+	}
+	ai_value = {
+		base = 20
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+	}
+
+	type = duchy_capital
+	
+	flag = duchy_building
+}

@@ -1,0 +1,10 @@
+﻿camunic_legacy_track = {
+	is_shown = {
+		dynasty = {
+			dynast = {
+				has_culture = culture:camunic
+				faith = faith:camunic_pagan
+			}
+		}
+	}
+}

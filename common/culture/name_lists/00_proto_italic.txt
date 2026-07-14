@@ -1,0 +1,25 @@
+﻿name_list_proto_italic = {
+	#This name list is filler for now, as this culture is not meant to be played as
+		cadet_dynasty_names = {
+	    	"dynn_Enokleuios" "dynn_Gaiujios" "dynn_Gnaiuios" "dynn_Kluthednjios" "dynn_Loukjios" "dynn_Septemios" "dynn_Urukleuios" "dynn_Uesukleuios" "dynn_Uoltigenios" "dynn_Enogenios" "dynn_Fugigenios"
+		}
+
+		dynasty_names = {
+	    	"dynn_Enokleuios" "dynn_Gaiujios" "dynn_Gnaiuios" "dynn_Kluthednjios" "dynn_Loukjios" "dynn_Septemios" "dynn_Urukleuios" "dynn_Uesukleuios" "dynn_Uoltigenios" "dynn_Enogenios" "dynn_Fugigenios"
+		}
+
+		male_names = { #https://www.academia.edu/40719160/Celtic_and_Venetic_in_contact_The_Dialectal_Attribution_of_the_Personal_Names_in_the_Venetic_record #https://en.wiktionary.org/wiki/Category:Proto-Italic_given_names
+	        Enokleues Gaiujos Gnaiuos Kluthednjos Loukjos Septemos Urukleues Uesukleues Uoltigenes Enogenes Fugigenes
+		}
+
+		female_names = {
+	        Enokleua Gaiuja Gnaiua Kluthednja Loukja Septema Urukleua Uesukleua Uoltigena Enogena Fugigena
+		}			
+
+	patronym_suffix_male = "dynnpat_suf_ios_pi"
+	patronym_suffix_female = "dynnpat_suf_ia_pi"
+
+	always_use_patronym = yes	
+	
+	dynasty_of_location_prefix = "dynnp_de"	
+}

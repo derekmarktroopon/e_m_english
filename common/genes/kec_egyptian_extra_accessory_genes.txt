@@ -1,0 +1,80 @@
+﻿special_genes = {
+
+	#####################################
+	#									#
+	# 			  HEADGEAR 			    #
+	#									#
+	#####################################
+
+	accessory_genes = {
+		kec_headgear_2 = {
+			kec_egyptian_pharaoh = {
+				index = 0
+				male = { 10 = male_headgear_egyptian_false_beard }
+				female = { 30 = empty }
+				boy = male
+				girl = female
+			}
+			false_beard = {
+				index = 1
+				male = { 10 = male_headgear_egyptian_false_beard }
+				female = { 30 = empty }
+				boy = male
+				girl = female
+			}
+			no_headgear_kec = {
+				index = 2
+				male = { 10 = empty }
+				female = { 30 = empty }
+				boy = male
+				girl = female
+			}
+		}
+		kec_headgear_3 = {
+			kec_egyptian_pharaoh = {
+				index = 0
+				male = { 10 = male_headgear_egyptian_uraeus }
+				female = { 30 = empty }
+				boy = male
+				girl = female
+			}
+			uraeus = {
+				index = 1
+				male = { 10 = male_headgear_egyptian_uraeus }
+				female = { 30 = empty }
+				boy = male
+				girl = female
+			}
+			no_headgear_kec = {
+				index = 2
+				male = { 10 = empty }
+				female = { 30 = empty }
+				boy = male
+				girl = female
+			}
+		}
+		kec_misc = {
+			kec_egyptian_pharaoh = {
+				index = 0
+				male = { 10 = egyptian_bracelets }
+				female = { 30 = empty }
+				boy = male
+				girl = female
+			}
+			kec_egyptian_bracelets = {
+				index = 1
+				male = { 10 = egyptian_bracelets }
+				female = { 30 = empty }
+				boy = male
+				girl = female
+			}
+			no_headgear_kec = {
+				index = 2
+				male = { 10 = empty }
+				female = { 30 = empty }
+				boy = male
+				girl = female
+			}
+		}
+	}
+}

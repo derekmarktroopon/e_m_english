@@ -1,0 +1,163 @@
+﻿venetic_ethiopian_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_aksum }
+					any_this_title_or_de_jure_above = { this = title:d_dahlaks }
+					any_this_title_or_de_jure_above = { this = title:d_lasta }
+					any_this_title_or_de_jure_above = { this = title:d_gondar }
+					any_this_title_or_de_jure_above = { this = title:d_gojjam }
+					any_this_title_or_de_jure_above = { this = title:d_showa }
+					any_this_title_or_de_jure_above = { this = title:d_damot }
+					any_this_title_or_de_jure_above = { this = title:d_kaffa }
+					any_this_title_or_de_jure_above = { this = title:d_sharka }
+					any_this_title_or_de_jure_above = { this = title:d_dawaro }#Kingdom of Adal - Will remove once a somali name list is added
+					any_this_title_or_de_jure_above = { this = title:d_adal }
+					any_this_title_or_de_jure_above = { this = title:d_mora }
+					any_this_title_or_de_jure_above = { this = title:d_danakil }
+					any_this_title_or_de_jure_above = { this = title:d_zaila }
+					any_this_title_or_de_jure_above = { this = title:d_sanaag }
+					any_this_title_or_de_jure_above = { this = title:d_hafun }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { east_african_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	name_list = name_list_venetic_amhara
+
+	#ai_will_do = {
+	#	value = 10
+	#	if = {
+	#		NOT = {
+	#			scope:character = { has_trait = stubborn }
+	#		}
+	#		multiply = 5
+	#	}
+	#}
+}
+
+venetic_ethiopian_biblical_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_aksum }
+					any_this_title_or_de_jure_above = { this = title:d_dahlaks }
+					any_this_title_or_de_jure_above = { this = title:d_lasta }
+					any_this_title_or_de_jure_above = { this = title:d_gondar }
+					any_this_title_or_de_jure_above = { this = title:d_gojjam }
+					any_this_title_or_de_jure_above = { this = title:d_showa }
+					any_this_title_or_de_jure_above = { this = title:d_damot }
+					any_this_title_or_de_jure_above = { this = title:d_kaffa }
+					any_this_title_or_de_jure_above = { this = title:d_sharka }
+					any_this_title_or_de_jure_above = { this = title:d_dawaro }#Kingdom of Adal - Will remove once a somali name list is added
+					any_this_title_or_de_jure_above = { this = title:d_adal }
+					any_this_title_or_de_jure_above = { this = title:d_mora }
+					any_this_title_or_de_jure_above = { this = title:d_danakil }
+					any_this_title_or_de_jure_above = { this = title:d_zaila }
+					any_this_title_or_de_jure_above = { this = title:d_sanaag }
+					any_this_title_or_de_jure_above = { this = title:d_hafun }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { east_african_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	name_list = name_list_venetic_amhara_biblical
+
+}
+
+venetic_nubian_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_nobatia }
+					any_this_title_or_de_jure_above = { this = title:d_naqis }
+					any_this_title_or_de_jure_above = { this = title:d_shamir }
+					any_this_title_or_de_jure_above = { this = title:d_makuria }
+					any_this_title_or_de_jure_above = { this = title:d_bazin }
+					any_this_title_or_de_jure_above = { this = title:d_baqlin }
+					any_this_title_or_de_jure_above = { this = title:d_alwa }
+					any_this_title_or_de_jure_above = { this = title:d_sennar }
+					any_this_title_or_de_jure_above = { this = title:d_kordofan }
+					any_this_title_or_de_jure_above = { this = title:d_darfur }
+					any_this_title_or_de_jure_above = { this = title:d_west_darfur }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { east_african_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	name_list = name_list_venetic_nubian
+
+}
+
+venetic_nubian_biblical_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_nobatia }
+					any_this_title_or_de_jure_above = { this = title:d_naqis }
+					any_this_title_or_de_jure_above = { this = title:d_shamir }
+					any_this_title_or_de_jure_above = { this = title:d_makuria }
+					any_this_title_or_de_jure_above = { this = title:d_bazin }
+					any_this_title_or_de_jure_above = { this = title:d_baqlin }
+					any_this_title_or_de_jure_above = { this = title:d_alwa }
+					any_this_title_or_de_jure_above = { this = title:d_sennar }
+					any_this_title_or_de_jure_above = { this = title:d_kordofan }
+					any_this_title_or_de_jure_above = { this = title:d_darfur }
+					any_this_title_or_de_jure_above = { this = title:d_west_darfur }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { east_african_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	name_list = name_list_venetic_nubian_biblical
+
+}

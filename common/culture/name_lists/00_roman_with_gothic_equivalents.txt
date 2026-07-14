@@ -1,0 +1,153 @@
+﻿
+name_list_roman = {
+
+	cadet_dynasty_names = {
+		"dynn_Julio_Claudian"
+		"dynn_Flavian"
+		"dynn_Nerva_Antonine"
+		"dynn_Severan"
+		"dynn_Gordian"
+		"dynn_Constantinian"
+		"dynn_Valentinian"
+		"dynn_Theodosian"
+		"dynn_Leonid"
+		"dynn_Justinian"
+		"dynn_Heraclian"
+		"dynn_Isaurian"
+		"dynn_Nikephorian"
+		"dynn_Amorian"
+		"dynn_Macedonian"
+		"dynn_Doukid"
+		"dynn_Komnenid"
+		"dynn_Angelid"
+		"dynn_Laskarid"
+		"dynn_Palaiologan"
+	}
+
+	dynasty_names = {
+		"dynn_Julio_Claudian"
+		"dynn_Flavian"
+		"dynn_Nerva_Antonine"
+		"dynn_Severan"
+		"dynn_Gordian"
+		"dynn_Constantinian"
+		"dynn_Valentinian"
+		"dynn_Theodosian"
+		"dynn_Leonid"
+		"dynn_Justinian"
+		"dynn_Heraclian"
+		"dynn_Isaurian"
+		"dynn_Nikephorian"
+		"dynn_Amorian"
+		"dynn_Macedonian"
+		"dynn_Doukid"
+		"dynn_Komnenid"
+		"dynn_Angelid"
+		"dynn_Laskarid"
+		"dynn_Palaiologan"
+		"dynn_Fabricius"
+	}
+
+	male_names = {
+		100 = {
+			Aemilian Aemilius Aetius Albinus Alexander Anastasius Anicius Annius Antoninus Antonius Arcadius Aurelian Aurelius
+			Avitus Belisarius Britannicus Caecilius Caesar Callistus Carinus Carus Cassius Claudius Clementius Constans Constantine
+			Constantius Cornelius Crassus Decimus Decius Diocletian Domitian Domitius Drusus Ennodius Fabianus Fabius Fabricius Faustus Felix Flavianus Florian
+			Gaius Galerius Gallienus Gallus Germanus Gordian Gracchus Gratian Hadrian Herculius Honorius Joannes Jovian
+			Julian Julius Julius-Caesar Junius Justin Justinian Leo Leontius Liberius Licinius Lucius Magnus Marcellinus
+			Marcellus Marcian Marcus Marinus Marius Martinus Maximian Maximinus Maximus Nepotian Nerva Numerian Octavianus Octavius Otho
+			Paulinus Paulus Petronius Philip Pompeius Pontianus Priscus Probus Publius Quintus Romanus Romulus Rufinus Rutilius Sabinianus
+			Saturninus Sempronius Septimius Sergius Severinus Severus Sextus Symmachus Tacitus Theodosius Tiberius
+			Titius Titus Trajan Urbanus Valens Valentinian Valerian Valerius Venantius Vespasian Victor Victorinus Vigilius Vitalianus Volusianus
+		}
+		0 = { 
+			Adephonsus Adelgastrus Adelricus Hermenegildus Ermanaricus Alaricus Odoacer Alatheus Alvitus Amalricus Amalmundus Auricus Athaulphus Athanagildus Athanaricus Baduila Berengarius Egica Hermenegarius Ervigius Euricus Eutharicus Attila Favila Ferdinandus Fritigernus Fritharicus Froila Gadaricus Gausbertus Geila Gesaleicus Gundisalvus Gundemarus Gundulfus Ildebadus Chindasvintus Chintila Leovigildus Liuva Leoviricus Rudericus Rudolphus Rudesindus Reccaredus Ramirus Reccesuinthus Ricimerus Raginaris Rodericus Sabaricus Sisebutus Sisenandus Suinthila Suneharius Sunifredus Theodefredus Theodahatus Theodemirus Theodericus Theudigisclus Theudis Thorismundus Theia Tulga Varamundus Vilfredus Vimaris Vitiges Vittericus Ulfila
+		}
+	}
+	female_names = {
+		100 = {
+			Aelia Agrippina Antonia Antonina Aquilia Aurelia Caecilia Caesaris Candida Cassia Claudia Clementia Constantia
+			Constantina Cornelia Crispina Dominica Domitiana Domna Domnina Drusilla Fausta Faustina Flacilla Flavia Fortunata Frontina Gaia Galeria
+			Gordiana Hadriana Helvia Hilara Honoria Hortensia Julia Juliana Junia Justa Justina Justiniana Licinia Livia Livilla Lucilla
+			Magnia Magnilla Marcella Marcia Marciana Marina Martina Matrona Maxima Maximiana Messalina Minervina Minucia Modia Mustela
+			Octavia Palatina Paula Paulina Petronella Petronia Placidia Plautia Plautilla Pompeia Poppaea Praeiecta Publia Pulcheria
+			Rusticiana Sabina Sallustia Salonina Salvianella Scantilla Serena Sergia Severa Severina Silvia Spadusa Sulpicia Tarsilla Titiana Ulpia Valeria
+			Verina Victoria Vigilantia Viviana
+		}
+		0 = { 
+			Adelgundis Audusinda Audofleda Amalfrida Ereleuva Ariberga Ava_goth Baddo Brunechildis Adelphonsa Adeluara Alvira Erchesuinda Hermengarda Hermenberga Hermenierdis Amalsuinda Froiluba Fronilda Gado_goth Guntruda Ingundis Leodegundia Matasuinda Ralindis Riciberga Ricilo Sesenanda Vinidilda
+		}
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	patronym_prefix_male = "dynnpat_pre_filius"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 0
+	father_name_chance = 50
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 50
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+
+	
+}
+
+name_list_gotho_roman = {
+
+	cadet_dynasty_names = {
+		dynn_Julio_Claudian dynn_Flavian dynn_Nerva_Antonine dynn_Severan dynn_Gordian dynn_Constantinian dynn_Valentinian dynn_Theodosian dynn_Leonid dynn_Justinian dynn_Heraclian dynn_Isaurian dynn_Nikephorian dynn_Amorian dynn_Macedonian dynn_Doukid dynn_Komnenid dynn_Angelid dynn_Laskarid dynn_Palaiologan dynn_Fabricius
+		dynn_Alarian dynn_Adelphonsian dynn_Amalamundian dynn_Odoacian dynn_Alvitian dynn_Favilian dynn_Gadarician dynn_Chindasvintian dynn_Leovigildian dynn_Rudolphian dynn_Raginarian dynn_Sunifredian dynn_Theodefredian dynn_Theodemirian dynn_Theoderician dynn_Vimarian
+	}
+
+	dynasty_names = {
+		dynn_Julio_Claudian dynn_Flavian dynn_Nerva_Antonine dynn_Severan dynn_Gordian dynn_Constantinian dynn_Valentinian dynn_Theodosian dynn_Leonid dynn_Justinian dynn_Heraclian dynn_Isaurian dynn_Nikephorian dynn_Amorian dynn_Macedonian dynn_Doukid dynn_Komnenid dynn_Angelid dynn_Laskarid dynn_Palaiologan dynn_Fabricius
+		dynn_Alarian dynn_Adelphonsian dynn_Amalamundian dynn_Odoacian dynn_Alvitian dynn_Favilian dynn_Gadarician dynn_Chindasvintian dynn_Leovigildian dynn_Rudolphian dynn_Raginarian dynn_Sunifredian dynn_Theodefredian dynn_Theodemirian dynn_Theoderician dynn_Vimarian
+	}
+
+	male_names = {
+		20 = {
+			Aemilian Aemilius Aetius Albinus Alexander Anastasius Anicius Annius Antoninus Antonius Arcadius Aurelian Aurelius
+			Avitus Belisarius Britannicus Caecilius Caesar Callistus Carinus Carus Cassius Claudius Clementius Constans Constantine
+			Constantius Cornelius Crassus Decimus Decius Diocletian Domitian Domitius Drusus Ennodius Fabianus Fabius Fabricius Faustus Felix Flavianus Florian
+			Gaius Galerius Gallienus Gallus Germanus Gordian Gracchus Gratian Hadrian Herculius Honorius Joannes Jovian
+			Julian Julius Julius-Caesar Junius Justin Justinian Leo Leontius Liberius Licinius Lucius Magnus Marcellinus
+			Marcellus Marcian Marcus Marinus Marius Martinus Maximian Maximinus Maximus Nepotian Nerva Numerian Octavianus Octavius Otho
+			Paulinus Paulus Petronius Philip Pompeius Pontianus Priscus Probus Publius Quintus Romanus Romulus Rufinus Rutilius Sabinianus
+			Saturninus Sempronius Septimius Sergius Severinus Severus Sextus Symmachus Tacitus Theodosius Tiberius
+			Titius Titus Trajan Urbanus Valens Valentinian Valerian Valerius Venantius Vespasian Victor Victorinus Vigilius Vitalianus Volusianus
+		}
+		80 = { 
+			Adephonsus Adelgastrus Adelricus Hermenegildus Ermanaricus Alaricus Odoacer Alatheus Alvitus Amalricus Amalmundus Auricus Athaulphus Athanagildus Athanaricus Baduila Berengarius Egica Hermenegarius Ervigius Euricus Eutharicus Attila Favila Ferdinandus Fritigernus Fritharicus Froila Gadaricus Gausbertus Geila Gesaleicus Gundisalvus Gundemarus Gundulfus Ildebadus Chindasvintus Chintila Leovigildus Liuva Leoviricus Rudericus Rudolphus Rudesindus Reccaredus Ramirus Reccesuinthus Ricimerus Raginaris Rodericus Sabaricus Sisebutus Sisenandus Suinthila Suneharius Sunifredus Theodefredus Theodahatus Theodemirus Theodericus Theudigisclus Theudis Thorismundus Theia Tulga Varamundus Vilfredus Vimaris Vitiges Vittericus Ulfila
+		}
+	}
+	female_names = {
+		50 = {
+			Aelia Agrippina Antonia Antonina Aquilia Aurelia Caecilia Caesaris Candida Cassia Claudia Clementia Constantia
+			Constantina Cornelia Crispina Dominica Domitiana Domna Domnina Drusilla Fausta Faustina Flacilla Flavia Fortunata Frontina Gaia Galeria
+			Gordiana Hadriana Helvia Hilara Honoria Hortensia Julia Juliana Junia Justa Justina Justiniana Licinia Livia Livilla Lucilla
+			Magnia Magnilla Marcella Marcia Marciana Marina Martina Matrona Maxima Maximiana Messalina Minervina Minucia Modia Mustela
+			Octavia Palatina Paula Paulina Petronella Petronia Placidia Plautia Plautilla Pompeia Poppaea Praeiecta Publia Pulcheria
+			Rusticiana Sabina Sallustia Salonina Salvianella Scantilla Serena Sergia Severa Severina Silvia Spadusa Sulpicia Tarsilla Titiana Ulpia Valeria
+			Verina Victoria Vigilantia Viviana
+		}
+		50 = { 
+			Adelgundis Audusinda Audofleda Amalfrida Ereleuva Ariberga Ava_goth Baddo Brunechildis Adelphonsa Adeluara Alvira Erchesuinda Hermengarda Hermenberga Hermenierdis Amalsuinda Froiluba Fronilda Gado_goth Guntruda Ingundis Leodegundia Matasuinda Ralindis Riciberga Ricilo Sesenanda Vinidilda
+		}
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	patronym_prefix_male = "dynnpat_pre_filius"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 0
+	father_name_chance = 50
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 50
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+
+	
+}

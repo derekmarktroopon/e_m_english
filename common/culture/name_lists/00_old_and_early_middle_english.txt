@@ -1,0 +1,358 @@
+name_list_northumbrian = {
+	cadet_dynasty_names = {
+        dynn_oe_E_lling dynn_oe_Yffing dynn_oe_Wuscfreaing dynn_oe_Wilgilsing dynn_oe_Storwalcning dynn_oe_Soemling dynn_oe_SE_fugling dynn_oe_SE_balding dynn_oe_Siggeoting dynn_oe_SuebdE_ging dynn_oe_Siggaring dynn_oe_WedE_ging dynn_oe_Cuthwining dynn_oe_Liodwalding dynn_oe_Ecgwalding dynn_oe_Edelming dynn_oe_Ocgting dynn_oe_Iding dynn_oe_Eating dynn_oe_Peding dynn_oe_Pypbing dynn_oe_Crioding dynn_oe_Cynewalding dynn_oe_Cnebbing dynn_oe_Icling dynn_oe_Eamering dynn_oe_Angengeoting dynn_oe_UE_rmunding dynn_oe_WihtlE_ging dynn_oe_Watholgeoting dynn_oe_E_tting dynn_oe_Eanferthing dynn_oe_Biscoping dynn_oe_Beding dynn_oe_Bubbing dynn_oe_CE_dbE_ding dynn_oe_Cueldgilsing dynn_oe_Cretting dynn_oe_Winting
+	}
+
+	dynasty_names = {
+        dynn_oe_E_lling dynn_oe_Yffing dynn_oe_Wuscfreaing dynn_oe_Wilgilsing dynn_oe_Storwalcning dynn_oe_Soemling dynn_oe_SE_fugling dynn_oe_SE_balding dynn_oe_Siggeoting dynn_oe_SuebdE_ging dynn_oe_Siggaring dynn_oe_WedE_ging dynn_oe_Cuthwining dynn_oe_Liodwalding dynn_oe_Ecgwalding dynn_oe_Edelming dynn_oe_Ocgting dynn_oe_Iding dynn_oe_Eating dynn_oe_Peding dynn_oe_Pypbing dynn_oe_Crioding dynn_oe_Cynewalding dynn_oe_Cnebbing dynn_oe_Icling dynn_oe_Eamering dynn_oe_Angengeoting dynn_oe_UE_rmunding dynn_oe_WihtlE_ging dynn_oe_Watholgeoting dynn_oe_E_tting dynn_oe_Eanferthing dynn_oe_Biscoping dynn_oe_Beding dynn_oe_Bubbing dynn_oe_CE_dbE_ding dynn_oe_Cueldgilsing dynn_oe_Cretting dynn_oe_Winting
+   
+	}
+	male_names = {
+		Acca Adda E_lfgar E_lfhun E_lfred E_lfsig E_lfwald E_lfwini E_lfwulf E_lla E_scwald E_scwulf E_sturwini E_than E_thilferth E_thilbald E_thilberht Ethilfrith Ethilheard E_thelhere E_thelmE_r E_thilmod E_thilmund E_thilnoth E_thilred E_thilric E_thelstan E_thilwald Ethilweard E_thilwini E_thilwulf E_tta Alberct Alda Aldbercht Aldceord Aldfrid AldhE_th Aldred Aldwulf Aldhelm Alhmund Alhred Aluberct Aluchsig Aluwini Alowiu Angengeot Anna Arncetel Bacga Bada Badumund Baduwald Badwulf Baldhelm Baldhere Baldwini Beadheard Beadufrith Beaduwine Beadwulf BeldE_g Beoduca Beodufrith Beoduwini Beonna Beorn Beornfrith BeornhE_th Beornheard Beornic Beornred Beornwini Beornwulf Bercht Berchtgils Berctgils Berchthelm Berchthun Bercthun Berchtmund Berchtred Berctred Berchtwald Berctwald Berchtwini Berctwini Berchtwulf Berctwulf BercthE_th Billing Biscop Bisi BlE_cmon Boesel Bofa Bothelm Botwini Botwulf Brorda Bron Bubba Buna Burgfrith Burghelm Byrnhom CasE_r Ceobald Ceolbercht Ceolfrith Ceolgar CeolhE_th Ceolhere Ceolmund Ceolred Ceolwini Ceolwulf Coenhere Coenred Colman Crioda Cudberht Cudda Cundwalh Cuthbald Cuthbercht Cuthfrith Cuthgar Cuthgils Cuthhelm Cuthred Cuthwini Cuthwulf Cweldgils Cyneberht Cynigils Cynewald Cynhelm Cynibald Cynibercht Cynifrith Cyniheard Cynimund Cynired Cyniwulf DE_gfrith DE_ghelm DE_gmund Deduc Deneberct Dremca Drycghelm Dycgfrith Eamer Eanbald Eanbercht Eanferth Eanfrith Eanlac Eanmund Eanred Eanwini Eanwulf Eata Eatdegn Eatfrith Ebbi Ecga Ecgbercht Ecgfrith Ecglaf Ecgmund Ecgred Ecgric Ecgwald Ecgwulf Echha Eadbald Eadbercht Eadgar EadhE_th Eadhelm Edilhech Eadmer Eadwacer Eadmund Eadred Edric Eadwald E_dwini Eadwulf Egilmund Ealac Eni Eoppa Eorpwald Eorpwini Feligeld Folcwini Forthred Forthwald Forthwio Friduwald Friothoberht Friothowald Friothwulf Frithhelm Frithubald Frithuwini Fronca Frood Garfrith Garwald Garwuf Gefwini Gerwald Glappa Guthfrith Guthmund Gyrth Haduberct Hadumund Hadured HE_mgils Heardberct Heardred Heatholac Heathored Heathuberct Heathufrith Heathured Heathuric Heathuwald Heathwulf Helgils HelmbE_d Helmwald Helmwini Helpric Hemma Herebald Herebercht Herefrid Hildiberct Hildigils Hildiwald Hiuddi Hroethlac Hrothfrith Hrothmund Hrothwald Hryp Hunbald Hunberct Hunfrith Hunsig Hunwald Hunwini Hunwulf Hussa HwE_tberct HwE_tgils HwE_tred Hygbald Hygberct Hygfrith Hyglac Hygwini Hysca Hysimonn Hysiwulf Hyssa Ida Ingeld Ingibrand Ingild Ini Inwald Karlus Lagudi Leofthegn Leofwini Liodberct Londberct Londfrith Lulla ME_genfrith ME_genric ME_genwald ME_swith ME_thcor ME_thhelm Milred Nothberht Ocg Oesa Oethilwald Ofa Osbald Osberct Osfrith Oshere Oslaf Osred Osric Oswald Oswiu Oswulf Oswynn Pehthelm Pehtwine Penda Plegbrect Plegwulf Pymma Pypba RE_dwald RE_genhere Redbald Redwulf Ricred Ricwulf SE_bald SE_bercht SE_fugul SE_red SE_wald SE_wini Saxulf Scenwulf Sigbald Sigberct Siggar Siggeot Sigred Sigsceat Sigwini Sigwulf Sigward SwebdE_g Switha Swithbald Swithberct Swithgils Swithmer Swithred Tatberct TathE_d Tathysi Tatwini Tatwulf Tella Theodric Thrythred Tidbald Tidberct Tidhere Tidwini Tidwulf Tilberct Tilfrith Tilisi Tilthegn Tilwini Torchthelm Torchtmund Torchtwini Torchtwulf Toretmund Totta Tulla Tunna Tyttla Wada Wegbrand Wehha Wermund Wernbercht Wernfrith Westorwalcna Wicfrith Wichtbercht WichthE_th Wigbald Wigbercht Wigfrith Wigfus WighE_th Wigmund WihtiE_g Wichtred Wilbercht Wilferth Wilfrith Wilgils Wilhelm Wilred Wilsig Wilthegn Wilwulf Winibald Winta WiurE_dmoda Wiuti Woenan Wuffa WulfhE_th Wulfheard Wulfheri Wulfred Wulfric Wulfsig Wulfwig Yffi
+	}
+	female_names = {
+  		E_bbe E_lfled E_lfgyth E_lfthryth E_storhild Ethilburg Ethilgyth Ethilhild Ethilswith Ethilthryth Ethilu Alchswith Aldburg Aldgyth Aldgifu Altthryth Aluburg Badu Badugyth Baduswith Beonnu Beorngyth BerchtE_ Berctfled Berctwaru Berctgyth Berctswith Berchthryth Bilswith BlE_dswith Bothild Berchtgifu Burgswith Burgthryth Ceolthryth Cuthburg Cwoemlicu Cwoenburg Cwoenthryth Cyniburg Cynigifu Cynigyth Cynithryth DE_gburg Eadburg Eadgyth Eadu Eafu Eanburg Eandryth Eanfled Eangyth Eardgyth Eatcume Eathryth Eatthryth Ecgburg Ecgswith Ecgwaru Edgyth Euthburg Frithhild Godgyth Hathuburg Hathugyth Heaburg Helmthryth Heregyth Hildiburg Hildigyth Hildithryth Hroethburg Hroethgifu Hrothwaru Hungyth HwitE_ Hygburg Hygthryth Inguburg Iurminburg Leofcwoen Leofled Leofgifu Leofgyth Mereswith NunnE_ Oethilburg Osburg Osgifu Osgyth Osthryth Ostthryth Pendgyth RE_gnmE_ld Redburg Redgyth Ricfoleyn Ricthryth SE_gyth SE_thryth Scirburg Seliburg Sigburg Sigthryth Sigwaru TatE_ Tatswith Thingu Tidburg Tidcume Tidhild Tondburg Waldgyth Werburg Werngyth Wernthryth Wictgyth Wilburg Wilcume Wilgyth Wilswith Wilthryth Winethryth Wulfled Wulfgifu Wulfrun Wulfwaru Wulfgyth Wulfhild Wynburg Ythswith
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+
+	patronym_suffix_male = "dynnpat_suf_sunu"
+	patronym_suffix_female = "dynnpat_suf_sdohter"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+
+	mercenary_names = {
+		{ name = "mercenary_company_hengist_retinue" coat_of_arms = "mc_hengist_retinue" }
+		{ name = "mercenary_company_wakes_guard" coat_of_arms = "mc_wakes_guard" }
+		{ name = "mercenary_company_horsas_band" coat_of_arms = "mc_horsas_band" }
+	}		
+}
+
+name_list_mercian = {
+	cadet_dynasty_names = {
+        dynn_oe_Alwing dynn_oe_E_lfring dynn_oe_Alhmunding dynn_oe_Eowing dynn_oe_Pybbing dynn_oe_Offing dynn_oe_Thincfrithing dynn_oe_Eanwulfing dynn_oe_Osmoding dynn_oe_Cenfrithing dynn_oe_Cuthberhting dynn_oe_Bassing dynn_oe_Cynreowing dynn_oe_Cundwaling dynn_oe_Coenwaling dynn_oe_Deorlafing dynn_oe_Hemeling dynn_oe_Immining dynn_oe_Pending dynn_oe_Scefthering dynn_oe_Pinewalding dynn_oe_Tepring dynn_oe_Totting dynn_oe_Wiglafing dynn_oe_Wynfriding
+	}
+
+	dynasty_names = {
+        dynn_oe_Alwing dynn_oe_E_lfring dynn_oe_Alhmunding dynn_oe_Eowing dynn_oe_Pybbing dynn_oe_Offing dynn_oe_Thincfrithing dynn_oe_Eanwulfing dynn_oe_Osmoding dynn_oe_Cenfrithing dynn_oe_Cuthberhting dynn_oe_Bassing dynn_oe_Cynreowing dynn_oe_Cundwaling dynn_oe_Coenwaling dynn_oe_Deorlafing dynn_oe_Hemeling dynn_oe_Immining dynn_oe_Pending dynn_oe_Scefthering dynn_oe_Pinewalding dynn_oe_Tepring dynn_oe_Totting dynn_oe_Wiglafing dynn_oe_Wynfriding    
+	}
+	male_names = {
+		Abba E_lfhere E_lfred E_lfric E_lfsig E_lfstan E_lfwine E_thelbald E_thelberht E_thelheard E_thelhun E_thelnath E_thelred E_thelric E_thelstan E_thelwald E_thelward Aldred Aldwin Aldwulf Alhhelm Alhmund Alric Alwin Alhstan Bassa Beornwulf Berhthum Berhtwald Berhtwulf Berhtsige Bosel Brithwald Brordan Buhred Byrhtnoth Cenfrith Centwine Ceolred Ceolwulf Cnebba Coenwalh Coenwulf Cuthberht Cundwalh Cuthfrith Cuthred Cuthulf Cyma Cynath Cynred Cynreou Deneberht Deorlaf Eadwacer Eanberht Eanwulf Ecgberht Ecgfrith Ecgwine Eada Eadbald Eadberht Eadbriht Eadgar Eadnoth Eadric Eadwald Eadwulf Eoppa Eowa Eomer Fredegys Godwine Haelric Heaberht Heardberht Hearnbriht Heathored Hemele Herewine Hunberht Hwita Hygberht Immin Ingulf Leofric Milred Morcar Oethelwald Offa Oftfor Osmod Oswid Pehtat Peada Penda Pinewald Rethhun Saxulf Scefthere Sigeberht Sigward Stronglic Tepra Thincfrith Tidheh Tidulf Tilhere Totta Uhtred Ulf Unwona WE_renberht WE_rfrith Walbert Waldhere Werefrith Wermund Whitbert Wifrith Wiglaf Wihtred Wilfrith Wita Wulfhere Wulfred Wulfsige Wynfrid
+	}
+	female_names = {
+  		E_lfthryth E_lfwyn E_thelfled Ethelswyht Aldgifu Althryth Alwaru Alwynn Ansith Berhtfled Berhtgyth Berhtgifu Cwenhild E_dburg E_dgyd E_dgifu Goda Gifu Godgifu Godgyth Goldgifu Gytha Hungifu Kineburh Leofcwen Leofled Leofget Leofgifu Leofgyth Mereswith Mildrith Osthrithe SE_gifu SE_gyth Wigfled Wulfled Wulfgifu Wulfrun Wulfwaru
+	}
+	
+	dynasty_of_location_prefix = "dynnp_of"
+
+	patronym_suffix_male = "dynnpat_suf_sunu"
+	patronym_suffix_female = "dynnpat_suf_sdohtur"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_hengist_retinue" coat_of_arms = "mc_hengist_retinue" }
+		{ name = "mercenary_company_wakes_guard" coat_of_arms = "mc_wakes_guard" }
+		{ name = "mercenary_company_horsas_band" coat_of_arms = "mc_horsas_band" }
+	}		
+}
+
+name_list_east_anglian = {
+	cadet_dynasty_names = {
+        dynn_oe_Aldulfing dynn_oe_E_thelricing dynn_oe_E_dhering dynn_oe_Acwulfing dynn_oe_Aning dynn_oe_Beonning dynn_oe_Bertgilsing dynn_oe_Cedding dynn_oe_Eanferthing dynn_oe_Eorpwalding dynn_oe_Herering dynn_oe_Oswalding dynn_oe_RE_genhering dynn_oe_Tyttling dynn_oe_Wuffing dynn_oe_Wehing dynn_oe_Wilhelming dynn_oe_Hryping dynn_oe_Hrothmunding dynn_oe_Tonberting dynn_oe_Trygling dynn_oe_Wermunding dynn_oe_Oswynning dynn_oe_Heatholacing
+	}
+
+	dynasty_names = {
+        dynn_oe_Aldulfing dynn_oe_E_thelricing dynn_oe_E_dhering dynn_oe_Acwulfing dynn_oe_Aning dynn_oe_Beonning dynn_oe_Bertgilsing dynn_oe_Cedding dynn_oe_Eanferthing dynn_oe_Eorpwalding dynn_oe_Herering dynn_oe_Oswalding dynn_oe_RE_genhering dynn_oe_Tyttling dynn_oe_Wuffing dynn_oe_Wehing dynn_oe_Wilhelming dynn_oe_Hryping dynn_oe_Hrothmunding dynn_oe_Tonberting dynn_oe_Trygling dynn_oe_Wermunding dynn_oe_Oswynning dynn_oe_Heatholacing 
+	}
+	male_names = {
+		E_cce Abba E_lfgar Alfelm E_lfhun E_lfrid E_lfric E_lfsig E_lfwald E_rcombert E_scwulf E_thilferth Adelaver E_thelberht E_thelhere E_thelmE_r E_thelred E_thelric E_thelstan E_thelwold E_thelweard E_delwulf Acwulf Alcheard Aldberht Aldwulf Alfred Alfwold Anna Arncetel Beda Baldwin Beaduwine Beonna Bertric Bertgils Bisi Birhtnod Cedda Chenwalla Cuhtbert Cuthwine Kinegils Kinefrid Kineswid Eanferth Eanred E_gfrid Ecglaf E_geric E_dfrid E_dgar E_dhered E_dmund E_dred E_dward E_dwald E_dwine Eni E_rmenred Eorpwald E_rthwald Forthred Godwine Gyrth Harold Heardred Heatholac Hereric Hrothmund Hryp Humberht Huna Iurmin Leofstan Lulla Merewald Merewine Nothberht Odiwald Oswald Oswiu Oswynn Penda Redwald RE_dwald RE_genhere Ricbyhrt Sigisbert Swithelm Tidferth Tonbert Tyttla Wereferth Wehha Wermund Wilfrid Wilhelm Wilred Wuffa Wulfer Wulfric Wulfstan
+	}
+	female_names = {
+  		Ebbe E_lfled E_delburg E_theldreth Aldgifu Althryth Alwaru Alwynn Bertfled Berhtgifu E_dburg E_dgyd E_dgifu E_dith E_rmenild Ermenburg Goda Gifu Godgifu Godgyth Gytha Hereswid Hilda Hungifu Leofcwen Leofled Leofget Leofgifu Leofgyth Mereswith Milburg Mildrith Milgith SE_gyth Sewenn Sexburg Werburg Wigfled Wihtburg Wulfled Wulfgifu Wulfrun Wulfwaru
+	}
+	
+	dynasty_of_location_prefix = "dynnp_of"
+
+	patronym_suffix_male = "dynnpat_suf_sunu"
+	patronym_suffix_female = "dynnpat_suf_sdohtur"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_hengist_retinue" coat_of_arms = "mc_hengist_retinue" }
+		{ name = "mercenary_company_wakes_guard" coat_of_arms = "mc_wakes_guard" }
+		{ name = "mercenary_company_horsas_band" coat_of_arms = "mc_horsas_band" }
+	}		
+}
+
+name_list_west_saxon = {
+	cadet_dynasty_names = {
+        dynn_oe_Agilberhting dynn_oe_Aldhelming dynn_oe_Alnothing dynn_oe_Alricing dynn_oe_Alwining dynn_oe_AlmE_ring dynn_oe_Byrhtnothing dynn_oe_Ecgberhting dynn_oe_Ecgbalding dynn_oe_Ealhemunding dynn_oe_Eabing dynn_oe_Eadbalding dynn_oe_Eopping dynn_oe_Ingilding dynn_oe_Coenreding dynn_oe_Ceolwalding dynn_oe_Coenwulfing dynn_oe_Cuthwulfing dynn_oe_Cuthwining dynn_oe_Ceawlning dynn_oe_Cynnricing dynn_oe_Cynegilsing dynn_oe_Crioding dynn_oe_Ceardicing dynn_oe_E_lfgeating dynn_oe_E_thelmE_ring dynn_oe_E_thelnothing dynn_oe_E_thelwearding dynn_oe_E_thelwulfing dynn_oe_E_lfstaning
+	}
+
+	dynasty_names = {
+    	dynn_oe_Agilberhting dynn_oe_Aldhelming dynn_oe_Alnothing dynn_oe_Alricing dynn_oe_Alwining dynn_oe_AlmE_ring dynn_oe_Byrhtnothing dynn_oe_Ecgberhting dynn_oe_Ecgbalding dynn_oe_Ealhemunding dynn_oe_Eabing dynn_oe_Eadbalding dynn_oe_Eopping dynn_oe_Ingilding dynn_oe_Coenreding dynn_oe_Ceolwalding dynn_oe_Coenwulfing dynn_oe_Cuthwulfing dynn_oe_Cuthwining dynn_oe_Ceawlning dynn_oe_Cynnricing dynn_oe_Cynegilsing dynn_oe_Crioding dynn_oe_Ceardicing dynn_oe_E_lfgeating dynn_oe_E_thelmE_ring dynn_oe_E_thelnothing dynn_oe_E_thelwearding dynn_oe_E_thelwulfing dynn_oe_E_lfstaning       
+	}
+	male_names = {
+		E_lfgar E_lfgeat E_lfheah E_lfhelm E_lfhere E_lfred E_lfric E_lfsige E_lfstan E_lfwig E_lle Eorcenberht E_schere E_stan E_thelbald E_thelbeorht E_thelfrith E_thelheah E_thelheard E_thelmE_r E_thelnoth E_thelrE_d E_thelric E_thelweard E_thelwine E_thelwulf Agenulf Agilberht Alchmund Aldhere EaldreE_d Alfred Aldhelm AlmE_r Alric Alwine Alweald Alwig Alnoth Alsige Alstan Berhtwald Byrhtnoth Ceawlin Ceolnoth Ceolwald CE_dwalla Coenred Coenwalh Coenwulf Criodo Cuthred Cuthwine Cuthwulf Cyneberht Cynegils Cynheard Cynewulf Cynnric Dudd Eaba Ecgbald Ecgberht Ecgwulf Eadbald Eadberht Eadgar Eadweard Eadwine Eadwacer Ealhemund Eoppa Eardweald Erconwald Esgar Godwine Harold HE_dde Heathoberht Herefrith Hunfrith Eormen Incwald Ingild Leofric Leofwine Morcar Oethelred Offa Esc Osmund Oswig RE_dwald Sigebryht SighE_ht Sigeweard Ulf Wigthegn Wulfric Wulfstan
+	}
+	female_names = {
+  		E_lfflE_d E_lfgifu E_lfgyth E_lfhild E_lfrun E_lfthryth E_thelflE_d E_thelgifu E_thelhild E_thelrun Alswith Ealdgyth Ealdgifu Eormenthryth Althryth Alwaru Alwynn BeorhtflE_d Beorhtgifu Cynegifu Dufe Eadgyth Eadgifu Eddu Ealdhild Eormenhild Goda Gifu Godgifu Godgyth Goldgifu Gytha Hungifu Leofcwen LeofflE_d LeofgE_t Leofgifu Leofgyth Leofrun Leofsidu Leofwaru ME_rwynn Mereswith SE_gifu SE_gyth Seaxburh WigflE_d WulfflE_d Wulfgifu Wulfrun Wulfwaru
+	}
+	
+	dynasty_of_location_prefix = "dynnp_of"
+
+	patronym_suffix_male = "dynnpat_suf_sunu"
+	patronym_suffix_female = "dynnpat_suf_sdohtor"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_hengist_retinue" coat_of_arms = "mc_hengist_retinue" }
+		{ name = "mercenary_company_wakes_guard" coat_of_arms = "mc_wakes_guard" }
+		{ name = "mercenary_company_horsas_band" coat_of_arms = "mc_horsas_band" }
+	}		
+}
+
+name_list_east_saxon = {
+	cadet_dynasty_names = {
+    	dynn_oe_E_scwining dynn_oe_Antsecging dynn_oe_Bedcing dynn_oe_Gesecging dynn_oe_Offing dynn_oe_Saberhting dynn_oe_Sawearding dynn_oe_Seaxing dynn_oe_Seaxneting dynn_oe_Seaxreding dynn_oe_Sebbing dynn_oe_Seleferthing dynn_oe_Selereding dynn_oe_Sigberhting dynn_oe_Sigebalding dynn_oe_Sigeberhting dynn_oe_Sigefuging dynn_oe_Sigeharding dynn_oe_Sigemunding dynn_oe_Sigericing dynn_oe_Sighering dynn_oe_Sledding dynn_oe_SwE_pping    
+	}
+
+	dynasty_names = {
+    	dynn_oe_E_scwining dynn_oe_Antsecging dynn_oe_Bedcing dynn_oe_Gesecging dynn_oe_Offing dynn_oe_Saberhting dynn_oe_Sawearding dynn_oe_Seaxing dynn_oe_Seaxneting dynn_oe_Seaxreding dynn_oe_Sebbing dynn_oe_Seleferthing dynn_oe_Selereding dynn_oe_Sigberhting dynn_oe_Sigebalding dynn_oe_Sigeberhting dynn_oe_Sigefuging dynn_oe_Sigeharding dynn_oe_Sigemunding dynn_oe_Sigericing dynn_oe_Sighering dynn_oe_Sledding dynn_oe_SwE_pping      
+	}
+	male_names = {
+		E_lfgar E_lfgeat E_lfheah E_lfhelm E_lfhere E_lfhun E_lfnoth E_lfred E_lfric E_lfsige E_lfstan E_lfweald E_lfwig E_lfwine E_scwine E_thelbeorht Adelelm E_thelrE_d E_thelwulf Alfred AlmE_r Aluberht Alric Alsige Alstan Antsecg Bedca Eadweard Eolla Esgar Gesecg Gislhere Godwine Harold Morcar Offa Osa Saberht Saweard Seaxa Seaxred Sebbe Seleferth Selered Sigeberht Sigebald Sigeferth Sigefugl Sigehard Sigemund Sigered Sigeric Scigga Sighere Sigeweard Sledd SwE_ppa Swithred Thonan Tota Ulf Wiohthun Wulfric
+	}
+	female_names = {
+  		Abbo E_lfflE_d E_lfgifu E_lfthryth E_thelflE_d E_thelgyth Alswith Ealdgyth Ealdgifu Althryth Alwaru Alwynn Berhtfled Berhtgifu Cynegifu Dufe Eadgyth Eadgifu Eddu Ealdhild Goda Gifu Godgifu Godgyth Goldgifu Gytha Hungifu Leofcwen LeofflE_d LeofgE_t Leofgifu Leofgyth Leofsidu Leofwaru ME_rwynn Mereswith SE_gifu SE_gyth WigflE_d WulfflE_d Wulfgifu Wulfrun Wulfwaru
+	}
+	
+	dynasty_of_location_prefix = "dynnp_of"
+
+	patronym_suffix_male = "dynnpat_suf_sunu"
+	patronym_suffix_female = "dynnpat_suf_sdohtur"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_hengist_retinue" coat_of_arms = "mc_hengist_retinue" }
+		{ name = "mercenary_company_wakes_guard" coat_of_arms = "mc_wakes_guard" }
+		{ name = "mercenary_company_horsas_band" coat_of_arms = "mc_horsas_band" }
+	}		
+}
+
+name_list_jutish = {
+	cadet_dynasty_names = {
+    	dynn_oe_E_delvalding dynn_oe_E_thelricing dynn_oe_Aldwulfing dynn_oe_Badanothing dynn_oe_Ceolnothing dynn_oe_Cuthreding dynn_oe_Cwichelming dynn_oe_Dioring dynn_oe_Dunning dynn_oe_Eadbalding dynn_oe_Ecgberhting dynn_oe_Ethilberhting dynn_oe_Erconberhting dynn_oe_Gebmunding dynn_oe_Godwining dynn_oe_Hlothhering dynn_oe_Hengesting dynn_oe_Iurmenricing dynn_oe_Ocging dynn_oe_Oedelwalding dynn_oe_Oiscingas dynn_oe_Uihtreding dynn_oe_WE_rmunding dynn_oe_WegdE_ging dynn_oe_Wihtreding dynn_oe_Wihtgilsing dynn_oe_Witting
+	}
+
+	dynasty_names = {
+    	dynn_oe_E_delvalding dynn_oe_E_thelricing dynn_oe_Aldwulfing dynn_oe_Badanothing dynn_oe_Ceolnothing dynn_oe_Cuthreding dynn_oe_Cwichelming dynn_oe_Dioring dynn_oe_Dunning dynn_oe_Eadbalding dynn_oe_Ecgberhting dynn_oe_Ethilberhting dynn_oe_Erconberhting dynn_oe_Gebmunding dynn_oe_Godwining dynn_oe_Hlothhering dynn_oe_Hengesting dynn_oe_Iurmenricing dynn_oe_Ocging dynn_oe_Oedelwalding dynn_oe_Oiscingas dynn_oe_Uihtreding dynn_oe_WE_rmunding dynn_oe_WegdE_ging dynn_oe_Wihtreding dynn_oe_Wihtgilsing dynn_oe_Witting
+	}
+	male_names = {
+		Abba E_lfred E_thelbald E_thelberht E_thelheard E_thelnoth E_thelric E_delvald E_thelwulf Alchfrith Aldwulf Alfred Badanoth Beornmod Beornwulf Ceolnoth Ceolwulf Coenwulf Cuthred Cwichelm Diora Dunn Eardwulf Ecgberht Eadbald Eadwald Erconberht Gebmund Godwine Harold Hengest Hlothhere Ithamar Iurmenric Ocga Oedelwald Oisc Oswulf Plegred Putta WE_rmund WedE_g Wiglaf Wihtgils Wihtred Witta Wulfred
+	}
+	female_names = {
+  		E_lfgifu Alhthryth Alwaru Alwynn Berhtfled Berhtgifu Cynegifu Dufe Eadgyth Eadgifu Ealdhild Ealhburg Goda Gifu Godgifu Godgyth Gytha Hungifu Leofcwen LeofflE_d LeofgE_t Leofgifu Leofgyth Leofsidu Leofwaru Lufu Mereswith SE_gifu SE_gyth Werburg WigflE_d WulfflE_d Wulfgifu Wulfrun Wulfwaru
+	}
+	
+	dynasty_of_location_prefix = "dynnp_of"
+
+	patronym_suffix_male = "dynnpat_suf_sunu"
+	patronym_suffix_female = "dynnpat_suf_sdohtor"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_hengist_retinue" coat_of_arms = "mc_hengist_retinue" }
+		{ name = "mercenary_company_wakes_guard" coat_of_arms = "mc_wakes_guard" }
+		{ name = "mercenary_company_horsas_band" coat_of_arms = "mc_horsas_band" }
+	}		
+}
+
+name_list_early_middle_english = {
+	cadet_dynasty_names = {
+        dynn_Abdon dynn_Abram dynn_Ackley dynn_Ackroyd dynn_Ackworth dynn_Aessecroft dynn_Aessefelde dynn_Alder dynn_Aldington dynn_Aldridge dynn_Aldworth dynn_Ale dynn_Alford dynn_Allnutt dynn_Alwin dynn_Alwold dynn_Ashe dynn_Atkinson dynn_Attherbery dynn_Atwode dynn_Audley dynn_Axton dynn_Ayling dynn_Aylward dynn_Barkhous dynn_Barne dynn_Battle dynn_Bayrestowe dynn_Bellhous dynn_Berry dynn_Blund dynn_Briggs dynn_Bukerel dynn_Colhope dynn_Colthard dynn_Coppard dynn_Crathorne dynn_Culeford dynn_Dale dynn_Edrich dynn_Elwald dynn_Etheling dynn_Fayrclough dynn_Fayrson dynn_Fornham dynn_Gamble dynn_Godwinson dynn_Goodeve dynn_Goodyear dynn_Gunnell dynn_Haldham dynn_Herthyrst dynn_Hillok dynn_Holwewode dynn_Hooke dynn_Horscroft dynn_Hyldrecle dynn_Kerr dynn_Kirk dynn_Knut dynn_Lamb dynn_Laueshel dynn_Laverke dynn_Lithlebyri dynn_Liuremere dynn_Oftun dynn_Ormeson dynn_Oswald dynn_Stert dynn_Swaine dynn_Thurkell dynn_Tooley dynn_Trostune dynn_Weaver
+	}
+
+	dynasty_names = {
+        dynn_Aessefelde dynn_Aluric dynn_Culeford dynn_Edrich dynn_Fornham dynn_Gamble dynn_Goodeve dynn_Gunnell dynn_Haldham dynn_Herthyrst dynn_Hyldrecle dynn_Laueshel dynn_Lithlebyri dynn_Liuremere dynn_Oftun dynn_Ormeson dynn_Patric dynn_Piteman dynn_Stert dynn_Swaine dynn_Thurkell dynn_Tooley dynn_Trostune dynn_Tuerferte dynn_Ludding dynn_Turnel dynn_Bordwate
+	}
+	male_names = {
+		55 = { #Old English
+            Elfget Alfred Ailred Elfric Elfwig Elfwine Adelmar Athelstan Attelstane Ailward Aylwy Ailwin Aldred Aldwin Aluric Brune Chadde Cyneric Edmund Edric Eadwig Edwin Godric Godwin Hereward Hune Hutred Lefget Leuric Lewin Orgar Orm Osbert Osbern Pawa Saxe Siflet Stanmer Swein Tedric Theodric Tosti Ulf Wenstan Wulfric Wulfstan Wulfwig Wulfwine Wyther
+		}
+		5 = { #Christian
+		    Benedict John
+		}
+		12 = { #Foreign
+		    Audric Durand Durand Ermand Fulcard Fulcher Tidebud Warin 
+		}
+		3 = { #Foreign - rare
+		    Boio Cazwin Coleman Fredo Friebern Gangulf Grimbald Hardwin Hereman Lungwin Meinet Reri Rotbert Salomon Sigibodo Thankric Theodbodo Winterhard
+		}
+		25 = { #Norman
+		    Ansger Baldwin Geoffrey Hubert Hugo Ralph Randulf Richard Robert Roger Russel Walter Wigulf William
+		} 
+	}
+	female_names = {
+	    40 = { #Old English
+        	Elfled Alviva Elviva Baldgiva Brihtgiva Brihtiva Godiva Hilda Lefget Leveve
+	    }
+	    15 = { #Christian
+            Agnes Cecily Margret Eve Anneis Sybil
+	    }
+	    10 = { #Foreign
+            Basilia Christine Haganhild Isolda Julianna Lettice Mabilia Muriella Wimarca
+	    }
+	    25 = { #Norman
+            Alice Clarice Emma Matilda Beatrice
+	    }     
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+
+	patronym_suffix_male = "dynnpat_suf_s"
+	patronym_suffix_female = "dynnpat_suf_s"			
+}
+
+name_list_early_middle_english_no_normans = {
+	cadet_dynasty_names = {
+        dynn_Abdon dynn_Abram dynn_Ackley dynn_Ackroyd dynn_Ackworth dynn_Aessecroft dynn_Aessefelde dynn_Alder dynn_Aldington dynn_Aldridge dynn_Aldworth dynn_Ale dynn_Alford dynn_Allnutt dynn_Alwin dynn_Alwold dynn_Ashe dynn_Atkinson dynn_Attherbery dynn_Atwode dynn_Audley dynn_Axton dynn_Ayling dynn_Aylward dynn_Barkhous dynn_Barne dynn_Battle dynn_Bayrestowe dynn_Bellhous dynn_Berry dynn_Blund dynn_Briggs dynn_Bukerel dynn_Colhope dynn_Colthard dynn_Coppard dynn_Crathorne dynn_Culeford dynn_Dale dynn_Edrich dynn_Elwald dynn_Etheling dynn_Fayrclough dynn_Fayrson dynn_Fornham dynn_Gamble dynn_Godwinson dynn_Goodeve dynn_Goodyear dynn_Gunnell dynn_Haldham dynn_Herthyrst dynn_Hillok dynn_Holwewode dynn_Hooke dynn_Horscroft dynn_Hyldrecle dynn_Kerr dynn_Kirk dynn_Knut dynn_Lamb dynn_Laueshel dynn_Laverke dynn_Lithlebyri dynn_Liuremere dynn_Oftun dynn_Ormeson dynn_Oswald dynn_Stert dynn_Swaine dynn_Thurkell dynn_Tooley dynn_Trostune dynn_Weaver
+	}
+
+	dynasty_names = {
+        dynn_Aessefelde dynn_Aluric dynn_Culeford dynn_Edrich dynn_Fornham dynn_Gamble dynn_Goodeve dynn_Gunnell dynn_Haldham dynn_Herthyrst dynn_Hyldrecle dynn_Laueshel dynn_Lithlebyri dynn_Liuremere dynn_Oftun dynn_Ormeson dynn_Patric dynn_Piteman dynn_Stert dynn_Swaine dynn_Thurkell dynn_Tooley dynn_Trostune dynn_Tuerferte dynn_Ludding dynn_Turnel dynn_Bordwate
+	}
+	male_names = {
+		70 = { #Old English
+            Elfget Alfred Ailred Elfric Elfwig Elfwine Adelmar Athelstan Attelstane Ailward Aylwy Ailwin Aldred Aldwin Aluric Brune Chadde Cyneric Edmund Edric Eadwig Edwin Godric Godwin Hereward Hune Hutred Lefget Leuric Lewin Orgar Orm Osbert Osbern Pawa Saxe Siflet Stanmer Swein Tedric Theodric Tosti Ulf Wenstan Wulfric Wulfstan Wulfwig Wulfwine Wyther
+		}
+		15 = { #Christian
+		    Benedict John
+		}
+		12 = { #Foreign
+		    Audric Durand Durand Ermand Fulcard Fulcher Tidebud Warin 
+		}
+		3 = { #Foreign - rare
+		    Boio Cazwin Coleman Fredo Friebern Gangulf Grimbald Hardwin Hereman Lungwin Meinet Reri Rotbert Salomon Sigibodo Thankric Theodbodo Winterhard
+		}
+	}
+	female_names = {
+	    60 = { #Old English
+        	Elfled Alviva Elviva Baldgiva Brihtgiva Brihtiva Godiva Hilda Lefget Leveve
+	    }
+	    25 = { #Christian
+            Agnes Cecily Margret Eve Anneis Sybil
+	    }
+	    15 = { #Foreign
+            Basilia Christine Haganhild Isolda Julianna Lettice Mabilia Muriella Wimarca
+	    } 
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+
+	patronym_suffix_male = "dynnpat_suf_s"
+	patronym_suffix_female = "dynnpat_suf_s"			
+}
+
+later_english_no_normans = { #Pure - modified - anglo-saxon names
+    cadet_dynasty_names = {
+        dynn_Acker dynn_Ackerly dynn_Aldington dynn_Ashfield dynn_Ashwood dynn_Aluric dynn_Ayling dynn_Aylward dynn_Balcombe dynn_Bakewell dynn_Bordwate dynn_Calthorpe dynn_Cartledge dynn_Culeford dynn_Eastoft dynn_Edrich dynn_Fenwick dynn_Fornham dynn_Gamble dynn_Goodeve dynn_Gunnell dynn_Haldham dynn_Herthyrst dynn_Hyldrecle dynn_Laueshell dynn_Lithlebyri dynn_Liuremere dynn_Oftun dynn_Ormeson dynn_Patric dynn_Piteman dynn_Stert dynn_Swain dynn_Thurkell dynn_Tooley dynn_Trostune dynn_Tuerferte dynn_Ludding dynn_Turnel
+    }
+
+	dynasty_names = {
+        dynn_Acker dynn_Ackerly dynn_Aldington dynn_Ashfield dynn_Ashwood dynn_Aluric dynn_Ayling dynn_Aylward dynn_Balcombe dynn_Bakewell dynn_Bordwate dynn_Calthorpe dynn_Cartledge dynn_Culeford dynn_Eastoft dynn_Edrich dynn_Fenwick dynn_Fornham dynn_Gamble dynn_Goodeve dynn_Gunnell dynn_Haldham dynn_Herthyrst dynn_Hyldrecle dynn_Laueshell dynn_Lithlebyri dynn_Liuremere dynn_Oftun dynn_Ormeson dynn_Patric dynn_Piteman dynn_Stert dynn_Swain dynn_Thurkell dynn_Tooley dynn_Trostune dynn_Tuerferte dynn_Ludding dynn_Turnel   
+	}
+    male_names = {
+        80 = { #Old English
+            Elfgar Elfget Elfric Alfred Ailred Alfsig Elfwig Elfwin Ethelbert Ethelred Adelmar Athelston Ethelston Ailward Ailwy Ailwin Aegenwulf Aldred Alden Eldwin Aldwin Elmer Aluric Alston Bertric Bertsig Brune Chad Cuthbert Cyneric Egbert Edgar Edmund Edric Edward Edwig Edwin Godric Godwin Hereward Hune Hutred Lefget Leuric Lewin Orgar Osbert Osbern Pawa Saxe Siflet Stammer Swein Tedric Theodric Tosti Ulf Winston Wulfric Wulfston Wulfwig Wulfwin Wyther
+        }
+        10 = { #Christian
+		    Adam Anthony Benedict Christian John Mark Thomas
+		}
+		10 = { #Foreign
+		    Audric Coleman Durand Ermand Fredo Fulcard Fulcher Gangulf Grimbald Rotbert Sigbod Thankric Theobod Tidebud Warin Winterhard
+		}
+		0 = { # translated versions of other culture names
+			Blethin Duncan Douglas Fergus Findlay Griffith Kenneth Patrick Teague Howell Meredith Owen Tristan Cecil Sweeney Cedric Merlin Sebastian Zachary
+		}
+    }
+    female_names = {
+        60 = { #Old English
+            Elfled Alviva Elviva Elfreda Etheldreda Audrey Ethel Aldith Baldgiva Brittgiva Brittiva Edythe Edith Eda Godiva Hilda Kimber Kinborough Lefget Leveve
+        }
+        20 = { #Christian
+		    Agnes Cecily Margret Eve Aneis Sybil
+		}
+		10 = { #Foreign
+		    Basilia Christine Haganhild Isolda Julianna Lettice Mabilia Muriella Wimarca
+		}
+    }
+	
+}

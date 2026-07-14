@@ -1,0 +1,35 @@
+﻿custom_special_kec_false_beard = {
+	usage = customization
+	interface_position = 9
+	add_accessory_modifiers = { gene = kec_headgear_2 template = empty }
+	add_accessory_modifiers = { gene = kec_headgear_2 template = false_beard }
+}
+custom_special_kec_uraeus = {
+	usage = customization
+	interface_position = 10
+	add_accessory_modifiers = { gene = kec_headgear_3 template = empty }
+	add_accessory_modifiers = { gene = kec_headgear_3 template = uraeus }
+}
+custom_special_kec_bracelets = {
+	usage = customization
+	interface_position = 11
+	add_accessory_modifiers = { gene = kec_misc template = empty }
+	add_accessory_modifiers = { gene = kec_misc template = egyptian_bracelets }
+}
+
+
+custom_special_kec_egyptian_makeup = { #BA ADDED
+	usage = customization
+	interface_position = 12
+	
+	add_accessory_modifiers = {
+		gene = gene_makeup
+		template = empty
+	}
+
+	add_accessory_modifiers = {
+		gene = gene_makeup
+		template = kec_egyptian_makeup
+	}
+
+}

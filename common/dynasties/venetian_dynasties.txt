@@ -1,0 +1,117 @@
+﻿## These are really not in numeric order... sorry...
+
+
+514 = {
+	name = "dynn_Falier"
+	culture = "venetian"
+}
+7237 = {
+	name = "dynn_Zen"
+	culture = "venetian"
+}
+7238 = {
+	name = "dynn_Soranza"
+	culture = "venetian"
+}
+8734 = {
+	name = "dynn_Zorzi"
+	culture = "venetian"
+}
+13006 = {
+	name = "dynn_Tiepolo"
+	culture = "venetian"
+}
+13007 = {
+	name = "dynn_Gradenigo"
+	culture = "venetian"
+}
+13027 = {
+	name = "dynn_Dandolo"
+	culture = "venetian"
+}
+13032 = {
+	prefix = "dynnp_della"
+	name = "dynn_Scala"
+	culture = "venetian"
+}
+13076 = {
+	name = "dynn_MaistroPiero"
+	culture = "venetian"
+}
+1040023 = {
+	name = "dynn_Badoer"
+	culture = "venetian"
+}
+515 = {
+	name = "dynn_Selvo"
+	culture = "venetian"
+}
+516 = {
+	name = "dynn_Contarini"
+	culture = "venetian"
+}
+7235 = {
+	name = "dynn_Michiel"
+	culture = "venetian"
+}
+7236 = {
+	name = "dynn_Polani"
+	culture = "venetian"
+}
+13070 = {
+	name = "dynn_Moresini"
+	culture = "venetian"
+}
+13071 = {
+	name = "dynn_Fiabenigo"
+	culture = "venetian"
+}
+13075 = {
+	name = "dynn_Ziani"
+	culture = "venetian"
+}
+101562 = {
+	name = "dynn_Orsuolo"
+	culture = "venetian"
+}
+101831 = {
+	name = "dynn_Malipiero"
+	culture = "venetian"
+}
+1042809 = {
+	name = "dynn_Tradomenego"
+	culture = "venetian"
+}
+1042810 = {
+	name = "dynn_Tribun"
+	culture = "venetian"
+}
+1042811 = {
+	name = "dynn_Memo"
+	culture = "venetian"
+}
+1042812 = {
+	name = "dynn_Participazo"
+	culture = "venetian"
+}
+1042813 = {
+	name = "dynn_Candian"
+	culture = "venetian"
+}
+1022325 = {
+	name = "dynn_Gaulo"
+	culture = "venetian"
+}
+1022326 = {
+	name = "dynn_Monegario"
+	culture = "venetian"
+}
+1022327 = {
+	name = "dynn_Cabalio"
+	culture = "venetian"
+}
+1022328 = {
+	prefix = "dynnp_di"
+	name = "dynn_Antenori"
+	culture = "venetian"
+}

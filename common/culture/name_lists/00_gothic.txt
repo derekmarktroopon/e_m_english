@@ -1,0 +1,145 @@
+name_list_gothic = {
+
+	cadet_dynasty_names = {
+		dynn_Erwigiana dynn_Kindasuinthiana dynn_Athanagildid dynn_Athaulf dynn_Sigireik dynn_Gaisalaik dynn_Thiudis dynn_Liwa dynn_Guntimer dynn_Swinthila dynn_Tulga dynn_Hairwig dynn_Witiza dynn_Rotreik dynn_Lewigild dynn_Walja dynn_Witireik dynn_Sisibaud dynn_Kindila dynn_Wanbs
+		dynn_Alareiking dynn_Alawithing dynn_Amalamunding dynn_Athawulfing dynn_Athanareiking dynn_Fathiling dynn_Gauting dynn_Kindaswinthing dynn_Liubagilding dynn_Hrothwulfing dynn_Raginamering dynn_Sunjafrething dynn_Hrothireiking dynn_Hrothistaining dynn_Waramunding dynn_Thiudareiking
+	}
+	
+	dynasty_names = {
+		dynn_Erwigiana dynn_Kindasuinthiana dynn_Athanagildid dynn_Athaulf dynn_Sigireik dynn_Gaisalaik dynn_Thiudis dynn_Liwa dynn_Swinthila dynn_Tulga dynn_Hairwig dynn_Witiza dynn_Rotreik dynn_Lewigild dynn_Walja dynn_Witireik dynn_Sisibaud dynn_Kindila dynn_Wanbs
+		dynn_Alareiking dynn_Alawithing dynn_Amalamunding dynn_Athawulfing dynn_Athanareiking dynn_Fathiling dynn_Gauting dynn_Kindaswinthing dynn_Liubagilding dynn_Hrothwulfing dynn_Raginamering dynn_Sunjafrething dynn_Hrothireiking dynn_Hrothistaining dynn_Waramunding dynn_Thiudareiking
+	}
+
+	male_names = {
+		Athalafuns Athalagasts Athalareiks Airmanagilds Airmanareiks Alareiks Alathiuds Alawiths Amalareiks Amalamunds Auriks Audawakrs Athalawulfs Athanagilds Athanareiks Baduwila Bairngairs Agika Airmanagairs Airwigs Aiwareiks Attila Euthareiks Fathila_goth Frithunands Frithugairns Frithareiks Fruwila Gadareiks Gauzabairths Gaila Gaisalaiks Gunthisalbs Gunthimers Gunthiwulfs Kindaswinths Kinthila Liubagilds Liuba Liubareiks Hrothireiks Hrothwulfs Hrothisinths Reikireths Ranamers Raginariths Raikaswinths Reikimers Hildibad Hrothareiks Sabareiks Sigisbuds Sigisnanth Swinthila Sunjaharis Sunjaifrithas Thiudafrithas Thiudahaths Thiudamers Thiudareiks Thiudageisls Thiudis Thaurismunds Theila Tulga Waramunds Wiljafrithas Weihamaris Witugis Withrareiks Wulfila
+	}
+	female_names = {
+		Athalagundis Audusintha Audufleda Amalafrida Airaliuba Harjabairga Awa Bado_goth Brunjahildis Athalafunsa Athalawara Alwira Airkanaswintha Airmanabairga Airmanagarda Airmaniartha Airmansintha Amalaswintha Fraujaliuba Fraujanhilda Gado Gunthahrutha Inguntha Liudaguntha Mataswintha Raginlintha Reikibairga Reikilo Sigisnantha Winidahilda
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	patronym_suffix_male = "dynnpat_suf_iz"
+	patronym_suffix_female = "dynnpat_suf_iz"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 5
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 5
+
+	
+}
+
+name_list_ostrogothic = {
+
+	cadet_dynasty_names = {
+		dynn_Erwigiana dynn_Chindasuinthiana dynn_Athanagildid dynn_Atholf dynn_Sigireic dynn_Gesalec dynn_Thiudis dynn_Liwa dynn_Swinthila dynn_Tulga dynn_Herwig dynn_Witiza dynn_Rotreic dynn_Lewigild dynn_Walja dynn_Witireic dynn_Sisibod dynn_Chindila dynn_Wanbs dynn_Alareiching dynn_Alawithing dynn_Amalamunding dynn_Athawulfing dynn_Athanareiching dynn_Fathiling dynn_Goting dynn_Chindaswinthing dynn_Liubagilding dynn_Hrothwulfing dynn_Raginamering dynn_Sunjafrething dynn_Hrothireiching dynn_Hrothistening dynn_Waramunding dynn_Thiudareiching
+	}
+	
+	dynasty_names = {
+		dynn_Erwigiana dynn_Chindasuinthiana dynn_Athanagildid dynn_Atholf dynn_Sigireic dynn_Gesalec dynn_Thiudis dynn_Liwa dynn_Swinthila dynn_Tulga dynn_Herwig dynn_Witiza dynn_Rotreic dynn_Lewigild dynn_Walja dynn_Witireic dynn_Sisibod dynn_Chindila dynn_Wanbs dynn_Alareiching dynn_Alawithing dynn_Amalamunding dynn_Athawulfing dynn_Athanareiching dynn_Fathiling dynn_Goting dynn_Chindaswinthing dynn_Liubagilding dynn_Hrothwulfing dynn_Raginamering dynn_Sunjafrething dynn_Hrothireiching dynn_Hrothistening dynn_Waramunding dynn_Thiudareiching
+	}
+
+	male_names = {
+		Athalafun Athalagast Athalareic Ermanagild Ermanareic Alareic Alathiud Alawith Amalareic Amalamund Oric Odawacr Athalawulf Athanagild Athanareic Baduwila Bernger Agica Ermanager Erwig Ewareic Attila Euthareic Fathila_goth Frithunand Frithugern Frithareic Fruwila Gadareic Gozaberth Gela Gesalec Gunthisalb Gunthimer Gunthiwulf Chindaswinth Chinthila Liubagild Liuba Liubareic Hrothireic Hrothwulf Hrothisinth Reichireth Ranamer Raginarith Recaswinth Reichimer Hildibad Hrothareic Sabareic Sigisbud Sigisnanth Swinthila Sunjahari Sunjafrith Thiudafrith Thiudahath Thiudamer Thiudareic Thiudageisl Thiudi Thorismund Theila Tulga Waramund Wiljafrith Weihamari Witugi Withrareic Wulfila
+	}
+	female_names = {
+
+		Athalagund Odusintha Odufleda Amalafrida Eraliuba Harjaberga Awa Bado_goth Brunjahild Athalafunsa Athalawara Alwira Ercanaswintha Ermanaberga Ermanagarda Ermaniartha Ermansintha Amalaswintha Frojaliuba Frojanhilda Gado Gunthahrutha Inguntha Liudaguntha Mataswintha Raginlintha Reichiberga Reichilo Sigisnantha Winidahilda
+
+		#Athalagundis Audusintha Audufleda Amalafrida Airaliuba Harjabairga Awa Bado_goth Brunjahildis Athalafunsa Athalawara Alwira Airkanaswintha Airmanabairga Airmanagarda Airmaniartha Airmansintha Amalaswintha Fraujaliuba Fraujanhilda Gado Gunthahrutha Inguntha Liudaguntha Mataswintha Raginlintha Reikibairga Reikilo Sigisnantha Winidahilda
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 5
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 5
+
+	
+}
+
+name_list_late_gothic = {
+
+	cadet_dynasty_names = {
+		dynn_Erwigna dynn_Kindswindna dynn_Adangildid dynn_Oelf dynn_Sigrich dynn_Geslech dynn_Tzydi dynn_Liwa dynn_Schwindila dynn_Tolga dynn_Erwig dynn_Witiza dynn_Rodrich dynn_Liwgilt dynn_Wala dynn_Witrich dynn_Sisboet dynn_Kindila dynn_Wanva dynn_Alriching dynn_Alwiding dynn_Amalmonding dynn_Adwolfing dynn_Adanriching dynn_Fadling dynn_Goeting dynn_Kindswinding dynn_Lyvilding dynn_Rotzwolfing dynn_Rinmering dynn_Sunfreding dynn_Rodriching dynn_Rodstening dynn_Warmunding dynn_Tzydriching
+	}
+	
+	dynasty_names = {
+		dynn_Erwigna dynn_Kindswindna dynn_Adangildid dynn_Oelf dynn_Sigrich dynn_Geslech dynn_Tzydi dynn_Liwa dynn_Schwindila dynn_Tolga dynn_Erwig dynn_Witiza dynn_Rodrich dynn_Liwgilt dynn_Wala dynn_Witrich dynn_Sisboet dynn_Kindila dynn_Wanva dynn_Alriching dynn_Alwiding dynn_Amalmonding dynn_Adwolfing dynn_Adanriching dynn_Fadling dynn_Goeting dynn_Kindswinding dynn_Lyvilding dynn_Rotzwolfing dynn_Rinmering dynn_Sunfreding dynn_Rodriching dynn_Rodstening dynn_Warmunding dynn_Tzydriching
+	}
+
+	male_names = { 
+		Adalfun Adalgast Adalrich Ermangild Ermanrich Alrich Aldyt Alwitz Amalrich Amalmunt Oerich Oedwakr Adalwolf Adangilt Adanrich Badwila Bernger Agicha Ermanger Erwig Iurich Atila Ydrich Fadila_goth Fridnant Fridgern Fridrich Frowila Gadrich Goezbert Gela Geslech Gundsalf Gundmer Gundwolf Kindswint Kindila Lybgilt Lyva Lyvrich Rodrich Rotzwolf Rodsint Rikretz Ranmer Raginritz Rekswint Rikmer Savrich Sigsbot Sigsnant Schwindila Sunari Sunfritz Tzydfritz Tzydmer Tzydatz Tzydrich Tzydgisl Tzyt Tzoermunt Tolga Warmunt Wilfritz Wimar Witgi Witzrich Wolfila
+	}
+	female_names = { 
+		Adalgunda Oedsinda Oedfleda Amalfrida Erliva Arberga Awa_goth Bado_goth Bronilt Adalfunsa Adalwara Alwira Erchanswinda Ermanberga Ermangarda Ermaniarda Ermansinda Amalswinda Froeliva Froenilda Gado_goth Gundruda Ingunda Lydgunda Matswinda Raginlinda Rikberga Richilo Sigsnanda Windilda
+	}
+	dynasty_of_location_prefix = "dynnp_of"	
+}
+
+
+name_list_late_gothic_northwestern = {
+
+	cadet_dynasty_names = {
+		dynn_Erwigna dynn_Kindswindna dynn_Adangildid dynn_Oelf dynn_Sigric dynn_Geslec dynn_Thydi dynn_Liwa dynn_Schwindila dynn_Tolga dynn_Erwig dynn_Witiza dynn_Rodric dynn_Liwgilt dynn_Wala dynn_Witric dynn_Sisboet dynn_Kindila dynn_Wanva dynn_Alriking dynn_Alwiding dynn_Amalmonding dynn_Adwolfing dynn_Adanriking dynn_Fadling dynn_Goeting dynn_Kindswinding dynn_Lyvilding dynn_Rothwolfing dynn_Rinmering dynn_Sunfreding dynn_Rodriking dynn_Rodstening dynn_Warmunding dynn_Thydriking
+	}
+	
+	dynasty_names = {
+		dynn_Erwigna dynn_Kindswindna dynn_Adangildid dynn_Oelf dynn_Sigric dynn_Geslec dynn_Thydi dynn_Liwa dynn_Schwindila dynn_Tolga dynn_Erwig dynn_Witiza dynn_Rodric dynn_Liwgilt dynn_Wala dynn_Witric dynn_Sisboet dynn_Kindila dynn_Wanva dynn_Alriking dynn_Alwiding dynn_Amalmonding dynn_Adwolfing dynn_Adanriking dynn_Fadling dynn_Goeting dynn_Kindswinding dynn_Lyvilding dynn_Rothwolfing dynn_Rinmering dynn_Sunfreding dynn_Rodriking dynn_Rodstening dynn_Warmunding dynn_Thydriking
+	}
+
+	male_names = { 
+		Adalfun Adalgast Adalric Ermangild Alric Aldyt Alwith Amalric Amalmunt Oeric Oedwakr Adalwolf Adangilt Adanric Badwila Bernger Agica Ermanger Erwig Iuric Atila Ydric Fadila_goth Fridnant Fridgern Fridric Frowila Gadric Goezbert Gela Geslec Gundsalf Gundmer Gundwolf Ildibad Kindswint Kintila Lybgilt Lyva Lyvric Rodric Rothwolf Rodsint Rikreth Ranmer Raginrith Rekswint Rikmer Savric Sigsbot Sigsnant Schwindila Sunari Sunfrith Thydfrith Thydmer Thydath Thydric Thydgisl Thyt Thoermunt Tolga Warmunt Wilfrith Wimar Witgi Withric Wolfila
+	}
+	female_names = { 
+		Adalgunda Oedsinda Oedfleda Amalfrida Erliva Arberga Awa_goth Bado_goth Bronilt Adalfunsa Adalwara Alwira Ercanswinda Ermanberga Ermangarda Ermaniarda Ermansinda Froeliva Froenilda Gado_goth Gundruda Ingunda Lydgunda Raginlinda Rikberga Rikilo Sigsnanda Windilda
+	}
+	dynasty_of_location_prefix = "dynnp_of"	
+}
+
+name_list_vandalic = {
+
+	cadet_dynasty_names = {
+		dynn_Hasdingi dynn_Siling dynn_Anduiting dynn_Ariarithing dynn_Beremuting dynn_Euageising dynn_Fridabaling dynn_Geisaricing dynn_Geilamiring dynn_Gibamunding dynn_Guntharing dynn_Gunthimering dynn_Hildicing dynn_Hildimering dynn_Hildiricing dynn_Hoageising dynn_Raginaring dynn_Scariling dynn_Sindiwulting dynn_Thrasamunding dynn_Walimuting dynn_Wifriding dynn_Guitarithing dynn_Guisimering
+	}
+	
+	dynasty_names = {
+		dynn_Hasdingi dynn_Siling dynn_Anduiting dynn_Ariarithing dynn_Beremuting dynn_Euageising dynn_Fridabaling dynn_Geisaricing dynn_Geilamiring dynn_Gibamunding dynn_Guntharing dynn_Gunthimering dynn_Hildicing dynn_Hildimering dynn_Hildiricing dynn_Hoageising dynn_Raginaring dynn_Scariling dynn_Sindiwulting dynn_Thrasamunding dynn_Walimuting dynn_Wifriding dynn_Guitarithing dynn_Guisimering
+	}
+
+	male_names = {
+		Anduit Ansuila Ariarith Arifrids Beremut Blumarith Dagila Euageis Fewa Fridabala Fridamal Fridila Geisarix Geilarith Geisirith Geilamir Geilimer Gento Gibamunds Godala Godigisel Guntha Gunthamunds Gunthari Gunthirix Gunthimer Hildica Hildimer Hildirix Hunirix Hoageis Hoamer Meriabauds Muritta Raginari Scarila Sifila Silibudi Sindiwult Stelica Tanca Theudorix Thrasamunds Untanca Walimut Wifrids Guilimut Guiliaruna Guitarith Guisimer 
+		Theodomer 
+	}
+	female_names = {
+		Agisild Damira Dagilia Guitifrida Munifrida Triowa Walilu 
+		Amalafrida Amalaild Hoafrida Hildibeirga Ariafrida Ariabeirga Guntharutha Gunthild Raginlinda Raginild Ricibeirga Ricilo Guinidilda Wifrida Guilifrida 
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	patronym_suffix_male = "dynnpat_suf_iz"
+	patronym_suffix_female = "dynnpat_suf_iz"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 5
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 5
+
+	
+}

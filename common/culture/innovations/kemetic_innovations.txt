@@ -1,0 +1,30 @@
+﻿@civil_construction_2 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_02.dds"
+
+# Culture-Specific Innovations
+innovation_nile_transportation = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @civil_construction_2
+	region = world_africa_north_east
+	
+	potential = {
+		has_cultural_pillar = heritage_egyptian
+	}
+	
+	character_modifier = {
+		naval_movement_speed_mult = 0.10
+		embarkation_cost_mult = -0.55
+		raid_speed = 0.1
+	}
+	county_modifier = {
+		development_growth_factor = 0.05
+		build_gold_cost = -0.1
+	}
+	custom = unlocks_naval_raiding
+	custom = unlocks_sailable_major_rivers
+	
+	flag = global_regional
+	flag = tribal_era_regional
+}
+
+

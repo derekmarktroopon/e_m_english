@@ -1,0 +1,2885 @@
+﻿namespace = venetic_divergence_events
+
+##################################################
+# Romano-Venetic becomes Venetian
+##################################################
+
+venetic_divergence_events.1 = { 
+	hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			limit = {
+				has_name_list = name_list_romanoveneti
+			}
+			every_culture_county = {
+				limit = {
+					geographical_region = world_europe_south
+				}
+				add_to_list = romanoveneti_counties_to_make_venetian
+			}
+		}
+		every_in_list = {#####
+			list = romanoveneti_counties_to_make_venetian
+			set_county_culture = culture:venetian
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							has_name_list = name_list_romanoveneti
+						}
+						capital_province = {
+							geographical_region = world_europe_south	
+						}
+					}
+					set_culture = culture:venetian
+					every_courtier = {
+						limit = {
+							culture = { 
+								has_name_list = name_list_romanoveneti
+							}
+						}
+						set_culture = culture:venetian
+					}
+				}
+			}
+		}
+		culture:venetian = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:romanoveneti
+		}
+	}
+}
+
+venetic_divergence_events.2 = { #Diverged Venetic Cultures get proper name lists
+hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			if = {
+				limit = {
+					OR = {
+						has_name_list = name_list_venetic_culture
+						this = culture:venetic
+					}
+				}
+
+				##############################
+				## Western Mediterranian
+				##############################
+
+				every_culture_county = { #Veneto
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_venice }
+							title_province = { duchy = title:d_friuli }
+							title_province = { duchy = title:d_verona }
+							title_province = { duchy = title:d_istria }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_venetian
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_venetian
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_venetian
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+							scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_venetian_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = central_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_venetian_culture = {
+									set_name_list = name_list_venetic_venetian_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_venetian_culture = {
+									set_name_list = name_list_venetic_venetian
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_venetian
+						set_county_culture = scope:venetic_venetian_culture
+					}
+				}
+
+				every_culture_county = { #North Italy
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_lombardia }
+							title_province = { duchy = title:d_emilia }
+							title_province = { duchy = title:d_romagna }
+							title_province = { duchy = title:d_piedmonte }
+							title_province = { duchy = title:d_genoa }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_cisalpine
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_cisalpine
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_cisalpine
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_cisalpine_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = central_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_cisalpine_culture = {
+									set_name_list = name_list_venetic_cisalpine_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_cisalpine_culture = {
+									set_name_list = name_list_venetic_cisalpine
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_cisalpine
+						set_county_culture = scope:venetic_cisalpine_culture
+					}
+				}
+
+				every_culture_county = { #Central Italy
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_toscana }
+							title_province = { duchy = title:d_pisa }
+							title_province = { duchy = title:d_ancona }
+							title_province = { duchy = title:d_spoleto }
+							title_province = { duchy = title:d_latium }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_italian
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_italian
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_italian
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_italian_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = central_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_italian_culture = {
+									set_name_list = name_list_venetic_italian_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_italian_culture = {
+									set_name_list = name_list_venetic_italian
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_italian
+						set_county_culture = scope:venetic_italian_culture
+					}
+				}
+
+				every_culture_county = { #Southern Italy
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_capua }
+							title_province = { duchy = title:d_benevento }
+							title_province = { duchy = title:d_apulia }
+							title_province = { duchy = title:d_salerno }
+							title_province = { duchy = title:d_calabria }
+							title_province = { duchy = title:d_sicily }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_sicilian
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_sicilian
+							count >= 1
+						} )
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_sicilian
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_sicilian_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = central_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_sicilian_culture = {
+									set_name_list = name_list_venetic_sicilian_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_sicilian_culture = {
+									set_name_list = name_list_venetic_sicilian
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_sicilian
+						set_county_culture = scope:venetic_sicilian_culture
+					}
+				}
+
+				every_culture_county = { #Sardinia
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_sardinia }
+							title_province = { duchy = title:d_corsica }
+							title_province = { duchy = title:d_mallorca }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_sardinian
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_sardinian
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_sardinian
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_sardinian_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = sardino_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_sardinian_culture = {
+									set_name_list = name_list_venetic_sardinian_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_sardinian_culture = {
+									set_name_list = name_list_venetic_sardinian
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_sardinian
+						set_county_culture = scope:venetic_sardinian_culture
+					}
+				}
+
+				every_culture_county = { #North Africa
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_tunis }
+							title_province = { duchy = title:d_kroumerie }
+							title_province = { duchy = title:d_kairouan }
+							title_province = { duchy = title:d_gabes }
+							title_province = { duchy = title:d_tripolitania }
+							title_province = { duchy = title:d_syrte }
+							title_province = { duchy = title:d_bejaia }
+							title_province = { duchy = title:d_zab }
+							title_province = { duchy = title:d_alger }
+							title_province = { duchy = title:d_tahert }
+							title_province = { duchy = title:d_tlemcen }
+							title_province = { duchy = title:d_rif }
+							title_province = { duchy = title:d_fes }
+							title_province = { duchy = title:d_marrakesh }
+							title_province = { duchy = title:d_tafilalt }
+							title_province = { duchy = title:d_sous }
+							title_province = { duchy = title:d_mzab }
+							title_province = { duchy = title:d_canarias }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_north_african
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_north_african
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_north_african
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_african_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = afro_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_african_culture = {
+									set_name_list = name_list_venetic_african_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_african_culture = {
+									set_name_list = name_list_venetic_african
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_north_african
+						set_county_culture = scope:venetic_african_culture
+					}
+				}
+
+				every_culture_county = { #Alps
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_transjurania }
+							title_province = { duchy = title:d_currezia }
+							title_province = { duchy = title:d_tyrol }
+							title_province = { duchy = title:d_carinthia }
+							title_province = { duchy = title:d_krain }
+							title_province = { duchy = title:d_steyermark }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_romansh
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_romansh
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_romansh
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_romansh_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = central_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_romansh_culture = {
+									set_name_list = name_list_venetic_romansh_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_romansh_culture = {
+									set_name_list = name_list_venetic_romansh
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_romansh
+						set_county_culture = scope:venetic_romansh_culture
+					}
+				}
+
+				every_culture_county = { #Illyria
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_croatia }
+							title_province = { duchy = title:d_dalmatia }
+							title_province = { duchy = title:d_slavonia }
+							title_province = { duchy = title:d_lower_bosna }
+							title_province = { duchy = title:d_bosna }
+							title_province = { duchy = title:d_usora }
+							title_province = { duchy = title:d_ragusa }
+							title_province = { duchy = title:d_macva }
+							title_province = { duchy = title:d_rashka }
+							title_province = { duchy = title:d_duklja }
+							title_province = { duchy = title:d_dyrrachion }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_dalmatian
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_dalmatian
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_dalmatian
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_dalmatian_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = central_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_dalmatian_culture = {
+									set_name_list = name_list_venetic_dalmatian_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_dalmatian_culture = {
+									set_name_list = name_list_venetic_dalmatian
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_dalmatian
+						set_county_culture = scope:venetic_dalmatian_culture
+					}
+				}
+
+				every_culture_county = { #Pannonia
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_somogy }
+							title_province = { duchy = title:d_gyor }
+							title_province = { duchy = title:d_visegrad }
+							title_province = { duchy = title:d_bacs }
+							title_province = { duchy = title:d_temes }
+							title_province = { duchy = title:d_bihar }
+							title_province = { duchy = title:d_transcarpathia }
+							title_province = { duchy = title:d_ungvar }
+							title_province = { duchy = title:d_nyitra }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_pannonian
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_pannonian
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_pannonian
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_pannonian_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = eastern_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_pannonian_culture = {
+									set_name_list = name_list_venetic_pannonian_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_pannonian_culture = {
+									set_name_list = name_list_venetic_pannonian
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_pannonian
+						set_county_culture = scope:venetic_pannonian_culture
+					}
+				}
+
+				every_culture_county = { #Romania + Bulgaria
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_bulgaria }#Bulgaria
+							title_province = { duchy = title:d_vidin }
+							title_province = { duchy = title:d_turnovo }
+							title_province = { duchy = title:d_philippopolis }
+							title_province = { duchy = title:d_dobrudja }
+							title_province = { duchy = title:d_oltenia }#Romania
+							title_province = { duchy = title:d_muntenia }
+							title_province = { duchy = title:d_transylvanian_alps }
+							title_province = { duchy = title:d_transylvania }
+							title_province = { duchy = title:d_bugeac }
+							title_province = { duchy = title:d_moldova }
+							title_province = { duchy = title:d_bukovina }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_romanian
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_romanian
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_romanian
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_romanian_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = eastern_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_romanian_culture = {
+									set_name_list = name_list_venetic_romanian_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_romanian_culture = {
+									set_name_list = name_list_venetic_romanian
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_romanian
+						set_county_culture = scope:venetic_romanian_culture
+					}
+				}
+
+				every_culture_county = { # Occitania
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_savoie }
+							title_province = { duchy = title:d_provence }
+							title_province = { duchy = title:d_dauphine }
+							title_province = { duchy = title:d_languedoc }
+							title_province = { duchy = title:d_barcelona }
+							title_province = { duchy = title:d_toulouse }
+							title_province = { duchy = title:d_auvergne }
+							title_province = { duchy = title:d_bourbon }
+							title_province = { duchy = title:d_aquitaine }
+							title_province = { duchy = title:d_gascogne }
+							title_province = { duchy = title:d_armagnac }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_occitan
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_occitan
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_occitan
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_occitan_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = de_oc_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_occitan_culture = {
+									set_name_list = name_list_venetic_occitan_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_occitan_culture = {
+									set_name_list = name_list_venetic_occitan
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_occitan
+						set_county_culture = scope:venetic_occitan_culture
+					}
+				}
+
+				every_culture_county = { #Northern France (no Franks)
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_brittany }
+							title_province = { duchy = title:d_poitou }
+							title_province = { duchy = title:d_berry }
+							title_province = { duchy = title:d_anjou }
+							title_province = { duchy = title:d_normandy }
+							title_province = { duchy = title:d_orleans }
+							title_province = { duchy = title:d_burgundy }
+							title_province = { duchy = title:d_upper_burgundy }
+							title_province = { duchy = title:d_bar }
+							title_province = { duchy = title:d_champagne }
+							title_province = { duchy = title:d_valois }
+						}
+						NOT = {
+							any_this_title_or_de_jure_above = { this = title:k_france }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_french
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_french
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_french
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_french_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = de_oil_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_french_culture = {
+									set_name_list = name_list_venetic_french_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_french_culture = {
+									set_name_list = name_list_venetic_french
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_french
+						set_county_culture = scope:venetic_french_culture
+					}
+				}
+
+				every_culture_county = { #Northern France (with Franks)
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_brittany }
+							title_province = { duchy = title:d_poitou }
+							title_province = { duchy = title:d_berry }
+							title_province = { duchy = title:d_anjou }
+							title_province = { duchy = title:d_normandy }
+							title_province = { duchy = title:d_orleans }
+							title_province = { duchy = title:d_burgundy }
+							title_province = { duchy = title:d_upper_burgundy }
+							title_province = { duchy = title:d_bar }
+							title_province = { duchy = title:d_champagne }
+							title_province = { duchy = title:d_valois }
+						}
+						any_this_title_or_de_jure_above = { this = title:k_france }
+					}
+					add_to_list = venetic_cult_count_for_vnt_french_franks
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_french_franks
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_french_franks
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+							scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_french_franks_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = de_oil_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_french_franks_culture = {
+									set_name_list = name_list_venetic_french_with_franks_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_french_franks_culture = {
+									set_name_list = name_list_venetic_french_with_franks
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_french_franks
+						set_county_culture = scope:venetic_french_franks_culture
+					}
+				}
+
+				every_culture_county = { #Spain (minus Galicia)
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_viscaya }
+							title_province = { duchy = title:d_navarra }
+							title_province = { duchy = title:d_aragon }
+							title_province = { duchy = title:d_valencia }
+							title_province = { duchy = title:d_murcia }
+							title_province = { duchy = title:d_toledo }
+							title_province = { duchy = title:d_badajoz }
+							title_province = { duchy = title:d_granada }
+							title_province = { duchy = title:d_sevilla }
+							title_province = { duchy = title:d_castilla }
+							title_province = { duchy = title:d_leon }
+							title_province = { duchy = title:d_cantabria }
+							title_province = { duchy = title:d_asturias }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_spanish
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_spanish
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_spanish
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_spanish_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = iberian_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_spanish_culture = {
+									set_name_list = name_list_venetic_spanish_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_spanish_culture = {
+									set_name_list = name_list_venetic_spanish
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_spanish
+						set_county_culture = scope:venetic_spanish_culture
+					}
+				}
+
+				every_culture_county = { #Portugual
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_galicia }
+							title_province = { duchy = title:d_porto }
+							title_province = { duchy = title:d_coimbra }
+							title_province = { duchy = title:d_beja }
+							title_province = { duchy = title:d_badajoz }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_portuguese
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_portuguese
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_portuguese
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_portuguese_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = iberian_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_portuguese_culture = {
+									set_name_list = name_list_venetic_portuguese_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_portuguese_culture = {
+									set_name_list = name_list_venetic_portuguese
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_portuguese
+						set_county_culture = scope:venetic_portuguese_culture
+					}
+				}
+
+				##############################
+				## British Isles
+				##############################
+
+				every_culture_county = { #Wales + England (no Anglo-Saxons)
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_canterbury }
+							title_province = { duchy = title:d_bedford }
+							title_province = { duchy = title:d_norfolk }
+							title_province = { duchy = title:d_somerset }
+							title_province = { duchy = title:d_cornwall }
+							title_province = { duchy = title:d_gloucester }
+							title_province = { duchy = title:d_hereford }
+							title_province = { duchy = title:d_york }
+							title_province = { duchy = title:d_lancaster }
+							title_province = { duchy = title:d_northumberland }
+							title_province = { duchy = title:d_galloway }
+							title_province = { duchy = title:d_deheubarth }
+							title_province = { duchy = title:d_powys }
+							title_province = { duchy = title:d_gwynedd }
+						}
+						NOT = {
+							any_this_title_or_de_jure_above = { this = title:k_england }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_welsh
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_welsh
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_welsh
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_welsh_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = language_insular_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_welsh_culture = {
+									set_name_list = name_list_venetic_welsh_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_welsh_culture = {
+									set_name_list = name_list_venetic_welsh
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_welsh
+						set_county_culture = scope:venetic_welsh_culture
+					}
+				}
+
+				every_culture_county = { #England 
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_canterbury }
+							title_province = { duchy = title:d_bedford }
+							title_province = { duchy = title:d_norfolk }
+							title_province = { duchy = title:d_somerset }
+							title_province = { duchy = title:d_cornwall }
+							title_province = { duchy = title:d_gloucester }
+							title_province = { duchy = title:d_hereford }
+							title_province = { duchy = title:d_york }
+							title_province = { duchy = title:d_lancaster }
+							title_province = { duchy = title:d_northumberland }
+							title_province = { duchy = title:d_galloway }
+							title_province = { duchy = title:d_deheubarth }
+							title_province = { duchy = title:d_powys }
+							title_province = { duchy = title:d_gwynedd }
+						}
+						any_this_title_or_de_jure_above = { this = title:k_england }
+					}
+					add_to_list = venetic_cult_count_for_vnt_anglosaxon
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_anglosaxon
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_anglosaxon
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_anglosaxon_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_wintcin
+								set_culture_pillar = language_anglic_venetic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_anglosaxon
+						set_county_culture = scope:venetic_anglosaxon_culture
+					}
+				}
+
+				every_culture_county = { #Scotland
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_albany }
+							title_province = { duchy = title:d_moray }
+							title_province = { duchy = title:d_the_isles }
+							title_province = { duchy = title:d_western_isles }
+							title_province = { duchy = title:d_lothian }
+							title_province = { duchy = title:d_galloway }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_pictish
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_pictish
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_pictish
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_pictish_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = language_insular_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_pictish_culture = {
+									set_name_list = name_list_venetic_pictish_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_pictish_culture = {
+									set_name_list = name_list_venetic_pictish
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_pictish
+						set_county_culture = scope:venetic_pictish_culture
+					}
+				}
+
+				every_culture_county = { #Ireland
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_munster }
+							title_province = { duchy = title:d_leinster }
+							title_province = { duchy = title:d_meath }
+							title_province = { duchy = title:d_connacht }
+							title_province = { duchy = title:d_ulster }
+							title_province = { duchy = title:d_western_isles }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_irish
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_irish
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_irish
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_irish_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = language_insular_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_irish_culture = {
+									set_name_list = name_list_venetic_gaelic_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_irish_culture = {
+									set_name_list = name_list_venetic_gaelic
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_irish
+						set_county_culture = scope:venetic_irish_culture
+					}
+				}
+
+				##############################
+				## Scandinavia
+				##############################
+
+				every_culture_county = { #Scandinavia 
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_iceland }
+							title_province = { duchy = title:d_northern_isles }
+							title_province = { duchy = title:d_sjaelland }
+							title_province = { duchy = title:d_skane }
+							title_province = { duchy = title:d_jylland }
+							title_province = { duchy = title:d_slesvig }
+							title_province = { duchy = title:d_svealand }
+							title_province = { duchy = title:d_bergslagen }
+							title_province = { duchy = title:d_vastergotland }
+							title_province = { duchy = title:d_ostergotland }
+							title_province = { duchy = title:d_smaland }
+							title_province = { duchy = title:d_norrland }
+							title_province = { duchy = title:d_gotland }
+							title_province = { duchy = title:d_viken }
+							title_province = { duchy = title:d_agder }
+							title_province = { duchy = title:d_vestlandi }
+							title_province = { duchy = title:d_trandalog }
+							title_province = { duchy = title:d_dalir }
+							title_province = { duchy = title:d_halogaland }
+							title_province = { duchy = title:d_jamtland }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_norse
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_norse
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_norse
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_norse_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_venetic_norse
+								set_culture_pillar = language_nordic_venetic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_norse
+						set_county_culture = scope:venetic_norse_culture
+					}
+				}
+
+				##############################
+				## Central Europe
+				##############################
+
+				every_culture_county = { #Low Countries (minus frisia)
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_flanders }
+							title_province = { duchy = title:d_brabant }
+							title_province = { duchy = title:d_luxembourg }
+							title_province = { duchy = title:d_julich }
+							title_province = { duchy = title:d_lower_lorraine }
+							title_province = { duchy = title:d_gelre }
+							title_province = { duchy = title:d_utrecht }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_dutch
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_dutch
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_dutch
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_dutch_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = language_german_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_dutch_culture = {
+									set_name_list = name_list_venetic_dutch_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_dutch_culture = {
+									set_name_list = name_list_venetic_dutch
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_dutch
+						set_county_culture = scope:venetic_dutch_culture
+					}
+				}
+
+				every_culture_county = { #Frisia
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_holland }
+							title_province = { duchy = title:d_frisia }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_frisian
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_frisian
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_frisian
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_frisian_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = language_german_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_frisian_culture = {
+									set_name_list = name_list_venetic_frisian_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_frisian_culture = {
+									set_name_list = name_list_venetic_frisian
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_frisian
+						set_county_culture = scope:venetic_frisian_culture
+					}
+				}
+
+				every_culture_county = { #Saxony
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_westfalen }
+							title_province = { duchy = title:d_angria }
+							title_province = { duchy = title:d_holstein }
+							title_province = { duchy = title:d_ostfalen }
+							title_province = { duchy = title:d_anhalt }
+							title_province = { duchy = title:d_meissen }
+							title_province = { duchy = title:d_lausitz }
+							title_province = { duchy = title:d_ostmark }
+							title_province = { duchy = title:d_nordmark }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_saxon
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_saxon
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_saxon
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_saxon_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = language_german_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_saxon_culture = {
+									set_name_list = name_list_venetic_saxon_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_saxon_culture = {
+									set_name_list = name_list_venetic_saxon
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_saxon
+						set_county_culture = scope:venetic_saxon_culture
+					}
+				}
+
+				every_culture_county = { #Low German + Franconian Lands 
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_hesse }
+							title_province = { duchy = title:d_thuringia }
+							title_province = { duchy = title:d_upper_lorraine }
+							title_province = { duchy = title:d_alsace }
+							title_province = { duchy = title:d_west_franconia }
+							title_province = { duchy = title:d_east_franconia }
+							title_province = { duchy = title:d_nordgau }
+							title_province = { duchy = title:d_bavaria }
+							title_province = { duchy = title:d_salzburg }
+							title_province = { duchy = title:d_osterreich }
+							title_province = { duchy = title:d_bohemia }
+							title_province = { duchy = title:d_moravia }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_german
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_german
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_german
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_german_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = language_german_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_german_culture = {
+									set_name_list = name_list_venetic_german_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_german_culture = {
+									set_name_list = name_list_venetic_german
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_german
+						set_county_culture = scope:venetic_german_culture
+					}
+				}
+
+				every_culture_county = { #Proto-Slavia 
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_masuria }
+							title_province = { duchy = title:d_volhynia }
+							title_province = { duchy = title:d_kiev }
+							title_province = { duchy = title:d_grodno }
+							title_province = { duchy = title:d_turov }
+							title_province = { duchy = title:d_pereyaslavl }
+							title_province = { duchy = title:d_chernigov }
+							title_province = { duchy = title:d_ryazan }
+							title_province = { duchy = title:d_karachev }
+							title_province = { duchy = title:d_novosil }
+							title_province = { duchy = title:d_novgorod }
+							title_province = { duchy = title:d_vepsia }
+							title_province = { duchy = title:d_luki }
+							title_province = { duchy = title:d_pinsk }
+							title_province = { duchy = title:d_minsk }
+							title_province = { duchy = title:d_polotsk }
+							title_province = { duchy = title:d_smolensk }
+							title_province = { duchy = title:d_opolye }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_protoslavs
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_protoslavs
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_protoslavs
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_protoslavic_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_venetic_slavic
+								set_culture_pillar = eastern_venetic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_protoslavs
+						set_county_culture = scope:venetic_protoslavic_culture
+					}
+				}
+
+				every_culture_county = { #Gothia 
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_lesser_poland }
+							title_province = { duchy = title:d_wielkopolska }
+							title_province = { duchy = title:d_upper_silesia }
+							title_province = { duchy = title:d_lower_silesia }
+							title_province = { duchy = title:d_kuyavia }
+							title_province = { duchy = title:d_pommerania }
+							title_province = { duchy = title:d_pomerelia }
+							title_province = { duchy = title:d_halych }
+							title_province = { duchy = title:d_cherven_cities }
+							title_province = { duchy = title:d_yedisan }
+							title_province = { duchy = title:d_kizilyedisan }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_goths
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_goths
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_goths
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_gothic_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_venetic_gothic
+								set_culture_pillar = language_gotho_venetic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_goths
+						set_county_culture = scope:venetic_gothic_culture
+					}
+				}
+
+				##############################
+				## East Mediterranean
+				##############################
+
+				every_culture_county = { #Greece + Anatolia
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_cephalonia }
+							title_province = { duchy = title:d_epirus }
+							title_province = { duchy = title:d_achaia }
+							title_province = { duchy = title:d_athens }
+							title_province = { duchy = title:d_krete }
+							title_province = { duchy = title:d_aegean_islands }
+							title_province = { duchy = title:d_thessaly }
+							title_province = { duchy = title:d_thessalonika }
+							title_province = { duchy = title:d_strymon }
+							title_province = { duchy = title:d_thrace }
+							title_province = { duchy = title:d_ephese }
+							title_province = { duchy = title:d_optimatoi }
+							title_province = { duchy = title:d_opsikion }
+							title_province = { duchy = title:d_thracesia }
+							title_province = { duchy = title:d_cibyrrhaeot }
+							title_province = { duchy = title:d_anatolia }
+							title_province = { duchy = title:d_bucellaria }
+							title_province = { duchy = title:d_paphlagonia }
+							title_province = { duchy = title:d_armeniac }
+							title_province = { duchy = title:d_cilicia }
+							title_province = { duchy = title:d_cyprus }
+							title_province = { duchy = title:d_antioch }
+							title_province = { duchy = title:d_cappadocia }
+							title_province = { duchy = title:d_charsianon }
+							title_province = { duchy = title:d_chaldia }
+							title_province = { duchy = title:d_sebasteia }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_greek
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_greek
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_greek
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_greek_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_uenetoi
+								set_culture_pillar = eastern_venetic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_greek
+						set_county_culture = scope:venetic_greek_culture
+					}
+				}
+
+				every_culture_county = { #Egypt
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_cyrenaica }
+							title_province = { duchy = title:d_alexandria }
+							title_province = { duchy = title:d_delta }
+							title_province = { duchy = title:d_cairo }
+							title_province = { duchy = title:d_sinai }
+							title_province = { duchy = title:d_al-said }
+							title_province = { duchy = title:d_al-wahat }
+							title_province = { duchy = title:d_eastern_desert }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_coptic
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_coptic
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_coptic
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_coptic_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_venetic_coptic
+								set_culture_pillar = language_venetic_coptic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_coptic
+						set_county_culture = scope:venetic_coptic_culture
+					}
+				}
+
+				every_culture_county = { #Levant
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_palestine }
+							title_province = { duchy = title:d_urdunn }
+							title_province = { duchy = title:d_damascus }
+							title_province = { duchy = title:d_lebanon }
+							title_province = { duchy = title:d_homs }
+							title_province = { duchy = title:d_aleppo }
+							title_province = { duchy = title:d_palmyra }
+							title_province = { duchy = title:d_edessa }
+							title_province = { duchy = title:d_diyarbakr }
+							title_province = { duchy = title:d_diyarrabia }
+							title_province = { duchy = title:d_euphrates }
+							title_province = { duchy = title:d_kurdistan }
+							title_province = { duchy = title:d_samarra }
+							title_province = { duchy = title:d_baghdad }
+							title_province = { duchy = title:d_kufa }
+							title_province = { duchy = title:d_wasit }
+							title_province = { duchy = title:d_basra }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_aramean
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_aramean
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_aramean
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_aramean_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_venetic_aramean
+								set_culture_pillar = language_levantine_venetic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_aramean
+						set_county_culture = scope:venetic_aramean_culture
+					}
+				}
+
+				every_culture_county = { #Arabia
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_oultrejourdain }
+							title_province = { duchy = title:d_amman }
+							title_province = { duchy = title:d_jawf }
+							title_province = { duchy = title:d_shammar }
+							title_province = { duchy = title:d_medina }
+							title_province = { duchy = title:d_najd }
+							title_province = { duchy = title:d_mecca }
+							title_province = { duchy = title:d_asir }
+							title_province = { duchy = title:d_yamama }
+							title_province = { duchy = title:d_bahrain }
+							title_province = { duchy = title:d_al-hasa }
+							title_province = { duchy = title:d_oman }
+							title_province = { duchy = title:d_mahra }
+							title_province = { duchy = title:d_hadramawt }
+							title_province = { duchy = title:d_jawf-al-yamani }
+							title_province = { duchy = title:d_sanaa }
+							title_province = { duchy = title:d_taizz }
+							title_province = { duchy = title:d_socotra }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_arab
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_arab
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_arab
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_arab_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_venetic_arabic
+								set_culture_pillar = language_levantine_venetic
+							}	
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_arab
+						set_county_culture = scope:venetic_arab_culture
+					}
+				}
+
+				every_culture_county = { #Armenia
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_greater_armenia }
+							title_province = { duchy = title:d_vaspurakan }
+							title_province = { duchy = title:d_mesopotamia }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_armenian
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_armenian
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_armenian
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_armenian_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = language_caucaso_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_armenian_culture = {
+									set_name_list = name_list_venetic_armenian_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_armenian_culture = {
+									set_name_list = name_list_venetic_armenian
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_armenian
+						set_county_culture = scope:venetic_armenian_culture
+					}
+				}
+
+				every_culture_county = { #Georgia
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_georgia }
+							title_province = { duchy = title:d_tao-klarjeti }
+							title_province = { duchy = title:d_abkhazia }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_georgian
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_georgian
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_georgian
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_georgian_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = language_caucaso_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_georgian_culture = {
+									set_name_list = name_list_venetic_georgian_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_georgian_culture = {
+									set_name_list = name_list_venetic_georgian
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_georgian
+						set_county_culture = scope:venetic_georgian_culture
+					}
+				}
+
+				##############################
+				## East Africa
+				##############################
+
+				every_culture_county = { #Ethiopia + Somalia
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_aksum }
+							title_province = { duchy = title:d_dahlaks }
+							title_province = { duchy = title:d_lasta }
+							title_province = { duchy = title:d_gondar }
+							title_province = { duchy = title:d_gojjam }
+							title_province = { duchy = title:d_showa }
+							title_province = { duchy = title:d_damot }
+							title_province = { duchy = title:d_kaffa }
+							title_province = { duchy = title:d_sharka }
+							title_province = { duchy = title:d_dawaro }
+							title_province = { duchy = title:d_adal }
+							title_province = { duchy = title:d_mora }
+							title_province = { duchy = title:d_danakil }
+							title_province = { duchy = title:d_zaila }
+							title_province = { duchy = title:d_sanaag }
+							title_province = { duchy = title:d_hafun }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_ethiopian
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_ethiopian
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_ethiopian
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_amhara_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = language_horn_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_amhara_culture = {
+									set_name_list = name_list_venetic_amhara_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_amhara_culture = {
+									set_name_list = name_list_venetic_amhara
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_ethiopian
+						set_county_culture = scope:venetic_amhara_culture
+					}
+				}
+
+				every_culture_county = { #Nubia
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_nobatia }
+							title_province = { duchy = title:d_naqis }
+							title_province = { duchy = title:d_shamir }
+							title_province = { duchy = title:d_makuria }
+							title_province = { duchy = title:d_bazin }
+							title_province = { duchy = title:d_baqlin }
+							title_province = { duchy = title:d_alwa }
+							title_province = { duchy = title:d_sennar }
+							title_province = { duchy = title:d_kordofan }
+							title_province = { duchy = title:d_darfur }
+							title_province = { duchy = title:d_west_darfur }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_nubian
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_nubian
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_nubian
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_nubian_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_culture_pillar = language_sudano_venetic
+							}
+							if = {
+								limit = {
+									religion = {
+										is_in_family = rf_abrahamic
+									}
+								}
+	                            scope:venetic_nubian_culture = {
+									set_name_list = name_list_venetic_nubian_biblical
+								}
+							}
+							else = {
+	                            scope:venetic_nubian_culture = {
+									set_name_list = name_list_venetic_nubian
+								}
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_nubian
+						set_county_culture = scope:venetic_nubian_culture
+					}
+				}
+
+				##############################
+				## Cetral Asia + Iran
+				##############################
+
+				every_culture_county = { #Iran
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_shirvan }
+							title_province = { duchy = title:d_azerbaijan }
+							title_province = { duchy = title:d_daylam }
+							title_province = { duchy = title:d_tabaristan }
+							title_province = { duchy = title:d_gurgan }
+							title_province = { duchy = title:d_hamadan }
+							title_province = { duchy = title:d_kermanshah }
+							title_province = { duchy = title:d_rayy }
+							title_province = { duchy = title:d_khuzestan }
+							title_province = { duchy = title:d_isfahan }
+							title_province = { duchy = title:d_fars }
+							title_province = { duchy = title:d_yazd }
+							title_province = { duchy = title:d_hormuz }
+							title_province = { duchy = title:d_kirman }
+							title_province = { duchy = title:d_jabal_kufs }
+							title_province = { duchy = title:d_makran }
+							title_province = { duchy = title:d_kohestan }
+							title_province = { duchy = title:d_nishapur }
+							title_province = { duchy = title:d_herat }
+							title_province = { duchy = title:d_ghur }
+							title_province = { duchy = title:d_zabulistan }
+							title_province = { duchy = title:d_kabul }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_persian
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_persian
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_persian
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_persian_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_venetic_persian
+								set_culture_pillar = language_irano_venetic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_persian
+						set_county_culture = scope:venetic_persian_culture
+					}
+				}
+
+				every_culture_county = { #Sogdania
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_merv }
+							title_province = { duchy = title:d_nasa }
+							title_province = { duchy = title:d_balkh }
+							title_province = { duchy = title:d_uzboy }
+							title_province = { duchy = title:d_khorezm }
+							title_province = { duchy = title:d_soghd }
+							title_province = { duchy = title:d_osrushana }
+							title_province = { duchy = title:d_khuttal }
+							title_province = { duchy = title:d_badakhshan }
+							title_province = { duchy = title:d_ferghana }
+							title_province = { duchy = title:d_kashgar }
+							title_province = { duchy = title:d_khotan }
+							title_province = { duchy = title:d_karashar }
+							title_province = { duchy = title:d_loulan }
+							title_province = { duchy = title:d_charkliq }
+							title_province = { duchy = title:d_garabogazkol }
+							title_province = { duchy = title:d_transcaspiana }
+							title_province = { duchy = title:d_talas_alatau }
+							title_province = { duchy = title:d_muyunkum }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_sogdian
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_sogdian
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_sogdian
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_sogdian_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_venetic_sogdian
+								set_culture_pillar = language_irano_venetic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_sogdian
+						set_county_culture = scope:venetic_sogdian_culture
+					}
+				}
+
+				every_culture_county = { #Western Steppes
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_syr_darya }
+							title_province = { duchy = title:d_aral_il }
+							title_province = { duchy = title:d_jemba }
+							title_province = { duchy = title:d_aral_karakum }
+							title_province = { duchy = title:d_barsuki }
+							title_province = { duchy = title:d_levedia }
+							title_province = { duchy = title:d_red_levedia }
+							title_province = { duchy = title:d_crimea }
+							title_province = { duchy = title:d_azov }
+							title_province = { duchy = title:d_tana }
+							title_province = { duchy = title:d_don_valley }
+							title_province = { duchy = title:d_khazaria }
+							title_province = { duchy = title:d_itil }
+							title_province = { duchy = title:d_pecheneg }
+							title_province = { duchy = title:d_volga_bulgaria }
+							title_province = { duchy = title:d_jalmat }
+							title_province = { duchy = title:d_bugurslan }
+							title_province = { duchy = title:d_aqtobe }
+							title_province = { duchy = title:d_manatau }
+							title_province = { duchy = title:d_atyrau }
+							title_province = { duchy = title:d_mugodzhar_hills }
+							title_province = { duchy = title:d_bashkiria }
+							title_province = { duchy = title:d_sakmara }
+							title_province = { duchy = title:d_uraltau }
+							title_province = { duchy = title:d_vogulia }
+							title_province = { duchy = title:d_kurgan }
+							title_province = { duchy = title:d_kush-murun }
+							title_province = { duchy = title:d_tobol-ishim }
+							title_province = { duchy = title:d_atbasar }
+							title_province = { duchy = title:d_turgay }
+							title_province = { duchy = title:d_kokturgay }
+							title_province = { duchy = title:d_qyzylsaryarka }
+							title_province = { duchy = title:d_saryarka }
+							title_province = { duchy = title:d_kazakh }
+							title_province = { duchy = title:d_karabas }
+							title_province = { duchy = title:d_tokumbay }
+							title_province = { duchy = title:d_betpa }
+							title_province = { duchy = title:d_karkaraly }
+							title_province = { duchy = title:d_kentarlau }
+							title_province = { duchy = title:d_degelen }
+							title_province = { duchy = title:d_jinghiz }
+							title_province = { duchy = title:d_semey }
+							title_province = { duchy = title:d_zhetysu }
+							title_province = { duchy = title:d_alakol }
+							title_province = { duchy = title:d_tarbagatai }
+							title_province = { duchy = title:d_ili-alatau }
+							title_province = { duchy = title:d_akaltay }
+							title_province = { duchy = title:d_altay }
+							title_province = { duchy = title:d_gurbantunggut }
+							title_province = { duchy = title:d_beshbalik }
+							title_province = { duchy = title:d_kara_khoja }
+							title_province = { duchy = title:d_naiman_gobi }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_turkic
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_turkic
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_turkic
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_turkic_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_venetic_turkic
+								set_culture_pillar = language_steppe_venetic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_turkic
+						set_county_culture = scope:venetic_turkic_culture
+					}
+				}
+
+				every_culture_county = { #Central Steppes (+ Manchuria and Korea for now)
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_altaishan }
+							title_province = { duchy = title:d_yenisei_kan }
+							title_province = { duchy = title:d_khakass_hollow }
+							title_province = { duchy = title:d_blue_khakassia }
+							title_province = { duchy = title:d_shoria }
+							title_province = { duchy = title:d_kargassia }
+							title_province = { duchy = title:d_eastern_sayan }
+							title_province = { duchy = title:d_katu_yaryk }
+							title_province = { duchy = title:d_western_sayan }
+							title_province = { duchy = title:d_tannu_ola }
+							title_province = { duchy = title:d_khovd }
+							title_province = { duchy = title:d_togina }
+							title_province = { duchy = title:d_ubsunur_hollow }
+							title_province = { duchy = title:d_zavkhan }
+							title_province = { duchy = title:d_gobi_altai }
+							title_province = { duchy = title:d_ovorkhangai }
+							title_province = { duchy = title:d_arkhangai }
+							title_province = { duchy = title:d_khovsgol }
+							title_province = { duchy = title:d_orkhon }
+							title_province = { duchy = title:d_ogrash }
+							title_province = { duchy = title:d_selenga_valley }
+							title_province = { duchy = title:d_uda_valley }
+							title_province = { duchy = title:d_chuna_valley }
+							title_province = { duchy = title:d_angara }
+							title_province = { duchy = title:d_tsagaanbaigal }
+							title_province = { duchy = title:d_lena }
+							title_province = { duchy = title:d_baigaluuls }
+							title_province = { duchy = title:d_bargujin_tukum }
+							title_province = { duchy = title:d_dauria }
+							title_province = { geographical_region = world_asia_korea }
+							title_province = { geographical_region = world_asia_north_east }
+							title_province = { geographical_region = world_steppe_west }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_mongol
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_mongol
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_mongol
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_mongol_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_venetic_mongol
+								set_culture_pillar = language_steppe_venetic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_mongol
+						set_county_culture = scope:venetic_mongol_culture
+					}
+				}
+
+				##############################
+				## South Asia
+				##############################
+
+				every_culture_county = { #India (+ southeast asian for now - just because of sandskrit)
+					limit = {
+						OR = {
+							title_province = { geographical_region = world_india }
+							title_province = { geographical_region = world_asia_southeast }
+						}
+					}
+					add_to_list = venetic_cult_count_for_vnt_indian
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_indian
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_indian
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_indian_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_venetic_apabhramsa
+								set_culture_pillar = language_indo_venetic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_indian
+						set_county_culture = scope:venetic_indian_culture
+					}
+				}
+
+				##############################
+				## East Asia
+				##############################
+
+				every_culture_county = { #Japan
+					limit = {
+						title_province = { geographical_region = world_asia_japan }
+					}
+					add_to_list = venetic_cult_count_for_vnt_japanese
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_japanese
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_japanese
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_japanese_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_venetic_japanese
+								set_culture_pillar = language_nipono_venetic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_japanese
+						set_county_culture = scope:venetic_japanese_culture	
+					}
+				}
+
+				every_culture_county = { #China
+					limit = {
+						title_province = { geographical_region = world_asia_china }
+					}
+					add_to_list = venetic_cult_count_for_vnt_han
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_han
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_han
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_han_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_venetic_han
+								set_culture_pillar = language_sino_venetic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_han
+						set_county_culture = scope:venetic_han_culture
+					}
+				}
+
+				every_culture_county = { #Tibet
+					limit = {
+						title_province = { geographical_region = world_tibet }
+					}
+					add_to_list = venetic_cult_count_for_vnt_tibetan
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = venetic_cult_count_for_vnt_tibetan
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = venetic_cult_count_for_vnt_tibetan
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_venetic_county
+							set_culture = culture:venetic
+							create_divergent_culture = yes
+                            scope:holder_of_venetic_county.culture = {
+								save_scope_as = venetic_tibetan_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_venetic_tibetan
+								set_culture_pillar = language_himalayo_venetic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = venetic_cult_count_for_vnt_tibetan
+						set_county_culture = scope:venetic_tibetan_culture
+					}
+				}
+
+			}
+		}
+	}
+}
+
+venetic_divergence_events.3 = { #Diverged Raetian culture gets modern namelist 
+hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			if = {
+				limit = {
+					has_name_list = name_list_raetic
+				}
+				every_culture_county = { #Alps
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_transjurania }
+							title_province = { duchy = title:d_currezia }
+							title_province = { duchy = title:d_tyrol }
+							title_province = { duchy = title:d_carinthia }
+							title_province = { duchy = title:d_krain }
+							title_province = { duchy = title:d_steyermark }
+						}
+					}
+					add_to_list = raetic_cult_count_for_romansh
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = raetic_cult_count_for_romansh
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = raetic_cult_count_for_romansh
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_raetian_county
+							set_culture = culture:rhaetian
+							create_divergent_culture = yes
+                            scope:holder_of_raetian_county.culture = {
+								save_scope_as = raetian_romansh_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_neo_raetic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = raetic_cult_count_for_romansh
+						set_county_culture = scope:raetian_romansh_culture
+					}
+				}
+				every_culture_county = { #Northern Italy
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_lombardia }
+							title_province = { duchy = title:d_emilia }
+							title_province = { duchy = title:d_romagna }
+							title_province = { duchy = title:d_piedmonte }
+							title_province = { duchy = title:d_genoa }
+						}
+					}
+					add_to_list = raetic_cult_count_for_cisalpine
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = raetic_cult_count_for_cisalpine
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = raetic_cult_count_for_cisalpine
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_raetian_county
+							set_culture = culture:rhaetian
+							create_divergent_culture = yes
+                            scope:holder_of_raetian_county.culture = {
+								save_scope_as = raetian_cisalpine_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_neo_raetic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = raetic_cult_count_for_cisalpine
+						set_county_culture = scope:raetian_cisalpine_culture
+					}
+				}
+				every_culture_county = { #veneto
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_venice }
+							title_province = { duchy = title:d_friuli }
+							title_province = { duchy = title:d_verona }
+							title_province = { duchy = title:d_istria }
+						}
+					}
+					add_to_list = raetic_cult_count_for_veneto
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = raetic_cult_count_for_veneto
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = raetic_cult_count_for_veneto
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_raetian_county
+							set_culture = culture:rhaetian
+							create_divergent_culture = yes
+                            scope:holder_of_raetian_county.culture = {
+								save_scope_as = raetian_veneto_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_neo_raetic
+							}
+						}
+					}
+					every_in_list = {#####
+						list = raetic_cult_count_for_veneto
+						set_county_culture = scope:raetian_veneto_culture
+					}
+				}
+			}
+		}
+	}
+}
+
+venetic_divergence_events.4 = { #Diverged Ligurian culture gets modern namelist 
+hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			if = {
+				limit = {
+					has_name_list = name_list_old_ligurian
+				}
+				every_culture_county = { #Northern Italy
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_lombardia }
+							title_province = { duchy = title:d_emilia }
+							title_province = { duchy = title:d_romagna }
+							title_province = { duchy = title:d_piedmonte }
+							title_province = { duchy = title:d_genoa }
+							title_province = { duchy = title:d_venice }
+							title_province = { duchy = title:d_friuli }
+							title_province = { duchy = title:d_verona }
+							title_province = { duchy = title:d_istria }
+						}
+					}
+					add_to_list = ligure_cult_count_for_cisalpine
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = ligure_cult_count_for_cisalpine
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = ligure_cult_count_for_cisalpine
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_ligure_county
+							set_culture = culture:old_ligurian
+							create_divergent_culture = yes
+                            scope:holder_of_ligure_county.culture = {
+								save_scope_as = ligure_cisalpine_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_neo_ligurian
+							}
+						}
+					}
+					every_in_list = {#####
+						list = ligure_cult_count_for_cisalpine
+						set_county_culture = scope:ligure_cisalpine_culture
+					}
+				}
+				every_culture_county = { #Occitania
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_savoie }
+							title_province = { duchy = title:d_provence }
+							title_province = { duchy = title:d_dauphine }
+							title_province = { duchy = title:d_languedoc }
+							title_province = { duchy = title:d_barcelona }
+							title_province = { duchy = title:d_toulouse }
+							title_province = { duchy = title:d_auvergne }
+							title_province = { duchy = title:d_bourbon }
+							title_province = { duchy = title:d_aquitaine }
+							title_province = { duchy = title:d_gascogne }
+							title_province = { duchy = title:d_armagnac }
+						}
+					}
+					add_to_list = ligure_cult_count_for_occitania
+				}
+				if = {
+					limit = {
+						any_culture_global = { any_culture_county = {
+							is_in_list = ligure_cult_count_for_occitania
+							count >= 1
+						} }
+					}
+					random_culture_county = {
+						limit = {
+							is_in_list = ligure_cult_count_for_occitania
+						}
+						holder = {
+							save_temporary_scope_as = holder_of_ligure_county
+							set_culture = culture:old_ligurian
+							create_divergent_culture = yes
+                            scope:holder_of_ligure_county.culture = {
+								save_scope_as = ligure_occitan_culture
+								set_variable = {
+									name = recent_event_divergence
+									#value = true
+									days = 3650
+								}
+								set_name_list = name_list_neo_ligurian
+							}
+						}
+					}
+					every_in_list = {#####
+						list = ligure_cult_count_for_occitania
+						set_county_culture = scope:ligure_occitan_culture
+					}
+				}
+			}
+		}
+	}
+}

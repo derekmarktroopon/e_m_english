@@ -1,0 +1,253 @@
+﻿namespace = anglosaxon_culture_unification
+							
+
+anglosaxon_culture_unification.1 = {
+	scope = none
+	hidden = yes
+
+	immediate = {
+		culture = {
+			save_scope_as = new_as
+		}
+		
+		#Anglo-Saxon gets the innovations from all West Germanics minus Northumbrian
+		culture:anglo_saxon = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:west_saxon
+			get_all_innovations_from = culture:kentish
+			get_all_innovations_from = culture:mercian
+			get_all_innovations_from = culture:east_anglian
+			get_all_innovations_from = culture:east_saxon
+			copy_all_traditions_from = scope:new_as
+		}
+
+
+		every_county = {
+			limit = {
+				OR = {
+					culture = culture:west_saxon
+					culture = culture:kentish
+					culture = culture:northumbrian
+					culture = culture:mercian
+					culture = culture:east_anglian
+					culture = culture:east_saxon
+				}
+				title_province = {	
+					geographical_region = world_europe_west_britannia		
+				}
+			}
+			add_to_list = anglo_saxon_counties
+		}
+
+		every_in_list = {
+			list = anglo_saxon_counties
+
+			# West Germanic Counties become Anglo-Saxon
+			if = {
+				limit = {
+					culture = { has_cultural_pillar = heritage_west_germanic }
+					title_province = {	
+						geographical_region = world_europe_west_britannia		
+					}
+				}
+				random = {
+					chance = 60
+					set_county_culture = culture:anglo_saxon
+				}
+
+				# West and North Germanic rulers flip along to the new culture; North Germanics only flip *if* they are christian and their capital is located in Britain
+				holder = {
+					if = {
+						limit = {
+							culture = { has_cultural_pillar = heritage_west_germanic }
+							capital_province = {
+								geographical_region = world_europe_west_britannia	
+							}
+						}
+						set_culture = culture:anglo_saxon
+						every_courtier = {
+							limit = {
+								culture = { has_cultural_pillar = heritage_west_germanic }
+							}
+							random = {
+								chance = 80
+								set_culture = culture:anglo_saxon
+							}
+						}
+					}
+					else = {
+						limit = {
+							culture = { has_cultural_pillar = heritage_north_germanic }
+							religion = religion:christianity_religion
+							capital_province = {
+								geographical_region = world_europe_west_britannia	
+							}
+						}
+						set_culture = culture:anglo_saxon
+						every_courtier = {
+							limit = {
+								culture = { has_cultural_pillar = heritage_north_germanic }
+								religion = religion:christianity_religion
+							}
+							random = {
+								chance = 80
+								set_culture = culture:anglo_saxon
+							}
+						}
+					}
+				}
+			}
+		}
+
+		every_player = {
+			if = {
+				limit = {
+					is_ai = no
+					save_temporary_scope_as = player
+					any_in_list = {
+						list = anglo_saxon_counties
+						holder = {
+							is_within_diplo_range = { CHARACTER = scope:player }
+						}
+					}
+				}
+				trigger_event = anglosaxon_culture_unification.2
+			}
+		}
+	}
+
+}
+
+# Informative Event of the Shift
+anglosaxon_culture_unification.2 = {
+	type = character_event
+	title = anglosaxon_culture_unification.2.t
+	desc = anglosaxon_culture_unification.2.desc
+	theme = culture_change
+	left_portrait = root
+
+	option = {
+		name = anglosaxon_culture_unification.2.a
+	}
+	
+}
+
+anglosaxon_culture_unification.3 = { #Whether or not to impose your dialect (namelist) across england
+	type = character_event
+	title = anglosaxon_culture_unification.3.t
+	desc = anglosaxon_culture_unification.3.desc
+	theme = culture_change
+	left_portrait = root
+
+	immediate = {
+		if = {
+			limit = {
+				scope:new_as = { has_name_list = name_list_northumbrian }
+			}
+			culture:northumbrian = {
+				save_scope_as = culture_for_anglosaxon_lingo_loc
+			}
+		}
+		else_if = {
+			limit = {
+				scope:new_as = { has_name_list = name_list_mercian }
+			}
+			culture:mercian = {
+				save_scope_as = culture_for_anglosaxon_lingo_loc
+			}
+		}
+		else_if = {
+			limit = {
+				scope:new_as = { has_name_list = name_list_east_anglian }
+			}
+			culture:east_anglian = {
+				save_scope_as = culture_for_anglosaxon_lingo_loc
+			}
+		}
+		else_if = {
+			limit = {
+				scope:new_as = { has_name_list = name_list_west_saxon }
+			}
+			culture:west_saxon = {
+				save_scope_as = culture_for_anglosaxon_lingo_loc
+			}
+		}
+		else_if = {
+			limit = {
+				scope:new_as = { has_name_list = name_list_east_saxon }
+			}
+			culture:east_saxon = {
+				save_scope_as = culture_for_anglosaxon_lingo_loc
+			}
+		}
+		else_if = {
+			limit = {
+				scope:new_as = { has_name_list = name_list_jutish }
+			}
+			culture:kentish = {
+				save_scope_as = culture_for_anglosaxon_lingo_loc
+			}
+		}
+		culture:anglo_saxon = { save_scope_as = anglo_saxon_culture_for_lingo_loc }
+	}
+
+	option = {
+		name = anglosaxon_culture_unification.3.b #Our realm is one of all Angles and Saxons, our standard shall be only that.
+		custom_tooltip = "anglosaxon_culture_unification.3.b_tt" #Anglo-Saxon culture will keep its default namelist
+	}
+
+	option = {
+		name = anglosaxon_culture_unification.3.b #All Anglecynn must adhere to our tounge 
+		custom_tooltip = "anglosaxon_culture_unification.3.b_tt" #"Anglo-Saxon culture will switch to having the [SCOPE.Custom('culture_for_anglosaxon_lingo_loc')] namelist"
+		if = {
+			limit = {
+				scope:new_as = { has_name_list = name_list_northumbrian }
+			}
+			culture:anglo_saxon = {
+				set_name_list = name_list_northumbrian
+			}
+		}
+		else_if = {
+			limit = {
+				scope:new_as = { has_name_list = name_list_mercian }
+			}
+			culture:anglo_saxon = {
+				set_name_list = name_list_mercian
+			}
+		}
+		else_if = {
+			limit = {
+				scope:new_as = { has_name_list = name_list_east_anglian }
+			}
+			culture:anglo_saxon = {
+				set_name_list = name_list_east_anglian
+			}
+		}
+		else_if = {
+			limit = {
+				scope:new_as = { has_name_list = name_list_west_saxon }
+			}
+			culture:anglo_saxon = {
+				set_name_list = name_list_west_saxon
+			}
+		}
+		else_if = {
+			limit = {
+				scope:new_as = { has_name_list = name_list_east_saxon }
+			}
+			culture:anglo_saxon = {
+				set_name_list = name_list_east_saxon
+			}
+		}
+		else_if = {
+			limit = {
+				scope:new_as = { has_name_list = name_list_jutish }
+			}
+			culture:anglo_saxon = {
+				set_name_list = name_list_jutish
+			}
+		}
+	}
+	
+}
+

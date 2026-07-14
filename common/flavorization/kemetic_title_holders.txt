@@ -1,0 +1,343 @@
+﻿
+
+
+duke_feudal_male_kemetic = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	governments = { tribal_government clan_government feudal_government administrative_government }
+}
+duke_feudal_female_kemetic = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 28
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	governments = { tribal_government clan_government feudal_government }
+}
+duchy_feudal_kemetic = {
+	type = title
+	tier = duchy
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	governments = { tribal_government clan_government feudal_government }
+	priority = 29
+}
+duke_feudal_male_independent_kemetic = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	flavourization_rules = { 
+		only_independent = yes
+	}
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	governments = { tribal_government clan_government feudal_government }
+}
+duke_feudal_female_independent_kemetic = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 28
+	flavourization_rules = { 
+		only_independent = yes
+	}
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	governments = { tribal_government clan_government feudal_government }
+}
+king_feudal_male_kemetic = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 303
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	governments = { tribal_government clan_government feudal_government }
+
+	flavourization_rules = {
+		spouse_takes_title = no
+	}
+}
+king_feudal_female_kemetic = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 303
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	governments = { tribal_government clan_government feudal_government }
+
+	flavourization_rules = {
+		spouse_takes_title = no
+	}
+}
+kingdom_feudal_kemetic = {
+	type = title
+	tier = kingdom
+	priority = 48
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	governments = { tribal_government clan_government feudal_government }
+}
+emperor_feudal_male_kemetic = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 200
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	governments = { tribal_government clan_government feudal_government }
+	flavourization_rules = {
+		only_independent = yes
+		spouse_takes_title = no
+	}
+}
+emperor_feudal_female_kemetic = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 200
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	governments = { tribal_government clan_government feudal_government }
+	flavourization_rules = {
+		only_independent = yes
+		spouse_takes_title = no
+	}
+}
+empire_feudal_kemetic = {
+	type = title
+	tier = empire
+	priority = 103
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	governments = { feudal_government }
+}
+emperor_admin_male_kemetic = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 200
+	governments = { administrative_government }
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	flavourization_rules = {
+		only_independent = yes
+		spouse_takes_title = no
+	}
+}
+emperor_admin_female_kemetic = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 200
+	governments = { administrative_government }
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	flavourization_rules = {
+		only_independent = yes
+		spouse_takes_title = no
+	}
+}
+king_administrative_male_kemetic = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 200
+	governments = { administrative_government }
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	flavourization_rules = {
+		only_vassals = yes
+		top_liege = yes
+		ignore_top_liege_government = yes
+		spouse_takes_title = no
+	}
+}
+duke_administrative_male_kemetic = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 200
+	governments = { administrative_government }
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	flavourization_rules = {
+		only_vassals = yes
+		top_liege = yes
+		ignore_top_liege_government = yes
+		spouse_takes_title = no
+	}
+}
+duchy_administrative_kemetic = {
+	type = title
+	tier = duchy
+	priority = 110
+	governments = { administrative_government }
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	flavourization_rules = {
+		only_vassals = yes
+		top_liege = yes
+		ignore_top_liege_government = yes
+	}
+}
+kingdom_administrative_kemetic = {
+	type = title
+	tier = kingdom
+	priority = 110
+	governments = { administrative_government }
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	flavourization_rules = {
+		only_vassals = yes
+		top_liege = yes
+		ignore_top_liege_government = yes
+	}
+}
+# Kemetic V4: administrative kingdom holder symmetry and independent Pharaohs
+king_administrative_female_kemetic = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 200
+	governments = { administrative_government }
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	flavourization_rules = {
+		only_vassals = yes
+		top_liege = yes
+		ignore_top_liege_government = yes
+		spouse_takes_title = no
+	}
+}
+
+king_administrative_independent_male_kemetic = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 200
+	governments = { administrative_government }
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	flavourization_rules = {
+		only_independent = yes
+		spouse_takes_title = no
+	}
+}
+
+king_administrative_independent_female_kemetic = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 200
+	governments = { administrative_government }
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	flavourization_rules = {
+		only_independent = yes
+		spouse_takes_title = no
+	}
+}
+
+# One priority below the independent administrative rulers, following vanilla
+# Chinese/Korean and AGOT holder-versus-spouse flavorization practice.
+spouse_king_female_kemetic_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 199
+	governments = { administrative_government }
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	flavourization_rules = {
+		only_independent = yes
+	}
+}
+
+spouse_emperor_female_kemetic_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 199
+	governments = { tribal_government clan_government feudal_government administrative_government }
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	flavourization_rules = {
+		only_independent = yes
+	}
+}
+
+# A non-independent kingdom consort remains a normal Queen.
+spouse_king_female_kemetic_vassal = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 302
+	governments = { tribal_government clan_government feudal_government }
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	flavourization_rules = {
+		only_vassals = yes
+	}
+}
+
+duke_administrative_female_kemetic = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 200
+	governments = { administrative_government }
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	flavourization_rules = {
+		only_vassals = yes
+		top_liege = yes
+		ignore_top_liege_government = yes
+		spouse_takes_title = no
+	}
+}
+
+spouse_king_female_kemetic_independent_feudal = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 302
+	governments = { tribal_government clan_government feudal_government }
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	flavourization_rules = {
+		only_independent = yes
+	}
+}
+
+spouse_king_female_kemetic_administrative_vassal = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 199
+	governments = { administrative_government }
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	flavourization_rules = {
+		only_vassals = yes
+		top_liege = yes
+		ignore_top_liege_government = yes
+	}
+}
+
+spouse_duke_female_kemetic_administrative_vassal = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 199
+	governments = { administrative_government }
+	name_lists = { name_list_kemetic name_list_predynastic_egyptian name_list_demotic }
+	flavourization_rules = {
+		only_vassals = yes
+		top_liege = yes
+		ignore_top_liege_government = yes
+	}
+}

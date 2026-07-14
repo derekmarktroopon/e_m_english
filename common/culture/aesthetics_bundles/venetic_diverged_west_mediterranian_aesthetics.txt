@@ -1,0 +1,1092 @@
+﻿venetic_venetian_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_venice }
+					any_this_title_or_de_jure_above = { this = title:d_friuli }
+					any_this_title_or_de_jure_above = { this = title:d_verona }
+					any_this_title_or_de_jure_above = { this = title:d_istria }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	name_list = name_list_venetic_venetian
+
+	#ai_will_do = {
+	#	value = 10
+	#	if = {
+	#		NOT = {
+	#			scope:character = { has_trait = stubborn }
+	#		}
+	#		multiply = 5
+	#	}
+	#}
+}
+
+venetic_venetian_biblical_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_venice }
+					any_this_title_or_de_jure_above = { this = title:d_friuli }
+					any_this_title_or_de_jure_above = { this = title:d_verona }
+					any_this_title_or_de_jure_above = { this = title:d_istria }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	name_list = name_list_venetic_venetian_biblical
+
+}
+
+venetic_cisalpine_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_lombardia }
+					any_this_title_or_de_jure_above = { this = title:d_emilia }
+					any_this_title_or_de_jure_above = { this = title:d_romagna }
+					any_this_title_or_de_jure_above = { this = title:d_piedmonte }
+					any_this_title_or_de_jure_above = { this = title:d_genoa }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	name_list = name_list_venetic_cisalpine
+
+}
+
+venetic_cisalpine_biblical_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_lombardia }
+					any_this_title_or_de_jure_above = { this = title:d_emilia }
+					any_this_title_or_de_jure_above = { this = title:d_romagna }
+					any_this_title_or_de_jure_above = { this = title:d_piedmonte }
+					any_this_title_or_de_jure_above = { this = title:d_genoa }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	name_list = name_list_venetic_cisalpine_biblical
+
+}
+
+venetic_italian_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_toscana }
+					any_this_title_or_de_jure_above = { this = title:d_pisa }
+					any_this_title_or_de_jure_above = { this = title:d_ancona }
+					any_this_title_or_de_jure_above = { this = title:d_spoleto }
+					any_this_title_or_de_jure_above = { this = title:d_latium }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	name_list = name_list_venetic_italian
+
+}
+
+venetic_italian_biblical_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_toscana }
+					any_this_title_or_de_jure_above = { this = title:d_pisa }
+					any_this_title_or_de_jure_above = { this = title:d_ancona }
+					any_this_title_or_de_jure_above = { this = title:d_spoleto }
+					any_this_title_or_de_jure_above = { this = title:d_latium }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	name_list = name_list_venetic_italian_biblical
+
+}
+
+venetic_sicilian_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_capua }
+					any_this_title_or_de_jure_above = { this = title:d_benevento }
+					any_this_title_or_de_jure_above = { this = title:d_apulia }
+					any_this_title_or_de_jure_above = { this = title:d_salerno }
+					any_this_title_or_de_jure_above = { this = title:d_calabria }
+					any_this_title_or_de_jure_above = { this = title:d_sicily }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	name_list = name_list_venetic_sicilian
+
+}
+
+venetic_sicilian_biblical_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_capua }
+					any_this_title_or_de_jure_above = { this = title:d_benevento }
+					any_this_title_or_de_jure_above = { this = title:d_apulia }
+					any_this_title_or_de_jure_above = { this = title:d_salerno }
+					any_this_title_or_de_jure_above = { this = title:d_calabria }
+					any_this_title_or_de_jure_above = { this = title:d_sicily }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	name_list = name_list_venetic_sicilian_biblical
+
+}
+
+venetic_sardinian_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_sardinia }
+					any_this_title_or_de_jure_above = { this = title:d_corsica }
+					any_this_title_or_de_jure_above = { this = title:d_mallorca }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	name_list = name_list_venetic_sardinian
+
+}
+
+venetic_sardinian_biblical_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_sardinia }
+					any_this_title_or_de_jure_above = { this = title:d_corsica }
+					any_this_title_or_de_jure_above = { this = title:d_mallorca }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	name_list = name_list_venetic_sardinian_biblical
+
+}
+
+venetic_african_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_tunis }
+					any_this_title_or_de_jure_above = { this = title:d_kroumerie }
+					any_this_title_or_de_jure_above = { this = title:d_kairouan }
+					any_this_title_or_de_jure_above = { this = title:d_gabes }
+					any_this_title_or_de_jure_above = { this = title:d_tripolitania }
+					any_this_title_or_de_jure_above = { this = title:d_syrte }
+					any_this_title_or_de_jure_above = { this = title:d_bejaia }
+					any_this_title_or_de_jure_above = { this = title:d_zab }
+					any_this_title_or_de_jure_above = { this = title:d_alger }
+					any_this_title_or_de_jure_above = { this = title:d_tahert }
+					any_this_title_or_de_jure_above = { this = title:d_tlemcen }
+					any_this_title_or_de_jure_above = { this = title:d_rif }
+					any_this_title_or_de_jure_above = { this = title:d_fes }
+					any_this_title_or_de_jure_above = { this = title:d_marrakesh }
+					any_this_title_or_de_jure_above = { this = title:d_tafilalt }
+					any_this_title_or_de_jure_above = { this = title:d_sous }
+					any_this_title_or_de_jure_above = { this = title:d_mzab }
+					any_this_title_or_de_jure_above = { this = title:d_canarias }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	name_list = name_list_venetic_african
+
+}
+
+venetic_african_biblical_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_tunis }
+					any_this_title_or_de_jure_above = { this = title:d_kroumerie }
+					any_this_title_or_de_jure_above = { this = title:d_kairouan }
+					any_this_title_or_de_jure_above = { this = title:d_gabes }
+					any_this_title_or_de_jure_above = { this = title:d_tripolitania }
+					any_this_title_or_de_jure_above = { this = title:d_syrte }
+					any_this_title_or_de_jure_above = { this = title:d_bejaia }
+					any_this_title_or_de_jure_above = { this = title:d_zab }
+					any_this_title_or_de_jure_above = { this = title:d_alger }
+					any_this_title_or_de_jure_above = { this = title:d_tahert }
+					any_this_title_or_de_jure_above = { this = title:d_tlemcen }
+					any_this_title_or_de_jure_above = { this = title:d_rif }
+					any_this_title_or_de_jure_above = { this = title:d_fes }
+					any_this_title_or_de_jure_above = { this = title:d_marrakesh }
+					any_this_title_or_de_jure_above = { this = title:d_tafilalt }
+					any_this_title_or_de_jure_above = { this = title:d_sous }
+					any_this_title_or_de_jure_above = { this = title:d_mzab }
+					any_this_title_or_de_jure_above = { this = title:d_canarias }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	name_list = name_list_venetic_african_biblical
+
+}
+
+venetic_romansh_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_transjurania }
+					any_this_title_or_de_jure_above = { this = title:d_currezia }
+					any_this_title_or_de_jure_above = { this = title:d_tyrol }
+					any_this_title_or_de_jure_above = { this = title:d_carinthia }
+					any_this_title_or_de_jure_above = { this = title:d_krain }
+					any_this_title_or_de_jure_above = { this = title:d_steyermark }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	name_list = name_list_venetic_romansh
+
+}
+
+venetic_romansh_biblical_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_transjurania }
+					any_this_title_or_de_jure_above = { this = title:d_currezia }
+					any_this_title_or_de_jure_above = { this = title:d_tyrol }
+					any_this_title_or_de_jure_above = { this = title:d_carinthia }
+					any_this_title_or_de_jure_above = { this = title:d_krain }
+					any_this_title_or_de_jure_above = { this = title:d_steyermark }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	name_list = name_list_venetic_romansh_biblical
+
+}
+
+venetic_dalmatian_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_croatia }
+					any_this_title_or_de_jure_above = { this = title:d_dalmatia }
+					any_this_title_or_de_jure_above = { this = title:d_slavonia }
+					any_this_title_or_de_jure_above = { this = title:d_lower_bosna }
+					any_this_title_or_de_jure_above = { this = title:d_bosna }
+					any_this_title_or_de_jure_above = { this = title:d_usora }
+					any_this_title_or_de_jure_above = { this = title:d_ragusa }
+					any_this_title_or_de_jure_above = { this = title:d_macva }
+					any_this_title_or_de_jure_above = { this = title:d_rashka }
+					any_this_title_or_de_jure_above = { this = title:d_duklja }
+					any_this_title_or_de_jure_above = { this = title:d_dyrrachion }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	name_list = name_list_venetic_dalmatian
+
+}
+
+venetic_dalmatian_biblical_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_croatia }
+					any_this_title_or_de_jure_above = { this = title:d_dalmatia }
+					any_this_title_or_de_jure_above = { this = title:d_slavonia }
+					any_this_title_or_de_jure_above = { this = title:d_lower_bosna }
+					any_this_title_or_de_jure_above = { this = title:d_bosna }
+					any_this_title_or_de_jure_above = { this = title:d_usora }
+					any_this_title_or_de_jure_above = { this = title:d_ragusa }
+					any_this_title_or_de_jure_above = { this = title:d_macva }
+					any_this_title_or_de_jure_above = { this = title:d_rashka }
+					any_this_title_or_de_jure_above = { this = title:d_duklja }
+					any_this_title_or_de_jure_above = { this = title:d_dyrrachion }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	name_list = name_list_venetic_dalmatian_biblical
+
+}
+
+venetic_pannonian_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_somogy }
+					any_this_title_or_de_jure_above = { this = title:d_gyor }
+					any_this_title_or_de_jure_above = { this = title:d_visegrad }
+					any_this_title_or_de_jure_above = { this = title:d_bacs }
+					any_this_title_or_de_jure_above = { this = title:d_temes }
+					any_this_title_or_de_jure_above = { this = title:d_bihar }
+					any_this_title_or_de_jure_above = { this = title:d_transcarpathia }
+					any_this_title_or_de_jure_above = { this = title:d_ungvar }
+					any_this_title_or_de_jure_above = { this = title:d_nyitra }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { magyar_group_coa_gfx ugro_permian_group_coa_gfx steppe_coa_gfx } 
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx }
+	
+	name_list = name_list_venetic_pannonian
+
+}
+
+venetic_pannonian_biblical_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_somogy }
+					any_this_title_or_de_jure_above = { this = title:d_gyor }
+					any_this_title_or_de_jure_above = { this = title:d_visegrad }
+					any_this_title_or_de_jure_above = { this = title:d_bacs }
+					any_this_title_or_de_jure_above = { this = title:d_temes }
+					any_this_title_or_de_jure_above = { this = title:d_bihar }
+					any_this_title_or_de_jure_above = { this = title:d_transcarpathia }
+					any_this_title_or_de_jure_above = { this = title:d_ungvar }
+					any_this_title_or_de_jure_above = { this = title:d_nyitra }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { magyar_group_coa_gfx ugro_permian_group_coa_gfx steppe_coa_gfx } 
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx }
+	
+	name_list = name_list_venetic_pannonian_biblical
+
+}
+
+venetic_romanian_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_bulgaria }#Bulgaria
+					any_this_title_or_de_jure_above = { this = title:d_vidin }
+					any_this_title_or_de_jure_above = { this = title:d_turnovo }
+					any_this_title_or_de_jure_above = { this = title:d_philippopolis }
+					any_this_title_or_de_jure_above = { this = title:d_dobrudja }
+					any_this_title_or_de_jure_above = { this = title:d_oltenia }#Romania
+					any_this_title_or_de_jure_above = { this = title:d_muntenia }
+					any_this_title_or_de_jure_above = { this = title:d_transylvanian_alps }
+					any_this_title_or_de_jure_above = { this = title:d_transylvania }
+					any_this_title_or_de_jure_above = { this = title:d_bugeac }
+					any_this_title_or_de_jure_above = { this = title:d_moldova }
+					any_this_title_or_de_jure_above = { this = title:d_bukovina }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	name_list = name_list_venetic_romanian
+
+}
+
+venetic_romanian_biblical_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_bulgaria }#Bulgaria
+					any_this_title_or_de_jure_above = { this = title:d_vidin }
+					any_this_title_or_de_jure_above = { this = title:d_turnovo }
+					any_this_title_or_de_jure_above = { this = title:d_philippopolis }
+					any_this_title_or_de_jure_above = { this = title:d_dobrudja }
+					any_this_title_or_de_jure_above = { this = title:d_oltenia }#Romania
+					any_this_title_or_de_jure_above = { this = title:d_muntenia }
+					any_this_title_or_de_jure_above = { this = title:d_transylvanian_alps }
+					any_this_title_or_de_jure_above = { this = title:d_transylvania }
+					any_this_title_or_de_jure_above = { this = title:d_bugeac }
+					any_this_title_or_de_jure_above = { this = title:d_moldova }
+					any_this_title_or_de_jure_above = { this = title:d_bukovina }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	name_list = name_list_venetic_romanian_biblical
+
+}
+
+venetic_occitan_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_savoie }
+					any_this_title_or_de_jure_above = { this = title:d_provence }
+					any_this_title_or_de_jure_above = { this = title:d_dauphine }
+					any_this_title_or_de_jure_above = { this = title:d_languedoc }
+					any_this_title_or_de_jure_above = { this = title:d_barcelona }
+					any_this_title_or_de_jure_above = { this = title:d_toulouse }
+					any_this_title_or_de_jure_above = { this = title:d_auvergne }
+					any_this_title_or_de_jure_above = { this = title:d_bourbon }
+					any_this_title_or_de_jure_above = { this = title:d_aquitaine }
+					any_this_title_or_de_jure_above = { this = title:d_gascogne }
+					any_this_title_or_de_jure_above = { this = title:d_armagnac }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx }
+	
+	name_list = name_list_venetic_occitan
+
+}
+
+venetic_occitan_biblical_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_savoie }
+					any_this_title_or_de_jure_above = { this = title:d_provence }
+					any_this_title_or_de_jure_above = { this = title:d_dauphine }
+					any_this_title_or_de_jure_above = { this = title:d_languedoc }
+					any_this_title_or_de_jure_above = { this = title:d_barcelona }
+					any_this_title_or_de_jure_above = { this = title:d_toulouse }
+					any_this_title_or_de_jure_above = { this = title:d_auvergne }
+					any_this_title_or_de_jure_above = { this = title:d_bourbon }
+					any_this_title_or_de_jure_above = { this = title:d_aquitaine }
+					any_this_title_or_de_jure_above = { this = title:d_gascogne }
+					any_this_title_or_de_jure_above = { this = title:d_armagnac }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx }
+	
+	name_list = name_list_venetic_occitan_biblical
+
+}
+
+venetic_french_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			NOR = {
+				any_sub_realm_county = {
+					any_this_title_or_de_jure_above = { this = title:k_france }
+				}
+				any_sub_realm_county = {
+					OR = {
+						this.culture = culture:norman 
+						this.culture = culture:french 
+						this.culture = culture:frankish 
+					}
+				}	
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_brittany }
+					any_this_title_or_de_jure_above = { this = title:d_poitou }
+					any_this_title_or_de_jure_above = { this = title:d_berry }
+					any_this_title_or_de_jure_above = { this = title:d_anjou }
+					any_this_title_or_de_jure_above = { this = title:d_normandy }
+					any_this_title_or_de_jure_above = { this = title:d_orleans }
+					any_this_title_or_de_jure_above = { this = title:d_burgundy }
+					any_this_title_or_de_jure_above = { this = title:d_upper_burgundy }
+					any_this_title_or_de_jure_above = { this = title:d_bar }
+					any_this_title_or_de_jure_above = { this = title:d_champagne }
+					any_this_title_or_de_jure_above = { this = title:d_valois }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx }
+	
+	name_list = name_list_venetic_french
+
+}
+
+venetic_french_biblical_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			NOR = {
+				any_sub_realm_county = {
+					any_this_title_or_de_jure_above = { this = title:k_france }
+				}
+				any_sub_realm_county = {
+					OR = {
+						this.culture = culture:norman 
+						this.culture = culture:french 
+						this.culture = culture:frankish 
+					}
+				}	
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_brittany }
+					any_this_title_or_de_jure_above = { this = title:d_poitou }
+					any_this_title_or_de_jure_above = { this = title:d_berry }
+					any_this_title_or_de_jure_above = { this = title:d_anjou }
+					any_this_title_or_de_jure_above = { this = title:d_normandy }
+					any_this_title_or_de_jure_above = { this = title:d_orleans }
+					any_this_title_or_de_jure_above = { this = title:d_burgundy }
+					any_this_title_or_de_jure_above = { this = title:d_upper_burgundy }
+					any_this_title_or_de_jure_above = { this = title:d_bar }
+					any_this_title_or_de_jure_above = { this = title:d_champagne }
+					any_this_title_or_de_jure_above = { this = title:d_valois }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx }
+	
+	name_list = name_list_venetic_french_biblical
+
+}
+
+venetic_french_with_franks_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+                NOT = {
+					is_in_family = rf_abrahamic
+                }
+			}
+			OR = {
+				any_sub_realm_county = {
+					any_this_title_or_de_jure_above = { this = title:k_france }
+				}
+				any_sub_realm_county = {
+					OR = {
+						this.culture = culture:norman 
+						this.culture = culture:french  
+						this.culture = culture:frankish  
+					}
+				}		
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_brittany }
+					any_this_title_or_de_jure_above = { this = title:d_poitou }
+					any_this_title_or_de_jure_above = { this = title:d_berry }
+					any_this_title_or_de_jure_above = { this = title:d_anjou }
+					any_this_title_or_de_jure_above = { this = title:d_normandy }
+					any_this_title_or_de_jure_above = { this = title:d_orleans }
+					any_this_title_or_de_jure_above = { this = title:d_burgundy }
+					any_this_title_or_de_jure_above = { this = title:d_upper_burgundy }
+					any_this_title_or_de_jure_above = { this = title:d_bar }
+					any_this_title_or_de_jure_above = { this = title:d_champagne }
+					any_this_title_or_de_jure_above = { this = title:d_valois }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx }
+	
+	name_list = name_list_venetic_french_with_franks
+
+}
+
+venetic_french_with_franks_biblical_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			OR = {
+				any_sub_realm_county = {
+					any_this_title_or_de_jure_above = { this = title:k_france }
+				}
+				any_sub_realm_county = {
+					OR = {
+						this.culture = culture:norman  
+						this.culture = culture:french 
+						this.culture = culture:frankish 
+					}
+				}	
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_brittany }
+					any_this_title_or_de_jure_above = { this = title:d_poitou }
+					any_this_title_or_de_jure_above = { this = title:d_berry }
+					any_this_title_or_de_jure_above = { this = title:d_anjou }
+					any_this_title_or_de_jure_above = { this = title:d_normandy }
+					any_this_title_or_de_jure_above = { this = title:d_orleans }
+					any_this_title_or_de_jure_above = { this = title:d_burgundy }
+					any_this_title_or_de_jure_above = { this = title:d_upper_burgundy }
+					any_this_title_or_de_jure_above = { this = title:d_bar }
+					any_this_title_or_de_jure_above = { this = title:d_champagne }
+					any_this_title_or_de_jure_above = { this = title:d_valois }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx }
+	
+	name_list = name_list_venetic_french_with_franks_biblical
+
+}
+
+venetic_castilian_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_viscaya }
+					any_this_title_or_de_jure_above = { this = title:d_navarra }
+					any_this_title_or_de_jure_above = { this = title:d_aragon }
+					any_this_title_or_de_jure_above = { this = title:d_valencia }
+					any_this_title_or_de_jure_above = { this = title:d_murcia }
+					any_this_title_or_de_jure_above = { this = title:d_toledo }
+					any_this_title_or_de_jure_above = { this = title:d_badajoz }
+					any_this_title_or_de_jure_above = { this = title:d_granada }
+					any_this_title_or_de_jure_above = { this = title:d_sevilla }
+					any_this_title_or_de_jure_above = { this = title:d_castilla }
+					any_this_title_or_de_jure_above = { this = title:d_leon }
+					any_this_title_or_de_jure_above = { this = title:d_cantabria }
+					any_this_title_or_de_jure_above = { this = title:d_asturias }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+	
+	name_list = name_list_venetic_spanish
+
+}
+
+venetic_castilian_biblical_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_viscaya }
+					any_this_title_or_de_jure_above = { this = title:d_navarra }
+					any_this_title_or_de_jure_above = { this = title:d_aragon }
+					any_this_title_or_de_jure_above = { this = title:d_valencia }
+					any_this_title_or_de_jure_above = { this = title:d_murcia }
+					any_this_title_or_de_jure_above = { this = title:d_toledo }
+					any_this_title_or_de_jure_above = { this = title:d_badajoz }
+					any_this_title_or_de_jure_above = { this = title:d_granada }
+					any_this_title_or_de_jure_above = { this = title:d_sevilla }
+					any_this_title_or_de_jure_above = { this = title:d_castilla }
+					any_this_title_or_de_jure_above = { this = title:d_leon }
+					any_this_title_or_de_jure_above = { this = title:d_cantabria }
+					any_this_title_or_de_jure_above = { this = title:d_asturias }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+	
+	name_list = name_list_venetic_spanish_biblical
+
+}
+
+venetic_portuguese_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				NOT = {
+					is_in_family = rf_abrahamic
+				}
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_galicia }
+					any_this_title_or_de_jure_above = { this = title:d_porto }
+					any_this_title_or_de_jure_above = { this = title:d_coimbra }
+					any_this_title_or_de_jure_above = { this = title:d_beja }
+					any_this_title_or_de_jure_above = { this = title:d_badajoz }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+	
+	name_list = name_list_venetic_portuguese
+
+}
+
+venetic_portuguese_biblical_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			religion = {
+				is_in_family = rf_abrahamic
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_galicia }
+					any_this_title_or_de_jure_above = { this = title:d_porto }
+					any_this_title_or_de_jure_above = { this = title:d_coimbra }
+					any_this_title_or_de_jure_above = { this = title:d_beja }
+					any_this_title_or_de_jure_above = { this = title:d_badajoz }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+	
+	name_list = name_list_venetic_portuguese_biblical
+
+}

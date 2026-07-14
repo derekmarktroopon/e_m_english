@@ -1,0 +1,13 @@
+﻿
+building_large_kemetic_pyramid_requirement = {
+	culture = {
+		has_cultural_parameter = can_build_pyramids
+	}
+}
+
+building_medium_kemetic_pyramid_requirement = {
+	culture = {
+		has_cultural_parameter = can_build_pyramids
+	}
+}
+

@@ -1,0 +1,48 @@
+﻿name_list_raetic = {
+		cadet_dynasty_names = {
+			dynn_rht_arussnu dynn_rht_esiumninu dynn_rht_esminu dynn_rht_esthu dynn_rht_ethunnu dynn_rht_helanu dynn_rht_kanissnu dynn_rht_kapassunu dynn_rht_kaszrinu dynn_rht_kuhilinu dynn_rht_lassanu dynn_rht_lavisealu dynn_rht_lavisnu dynn_rht_lumennu dynn_rht_lupnu dynn_rht_metinu dynn_rht_nutsnu dynn_rht_phausu dynn_rht_phelvinu dynn_rht_phutikhinu dynn_rht_pithamnu dynn_rht_reithussnu dynn_rht_reminu dynn_rht_ssikhanu dynn_rht_susinu dynn_rht_tassnu dynn_rht_tenaginu dynn_rht_tharnu dynn_rht_thaukhrilinu dynn_rht_thianu dynn_rht_tiprukhnu dynn_rht_tulanu dynn_rht_valthikinu dynn_rht_velkhanu dynn_rht_vinuthalinu dynn_rht_vistekhanu
+		}
+
+		dynasty_names = { 
+	        dynn_rht_arussnu dynn_rht_esiumninu dynn_rht_esminu dynn_rht_esthu dynn_rht_ethunnu dynn_rht_helanu dynn_rht_kanissnu dynn_rht_kapassunu dynn_rht_kaszrinu dynn_rht_kuhilinu dynn_rht_lassanu dynn_rht_lavisealu dynn_rht_lavisnu dynn_rht_lumennu dynn_rht_lupnu dynn_rht_metinu dynn_rht_nutsnu dynn_rht_phausu dynn_rht_phelvinu dynn_rht_phutikhinu dynn_rht_pithamnu dynn_rht_reithussnu dynn_rht_reminu dynn_rht_ssikhanu dynn_rht_susinu dynn_rht_tassnu dynn_rht_tenaginu dynn_rht_tharnu dynn_rht_thaukhrilinu dynn_rht_thianu dynn_rht_tiprukhnu dynn_rht_tulanu dynn_rht_valthikinu dynn_rht_velkhanu dynn_rht_vinuthalinu dynn_rht_vistekhanu
+	        # Arussnu Esiumninu Esminu Esthu Ethunnu Helanu Kanissnu Kapassunu Kaszrinu Kuhilinu Lassanu Lavisealu Lavisnu Lumennu Lupnu Metinu Nutsnu Phausu Phelvinu Phutikginu Pithamnu Reithussnu Reminu Ssikganu Susinu Tassnu Tenaginu Tharnu Thaukgrilinu Thianu Tiprukgnu Tulanu Valthikinu Velkganu Vinuthalinu Vistekganu
+		} 
+
+		male_names = {
+		    rht_azi rht_elkhanu rht_enike rht_esimne rht_essthu rht_estanu rht_esumne rht_kanise rht_kathiave rht_ketanu rht_khaisuru rht_khika rht_klevie rht_knuse rht_laseke rht_lassanu rht_lasta rht_lasthe rht_lathur rht_lavise rht_lavisie rht_lumene rht_munie rht_phausu rht_phelturie rht_phelzurie rht_phrima rht_phutikhi rht_pitale rht_pithamne rht_pithiave rht_pithie rht_piti rht_pitie rht_piri rht_reithe rht_reituse rht_remie rht_tarie rht_tenakhi rht_terunie rht_tnake rht_tharie rht_tula rht_tulanu rht_ustitsu rht_valthikie rht_vassa rht_vatsanu rht_velthie
+		    #Azi Elkganu Enike Esimne Essthu Estanu Esumne Kanise Kathiave Ketanu Kgaisuru Kgika Klevie Knuse Laseke Lassanu Lasta Lasthe Lathur Lavise Lavisie Lumene Munie Phausu Phelturie Phelzurie Phrima Phutikgi Pitale Pithamne Pithiave Pithie Piti Pitie Piri Reithe Reituse Remie Tarie Tenakgi Terunie Tnake Tharie Tula Tulanu Ustitsu Valthikie Vassa Vatsanu Velthie 
+		}
+
+		female_names = {	
+		    rht_aruse rht_arusna rht_kara rht_kari rht_khari rht_kheli rht_khevisiana rht_lavise rht_lavissa rht_perkusi rht_phelna rht_piri rht_remi rht_siara
+		    # Aruse Arusna Kara Kari Kgari Kgeli Kgevisiana Lavise lavissa Perkusi Phelna Piri Remi Siara
+		}		
+		patronym_suffix_male = "dynnpat_suf_nu"
+		patronym_suffix_female = "dynnpat_suf_na"
+	
+		always_use_patronym = yes		
+}
+
+name_list_neo_raetic = {
+		cadet_dynasty_names = {
+			dynn_nrht_Arosan dynn_nrht_Ischiumin dynn_nrht_Esmin dynn_nrht_Dest dynn_nrht_Etun dynn_nrht_Elan dynn_nrht_Canisin dynn_nrht_Capassun dynn_nrht_Casrin dynn_nrht_Cuilin dynn_nrht_Lassan dynn_nrht_Lavisel dynn_nrht_Lavisan dynn_nrht_Lumen dynn_nrht_Lupan dynn_nrht_Metin dynn_nrht_Nutsan dynn_nrht_Faus dynn_nrht_Felvin dynn_nrht_Futgign dynn_nrht_Pitan dynn_nrht_Reidus dynn_nrht_Remin dynn_nrht_Sigagn dynn_nrht_Susin dynn_nrht_Tasan dynn_nrht_Tenagin dynn_nrht_Taran dynn_nrht_Taugrelin dynn_nrht_Tgiaun dynn_nrht_Tgiprugn dynn_nrht_Tolan dynn_nrht_Valtgina dynn_nrht_Velcagn dynn_nrht_Vinutalina dynn_nrht_Vistecagn
+		}
+
+		dynasty_names = { 
+	        dynn_nrht_Arosan dynn_nrht_Ischiumin dynn_nrht_Esmin dynn_nrht_Dest dynn_nrht_Etun dynn_nrht_Elan dynn_nrht_Canisin dynn_nrht_Capassun dynn_nrht_Casrin dynn_nrht_Cuilin dynn_nrht_Lassan dynn_nrht_Lavisel dynn_nrht_Lavisan dynn_nrht_Lumen dynn_nrht_Lupan dynn_nrht_Metin dynn_nrht_Nutsan dynn_nrht_Faus dynn_nrht_Felvin dynn_nrht_Futgign dynn_nrht_Pitan dynn_nrht_Reidus dynn_nrht_Remin dynn_nrht_Sigagn dynn_nrht_Susin dynn_nrht_Tasan dynn_nrht_Tenagin dynn_nrht_Taran dynn_nrht_Taugrelin dynn_nrht_Tgiaun dynn_nrht_Tgiprugn dynn_nrht_Tolan dynn_nrht_Valtgina dynn_nrht_Velcagn dynn_nrht_Vinutalina dynn_nrht_Vistecagn
+	        # Arosan Ischiumin Esmin Dest Etun Elan Canisin Capassun Casrin Cuilin Lassan Lavisel Lavisan Lumen Lüpan Metin Nutsan Faus Felvin Futgign Pitan Reidus Remin Sigagn Susin Tasan Tenagin Taran Taugrelin Tgiaun Tgiprugn Tolan Valtgina Velcagn Vinutalina Vistecagn
+		} 
+
+		male_names = {
+		    nrht_Azi nrht_Elgan nrht_Enich nrht_Esin nrht_Estu nrht_Estan nrht_Esun nrht_Canis nrht_Cativi nrht_Cetan nrht_Gaisur nrht_Gica nrht_Clevi nrht_Cnus nrht_Laseca nrht_Lassan nrht_Lasta nrht_Laste nrht_Ladur nrht_Lavisan nrht_Lavisi nrht_Lumen nrht_Muni nrht_Faus nrht_Feltur nrht_Frima nrht_Fudich nrht_Pital nrht_Pitan nrht_Pidiavi nrht_Pidi nrht_Piti nrht_Piri nrht_Reidi nrht_Reidus nrht_Remi nrht_Tari nrht_Tenach nrht_Terun nrht_Tula nrht_Tulan nrht_Ustiz nrht_Valtichi nrht_Vassa nrht_Vatsan nrht_Velti
+
+		    # Azi Elgan Enich Esin Estu Estan Esun Canis Cativi Cetan Gaisur Gica Clevi Cnus Laseca Lassan Lasta Laste Ladur Lavisan Lavisi Lumèn Muni Faus Feltur Frima Fudich Pital Pitan Pidiavi Pidi Piti Piri Reidi Reidus Remi Tari Tenach Terun Tula Tulan Ustiz Valtichi Vassa Vatsan Velti
+		} 
+
+		female_names = {	
+		    nrht_Arusa nrht_Arusna nrht_Cara nrht_Cari nrht_Gari nrht_Geli nrht_Gevisiana nrht_Lavisa nrht_Lavissa nrht_Percusi nrht_Felna nrht_Piri nrht_Remi nrht_Siara
+		    # Arusa Arusna Cara Cari Gari Geli Gevisiana Lavisa Lavissa Percusi Felna Piri Remi Siara
+		}		
+	
+}
+

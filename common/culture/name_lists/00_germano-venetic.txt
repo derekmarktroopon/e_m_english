@@ -1,0 +1,340 @@
+﻿
+name_list_venetic_dutch = {
+		cadet_dynasty_names = {
+            dynn_vndtch_Aversvil dynn_vndtch_Andeteksvil dynn_vndtch_Bodeksvil dynn_vndtch_Dillesvil dynn_vndtch_Egistsvil dynn_vndtch_Enetjesvil dynn_vndtch_Hoewsvil dynn_vndtch_Casteksvil dynn_vndtch_Cuutensvil dynn_vndtch_Pledasvil dynn_vndtch_Reetasvil dynn_vndtch_Wassansvil dynn_vndtch_Winnesvil dynn_vndtch_Woetsvil dynn_vndtch_Akut dynn_vndtch_Albaren dynn_vndtch_Antwe dynn_vndtch_Aflisik dynn_vndtch_Arpetsjak dynn_vndtch_Beiwij dynn_vndtch_Beiken dynn_vndtch_Braijuk dynn_vndtch_Deipjarik dynn_vndtch_Deifla dynn_vndtch_Dillik dynn_vndtch_Egetur dynn_vndtch_Een dynn_vndtch_Fugi dynn_vndtch_Juwant dynn_vndtch_Klutawik dynn_vndtch_Hufrikun dynn_vndtch_Makkun dynn_vndtch_Nagalkan dynn_vndtch_Neisunk dynn_vndtch_Assuk dynn_vndtch_Pittamnik dynn_vndtch_Fumpeteg dynn_vndtch_Reitwij dynn_vndtch_Resunk dynn_vndtch_Tiwal dynn_vndtch_Tumatur dynn_vndtch_Touwij dynn_vndtch_Trisik dynn_vndtch_Tritiun dynn_vndtch_Ufosit dynn_vndtch_Wistin dynn_vndtch_Wultigen dynn_vndtch_Wultiumn dynn_vndtch_Wultularik dynn_vndtch_Wutaiw
+		}
+
+		dynasty_names = {
+	        dynn_vndtch_Aversvil dynn_vndtch_Andeteksvil dynn_vndtch_Bodeksvil dynn_vndtch_Dillesvil dynn_vndtch_Egistsvil dynn_vndtch_Enetjesvil dynn_vndtch_Hoewsvil dynn_vndtch_Casteksvil dynn_vndtch_Cuutensvil dynn_vndtch_Pledasvil dynn_vndtch_Reetasvil dynn_vndtch_Wassansvil dynn_vndtch_Winnesvil dynn_vndtch_Woetsvil dynn_vndtch_Akut dynn_vndtch_Albaren dynn_vndtch_Antwe dynn_vndtch_Aflisik dynn_vndtch_Arpetsjak dynn_vndtch_Beiwij dynn_vndtch_Beiken dynn_vndtch_Braijuk dynn_vndtch_Deipjarik dynn_vndtch_Deifla dynn_vndtch_Dillik dynn_vndtch_Egetur dynn_vndtch_Een dynn_vndtch_Fugi dynn_vndtch_Juwant dynn_vndtch_Klutawik dynn_vndtch_Hufrikun dynn_vndtch_Makkun dynn_vndtch_Nagalkan dynn_vndtch_Neisunk dynn_vndtch_Assuk dynn_vndtch_Pittamnik dynn_vndtch_Fumpeteg dynn_vndtch_Reitwij dynn_vndtch_Resunk dynn_vndtch_Tiwal dynn_vndtch_Tumatur dynn_vndtch_Touwij dynn_vndtch_Trisik dynn_vndtch_Tritiun dynn_vndtch_Ufosit dynn_vndtch_Wistin dynn_vndtch_Wultigen dynn_vndtch_Wultiumn dynn_vndtch_Wultularik dynn_vndtch_Wutaiw
+		}
+
+		male_names = {
+            vndtch_aver vndtch_em vndtch_akot vndtch_alar vndtch_ametek vndtch_andetek vndtch_andet vndtch_aplisek vndtch_arb vndtch_aruijn vndtch_askel vndtch_att vndtch_beijt vndtch_bellene vndtch_boeen vndtch_boej vndtch_broijek vndtch_bodek vndtch_deijperk vndtch_deijper vndtch_dillek vndtch_dille vndtch_eban vndtch_egist vndtch_egeter vndtch_einn vndtch_enetje vndtch_enogen vndtch_irrin vndtch_veeg vndtch_vont vndtch_vogont vndtch_vremeist vndtch_vogg vndtch_gaj vndtch_greek vndtch_huusteijew vndtch_hoew vndtch_hott vndtch_jowen vndtch_cant vndtch_caran vndtch_castek vndtch_kell vndtch_cuuten vndtch_couest vndtch_quit vndtch_lamer vndtch_lant vndtch_lafsk vndtch_limter vndtch_lok vndtch_mets vndtch_mald vndtch_nagelcan vndtch_neesonk vndtch_nees vndtch_oekejeek vndtch_oepp vndtch_oerak vndtch_oest vndtch_penerj vndtch_pilenick vndtch_peijlpoet vndtch_pleda vndtch_reetew vndtch_reeta vndtch_resonk vndtch_zick vndtch_zor vndtch_teenoen vndtch_tekj vndtch_tometerej vndtch_trisek vndtch_torij vndtch_ock vndtch_orclaj vndtch_orcle vndtch_want vndtch_wassan vndtch_weegen vndtch_wiemi vndtch_winne vndtch_waarkwal vndtch_woutigene vndtch_woutuimn vndtch_woet
+		}
+
+		female_names = {
+            vndtch_f_akot vndtch_f_andet vndtch_apui vndtch_askall vndtch_f_att vndtch_bagsenna vndtch_beetonna vndtch_bregdina vndtch_bok vndtch_ebea vndtch_ef vndtch_egest vndtch_f_egeter vndtch_vetiena vndtch_vogent vndtch_vrema vndtch_f_vremeist vndtch_vremeistna vndtch_f_vogg vndtch_vox vndtch_jant vndtch_ekewein vndtch_iturj vndtch_jowent vndtch_f_cant vndtch_coul vndtch_keikot vndtch_macna vndtch_maldena vndtch_moskiel vndtch_most vndtch_neerk vndtch_nerk vndtch_otna vndtch_ribetana vndtch_reetta vndtch_trost vndtch_orcleena vndtch_osedek vndtch_wantkenna vndtch_winna vndtch_warkendar
+		}
+
+	dynasty_of_location_prefix = "dynnp_de"
+
+	patronym_suffix_male = "dynnpat_suf_vndtch_vil"
+	patronym_suffix_female = "dynnpat_suf_vndtch_vilui"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5				
+}
+
+name_list_venetic_dutch_biblical = {
+		cadet_dynasty_names = {
+            dynn_vndtch_Aversvil dynn_vndtch_Andeteksvil dynn_vndtch_Bodeksvil dynn_vndtch_Dillesvil dynn_vndtch_Egistsvil dynn_vndtch_Enetjesvil dynn_vndtch_Hoewsvil dynn_vndtch_Casteksvil dynn_vndtch_Cuutensvil dynn_vndtch_Pledasvil dynn_vndtch_Reetasvil dynn_vndtch_Wassansvil dynn_vndtch_Winnesvil dynn_vndtch_Woetsvil dynn_vndtch_Akut dynn_vndtch_Albaren dynn_vndtch_Antwe dynn_vndtch_Aflisik dynn_vndtch_Arpetsjak dynn_vndtch_Beiwij dynn_vndtch_Beiken dynn_vndtch_Braijuk dynn_vndtch_Deipjarik dynn_vndtch_Deifla dynn_vndtch_Dillik dynn_vndtch_Egetur dynn_vndtch_Een dynn_vndtch_Fugi dynn_vndtch_Juwant dynn_vndtch_Klutawik dynn_vndtch_Hufrikun dynn_vndtch_Makkun dynn_vndtch_Nagalkan dynn_vndtch_Neisunk dynn_vndtch_Assuk dynn_vndtch_Pittamnik dynn_vndtch_Fumpeteg dynn_vndtch_Reitwij dynn_vndtch_Resunk dynn_vndtch_Tiwal dynn_vndtch_Tumatur dynn_vndtch_Touwij dynn_vndtch_Trisik dynn_vndtch_Tritiun dynn_vndtch_Ufosit dynn_vndtch_Wistin dynn_vndtch_Wultigen dynn_vndtch_Wultiumn dynn_vndtch_Wultularik dynn_vndtch_Wutaiw
+		}
+
+		dynasty_names = {
+	        dynn_vndtch_Aversvil dynn_vndtch_Andeteksvil dynn_vndtch_Bodeksvil dynn_vndtch_Dillesvil dynn_vndtch_Egistsvil dynn_vndtch_Enetjesvil dynn_vndtch_Hoewsvil dynn_vndtch_Casteksvil dynn_vndtch_Cuutensvil dynn_vndtch_Pledasvil dynn_vndtch_Reetasvil dynn_vndtch_Wassansvil dynn_vndtch_Winnesvil dynn_vndtch_Woetsvil dynn_vndtch_Akut dynn_vndtch_Albaren dynn_vndtch_Antwe dynn_vndtch_Aflisik dynn_vndtch_Arpetsjak dynn_vndtch_Beiwij dynn_vndtch_Beiken dynn_vndtch_Braijuk dynn_vndtch_Deipjarik dynn_vndtch_Deifla dynn_vndtch_Dillik dynn_vndtch_Egetur dynn_vndtch_Een dynn_vndtch_Fugi dynn_vndtch_Juwant dynn_vndtch_Klutawik dynn_vndtch_Hufrikun dynn_vndtch_Makkun dynn_vndtch_Nagalkan dynn_vndtch_Neisunk dynn_vndtch_Assuk dynn_vndtch_Pittamnik dynn_vndtch_Fumpeteg dynn_vndtch_Reitwij dynn_vndtch_Resunk dynn_vndtch_Tiwal dynn_vndtch_Tumatur dynn_vndtch_Touwij dynn_vndtch_Trisik dynn_vndtch_Tritiun dynn_vndtch_Ufosit dynn_vndtch_Wistin dynn_vndtch_Wultigen dynn_vndtch_Wultiumn dynn_vndtch_Wultularik dynn_vndtch_Wutaiw
+		}
+
+		male_names = {
+			70 = {
+            	vndtch_aver vndtch_em vndtch_akot vndtch_alar vndtch_ametek vndtch_andetek vndtch_andet vndtch_aplisek vndtch_arb vndtch_aruijn vndtch_askel vndtch_att vndtch_beijt vndtch_bellene vndtch_boeen vndtch_boej vndtch_broijek vndtch_bodek vndtch_deijperk vndtch_deijper vndtch_dillek vndtch_dille vndtch_eban vndtch_egist vndtch_egeter vndtch_einn vndtch_enetje vndtch_enogen vndtch_irrin vndtch_veeg vndtch_vont vndtch_vogont vndtch_vremeist vndtch_vogg vndtch_gaj vndtch_greek vndtch_huusteijew vndtch_hoew vndtch_hott vndtch_jowen vndtch_cant vndtch_caran vndtch_castek vndtch_kell vndtch_cuuten vndtch_couest vndtch_quit vndtch_lamer vndtch_lant vndtch_lafsk vndtch_limter vndtch_lok vndtch_mets vndtch_mald vndtch_nagelcan vndtch_neesonk vndtch_nees vndtch_oekejeek vndtch_oepp vndtch_oerak vndtch_oest vndtch_penerj vndtch_pilenick vndtch_peijlpoet vndtch_pleda vndtch_reetew vndtch_reeta vndtch_resonk vndtch_zick vndtch_zor vndtch_teenoen vndtch_tekj vndtch_tometerej vndtch_trisek vndtch_torij vndtch_ock vndtch_orclaj vndtch_orcle vndtch_want vndtch_wassan vndtch_weegen vndtch_wiemi vndtch_winne vndtch_waarkwal vndtch_woutigene vndtch_woutuimn vndtch_woet
+			}
+			30 = {
+				Bartolomeus Filips Jacob Kristof Niclaes Simon Walter 
+			}
+		}
+
+		female_names = {
+			60 = {
+            	vndtch_f_akot vndtch_f_andet vndtch_apui vndtch_askall vndtch_f_att vndtch_bagsenna vndtch_beetonna vndtch_bregdina vndtch_bok vndtch_ebea vndtch_ef vndtch_egest vndtch_f_egeter vndtch_vetiena vndtch_vogent vndtch_vrema vndtch_f_vremeist vndtch_vremeistna vndtch_f_vogg vndtch_vox vndtch_jant vndtch_ekewein vndtch_iturj vndtch_jowent vndtch_f_cant vndtch_coul vndtch_keikot vndtch_macna vndtch_maldena vndtch_moskiel vndtch_most vndtch_neerk vndtch_nerk vndtch_otna vndtch_ribetana vndtch_reetta vndtch_trost vndtch_orcleena vndtch_osedek vndtch_wantkenna vndtch_winna vndtch_warkendar
+			}
+			40 = {
+				Anna Cecily Clara Elisabeth Helena Irene Isabelle Iudith Jacoba Johanna Kathrijne Margareta Maria Mathilde Sophie 
+			}
+		}
+
+	dynasty_of_location_prefix = "dynnp_de"
+
+	patronym_suffix_male = "dynnpat_suf_vndtch_vil"
+	patronym_suffix_female = "dynnpat_suf_vndtch_vilui"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5				
+}
+
+name_list_venetic_frisian = {
+		cadet_dynasty_names = {
+            dynn_vnfrys_amesfyle dynn_vnfrys_andettesfyle dynn_vnfrys_fujesfyle dynn_vnfrys_lantsfyle dynn_vnfrys_otsiksfyle dynn_vnfrys_tytsjesfyle dynn_vnfrys_turesfyle dynn_vnfrys_weyjinsfyle dynn_vnfrys_woltijinesfyle dynn_vnfrys_akut dynn_vnfrys_albarn dynn_vnfrys_ante dynn_vnfrys_aflisk dynn_vnfrys_arpetik dynn_vnfrys_bawe dynn_vnfrys_baken dynn_vnfrys_brak dynn_vnfrys_dapjerk dynn_vnfrys_dafla dynn_vnfrys_dill dynn_vnfrys_egatur dynn_vnfrys_ane dynn_vnfrys_fug dynn_vnfrys_yowent dynn_vnfrys_kludwik dynn_vnfrys_hufrik dynn_vnfrys_makun dynn_vnfrys_nakelen dynn_vnfrys_nasen dynn_vnfrys_es dynn_vnfrys_pittem dynn_vnfrys_fumpa dynn_vnfrys_rate dynn_vnfrys_rasen dynn_vnfrys_tewel dynn_vnfrys_tumater dynn_vnfrys_diapi dynn_vnfrys_trisk dynn_vnfrys_trition dynn_vnfrys_ufoset dynn_vnfrys_wistiny dynn_vnfrys_wultin dynn_vnfrys_wultem dynn_vnfrys_wultler dynn_vnfrys_wutau
+		}
+
+		dynasty_names = {
+            dynn_vnfrys_amesfyle dynn_vnfrys_andettesfyle dynn_vnfrys_fujesfyle dynn_vnfrys_lantsfyle dynn_vnfrys_otsiksfyle dynn_vnfrys_tytsjesfyle dynn_vnfrys_turesfyle dynn_vnfrys_weyjinsfyle dynn_vnfrys_woltijinesfyle dynn_vnfrys_akut dynn_vnfrys_albarn dynn_vnfrys_ante dynn_vnfrys_aflisk dynn_vnfrys_arpetik dynn_vnfrys_bawe dynn_vnfrys_baken dynn_vnfrys_brak dynn_vnfrys_dapjerk dynn_vnfrys_dafla dynn_vnfrys_dill dynn_vnfrys_egatur dynn_vnfrys_ane dynn_vnfrys_fug dynn_vnfrys_yowent dynn_vnfrys_kludwik dynn_vnfrys_hufrik dynn_vnfrys_makun dynn_vnfrys_nakelen dynn_vnfrys_nasen dynn_vnfrys_es dynn_vnfrys_pittem dynn_vnfrys_fumpa dynn_vnfrys_rate dynn_vnfrys_rasen dynn_vnfrys_tewel dynn_vnfrys_tumater dynn_vnfrys_diapi dynn_vnfrys_trisk dynn_vnfrys_trition dynn_vnfrys_ufoset dynn_vnfrys_wistiny dynn_vnfrys_wultin dynn_vnfrys_wultem dynn_vnfrys_wultler dynn_vnfrys_wutau
+		}
+
+		male_names = {
+            vnfrys_efer vnfrys_ame vnfrys_ekut vnfrys_eler vnfrys_ametik vnfrys_andette vnfrys_andit vnfrys_eplisyk vnfrys_erb vnfrys_eriun vnfrys_estsele vnfrys_ette vnfrys_bat vnfrys_belline vnfrys_bojan vnfrys_boje vnfrys_brojuk vnfrys_buditse vnfrys_dypjerik vnfrys_dypier vnfrys_dillik vnfrys_dille vnfrys_eban vnfrys_ejiste vnfrys_eitor vnfrys_einne vnfrys_enije vnfrys_enittsje vnfrys_enogje vnfrys_jorrin vnfrys_fjog vnfrys_fonte vnfrys_fugont vnfrys_framist vnfrys_fuje vnfrys_jeje vnfrys_gratse vnfrys_hostiuje vnfrys_hou vnfrys_hutte vnfrys_jowan vnfrys_tsante vnfrys_kremne vnfrys_tsestitse vnfrys_tselle vnfrys_kjotin vnfrys_ktulist vnfrys_kwit vnfrys_lamure vnfrys_lant vnfrys_lefsk vnfrys_lymtor vnfrys_luk vnfrys_mets vnfrys_meld vnfrys_ngeltsan vnfrys_nasonk vnfrys_nase vnfrys_otsik vnfrys_oppe vnfrys_ortse vnfrys_ost vnfrys_panerje vnfrys_pilunitse vnfrys_pilpot vnfrys_pled vnfrys_ratawje vnfrys_rat vnfrys_resuntse vnfrys_sytse vnfrys_sur vnfrys_tytsje vnfrys_tomtare vnfrys_trysitse vnfrys_ture vnfrys_utse vnfrys_urkleje vnfrys_urkle vnfrys_want vnfrys_want2 vnfrys_wessine vnfrys_weyjin vnfrys_weme vnfrys_wynne vnfrys_werkwel vnfrys_woltijine vnfrys_woltiun vnfrys_wot
+		}
+
+		female_names = {
+            vnfrys_akute vnfrys_andete vnfrys_epje vnfrys_estsallje vnfrys_atte vnfrys_begsannje vnfrys_batonnje vnfrys_brygdine vnfrys_buke vnfrys_ebue vnfrys_efe vnfrys_f_ejiste vnfrys_eitore vnfrys_fitiane vnfrys_fugonte vnfrys_freme vnfrys_framiste vnfrys_framisten vnfrys_fuije vnfrys_fuktsje vnfrys_iante vnfrys_itsjajonje vnfrys_ithuerje vnfrys_jowante vnfrys_kante vnfrys_kollje vnfrys_kuikute vnfrys_mekne vnfrys_meldone vnfrys_mustsile vnfrys_muste vnfrys_neierke vnfrys_njorke vnfrys_otsje vnfrys_rybtane vnfrys_rattje vnfrys_trotsje vnfrys_urkelwine vnfrys_usdike vnfrys_wantsannje vnfrys_f_wynne vnfrys_wertsandre
+		}
+
+	dynasty_of_location_prefix = "dynnp_da"
+
+	patronym_suffix_male = "dynnpat_suf_vndtch_svile"
+	patronym_suffix_female = "dynnpat_suf_vndtch_sviliu"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5				
+}
+
+name_list_venetic_frisian_biblical = {
+		cadet_dynasty_names = {
+            dynn_vnfrys_amesfyle dynn_vnfrys_andettesfyle dynn_vnfrys_fujesfyle dynn_vnfrys_lantsfyle dynn_vnfrys_otsiksfyle dynn_vnfrys_tytsjesfyle dynn_vnfrys_turesfyle dynn_vnfrys_weyjinsfyle dynn_vnfrys_woltijinesfyle dynn_vnfrys_akut dynn_vnfrys_albarn dynn_vnfrys_ante dynn_vnfrys_aflisk dynn_vnfrys_arpetik dynn_vnfrys_bawe dynn_vnfrys_baken dynn_vnfrys_brak dynn_vnfrys_dapjerk dynn_vnfrys_dafla dynn_vnfrys_dill dynn_vnfrys_egatur dynn_vnfrys_ane dynn_vnfrys_fug dynn_vnfrys_yowent dynn_vnfrys_kludwik dynn_vnfrys_hufrik dynn_vnfrys_makun dynn_vnfrys_nakelen dynn_vnfrys_nasen dynn_vnfrys_es dynn_vnfrys_pittem dynn_vnfrys_fumpa dynn_vnfrys_rate dynn_vnfrys_rasen dynn_vnfrys_tewel dynn_vnfrys_tumater dynn_vnfrys_diapi dynn_vnfrys_trisk dynn_vnfrys_trition dynn_vnfrys_ufoset dynn_vnfrys_wistiny dynn_vnfrys_wultin dynn_vnfrys_wultem dynn_vnfrys_wultler dynn_vnfrys_wutau
+		}
+
+		dynasty_names = {
+            dynn_vnfrys_amesfyle dynn_vnfrys_andettesfyle dynn_vnfrys_fujesfyle dynn_vnfrys_lantsfyle dynn_vnfrys_otsiksfyle dynn_vnfrys_tytsjesfyle dynn_vnfrys_turesfyle dynn_vnfrys_weyjinsfyle dynn_vnfrys_woltijinesfyle dynn_vnfrys_akut dynn_vnfrys_albarn dynn_vnfrys_ante dynn_vnfrys_aflisk dynn_vnfrys_arpetik dynn_vnfrys_bawe dynn_vnfrys_baken dynn_vnfrys_brak dynn_vnfrys_dapjerk dynn_vnfrys_dafla dynn_vnfrys_dill dynn_vnfrys_egatur dynn_vnfrys_ane dynn_vnfrys_fug dynn_vnfrys_yowent dynn_vnfrys_kludwik dynn_vnfrys_hufrik dynn_vnfrys_makun dynn_vnfrys_nakelen dynn_vnfrys_nasen dynn_vnfrys_es dynn_vnfrys_pittem dynn_vnfrys_fumpa dynn_vnfrys_rate dynn_vnfrys_rasen dynn_vnfrys_tewel dynn_vnfrys_tumater dynn_vnfrys_diapi dynn_vnfrys_trisk dynn_vnfrys_trition dynn_vnfrys_ufoset dynn_vnfrys_wistiny dynn_vnfrys_wultin dynn_vnfrys_wultem dynn_vnfrys_wultler dynn_vnfrys_wutau
+		}
+
+		male_names = {
+            vnfrys_efer vnfrys_ame vnfrys_ekut vnfrys_eler vnfrys_ametik vnfrys_andette vnfrys_andit vnfrys_eplisyk vnfrys_erb vnfrys_eriun vnfrys_estsele vnfrys_ette vnfrys_bat vnfrys_belline vnfrys_bojan vnfrys_boje vnfrys_brojuk vnfrys_buditse vnfrys_dypjerik vnfrys_dypier vnfrys_dillik vnfrys_dille vnfrys_eban vnfrys_ejiste vnfrys_eitor vnfrys_einne vnfrys_enije vnfrys_enittsje vnfrys_enogje vnfrys_jorrin vnfrys_fjog vnfrys_fonte vnfrys_fugont vnfrys_framist vnfrys_fuje vnfrys_jeje vnfrys_gratse vnfrys_hostiuje vnfrys_hou vnfrys_hutte vnfrys_jowan vnfrys_tsante vnfrys_kremne vnfrys_tsestitse vnfrys_tselle vnfrys_kjotin vnfrys_ktulist vnfrys_kwit vnfrys_lamure vnfrys_lant vnfrys_lefsk vnfrys_lymtor vnfrys_luk vnfrys_mets vnfrys_meld vnfrys_ngeltsan vnfrys_nasonk vnfrys_nase vnfrys_otsik vnfrys_oppe vnfrys_ortse vnfrys_ost vnfrys_panerje vnfrys_pilunitse vnfrys_pilpot vnfrys_pled vnfrys_ratawje vnfrys_rat vnfrys_resuntse vnfrys_sytse vnfrys_sur vnfrys_tytsje vnfrys_tomtare vnfrys_trysitse vnfrys_ture vnfrys_utse vnfrys_urkleje vnfrys_urkle vnfrys_want vnfrys_want2 vnfrys_wessine vnfrys_weyjin vnfrys_weme vnfrys_wynne vnfrys_werkwel vnfrys_woltijine vnfrys_woltiun vnfrys_wot
+		}
+
+		female_names = {
+		    90 = {
+            	vnfrys_akute vnfrys_andete vnfrys_epje vnfrys_estsallje vnfrys_atte vnfrys_begsannje vnfrys_batonnje vnfrys_brygdine vnfrys_buke vnfrys_ebue vnfrys_efe vnfrys_f_ejiste vnfrys_eitore vnfrys_fitiane vnfrys_fugonte vnfrys_freme vnfrys_framiste vnfrys_framisten vnfrys_fuije vnfrys_fuktsje vnfrys_iante vnfrys_itsjajonje vnfrys_ithuerje vnfrys_jowante vnfrys_kante vnfrys_kollje vnfrys_kuikute vnfrys_mekne vnfrys_meldone vnfrys_mustsile vnfrys_muste vnfrys_neierke vnfrys_njorke vnfrys_otsje vnfrys_rybtane vnfrys_rattje vnfrys_trotsje vnfrys_urkelwine vnfrys_usdike vnfrys_wantsannje vnfrys_f_wynne vnfrys_wertsandre
+		    }
+		    10 = {
+		    	Maike 
+		    }
+		}
+
+	dynasty_of_location_prefix = "dynnp_da"
+
+	patronym_suffix_male = "dynnpat_suf_vndtch_svile"
+	patronym_suffix_female = "dynnpat_suf_vndtch_sviliu"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5				
+}
+
+name_list_venetic_saxon = {
+		cadet_dynasty_names = {
+            dynn_vnsax_akut dynn_vnsax_albaran dynn_vnsax_antew dynn_vnsax_aflisich dynn_vnsax_arpetiak dynn_vnsax_bewe dynn_vnsax_bekne dynn_vnsax_brejuk dynn_vnsax_depjarich dynn_vnsax_defulaj dynn_vnsax_dillich dynn_vnsax_egetur dynn_vnsax_enau dynn_vnsax_fugi dynn_vnsax_juwant dynn_vnsax_kludawich dynn_vnsax_hufrikun dynn_vnsax_makkun dynn_vnsax_nagalkn dynn_vnsax_nesunk dynn_vnsax_assuk dynn_vnsax_pittamnich dynn_vnsax_fumpeteg dynn_vnsax_retiw dynn_vnsax_resunk dynn_vnsax_tiwal dynn_vnsax_tumatur dynn_vnsax_taup dynn_vnsax_trisich dynn_vnsax_tritijun dynn_vnsax_ufosit dynn_vnsax_wistin dynn_vnsax_wultigen dynn_vnsax_wultium dynn_vnsax_wultularich dynn_vnsax_wutwe
+		}
+
+		dynasty_names = {
+            dynn_vnsax_akut dynn_vnsax_albaran dynn_vnsax_antew dynn_vnsax_aflisich dynn_vnsax_arpetiak dynn_vnsax_bewe dynn_vnsax_bekne dynn_vnsax_brejuk dynn_vnsax_depjarich dynn_vnsax_defulaj dynn_vnsax_dillich dynn_vnsax_egetur dynn_vnsax_enau dynn_vnsax_fugi dynn_vnsax_juwant dynn_vnsax_kludawich dynn_vnsax_hufrikun dynn_vnsax_makkun dynn_vnsax_nagalkn dynn_vnsax_nesunk dynn_vnsax_assuk dynn_vnsax_pittamnich dynn_vnsax_fumpeteg dynn_vnsax_retiw dynn_vnsax_resunk dynn_vnsax_tiwal dynn_vnsax_tumatur dynn_vnsax_taup dynn_vnsax_trisich dynn_vnsax_tritijun dynn_vnsax_ufosit dynn_vnsax_wistin dynn_vnsax_wultigen dynn_vnsax_wultium dynn_vnsax_wultularich dynn_vnsax_wutwe
+		}
+
+		male_names = {
+            vnsax_awer vnsax_ehm vnsax_akuto vnsax_alar vnsax_ametik vnsax_antik vnsax_anit vnsax_eplisek vnsax_arb vnsax_arun vnsax_askal vnsax_atto vnsax_bait vnsax_bellin vnsax_bejal vnsax_beo vnsax_borjuk vnsax_budik vnsax_dipearik vnsax_dipeiar vnsax_dillik vnsax_dille vnsax_ebane vnsax_ejisto vnsax_egator vnsax_einno vnsax_enit vnsax_enogan vnsax_irrin vnsax_wioch vnsax_wonno vnsax_wugon vnsax_fermiest vnsax_wugge vnsax_gee vnsax_grek vnsax_hostiho vnsax_howo vnsax_hutto vnsax_juwan vnsax_kanto vnsax_karmno vnsax_kastik vnsax_sell vnsax_siutin vnsax_tulist vnsax_kwit vnsax_lamur vnsax_lant vnsax_lafsk vnsax_limatar vnsax_luk vnsax_mets vnsax_malla vnsax_nagalkan vnsax_nesonk vnsax_nes vnsax_okjek vnsax_oppo vnsax_ohark vnsax_ost vnsax_pener vnsax_pilunik vnsax_pilpoto vnsax_pledo vnsax_retuwe vnsax_rete vnsax_resunk vnsax_sik vnsax_sur vnsax_teke vnsax_tometer vnsax_tirsik vnsax_tuirk vnsax_uko vnsax_urklo vnsax_urkle vnsax_wanno vnsax_want vnsax_wessjan vnsax_wegin vnsax_weme vnsax_winne vnsax_warkwalo vnsax_wolligin vnsax_wollium vnsax_woto
+		}
+
+		female_names = {
+            vnsax_akute vnsax_annete vnsax_ape vnsax_askallje vnsax_atte vnsax_begsenja vnsax_betonja vnsax_birgdina vnsax_bukke vnsax_ebua vnsax_efo vnsax_egiste vnsax_egatera vnsax_weriana vnsax_wugonne vnsax_ferma vnsax_fermista vnsax_fermistena vnsax_wuggje vnsax_wussje vnsax_janne vnsax_itzewunje vnsax_iturja vnsax_juwanne vnsax_kante vnsax_kollje vnsax_kwikute vnsax_makna vnsax_mallona vnsax_mustjale vnsax_muste vnsax_neerke vnsax_nerke vnsax_otnja vnsax_rebetana vnsax_rettja vnsax_torstje vnsax_urklena vnsax_usedije vnsax_wennkenja vnsax_winna vnsax_warkandere
+		}
+
+	dynasty_of_location_prefix = "dynnp_de"
+
+	patronym_suffix_male = "dynnpat_suf_vndtch_sfilo"
+	patronym_suffix_female = "dynnpat_suf_vndtch_sfile"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5				
+}
+
+name_list_venetic_saxon_biblical = {
+		cadet_dynasty_names = {
+            dynn_vnsax_akut dynn_vnsax_albaran dynn_vnsax_antew dynn_vnsax_aflisich dynn_vnsax_arpetiak dynn_vnsax_bewe dynn_vnsax_bekne dynn_vnsax_brejuk dynn_vnsax_depjarich dynn_vnsax_defulaj dynn_vnsax_dillich dynn_vnsax_egetur dynn_vnsax_enau dynn_vnsax_fugi dynn_vnsax_juwant dynn_vnsax_kludawich dynn_vnsax_hufrikun dynn_vnsax_makkun dynn_vnsax_nagalkn dynn_vnsax_nesunk dynn_vnsax_assuk dynn_vnsax_pittamnich dynn_vnsax_fumpeteg dynn_vnsax_retiw dynn_vnsax_resunk dynn_vnsax_tiwal dynn_vnsax_tumatur dynn_vnsax_taup dynn_vnsax_trisich dynn_vnsax_tritijun dynn_vnsax_ufosit dynn_vnsax_wistin dynn_vnsax_wultigen dynn_vnsax_wultium dynn_vnsax_wultularich dynn_vnsax_wutwe
+		}
+
+		dynasty_names = {
+            dynn_vnsax_akut dynn_vnsax_albaran dynn_vnsax_antew dynn_vnsax_aflisich dynn_vnsax_arpetiak dynn_vnsax_bewe dynn_vnsax_bekne dynn_vnsax_brejuk dynn_vnsax_depjarich dynn_vnsax_defulaj dynn_vnsax_dillich dynn_vnsax_egetur dynn_vnsax_enau dynn_vnsax_fugi dynn_vnsax_juwant dynn_vnsax_kludawich dynn_vnsax_hufrikun dynn_vnsax_makkun dynn_vnsax_nagalkn dynn_vnsax_nesunk dynn_vnsax_assuk dynn_vnsax_pittamnich dynn_vnsax_fumpeteg dynn_vnsax_retiw dynn_vnsax_resunk dynn_vnsax_tiwal dynn_vnsax_tumatur dynn_vnsax_taup dynn_vnsax_trisich dynn_vnsax_tritijun dynn_vnsax_ufosit dynn_vnsax_wistin dynn_vnsax_wultigen dynn_vnsax_wultium dynn_vnsax_wultularich dynn_vnsax_wutwe
+		}
+
+		male_names = {
+		    60 = {
+            	vnsax_awer vnsax_ehm vnsax_akuto vnsax_alar vnsax_ametik vnsax_antik vnsax_anit vnsax_eplisek vnsax_arb vnsax_arun vnsax_askal vnsax_atto vnsax_bait vnsax_bellin vnsax_bejal vnsax_beo vnsax_borjuk vnsax_budik vnsax_dipearik vnsax_dipeiar vnsax_dillik vnsax_dille vnsax_ebane vnsax_ejisto vnsax_egator vnsax_einno vnsax_enit vnsax_enogan vnsax_irrin vnsax_wioch vnsax_wonno vnsax_wugon vnsax_fermiest vnsax_wugge vnsax_gee vnsax_grek vnsax_hostiho vnsax_howo vnsax_hutto vnsax_juwan vnsax_kanto vnsax_karmno vnsax_kastik vnsax_sell vnsax_siutin vnsax_tulist vnsax_kwit vnsax_lamur vnsax_lant vnsax_lafsk vnsax_limatar vnsax_luk vnsax_mets vnsax_malla vnsax_nagalkan vnsax_nesonk vnsax_nes vnsax_okjek vnsax_oppo vnsax_ohark vnsax_ost vnsax_pener vnsax_pilunik vnsax_pilpoto vnsax_pledo vnsax_retuwe vnsax_rete vnsax_resunk vnsax_sik vnsax_sur vnsax_teke vnsax_tometer vnsax_tirsik vnsax_tuirk vnsax_uko vnsax_urklo vnsax_urkle vnsax_wanno vnsax_want vnsax_wessjan vnsax_wegin vnsax_weme vnsax_winne vnsax_warkwalo vnsax_wolligin vnsax_wollium vnsax_woto
+		    }
+		    40 = {
+		        Jacob Balthasar Isidor Jochim Johann Laurentz Jaspar Mathias Michael Peter Philipp Simon Thomas
+		    }
+		}
+
+		female_names = {
+		    60 = {
+            	vnsax_akute vnsax_annete vnsax_ape vnsax_askallje vnsax_atte vnsax_begsenja vnsax_betonja vnsax_birgdina vnsax_bukke vnsax_ebua vnsax_efo vnsax_egiste vnsax_egatera vnsax_weriana vnsax_wugonne vnsax_ferma vnsax_fermista vnsax_fermistena vnsax_wuggje vnsax_wussje vnsax_janne vnsax_itzewunje vnsax_iturja vnsax_juwanne vnsax_kante vnsax_kollje vnsax_kwikute vnsax_makna vnsax_mallona vnsax_mustjale vnsax_muste vnsax_neerke vnsax_nerke vnsax_otnja vnsax_rebetana vnsax_rettja vnsax_torstje vnsax_urklena vnsax_usedije vnsax_wennkenja vnsax_winna vnsax_warkandere
+		    }
+		    40 = {
+		    	Agnes Anna Christina Elisabeth Helene Katharina Margarete Sophia
+		    }
+		}
+
+	dynasty_of_location_prefix = "dynnp_de"
+
+    patronym_suffix_male = "dynnpat_suf_vndtch_sfilo"
+	patronym_suffix_female = "dynnpat_suf_vndtch_sfile"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5				
+}
+
+name_list_venetic_german = {
+		cadet_dynasty_names = {
+            dynn_vnger_akut dynn_vnger_albaran dynn_vnger_antaif dynn_vnger_aflisch dynn_vnger_arpetiak dynn_vnger_baiwe dynn_vnger_baikn dynn_vnger_braijuk dynn_vnger_daipjarich dynn_vnger_daiful dynn_vnger_dillich dynn_vnger_egetur dynn_vnger_ainav dynn_vnger_fugi dynn_vnger_juwant dynn_vnger_kludawich dynn_vnger_hufrikun dynn_vnger_makkun dynn_vnger_nagalkn dynn_vnger_naisunk dynn_vnger_assuk dynn_vnger_pittamnich dynn_vnger_fumpet dynn_vnger_raitiw dynn_vnger_resunk dynn_vnger_tiwal dynn_vnger_tumatur dynn_vnger_taup dynn_vnger_trisch dynn_vnger_tritijun dynn_vnger_ufosit dynn_vnger_wistin dynn_vnger_wultigen dynn_vnger_wultium dynn_vnger_wultularich dynn_vnger_wutaif
+		}
+
+		dynasty_names = {
+            dynn_vnger_akut dynn_vnger_albaran dynn_vnger_antaif dynn_vnger_aflisch dynn_vnger_arpetiak dynn_vnger_baiwe dynn_vnger_baikn dynn_vnger_braijuk dynn_vnger_daipjarich dynn_vnger_daiful dynn_vnger_dillich dynn_vnger_egetur dynn_vnger_ainav dynn_vnger_fugi dynn_vnger_juwant dynn_vnger_kludawich dynn_vnger_hufrikun dynn_vnger_makkun dynn_vnger_nagalkn dynn_vnger_naisunk dynn_vnger_assuk dynn_vnger_pittamnich dynn_vnger_fumpet dynn_vnger_raitiw dynn_vnger_resunk dynn_vnger_tiwal dynn_vnger_tumatur dynn_vnger_taup dynn_vnger_trisch dynn_vnger_tritijun dynn_vnger_ufosit dynn_vnger_wistin dynn_vnger_wultigen dynn_vnger_wultium dynn_vnger_wultularich dynn_vnger_wutaif
+		}
+
+		male_names = {
+            vnger_afer vnger_eim vnger_aket vnger_alar vnger_ametig vnger_antedo vnger_antet vnger_aplisig vnger_arb vnger_aren vnger_askel vnger_att vnger_peitz vnger_pellin vnger_pujen vnger_puio vnger_projek vnger_pudio vnger_tefurig vnger_taifer vnger_tillich vnger_tille vnger_eben vnger_eckesto vnger_eckater vnger_jennio vnger_eneo vnger_enit vnger_eneken vnger_ersen vnger_fuch vnger_fonto vnger_fockent vnger_fremeist vnger_fuge vnger_kaih vnger_kraik vnger_hussewig vnger_huf vnger_hutz vnger_juwen vnger_kant vnger_karenn vnger_kassig vnger_kell vnger_keuten vnger_suless vnger_quit vnger_lemuso vnger_lant vnger_lafesk vnger_limadar vnger_luk vnger_mess vnger_mald vnger_nakilchen vnger_neiseng vnger_neise vnger_uchik vnger_uppo vnger_usig vnger_uss vnger_paner vnger_pfelunig vnger_palbos vnger_plet vnger_reisewin vnger_reit vnger_resenk vnger_siko vnger_sur vnger_techio vnger_tometzar vnger_tresig vnger_turich vnger_uko vnger_erklajo vnger_urkel vnger_want vnger_wassien vnger_wieken vnger_wieme vnger_winne vnger_werkwel vnger_wolsigen vnger_wolsien vnger_wut
+		}
+
+		female_names = {
+            vnger_aketa vnger_antetze vnger_apie vnger_aschelia vnger_atta vnger_pegsania vnger_peitonie vnger_briktine vnger_pucke vnger_epua vnger_efo vnger_eckissa vnger_eckatera vnger_fisene vnger_fockonte vnger_frema vnger_fremais vnger_fremeissen vnger_fokeia vnger_fuchsie vnger_janta vnger_ichewenne vnger_iderie vnger_euwenta vnger_kante vnger_kolie vnger_keikude vnger_machne vnger_maltona vnger_muschele vnger_muste vnger_nierke vnger_nerka vnger_otznie vnger_ripatena vnger_reisie vnger_trostia vnger_urchlinne vnger_usetike vnger_wentchenia vnger_f_winne vnger_werchanterin
+		}
+
+	dynasty_of_location_prefix = "dynnp_ta"
+
+	patronym_suffix_male = "dynnpat_suf_vndtch_sfile"
+	patronym_suffix_female = "dynnpat_suf_vndtch_sfilo"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5				
+}
+
+name_list_venetic_german_biblical = {
+		cadet_dynasty_names = {
+            dynn_vnger_akut dynn_vnger_albaran dynn_vnger_antaif dynn_vnger_aflisch dynn_vnger_arpetiak dynn_vnger_baiwe dynn_vnger_baikn dynn_vnger_braijuk dynn_vnger_daipjarich dynn_vnger_daiful dynn_vnger_dillich dynn_vnger_egetur dynn_vnger_ainav dynn_vnger_fugi dynn_vnger_juwant dynn_vnger_kludawich dynn_vnger_hufrikun dynn_vnger_makkun dynn_vnger_nagalkn dynn_vnger_naisunk dynn_vnger_assuk dynn_vnger_pittamnich dynn_vnger_fumpet dynn_vnger_raitiw dynn_vnger_resunk dynn_vnger_tiwal dynn_vnger_tumatur dynn_vnger_taup dynn_vnger_trisch dynn_vnger_tritijun dynn_vnger_ufosit dynn_vnger_wistin dynn_vnger_wultigen dynn_vnger_wultium dynn_vnger_wultularich dynn_vnger_wutaif
+		}
+
+		dynasty_names = {
+            dynn_vnger_akut dynn_vnger_albaran dynn_vnger_antaif dynn_vnger_aflisch dynn_vnger_arpetiak dynn_vnger_baiwe dynn_vnger_baikn dynn_vnger_braijuk dynn_vnger_daipjarich dynn_vnger_daiful dynn_vnger_dillich dynn_vnger_egetur dynn_vnger_ainav dynn_vnger_fugi dynn_vnger_juwant dynn_vnger_kludawich dynn_vnger_hufrikun dynn_vnger_makkun dynn_vnger_nagalkn dynn_vnger_naisunk dynn_vnger_assuk dynn_vnger_pittamnich dynn_vnger_fumpet dynn_vnger_raitiw dynn_vnger_resunk dynn_vnger_tiwal dynn_vnger_tumatur dynn_vnger_taup dynn_vnger_trisch dynn_vnger_tritijun dynn_vnger_ufosit dynn_vnger_wistin dynn_vnger_wultigen dynn_vnger_wultium dynn_vnger_wultularich dynn_vnger_wutaif
+		}
+
+		male_names = {
+		    60 = {
+            	vnger_afer vnger_eim vnger_aket vnger_alar vnger_ametig vnger_antedo vnger_antet vnger_aplisig vnger_arb vnger_aren vnger_askel vnger_att vnger_peitz vnger_pellin vnger_pujen vnger_puio vnger_projek vnger_pudio vnger_tefurig vnger_taifer vnger_tillich vnger_tille vnger_eben vnger_eckesto vnger_eckater vnger_jennio vnger_eneo vnger_enit vnger_eneken vnger_ersen vnger_fuch vnger_fonto vnger_fockent vnger_fremeist vnger_fuge vnger_kaih vnger_kraik vnger_hussewig vnger_huf vnger_hutz vnger_juwen vnger_kant vnger_karenn vnger_kassig vnger_kell vnger_keuten vnger_suless vnger_quit vnger_lemuso vnger_lant vnger_lafesk vnger_limadar vnger_luk vnger_mess vnger_mald vnger_nakilchen vnger_neiseng vnger_neise vnger_uchik vnger_uppo vnger_usig vnger_uss vnger_paner vnger_pfelunig vnger_palbos vnger_plet vnger_reisewin vnger_reit vnger_resenk vnger_siko vnger_sur vnger_techio vnger_tometzar vnger_tresig vnger_turich vnger_uko vnger_erklajo vnger_urkel vnger_want vnger_wassien vnger_wieken vnger_wieme vnger_winne vnger_werkwel vnger_wolsigen vnger_wolsien vnger_wut
+		    }
+		    40 = {
+		    	Andreas Jakob Johann Matthias Philipp Stephan 
+		    }
+		}
+
+		female_names = {
+		    60 = {
+            	vnger_aketa vnger_antetze vnger_apie vnger_aschelia vnger_atta vnger_pegsania vnger_peitonie vnger_briktine vnger_pucke vnger_epua vnger_efo vnger_eckissa vnger_eckatera vnger_fisene vnger_fockonte vnger_frema vnger_fremais vnger_fremeissen vnger_fokeia vnger_fuchsie vnger_janta vnger_ichewenne vnger_iderie vnger_euwenta vnger_kante vnger_kolie vnger_keikude vnger_machne vnger_maltona vnger_muschele vnger_muste vnger_nierke vnger_nerka vnger_otznie vnger_ripatena vnger_reisie vnger_trostia vnger_urchlinne vnger_usetike vnger_wentchenia vnger_f_winne vnger_werchanterin
+		    }
+		    40 = {
+		    	Agnes Anna Christine Elisabeth Euphemia Helene Judith Katharina Margarethe Sophia Susanna 
+		    }
+		}
+
+	dynasty_of_location_prefix = "dynnp_ta"
+
+	patronym_suffix_male = "dynnpat_suf_vndtch_sfile"
+	patronym_suffix_female = "dynnpat_suf_vndtch_sfilo"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5				
+}
+
+name_list_venetic_gothic = {
+		cadet_dynasty_names = {
+            dynn_vngoth_aiming dynn_vngoth_alaring dynn_vngoth_anditiking dynn_vngoth_aplisiking dynn_vngoth_arbing dynn_vngoth_askaling dynn_vngoth_bujaning dynn_vngoth_egisting dynn_vngoth_frameisting dynn_vngoth_graiking dynn_vngoth_fiuging dynn_vngoth_inuganing dynn_vngoth_huwing dynn_vngoth_lamusing dynn_vngoth_lafasking dynn_vngoth_malding dynn_vngoth_uppsing dynn_vngoth_panaring dynn_vngoth_tiking dynn_vngoth_weigining dynn_vngoth_warkwaling dynn_vngoth_wultiufing dynn_vngoth_akutis dynn_vngoth_albarins dynn_vngoth_antaiws dynn_vngoth_aflisiks dynn_vngoth_arspetjiks dynn_vngoth_baiwis dynn_vngoth_baiknas dynn_vngoth_braijuks dynn_vngoth_daipjariks dynn_vngoth_daifulajis dynn_vngoth_dillikas dynn_vngoth_egeturis dynn_vngoth_ainaws dynn_vngoth_fugis dynn_vngoth_juwantis dynn_vngoth_kluthawiks dynn_vngoth_hufrikunis dynn_vngoth_makkuns dynn_vngoth_nagalkans dynn_vngoth_naisunks dynn_vngoth_assuks dynn_vngoth_pittamnich dynn_vngoth_fumpetegaws dynn_vngoth_raitiw dynn_vngoth_resunks dynn_vngoth_tjualis dynn_vngoth_tumaturis dynn_vngoth_thaupijs dynn_vngoth_trisiks dynn_vngoth_tritijunis dynn_vngoth_ufosits dynn_vngoth_wistinis dynn_vngoth_wultigenis dynn_vngoth_wulteiufnis dynn_vngoth_wultulariks dynn_vngoth_wutaiwis
+		}
+
+		dynasty_names = {
+            dynn_vngoth_aiming dynn_vngoth_alaring dynn_vngoth_anditiking dynn_vngoth_aplisiking dynn_vngoth_arbing dynn_vngoth_askaling dynn_vngoth_bujaning dynn_vngoth_egisting dynn_vngoth_frameisting dynn_vngoth_graiking dynn_vngoth_fiuging dynn_vngoth_inuganing dynn_vngoth_huwing dynn_vngoth_lamusing dynn_vngoth_lafasking dynn_vngoth_malding dynn_vngoth_uppsing dynn_vngoth_panaring dynn_vngoth_tiking dynn_vngoth_weigining dynn_vngoth_warkwaling dynn_vngoth_wultiufing dynn_vngoth_akutis dynn_vngoth_albarins dynn_vngoth_antaiws dynn_vngoth_aflisiks dynn_vngoth_arspetjiks dynn_vngoth_baiwis dynn_vngoth_baiknas dynn_vngoth_braijuks dynn_vngoth_daipjariks dynn_vngoth_daifulajis dynn_vngoth_dillikas dynn_vngoth_egeturis dynn_vngoth_ainaws dynn_vngoth_fugis dynn_vngoth_juwantis dynn_vngoth_kluthawiks dynn_vngoth_hufrikunis dynn_vngoth_makkuns dynn_vngoth_nagalkans dynn_vngoth_naisunks dynn_vngoth_assuks dynn_vngoth_pittamnich dynn_vngoth_fumpetegaws dynn_vngoth_raitiw dynn_vngoth_resunks dynn_vngoth_tjualis dynn_vngoth_tumaturis dynn_vngoth_thaupijs dynn_vngoth_trisiks dynn_vngoth_tritijunis dynn_vngoth_ufosits dynn_vngoth_wistinis dynn_vngoth_wultigenis dynn_vngoth_wulteiufnis dynn_vngoth_wultulariks dynn_vngoth_wutaiwis
+		}
+
+		male_names = {
+            vngoth_afars vngoth_aims vngoth_akuts vngoth_alars vngoth_amitiks vngoth_anditiks vngoth_andits vngoth_aplisiks vngoth_arbs vngoth_ariuns vngoth_askals vngoth_atto vngoth_bait vngoth_billins vngoth_bujans vngoth_bujs vngoth_brujuks vngoth_budijaks vngoth_deipeiauriks vngoth_deipeiars vngoth_dilliks vngoth_dills vngoth_iban vngoth_egists vngoth_igaturs vngoth_einjo vngoth_inijo vngoth_enaiteis vngoth_inugan vngoth_irsins vngoth_fiugs vngoth_funto vngoth_fugunts vngoth_frameists vngoth_fugijs vngoth_gajs vngoth_graiks vngoth_hustiheiws vngoth_huws vngoth_hutts vngoth_juwans vngoth_kantis vngoth_karafns vngoth_kastiks vngoth_kills vngoth_kiutins vngoth_ktulists vngoth_kwits vngoth_lamuso vngoth_lants vngoth_lafasks vngoth_limaturs vngoth_luks vngoth_mits vngoth_mald vngoth_nagalkans vngoth_naisunks vngoth_nais vngoth_okjajs vngoth_upps vngoth_osaks vngoth_usts vngoth_panarjs vngoth_piluniks vngoth_peilputs vngoth_plidis vngoth_raitawjis vngoth_rait vngoth_resunks vngoth_siko vngoth_surs vngoth_tikjo vngoth_tomatareis vngoth_trisiks vngoth_tauriks vngoth_uko vngoth_urklawis vngoth_aurkals vngoth_wantis vngoth_wants vngoth_wassjans vngoth_weigins vngoth_weims vngoth_winns vngoth_warkwals vngoth_wultigins vngoth_wultiufns vngoth_wut
+		}
+		female_names = {
+            vngoth_akluta vngoth_andita vngoth_apa vngoth_askalja vngoth_atta vngoth_bagsanija vngoth_baitunija vngoth_brigdina vngoth_bukka vngoth_eba vngoth_efo vngoth_egista vngoth_egatura vngoth_fitiana vngoth_fugunta vngoth_frima vngoth_frameista vngoth_frameistina vngoth_fugija vngoth_fuksija vngoth_janta vngoth_ikjunija vngoth_ithaurijo vngoth_juwanta vngoth_kanta vngoth_kulija vngoth_kuikuta vngoth_makna vngoth_maldona vngoth_muskala vngoth_musta vngoth_neirka vngoth_nirka vngoth_utnija vngoth_ribatana vngoth_raitija vngoth_trustija vngoth_urkalawina vngoth_usadika vngoth_wantakanija vngoth_winna vngoth_warkhandra
+		}
+
+	dynasty_of_location_prefix = "dynnp_da"
+
+	patronym_suffix_male = "dynnpat_suf_vndtch_sfils"
+	patronym_suffix_female = "dynnpat_suf_vndtch_sfilo"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5				
+}

@@ -1,0 +1,223 @@
+﻿venetic_persian_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_shirvan }
+					any_this_title_or_de_jure_above = { this = title:d_azerbaijan }
+					any_this_title_or_de_jure_above = { this = title:d_daylam }
+					any_this_title_or_de_jure_above = { this = title:d_tabaristan }
+					any_this_title_or_de_jure_above = { this = title:d_gurgan }
+					any_this_title_or_de_jure_above = { this = title:d_hamadan }
+					any_this_title_or_de_jure_above = { this = title:d_kermanshah }
+					any_this_title_or_de_jure_above = { this = title:d_rayy }
+					any_this_title_or_de_jure_above = { this = title:d_khuzestan }
+					any_this_title_or_de_jure_above = { this = title:d_isfahan }
+					any_this_title_or_de_jure_above = { this = title:d_fars }
+					any_this_title_or_de_jure_above = { this = title:d_yazd }
+					any_this_title_or_de_jure_above = { this = title:d_hormuz }
+					any_this_title_or_de_jure_above = { this = title:d_kirman }
+					any_this_title_or_de_jure_above = { this = title:d_jabal_kufs }
+					any_this_title_or_de_jure_above = { this = title:d_makran }
+					any_this_title_or_de_jure_above = { this = title:d_kohestan }
+					any_this_title_or_de_jure_above = { this = title:d_nishapur }
+					any_this_title_or_de_jure_above = { this = title:d_herat }
+					any_this_title_or_de_jure_above = { this = title:d_ghur }
+					any_this_title_or_de_jure_above = { this = title:d_zabulistan }
+					any_this_title_or_de_jure_above = { this = title:d_kabul }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	name_list = name_list_venetic_persian
+
+	#ai_will_do = {
+	#	value = 10
+	#	if = {
+	#		NOT = {
+	#			scope:character = { has_trait = stubborn }
+	#		}
+	#		multiply = 5
+	#	}
+	#}
+}
+
+venetic_sogdian_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_merv }
+					any_this_title_or_de_jure_above = { this = title:d_nasa }
+					any_this_title_or_de_jure_above = { this = title:d_balkh }
+					any_this_title_or_de_jure_above = { this = title:d_uzboy }
+					any_this_title_or_de_jure_above = { this = title:d_khorezm }
+					any_this_title_or_de_jure_above = { this = title:d_soghd }
+					any_this_title_or_de_jure_above = { this = title:d_osrushana }
+					any_this_title_or_de_jure_above = { this = title:d_khuttal }
+					any_this_title_or_de_jure_above = { this = title:d_badakhshan }
+					any_this_title_or_de_jure_above = { this = title:d_ferghana }
+					any_this_title_or_de_jure_above = { this = title:d_kashgar }
+					any_this_title_or_de_jure_above = { this = title:d_khotan }
+					any_this_title_or_de_jure_above = { this = title:d_karashar }
+					any_this_title_or_de_jure_above = { this = title:d_loulan }
+					any_this_title_or_de_jure_above = { this = title:d_charkliq }
+					any_this_title_or_de_jure_above = { this = title:d_garabogazkol }
+					any_this_title_or_de_jure_above = { this = title:d_transcaspiana }
+					any_this_title_or_de_jure_above = { this = title:d_talas_alatau }
+					any_this_title_or_de_jure_above = { this = title:d_muyunkum }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	
+	name_list = name_list_venetic_sogdian
+
+}
+
+venetic_turkic_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_syr_darya }
+					any_this_title_or_de_jure_above = { this = title:d_aral_il }
+					any_this_title_or_de_jure_above = { this = title:d_jemba }
+					any_this_title_or_de_jure_above = { this = title:d_aral_karakum }
+					any_this_title_or_de_jure_above = { this = title:d_barsuki }
+					any_this_title_or_de_jure_above = { this = title:d_levedia }
+					any_this_title_or_de_jure_above = { this = title:d_red_levedia }
+					any_this_title_or_de_jure_above = { this = title:d_crimea }
+					any_this_title_or_de_jure_above = { this = title:d_azov }
+					any_this_title_or_de_jure_above = { this = title:d_tana }
+					any_this_title_or_de_jure_above = { this = title:d_don_valley }
+					any_this_title_or_de_jure_above = { this = title:d_khazaria }
+					any_this_title_or_de_jure_above = { this = title:d_itil }
+					any_this_title_or_de_jure_above = { this = title:d_pecheneg }
+					any_this_title_or_de_jure_above = { this = title:d_volga_bulgaria }
+					any_this_title_or_de_jure_above = { this = title:d_jalmat }
+					any_this_title_or_de_jure_above = { this = title:d_bugurslan }
+					any_this_title_or_de_jure_above = { this = title:d_aqtobe }
+					any_this_title_or_de_jure_above = { this = title:d_manatau }
+					any_this_title_or_de_jure_above = { this = title:d_atyrau }
+					any_this_title_or_de_jure_above = { this = title:d_mugodzhar_hills }
+					any_this_title_or_de_jure_above = { this = title:d_bashkiria }
+					any_this_title_or_de_jure_above = { this = title:d_sakmara }
+					any_this_title_or_de_jure_above = { this = title:d_uraltau }
+					any_this_title_or_de_jure_above = { this = title:d_vogulia }
+					any_this_title_or_de_jure_above = { this = title:d_kurgan }
+					any_this_title_or_de_jure_above = { this = title:d_kush-murun }
+					any_this_title_or_de_jure_above = { this = title:d_tobol-ishim }
+					any_this_title_or_de_jure_above = { this = title:d_atbasar }
+					any_this_title_or_de_jure_above = { this = title:d_turgay }
+					any_this_title_or_de_jure_above = { this = title:d_kokturgay }
+					any_this_title_or_de_jure_above = { this = title:d_qyzylsaryarka }
+					any_this_title_or_de_jure_above = { this = title:d_saryarka }
+					any_this_title_or_de_jure_above = { this = title:d_kazakh }
+					any_this_title_or_de_jure_above = { this = title:d_karabas }
+					any_this_title_or_de_jure_above = { this = title:d_tokumbay }
+					any_this_title_or_de_jure_above = { this = title:d_betpa }
+					any_this_title_or_de_jure_above = { this = title:d_karkaraly }
+					any_this_title_or_de_jure_above = { this = title:d_kentarlau }
+					any_this_title_or_de_jure_above = { this = title:d_degelen }
+					any_this_title_or_de_jure_above = { this = title:d_jinghiz }
+					any_this_title_or_de_jure_above = { this = title:d_semey }
+					any_this_title_or_de_jure_above = { this = title:d_zhetysu }
+					any_this_title_or_de_jure_above = { this = title:d_alakol }
+					any_this_title_or_de_jure_above = { this = title:d_tarbagatai }
+					any_this_title_or_de_jure_above = { this = title:d_ili-alatau }
+					any_this_title_or_de_jure_above = { this = title:d_akaltay }
+					any_this_title_or_de_jure_above = { this = title:d_altay }
+					any_this_title_or_de_jure_above = { this = title:d_gurbantunggut }
+					any_this_title_or_de_jure_above = { this = title:d_beshbalik }
+					any_this_title_or_de_jure_above = { this = title:d_kara_khoja }
+					any_this_title_or_de_jure_above = { this = title:d_naiman_gobi }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx}
+	unit_gfx = { mongol_unit_gfx }
+
+	name_order_convention = dynasty_always_first
+	
+	name_list = name_list_venetic_turkic
+
+}
+
+venetic_mongol_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_venetic_culture
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_altaishan }
+					any_this_title_or_de_jure_above = { this = title:d_yenisei_kan }
+					any_this_title_or_de_jure_above = { this = title:d_khakass_hollow }
+					any_this_title_or_de_jure_above = { this = title:d_blue_khakassia }
+					any_this_title_or_de_jure_above = { this = title:d_shoria }
+					any_this_title_or_de_jure_above = { this = title:d_kargassia }
+					any_this_title_or_de_jure_above = { this = title:d_eastern_sayan }
+					any_this_title_or_de_jure_above = { this = title:d_katu_yaryk }
+					any_this_title_or_de_jure_above = { this = title:d_western_sayan }
+					any_this_title_or_de_jure_above = { this = title:d_tannu_ola }
+					any_this_title_or_de_jure_above = { this = title:d_khovd }
+					any_this_title_or_de_jure_above = { this = title:d_togina }
+					any_this_title_or_de_jure_above = { this = title:d_ubsunur_hollow }
+					any_this_title_or_de_jure_above = { this = title:d_zavkhan }
+					any_this_title_or_de_jure_above = { this = title:d_gobi_altai }
+					any_this_title_or_de_jure_above = { this = title:d_ovorkhangai }
+					any_this_title_or_de_jure_above = { this = title:d_arkhangai }
+					any_this_title_or_de_jure_above = { this = title:d_khovsgol }
+					any_this_title_or_de_jure_above = { this = title:d_orkhon }
+					any_this_title_or_de_jure_above = { this = title:d_ogrash }
+					any_this_title_or_de_jure_above = { this = title:d_selenga_valley }
+					any_this_title_or_de_jure_above = { this = title:d_uda_valley }
+					any_this_title_or_de_jure_above = { this = title:d_chuna_valley }
+					any_this_title_or_de_jure_above = { this = title:d_angara }
+					any_this_title_or_de_jure_above = { this = title:d_tsagaanbaigal }
+					any_this_title_or_de_jure_above = { this = title:d_lena }
+					any_this_title_or_de_jure_above = { this = title:d_baigaluuls }
+					any_this_title_or_de_jure_above = { this = title:d_bargujin_tukum }
+					any_this_title_or_de_jure_above = { this = title:d_dauria }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx } 
+	building_gfx = { steppe_building_gfx } 
+	clothing_gfx = { mongol_clothing_gfx } 
+	unit_gfx = { mongol_unit_gfx } 
+
+	name_order_convention = dynasty_always_first
+	
+	name_list = name_list_venetic_mongol
+
+}
+

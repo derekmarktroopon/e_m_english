@@ -1,0 +1,14 @@
+﻿# AGOT-proven ruin-character pattern, isolated to the V9 ancient history dummies.
+# The ruin_character trait flag is the identifying marker used by the ruin UI path.
+kec_ancient_history_ruin = {
+	icon = architect.dds
+	desc = trait_kec_ancient_history_ruin_desc
+	flag = ruin_character
+	flag = can_not_marry
+	flag = blocks_getting_non_epidemic_disease
+	fertility = -1
+	prowess = -100
+	inheritance_blocker = all
+	claim_inheritance_blocker = all
+	shown_in_ruler_designer = no
+}

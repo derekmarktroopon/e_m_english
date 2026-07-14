@@ -1,0 +1,25 @@
+﻿
+e_camunia = {
+	color = { 0 160 64 }
+	capital = c_brescia
+}
+
+k_rosacamuna = {
+	color = { 30 144 255 }
+	capital = c_friuli
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	de_jure_drift_disabled = yes
+}
+
+e_italy = {
+	color = { 234 217 110 }
+	
+	capital = c_roma # Rome	
+	k_camunia = {
+		color = { 0 160 64 }
+
+		capital = c_brescia	#Mann
+	}
+}

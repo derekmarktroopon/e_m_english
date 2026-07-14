@@ -1,0 +1,7 @@
+﻿namespace = kemetic_religion_revival_event
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+﻿
+indo_germanic = {
+	color = { 105 51 55 }
+	parents = { proto_germanic }
+	created = 100.1.1
+	
+	ethos = ethos_spiritual
+	heritage = heritage_indo_germanic
+	language = language_indo_germanic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_ruling_caste	
+		tradition_martial_admiration
+		tradition_culture_blending
+		tradition_khadga_puja	
+	}
+
+	name_list = name_list_late_indo_germanic
+
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	house_coa_frame = house_frame_17
+
+	ethnicities = {
+		32 = arab
+		67 = indian
+	}
+}
+
+deccano_germanic = {
+	color = { 138 126 85 }
+	parents = { proto_germanic }
+	created = 100.1.1
+	
+	ethos = ethos_stoic
+	heritage = heritage_indo_germanic
+	language = language_indo_germanic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_ruling_caste	
+		tradition_martial_admiration
+		tradition_culture_blending
+		tradition_garuda_warriors	
+	}
+
+	name_list = name_list_late_tamilo_germanic
+
+	coa_gfx = { dravidian_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	house_coa_frame = house_frame_08
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.85 0.85 }
+
+	ethnicities = {
+		10 = arab
+		15 = indian
+		75 = south_indian
+	}
+}

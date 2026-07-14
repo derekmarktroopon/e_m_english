@@ -1,0 +1,21 @@
+﻿on_dynasty_created = {
+	on_actions = {
+		assign_venetic_coa
+	}
+}
+
+assign_venetic_coa = {
+	effect = {
+		debug_log = "assign_venetic_coa"
+		debug_log_scopes = yes
+
+		if = {
+			limit = {
+				dynast = {
+					coa_venetic_raetian_trigger = yes
+				}
+			}
+			generate_coa = venetic_coa_list
+		}
+	}
+}

@@ -1,0 +1,12 @@
+﻿l_english:
+ 
+ building_type_building_large_kemetic_pyramid:0 "Enormous Pyramid"
+ building_type_building_large_kemetic_pyramid_desc:0 "Rivaling the famed Pyramid of Khufu (Cheops), this more recently build marvel stands as a gargantuan testament to the incredible rise of the Pharaohs, awing all who enter its sight."
+ building_building_large_kemetic_pyramid:0 "$building_type_building_large_kemetic_pyramid$"
+ building_building_large_kemetic_pyramid_desc:0 "$building_type_building_large_kemetic_pyramid_desc$"
+ 
+ 
+ building_type_building_medium_kemetic_pyramid:0 "Pyramid"
+ building_type_building_medium_kemetic_pyramid_desc:0 "While not quite as large as the biggest ones at Giza, this pyramid dwarfs most temples and landmarks, and stands as a testament to the superiority and faith of whoever built it."
+ building_building_medium_kemetic_pyramid:0 "$building_type_building_medium_kemetic_pyramid$"
+ building_building_medium_kemetic_pyramid_desc:0 "$building_type_building_medium_kemetic_pyramid_desc$"

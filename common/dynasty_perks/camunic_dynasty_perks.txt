@@ -1,0 +1,73 @@
+﻿# CAMUNIC LEGACIES
+
+camunic_legacy_1 = { # House of Warriors
+	legacy = camunic_legacy_track
+	
+	can_be_picked = {
+		has_culture = culture:camunic
+		has_faith = faith:camunic_pagan
+		}
+
+	character_modifier = {
+		name = camunic_legacy_1_name
+		raid_speed = 0.5
+		supply_duration = 0.5
+		hostile_county_attrition = -0.5
+		ignore_negative_culture_opinion = yes
+		ignore_different_faith_opinion = yes
+	}
+	
+	ai_chance = {
+		value = 11
+		if = {
+			limit = {
+				can_start_new_legacy_track_trigger = no
+			}
+			multiply = 0
+		}
+	}
+}
+
+camunic_legacy_2 = { # Generational Belligerence
+	legacy = camunic_legacy_track
+
+	character_modifier = {
+		siege_morale_loss = 0.3
+		enemy_hard_casualty_modifier = 0.2
+		attacker_advantage = 3
+	}
+}
+
+camunic_legacy_3 = { # Squire Traditions
+	legacy = camunic_legacy_track
+
+	character_modifier = {
+		hostile_raid_time = 2
+		controlled_province_advantage = 10
+		movement_speed = 0.2
+	}
+}
+
+camunic_legacy_4 = { # Inherited Tactics
+	legacy = camunic_legacy_track
+
+	character_modifier = {
+		no_water_crossing_penalty = yes
+		embarkation_cost_mult = -0.8
+		build_speed = -0.15
+		build_gold_cost = -0.15
+	}
+}
+
+camunic_legacy_5 = { # Private Army
+	legacy = camunic_legacy_track
+
+	character_modifier = {
+		prowess = 5
+		martial = 2
+		monthly_war_income_mult = 0.2
+		army_maintenance_mult = -0.3
+		diplomatic_range_mult = 1.5
+	}
+
+}

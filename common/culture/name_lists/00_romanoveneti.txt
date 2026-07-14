@@ -1,0 +1,32 @@
+﻿name_list_romanoveneti = {
+	    #dynasty names are guesses, based on a very surface level understanding on roman conventions, proper research needed.
+		cadet_dynasty_names = {
+	    "dynn_Raupatnis" "dynn_Ameilii" "dynn_Andetici" "dynn_Appii" "dynn_Barbii" "dynn_Cantii" "dynn_Catronii" "dynn_Catonii"
+		"dynn_Dominii" "dynn_Duronii" "dynn_Eniconeii" "dynn_Enniceii" "dynn_Faustii" "dynn_Firmii" "dynn_Frivuii" "dynn_Gaii"
+		"dynn_Gallenii" "dynn_Gentii" "dynn_Grakii" "dynn_Kulistii" "dynn_Lamusii" "dynn_Lemonei" "dynn_Marcellini" "dynn_Marsci"
+		"dynn_Nippiaci" "dynn_Ontii" "dynn_Ostianci" "dynn_Pulii" "dynn_Pusioni" "dynn_Qualtii" "dynn_Rutilii" "dynn_Sabini" "dynn_Scorpii"
+		"dynn_Tertii" "dynn_Timi" "dynn_Tinteni" "dynn_Titini" "dynn_Tunii" "dynn_Uanti" "dynn_Uanticconi" "dynn_Vettii" "dynn_Volsomni"
+		"dynn_Voltii" "dynn_Urclesioni"
+		}
+
+		dynasty_names = {
+			"dynn_Raupatnis" "dynn_Ameilii" "dynn_Andetici" "dynn_Appii" "dynn_Barbii" "dynn_Cantii" "dynn_Catronii" "dynn_Catonii"
+			"dynn_Dominii" "dynn_Duronii" "dynn_Eniconeii" "dynn_Enniceii" "dynn_Faustii" "dynn_Firmii" "dynn_Frivuii" "dynn_Gaii"
+			"dynn_Gallenii" "dynn_Gentii" "dynn_Grakii" "dynn_Kulistii" "dynn_Lamusii" "dynn_Lemonei" "dynn_Marcellini" "dynn_Marsci"
+			"dynn_Nippiaci" "dynn_Ontii" "dynn_Ostianci" "dynn_Pulii" "dynn_Pusioni" "dynn_Qualtii" "dynn_Rutilii" "dynn_Sabini" "dynn_Scorpii"
+			"dynn_Tertii" "dynn_Timi" "dynn_Tinteni" "dynn_Titini" "dynn_Tunii" "dynn_Uanti" "dynn_Uanticconi" "dynn_Vettii" "dynn_Volsomni"
+			"dynn_Voltii" "dynn_Urclesioni"
+		}
+
+		male_names = {
+	        romven_ameilius romven_andeticos romven_apinius romven_appius romven_apuius romven_apus romven_barbius romven_cantus romven_catronius romven_cattonicus romven_coponus romven_crispus romven_curoninus romven_dominius romven_duronius romven_eniconeius romven_enius romven_ennius romven_enniceios romven_faustus romven_firmus romven_fougo romven_frivus romven_futus romven_gaius romven_gallenius romven_gents romven_grakius romven_ktulistos romven_lamusios romven_lemones romven_marcellinus romven_marscus romven_memmius romven_messius romven_nippiacus romven_onts romven_ostiancos romven_pulio romven_pullio romven_pusionos romven_qualtius romven_rutilius romven_sabinus romven_scorpio romven_soccus romven_tertius romven_timo romven_tintenus romven_titinus romven_tunius romven_uants romven_uanticcon romven_vettius romven_volsomnos romven_voltiio romven_urclesionus
+		}
+
+		female_names = {
+			romven_ameilia romven_antonia romven_ataina romven_brigdina romven_caesia romven_canta romven_carponia romven_cretelia romven_crumelonia romven_egetia romven_fema romven_frema romven_fuxia romven_gallenia romven_iuvanta romven_iusta romven_iuvantina romven_lementorna romven_libonia romven_libona romven_loxina romven_maxuma romven_martrica romven_moltisa romven_nerca romven_ostiala romven_ostina romven_paphia romven_prima romven_rutilia romven_rutuba romven_scirpa romven_septuma romven_sequna romven_soccina romven_sociaca romven_stlapurna romven_tertia romven_tiraglonia romven_titina romven_toticina romven_tunia romven_turstiaca romven_uanta romven_upsedia romven_usedica
+		}
+	
+		dynasty_of_location_prefix = "dynnp_of"
+		patronym_prefix_male = "dynnpat_pre_filius"				
+
+}

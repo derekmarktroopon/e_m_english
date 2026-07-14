@@ -1,0 +1,68 @@
+﻿
+namespace = venetic_religious_decision
+
+
+venetic_religious_decision.1 = {
+	type = character_event
+	title = venetic_religious_decision.1.t
+	desc = venetic_religious_decision.1.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	immediate ={
+		hidden_effect ={
+			remove_character_modifier = bhakti_venetic_reitia
+			remove_character_modifier = bhakti_venetic_tumusiates
+			remove_character_modifier = bhakti_venetic_altino
+			remove_character_modifier = bhakti_venetic_alkomno	
+		}
+	}
+	# reitia
+	option = {
+		name = venetic_religious_decision.1.reitia
+		trigger = {
+			NOT = { has_character_modifier = bhakti_venetic_reitia }
+		}	
+		set_bhakti_effect = { BHAKTI = bhakti_venetic_reitia }	
+	}
+
+	# tumusiates
+	option = {
+		name = venetic_religious_decision.1.tumusiates
+		trigger = {
+			NOT = { has_character_modifier = bhakti_venetic_tumusiates }
+		}	
+		set_bhakti_effect = { BHAKTI = bhakti_venetic_tumusiates }
+	}
+	
+	# altino
+	option = {
+		name = venetic_religious_decision.1.altino
+		trigger = {
+			NOT = { has_character_modifier = bhakti_venetic_altino }
+		}	
+		set_bhakti_effect = { BHAKTI = bhakti_venetic_altino }
+	}
+
+	# alkomno
+	option = {
+		name = venetic_religious_decision.1.alkomno
+		trigger = {
+			NOT = { has_character_modifier = bhakti_venetic_alkomno }
+		}		
+		set_bhakti_effect = { BHAKTI = bhakti_venetic_alkomno }
+	}
+
+	# Opt-Out
+	option = {
+		name = religious_decision.102.optout
+		flavor = venetic_religious_decision.1.flavor	
+
+		ai_chance = {
+			base = 0
+		}		
+	}
+}
+

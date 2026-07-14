@@ -1,0 +1,95 @@
+﻿
+name_list_venetic_persian = {
+		cadet_dynasty_names = {
+            #"dynn_KA_rawA_n" "dynn_Jorjani" "dynn_Samanid" "dynn_Tahirid" "dynn_Kartid" "dynn_Qutlugh-Khan" "dynn_Nasrid" "dynn_Mihrabanid" "dynn_Safavid" "dynn_Gilani" "dynn_Sarbadar" "dynn_Kazeruni" "dynn_Tahirids" "dynn_Samanid" "dynn_Muqannid" "dynn_Sunpadh" "dynn_Khurramites" "dynn_Khorramdin" "dynn_Maziar" "dynn_Mardavij" "dynn_Ustadh" "dynn_Saffari" "dynn_Laith" "dynn_Ferdowsi" "dynn_Hulagu" "dynn_Ajami" "dynn_Rumi" "dynn_Hamadan" "dynn_Parthi" "dynn_Kubra" "dynn_Naqshband" "dynn_Bukhari" "dynn_Hanifa" "dynn_Khaldun" "dynn_Dinid" "dynn_Tusid" "dynn_Khusrawid" "dynn_Birunid" "dynn_Maraghid" "dynn_Muqaffid" "dynn_Ashkan" "dynn_KhurA_sA_nI_" "dynn_MA_zindarA_nI_" "dynn_TihrA_nI_" "dynn_ShI_rA_zI_" "dynn_AhvazI_" "dynn_RazavI_" "dynn_MA_shadI_" "dynn_KermahadI_" "dynn_Gaznin" "dynn_Ka_usiya"
+	        dynn_prsvnt_akutush dynn_prsvnt_albaren dynn_prsvnt_antayush dynn_prsvnt_aflisak dynn_prsvnt_arspetak dynn_prsvnt_buyin dynn_prsvnt_buknush dynn_prsvnt_burujak dynn_prsvnt_dabijarak dynn_prsvnt_divaleg dynn_prsvnt_dilagush dynn_prsvnt_igeturush dynn_prsvnt_inuyush dynn_prsvnt_fugen dynn_prsvnt_iwandak dynn_prsvnt_krutawak dynn_prsvnt_kufrikan dynn_prsvnt_makan dynn_prsvnt_nagank dynn_prsvnt_nayaskush dynn_prsvnt_usak dynn_prsvnt_pitamnek dynn_prsvnt_pampidag dynn_prsvnt_raytewen dynn_prsvnt_resunak dynn_prsvnt_tewalen dynn_prsvnt_tumatur dynn_prsvnt_tupayush dynn_prsvnt_tarisak dynn_prsvnt_teritegan dynn_prsvnt_uwasetak dynn_prsvnt_vesten dynn_prsvnt_vultikenag dynn_prsvnt_vultamneg dynn_prsvnt_vultwarak dynn_prsvnt_vatayush
+		}
+
+		dynasty_names = {
+	        #"dynn_KA_rawA_n" "dynn_Jorjani" "dynn_Samanid" "dynn_Tahirid" "dynn_Kartid" "dynn_Qutlugh-Khan" "dynn_Nasrid" "dynn_Mihrabanid" "dynn_Safavid" "dynn_Gilani" "dynn_Sarbadar" "dynn_Kazeruni" "dynn_Tahirids" "dynn_Samanid" "dynn_Muqannid" "dynn_Sunpadh" "dynn_Khurramites" "dynn_Khorramdin" "dynn_Maziar" "dynn_Mardavij" "dynn_Ustadh" "dynn_Saffari" "dynn_Laith" "dynn_Ferdowsi" "dynn_Hulagu" "dynn_Ajami" "dynn_Rumi" "dynn_Hamadan" "dynn_Parthi" "dynn_Kubra" "dynn_Naqshband" "dynn_Bukhari" "dynn_Hanifa" "dynn_Khaldun" "dynn_Dinid" "dynn_Tusid" "dynn_Khusrawid" "dynn_Birunid" "dynn_Maraghid" "dynn_Muqaffid" "dynn_Ashkan" "dynn_KhurA_sA_nI_" "dynn_MA_zindarA_nI_" "dynn_TihrA_nI_" "dynn_ShI_rA_zI_" "dynn_AhvazI_" "dynn_RazavI_" "dynn_MA_shadI_" "dynn_KermahadI_" "dynn_Gaznin" "dynn_Ka_usiya"
+	        dynn_prsvnt_akutush dynn_prsvnt_albaren dynn_prsvnt_antayush dynn_prsvnt_aflisak dynn_prsvnt_arspetak dynn_prsvnt_buyin dynn_prsvnt_buknush dynn_prsvnt_burujak dynn_prsvnt_dabijarak dynn_prsvnt_divaleg dynn_prsvnt_dilagush dynn_prsvnt_igeturush dynn_prsvnt_inuyush dynn_prsvnt_fugen dynn_prsvnt_iwandak dynn_prsvnt_krutawak dynn_prsvnt_kufrikan dynn_prsvnt_makan dynn_prsvnt_nagank dynn_prsvnt_nayaskush dynn_prsvnt_usak dynn_prsvnt_pitamnek dynn_prsvnt_pampidag dynn_prsvnt_raytewen dynn_prsvnt_resunak dynn_prsvnt_tewalen dynn_prsvnt_tumatur dynn_prsvnt_tupayush dynn_prsvnt_tarisak dynn_prsvnt_teritegan dynn_prsvnt_uwasetak dynn_prsvnt_vesten dynn_prsvnt_vultikenag dynn_prsvnt_vultamneg dynn_prsvnt_vultwarak dynn_prsvnt_vatayush
+		}
+
+		male_names = {
+			#60 = {
+           		prsvnt_afarush prsvnt_amu prsvnt_akut prsvnt_aliru prsvnt_amitik prsvnt_andidiyush prsvnt_andetush prsvnt_ablisik prsvnt_arbush prsvnt_ariyun prsvnt_araspedik prsvnt_askul prsvnt_atu prsvnt_betush prsvnt_balin prsvnt_buyal prsvnt_buyush prsvnt_baruyuk prsvnt_budijak prsvnt_dabijarik prsvnt_dabijar prsvnt_delik prsvnt_del prsvnt_ibush prsvnt_igast prsvnt_igetar prsvnt_inay prsvnt_inijush prsvnt_inetiyush prsvnt_anagin prsvnt_arsiniyush prsvnt_figu prsvnt_funtan prsvnt_fugundan prsvnt_faramastush prsvnt_fugeyush prsvnt_gayush prsvnt_garegush prsvnt_hustav prsvnt_huvush prsvnt_hutush prsvnt_yuwand prsvnt_kandan prsvnt_karman prsvnt_kastik prsvnt_kelush prsvnt_kawadin prsvnt_katulist prsvnt_kavatu prsvnt_lamus prsvnt_land prsvnt_lavask prsvnt_limadar prsvnt_luk prsvnt_mechu prsvnt_muldu prsvnt_nagalnak prsvnt_neshunak prsvnt_neshush prsvnt_akiyayush prsvnt_apush prsvnt_asuk prsvnt_ast prsvnt_panaresh prsvnt_pelunik prsvnt_pilpad prsvnt_pelet prsvnt_ratewush prsvnt_redan prsvnt_resunak prsvnt_sikush prsvnt_surush prsvnt_takeyush prsvnt_tumadarayush prsvnt_tarshik prsvnt_turay prsvnt_uku prsvnt_arkalayush prsvnt_arkal prsvnt_vandan prsvnt_vand prsvnt_vasin prsvnt_vegin prsvnt_vemesh prsvnt_vennun prsvnt_varkwal prsvnt_valtijan prsvnt_valtaman prsvnt_vatu
+			#}
+			#40 = {
+				#Abolhassan Afshar Anushirvan Aram Ardahan Ardavan Ardeshir Babak Bahman Bahram Bakhtiar Behrad Behrouz Bozorg Danush Darab Dariush Djamasp Esfandiar Faramarz Faraz Farhad Fariborz Farroukh Farrukhzad Farzad Fereedun Fath Ferdows Ghobad Godarz Goshtasb Hazarasp Hedayat Hooshyar Hormazd Hormoz Humayun Jahangir Jahanshah Jamshid Javeed Kambiz Kamran Kavoos Keyghobad Keykhosrau Khashayar Kavadh Khodadad Khosrau Khurshid Kurush Manuchihr Manushihr Marzuban Maziar Mehrab Mehrzad Morad Nard Naveed Nawid Parviz Pashang Peroz Pujman Rostam Sadri Shahab Shahbaz Shahin Shahram Shahrokh Shahruz Shahryar Shapur Shayan Tahmasb Vandad Varshasb Vishtasb Yazdegerd Zahak Zand Zartosht
+			#}
+		}
+
+		female_names = {
+			#60 = {
+            	prsvnt_akute prsvnt_andedine prsvnt_apaye prsvnt_askulih prsvnt_atag prsvnt_bagsunaye prsvnt_baytunaye prsvnt_barigine prsvnt_bukak prsvnt_ebfag prsvnt_efe prsvnt_agestnag prsvnt_ageturaye prsvnt_fetige prsvnt_fugonteh prsvnt_fremaye prsvnt_fremastag prsvnt_fremastnag prsvnt_fuge prsvnt_fugsige prsvnt_iyante prsvnt_ikeweyonaye prsvnt_itureh prsvnt_iwantnag prsvnt_kantaye prsvnt_kule prsvnt_kuykutag prsvnt_maknag prsvnt_muldnag prsvnt_moskyalnag prsvnt_mustag prsvnt_nerege prsvnt_narge prsvnt_ateneh prsvnt_rewedunaye prsvnt_reyteh prsvnt_tenunteh prsvnt_trosteh prsvnt_arkelayneh prsvnt_ushetik prsvnt_vandkanaye prsvnt_venne prsvnt_varkundarneh
+			#}
+			#40 = {
+				#Afsaneh Ahu Arghavan Azarmidokht Asa Azadeh Bahar Banafsheh Behnaz Burandokht Darya Delaram Delbar Dinah Donya Elham Elnaz Farah Fareedeh Farnaz Farrin Farva
+				#Furuzan Ghamze Ghazal Ghoncheh Golbahar Golnaz Golpari Golshan Hamdam Hurmat Irandokht Jamileh Javaneh Leila Mahdokht Mahtab Mariam
+				#Navvaba Nazgol Nazilla Noor Parvaneh Parvin Pertevniyal Pourandokht Roshanora Roxana Salomeh Shahrzad Shahzadeh Shirin Soraya Touran
+				#Tourandokht Yasaman Yekta Zarrindokht Zeynab Zohreh
+			#}
+		}
+
+	dynasty_of_location_prefix = "dynnp_deh"
+
+	patronym_prefix_male = "dynnpat_pre_irnven_filush"
+	patronym_prefix_female = "dynnpat_pre_irnven_filag"
+	founder_named_dynasties = yes			
+}
+
+
+name_list_venetic_sogdian = {
+		cadet_dynasty_names = {
+            #"dynn_Kang" "dynn_Maymurg" "dynn_Kesh" "dynn_Namdar" "dynn_Lushan" "dynn_Tuhun" "dynn_Calmandana" "dynn_Kayani" "dynn_Muqannid"
+            dynn_sogvnt_akute dynn_sogvnt_albaren dynn_sogvnt_anteya dynn_sogvnt_aplisik dynn_sogvnt_arspetijak dynn_sogvnt_buye dynn_sogvnt_bukan dynn_sogvnt_bruyok dynn_sogvnt_depijarik dynn_sogvnt_dewalaye dynn_sogvnt_dilik dynn_sogvnt_yageture dynn_sogvnt_enay dynn_sogvnt_pugey dynn_sogvnt_yuwante dynn_sogvnt_kultawik dynn_sogvnt_kuprikane dynn_sogvnt_makan dynn_sogvnt_nagalkan dynn_sogvnt_nayasunk dynn_sogvnt_asuk dynn_sogvnt_pitamnik dynn_sogvnt_pampetegwa dynn_sogvnt_raytewe dynn_sogvnt_resunk dynn_sogvnt_tiwale dynn_sogvnt_tumature dynn_sogvnt_tupay dynn_sogvnt_tarishik dynn_sogvnt_taritijone dynn_sogvnt_upasete dynn_sogvnt_westene dynn_sogvnt_wultigene dynn_sogvnt_wultiumne dynn_sogvnt_wulturarik dynn_sogvnt_wuteye
+		}
+
+		dynasty_names = {
+	        #"dynn_Kang" "dynn_Maymurg" "dynn_Kesh" "dynn_Namdar" "dynn_Lushan" "dynn_Tuhun" "dynn_Calmandana" "dynn_Kayani" "dynn_Muqannid"
+            dynn_sogvnt_akute dynn_sogvnt_albaren dynn_sogvnt_anteya dynn_sogvnt_aplisik dynn_sogvnt_arspetijak dynn_sogvnt_buye dynn_sogvnt_bukan dynn_sogvnt_bruyok dynn_sogvnt_depijarik dynn_sogvnt_dewalaye dynn_sogvnt_dilik dynn_sogvnt_yageture dynn_sogvnt_enay dynn_sogvnt_pugey dynn_sogvnt_yuwante dynn_sogvnt_kultawik dynn_sogvnt_kuprikane dynn_sogvnt_makan dynn_sogvnt_nagalkan dynn_sogvnt_nayasunk dynn_sogvnt_asuk dynn_sogvnt_pitamnik dynn_sogvnt_pampetegwa dynn_sogvnt_raytewe dynn_sogvnt_resunk dynn_sogvnt_tiwale dynn_sogvnt_tumature dynn_sogvnt_tupay dynn_sogvnt_tarishik dynn_sogvnt_taritijone dynn_sogvnt_upasete dynn_sogvnt_westene dynn_sogvnt_wultigene dynn_sogvnt_wultiumne dynn_sogvnt_wulturarik dynn_sogvnt_wuteye
+		}
+
+		male_names = {
+			#60 = {
+            	sogvnt_aparush sogvnt_amu sogvnt_akut sogvnt_aleru sogvnt_ametik sogvnt_andete sogvnt_andet sogvnt_aplisik sogvnt_arbu sogvnt_aryan sogvnt_arspetijag sogvnt_askul sogvnt_at sogvnt_bayt sogvnt_belen sogvnt_buyal sogvnt_buyush sogvnt_bruyuk sogvnt_budijag sogvnt_depijarag sogvnt_depijar sogvnt_dilik sogvnt_dil sogvnt_ebush sogvnt_yagast sogvnt_yagetur sogvnt_enay sogvnt_eniy sogvnt_enete sogvnt_enogen sogvnt_arsine sogvnt_pug sogvnt_ponde sogvnt_pugunde sogvnt_pirmayst sogvnt_pugey sogvnt_gayush sogvnt_garik sogvnt_hustehaw sogvnt_huw sogvnt_hutu sogvnt_yuwand sogvnt_kande sogvnt_karamin sogvnt_kastik sogvnt_kel sogvnt_kautin sogvnt_katulist sogvnt_kawit sogvnt_lamuse sogvnt_lanad sogvnt_lawusk sogvnt_lemetur sogvnt_luk sogvnt_metsh sogvnt_muld sogvnt_nagalkun sogvnt_nayasunk sogvnt_naysh sogvnt_ukijey sogvnt_apw sogvnt_asuk sogvnt_asat sogvnt_panare sogvnt_pelunik sogvnt_pilput sogvnt_pelete sogvnt_raytewe sogvnt_retey sogvnt_resunk sogvnt_shik sogvnt_sur sogvnt_tekey sogvnt_tumature sogvnt_tarishik sogvnt_turey sogvnt_uk sogvnt_urkaley sogvnt_urkal sogvnt_wande sogvnt_wand sogvnt_wasen sogvnt_wegen sogvnt_weym sogvnt_wenon sogvnt_warkawal sogvnt_wultigen sogvnt_wultiyumn sogvnt_wut
+			#}
+			#40 = {
+				#Gurak Divashtich Yodkhsetak Tuhun Tarkhun Urak Turghar Lushan Nanaifarn Avyaman Yechi Chaki Mechun Tishifan Wupoyan
+				#Tarxun Wanxanak Nawekat Wiyus Uxushukan Bharxuman Skatch Sheshch Chaxren Ramch Shaw Maxak Ramtish Axushfarn Bhurz Chukshak Fudanyan Dishebo Vandak Khudayfarn Sili Tishrat Chunakk Namdar Xutawch Pisak Karz Nijat Chatfaratsaran Dewastich Varzakk Nanai-thvar Chuzakk Khwatawch Karzh Nizat Nanaikuch Ukhwan Pator Wakhushuvirt Maniakh Watch Shafnoshak
+				#Akhurmaztakk Akhushfarn Anghatnaw Anghatspadh Anushirvan Ardavan Ardeshir Armatsach Arsach Artikhuvandakh
+				#Artivan Aspandhat Astken Aurang Avyaman-yan Avyaman Avyamanch Avyamanvandak Babak Bahram
+				#Banda Barak Bharkhuman Bhurz Buddhadasa Chakar Chakhapak Chakhren Cher Chetvandak Dariush
+				#Devadasa Dewashtich Dhakh Dhruwaspvandak Esfandiar Eskander Ewakhsh Faramarz Farhad Farn Farnaghat
+				#Farnch Farnkhund Farroukh Farrukhzad Farzad Fatmiwach Ferdows Fereedun Frikhwataw Ghawtus Ghobad
+				#Ghoshfarn Ghotamsach Godarz Goshtasb Hazarasp Hormazd Hormoz Induk Irkin Jamshid Jiamut
+				#Jimatvande Kanak Kanakk Kartir Karzhtik Kavoos Kaway Kharstrang Khosrow Khun Khurshid Khwadhawanakk
+				#Khwarmew Khwasaw Khwasawch Kund Kundakk Kurush Kushan Kushanakanak Makhak Marti Marzuban Maymarghch Methakan Mew Miren
+				#Muqanna Nanai Nanaidhvar Nanaifarn Nanaikhsay Nanaithvar Nanaizanch Nanayakk Nanevante Narisaf Narshakhi Nawchirth
+				#Nibothak Nipak Nithan Ot-tegin Papakk Parsak Parviz Pashang Patrodhan Pekako Peroz Pesakk
+				#Pujman Qishiq Ramtish Rashdhes Razmwanwan Resan Rewdhvar Rokhshan Rostam Rutha Sagharak Sas Sasan Satasp
+				#Sesh Shahbaz Shahin Shahrokh Shans Shapur Shaw Shennu Shirch Sina Spadh Spadhkharsh Srawakk
+				#Stayidh Suryakk Tahmasb Takhsich Takhsichvandak Takut Tarkhun Taw Tir Tishtrya Tishvandak Turghar Ukhushukan
+				#Urak Vagh Vaghrew Vahhab Varshasb Varzak Varzirak Vishtasb Viyus Vuvva Wakhunam Wakhushakk Wakhushu Wanenak
+				#Wankaway Wankhanak Wanrazmak Wanwans Wishaghn Xeykhosrow Y_n Zand Zartosht Zymt
+			#}
+		}
+
+		female_names = {
+            #60 = {
+            	sogvnt_akuta sogvnt_andeten sogvnt_apa sogvnt_askula sogvnt_ata sogvnt_bagsuna sogvnt_baytuna sogvnt_birkden sogvnt_buka sogvnt_yafa sogvnt_ifa sogvnt_yagistana sogvnt_yagitura sogvnt_peteyana sogvnt_pugunta sogvnt_perime sogvnt_perimeste sogvnt_perimestante sogvnt_pugeya sogvnt_pugseya sogvnt_yanta sogvnt_yakeweya sogvnt_itureya sogvnt_yuwantana sogvnt_kanta sogvnt_kulya sogvnt_kuguta sogvnt_makana sogvnt_muldane sogvnt_muskeyana sogvnt_musteya sogvnt_niarka sogvnt_nirka sogvnt_atneya sogvnt_rebatuneya sogvnt_reteya sogvnt_tanunteya sogvnt_turusteya sogvnt_urkaleyana sogvnt_ushidike sogvnt_wantkaneya sogvnt_wina sogvnt_warkundarna
+            #}
+            #40 = {
+            	#Nana Upach An Kang Aghatzak Anakhit Arghavan Banafsheh Chat Chatis Chet Chinanch Darya Funa Furuzan Ghamze Ghoncheh
+				#Golbahar Golshan Khansch Makh Mah Mahtab Miwnay Nana Nanai Nanaidhat Navvaba Nazgol
+				#Nazilla Parvaneh Parvin Ranisa Roxana Sanakhram Shahrzad Shahzadeh Shayn Shirin Touran
+				#Yasaman Yena
+            #}
+		}
+
+	dynasty_of_location_prefix = "dynnp_de"
+
+	patronym_prefix_male = "dynnpat_pre_irnven_pily"
+	patronym_prefix_female = "dynnpat_pre_irnven_pilya"
+	founder_named_dynasties = yes	
+}

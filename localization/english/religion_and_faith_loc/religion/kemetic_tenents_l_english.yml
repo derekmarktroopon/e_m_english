@@ -1,0 +1,11 @@
+﻿l_english:
+
+tenet_mummification_name:0 "Mummification"
+tenet_mummification_desc:0 "Our kings may be divine, however they are still mortals who must pass through to the Afterlife, it is our responsability to make sure that our ancestors reach there in one peace, and may continue their existance beyond this life in relative comfort."
+
+tenet_egyptian_magic_name:0 "Heka"
+tenet_egyptian_magic_desc:0 "Heka (magic) is all around us, it heals us, and can bring us great fortune and misery. We use it in festivals, and summon it in rituals, and those who use their divine knowlege to control it are rightfully revered."
+
+parameter_mummification_active_name:0 "Can mummify ancestors"
+doctrine_parameter_mummification_active:0 "Can mummify ancestors, earning Piety and pleasing vassals."
+parameter_mummification_active_desc:0 "Can mummify ancestors"

@@ -1,0 +1,65 @@
+﻿# Kemetism:
+## Memphis
+	# Capital of the Old Kingdom of Egypt and the religious center of Ptah, the patron of craftsmen and architects.
+## Karnak
+	# A complex of temples dedicated to the gods Amun, Mut, and Khonsu, it was the religious center of Thebes during the New Kingdom.
+## Alexandria
+	# A hub of Hellenistic culture and learning, Alexandria was home to the Pharos Lighthouse and the Library of Alexandria.
+## Thebes
+	# The capital of the New Kingdom and a center of worship for the god Amun, it was home to the Valley of the Kings and the Luxor Temple.
+## Heliopolis
+	# An ancient city and cult center of the sun god Ra, it was also the site of the creation myth and a center of learning.
+
+	memphis_kemeticHS = {
+		county = c_cairo
+	
+		character_modifier = {
+			name = holy_site_memphis_effect_name
+			martial = 3nce
+		}
+	}
+	
+	alexandria_kemeticHS = {
+		county = c_alexandria
+	
+		character_modifier = {
+			name = holy_site_alexandria_effect_name
+			stewardship = 2
+		}
+	}
+	
+	thebes_kemeticHS = {
+		county = c_qus
+	
+		character_modifier = {
+			name = holy_site_thebes_effect_name
+			learning = 2
+		}
+	}
+	
+	heliopolis_kemeticHS = {
+		county = c_damietta
+	
+		character_modifier = {
+			name = holy_site_heliopolis_effect_name
+			monthly_income = 2
+		}
+	}
+
+	akhetaten_kemeticHS = {
+		county = c_asyut
+		character_modifier = {
+			name = holy_site_akhetaten_effect_name
+			legitimacy_gain_mult = 0.15
+			diplomacy = 1
+		}
+	}
+
+	hermopolis_magna_kemeticHS = {
+		county = c_ushmun
+		character_modifier = {
+			name = holy_site_hermopolis_magna_effect_name
+			monthly_piety = 0.5
+			attraction_opinion = 10
+		}
+	}

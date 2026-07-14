@@ -1,0 +1,187 @@
+name_list_ingaevonic = { #pre 430
+
+	cadet_dynasty_names = {
+        dynn_Audagisling dynn_Ansugisling dynn_Ansuwulfing dynn_Audabalthing dynn_Beranwulfing dynn_Beccing dynn_Ceulawulfing dynn_Cuntharading dynn_Cwicuhelming dynn_Edding dynn_Frohiling dynn_Hagirading dynn_Hangisting dynn_Harjawalding dynn_Hrossing dynn_Hlewagasting dynn_Hludharing dynn_Luding dynn_Niuwiling dynn_Tunwining dynn_Warmunding dynn_Wiglaibing dynn_Witagisling dynn_Wulfrading
+	}
+
+	dynasty_names = {
+        dynn_Audagisling dynn_Ansugisling dynn_Ansuwulfing dynn_Audabalthing dynn_Beranwulfing dynn_Beccing dynn_Ceulawulfing dynn_Cuntharading dynn_Cwicuhelming dynn_Edding dynn_Frohiling dynn_Hagirading dynn_Hangisting dynn_Harjawalding dynn_Hrossing dynn_Hlewagasting dynn_Hludharing dynn_Luding dynn_Niuwiling dynn_Tunwining dynn_Warmunding dynn_Wiglaibing dynn_Witagisling dynn_Wulfrading
+	}
+	male_names = {
+		Frohila Hada Hagiradu Halethewa Hlewagast Luda Niuwila Scanomoda Sithabalth Tunwini Ura 
+		Aca Audagisl Aggjuberht Aggjuhardu Agilaberht Alguscathi Angliberht Anglihart Anglimar Aniwulf Ansugisl Athalaberht Athalabalth Athalagair Athalagrim Athalahari Athalahauh Athalawini Athalawulf Audawacr Audawalth Audawig Audawardu Audabalth Ansuwalth Ansuwulf Audamundu Aldawini Baltharic Balthawini Bardil Becca Bera Berhtagisl Berhtamundu Berhtawald Beranhart Beransigi Beranwald Beranwulf Carl Ceulawulf Cnaba Cuntharad Cunigisl Cwicuhelm Dagaberht Eda Ehomar Ercnaberht Ercnabalth Ercnafrithu Ercnawalth Frithuric Folcheri Folcarad Folcawald Gairaberht Gairahard Gairaric Godawini Godawulf Harjabalth Harjaberht Harjagast Harjaric Harjawald Hangist Hildibalth Hildiberht Hildiric Hludhari Hludamar Hludawig Hrosamundu Hrothiberht Hrothigair Hrothiland Hrothiwulf Hungiberht Hunberht Hungisl Landaberht Leubaric Liudiberht Liudigast Liudibalth Liudihari Liudiwulf Mariwig Mathlhelm Othilrad Othilwald Othilric Radawald Raginahari Raginawald Raginawulf Theudubalth Theudumar Theuduric Warmundu Sigibalth Sigiberht Sigifrithu Sigihardu Sigimar Sigimundu Sigirad Sigiric Wecca Waldahari Welandu Wusa Wihtgisl Wiglaibu Wilaberht Wilagisl Witagisl Wulfhari Wulfrad
+		Abba Aib Aha Albiric Albut Aldagisl Aldafrithu Aldawulf Beranlaiba Godawulfu Radabodu
+	}
+	female_names = {
+  		Aggjulinthi Albifladi Anglihildi Audaburg Audagibu Audagunthi Aldahildi Alhathruthi Alhaburg Athalagardu Athalahaithi Athalalinthi Balthahildi Berhtgibu Berhtfladi Cunigibu Ermunagardu Ermunahildi Ermunaswinth Ermunathruthi Gundhildi Godaburg Godagibu Godagunthi Hildigardu Hludaswinth Hrosamundu Hrothihaithi Hungibu Lamu Lethru Leubacwani Leubawaru Maganthruthi Mahtihildi Mathlgardu Othilburg Saigibu Saigunthi Sithabadi Waldagunthi Waldathruthi Walda Warburg Wintru Wulfwaru 
+		Aldaburg Athalagardu Theudiswinthi 
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+
+	patronym_suffix_male = "dynnpat_suf_sunu"
+	patronym_suffix_female = "dynnpat_suf_sdohter"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+
+	mercenary_names = {
+		{ name = "mercenary_company_hengist_retinue" coat_of_arms = "mc_hengist_retinue" }
+		{ name = "mercenary_company_wakes_guard" coat_of_arms = "mc_wakes_guard" }
+		{ name = "mercenary_company_horsas_band" coat_of_arms = "mc_horsas_band" }
+	}		
+}
+
+name_list_istaevonic = {
+	cadet_dynasty_names = {
+        dynn_Agilaberhting dynn_Athalagriming dynn_Angliharting dynn_Berhtawalding dynn_Beranwalding dynn_Beranwulfing dynn_Berhtamunding dynn_Carling dynn_Dagaberhting dynn_Folchering dynn_Gairaharding dynn_Harjaberhting dynn_Hildiberhting dynn_Hludharing dynn_Hludamaring dynn_Hludawiging dynn_Hrosamunding dynn_Hrothiberhting dynn_Hrothilanding dynn_Mariwiging dynn_Liudiberhting dynn_Raginaharing dynn_Raginawulfing dynn_Theudubalthing dynn_Theudumaring dynn_Theuduricing dynn_Sigiberhting dynn_Wilaberhting
+	}
+
+	dynasty_names = {
+        dynn_Agilaberhting dynn_Athalagriming dynn_Angliharting dynn_Berhtawalding dynn_Beranwalding dynn_Beranwulfing dynn_Berhtamunding dynn_Carling dynn_Dagaberhting dynn_Folchering dynn_Gairaharding dynn_Harjaberhting dynn_Hildiberhting dynn_Hludharing dynn_Hludamaring dynn_Hludawiging dynn_Hrosamunding dynn_Hrothiberhting dynn_Hrothilanding dynn_Mariwiging dynn_Liudiberhting dynn_Raginaharing dynn_Raginawulfing dynn_Theudubalthing dynn_Theudumaring dynn_Theuduricing dynn_Sigiberhting dynn_Wilaberhting
+	}
+	male_names = {
+		Frohila Hada Hagiradu Halethewa Hlewagast Luda Niuwila Scanomoda Sithabalth Tunwini Ura 
+		Aca Audagisl Aggjuberht Aggjuhardu Agilaberht Alguscathi Angliberht Anglihart Anglimar Aniwulf Ansugisl Athalaberht Athalabalth Athalagair Athalagrim Athalahari Athalahauh Athalawini Athalawulf Audawacr Audawalth Audawig Audawardu Audabalth Ansuwalth Ansuwulf Audamundu Aldawini Baltharic Balthawini Bardil Becca Bera Berhtagisl Berhtamundu Berhtawald Beranhart Beransigi Beranwald Beranwulf Carl Ceulawulf Cnaba Cuntharad Cunigisl Cwicuhelm Dagaberht Eda Ehomar Ercnaberht Ercnabalth Ercnafrithu Ercnawalth Frithuric Folcheri Folcarad Folcawald Gairaberht Gairahard Gairaric Godawini Godawulf Harjabalth Harjaberht Harjagast Harjaric Harjawald Hangist Hildibalth Hildiberht Hildiric Hludhari Hludamar Hludawig Hrosamundu Hrothiberht Hrothigair Hrothiland Hrothiwulf Hungiberht Hunberht Hungisl Landaberht Leubaric Liudiberht Liudigast Liudibalth Liudihari Liudiwulf Mariwig Mathlhelm Othilrad Othilwald Othilric Radawald Raginahari Raginawald Raginawulf Theudubalth Theudumar Theuduric Warmundu Sigibalth Sigiberht Sigifrithu Sigihardu Sigimar Sigimundu Sigirad Sigiric Wecca Waldahari Welandu Wusa Wihtgisl Wiglaibu Wilaberht Wilagisl Witagisl Wulfhari Wulfrad
+		Abba Aib Aha Albiric Albut Aldagisl Aldafrithu Aldawulf Beranlaiba Godawulfu Radabodu
+	}
+	female_names = {
+  		Aggjulinthi Albifladi Anglihildi Audaburg Audagibu Audagunthi Aldahildi Alhathruthi Alhaburg Athalagardu Athalahaithi Athalalinthi Balthahildi Berhtgibu Berhtfladi Cunigibu Ermunagardu Ermunahildi Ermunaswinth Ermunathruthi Gundhildi Godaburg Godagibu Godagunthi Hildigardu Hludaswinth Hrosamundu Hrothihaithi Hungibu Lamu Lethru Leubacwani Leubawaru Maganthruthi Mahtihildi Mathlgardu Othilburg Saigibu Saigunthi Sithabadi Waldagunthi Waldathruthi Walda Warburg Wintru Wulfwaru 
+		Aldaburg Athalagardu Theudiswinthi 
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+
+	patronym_suffix_male = "dynnpat_suf_sunu"
+	patronym_suffix_female = "dynnpat_suf_sdohter"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5	
+
+}
+
+name_list_irminonic = {
+	cadet_dynasty_names = {
+        dynn_Angliharting dynn_Athalagairing dynn_Athalaberhting dynn_Athalaharing dynn_Ansuwalthing dynn_Aldawining dynn_Baltharicing dynn_Bardiling dynn_Beranharting dynn_Frithuricing dynn_Harjaberhting dynn_Harjaricing dynn_Liudiberhting dynn_Liudibalthing dynn_Raginaharing dynn_Raginawalding dynn_Sigibalthing dynn_Sigiberhting dynn_Sigifrithing dynn_Sigiharding dynn_Sigimunding dynn_Theudubalthing dynn_Theuduricing dynn_Wilaberhting
+	}
+
+	dynasty_names = {
+        dynn_Angliharting dynn_Athalagairing dynn_Athalaberhting dynn_Athalaharing dynn_Ansuwalthing dynn_Aldawining dynn_Baltharicing dynn_Bardiling dynn_Beranharting dynn_Frithuricing dynn_Harjaberhting dynn_Harjaricing dynn_Liudiberhting dynn_Liudibalthing dynn_Raginaharing dynn_Raginawalding dynn_Sigibalthing dynn_Sigiberhting dynn_Sigifrithing dynn_Sigiharding dynn_Sigimunding dynn_Theudubalthing dynn_Theuduricing dynn_Wilaberhting
+	}
+	male_names = {
+		Frohila Hada Hagiradu Halethewa Hlewagast Luda Niuwila Scanomoda Sithabalth Tunwini Ura 
+		Aca Audagisl Aggjuberht Aggjuhardu Agilaberht Alguscathi Angliberht Anglihart Anglimar Aniwulf Ansugisl Athalaberht Athalabalth Athalagair Athalagrim Athalahari Athalahauh Athalawini Athalawulf Audawacr Audawalth Audawig Audawardu Audabalth Ansuwalth Ansuwulf Audamundu Aldawini Baltharic Balthawini Bardil Becca Bera Berhtagisl Berhtamundu Berhtawald Beranhart Beransigi Beranwald Beranwulf Carl Ceulawulf Cnaba Cuntharad Cunigisl Cwicuhelm Dagaberht Eda Ehomar Ercnaberht Ercnabalth Ercnafrithu Ercnawalth Frithuric Folcheri Folcarad Folcawald Gairaberht Gairahard Gairaric Godawini Godawulf Harjabalth Harjaberht Harjagast Harjaric Harjawald Hangist Hildibalth Hildiberht Hildiric Hludhari Hludamar Hludawig Hrosamundu Hrothiberht Hrothigair Hrothiland Hrothiwulf Hungiberht Hunberht Hungisl Landaberht Leubaric Liudiberht Liudigast Liudibalth Liudihari Liudiwulf Mariwig Mathlhelm Othilrad Othilwald Othilric Radawald Raginahari Raginawald Raginawulf Theudubalth Theudumar Theuduric Warmundu Sigibalth Sigiberht Sigifrithu Sigihardu Sigimar Sigimundu Sigirad Sigiric Wecca Waldahari Welandu Wusa Wihtgisl Wiglaibu Wilaberht Wilagisl Witagisl Wulfhari Wulfrad
+		Abba Aib Aha Albiric Albut Aldagisl Aldafrithu Aldawulf Beranlaiba Godawulfu Radabodu
+	}
+	female_names = {
+  		Aggjulinthi Albifladi Anglihildi Audaburg Audagibu Audagunthi Aldahildi Alhathruthi Alhaburg Athalagardu Athalahaithi Athalalinthi Balthahildi Berhtgibu Berhtfladi Cunigibu Ermunagardu Ermunahildi Ermunaswinth Ermunathruthi Gundhildi Godaburg Godagibu Godagunthi Hildigardu Hludaswinth Hrosamundu Hrothihaithi Hungibu Lamu Lethru Leubacwani Leubawaru Maganthruthi Mahtihildi Mathlgardu Othilburg Saigibu Saigunthi Sithabadi Waldagunthi Waldathruthi Walda Warburg Wintru Wulfwaru 
+		Aldaburg Athalagardu Theudiswinthi 
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+
+	patronym_suffix_male = "dynnpat_suf_sunu"
+	patronym_suffix_female = "dynnpat_suf_sdohter"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5	
+
+}
+
+name_list_late_ingaevonic = { #430 - 550
+
+	cadet_dynasty_names = {
+        dynn_Audagisling dynn_A_sugisling dynn_A_suwulfing dynn_Audabalthing dynn_Beranwulfing dynn_Beccing dynn_Ceulawulfing dynn_Cu_tharE_ding dynn_Cwicuhelming dynn_Edding dynn_Frohiling dynn_Hagirading dynn_Hangisting dynn_Harjawalding dynn_Hrossing dynn_Hlewagasting dynn_Hludharing dynn_Luding dynn_Niuwiling dynn_Tunwining dynn_Warmunding dynn_Wiglaifing dynn_Witagisling dynn_Wulfrading
+	}
+
+	dynasty_names = {
+        dynn_Audagisling dynn_A_sugisling dynn_A_suwulfing dynn_Audabalthing dynn_Beranwulfing dynn_Beccing dynn_Ceulawulfing dynn_Cu_tharE_ding dynn_Cwicuhelming dynn_Edding dynn_Frohiling dynn_Hagirading dynn_Hangisting dynn_Harjawalding dynn_Hrossing dynn_Hlewagasting dynn_Hludharing dynn_Luding dynn_Niuwiling dynn_Tunwining dynn_Warmunding dynn_Wiglaifing dynn_Witagisling dynn_Wulfrading
+	}
+	male_names = {
+		Frohila Hada HagirE_du Halethewa Hlewagast Luda Niuwila Scanomoda Sithabalth Tunwini Ura 
+		Aca Audagisl E_ggjuberht E_ggjuhardu Agilaberht Alguscathi Angliberht Anglihart AnglimE_r Aniwulf A_sugisl Athalaberht Athalabalth Athalagair Athalagrim Athalahari Athalahauh Athalawini Athalawulf Audawacr Audawalth Audawig Audawardu Audabalth A_suwalth A_suwulf Audamundu Aldawini Baltharic Balthawini Bardil Becca Bera Berhtagisl Berhtamundu Berhtawald Beranhart Bera_sigi Beranwald Beranwulf Carl Ceulawulf Cnaba Cu_tharE_d Cunigisl Cwicuhelm Dagaberht Eda EhomE_r Ercnaberht Ercnabalth Ercnafrithu Ercnawalth Frithuric Folcheri FolcarE_d Folcawald Gairaberht Gairahard Gairaric Godawini Godawulf Harjabalth Harjaberht Harjagast Harjaric Harjawald Hangist Hildibalth Hildiberht Hildiric Hludhari HludamE_r Hludawig Hrosamundu Hrothiberht Hrothigair Hrothiland Hrothiwulf Hungiberht Hunberht Hungisl Landaberht Leufaric Liudiberht Liudigast Liudibalth Liudihari Liudiwulf ME_riwig Mathlhelm OthilrE_d Othilwald Othilric RE_dawald Raginahari Raginawald Raginawulf Theudubalth TheudumE_r Theuduric Warmundu Sigibalth Sigiberht Sigifrithu Sigihardu SigimE_r Sigimundu SigirE_d Sigiric Wecca Waldahari Welandu Wusa Wihtgisl Wiglaifu Wilaberht Wilagisl Witagisl Wulfhari WulfrE_d
+		Abba Aib Aha Alfiric Albut Aldagisl Aldafrithu Aldawulf Beranlaifa Godawulfu RE_dabodu
+	}
+	female_names = {
+  		E_ggjuli_thi Alfifladi Anglihildi Audaburg Audagifu Audagu_thi Aldahildi Alhathruthi Alhaburg Athalagardu Athalahaithi Athalali_thi Balthahildi Berhtgifu Berhtfladi Cunigifu Ermunagardu Ermunahildi Ermunaswi_th Ermunathruthi Gundhildi Godaburg Godagifu Godagu_thi Hildigardu Hludaswi_th Hrosamundu Hrothihaithi Hungifu Lamu Lethru Leufacwani Leufawaru ME_ga_thruthi Mahtihildi Mathlgardu Othilburg Saigifu Saigu_thi Sithabadi Waldagu_thi Waldathruthi Walda Warburg Wintru Wulfwaru 
+		Aldaburg Athalagardu Theudiswi_thi
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+	patronym_suffix_male = "dynnpat_suf_sunu"
+	patronym_suffix_female = "dynnpat_suf_sdohter"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+
+	mercenary_names = {
+		{ name = "mercenary_company_hengist_retinue" coat_of_arms = "mc_hengist_retinue" }
+		{ name = "mercenary_company_wakes_guard" coat_of_arms = "mc_wakes_guard" }
+		{ name = "mercenary_company_horsas_band" coat_of_arms = "mc_horsas_band" }
+	}		
+}
+
+name_list_late_irminonic = { #450 - 600 very start of german consonant shift
+	cadet_dynasty_names = {
+        dynn_Angliharting dynn_Adalagairing dynn_Adalaberhting dynn_Adalaharing dynn_Answalding dynn_Aldawining dynn_Baldaricing dynn_Bardiling dynn_Beranharting dynn_Fridricing dynn_Hariberhting dynn_Hariricing dynn_Liudiberhting dynn_Luidibalding dynn_Raginaharing dynn_Raginawalding dynn_Sigibalding dynn_Sigiberhting dynn_Sigifriding dynn_Sigiharding dynn_Sigimunding dynn_Diotbalding dynn_Diotricing dynn_Wilaberhting
+	}
+
+	dynasty_names = {
+        dynn_Angliharting dynn_Adalagairing dynn_Adalaberhting dynn_Adalaharing dynn_Answalding dynn_Aldawining dynn_Baldaricing dynn_Bardiling dynn_Beranharting dynn_Fridricing dynn_Hariberhting dynn_Hariricing dynn_Liudiberhting dynn_Luidibalding dynn_Raginaharing dynn_Raginawalding dynn_Sigibalding dynn_Sigiberhting dynn_Sigifriding dynn_Sigiharding dynn_Sigimunding dynn_Thiotbalding dynn_Thiotricing dynn_Wilaberhting
+	}
+	male_names = {
+		Odagisal Eggaberht Eggahard Agilberht Angilberht Angilhart Angilmar Aniwulf Ansgisal Adalaberht Adalabald Adalagair Adalagrim Adalahar Adalahoh Adalawin Adalawulf Odawakar Odawald Odawig Odaward Odabald Answald Answulf Odamund Aldawin Baldaric Baldawin Bardil Bekko Bero Berhtagisal Berhtamund Berhtawald Beranhart Beransig Beranwald Beranwulf Karl Kiolawulf Kundarad Kunigisal Quikhelm Dagaberht Ehomar Erknberht Erknbald Erknfrid Erknwald Fridric Folkher Folkarad Folkawald Gairaberht Gairahard Gairaric Godawin Godawulf Haribald Hariberht Harigast Hariric Hariwald Hildibald Hildiberht Hildiric Hludhar Hludamar Hludawig Hrosamund Hrodiberht Hrodigair Hrodiland Hrodiwulf Hungiberht Hunberht Hungisal Landaberht Liobaric Liudiberht Liudigast Liudibald Liudihar Liudiwulf Mariwig Madlhelm Odilrad Odilwald Odilric Radawald Raginahar Raginawald Raginawulf Thiotbald Thiotmar Thiotric Warmund Sigibald Sigiberht Sigifrid Sigihard Sigimar Sigimund Sigirad Sigiric Waldahar Weland Wihtgisal Wiglaibo Wilaberht Wilagisal Witgisal Wilhelm Wulfhar Wulfrad
+		Albiric Albut Aldagisal Aldafrid Aldawulf Beranlaibo Godawulf Radabodo
+		Aigil Aliberht Ailrun Arogisal Arsibodo Liobo
+	}
+	female_names = {
+  		Eggalindi Albiflad Angilhild Odaburg Odagiba Odgund Aldahild Alhathrud Alhaburg Adalagard Adalahaid Adalalind Baldahild Berhtgiba Berhtflad Kunigiba Irmingard Irminhild Irminswind Irminthrud Gundhild Godaburg Godagiba Godagund Hildigarda Hludaswind Hrosamunda Hrodhaid Hungiba Lama Ledra Liobwara Maganthrud Mahtihild Madlgarda Odilburg Saigiba Saigund Sidabad Waldagund Waldathrud Walda Warburg Wintra Wulfwara 
+		Aldaburg Adalagarda Thiotiswind 
+		Alagund Godahild
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+	patronym_suffix_male = "dynnpat_suf_sunu"
+	patronym_suffix_female = "dynnpat_suf_sdohter"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5	
+
+}

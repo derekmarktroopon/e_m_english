@@ -1,0 +1,11 @@
+﻿l_english:
+ anglosaxon_culture_unification.2.t:0 "The Rise of the Anglo-Saxons"
+ anglosaxon_culture_unification.2.desc:0 "In the aftermath of the fall of the Roman Empire, waves of Germanic peoples flooded the Eastern edge of Britain. Overwhelming the local Britons, these newcomers quickly established competing realms amongst there disparate tribes, the kingdoms of the Angles, those of the Saxons and the Jutish Kingdom of Kent. Long rivaling one another for control of the island, these West-Germanic peoples were forced to band together against the awsome force of Nordic raiders, following the progression of the Viking age.\nIn fighting side-by-side in order to protect their newfound home from mutual foes, the Angles, Saxons and Jutes have come to develop a common identity around both their familiar tounges and shared faith.\n\nWhereas they were once bickering peoples, they are now one: The Ænglisc."
+ anglosaxon_culture_unification.2.a:0 "Together, they will change the course of history..."
+
+ anglosaxon_culture_unification.3.t:0 "A literary Standard"
+ anglosaxon_culture_unification.3.desc:0 "During our struggles to unite the Anglecynn lands, we were also obliged to build up our core historical home as a platform from which to do so.As consequence, our own dialect of the Anglo-Saxon tounges has spread rapidly as a literary and administrative standard, much to the delight of the [SCOPE.Custom('culture_for_anglosaxon_lingo_loc')] lords.\n\nThat being said,\nIt is proposed that we further the enforcement of this standard, allowing only its use in clerical works and forcing those to be baptised to take on names more typical of our region. At least, this is the suggestion of some of our more hawkish lords..."
+ anglosaxon_culture_unification.3.a:0 "Our realm is one of all Angles and Saxons, our standard shall be only that."
+ anglosaxon_culture_unification.3.a_tt:0 "#E [SCOPE.Custom('anglo_saxon_culture_for_lingo_loc')]#! culture will keep its #Y default#! namelist."
+ anglosaxon_culture_unification.3.b:0 "All Anglecynn shall adhere to our tounge, like it or not!"
+ anglosaxon_culture_unification.3.b_tt:0 "#E [SCOPE.Custom('anglo_saxon_culture_for_lingo_loc')]#! culture will switch to having the #E #Y [SCOPE.Custom('culture_for_anglosaxon_lingo_loc')]#!#! namelist."

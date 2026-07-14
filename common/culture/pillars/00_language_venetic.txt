@@ -1,0 +1,863 @@
+﻿
+language_venetic_culture = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_venetic_culture
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_venetic_culture }
+			multiply = 10
+		}
+	}
+	
+	color = { 122 222 189 }	
+}
+
+language_osco_umbrian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_osco_umbrian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_osco_umbrian }
+			multiply = 10
+		}
+	}
+	
+	color = { 235 164 52 }	
+}
+
+language_raetic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_raetic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_raetic }
+			multiply = 10
+		}
+	}
+	
+	color = { 243 252 154 }	
+}
+
+language_camunic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_camunic
+			}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_camunic }
+			multiply = 10
+		}
+	}
+	
+	color = { 51 255 153 }
+}
+
+language_old_ligurian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_old_ligurian
+			}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_old_ligurian }
+			multiply = 10
+		}
+	}
+	
+	color = { 237 176 133 }
+}
+
+language_anglic_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_anglic_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						OR = {
+							has_name_list = name_list_wintcin
+							has_name_list = name_list_wintissh
+							has_name_list = name_list_wintissh_biblical
+							has_name_list = name_list_wyntish
+							has_name_list = name_list_wyntish_venetians
+							has_name_list = name_list_wyntish_biblical
+							has_name_list = name_list_venetic_frisian
+							has_name_list = name_list_venetic_frisian_biblical
+						}
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_anglic_venetic }
+			multiply = 10
+		}
+	}
+	
+	color = { 222 12 9 }
+}
+
+language_german_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_german_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						OR = {
+							has_name_list = name_list_venetic_dutch
+							has_name_list = name_list_venetic_dutch_biblical
+							has_name_list = name_list_venetic_frisian
+							has_name_list = name_list_venetic_frisian_biblical
+							has_name_list = name_list_venetic_saxon
+							has_name_list = name_list_venetic_saxon_biblical
+							has_name_list = name_list_venetic_german
+							has_name_list = name_list_venetic_german_biblical
+						}
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_german_venetic }
+			multiply = 10
+		}
+	}
+	
+	color = { 158 158 158 }
+}
+
+language_gotho_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_gotho_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						has_name_list = name_list_venetic_gothic
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_gotho_venetic }
+			multiply = 10
+		}
+	}
+	
+	color = { 69 87 80 }
+}
+
+language_nordic_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_nordic_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						OR = {
+							has_name_list = name_list_venetic_norse
+							has_name_list = name_list_venetic_icelandic
+							has_name_list = name_list_venetic_norwegian
+							has_name_list = name_list_venetic_norwegian_biblical
+							has_name_list = name_list_venetic_danish
+							has_name_list = name_list_venetic_danish_biblical
+							has_name_list = name_list_venetic_swedish
+							has_name_list = name_list_venetic_swedish_biblical
+						}
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_nordic_venetic }
+			multiply = 10
+		}
+	}
+	
+	color = { 116 178 204 }
+}
+
+language_insular_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_insular_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						OR = {
+							has_name_list = name_list_venetic_briton
+							has_name_list = name_list_venetic_welsh
+							has_name_list = name_list_venetic_welsh_biblical
+							has_name_list = name_list_venetic_pictish
+							has_name_list = name_list_venetic_pictish_biblical
+							has_name_list = name_list_venetic_gaelic
+							has_name_list = name_list_venetic_gaelic_biblical
+						}
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_insular_venetic }
+			multiply = 10
+		}
+	}
+	
+	
+	color = { 7 186 52 }
+}
+
+central_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = central_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						OR = {
+							has_name_list = name_list_venetic_venetian
+							has_name_list = name_list_venetic_venetian_biblical
+							has_name_list = name_list_venetic_cisalpine
+							has_name_list = name_list_venetic_cisalpine_biblical
+							has_name_list = name_list_venetic_italian
+							has_name_list = name_list_venetic_italian_biblical
+							has_name_list = name_list_venetic_dalmatian
+							has_name_list = name_list_venetic_dalmatian_biblical
+							has_name_list = name_list_venetic_sicilian
+							has_name_list = name_list_venetic_sicilian_biblical
+							has_name_list = name_list_venetic_romansh
+							has_name_list = name_list_venetic_romansh_biblical
+						}
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = central_venetic }
+			multiply = 10
+		}
+	}
+	
+	
+	color = { 165 236 240 }
+}
+
+iberian_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = iberian_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						OR = {
+							has_name_list = name_list_venetic_portuguese
+							has_name_list = name_list_venetic_portuguese_biblical
+							has_name_list = name_list_venetic_spanish
+							has_name_list = name_list_venetic_spanish_biblical
+						}
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = iberian_venetic }
+			multiply = 10
+		}
+	}
+	
+	
+	color = { 250 246 122 }
+}
+
+de_oil_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = de_oil_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						OR = {
+							has_name_list = name_list_venetic_french
+							has_name_list = name_list_venetic_french_biblical
+							has_name_list = name_list_venetic_french_with_franks
+							has_name_list = name_list_venetic_french_with_franks_biblical
+						}
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = de_oil_venetic }
+			multiply = 10
+		}
+	}
+	
+	color = { 0 102 255 }
+}
+
+de_oc_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = de_oc_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						OR = {
+							has_name_list = name_list_venetic_occitan
+							has_name_list = name_list_venetic_occitan_biblical
+						}
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = de_oc_venetic }
+			multiply = 10
+		}
+	}
+	
+	color = { 25 194 250 }
+}
+
+eastern_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = eastern_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						OR = {
+							has_name_list = name_list_venetic_romanian
+							has_name_list = name_list_venetic_romanian_biblical
+							has_name_list = name_list_venetic_pannonian
+							has_name_list = name_list_venetic_pannonian_biblical
+							has_name_list = name_list_venetic_slavic
+							has_name_list = name_list_uenetoi
+						}
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = eastern_venetic }
+			multiply = 10
+		}
+	}
+	
+	color = { 134 109 241 }
+}
+
+sardino_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = sardino_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						OR = {
+							has_name_list = name_list_venetic_sardinian
+							has_name_list = name_list_venetic_sardinian_biblical
+						}
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = sardino_venetic }
+			multiply = 10
+		}
+	}
+	
+	color = { 250 186 255 }
+}
+
+afro_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = afro_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						OR = {
+							has_name_list = name_list_venetic_african
+							has_name_list = name_list_venetic_african_biblical
+						}
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = afro_venetic }
+			multiply = 10
+		}
+	}
+	
+	color = { 199 190 62 }
+}
+
+language_venetic_coptic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_venetic_coptic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						has_name_list = name_list_venetic_coptic
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_venetic_coptic }
+			multiply = 10
+		}
+	}
+	color = { 210 235 87 }
+}
+
+language_sudano_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_sudano_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						OR = {
+							has_name_list = name_list_venetic_nubian
+							has_name_list = name_list_venetic_nubian_biblical
+						}
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_sudano_venetic }
+			multiply = 10
+		}
+	}
+	color = { 150 104 33 }
+}
+
+language_horn_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_horn_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						OR = {
+							has_name_list = name_list_venetic_amhara
+							has_name_list = name_list_venetic_amhara_biblical
+						}
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_horn_venetic }
+			multiply = 10
+		}
+	}
+	color = { 110 68 4 }
+}
+
+language_caucaso_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_caucaso_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						OR = {
+							has_name_list = name_list_venetic_armenian
+							has_name_list = name_list_venetic_armenian_biblical
+							has_name_list = name_list_venetic_georgian
+							has_name_list = name_list_venetic_georgian_biblical
+						}
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_caucaso_venetic }
+			multiply = 10
+		}
+	}
+	color = { 8 115 69 }
+}
+
+language_levantine_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_levantine_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						OR = {
+							has_name_list = name_list_venetic_aramean
+							has_name_list = name_list_venetic_arabic
+						}
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_levantine_venetic }
+			multiply = 10
+		}
+	}
+	color = { 117 255 184 }
+}
+
+language_irano_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_irano_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						OR = {
+							has_name_list = name_list_venetic_sogdian
+							has_name_list = name_list_venetic_persian
+						}
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_irano_venetic }
+			multiply = 10
+		}
+	}
+	color = { 33 225 255 }
+}
+
+language_steppe_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_steppe_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_steppe_venetic
+				}
+				scope:character = { 
+					culture = {
+						has_name_list = language_steppe_venetic
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_steppe_venetic }
+			multiply = 10
+		}
+	}
+	color = { 109 121 207 }
+}
+
+language_indo_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_indo_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						has_name_list = name_list_venetic_apabhramsa
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_indo_venetic }
+			multiply = 10
+		}
+	}
+	color = { 140 10 42 }
+}
+
+language_sino_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_sino_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						has_name_list = name_list_venetic_han
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_sino_venetic }
+			multiply = 10
+		}
+	}
+	color = { 196 38 35 }
+}
+
+language_nipono_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_nipono_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_venetic_culture
+				}
+				scope:character = { 
+					culture = {
+						has_name_list = name_list_venetic_japanese
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_nipono_venetic }
+			multiply = 10
+		}
+	}
+	color = { 255 225 224 }
+}
+
+language_himalayo_venetic = {
+	type = language
+	is_shown = {
+		OR = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_himalayo_venetic
+			}
+			AND = {
+				language_is_shown_trigger = {
+					LANGUAGE = language_himalayo_venetic
+				}
+				scope:character = { 
+					culture = {
+						has_name_list = language_himalayo_venetic
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_himalayo_venetic }
+			multiply = 10
+		}
+	}
+	color = { 105 101 85 }
+}

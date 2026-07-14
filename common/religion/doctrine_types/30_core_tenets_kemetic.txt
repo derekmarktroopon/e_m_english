@@ -1,0 +1,108 @@
+﻿
+
+#tenet_egyptian_magic = {
+#	icon = core_tenet_esotericism
+#	piety_cost = {
+#		value = faith_tenet_cost_mid
+#			# Multiplier for keeping same tenet
+#		if = {
+#			limit = { has_doctrine = tenet_sun_worship }
+#			multiply = faith_unchanged_doctrine_cost_mult
+#		}
+#	}
+#
+#	is_shown = {
+#		religion_tag = kushitism_religion
+#	}
+#
+#	can_pick = {
+#		always = yes
+#	}
+#
+#	traits = {
+#		virtues = { lifestyle_mystic }
+#		sins = { cynical }
+#	}
+#
+#	parameters = {
+#		piety_from_feasts_active = yes
+#		tenet_esotericism_mystic_education = yes
+#		spirit_possession_active = yes
+#	}
+#}
+
+tenet_esotericism = {
+	icon = core_tenet_esotericism
+
+	piety_cost = {
+		if = {
+			limit = {
+				religion_tag = christianity_religion
+
+			}
+			value = faith_tenet_cost_high
+		}
+		else_if = {
+			limit = {
+				OR = {
+					religion_tag = hinduism_religion
+					religion_tag = jainism_religion
+					religion_tag = zoroastrianism_religion
+					has_doctrine = pagan_hostility_doctrine
+				}
+			}
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_mid
+		}
+
+		# Multiplier for keeping same tenet
+		if = {
+			limit = { has_doctrine = tenet_esotericism }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+	}
+
+	traits = {
+		virtues = {
+			lifestyle_mystic = { weight = 1 }
+		}
+	}
+
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					religion_tag = judaism_religion
+				}
+				desc = tenet_esotericism_kabbalah
+			}
+			triggered_desc = {
+				trigger = { religion_tag = kushitism_religion }
+				desc = tenet_egyptian_magic_name
+			}
+			desc = tenet_esotericism_name
+		}
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					religion_tag = judaism_religion
+				}
+				desc = tenet_esotericism_kabbalah_desc
+			}
+			triggered_desc = {
+				trigger = { religion_tag = kushitism_religion }
+				desc = tenet_egyptian_magic_desc
+			}
+			desc = tenet_esotericism_desc
+		}
+	}
+
+	parameters = {
+		tenet_esotericism_mystic_education = yes
+	}
+}

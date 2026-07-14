@@ -1,0 +1,478 @@
+﻿middle_english_names_start_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+    decision_group_type = major
+	
+    ai_check_interval = 36
+	
+    desc = middle_english_names_start_decision_desc
+    confirm_text = middle_english_names_start_confirm
+	
+    is_shown = {
+		is_ai = yes
+		NOT = { has_global_variable = middle_english_period_names }
+		NOT = { has_global_variable = englesaxe_period_names }
+		current_year >= 1100
+    }
+	
+    is_valid = {
+		is_ai = yes
+		current_year >= 1100
+    }
+	
+	is_valid_showing_failures_only = {
+		is_ai = yes
+	}
+	
+    effect = {
+		set_global_variable = {
+			name = countdown_till_middle_english_period
+			value = yes
+		}
+		trigger_event = {
+			id = old_middle_english_events.1
+		}
+    }
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+
+}
+
+englesaxe_names_start_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+    decision_group_type = major
+	
+    ai_check_interval = 36
+	
+    desc = englesaxe_names_start_decision_desc
+    confirm_text = englesaxe_names_start_confirm
+	
+    is_shown = {
+		is_ai = yes
+		has_global_variable = middle_english_period_names
+		NOT = { has_global_variable = englesaxe_period_names }
+		current_year >= 1300
+    }
+	
+    is_valid = {
+		is_ai = yes
+		current_year >= 1300
+    }
+	
+	is_valid_showing_failures_only = {
+		is_ai = yes
+	}
+	
+    effect = {
+		set_global_variable = {
+			name = englesaxe_period_names
+			value = yes
+		}
+		trigger_event = {
+			id = old_middle_english_events.2
+		}
+    }
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+
+}
+
+
+ingaevonic_divergence_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+    decision_group_type = major
+	
+    ai_check_interval = 36
+	
+    desc = ingaevonic_divergence_decision_desc
+    confirm_text = ingaevonic_divergence_start_confirm
+	
+    is_shown = {
+		is_ai = yes
+		NOT = { has_global_variable = ingaevonic_divergence_occured }
+		current_year >= 530
+		current_year <= 600
+    }
+	
+    is_valid = {
+		is_ai = yes
+		current_year >= 530
+		current_year <= 600
+    }
+	
+	is_valid_showing_failures_only = {
+		is_ai = yes
+	}
+	
+    effect = {
+		set_global_variable = {
+			name = ingaevonic_divergence_occured
+			value = yes
+		}
+		trigger_event = {
+			id = proto_germanic_divergence_events.1
+		}
+    }
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+
+}
+
+irminonic_divergence_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+    decision_group_type = major
+	
+    ai_check_interval = 36
+	
+    desc = irminonic_divergence_decision_desc
+    confirm_text = irminonic_divergence_start_confirm
+	
+    is_shown = {
+		is_ai = yes
+		NOT = { has_global_variable = irminonic_divergence_occured }
+		current_year >= 530
+		current_year <= 600
+    }
+	
+    is_valid = {
+		is_ai = yes
+		current_year >= 530
+		current_year <= 600
+    }
+	
+	is_valid_showing_failures_only = {
+		is_ai = yes
+	}
+	
+    effect = {
+		set_global_variable = {
+			name = irminonic_divergence_occured
+			value = yes
+		}
+		trigger_event = {
+			id = proto_germanic_divergence_events.5
+		}
+    }
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+
+}
+
+proto_germanic_namelist_divergence_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+    decision_group_type = major
+	
+    ai_check_interval = 36
+	
+    desc = proto_germanic_namelist_divergence_decision_desc
+    confirm_text = proto_germanic_namelist_divergence_start_confirm
+	
+    is_shown = {
+		is_ai = yes
+		NOT = { has_global_variable = proto_germanic_namelist_divergence_occured }
+		current_year >= 200
+		current_year <= 900
+    }
+	
+    is_valid = {
+		is_ai = yes
+		current_year >= 200
+		current_year <= 900
+    }
+	
+	is_valid_showing_failures_only = {
+		is_ai = yes
+	}
+	
+    effect = {
+		set_global_variable = {
+			name = proto_germanic_namelist_divergence_occured
+			value = yes
+		}
+		trigger_event = {
+			id = proto_germanic_divergence_events.8
+		}
+    }
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+
+}
+
+laterwestgermanic_namelists_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+    decision_group_type = major
+	
+    ai_check_interval = 36
+	
+    desc = laterwestgermanic_namelists_decision_desc
+    confirm_text = laterwestgermanic_namelists_start_confirm
+	
+    is_shown = {
+		is_ai = yes
+		NOT = { has_global_variable = laterwestgermanic_namelists_occured }
+		current_year >= 450
+		current_year < 530
+    }
+	
+    is_valid = {
+		is_ai = yes
+		current_year >= 450
+		current_year < 530
+    }
+	
+	is_valid_showing_failures_only = {
+		is_ai = yes
+	}
+	
+    effect = {
+		set_global_variable = {
+			name = laterwestgermanic_namelists_occured
+			value = yes
+		}
+		trigger_event = {
+			id = proto_germanic_divergence_events.7
+		}
+    }
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+
+}
+
+earlywestgermanic_namelists_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+    decision_group_type = major
+	
+    ai_check_interval = 36
+	
+    desc = earlywestgermanic_namelists_decision_desc
+    confirm_text = earlywestgermanic_namelists_start_confirm
+	
+    is_shown = {
+		is_ai = yes
+		NOT = { has_global_variable = earlywestgermanic_namelists_occured }
+		current_year < 450
+		current_year >= 200
+    }
+	
+    is_valid = {
+		is_ai = yes
+		current_year < 450
+		current_year >= 200
+    }
+	
+	is_valid_showing_failures_only = {
+		is_ai = yes
+	}
+	
+    effect = {
+		set_global_variable = {
+			name = earlywestgermanic_namelists_occured
+			value = yes
+		}
+		trigger_event = {
+			id = proto_germanic_divergence_events.6
+		}
+    }
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+
+}
+
+frankish_divergence_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+    decision_group_type = major
+	
+    ai_check_interval = 36
+	
+    desc = frankish_divergence_decision_desc
+    confirm_text = frankish_divergence_start_confirm
+	
+    is_shown = {
+		is_ai = yes
+		NOT = { has_global_variable = frankish_divergence_occured }
+		current_year >= 840
+		current_year <= 1060
+    }
+	
+    is_valid = {
+		is_ai = yes
+		current_year >= 840
+		current_year <= 1060
+    }
+	
+	is_valid_showing_failures_only = {
+		is_ai = yes
+	}
+	
+    effect = {
+		set_global_variable = {
+			name = frankish_divergence_occured
+			value = yes
+		}
+		trigger_event = {
+			id = proto_germanic_divergence_events.10
+		}
+    }
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+
+}
+
+indo_germanic_later_names_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+    decision_group_type = major
+	
+    ai_check_interval = 36
+	
+    desc = indo_germanic_later_names_decision_desc
+    confirm_text = indo_germanic_later_names_start_confirm
+	
+    is_shown = {
+		is_ai = yes
+		NOT = { has_global_variable = indo_germanic_later_names_occured }
+		current_year >= 500
+		current_year < 700
+    }
+	
+    is_valid = {
+		is_ai = yes
+		current_year >= 500
+		current_year < 700
+    }
+	
+	is_valid_showing_failures_only = {
+		is_ai = yes
+	}
+	
+    effect = {
+		set_global_variable = {
+			name = indo_germanic_later_names_occured
+			value = yes
+		}
+		trigger_event = {
+			id = proto_germanic_divergence_events.11
+		}
+    }
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+
+}
+
+earlyindogerman_namelists_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+    decision_group_type = major
+	
+    ai_check_interval = 36
+	
+    desc = earlyindogerman_namelists_decision_desc
+    confirm_text = earlyindogerman_namelists_start_confirm
+	
+    is_shown = {
+		is_ai = yes
+		NOT = { has_global_variable = earlyindogerman_namelists_occured }
+		current_year < 500
+		current_year >= 200
+    }
+	
+    is_valid = {
+		is_ai = yes
+		current_year < 500
+		current_year >= 200
+    }
+	
+	is_valid_showing_failures_only = {
+		is_ai = yes
+	}
+	
+    effect = {
+		set_global_variable = {
+			name = earlyindogerman_namelists_occured
+			value = yes
+		}
+		trigger_event = {
+			id = proto_germanic_divergence_events.12
+		}
+    }
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+
+}

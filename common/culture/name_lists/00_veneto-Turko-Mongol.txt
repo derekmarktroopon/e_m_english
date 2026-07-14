@@ -1,0 +1,71 @@
+﻿
+name_list_venetic_turkic = {
+		cadet_dynasty_names = {
+            dynn_trkvnt_akutu dynn_trkvnt_albaranu dynn_trkvnt_antayayu dynn_trkvnt_ablisik dynn_trkvnt_arisbetak dynn_trkvnt_boyi dynn_trkvnt_boikun dynn_trkvnt_buruyok dynn_trkvnt_teparik dynn_trkvnt_taybalayu dynn_trkvnt_tilik dynn_trkvnt_egetur dynn_trkvnt_eynayu dynn_trkvnt_buku dynn_trkvnt_yuwantay dynn_trkvnt_kulutawik dynn_trkvnt_kopurikan dynn_trkvnt_makunus dynn_trkvnt_nakalunus dynn_trkvnt_nayisank dynn_trkvnt_usuk dynn_trkvnt_bitamnik dynn_trkvnt_bombetagu dynn_trkvnt_raytabu dynn_trkvnt_rasunk dynn_trkvnt_tiwaliy dynn_trkvnt_tomatur dynn_trkvnt_tubayu dynn_trkvnt_tirsik dynn_trkvnt_tirtiyunik dynn_trkvnt_upusatu dynn_trkvnt_bastinu dynn_trkvnt_baltikanu dynn_trkvnt_baltumanu dynn_trkvnt_baltularik dynn_trkvnt_buteyu
+		}
+
+		dynasty_names = {
+	        dynn_trkvnt_akutu dynn_trkvnt_albaranu dynn_trkvnt_antayayu dynn_trkvnt_ablisik dynn_trkvnt_arisbetak dynn_trkvnt_boyi dynn_trkvnt_boikun dynn_trkvnt_buruyok dynn_trkvnt_teparik dynn_trkvnt_taybalayu dynn_trkvnt_tilik dynn_trkvnt_egetur dynn_trkvnt_eynayu dynn_trkvnt_buku dynn_trkvnt_yuwantay dynn_trkvnt_kulutawik dynn_trkvnt_kopurikan dynn_trkvnt_makunus dynn_trkvnt_nakalunus dynn_trkvnt_nayisank dynn_trkvnt_usuk dynn_trkvnt_bitamnik dynn_trkvnt_bombetagu dynn_trkvnt_raytabu dynn_trkvnt_rasunk dynn_trkvnt_tiwaliy dynn_trkvnt_tomatur dynn_trkvnt_tubayu dynn_trkvnt_tirsik dynn_trkvnt_tirtiyunik dynn_trkvnt_upusatu dynn_trkvnt_bastinu dynn_trkvnt_baltikanu dynn_trkvnt_baltumanu dynn_trkvnt_baltularik dynn_trkvnt_buteyu
+		}
+
+		male_names = {
+			trkvnt_abros trkvnt_ayamu trkvnt_akus trkvnt_alaru trkvnt_ametik trkvnt_andetu trkvnt_andet trkvnt_ablisik trkvnt_arbas trkvnt_ariyun trkvnt_arisbetak trkvnt_askol trkvnt_atu trkvnt_bayit trkvnt_balanas trkvnt_boyial trkvnt_boyi trkvnt_buruyok trkvnt_budiyak trkvnt_teparik trkvnt_teparis trkvnt_tilik trkvnt_tilis trkvnt_ebas trkvnt_eges trkvnt_egetur trkvnt_eynayu trkvnt_eniyus trkvnt_anatu trkvnt_anogan trkvnt_arsinu trkvnt_bogu trkvnt_bontas trkvnt_bokontas trkvnt_barmast trkvnt_buku trkvnt_gaiyus trkvnt_garik trkvnt_ostabay trkvnt_huwas trkvnt_utus trkvnt_yuwant trkvnt_kantas trkvnt_karaman trkvnt_kastik trkvnt_kalus trkvnt_kotenas trkvnt_tulist trkvnt_kutu trkvnt_lamusu trkvnt_lant trkvnt_lavsak trkvnt_lamitur trkvnt_lukus trkvnt_metse trkvnt_moldu trkvnt_nakalunus trkvnt_nayisank trkvnt_nayis trkvnt_okiyayus trkvnt_opus trkvnt_osuk trkvnt_ost trkvnt_panari trkvnt_balanik trkvnt_bilbut trkvnt_biladas trkvnt_raytavu trkvnt_ratas trkvnt_rasunk trkvnt_sik trkvnt_surus trkvnt_taku trkvnt_tamatur trkvnt_tirsik trkvnt_turuy trkvnt_uku trkvnt_urklu trkvnt_urklas trkvnt_bantas trkvnt_bants trkvnt_basanu trkvnt_begnus trkvnt_baymas trkvnt_bananas trkvnt_barkbal trkvnt_baltigan trkvnt_baltuman trkvnt_butu
+		}
+
+		female_names = {
+			trkvnt_Akuta trkvnt_Andetina trkvnt_Apaya trkvnt_Askolya trkvnt_Ata trkvnt_Baksuna trkvnt_Baytona trkvnt_Birkitna trkvnt_Buka trkvnt_Ebpa trkvnt_Eba trkvnt_Egesna trkvnt_Egetura trkvnt_Betiyana trkvnt_Bokonta trkvnt_Barma trkvnt_Barmasta trkvnt_Barmastna trkvnt_Buka_2 trkvnt_Buksiya trkvnt_Yanta trkvnt_Ikabiyanya trkvnt_Ituriya trkvnt_Yuwantna trkvnt_Qanta trkvnt_Koliya trkvnt_Kuykuta trkvnt_Makna trkvnt_Mulduna trkvnt_Muskalna trkvnt_Musta trkvnt_Nayrka trkvnt_Narka trkvnt_Otniya trkvnt_Rebatuniya trkvnt_Ratiya trkvnt_Taynuntiya trkvnt_Turustiya trkvnt_Urklana trkvnt_Usedika trkvnt_Bantkaniya trkvnt_Banna trkvnt_Barkondarna
+		}
+
+	dynasty_of_location_prefix = "dynnp_ti"
+
+	patronym_suffix_male = "dynnpat_suf_boli"
+	patronym_suffix_female = "dynnpat_suf_bizi"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5		
+	founder_named_dynasties = yes		
+}
+
+
+name_list_venetic_mongol = {
+		cadet_dynasty_names = {
+            dynn_mngvnt_akutai dynn_mngvnt_albarin dynn_mngvnt_andeiyai dynn_mngvnt_ablisik dynn_mngvnt_arispetjak dynn_mngvnt_boyi dynn_mngvnt_boyigun dynn_mngvnt_borijok dynn_mngvnt_depjarik dynn_mngvnt_devulaj dynn_mngvnt_delik dynn_mngvnt_egetor dynn_mngvnt_inai dynn_mngvnt_fugiyu dynn_mngvnt_yuvante dynn_mngvnt_kultavik dynn_mngvnt_kubrikun dynn_mngvnt_makun dynn_mngvnt_nagalgun dynn_mngvnt_naisung dynn_mngvnt_usok dynn_mngvnt_bitamnig dynn_mngvnt_bumbetegui dynn_mngvnt_raitevi dynn_mngvnt_resung dynn_mngvnt_tibalai dynn_mngvnt_tomatar dynn_mngvnt_tubei dynn_mngvnt_terisik dynn_mngvnt_teritjun dynn_mngvnt_ubositai dynn_mngvnt_beshtin dynn_mngvnt_boltegenei dynn_mngvnt_bultemun dynn_mngvnt_boltorik dynn_mngvnt_bodiyai
+		}
+
+		dynasty_names = {
+	        dynn_mngvnt_akutai dynn_mngvnt_albarin dynn_mngvnt_andeiyai dynn_mngvnt_ablisik dynn_mngvnt_arispetjak dynn_mngvnt_boyi dynn_mngvnt_boyigun dynn_mngvnt_borijok dynn_mngvnt_depjarik dynn_mngvnt_devulaj dynn_mngvnt_delik dynn_mngvnt_egetor dynn_mngvnt_inai dynn_mngvnt_fugiyu dynn_mngvnt_yuvante dynn_mngvnt_kultavik dynn_mngvnt_kubrikun dynn_mngvnt_makun dynn_mngvnt_nagalgun dynn_mngvnt_naisung dynn_mngvnt_usok dynn_mngvnt_bitamnig dynn_mngvnt_bumbetegui dynn_mngvnt_raitevi dynn_mngvnt_resung dynn_mngvnt_tibalai dynn_mngvnt_tomatar dynn_mngvnt_tubei dynn_mngvnt_terisik dynn_mngvnt_teritjun dynn_mngvnt_ubositai dynn_mngvnt_beshtin dynn_mngvnt_boltegenei dynn_mngvnt_bultemun dynn_mngvnt_boltorik dynn_mngvnt_bodiyai
+		}
+
+		male_names = {
+			mngvnt_abur mngvnt_aimu mngvnt_akus mngvnt_alur mngvnt_amidiku mngvnt_andetu mngvnt_andetu_2 mngvnt_abalisiku mngvnt_arbas mngvnt_ariyun mngvnt_arisbetiyagu mngvnt_askulu mngvnt_atu mngvnt_bayatu mngvnt_belinu mngvnt_buyala mngvnt_buyu mngvnt_buruyugu mngvnt_budeyagu mngvnt_depijariku mngvnt_depijaru mngvnt_diligu mngvnt_dilis mngvnt_ebes mngvnt_egesut mngvnt_egetur mngvnt_enayu mngvnt_eniju mngvnt_enetiyu mngvnt_enugenu mngvnt_erseniya mngvnt_bogu mngvnt_bontu mngvnt_buguntu mngvnt_bermatu mngvnt_bugiyu mngvnt_gayu mngvnt_garayku mngvnt_ostiqaba mngvnt_hubu mngvnt_hutu mngvnt_yuwanta mngvnt_kantu mngvnt_karamunu mngvnt_kasitiku mngvnt_kelu mngvnt_kodinu mngvnt_kutulustu mngvnt_kubitu mngvnt_lamusu mngvnt_lanu mngvnt_lavasku mngvnt_lemetur mngvnt_lugu mngvnt_metsu mngvnt_moldu mngvnt_nagalkunu mngvnt_nayusunu mngvnt_nayu mngvnt_okuyaayu mngvnt_obu mngvnt_usuku mngvnt_ostu mngvnt_banariyu mngvnt_belunigu mngvnt_bilbutu mngvnt_biled mngvnt_raytebuyu mngvnt_reytu mngvnt_rusungu mngvnt_siku mngvnt_suru mngvnt_tegiyu mngvnt_tumuturiyu mngvnt_teresiku mngvnt_turiyu mngvnt_uku mngvnt_urukeleyu mngvnt_urukelu mngvnt_bantu mngvnt_basunu mngvnt_beyunu mngvnt_beymu mngvnt_benenunu mngvnt_berkebalu mngvnt_boltegu mngvnt_boltuyumnu mngvnt_budu
+		}
+
+		female_names = {
+			mngvnt_akuta mngvnt_andetina mngvnt_abaya mngvnt_askuliya mngvnt_ata mngvnt_bagsuna mngvnt_baytana mngvnt_birigedina mngvnt_buka mngvnt_eba mngvnt_egesuna mngvnt_egetura mngvnt_betiyana mngvnt_bugunta mngvnt_berema mngvnt_beremesta mngvnt_beremestuna mngvnt_bugiya mngvnt_bugusiya mngvnt_ianta mngvnt_ikebeyuna mngvnt_ituriya mngvnt_yubantuna mngvnt_kanta mngvnt_kuliya mngvnt_kuykuta mngvnt_makuna mngvnt_moloduna mngvnt_musikyaluna mngvnt_musta mngvnt_nereka mngvnt_otuniya mngvnt_rebetuniya mngvnt_retiya mngvnt_taynontiya mngvnt_torostiya mngvnt_urukelina mngvnt_usedika mngvnt_bantkeniya mngvnt_benna mngvnt_berkondarana
+		}
+
+	dynasty_of_location_prefix = "dynnp_du"
+
+	patronym_suffix_male = "dynnpat_suf_yu"
+	patronym_suffix_female = "dynnpat_suf_ya"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5		
+	founder_named_dynasties = yes					
+}

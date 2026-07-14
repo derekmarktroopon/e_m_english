@@ -1,0 +1,96 @@
+﻿
+language_pie = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_pie
+		}
+	}
+
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_pie }
+			multiply = 10
+		}
+	}
+	
+	color = { 1 33 66 }
+}
+
+language_proto_germanic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_proto_germanic
+		}
+	}
+
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_proto_germanic }
+			multiply = 10
+		}
+	}
+	
+	color = { 23 64 82 }	
+}
+
+language_gothic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_gothic
+		}
+	}
+
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_gothic }
+			multiply = 10
+		}
+	}
+	
+	color = gothic	
+}
+
+
+language_vandalic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_vandalic
+		}
+	}
+
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_vandalic }
+			multiply = 10
+		}
+	}
+	
+	color = { 89 64 29 }	
+}
+
+language_indo_germanic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_indo_germanic
+		}
+	}
+
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_indo_germanic }
+			multiply = 10
+		}
+	}
+	
+	color = { 105 51 55 }	
+}

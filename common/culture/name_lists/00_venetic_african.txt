@@ -1,0 +1,102 @@
+﻿	
+###################################################
+##### East African
+##################################################
+
+name_list_venetic_amhara = {
+		cadet_dynasty_names = {
+            dynn_ethvnt_akutiyos dynn_ethvnt_albaraniyos dynn_ethvnt_antayyos dynn_ethvnt_afelasaqos dynn_ethvnt_arasafatayaqos dynn_ethvnt_boyiyos dynn_ethvnt_boyaqanos dynn_ethvnt_baroyaqos dynn_ethvnt_dayafaraqos dynn_ethvnt_daywalayyos dynn_ethvnt_dilaqos dynn_ethvnt_egatoriyos dynn_ethvnt_eynayos dynn_ethvnt_fagiyos dynn_ethvnt_yuwanatiyos dynn_ethvnt_qalutabaqos dynn_ethvnt_kupraqoniyos dynn_ethvnt_maqaqanos dynn_ethvnt_nagalaqanos dynn_ethvnt_nayasanaqos dynn_ethvnt_osaqos dynn_ethvnt_fatamanaqos dynn_ethvnt_fampatagwāyos dynn_ethvnt_ratawiyos dynn_ethvnt_rasunkos dynn_ethvnt_tawalayos dynn_ethvnt_tomatoriyos dynn_ethvnt_tawpayo dynn_ethvnt_tarishaqos dynn_ethvnt_taratayoniyos dynn_ethvnt_uposatiyos dynn_ethvnt_wastaniyos dynn_ethvnt_walotaganiyos dynn_ethvnt_walotayomaniyos dynn_ethvnt_walotolaraqos dynn_ethvnt_wotayyos
+		}
+		dynasty_names = {
+            dynn_ethvnt_akutiyos dynn_ethvnt_albaraniyos dynn_ethvnt_antayyos dynn_ethvnt_afelasaqos dynn_ethvnt_arasafatayaqos dynn_ethvnt_boyiyos dynn_ethvnt_boyaqanos dynn_ethvnt_baroyaqos dynn_ethvnt_dayafaraqos dynn_ethvnt_daywalayyos dynn_ethvnt_dilaqos dynn_ethvnt_egatoriyos dynn_ethvnt_eynayos dynn_ethvnt_fagiyos dynn_ethvnt_yuwanatiyos dynn_ethvnt_qalutabaqos dynn_ethvnt_kupraqoniyos dynn_ethvnt_maqaqanos dynn_ethvnt_nagalaqanos dynn_ethvnt_nayasanaqos dynn_ethvnt_osaqos dynn_ethvnt_fatamanaqos dynn_ethvnt_fampatagwāyos dynn_ethvnt_ratawiyos dynn_ethvnt_rasunkos dynn_ethvnt_tawalayos dynn_ethvnt_tomatoriyos dynn_ethvnt_tawpayo dynn_ethvnt_tarishaqos dynn_ethvnt_taratayoniyos dynn_ethvnt_uposatiyos dynn_ethvnt_wastaniyos dynn_ethvnt_walotaganiyos dynn_ethvnt_walotayomaniyos dynn_ethvnt_walotolaraqos dynn_ethvnt_wotayyos
+		}
+		male_names = {
+			ethvnt_afares ethvnt_ayamo ethvnt_akwut ethvnt_alero ethvnt_ametaqos ethvnt_andatiyos ethvnt_andatos ethvnt_afelasaqos ethvnt_arebos ethvnt_aryones ethvnt_arasafatayaqos ethvnt_asqolos ethvnt_atto ethvnt_bayatos ethvnt_balanas ethvnt_boyaalas ethvnt_boyyos ethvnt_budiyaqos ethvnt_budiyaqo ethvnt_dayafaraqos ethvnt_dayafaras ethvnt_dilaqos ethvnt_dilas ethvnt_ebos ethvnt_egasat ethvnt_egator ethvnt_eynayo ethvnt_eniyos ethvnt_enatiyos ethvnt_enoganas ethvnt_ersanayos ethvnt_fawago ethvnt_fantas ethvnt_fawagontas ethvnt_faramastos ethvnt_fagiyos ethvnt_gayyos ethvnt_garayqos ethvnt_hostihabos ethvnt_huwbos ethvnt_huttos ethvnt_yuwanat ethvnt_qantas ethvnt_qaramanas ethvnt_qastiqos ethvnt_qalos ethvnt_qawtanas ethvnt_qatulistos ethvnt_qawato ethvnt_lamushyo ethvnt_lanat ethvnt_lawasaqos ethvnt_lamator ethvnt_lukas ethvnt_matsho ethvnt_maldo ethvnt_nagalakonos ethvnt_nayasanaqos ethvnt_nayshos ethvnt_oqayayyos ethvnt_opos ethvnt_osaqos ethvnt_osat ethvnt_panariyos ethvnt_palonaqos ethvnt_pilapat ethvnt_paladas ethvnt_ratawiyos ethvnt_ratayas ethvnt_rasunkos ethvnt_saqos ethvnt_suros ethvnt_takiyos ethvnt_tomatoriyos ethvnt_tarishaqos ethvnt_turiyo ethvnt_uqo ethvnt_uraqalayos ethvnt_uraqlas ethvnt_wantash ethvnt_want ethvnt_wasano ethvnt_wayyangos ethvnt_waymas ethvnt_wanonas ethvnt_warkafalos ethvnt_walotaganas ethvnt_walotayomanos ethvnt_woto
+		}
+		female_names = {
+			ethvnt_akuta ethvnt_andatina ethvnt_apayya ethvnt_asqoliya ethvnt_atta ethvnt_bagsiwanya ethvnt_bayitoniya ethvnt_bargadina ethvnt_buka ethvnt_ebafa ethvnt_efa ethvnt_egasitina ethvnt_egatora ethvnt_fatiyana ethvnt_fawagonta ethvnt_farama ethvnt_faramasta ethvnt_faramastina ethvnt_fagiya ethvnt_fagishiya ethvnt_yanta ethvnt_eqawayyoniya ethvnt_ituriya ethvnt_yuwanitina ethvnt_qanta ethvnt_qoliya ethvnt_kuwikuta ethvnt_maqana ethvnt_maldina ethvnt_musiqwyalina ethvnt_musita ethvnt_nayraka ethvnt_naraka ethvnt_oteniya ethvnt_rabatoniya ethvnt_ratiyya ethvnt_taynontiya ethvnt_tarositiya ethvnt_uraqalina ethvnt_usadaka ethvnt_wantaqanya ethvnt_wanana ethvnt_warkondarina
+		}   
+	
+	dynasty_of_location_prefix = "dynnp_da"
+	
+	patronym_suffix_male = "dynnp_ethvnt_yos"
+	patronym_suffix_female = "dynnp_ethvnt_ya"
+
+}
+
+name_list_venetic_amhara_biblical = {
+		cadet_dynasty_names = {
+            dynn_ethvnt_akutiyos dynn_ethvnt_albaraniyos dynn_ethvnt_antayyos dynn_ethvnt_afelasaqos dynn_ethvnt_arasafatayaqos dynn_ethvnt_boyiyos dynn_ethvnt_boyaqanos dynn_ethvnt_baroyaqos dynn_ethvnt_dayafaraqos dynn_ethvnt_daywalayyos dynn_ethvnt_dilaqos dynn_ethvnt_egatoriyos dynn_ethvnt_eynayos dynn_ethvnt_fagiyos dynn_ethvnt_yuwanatiyos dynn_ethvnt_qalutabaqos dynn_ethvnt_kupraqoniyos dynn_ethvnt_maqaqanos dynn_ethvnt_nagalaqanos dynn_ethvnt_nayasanaqos dynn_ethvnt_osaqos dynn_ethvnt_fatamanaqos dynn_ethvnt_fampatagwāyos dynn_ethvnt_ratawiyos dynn_ethvnt_rasunkos dynn_ethvnt_tawalayos dynn_ethvnt_tomatoriyos dynn_ethvnt_tawpayo dynn_ethvnt_tarishaqos dynn_ethvnt_taratayoniyos dynn_ethvnt_uposatiyos dynn_ethvnt_wastaniyos dynn_ethvnt_walotaganiyos dynn_ethvnt_walotayomaniyos dynn_ethvnt_walotolaraqos dynn_ethvnt_wotayyos
+		}
+		dynasty_names = {
+            dynn_ethvnt_akutiyos dynn_ethvnt_albaraniyos dynn_ethvnt_antayyos dynn_ethvnt_afelasaqos dynn_ethvnt_arasafatayaqos dynn_ethvnt_boyiyos dynn_ethvnt_boyaqanos dynn_ethvnt_baroyaqos dynn_ethvnt_dayafaraqos dynn_ethvnt_daywalayyos dynn_ethvnt_dilaqos dynn_ethvnt_egatoriyos dynn_ethvnt_eynayos dynn_ethvnt_fagiyos dynn_ethvnt_yuwanatiyos dynn_ethvnt_qalutabaqos dynn_ethvnt_kupraqoniyos dynn_ethvnt_maqaqanos dynn_ethvnt_nagalaqanos dynn_ethvnt_nayasanaqos dynn_ethvnt_osaqos dynn_ethvnt_fatamanaqos dynn_ethvnt_fampatagwāyos dynn_ethvnt_ratawiyos dynn_ethvnt_rasunkos dynn_ethvnt_tawalayos dynn_ethvnt_tomatoriyos dynn_ethvnt_tawpayo dynn_ethvnt_tarishaqos dynn_ethvnt_taratayoniyos dynn_ethvnt_uposatiyos dynn_ethvnt_wastaniyos dynn_ethvnt_walotaganiyos dynn_ethvnt_walotayomaniyos dynn_ethvnt_walotolaraqos dynn_ethvnt_wotayyos
+		}
+		male_names = {
+			70 = {
+				ethvnt_afares ethvnt_ayamo ethvnt_akwut ethvnt_alero ethvnt_ametaqos ethvnt_andatiyos ethvnt_andatos ethvnt_afelasaqos ethvnt_arebos ethvnt_aryones ethvnt_arasafatayaqos ethvnt_asqolos ethvnt_atto ethvnt_bayatos ethvnt_balanas ethvnt_boyaalas ethvnt_boyyos ethvnt_budiyaqos ethvnt_budiyaqo ethvnt_dayafaraqos ethvnt_dayafaras ethvnt_dilaqos ethvnt_dilas ethvnt_ebos ethvnt_egasat ethvnt_egator ethvnt_eynayo ethvnt_eniyos ethvnt_enatiyos ethvnt_enoganas ethvnt_ersanayos ethvnt_fawago ethvnt_fantas ethvnt_fawagontas ethvnt_faramastos ethvnt_fagiyos ethvnt_gayyos ethvnt_garayqos ethvnt_hostihabos ethvnt_huwbos ethvnt_huttos ethvnt_yuwanat ethvnt_qantas ethvnt_qaramanas ethvnt_qastiqos ethvnt_qalos ethvnt_qawtanas ethvnt_qatulistos ethvnt_qawato ethvnt_lamushyo ethvnt_lanat ethvnt_lawasaqos ethvnt_lamator ethvnt_lukas ethvnt_matsho ethvnt_maldo ethvnt_nagalakonos ethvnt_nayasanaqos ethvnt_nayshos ethvnt_oqayayyos ethvnt_opos ethvnt_osaqos ethvnt_osat ethvnt_panariyos ethvnt_palonaqos ethvnt_pilapat ethvnt_paladas ethvnt_ratawiyos ethvnt_ratayas ethvnt_rasunkos ethvnt_saqos ethvnt_suros ethvnt_takiyos ethvnt_tomatoriyos ethvnt_tarishaqos ethvnt_turiyo ethvnt_uqo ethvnt_uraqalayos ethvnt_uraqlas ethvnt_wantash ethvnt_want ethvnt_wasano ethvnt_wayyangos ethvnt_waymas ethvnt_wanonas ethvnt_warkafalos ethvnt_walotaganas ethvnt_walotayomanos ethvnt_woto
+			}
+			30 = {
+				Benaim Daniachew Dawit Eremias Gabra Gebre Gebereal Iyasu Kaleb Tewodros Yacob Yohannas Yonas
+			}
+		}
+		female_names = {
+			70 = {
+				ethvnt_akuta ethvnt_andatina ethvnt_apayya ethvnt_asqoliya ethvnt_atta ethvnt_bagsiwanya ethvnt_bayitoniya ethvnt_bargadina ethvnt_buka ethvnt_ebafa ethvnt_efa ethvnt_egasitina ethvnt_egatora ethvnt_fatiyana ethvnt_fawagonta ethvnt_farama ethvnt_faramasta ethvnt_faramastina ethvnt_fagiya ethvnt_fagishiya ethvnt_yanta ethvnt_eqawayyoniya ethvnt_ituriya ethvnt_yuwanitina ethvnt_qanta ethvnt_qoliya ethvnt_kuwikuta ethvnt_maqana ethvnt_maldina ethvnt_musiqwyalina ethvnt_musita ethvnt_nayraka ethvnt_naraka ethvnt_oteniya ethvnt_rabatoniya ethvnt_ratiyya ethvnt_taynontiya ethvnt_tarositiya ethvnt_uraqalina ethvnt_usadaka ethvnt_wantaqanya ethvnt_wanana ethvnt_warkondarina
+			}
+			30 = {
+				Bathsheba Belkis Keren Makeda Makda Sheba Yehudit Zauditu Magdala
+			}
+		}   
+	
+	dynasty_of_location_prefix = "dynnp_da"
+	
+	patronym_suffix_male = "dynnp_ethvnt_yos"
+	patronym_suffix_female = "dynnp_ethvnt_ya"
+
+}
+
+name_list_venetic_nubian = {
+		cadet_dynasty_names = {
+            dyn_nubvnt_akuti dyn_nubvnt_alparenyo dyn_nubvnt_anteyayo dyn_nubvnt_apisiko dyn_nubvnt_arspetiyak dyn_nubvnt_boyo dyn_nubvnt_boikin dyn_nubvnt_broiyok dyn_nubvnt_depyarik dyn_nubvnt_depolayo dyn_nubvnt_dilik dyn_nubvnt_egetori dyn_nubvnt_enayo dyn_nubvnt_fugiyo dyn_nubvnt_yuvanti dyn_nubvnt_klutavik dyn_nubvnt_kuprikon dyn_nubvnt_makin dyn_nubvnt_nagalkin dyn_nubvnt_nasonk dyn_nubvnt_osok dyn_nubvnt_pitaminik dyn_nubvnt_pompetegwaya dyn_nubvnt_raitiwiyo dyn_nubvnt_resonk dyn_nubvnt_tibali dyn_nubvnt_tomatori dyn_nubvnt_tupayo dyn_nubvnt_trishik dyn_nubvnt_tritiyon dyn_nubvnt_uposeti dyn_nubvnt_pestini dyn_nubvnt_boltigeni dyn_nubvnt_boltioni dyn_nubvnt_boltolarik dyn_nubvnt_boteyo
+		}
+		dynasty_names = {
+            dyn_nubvnt_akuti dyn_nubvnt_alparenyo dyn_nubvnt_anteyayo dyn_nubvnt_apisiko dyn_nubvnt_arspetiyak dyn_nubvnt_boyo dyn_nubvnt_boikin dyn_nubvnt_broiyok dyn_nubvnt_depyarik dyn_nubvnt_depolayo dyn_nubvnt_dilik dyn_nubvnt_egetori dyn_nubvnt_enayo dyn_nubvnt_fugiyo dyn_nubvnt_yuvanti dyn_nubvnt_klutavik dyn_nubvnt_kuprikon dyn_nubvnt_makin dyn_nubvnt_nagalkin dyn_nubvnt_nasonk dyn_nubvnt_osok dyn_nubvnt_pitaminik dyn_nubvnt_pompetegwaya dyn_nubvnt_raitiwiyo dyn_nubvnt_resonk dyn_nubvnt_tibali dyn_nubvnt_tomatori dyn_nubvnt_tupayo dyn_nubvnt_trishik dyn_nubvnt_tritiyon dyn_nubvnt_uposeti dyn_nubvnt_pestini dyn_nubvnt_boltigeni dyn_nubvnt_boltioni dyn_nubvnt_boltolarik dyn_nubvnt_boteyo
+		}
+		male_names = {
+			nubvnt_afro nubvnt_aimo nubvnt_akut nubvnt_alero nubvnt_ametik nubvnt_andeti nubvnt_andet nubvnt_apisik nubvnt_arbo nubvnt_ariun nubvnt_arsetiyak nubvnt_askolo nubvnt_ato nubvnt_pait nubvnt_belen nubvnt_boyal nubvnt_boyo nubvnt_broyok nubvnt_budiyak nubvnt_depyarik nubvnt_depiyari nubvnt_dilik nubvnt_dili nubvnt_ebo nubvnt_egest nubvnt_egeto nubvnt_enayo nubvnt_eniyo nubvnt_eneti nubvnt_enogen nubvnt_ersini nubvnt_fugo nubvnt_fonti nubvnt_fugonti nubvnt_fremast nubvnt_fugiyo nubvnt_gayo nubvnt_graik nubvnt_awstikabo nubvnt_ubo nubvnt_uto nubvnt_yuban nubvnt_kante nubvnt_karam nubvnt_kastik nubvnt_kelo nubvnt_ketini nubvnt_tulisit nubvnt_kubito nubvnt_lamusiyo nubvnt_lan nubvnt_lawko nubvnt_lemeto nubvnt_luks nubvnt_metso nubvnt_moldo nubvnt_nagalkin nubvnt_naison nubvnt_naysho nubvnt_okiaiyo nubvnt_opo nubvnt_osok nubvnt_osit nubvnt_panari nubvnt_pelonik nubvnt_pilpot nubvnt_piledi nubvnt_raitiwiyo nubvnt_reiti nubvnt_resonk nubvnt_shiko nubvnt_suro nubvnt_teki nubvnt_tomatori nubvnt_trishi nubvnt_turiyo nubvnt_uko nubvnt_urkileyo nubvnt_urkeli nubvnt_panti nubvnt_pant nubvnt_paseno nubvnt_begno nubvnt_bemi nubvnt_benon nubvnt_berikal nubvnt_poltigen nubvnt_poltion nubvnt_boto
+		}
+		female_names = {
+			nubvnt_akuta nubvnt_andetina nubvnt_apaya nubvnt_askolia nubvnt_ata nubvnt_baksonia nubvnt_paitonia nubvnt_brikitina nubvnt_buka nubvnt_ebfa nubvnt_efa nubvnt_egastina nubvnt_egetora nubvnt_petiana nubvnt_fugonta nubvnt_frema nubvnt_fremasta nubvnt_fremastina nubvnt_fugia nubvnt_fugsia nubvnt_yanta nubvnt_ikewioneya nubvnt_ituria nubvnt_yuvantina nubvnt_kanta nubvnt_kolia nubvnt_kuikuta nubvnt_makina nubvnt_moltina nubvnt_muskialina nubvnt_musta nubvnt_neyirka nubvnt_nerka nubvnt_otnia nubvnt_repetonia nubvnt_reitia nubvnt_tainontia nubvnt_trostia nubvnt_urkleina nubvnt_ushedika nubvnt_pankenia nubvnt_bena nubvnt_perkondarna
+		}   
+	
+	dynasty_of_location_prefix = "dynnp_de"
+
+}
+
+name_list_venetic_nubian_biblical = {
+		cadet_dynasty_names = {
+            dyn_nubvnt_akuti dyn_nubvnt_alparenyo dyn_nubvnt_anteyayo dyn_nubvnt_apisiko dyn_nubvnt_arspetiyak dyn_nubvnt_boyo dyn_nubvnt_boikin dyn_nubvnt_broiyok dyn_nubvnt_depyarik dyn_nubvnt_depolayo dyn_nubvnt_dilik dyn_nubvnt_egetori dyn_nubvnt_enayo dyn_nubvnt_fugiyo dyn_nubvnt_yuvanti dyn_nubvnt_klutavik dyn_nubvnt_kuprikon dyn_nubvnt_makin dyn_nubvnt_nagalkin dyn_nubvnt_nasonk dyn_nubvnt_osok dyn_nubvnt_pitaminik dyn_nubvnt_pompetegwaya dyn_nubvnt_raitiwiyo dyn_nubvnt_resonk dyn_nubvnt_tibali dyn_nubvnt_tomatori dyn_nubvnt_tupayo dyn_nubvnt_trishik dyn_nubvnt_tritiyon dyn_nubvnt_uposeti dyn_nubvnt_pestini dyn_nubvnt_boltigeni dyn_nubvnt_boltioni dyn_nubvnt_boltolarik dyn_nubvnt_boteyo
+		}
+		dynasty_names = {
+            dyn_nubvnt_akuti dyn_nubvnt_alparenyo dyn_nubvnt_anteyayo dyn_nubvnt_apisiko dyn_nubvnt_arspetiyak dyn_nubvnt_boyo dyn_nubvnt_boikin dyn_nubvnt_broiyok dyn_nubvnt_depyarik dyn_nubvnt_depolayo dyn_nubvnt_dilik dyn_nubvnt_egetori dyn_nubvnt_enayo dyn_nubvnt_fugiyo dyn_nubvnt_yuvanti dyn_nubvnt_klutavik dyn_nubvnt_kuprikon dyn_nubvnt_makin dyn_nubvnt_nagalkin dyn_nubvnt_nasonk dyn_nubvnt_osok dyn_nubvnt_pitaminik dyn_nubvnt_pompetegwaya dyn_nubvnt_raitiwiyo dyn_nubvnt_resonk dyn_nubvnt_tibali dyn_nubvnt_tomatori dyn_nubvnt_tupayo dyn_nubvnt_trishik dyn_nubvnt_tritiyon dyn_nubvnt_uposeti dyn_nubvnt_pestini dyn_nubvnt_boltigeni dyn_nubvnt_boltioni dyn_nubvnt_boltolarik dyn_nubvnt_boteyo
+		}
+		male_names = {
+			60 = {
+				nubvnt_afro nubvnt_aimo nubvnt_akut nubvnt_alero nubvnt_ametik nubvnt_andeti nubvnt_andet nubvnt_apisik nubvnt_arbo nubvnt_ariun nubvnt_arsetiyak nubvnt_askolo nubvnt_ato nubvnt_pait nubvnt_belen nubvnt_boyal nubvnt_boyo nubvnt_broyok nubvnt_budiyak nubvnt_depyarik nubvnt_depiyari nubvnt_dilik nubvnt_dili nubvnt_ebo nubvnt_egest nubvnt_egeto nubvnt_enayo nubvnt_eniyo nubvnt_eneti nubvnt_enogen nubvnt_ersini nubvnt_fugo nubvnt_fonti nubvnt_fugonti nubvnt_fremast nubvnt_fugiyo nubvnt_gayo nubvnt_graik nubvnt_awstikabo nubvnt_ubo nubvnt_uto nubvnt_yuban nubvnt_kante nubvnt_karam nubvnt_kastik nubvnt_kelo nubvnt_ketini nubvnt_tulisit nubvnt_kubito nubvnt_lamusiyo nubvnt_lan nubvnt_lawko nubvnt_lemeto nubvnt_luks nubvnt_metso nubvnt_moldo nubvnt_nagalkin nubvnt_naison nubvnt_naysho nubvnt_okiaiyo nubvnt_opo nubvnt_osok nubvnt_osit nubvnt_panari nubvnt_pelonik nubvnt_pilpot nubvnt_piledi nubvnt_raitiwiyo nubvnt_reiti nubvnt_resonk nubvnt_shiko nubvnt_suro nubvnt_teki nubvnt_tomatori nubvnt_trishi nubvnt_turiyo nubvnt_uko nubvnt_urkileyo nubvnt_urkeli nubvnt_panti nubvnt_pant nubvnt_paseno nubvnt_begno nubvnt_bemi nubvnt_benon nubvnt_berikal nubvnt_poltigen nubvnt_poltion nubvnt_boto
+			}
+			40 = {
+				Abraam Andreas Dauid Eliezer Emmanouel EnO_ch Gabriel HE_lias Hoase Hoassi Hoasse Iacob Ieremias IE_sous Iordanes Ioseph Lazaros Maththias MichaE_l Mouses Philemon Samson Simeoni SolomO_n Thoma Zacharias
+			} 
+		}
+		female_names = {
+			60 = {
+				nubvnt_akuta nubvnt_andetina nubvnt_apaya nubvnt_askolia nubvnt_ata nubvnt_baksonia nubvnt_paitonia nubvnt_brikitina nubvnt_buka nubvnt_ebfa nubvnt_efa nubvnt_egastina nubvnt_egetora nubvnt_petiana nubvnt_fugonta nubvnt_frema nubvnt_fremasta nubvnt_fremastina nubvnt_fugia nubvnt_fugsia nubvnt_yanta nubvnt_ikewioneya nubvnt_ituria nubvnt_yuvantina nubvnt_kanta nubvnt_kolia nubvnt_kuikuta nubvnt_makina nubvnt_moltina nubvnt_muskialina nubvnt_musta nubvnt_neyirka nubvnt_nerka nubvnt_otnia nubvnt_repetonia nubvnt_reitia nubvnt_tainontia nubvnt_trostia nubvnt_urkleina nubvnt_ushedika nubvnt_pankenia nubvnt_bena nubvnt_perkondarna
+			}
+			40 = {
+				Agathe Alethia ChaelsoN_oja Christina Elisabeth Eirena Eirene EphannE_ Fatima Hellene IE_sousyko Maria Mariam Mariane Marianou MichaE_liko Rahimah Sousanna Zerebekka 
+			}
+		}   
+	
+	dynasty_of_location_prefix = "dynnp_de"
+
+}

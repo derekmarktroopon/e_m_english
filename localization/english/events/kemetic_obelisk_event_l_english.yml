@@ -1,0 +1,32 @@
+﻿l_english:
+
+ obelisk_raising.0101.t.root_title:0 "Pillars Through the Ages"
+ obelisk_raising.0101.t:0 "$obelisk_raising.0101.t.root_title$: Subject"
+ obelisk_raising.0101.desc:0 "Obelisks hold a vital role in displaying important events and information. It is important for a [ROOT.Char.GetTitleAsNameNoTooltip] like myself, to have my deeds and history told in these pillars, for all to see.\n\nWhat shall this monument speak of?"
+ obelisk_raising.0101.a:0 "My departed [ROOT.Char.Custom2('RelationToMeShort',ancestor)], [ancestor.GetFirstNameNoTooltip]."
+ obelisk_raising.0101.a.tt:0 "The obelisk will speak of your departed family..."
+ obelisk_raising.0101.b:0 "Perhaps my vanquished foe, [foe.GetTitledFirstNameNoTooltip]?"
+ obelisk_raising.0101.b.tt:0 "The obelisk will speak of your victories in conquest..."
+ obelisk_raising.0101.c:0 "My accession to the throne of [new_title.GetNameNoTierNoTooltip]!"
+ obelisk_raising.0101.c.tt:0 "The obelisk will speak of how you came to rule..."
+ obelisk_raising.0101.d:0 "You want me to pay #EMP HOW#! much for a giant pillar?"
+
+ obelisk_raising.0111.t:0 "$obelisk_raising.0101.t.root_title$: Location"
+ obelisk_raising.0111.desc.intro:0 "Now that I have decided what to put on the obelisk, the question remains: where to place it?\n\n"
+ obelisk_raising.0111.desc.ancestor:0 "Memorials to family, like [ancestor.GetFirstName], encourage respect and fealty. They are best placed in areas that think little of me, where I can make an example of my dedication and servitude to higher powers."
+ obelisk_raising.0111.desc.conquest:0 "Memorials to victory, such as my triumph over [foe.GetTitledFirstName], are a constant reminder of a war's glorious end. They are best placed in areas that require encouragement to cooperate."
+ obelisk_raising.0111.desc.promotion:0 "Monuments to ennoblement, such as my rise to [ROOT.Char.GetTitleAsNameNoTooltip] of [new_title.GetNameNoTierNoTooltip], encourage people to serve their ruler through thick and thin. They're best placed in urban areas, where more youths can be inspired to turn out for the levy."
+ obelisk_raising.0111.desc.outro:0 "\n\nOf course, one or two spots do spring to mind..."
+ obelisk_raising.0111.a:0 "[location_a.GetNameNoTierNoTooltip|U] would be a good place."
+ obelisk_raising.0111.b:0 "[location_b.GetNameNoTierNoTooltip|U] seems decent enough?"
+ obelisk_raising.0111.c:0 "[location_c.GetNameNoTierNoTooltip|U] makes a fine choice!"
+ 
+raise_obelisk_decision:0 "Raise Obelisk"
+raise_obelisk_decision_decision_desc:0 "It is time to erect a magnificent obelisk, to display the events of my great life to my subjects."
+raise_obelisk_decision_decision_tooltip:0 "You comission an obelisk"
+
+raise_obelisk_decision_tt.variable_strength:0 "You gain vassal opinion"
+raise_obelisk_decision_tt.effects_list:0 "An obelisk is built in a province of your choosing"
+raise_obelisk_decision_warning:0 "If another dynasty takes control of the county where the obelisk stands, it will be destroyed!"
+raise_obelisk_decision_ancestor:0 "You have an ancestor that has recently passed away"
+raise_obelisk_decision_rank:0 "You have recently climbed in rank"

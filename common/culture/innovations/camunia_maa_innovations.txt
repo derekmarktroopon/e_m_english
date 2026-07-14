@@ -1,0 +1,17 @@
+﻿#### Local Types ####
+@special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
+
+innovation_camunic_maa = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @special_maa_02
+
+	potential = {
+		this = culture:camunic
+	}
+
+	unlock_maa = camunic_axe_infantry
+
+	flag = global_maa
+}
+

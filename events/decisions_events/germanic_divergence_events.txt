@@ -1,0 +1,1348 @@
+﻿namespace = proto_germanic_divergence_events
+
+##################################################
+# Ingaevonic culture Diverges
+##################################################
+
+proto_germanic_divergence_events.1 = { #Ingaevonic culture splits by dutchy
+	hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			limit = {
+				OR = {
+					has_name_list = name_list_ingaevonic
+					has_name_list = name_list_late_ingaevonic
+				}
+			}
+			every_culture_county = {
+				limit = {
+					title_province = { duchy = title:d_bedford }
+				}
+				add_to_list = ingaevonic_counties_to_make_east_saxon
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+						title_province = { duchy = title:d_northumberland }
+						title_province = { duchy = title:d_lancaster }
+						title_province = { duchy = title:d_york }
+						title_province = { duchy = title:d_albany }
+						title_province = { duchy = title:d_the_isles }
+						title_province = { duchy = title:d_galloway }
+						title_province = { duchy = title:d_western_isles }
+						title_province = { duchy = title:d_lothian }
+						title_province = { duchy = title:d_moray }
+					}
+				}
+				add_to_list = ingaevonic_counties_to_make_northumbrian
+			}
+			every_culture_county = {
+				limit = {
+					title_province = { duchy = title:d_norfolk }
+				}
+				add_to_list = ingaevonic_counties_to_make_east_anglian
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+						title_province = { duchy = title:d_hereford }
+						title_province = { duchy = title:d_gwynedd }
+						title_province = { duchy = title:d_powys }
+						title_province = { duchy = title:d_deheubarth }
+					}
+				}
+				add_to_list = ingaevonic_counties_to_make_mercian
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+						title_province = { duchy = title:d_gloucester }
+						title_province = { duchy = title:d_somerset }
+						title_province = { duchy = title:d_cornwall }
+					}
+				}
+				add_to_list = ingaevonic_counties_to_make_west_saxon
+			}
+			every_culture_county = {
+				limit = {
+					title_province = { duchy = title:d_canterbury }
+				}
+				add_to_list = ingaevonic_counties_to_make_kentish
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+						title_province = { duchy = title:d_holland }
+						title_province = { duchy = title:d_gelre }
+						title_province = { duchy = title:d_utrecht }
+						title_province = { duchy = title:d_frisia }
+						title_province = { duchy = title:d_luxembourg }
+						title_province = { duchy = title:d_brabant }
+						title_province = { duchy = title:d_julich }
+						title_province = { duchy = title:d_upper_lorraine }
+					}
+				}
+				add_to_list = ingaevonic_counties_to_make_frisian
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+						title_province = { duchy = title:d_angria }
+						title_province = { duchy = title:d_westfalen }
+						title_province = { duchy = title:d_ostfalen }
+						title_province = { duchy = title:d_holstein }
+						title_province = { duchy = title:d_jylland }
+						title_province = { duchy = title:d_slesvig }
+						title_province = { duchy = title:d_west_franconia }
+						title_province = { duchy = title:d_east_franconia }
+						title_province = { duchy = title:d_alsace }
+						title_province = { duchy = title:d_swabia }
+						title_province = { duchy = title:d_meissen }
+						title_province = { duchy = title:d_lausitz }
+					}
+				}
+				add_to_list = ingaevonic_counties_to_make_old_saxon
+			}
+		}
+		every_in_list = {#####
+			list = ingaevonic_counties_to_make_east_saxon
+			set_county_culture = culture:east_saxon
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							OR = {
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
+						}
+					}
+					set_culture = culture:east_saxon
+					every_courtier = {
+						limit = {
+							culture = { 
+								OR = {
+									has_name_list = name_list_ingaevonic
+									has_name_list = name_list_late_ingaevonic
+								}
+							}
+						}
+						set_culture = culture:east_saxon
+					}
+				}
+			}
+		}
+		culture:east_saxon = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:ingaevonic
+		}
+		every_in_list = {#####
+			list = ingaevonic_counties_to_make_northumbrian
+			set_county_culture = culture:northumbrian
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							OR = {
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
+						}
+					}
+					set_culture = culture:northumbrian
+					every_courtier = {
+						limit = {
+							culture = { 
+								OR = {
+									has_name_list = name_list_ingaevonic
+									has_name_list = name_list_late_ingaevonic
+								}
+							}
+						}
+						set_culture = culture:northumbrian
+					}
+				}
+			}
+		}
+		culture:northumbrian = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:ingaevonic
+		}
+		every_in_list = {#####
+			list = ingaevonic_counties_to_make_east_anglian
+			set_county_culture = culture:east_anglian
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							OR = {
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
+						}
+					}
+					set_culture = culture:east_anglian
+					every_courtier = {
+						limit = {
+							culture = { 
+								OR = {
+									has_name_list = name_list_ingaevonic
+									has_name_list = name_list_late_ingaevonic
+								}
+							}
+						}
+						set_culture = culture:east_anglian
+					}
+				}
+			}
+		}
+		culture:east_anglian = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:ingaevonic
+		}
+		every_in_list = {#####
+			list = ingaevonic_counties_to_make_mercian
+			set_county_culture = culture:mercian
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							OR = {
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
+						}
+					}
+					set_culture = culture:mercian
+					every_courtier = {
+						limit = {
+							culture = { 
+								OR = {
+									has_name_list = name_list_ingaevonic
+									has_name_list = name_list_late_ingaevonic
+								}
+							}
+						}
+						set_culture = culture:mercian
+					}
+				}
+			}
+		}
+		culture:mercian = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:ingaevonic
+		}
+		every_in_list = {#####
+			list = ingaevonic_counties_to_make_west_saxon
+			set_county_culture = culture:west_saxon
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							OR = {
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
+						}
+					}
+					set_culture = culture:west_saxon
+					every_courtier = {
+						limit = {
+							culture = { 
+								OR = {
+									has_name_list = name_list_ingaevonic
+									has_name_list = name_list_late_ingaevonic
+								}
+							}
+						}
+						set_culture = culture:west_saxon
+					}
+				}
+			}
+		}
+		culture:west_saxon = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:ingaevonic
+		}
+		every_in_list = {#####
+			list = ingaevonic_counties_to_make_kentish
+			set_county_culture = culture:kentish
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							OR = {
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
+						}
+					}
+					set_culture = culture:kentish
+					every_courtier = {
+						limit = {
+							culture = { 
+								OR = {
+									has_name_list = name_list_ingaevonic
+									has_name_list = name_list_late_ingaevonic
+								}
+							}
+						}
+						set_culture = culture:kentish
+					}
+				}
+			}
+		}
+		culture:kentish = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:ingaevonic
+		}
+		every_in_list = {#####
+			list = ingaevonic_counties_to_make_frisian
+			set_county_culture = culture:frisian
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							OR = {
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
+						}
+					}
+					set_culture = culture:frisian
+					every_courtier = {
+						limit = {
+							culture = { 
+								OR = {
+									has_name_list = name_list_ingaevonic
+									has_name_list = name_list_late_ingaevonic
+								}
+							}
+						}
+						set_culture = culture:frisian
+					}
+				}
+			}
+		}
+		culture:frisian = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:ingaevonic
+		}
+		every_in_list = {#####
+			list = ingaevonic_counties_to_make_old_saxon
+			set_county_culture = culture:old_saxon
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							OR = {
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
+						}
+					}
+					set_culture = culture:old_saxon
+					every_courtier = {
+						limit = {
+							culture = { 
+								OR = {
+									has_name_list = name_list_ingaevonic
+									has_name_list = name_list_late_ingaevonic
+								}
+							}
+						}
+						set_culture = culture:old_saxon
+					}
+				}
+			}
+		}
+		culture:old_saxon = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:ingaevonic
+		}
+	}
+}
+
+##################################################
+# Vendel Culture becomes Old Norse
+##################################################
+
+proto_germanic_divergence_events.2 = { 
+	hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			limit = {
+				OR = {
+					has_name_list = name_list_proto_norse
+					has_name_list = name_list_later_vendel
+				}
+			}
+			every_culture_county = {
+				limit = {
+					geographical_region = world_europe_north
+				}
+				add_to_list = vendel_counties_to_make_old_norse
+			}
+		}
+		every_in_list = {#####
+			list = vendel_counties_to_make_old_norse
+			set_county_culture = culture:norse
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							OR = {
+								has_name_list = name_list_proto_norse
+								has_name_list = name_list_later_vendel
+							}
+						}
+						capital_province = {
+							geographical_region = world_europe_north	
+						}
+					}
+					set_culture = culture:norse
+					every_courtier = {
+						limit = {
+							culture = { 
+								OR = {
+									has_name_list = name_list_proto_norse
+									has_name_list = name_list_later_vendel
+								}
+							}
+						}
+						set_culture = culture:norse
+					}
+				}
+			}
+		}
+		culture:norse = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:proto_norse
+		}
+	}
+}
+
+##################################################
+# Proto-Norse to Vendel period
+##################################################
+
+proto_germanic_divergence_events.3 = { 
+	hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			limit = {
+				has_name_list = name_list_proto_norse
+			}
+			set_name_list = name_list_later_vendel
+		}
+	}
+}
+
+##################################################
+# Gothic adopts later name list
+##################################################
+
+proto_germanic_divergence_events.4 = { 
+	hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			if = {
+				limit = {
+					has_name_list = name_list_gothic
+					NOR = {
+						has_cultural_pillar = heritage_byzantine
+						has_cultural_pillar = heritage_latin
+						has_cultural_pillar = heritage_iberian
+						has_cultural_pillar = heritage_west_germanic
+					}
+				}
+				every_culture_county = {
+					limit = {
+						OR = {
+							title_province = { duchy = title:d_syr_darya }
+							title_province = { duchy = title:d_aral_il }
+							title_province = { duchy = title:d_jemba }
+							title_province = { duchy = title:d_aral_karakum }
+							title_province = { duchy = title:d_barsuki }
+							title_province = { duchy = title:d_levedia }
+							title_province = { duchy = title:d_red_levedia }
+							title_province = { duchy = title:d_crimea }
+							title_province = { duchy = title:d_azov }
+							title_province = { duchy = title:d_tana }
+							title_province = { duchy = title:d_don_valley }
+							title_province = { duchy = title:d_khazaria }
+							title_province = { duchy = title:d_itil }
+							title_province = { duchy = title:d_pecheneg }
+							title_province = { duchy = title:d_volga_bulgaria }
+							title_province = { duchy = title:d_jalmat }
+							title_province = { duchy = title:d_bugurslan }
+							title_province = { duchy = title:d_aqtobe }
+							title_province = { duchy = title:d_manatau }
+							title_province = { duchy = title:d_atyrau }
+							title_province = { duchy = title:d_mugodzhar_hills }
+							title_province = { duchy = title:d_bashkiria }
+							title_province = { duchy = title:d_sakmara }
+							title_province = { duchy = title:d_uraltau }
+							title_province = { duchy = title:d_vogulia }
+							title_province = { duchy = title:d_kurgan }
+							title_province = { duchy = title:d_kush-murun }
+							title_province = { duchy = title:d_tobol-ishim }
+							title_province = { duchy = title:d_atbasar }
+							title_province = { duchy = title:d_turgay }
+							title_province = { duchy = title:d_kokturgay }
+							title_province = { duchy = title:d_qyzylsaryarka }
+							title_province = { duchy = title:d_saryarka }
+							title_province = { duchy = title:d_kazakh }
+							title_province = { duchy = title:d_karabas }
+							title_province = { duchy = title:d_tokumbay }
+							title_province = { duchy = title:d_betpa }
+							title_province = { duchy = title:d_karkaraly }
+							title_province = { duchy = title:d_kentarlau }
+							title_province = { duchy = title:d_degelen }
+							title_province = { duchy = title:d_jinghiz }
+							title_province = { duchy = title:d_semey }
+							title_province = { duchy = title:d_zhetysu }
+							title_province = { duchy = title:d_alakol }
+							title_province = { duchy = title:d_tarbagatai }
+							title_province = { duchy = title:d_ili-alatau }
+							title_province = { duchy = title:d_akaltay }
+							title_province = { duchy = title:d_altay }
+							title_province = { duchy = title:d_gurbantunggut }
+							title_province = { duchy = title:d_beshbalik }
+							title_province = { duchy = title:d_kara_khoja }
+							title_province = { duchy = title:d_naiman_gobi }
+						}
+					}
+					add_to_list = gothic_counties_to_make_crimean_gothic
+				}
+			}
+			if = {
+				limit = {
+					has_name_list = name_list_gothic
+					has_cultural_pillar = heritage_byzantine
+				}
+				set_name_list = name_list_gotho_greek
+			}
+			else_if = {
+				limit = {
+					has_name_list = name_list_gothic
+					has_cultural_pillar = heritage_latin
+				}
+				set_name_list = name_list_gotho_roman
+			}
+			else_if = {
+				limit = {
+					has_name_list = name_list_gothic
+					has_cultural_pillar = heritage_iberian
+				}
+				set_name_list = name_list_visigothic
+			}
+			else_if = {
+				limit = {
+					has_name_list = name_list_gothic
+					has_cultural_pillar = heritage_west_germanic
+				}
+				set_name_list = name_list_late_gothic_northwestern
+			}
+		}
+		every_in_list = {#####
+			list = gothic_counties_to_make_crimean_gothic
+			set_county_culture = culture:crimean_gothic
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							has_name_list = name_list_gothic
+						}
+					}
+					set_culture = culture:crimean_gothic
+					every_courtier = {
+						limit = {
+							culture = { 
+								has_name_list = name_list_gothic
+							}
+						}
+						set_culture = culture:crimean_gothic
+					}
+				}
+			}
+		}
+		culture:crimean_gothic = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:gothic
+		}
+	}
+}
+
+##################################################
+# Irminonic culture Diverges
+##################################################
+
+proto_germanic_divergence_events.5 = { #Irminonic culture splits by dutchy
+	hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			limit = {
+				OR = {
+					has_name_list = name_list_irminonic
+					has_name_list = name_list_late_irminonic
+				}
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+						title_province = { duchy = title:d_angria }
+						title_province = { duchy = title:d_westfalen }
+						title_province = { duchy = title:d_ostfalen }
+						title_province = { duchy = title:d_holstein }
+						title_province = { duchy = title:d_jylland }
+						title_province = { duchy = title:d_slesvig }
+						title_province = { duchy = title:d_west_franconia }
+						title_province = { duchy = title:d_east_franconia }
+						title_province = { duchy = title:d_alsace }
+						title_province = { duchy = title:d_swabia }
+						title_province = { duchy = title:d_meissen }
+						title_province = { duchy = title:d_lausitz }
+						title_province = { duchy = title:d_bohemia }
+						title_province = { duchy = title:d_moravia }
+						title_province = { duchy = title:d_visegrad }
+						title_province = { duchy = title:d_somogy }
+						title_province = { duchy = title:d_nyitra }
+						title_province = { duchy = title:d_ungvar }
+						title_province = { duchy = title:d_transcarpathia }
+						title_province = { duchy = title:d_transylvania }
+						title_province = { duchy = title:d_bihar }
+						title_province = { duchy = title:d_temes }
+						title_province = { duchy = title:d_bacs }
+						title_province = { duchy = title:d_gyor }
+						title_province = { duchy = title:d_syrmia }
+					}
+				}
+				add_to_list = ingaevonic_counties_to_make_langobardic
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+						title_province = { duchy = title:d_bavaria }
+						title_province = { duchy = title:d_nordgau }
+						title_province = { duchy = title:d_salzburg }
+						title_province = { duchy = title:d_augsburg }
+						title_province = { duchy = title:d_steyermark }
+						title_province = { duchy = title:d_osterreich }
+						title_province = { duchy = title:d_tyrol }
+						title_province = { duchy = title:d_carinthia }
+						title_province = { duchy = title:d_krain }
+					}
+				}
+				add_to_list = ingaevonic_counties_to_make_bavarian
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+						title_province = { duchy = title:d_west_franconia }
+						title_province = { duchy = title:d_east_franconia }
+						title_province = { duchy = title:d_hesse }
+						title_province = { duchy = title:d_currezia }
+						title_province = { duchy = title:d_alsace }
+						title_province = { duchy = title:d_swabia }
+						title_province = { duchy = title:d_anhalt }
+						title_province = { duchy = title:d_thuringia }
+						title_province = { duchy = title:d_provence }
+						title_province = { duchy = title:d_savoie }
+						title_province = { duchy = title:d_dauphine }
+						title_province = { duchy = title:d_upper_burgundy }
+						title_province = { duchy = title:d_transjurania }
+					}
+				}
+				add_to_list = ingaevonic_counties_to_make_swabian
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+						title_province = { duchy = title:d_cordoba }
+						title_province = { duchy = title:d_granada }
+						title_province = { duchy = title:d_sevilla }
+						title_province = { duchy = title:d_toledo }
+						title_province = { duchy = title:d_beja }
+						title_province = { duchy = title:d_badajoz }
+						title_province = { duchy = title:d_algarve }
+						title_province = { duchy = title:d_valencia }
+						title_province = { duchy = title:d_mallorca }
+						title_province = { duchy = title:d_murcia }
+						title_province = { duchy = title:d_castilla }
+						title_province = { duchy = title:d_cantabria }
+						title_province = { duchy = title:d_aragon }
+						title_province = { duchy = title:d_barcelona }
+						title_province = { duchy = title:d_navarra }
+						title_province = { duchy = title:d_viscaya }
+						title_province = { duchy = title:d_leon }
+						title_province = { duchy = title:d_asturias }
+						title_province = { duchy = title:d_galicia }
+						title_province = { duchy = title:d_porto }
+						title_province = { duchy = title:d_coimbra }
+					}
+				}
+				add_to_list = ingaevonic_counties_to_make_suebi
+			}
+		}
+		every_in_list = {#####
+			list = ingaevonic_counties_to_make_langobardic
+			set_county_culture = culture:langobard
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							OR = {
+								has_name_list = name_list_irminonic
+								has_name_list = name_list_late_irminonic
+							}
+						}
+					}
+					set_culture = culture:langobard
+					every_courtier = {
+						limit = {
+							culture = { 
+								OR = {
+									has_name_list = name_list_irminonic
+									has_name_list = name_list_late_irminonic
+								}
+							}
+						}
+						set_culture = culture:langobard
+					}
+				}
+			}
+		}
+		culture:langobard = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:irminonic
+		}
+		every_in_list = {#####
+			list = ingaevonic_counties_to_make_bavarian
+			set_county_culture = culture:bavarian
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							OR = {
+								has_name_list = name_list_irminonic
+								has_name_list = name_list_late_irminonic
+							}
+						}
+					}
+					set_culture = culture:bavarian
+					every_courtier = {
+						limit = {
+							culture = { 
+								OR = {
+									has_name_list = name_list_irminonic
+									has_name_list = name_list_late_irminonic
+								}
+							}
+						}
+						set_culture = culture:bavarian
+					}
+				}
+			}
+		}
+		culture:bavarian = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:irminonic
+		}
+		every_in_list = {#####
+			list = ingaevonic_counties_to_make_swabian
+			set_county_culture = culture:swabian
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							OR = {
+								has_name_list = name_list_irminonic
+								has_name_list = name_list_late_irminonic
+							}
+						}
+					}
+					set_culture = culture:swabian
+					every_courtier = {
+						limit = {
+							culture = { 
+								OR = {
+									has_name_list = name_list_irminonic
+									has_name_list = name_list_late_irminonic
+								}
+							}
+						}
+						set_culture = culture:swabian
+					}
+				}
+			}
+		}
+		culture:swabian = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:irminonic
+		}
+		every_in_list = {#####
+			list = ingaevonic_counties_to_make_suebi
+			set_county_culture = culture:suebi
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							OR = {
+								has_name_list = name_list_irminonic
+								has_name_list = name_list_late_irminonic
+							}
+						}
+					}
+					set_culture = culture:suebi
+					every_courtier = {
+						limit = {
+							culture = { 
+								OR = {
+									has_name_list = name_list_irminonic
+									has_name_list = name_list_late_irminonic
+								}
+							}
+						}
+						set_culture = culture:suebi
+					}
+				}
+			}
+		}
+		culture:suebi = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:irminonic
+		}
+	}
+}
+
+##################################################
+# Set Early West Germanic name lists - Pre 400s
+##################################################
+
+proto_germanic_divergence_events.6 = { 
+	hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			limit = {
+				has_name_list = name_list_late_irminonic
+			}
+			set_name_list = name_list_irminonic
+		}
+		every_culture_global = {
+			limit = {
+				has_name_list = name_list_late_ingaevonic
+			}
+			set_name_list = name_list_ingaevonic
+		}
+		every_culture_global = {
+			limit = {
+				has_name_list = name_list_frankish
+			}
+			set_name_list = name_list_istaevonic
+		}
+	}
+}
+
+##################################################
+# Later West Germanic name lists - post 450
+##################################################
+
+proto_germanic_divergence_events.7 = { 
+	hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			limit = {
+				has_name_list = name_list_irminonic
+			}
+			set_name_list = name_list_late_irminonic
+		}
+		every_culture_global = {
+			limit = {
+				has_name_list = name_list_ingaevonic
+			}
+			set_name_list = name_list_late_ingaevonic
+		}
+		every_culture_global = {
+			limit = {
+				has_name_list = name_list_istaevonic
+			}
+			set_name_list = name_list_frankish
+		}
+	}
+}
+
+##################################################
+# Proto-Germanic namelist divergence - post 200
+##################################################
+
+proto_germanic_divergence_events.8 = { 
+	hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			limit = {
+				AND = {
+					has_name_list = name_list_proto_germanic
+					OR = {
+						this = culture:irminonic
+						any_parent_culture_or_above = {
+							this = culture:irminonic
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+				 	current_date > 530.1.1
+				}
+				set_name_list = name_list_late_irminonic
+				set_culture_pillar = language_high_german
+			}
+			else = {
+				set_name_list = name_list_irminonic
+				set_culture_pillar = language_high_german
+			}
+		}
+		every_culture_global = {
+			limit = {
+				AND = {
+					has_name_list = name_list_proto_germanic
+					OR = {
+						this = culture:ingaevonic
+						any_parent_culture_or_above = {
+							this = culture:ingaevonic
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+				 	current_date > 530.1.1
+				}
+				set_name_list = name_list_late_ingaevonic
+				set_culture_pillar = language_anglic
+			}
+			else = {
+				set_name_list = name_list_ingaevonic
+				set_culture_pillar = language_anglic
+			}
+		}
+		every_culture_global = {
+			limit = {
+				AND = {
+					has_name_list = name_list_proto_germanic
+					OR = {
+						this = culture:frankish
+						any_parent_culture_or_above = {
+							this = culture:frankish
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+				 	current_date > 530.1.1
+				}
+				set_name_list = name_list_frankish
+				set_culture_pillar = language_frankish
+			}
+			else = {
+				set_name_list = name_list_istaevonic
+				set_culture_pillar = language_frankish
+			}
+		}
+		every_culture_global = {
+			limit = {
+				AND = {
+					has_name_list = name_list_proto_germanic
+					OR = {
+						this = culture:proto_norse
+						any_parent_culture_or_above = {
+							this = culture:proto_norse
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+				 	current_date > 550.1.1
+				}
+				set_name_list = name_list_later_vendel
+				set_culture_pillar = language_norse
+			}
+			else = {
+				set_name_list = name_list_proto_norse
+				set_culture_pillar = language_norse
+			}
+		}
+		every_culture_global = {
+			limit = {
+				AND = {
+					has_name_list = name_list_proto_germanic
+					OR = {
+						this = culture:gothic
+						any_parent_culture_or_above = {
+							this = culture:gothic
+						}
+					}
+				}
+			}
+			set_name_list = name_list_gothic
+			set_culture_pillar = language_gothic
+		}
+		every_culture_global = {
+			limit = {
+				AND = {
+					has_name_list = name_list_proto_germanic
+					OR = {
+						this = culture:vandal
+						any_parent_culture_or_above = {
+							this = culture:vandal
+						}
+					}
+				}
+			}
+			set_name_list = name_list_vandalic
+			set_culture_pillar = language_vandalic
+		}
+		every_culture_global = {
+			limit = {
+				AND = {
+					has_name_list = name_list_proto_germanic
+					OR = {
+						this = culture:indo_germanic
+						any_parent_culture_or_above = {
+							this = culture:indo_germanic
+						}
+					}
+				}
+			}
+			set_name_list = name_list_indo_germanic
+			set_culture_pillar = language_indo_germanic
+		}
+		every_culture_global = {
+			limit = {
+				AND = {
+					has_name_list = name_list_proto_germanic
+					OR = {
+						this = culture:deccano_germanic
+						any_parent_culture_or_above = {
+							this = culture:deccano_germanic
+						}
+					}
+				}
+			}
+			set_name_list = name_list_tamilo_germanic
+			set_culture_pillar = language_indo_germanic
+		}
+	}
+}
+
+
+##################################################
+# Ostrogoths and Visigoths diverge
+##################################################
+
+proto_germanic_divergence_events.9 = { 
+	hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			limit = {
+				has_name_list = name_list_gothic
+			}
+			every_culture_county = {
+				limit = {
+					title_province = { geographical_region = world_europe_west_iberia }
+				}
+				add_to_list = gothic_counties_to_make_visigothic
+			}
+			every_culture_county = {
+				limit = {
+					title_province = { geographical_region = world_europe_south_italy }
+				}
+				add_to_list = gothic_counties_to_make_ostrogothic
+			}
+		}
+		every_in_list = {#####
+			list = gothic_counties_to_make_visigothic
+			set_county_culture = culture:visigothic
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							has_name_list = name_list_gothic
+						}
+					}
+					set_culture = culture:visigothic
+					every_courtier = {
+						limit = {
+							culture = { 
+								has_name_list = name_list_gothic
+							}
+						}
+						set_culture = culture:visigothic
+					}
+				}
+			}
+		}
+		culture:visigothic = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:gothic
+			get_all_innovations_from = culture:roman
+		}
+		every_in_list = {#####
+			list = gothic_counties_to_make_ostrogothic
+			set_county_culture = culture:ostrogothic
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							has_name_list = name_list_gothic
+						}
+					}
+					set_culture = culture:ostrogothic
+					every_courtier = {
+						limit = {
+							culture = { 
+								has_name_list = name_list_gothic
+							}
+						}
+						set_culture = culture:ostrogothic
+					}
+				}
+			}
+		}
+		culture:ostrogothic = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:gothic
+			get_all_innovations_from = culture:roman
+		}
+	}
+}
+
+##################################################
+# Frankish diverges into franconian and dutch
+##################################################
+
+proto_germanic_divergence_events.10 = { #Irminonic culture splits by dutchy
+	hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			limit = {
+				OR = {
+					has_name_list = name_list_frankish
+					has_name_list = name_list_istaevonic
+				}
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+						title_province = { duchy = title:d_west_franconia }
+						title_province = { duchy = title:d_east_franconia }
+						title_province = { duchy = title:d_hesse }
+						title_province = { duchy = title:d_currezia }
+						title_province = { duchy = title:d_alsace }
+						title_province = { duchy = title:d_swabia }
+						title_province = { duchy = title:d_anhalt }
+						title_province = { duchy = title:d_thuringia }
+						title_province = { duchy = title:d_bavaria }
+						title_province = { duchy = title:d_nordgau }
+						title_province = { duchy = title:d_salzburg }
+						title_province = { duchy = title:d_augsburg }
+						title_province = { duchy = title:d_steyermark }
+						title_province = { duchy = title:d_osterreich }
+						title_province = { duchy = title:d_tyrol }
+						title_province = { duchy = title:d_carinthia }
+						title_province = { duchy = title:d_krain }
+						title_province = { duchy = title:d_angria }
+						title_province = { duchy = title:d_westfalen }
+						title_province = { duchy = title:d_ostfalen }
+						title_province = { duchy = title:d_holstein }
+						title_province = { duchy = title:d_jylland }
+						title_province = { duchy = title:d_slesvig }
+						title_province = { duchy = title:d_west_franconia }
+						title_province = { duchy = title:d_east_franconia }
+						title_province = { duchy = title:d_alsace }
+						title_province = { duchy = title:d_swabia }
+						title_province = { duchy = title:d_meissen }
+						title_province = { duchy = title:d_lausitz }
+					}
+				}
+				add_to_list = frankish_counties_to_make_franconian
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+						title_province = { duchy = title:d_holland }
+						title_province = { duchy = title:d_gelre }
+						title_province = { duchy = title:d_utrecht }
+						title_province = { duchy = title:d_frisia }
+						title_province = { duchy = title:d_luxembourg }
+						title_province = { duchy = title:d_brabant }
+						title_province = { duchy = title:d_julich }
+						title_province = { duchy = title:d_upper_lorraine }
+					}
+				}
+				add_to_list = frankish_counties_to_make_dutch
+			}
+		}
+		every_in_list = {#####
+			list = frankish_counties_to_make_franconian
+			set_county_culture = culture:franconian
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							OR = {
+								has_name_list = name_list_frankish
+								has_name_list = name_list_istaevonic
+							}
+						}
+					}
+					set_culture = culture:franconian
+					every_courtier = {
+						limit = {
+							culture = { 
+								OR = {
+									has_name_list = name_list_frankish
+									has_name_list = name_list_istaevonic
+								}
+							}
+						}
+						set_culture = culture:franconian
+					}
+				}
+			}
+		}
+		culture:franconian = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:frankish
+		}
+		every_in_list = {#####
+			list = frankish_counties_to_make_dutch
+			set_county_culture = culture:dutch
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							OR = {
+								has_name_list = name_list_frankish
+								has_name_list = name_list_istaevonic
+							}
+						}
+					}
+					set_culture = culture:dutch
+					every_courtier = {
+						limit = {
+							culture = { 
+								OR = {
+									has_name_list = name_list_frankish
+									has_name_list = name_list_istaevonic
+								}
+							}
+						}
+						set_culture = culture:dutch
+					}
+				}
+			}
+		}
+		culture:dutch = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:frankish
+			get_all_innovations_from = culture:frisian
+		}
+	}
+}
+
+##################################################
+# Later Indo-Germanic - post 500
+##################################################
+
+proto_germanic_divergence_events.11 = { 
+	hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			limit = {
+				has_name_list = name_list_indo_germanic
+			}
+			set_name_list = name_list_late_indo_germanic
+			every_culture_county = { #India (+ southeast asian for now - just because of sandskrit)
+				limit = {
+					title_province = { geographical_region = world_india_deccan }
+				}
+				add_to_list = indo_germanic_cult_count_to_dravidianise
+			}
+			if = {
+				limit = {
+					any_culture_global = { any_culture_county = {
+						is_in_list = indo_germanic_cult_count_to_dravidianise
+						count >= 1
+					} }
+				}
+				random_culture_county = {
+					limit = {
+						is_in_list = indo_germanic_cult_count_to_dravidianise
+					}
+					holder = {
+						save_temporary_scope_as = holder_of_deccan_county
+						set_culture = culture:indo_germanic
+						create_divergent_culture = yes
+                           scope:holder_of_deccan_county.culture = {
+							save_scope_as = indo_germanic_dravidian_culture
+							set_variable = {
+								name = recent_event_divergence
+								#value = true
+								days = 3650
+							}
+							set_name_list = name_list_south_indo_germanic
+						}
+					}
+				}
+				every_in_list = {#####
+					list = indo_germanic_cult_count_to_dravidianise
+					set_county_culture = scope:indo_germanic_dravidian_culture
+				}
+			}
+		}
+		every_culture_global = {
+			limit = {
+				has_name_list = name_list_tamilo_germanic
+			}
+			set_name_list = name_list_late_tamilo_germanic
+		}
+	}
+}
+
+##################################################
+# Set Early Indo Germanic name lists - Pre 500s
+##################################################
+
+proto_germanic_divergence_events.12 = { 
+	hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			limit = {
+				has_name_list = name_list_late_indo_germanic
+			}
+			set_name_list = name_list_indo_germanic
+		}
+		every_culture_global = {
+			limit = {
+				has_name_list = name_list_late_tamilo_germanic
+			}
+			set_name_list = name_list_tamilo_germanic
+		}
+	}
+}

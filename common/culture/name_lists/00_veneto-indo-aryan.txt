@@ -1,0 +1,36 @@
+﻿
+name_list_venetic_apabhramsa = {
+		cadet_dynasty_names = {
+            #"dynn_Katyuri" "dynn_Kangra" "dynn_Kumanchal" "dynn_Mana" "dynn_Baghela" "dynn_Mir" "dynn_Yayvapala" "dynn_Parmar" "dynn_Katyuri" "dynn_Chand" "dynn_Khasiya" "dynn_Chand" "dynn_Vaghela" "dynn_Vagada" "dynn_Jadeja" "dynn_Sanchore" "dynn_Sisodia" "dynn_Rathore" "dynn_Hada" "dynn_Khanzada"
+            dynn_apbrmvnt_akutiya dynn_apbrmvnt_albariniya dynn_apbrmvnt_antaiyija dynn_apbrmvnt_ablisiga dynn_apbrmvnt_arphatijaga dynn_apbrmvnt_boiya dynn_apbrmvnt_boiganaga dynn_apbrmvnt_brojaga dynn_apbrmvnt_daipijariya dynn_apbrmvnt_daivalajija dynn_apbrmvnt_dilliga dynn_apbrmvnt_ehetorija dynn_apbrmvnt_enayya dynn_apbrmvnt_phugija dynn_apbrmvnt_yuvantija dynn_apbrmvnt_kludaviga dynn_apbrmvnt_kupirigoniya dynn_apbrmvnt_mangana dynn_apbrmvnt_nagalgana dynn_apbrmvnt_naihonga dynn_apbrmvnt_otthaga dynn_apbrmvnt_pittamniga dynn_apbrmvnt_pompeteduvija dynn_apbrmvnt_raitavija dynn_apbrmvnt_rehunga dynn_apbrmvnt_tivalija dynn_apbrmvnt_tomatorija dynn_apbrmvnt_tupeyya dynn_apbrmvnt_trisiga dynn_apbrmvnt_tridijoniya dynn_apbrmvnt_upossetija dynn_apbrmvnt_vestiniya dynn_apbrmvnt_voddijaniniya dynn_apbrmvnt_voddiomaniniya dynn_apbrmvnt_voddolaliga dynn_apbrmvnt_vodeyija
+		}
+
+		dynasty_names = {
+	        #"dynn_Katyuri" "dynn_Kangra" "dynn_Kumanchal" "dynn_Mana" "dynn_Baghela" "dynn_Mir" "dynn_Yayvapala" "dynn_Parmar" "dynn_Katyuri" "dynn_Chand" "dynn_Khasiya" "dynn_Chand" "dynn_Vaghela" "dynn_Vagada" "dynn_Jadeja" "dynn_Sanchore" "dynn_Sisodia" "dynn_Rathore" "dynn_Hada" "dynn_Khanzada"
+            dynn_apbrmvnt_akutiya dynn_apbrmvnt_albariniya dynn_apbrmvnt_antaiyija dynn_apbrmvnt_ablisiga dynn_apbrmvnt_arphatijaga dynn_apbrmvnt_boiya dynn_apbrmvnt_boiganaga dynn_apbrmvnt_brojaga dynn_apbrmvnt_daipijariya dynn_apbrmvnt_daivalajija dynn_apbrmvnt_dilliga dynn_apbrmvnt_ehetorija dynn_apbrmvnt_enayya dynn_apbrmvnt_phugija dynn_apbrmvnt_yuvantija dynn_apbrmvnt_kludaviga dynn_apbrmvnt_kupirigoniya dynn_apbrmvnt_mangana dynn_apbrmvnt_nagalgana dynn_apbrmvnt_naihonga dynn_apbrmvnt_otthaga dynn_apbrmvnt_pittamniga dynn_apbrmvnt_pompeteduvija dynn_apbrmvnt_raitavija dynn_apbrmvnt_rehunga dynn_apbrmvnt_tivalija dynn_apbrmvnt_tomatorija dynn_apbrmvnt_tupeyya dynn_apbrmvnt_trisiga dynn_apbrmvnt_tridijoniya dynn_apbrmvnt_upossetija dynn_apbrmvnt_vestiniya dynn_apbrmvnt_voddijaniniya dynn_apbrmvnt_voddiomaniniya dynn_apbrmvnt_voddolaliga dynn_apbrmvnt_vodeyija
+		}
+
+		male_names = {
+           # 40 = {
+            	#Achalraj Achalraja Adityadeva Ajayapala Alsi Amir Anangpal Anangpala Anupapala Anuppal Arjunpal Arjunpala Arjunavarman Baghpal Baghpala Bhoja Bhojavarman Bhumpal Bhumpala Birpal Birpala Brahmadeva Brahmapala Chand Devapala Devavarman Dharmapala Dilipapala Dilippal Draupad Draupada Gangeya Gopal Gopala Govindapala Govindaraja Harpal Harsa Harshapala Hirapala Indrapal Indrapala Jaganpal Jaganpala Jagatpal Jagatpala Jagdeva Jaitugideva Jasapala Jatanpal Jatanpala Jayapala Jayasimha Jayavarman Jhetpal Jhetpala Kailaspal Kailaspala Kakhopal Kakhopala Kiratpal Kiratpala Kumarapala Kunwar Lakshmandeva Madanapala Mahendrapal Mahipal Mahipala Mihira Nagapala Naravarman Narayanapala Nayapala Prithvipal Prithvipala Prithviraj Prithviraja Rajapala Rajyapala Ramabhadra Rampal Rampala Rangraj Rangraja Ratnapala Shurapala Sisupal Sisupala Sohanpal Someshwara Sonpal Sonpala Srichandra Sukhinpal Sukhinpala Sultanpal Sultanpala Surajpal Surajpala Tejapala Tejpal Trailokyavarman Trilochanpala Udayaditya Vakpati Varshapala Varshpal Vasudev Vidyadhara Vigrahapala Vigraharaja Viramdeva Viravarman Yasovarman Bhima Govinda Jayasimha Jay-Singh Mahendrapala Prithviraja Rajapala Sohanpal Someshwara Tej-Singh Udayaditya Vigraharaja Yasovarman
+            #}
+            #60 = {
+            	apbrmvnt_apharu apbrmvnt_ayamu apbrmvnt_akuda apbrmvnt_alero apbrmvnt_amediga apbrmvnt_andadija apbrmvnt_andada apbrmvnt_ablisiga apbrmvnt_arava apbrmvnt_arijuna apbrmvnt_arahpejijaga apbrmvnt_asoga apbrmvnt_atta apbrmvnt_baida apbrmvnt_bellenada apbrmvnt_boiyala apbrmvnt_boiya apbrmvnt_brojoga apbrmvnt_budijaga apbrmvnt_daipijariya apbrmvnt_daipijari apbrmvnt_dilliga apbrmvnt_dilli apbrmvnt_eba apbrmvnt_ehessa apbrmvnt_ehetura apbrmvnt_enaya apbrmvnt_enija apbrmvnt_enadija apbrmvnt_enojanasa apbrmvnt_arisinija apbrmvnt_phuga apbrmvnt_phonta apbrmvnt_phugonta apbrmvnt_phemasa apbrmvnt_phugija apbrmvnt_gaya apbrmvnt_gayaga apbrmvnt_hostihava apbrmvnt_huva apbrmvnt_hutta apbrmvnt_yuvanta apbrmvnt_kana apbrmvnt_karamana apbrmvnt_kahiga apbrmvnt_kella apbrmvnt_keudinasa apbrmvnt_kuttulisa apbrmvnt_kuida apbrmvnt_lamusa apbrmvnt_landa apbrmvnt_lavasuga apbrmvnt_lemetura apbrmvnt_lukasa apbrmvnt_mettha apbrmvnt_modda apbrmvnt_nagalguna apbrmvnt_naihona apbrmvnt_naiha apbrmvnt_okihaya apbrmvnt_opa apbrmvnt_otthoga apbrmvnt_ottha apbrmvnt_panariya apbrmvnt_peloniga apbrmvnt_pilpoda apbrmvnt_pleda apbrmvnt_raitavija apbrmvnt_raitija apbrmvnt_rehunga apbrmvnt_sika apbrmvnt_sura apbrmvnt_tekija apbrmvnt_tomatorija apbrmvnt_trisiga apbrmvnt_turiya apbrmvnt_uka apbrmvnt_urakleya apbrmvnt_urakala apbrmvnt_vanta apbrmvnt_vant apbrmvnt_vasena apbrmvnt_vajnaga apbrmvnt_vaima apbrmvnt_vennani apbrmvnt_vakkvala apbrmvnt_voddijana apbrmvnt_voltiyamana apbrmvnt_voda
+            #}
+		}
+
+		female_names = {
+            #40 = {
+            	#Akal Anantadevi Damayanti Dattadevi Dehanagadevi Dhruvadevi Dhruvasvamini Hemavati Kakanvati Kalayandevi Kanchuka Kanwar Karmavati Kumaradevi Lakshman Maharani Mahidevi Nattadevi Prabhavati Prabhavatigupta Prasadhanadevi Puppadevi Rajamati Sanyukta Shrimitradevi Annaladevi Bauladevi Bhuyikadevi Candrabhattarikadevi Chachinidevi Delhanadevi Desaladevi Hariyadevi Laxmidevi Madhavi Mahalakshmi Manaladevi Mayanalladevi Namalladevi Padmaladevi Padmini Pratha Rasaladevi Rudaladevi Rudrani Rupadevi Samyukta Sidhawa Somalladevi Suhava Sundaridevi Tihunaka Udayamati
+            #}
+            #60 = {
+            	apbrmvnt_akuta apbrmvnt_andadini apbrmvnt_apayiya apbrmvnt_asoliya apbrmvnt_atta apbrmvnt_bakhoniya apbrmvnt_baidoniya apbrmvnt_briggini apbrmvnt_bukka apbrmvnt_ehva apbrmvnt_epha apbrmvnt_ehessana apbrmvnt_ehetura apbrmvnt_phetiyana apbrmvnt_phugonta apbrmvnt_phema apbrmvnt_phemata apbrmvnt_phematana apbrmvnt_phugija apbrmvnt_phuggiya apbrmvnt_yanta apbrmvnt_ikaviyoniya apbrmvnt_ituriya apbrmvnt_yuvantana apbrmvnt_kanta apbrmvnt_koliya apbrmvnt_kuikuta apbrmvnt_manna apbrmvnt_moddana apbrmvnt_muskalini apbrmvnt_mutta apbrmvnt_naika apbrmvnt_nakka apbrmvnt_ottiya apbrmvnt_rebhedaniya apbrmvnt_raitija apbrmvnt_tainontija apbrmvnt_trottija apbrmvnt_urakleni apbrmvnt_usediga apbrmvnt_vantgheniya apbrmvnt_venna apbrmvnt_vakkondanna
+            #}
+		}
+
+	dynasty_of_location_prefix = "dynnp_da"
+
+	patronym_suffix_male = "dynnpat_suf_eya"
+	patronym_suffix_female = "dynnpat_suf_eya"
+				
+}

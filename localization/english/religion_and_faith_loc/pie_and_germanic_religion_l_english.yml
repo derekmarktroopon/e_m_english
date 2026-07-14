@@ -1,0 +1,30 @@
+﻿l_english:
+ 
+ #Proto-indo-european
+ old_steppe:0 "Old Steppe"
+ old_steppe_adj:0 "Old Steppe"
+ old_steppe_desc:0 "The Neolithic western steppes of Eurasia was a harsh place, the inhabitants of which tended to believe in the existance of Gods in many natural phenomena."
+ 
+ pie_pagan:0 "Dyéus Worship"
+ pie_pagan_adj:0 "Dyéusist"
+ pie_pagan_adherent:0 "Follower of Dyéus"
+ pie_pagan_adherent_plural:0 "Followers of Dyéus"
+ pie_pagan_desc:0 "Disapating from the steppes of Western Eurasia, the Indo Europeans had a warrior based faith, with legends of heroes and Gods being passed down for centuries. They had a hierarchy of Gods, head of which was the 'Sky Father', or Dyéus-Phter."
+ pie_pagan_old:0 "Old Dyéus Worship"
+ pie_pagan_old_adj:0 "Old Dyéusist"
+ pie_pagan_old_adherent:0 "Follower of old Dyéuism"
+ pie_pagan_old_adherent_plural:0 "Followers of old Dyéuism"
+
+
+ indo_germanic_buddhism:0 "Theduvada"
+ indo_germanic_buddhism_adj:0 "Theduvada"
+ indo_germanic_buddhism_adherent:0 "Theduvadan"
+ indo_germanic_buddhism_adherent_plural:0 "Theduvadans"
+ indo_germanic_buddhism_desc:0 "While the invading Thediskans initially resisted the path of righteousness, the teachings of the Buddha would win the hearts of their descendents. As such, the Teduvadan school maintains buddhist scripture as the ultimate way to enlightenment, believing prayers to those deities which protect Buddha (like Vodana and Thunara) as a helping force on this journey."
+
+
+ indo_germanic_hinduism:0 "Taivism"
+ indo_germanic_hinduism_adj:0 "Taivite"
+ indo_germanic_hinduism_adherent:0 "Taivite"
+ indo_germanic_hinduism_adherent_plural:0 "Taivites"
+ indo_germanic_hinduism_desc:0 "In the centuries that have passed the Thediska invasion, their old beliefs have come to be intertwined other Vedic faiths. As such, Taivites consider Tiva (Tyr, to their long lost cousins in the West) to be one and the same as Mitra, being their most venerated of deities."

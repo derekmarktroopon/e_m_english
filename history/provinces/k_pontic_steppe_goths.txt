@@ -1,0 +1,21 @@
+﻿
+
+##d_crimea ###################################
+###c_kerch
+562 = {		#Kerch
+	culture = gothic
+	religion = orthodox
+	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			#pastures_01
+			military_camps_01
+		}
+	}
+}
