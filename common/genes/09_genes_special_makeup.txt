@@ -717,49 +717,31 @@ special_genes = {
 			kec_egyptian_makeup = {
 				index = 7
 				male = {
-					#Eyeliner
-					decal = {											
+					decal = {
 						body_part = head
 						textures = {
 							diffuse = "gfx/models/portraits/decals/cosmetics/eyeliner_egyptian_1_diffuse.dds"
 							properties = "gfx/models/portraits/decals/cosmetics/eyeliner_egyptian_1_properties.dds"
-							
 						}
-						blend_modes = {				 #overlay/replace/hard_light/multiply
-							diffuse = replace
-							# normal = overlay
-							properties = replace
-						}
+						blend_modes = { diffuse = replace properties = replace }
 						priority = 2
 					}
-					#Eyeshadow
-					decal = {											
+					decal = {
 						body_part = head
 						textures = {
 							diffuse = "gfx/models/portraits/decals/cosmetics/eyeshadow_egyptian_1_diffuse.dds"
 							properties = "gfx/models/portraits/decals/cosmetics/eyeshadow_egyptian_1_properties.dds"
-							
 						}
-						blend_modes = {				 #overlay/replace/hard_light/multiply
-							diffuse = replace
-							# normal = overlay
-							properties = replace
-						}
+						blend_modes = { diffuse = replace properties = replace }
 						priority = 3
 					}
-					#Lip colour		
-					decal = {											
+					decal = {
 						body_part = head
 						textures = {
 							diffuse = "gfx/models/portraits/decals/cosmetics/lipcolor_egyptian_1_diffuse.dds"
 							properties = "gfx/models/portraits/decals/cosmetics/lipcolor_egyptian_1_properties.dds"
-							
 						}
-						blend_modes = {				 #overlay/replace/hard_light/multiply
-							diffuse = replace
-							# normal = overlay
-							properties = replace
-						}
+						blend_modes = { diffuse = replace properties = replace }
 						priority = 4
 					}
 				}
