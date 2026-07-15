@@ -266,6 +266,7 @@ special_genes = {
 				girl = female
 			}
 		
+			# Kemetic V2: combined Bronze Age eyeliner, eyeshadow, and lip color.
 			kec_egyptian_makeup = {
 				index = 7
 				male = {
