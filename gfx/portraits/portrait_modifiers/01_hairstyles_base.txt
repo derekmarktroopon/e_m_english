@@ -2543,17 +2543,10 @@ hairstyles = {
         weight = {
             base = 0
             modifier = {
-                add = 100
+                add = 1000
                 OR = {
                     kec_portrait_ancient_egyptian_trigger = yes
                     kec_portrait_ancient_egyptian_JUSTHEADRESSANDMAKEUP_trigger = yes
-                }
-            }
-            modifier = {
-                add = -100
-                OR = {
-                    is_from_ruler_designer = yes
-                    has_character_flag = has_scripted_appearance
                 }
             }
         }

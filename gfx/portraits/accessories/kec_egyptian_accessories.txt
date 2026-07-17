@@ -29,6 +29,15 @@ male_headgear_egyptian_nemes_high = {
 	set_tags = "no_hair"
 	entity = { required_tags = "" shared_pose_entity = head entity = male_headgear_egyptian_nemes_high_entity }
 }
+female_headgear_egyptian_nemes_common = {
+	entity = { required_tags = "" shared_pose_entity = head entity = male_headgear_egyptian_nemes_common_entity }
+}
+female_headgear_egyptian_nemes_low = {
+	entity = { required_tags = "" shared_pose_entity = head entity = male_headgear_egyptian_nemes_low_entity }
+}
+female_headgear_egyptian_nemes_high = {
+	entity = { required_tags = "" shared_pose_entity = head entity = male_headgear_egyptian_nemes_high_entity }
+}
 male_headgear_egyptian_false_beard = {
 	set_tags = "no_beard"
 	entity = { required_tags = "" shared_pose_entity = head entity = male_headgear_egyptian_false_beard_entity }

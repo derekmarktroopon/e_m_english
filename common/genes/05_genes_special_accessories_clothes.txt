@@ -3808,7 +3808,7 @@
 			# Kemetic Culture / Bronze Age Egyptian clothing
 			kec_egyptian_children_clothes = {
 				index = 203
-				male = { 2 = male_clothes_secular_western_child_01_common }
+				male = { 2 = male_clothes_egyptian_shirt_common }
 				female = { 2 = female_clothes_secular_western_child_01_common }
 				boy = male
 				girl = female
@@ -3818,21 +3818,20 @@
 				male = {
 					1 = male_clothes_egyptian_usekh_common
 					2 = male_clothes_egyptian_shirt_common
-					2 = empty
 				}
 				female = {
-					1 = female_clothes_secular_mena_nobility_01_common
-					1 = female_clothes_secular_mena_nobility_02_common
+					1 = female_clothes_secular_sub_saharan_nobility_01_common
+					1 = female_clothes_secular_sub_saharan_nobility_02_common
 				}
-				boy = { 2 = empty }
+				boy = { 2 = male_clothes_egyptian_shirt_common }
 				girl = { 2 = female_clothes_secular_western_child_01_common }
 			}
 			kec_egyptian_clothing_low = {
 				index = 205
 				male = { 2 = male_clothes_egyptian_usekh_low }
 				female = {
-					1 = female_clothes_secular_mena_nobility_01_low
-					1 = female_clothes_secular_mena_nobility_02_low
+					1 = female_clothes_secular_sub_saharan_nobility_01_low
+					1 = female_clothes_secular_sub_saharan_nobility_02_low
 				}
 				boy = { 2 = male_clothes_egyptian_usekh_low }
 				girl = { 2 = female_clothes_secular_western_child_01_common }
@@ -3841,8 +3840,8 @@
 				index = 206
 				male = { 3 = male_clothes_egyptian_usekh_high }
 				female = {
-					1 = female_clothes_secular_mena_nobility_01_high
-					1 = female_clothes_secular_mena_nobility_02_high
+					1 = female_clothes_secular_sub_saharan_nobility_01_high
+					1 = female_clothes_secular_sub_saharan_nobility_02_high
 				}
 				boy = { 3 = male_clothes_egyptian_usekh_high }
 				girl = { 2 = female_clothes_secular_western_child_01_common }

@@ -5398,8 +5398,8 @@ headgear_base = {
 	kec_egyptian_pharaoh_headgear = {
 		dna_modifiers = {
 			accessory = { mode = add gene = headgear template = kec_egyptian_headgear_high range = { 0 1 } }
-			accessory = { mode = add gene = kec_headgear_2 template = kec_egyptian_pharaoh range = { 0 1 } }
-			accessory = { mode = add gene = kec_headgear_3 template = kec_egyptian_pharaoh range = { 0 1 } }
+			accessory = { mode = add gene = headgear_2 template = false_beard range = { 0 1 } }
+			accessory = { mode = add gene = headgear_3 template = uraeus range = { 0 1 } }
 		}
 		weight = {
 			base = 0
@@ -5414,6 +5414,31 @@ headgear_base = {
 					kec_portrait_just_egyptian_faith_trigger = yes
 					kec_portrait_ancient_egyptian_JUSTHEADRESSANDMAKEUP_trigger = yes
 				}
+				age >= 16
+				NOT = {
+					AND = {
+						is_male = no
+						has_realm_law = uncrowned
+					}
+				}
+			}
+		}
+	}
+
+	kec_no_regalia = {
+		dna_modifiers = {
+			accessory = { mode = add gene = headgear_2 template = no_headgear range = { 0 1 } }
+			accessory = { mode = add gene = headgear_3 template = no_headgear range = { 0 1 } }
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1100
+				OR = {
+					portrait_wear_no_headgear_trigger = yes
+					should_be_naked_trigger = yes
+				}
+				is_alive = yes
 			}
 		}
 	}
@@ -5422,6 +5447,8 @@ headgear_base = {
 	kec_egyptian_royalty_headgear = {
 		dna_modifiers = {
 			accessory = { mode = add gene = headgear template = kec_egyptian_headgear_high range = { 0 1 } }
+			accessory = { mode = add gene = headgear_2 template = empty range = { 0 1 } }
+			accessory = { mode = add gene = headgear_3 template = empty range = { 0 1 } }
 		}
 		weight = {
 			base = 0
@@ -5439,12 +5466,21 @@ headgear_base = {
 					kec_portrait_just_egyptian_faith_trigger = yes
 					kec_portrait_ancient_egyptian_JUSTHEADRESSANDMAKEUP_trigger = yes
 				}
+				NOT = {
+					AND = {
+						is_male = no
+						has_realm_law = uncrowned
+					}
+				}
 			}
 		}
 	}
+	
 	kec_egyptian_noble_headgear = {
 		dna_modifiers = {
 			accessory = { mode = add gene = headgear template = kec_egyptian_headgear_low range = { 0 1 } }
+			accessory = { mode = add gene = headgear_2 template = empty range = { 0 1 } }
+			accessory = { mode = add gene = headgear_3 template = empty range = { 0 1 } }
 		}
 		weight = {
 			base = 0
@@ -5464,6 +5500,12 @@ headgear_base = {
 				OR = {
 					kec_portrait_ancient_egyptian_trigger = yes
 					kec_portrait_ancient_egyptian_JUSTHEADRESSANDMAKEUP_trigger = yes
+				}
+				NOT = {
+					AND = {
+						is_male = no
+						has_realm_law = uncrowned
+					}
 				}
 			}
 		}

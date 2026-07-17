@@ -1584,9 +1584,18 @@
       
 
 	# Kemetic Culture / Bronze Age Egyptian headgear
-	add_accessory_modifiers = { gene = headgear template = kec_egyptian_headgear_high }
-	add_accessory_modifiers = { gene = headgear template = kec_egyptian_headgear_low }
-	add_accessory_modifiers = { gene = headgear template = kec_egyptian_headgear_common }
+	add_accessory_modifiers = { 
+		gene = headgear 
+		template = kec_egyptian_headgear_high 
+	}
+	add_accessory_modifiers = { 
+		gene = headgear 
+		template = kec_egyptian_headgear_low 
+	}
+	add_accessory_modifiers = { 
+		gene = headgear 
+		template = kec_egyptian_headgear_common 
+	}
 }
 
 

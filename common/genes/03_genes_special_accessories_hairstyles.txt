@@ -1576,62 +1576,23 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
-			hair_akkadian_hairstyles = {
-				index = 73
-				male = {
-					#1 = male_hair_northern_01
-					#1 = male_hair_mena_04
-					1 = male_hair_western_08
-					#1 = male_hair_western_10
-					1 = male_hair_mena_02
-					1 = male_hair_mena_04
-					1 = male_hair_western_07
-				}
-				female = {
-					1 = female_hair_western_05
-					1 = female_hair_mena_01
-					1 = female_hair_mena_02
-					1 = female_hair_northern_01
-					1 = female_hair_northern_03
-				}
-				boy = male
-				girl = female
-			}
-
-			hair_luwian_hairstyles = {
-				index = 74
-				male = {
-					1 = male_hair_northern_02
-					1 = male_hair_western_02
-					1 = male_hair_western_07
-					1 = male_hair_mena_02
-					1 = male_hair_indian_02
-				}
-				female = {
-					1 = female_hair_western_05
-					1 = female_hair_mena_02
-					1 = female_hair_northern_01
-					1 = female_hair_northern_03
-				}
-				boy = male
-				girl = female
-			}
 
 			hair_kec_egyptian_hairstyles = {
 				index = 75
 				male = {
 					1 = empty
-					1 = male_hair_sub_saharan_03
-					1 = male_hair_western_03
+					1 = male_hair_sub_saharan_03 # Short dreads
+					1 = m_hair_mpo_mongol_03 # Steppe raider's fine braids
 				}
 				female = {
-					1 = female_hair_sub_saharan_child_01
-					1 = female_hair_sub_saharan_03
-					1 = female_hair_mena_02
+					1 = female_hair_sub_saharan_03 # Short Thin Braids
+					1 = f_hair_mpo_mongol_01 # Turkic Kirk Belik Braids
 				}
 				boy = male
-				girl = female
+				girl = {
+					1 = female_hair_sub_saharan_child_01 #
+					1 = female_hair_sub_saharan_03 # Short Thin Braids
+				}
 			}
 		}
 	}

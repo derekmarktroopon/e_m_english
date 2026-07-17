@@ -3836,8 +3836,8 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
 			}
 			accessory = {
 				mode = add
-				gene = kec_misc
-				template = kec_egyptian_pharaoh
+				gene = misc
+				template = kec_egyptian_bracelets
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			morph = {
