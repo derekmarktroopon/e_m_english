@@ -23,8 +23,8 @@ predynastic_egyptian = {
 
 	coa_gfx = { berber_group_coa_gfx  }
 	building_gfx = { berber_group_building_gfx mena_building_gfx }
-	#clothing_gfx = { african_clothing_gfx }
-	clothing_gfx = { kemetic_clothing_gfx papuan_clothing_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	clothing_gfx = { papuan_clothing_gfx }
 	unit_gfx = { sub_sahran_unit_gfx }
 }
 
@@ -56,7 +56,8 @@ middle_egyptian = {
 
 	coa_gfx = { berber_group_coa_gfx  }
 	building_gfx = { berber_group_building_gfx mena_building_gfx }
-	clothing_gfx = { kemetic_clothing_gfx papuan_clothing_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	clothing_gfx = { papuan_clothing_gfx }
 	unit_gfx = { sub_sahran_unit_gfx }
 }
 
@@ -88,7 +89,8 @@ ancient_egyptian = {
 
 	coa_gfx = { berber_group_coa_gfx  }
 	building_gfx = { berber_group_building_gfx mena_building_gfx }
-	clothing_gfx = { kemetic_clothing_gfx papuan_clothing_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	clothing_gfx = { papuan_clothing_gfx }
 	unit_gfx = { sub_sahran_unit_gfx }
 }
 
@@ -121,7 +123,6 @@ coptic_culture = {
 	coa_gfx = { byzantine_group_coa_gfx }
 	building_gfx = { byzantine_building_gfx }
 	building_gfx = { berber_group_building_gfx mena_building_gfx  }
-	clothing_gfx = { byzantine_clothing_gfx }
 	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { eastern_unit_gfx }
 }
@@ -155,6 +156,7 @@ neo_kemetic = {
 	coa_gfx = { berber_group_coa_gfx  }
 	building_gfx = { berber_group_building_gfx mena_building_gfx }
 	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
-	clothing_gfx = { kemetic_clothing_gfx papuan_clothing_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	clothing_gfx = { papuan_clothing_gfx }
 	unit_gfx = { sub_sahran_unit_gfx }
 }
