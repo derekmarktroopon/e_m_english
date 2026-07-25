@@ -103,7 +103,7 @@
 
 ###c_hertfordshire
 1531 = {	#Berkhamsted
-	culture = mercian
+	culture = east_saxon
 	religion = catholic
 	holding = castle_holding
 	937.11.11 = {
@@ -844,7 +844,7 @@
 
 ###c_surrey
 1510 = {	#Chertsey
-	culture = east_saxon
+	culture = kentish
 	religion = catholic
 	holding = castle_holding
 	937.11.11 = {
@@ -866,7 +866,7 @@
 
 ###c_sussex
 1506 = {	#Lewes
-	culture = east_saxon
+	culture = kentish
 	religion = catholic
 	holding = castle_holding
 	937.11.11 = {

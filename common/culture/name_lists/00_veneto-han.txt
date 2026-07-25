@@ -13,7 +13,7 @@ name_list_venetic_han = {
 		}
 
 		female_names = {
-            hanvt_Aguna hanvt_Antidina hanvt_Abeiye hanvt_Eduo hanvt_Poyelina hanvt_Puge hanvt_Aipopo hanvt_Aipo hanvt_Aiqiesina hanvt_Aiqieduoluo hanvt_Powuqianduo hanvt_Pilime hanvt_Pimaisina hanvt_Pimeinadou hanvt_Puluoduona hanvt_Puqia hanvt_Puqinia hanvt_Puqisia hanvt_Yiwuwanduo hanvt_Yiwanduona hanvt_Yidulia hanvt_Ganduo hanvt_Limeiduona hanvt_Luosia hanvt_Mogena hanvt_Molituo hanvt_Musigeyena hanvt_Musiduo hanvt_Niluoge hanvt_Wositialuo hanvt_Lumena hanvt_Shegena hanvt_Suwuna hanvt_Duluna hanvt_Wuqilina hanvt_Weiqianduona hanvt_Wotiandina hanvt_Wotina hanvt_Powuqianna hanvt_Gedagena hanvt_Powua hanvt_Weiluoduo hanvt_Yijiweiwoniye hanvt_Laiweina hanvt_Lisuo hanvt_Wushitige hanvt_Wanna
+            hanvt_Aguna hanvt_Antidina hanvt_Abeiye hanvt_Eduo hanvt_Poyelina hanvt_Puge hanvt_Aipopo hanvt_Aipo_ hanvt_Aiqiesina hanvt_Aiqieduoluo hanvt_Powuqianduo hanvt_Pilime hanvt_Pimaisina hanvt_Pimeinadou hanvt_Puluoduona hanvt_Puqia hanvt_Puqinia hanvt_Puqisia hanvt_Yiwuwanduo hanvt_Yiwanduona hanvt_Yidulia hanvt_Ganduo hanvt_Limeiduona hanvt_Luosia hanvt_Mogena hanvt_Molituo hanvt_Musigeyena hanvt_Musiduo hanvt_Niluoge hanvt_Wositialuo hanvt_Lumena hanvt_Shegena hanvt_Suwuna hanvt_Duluna hanvt_Wuqilina hanvt_Weiqianduona hanvt_Wotiandina hanvt_Wotina hanvt_Powuqianna hanvt_Gedagena hanvt_Powua hanvt_Weiluoduo hanvt_Yijiweiwoniye hanvt_Laiweina hanvt_Lisuo hanvt_Wushitige hanvt_Wanna
 		}
 
 	dynasty_of_location_prefix = "dynnp_de"
