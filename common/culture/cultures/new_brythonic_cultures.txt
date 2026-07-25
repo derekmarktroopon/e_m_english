@@ -14,7 +14,7 @@ east_brythonic = {
 		tradition_fishermen
 	}
 	
-	name_list = name_list_welsh
+	name_list = name_list_east_brythonic
 	
 	coa_gfx = { welsh_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }

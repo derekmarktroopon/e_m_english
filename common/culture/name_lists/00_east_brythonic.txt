@@ -13,7 +13,7 @@ name_list_east_brythonic = {
 
 		Arthmail Arthbodhw Blidhin BlidhyA_dh Brochmail Cadmail Cadwaladr Caradey Conain Contighern Conmarch Conbilin Conwal Dobhnarth Dobhnwal Worbodhw Win Worthighern GrifoyA_dh Lowmharch Loivilen Mail Mailgon March Mormharch Morcant Awighin Raiwal RA_n TA_dir Worthiyern
 		Anared ArthA_r Caghi CA_stintin Davidh Dawidh Deinyil DA_ned Idern Einyen Gerint Macsen Meirchyen Meiryen Meirai Padarn RA_ven Sevir Seisil Inir Corintin
-		A_dhilwin Adgar Alfred Anlaf Berchtwald Edwin A_dhilfraith A_dhilstan Godwin Herewald Ivar A_swald Dhedrai Adam Alisander Andres Asa Asaph A_gost Elias Ambros Filip Franseis German Gerald Gregori Wilam Hary Hi_w Yacob Yostin Yoan MicA_l Patrai PA_l Petr Reinalt Richard Robert Samwil Sergi Gefrei Geor Steven Tedos Tedor Tomas
+		A_dhilwin Adgar Alfred Anlaf Berchtwald Edwin A_dhilfraith A_dhilstan Godwin Herewald Ivar A_swald Dhedrai Adam Alisander Andres Asa Asaph A_gost Elias Ambros Filip Franseis German Gerald Gregori Wilam Hary Hi_w Yacob Yostin Yoan MicA_l Patrai eb_PA_l Petr Reinalt Richard Robert Samwil Sergi Gefrei Geor Steven Tedos Tedor Tomas
 
 
 		

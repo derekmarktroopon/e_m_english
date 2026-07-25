@@ -12,7 +12,7 @@ unite_anglosaxon_cultures_decision = {
 	
     is_shown = {
 		is_landed = yes
-        root_culture = {
+        root.culture = {
         	NOR = {
         		root.culture = culture:anglo_saxon
         		any_parent_culture_or_above = {
