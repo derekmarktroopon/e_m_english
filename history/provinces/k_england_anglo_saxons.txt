@@ -417,7 +417,7 @@
 
 ###c_lincolnshire
 1583 = {	#Lincoln
-	culture = mercian
+	culture = east_brythonic
 	religion = catholic
 	holding = castle_holding
 	937.11.11 = {
@@ -511,9 +511,12 @@
 
 ###c_cambridgeshire
 1534 = {	#Cambridge
-	culture = east_anglian
+	culture = east_brythonic
 	religion = catholic
 	holding = castle_holding
+	900.11.11 = {
+		culture = east_anglian
+	}
 	937.11.11 = {
 		culture = anglo_saxon
 	}

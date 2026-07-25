@@ -1,0 +1,71 @@
+name_list_east_brythonic = {
+	cadet_dynasty_names = {
+		dynn_Amwaithai dynn_Cadmayl dynn_CairglA_w dynn_Bichan dynn_GrifoyA_dh dynn_Loivilen dynn_Lid dynn_Rais dynn_TA_dir
+		dynn_Donad dynn_Tedor
+	}
+
+	dynasty_names = {
+		dynn_Amwaithai dynn_Cadmayl dynn_CairglA_w dynn_Bichan dynn_GrifoyA_dh dynn_Loivilen dynn_Lid dynn_Rais dynn_TA_dir
+		dynn_Donad dynn_Tedor
+	}
+
+	male_names = {
+
+		Arthmail Arthbodhw Blidhin BlidhyA_dh Brochmail Cadmail Cadwaladr Caradey Conain Contighern Conmarch Conbilin Conwal Dobhnarth Dobhnwal Worbodhw Win Worthighern GrifoyA_dh Lowmharch Loivilen Mail Mailgon March Mormharch Morcant Awighin Raiwal RA_n TA_dir Worthiyern
+		Anared ArthA_r Caghi CA_stintin Davidh Dawidh Deinyil DA_ned Idern Einyen Gerint Macsen Meirchyen Meiryen Meirai Padarn RA_ven Sevir Seisil Inir Corintin
+		A_dhilwin Adgar Alfred Anlaf Berchtwald Edwin A_dhilfraith A_dhilstan Godwin Herewald Ivar A_swald Dhedrai Adam Alisander Andres Asa Asaph A_gost Elias Ambros Filip Franseis German Gerald Gregori Wilam Hary Hi_w Yacob Yostin Yoan MicA_l Patrai PA_l Petr Reinalt Richard Robert Samwil Sergi Gefrei Geor Steven Tedos Tedor Tomas
+
+
+		
+		# Arthfael Arthfoddw Bleddyn Bleiddud Brochfael Cadfael Cadwaladr Caradog Cynan Cyndeyrn Cynfarch Cynfelyn Cynwal Dyfnarth Dyfnwal Gwrfoddw Gwyn Gwrtheyrn Gruffydd Llywarch Llywelyn Mael Maelgwn March Morfarch Morgan Owain Rhiwal Rhun Twdwr Gwrtheyrn 
+		# Anarawd Arthwr Cai Custennin Dafydd Dewi Deiniol Dynod Edern Einion Geraint Macsen Meirchion Meirion Meurig Padern Rhufon Seferus Seisyll Ynyr Corentin Tydy
+		#Alwyn Adgar Alured Anlaff Berthwallt Edwyn Edylfred Elystan Godwyn Herewallt Ivor Oswallt Tewdrig Adda Alisander Andreas Asa Asaph Awst Elis Emrys Ffilip Ffransis Garmon Gerallt Grygor Gwilym Harri Huw Iago Iestyn Ieuan Ioan Sion Mihangel Padrig Pawl Pedr Rheinallt Rhicert Rhobert Sawyl Serigi Sieffre Sior Steffen Tewdos Tewdwr Tomos
+
+	}
+
+	female_names = {
+
+		Arghantrod Awil Branwen BA_dhai Iry Fion Steren Wen Winibhar
+		Alis Agnes Caterin Cecily Cristin Denis Eva Efras Elain Elena Alinor Flor Brigit Hawis Helewis Isabel Lucia Maria Mawd Margred Sara Sibil Yoned Yoan Susanna Tecla
+
+
+		# Arianrhod Awel Branwen Buddug Eira Ffion Seren Gwen Gwenhwyfar
+		# Alys Annes Annest Nest Nesta Catrin Cicely Cristin Denis Efa Effros Elaine Elen Ellyn Elinor Fflur Ffraid Hawys Hellawes Isabel Ysbail Lleuca Mair Mali Mallt Mawd Marared Margred Marchell Melisant Sara Sibyl Sioned Siwan Susanna Tegla
+	}
+	
+	dynasty_of_location_prefix = ""
+	
+	
+	patronym_prefix_male = "dynnpat_pre_ab"
+	patronym_prefix_female = "dynnpat_pre_mherch"	
+	always_use_patronym = yes
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 80
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+	
+	
+
+	mercenary_names = {
+		{ name = mercenary_company_bodyguards_of_gwendolen }
+	}			
+
+}
+
+
+
+
+
+
+# Proto-Brythonic
+
+# Amweiθig Kadmaɣl kaɨrgluɨw bɨxan Grifujʉð Lluɣβelen lluɨd rīɣs Tʉdür 
+		# arθomaɣl arθoboðw blėðɨnn blėðjʉð broxmaɣl Kadmaɣl kadwaladr Karadọg kunagn kunotɨɣern kunomarx kunbelin kunwal duβnarθ Duβnowal wurboðw wɨnn worθɨɣern grifujʉð llowβ̃arx lluɣβelen maɣl maɨlgun marx morβ̃arx morcant awɨɣėn rīɣwal rrʉn Tʉdür worθɨɣern
+		# Anarọd Arθʉr Kaɣi Kʉstentin Daβið Dawið Deɨnjėl Dʉnọd Ėdern Eɨnjọn Gerėnt Maksen Meɨrxjọn Meɨrjọn Meɨrīg Padarn Rrʉβ̃ọn Seβɨr Seɨsɨl Önör Korentin
+		# arɣantrrod awel branwenn bʉðig ėrɣ fion sterenn wɨnn wɨnnohuɨβar
