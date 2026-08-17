@@ -1,6 +1,6 @@
 ﻿
 east_brythonic = {
-	color = welsh
+	color = rgb{ 100 72 212 }
 	
 	ethos = ethos_stoic
 	heritage = heritage_brythonic
