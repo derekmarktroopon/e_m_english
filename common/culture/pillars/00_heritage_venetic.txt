@@ -13,7 +13,7 @@ heritage_osco_umbrian = {
 	type = heritage
 	is_shown = {
 		heritage_is_shown_trigger = {
-			HERITAGE = heritage_venetic
+			HERITAGE = heritage_osco_umbrian
 		}
 	}
 	audio_parameter = european
