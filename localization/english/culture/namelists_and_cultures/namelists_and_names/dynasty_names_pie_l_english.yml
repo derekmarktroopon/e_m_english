@@ -8,57 +8,64 @@ Locationprefix_apo:0 "Apo-"
  ############################################################
  # Dynasty Names ############################################
  ############################################################
- dynn_Athal-Bhrehg:0 "Athal-Bhrehg"
- dynn_Klut-wig:0 "Klut-wig"
- dynn_Uihro-geus:0 "Uihró-geus"
- dynn_Tewteh-hrex:0 "Tewtéh-hrex"
- dynn_Klewos-wesu:0 "Kléwos-wésu"
- dynn_Yohroklewos:0 "Yóhrokléwos"
- dynn_Hsu-wlkwos:0 "Hsu-wlkwos"
- dynn_Hregs-kartos:0 "Hrégs-kartos"
- dynn_Hmbi-wihros:0 "Hmbi-wihros"
- dynn_Regh-klewos:0 "Regh-kléwos"
- dynn_Klewo-regh:0 "Kléwo-regh"
- dynn_Stegwhos:0 "Stegwhos"
- dynn_Helbhos-hrehdh:0 "Helbhós-hrehdh"	   
- dynn_Wlkwos-Genhos:0 "Wlkwos-Génhos"
- dynn_Hekwos-Genhos:0 "Hékwos-Génhos"
- dynn_Bher-Genhos:0 "Bher-Génhos"
- dynn_Bel-Genhos:0 "Bel-Génhos"
- dynn_Nmrtos-Genhos:0 "Nmrtós-Génhos"
+ dynn_Athal-Bhrehg:0 "Hetolobhergtos" # Hetoberuto
+ dynn_Klut-wig:0 "Klutoweykos" # Kurutoeiko
+ dynn_Uihro-geus:0 "Wihrógeus" # Irogeu
+ dynn_Tewteh-hrex:0 "Tewtéhhregs" # Teoteregu
+ dynn_Klewos-wesu:0 "Kléwowésu" # Kureoesu
+ dynn_Yohroklewos:0 "Yóhrokléwos" #Yorokureo
+ dynn_Hsu-wlkwos:0 "Hsuwlkwos" # Hesuwarugo
+ dynn_Hregs-kartos:0 "Hrégskartos" # Regukaruto
+ dynn_Hmbi-wihros:0 "Hmbiwihros" # Hubiiro
+ dynn_Regh-klewos:0 "Reghkléwos" #Regukureo
+ dynn_Klewo-regh:0 "Kléworegh" #Kureoregu
+ dynn_Stegwhos:0 "Stegwhos" #Suteguo
+ dynn_Helbhos-hrehdh:0 "Helbhóhrehdh"	# Heborede
+ dynn_Wlkwos-Genhos:0 "Wlkwogénhos" # Urugogeno
+ dynn_Hekwos-Genhos:0 "Hékwogénhos" # Hegogeno
+ dynn_Bher-Genhos:0 "Bhergénhos" # Herugeno
+ dynn_Bel-Genhos:0 "Belgénhos" #Heregeno
+ dynn_Nmrtos-Genhos:0 "Nmrtógénhos" #Narutogeno
  
  ############################################################
  # Male Personal Names ######################################
  ############################################################
  
- Athal-Bhrehg:0 "Athalbhrehg"
- Kluto-wig:0 "Klutowig"
+ Athal-Bhrehg:0 "Hetolobhergtos"
+ Kluto-wig:0 "Klutoweykos"
  Uihro-geus:0 "Uihrógeus"
  Tewteh-hregs:0 "Tewtéhhrégs"
- Klewos-wesu:0 "Kléwos-wésu"
+ Klewos-wesu:0 "Kléwowésu"
  Yohroklewos:0 "Yóhrokléwos"
- Hsu-wlkwos:0 "Hsu-wlkwos"
- Hregs-kartos:0 "Hrégs-kartos"
+ Hsu-wlkwos:0 "Hsuwlkwos"
+ Hregs-kartos:0 "Hrégskartos"
  Hmbi-wihros:0 "Hmbiwihros"
  Regh-klewos:0 "Reghkléwos"
  Klewo-regh:0 "Kléworegh"
  Stegwhos:0 "Stegwhos"
- Helbhos-hrehdh:0 "Helbhós-hrehdh"	  
+ Helbhos-hrehdh:0 "Helbhóhrehdh"	  
  Trito:0 "Trito"
  Manu_PIE:0 "Manu"
  Yemo:0 "Yemo"
  Gweru-hekwos:0 "Gwéruhékwos"
- Hekwos-Suhnu:0 "Hékwossuhnú"
+ Hekwos-Suhnu:0 "Hékwosuhnú"
  Klewo-Hner:0 "Kléwohner"
- Wlkwos-Whiro:0 "Wlkwoswhiro"
- Hwesus-Hregs:0 "Hwésushrégs"
- Nogw-Wlkwos:0 "Nogw-wlkwos"
+ Wlkwos-Whiro:0 "Wlkwowhiro"
+ Hwesus-Hregs:0 "Hwésuhrégs"
+ Nogw-Wlkwos:0 "Nogwlkwos"
  Nmrtos-Manu:0 "Nmrtósmanu"
- Bel-Hekwos:0 "Bel-hékwos"
+ Bel-Hekwos:0 "Belhékwos"
+ Hetewoklewos:0 "Hetewoklewos"
+ Demspotis:0 "Demspótis" # Greek despótēs, Proto-Indo-Iranian dámspatiš
+ Wikpotis:0 "Wikpótis" # Proto-Albanian: *dzwāpt , Tocharian A: wikpots
+ Hsuklewes:0 "Hsukléwes" #Greek Eukles, Iranic Hsućráwās
+ Hwesuklewes:0 "Hwesukléwes" #Liburnian Veskleves, Sanskrit Vásuśravas
+ Hekwomedos:0 "Hekwomedos" #Gaulish Epomeduos, Greek Hippomédōn
 
  Hrtkos:0 "Hrtkos"
  Wlop:0 "Wlop"
  Wlkwos:0 "Wlkwos"
+
  ############################################################
  # Female Personal Names ####################################
  ############################################################
@@ -69,11 +76,13 @@ Locationprefix_apo:0 "Apo-"
  Hster-ker:0 "Hsterkér"
  Wlkwos-dhughter:0 "Wlkwodhughtér"
  Hekwos-dhughter:0 "Hékwodhughtér" 
- Hsu-Wlkweh:0 "Hsu-wlkweh" 
+ Hsu-Wlkweh:0 "Hsuwlkweh" 
  Swepnos-dhughter:0 "Swepnodhughtér" 
  Bhewdeh:0 "Bhewdeh" 
  Hwesus-dhughter:0 "Hwésudhughtér" 
- Bel-Hekweh:0 "Bel-hékweh" 
+ Bel-Hekweh:0 "Belhékweh" 
  Bherh:0 "Bherh"
  Wlopeh:0 "Wlopeh"
  Heweh:0 "Héweh"
+ Huhrukleweh:0 "Huhrúkleweh" #Greek Eurykleia,
+ Wikpotnih:0 "Wikpótnih" # Albanian: zonjë, Lithuanian: viēšpati 

@@ -30,7 +30,7 @@
  ArthA_r:0 "Arthâr"
  CA_stintin:0 "Câstintin"
  DA_ned:0 "Dâned"
- RA_ven:0 "Râven"
+ RA_ven:0 "Râmhen"
  A_dhilwin:0 "Âdhilwin"
  A_dhilfraith:0 "Âdhilfraith"
  A_dhilstan:0 "Âdhilstan"
@@ -112,3 +112,71 @@
  Helewis:0 "Helewis"
  Sibil:0 "Sibil"
  Yoned:0 "Yoned"
+
+###################################
+### New Cumbric
+##################################
+
+dynn_Laenauc:0 "Laenauc"
+dynn_Guallauc:0 "Guallauc"
+dynn_Blayncair:0 "Blayncair"
+dynn_Reged:0 "Reged"
+dynn_Ogled:0 "Ogled"
+dynn_Lannerch:0 "Lannerch"
+
+
+Dunegal:0 "Dunegal" # Donald
+Moryn:0 "Moryn" # Morgen
+Eilifr:0 "Eilifr" # Eleuther
+Gospatrick:0 "Gospatrick"
+Gosmungo:0 "Gosmungo"
+Goscuthbert:0 "Goscuthbert"
+Urbgen:0 "Urbgen" #Urbgenius
+Riderch:0 "Riderch" # Roderick
+Eugein:0 "Eugein" # Eugene
+Teudebur:0 "Teudebur" # Theodore
+Guipno:0 "Guipno" # Cynwyd 
+Cinuit:0 "Cinuit" # Cynwyd
+Ceritic:0 "Ceritic" # Caratacus
+Cynloyp:0 "Cynloyp"
+Cinhil:0 "Cinhil" # Cinhyll
+Cluim:0 "Cluim"
+Cursalem:0 "Cursalem"
+Fer:0 "Fer" # Ffer
+Confer:0 "Confer" # Cynffer
+Clinoch:0 "Clinoch" # Clydno
+Cinbelim:0 "Cinbelim" # Cynfelyn
+Cinmarc:0 "Cinmarc" # Cynfarch
+Merchian:0 "Merchian" # Marcianus
+Gurgust:0 "Gurgust" # Gwrwst
+Guallauc:0 "Guallauc" # Gwallog
+Laenauc:0 "Laenauc" # Llaennog
+Coledauc:0 "Coledauc" # Coledog
+Cincar:0 "Cincar" # Cyngar
+Garbaniaun:0 "Garbaniaun" # Garfonion
+Guotepauc:0 "Guotepauc" # Godebog
+Tecmant:0 "Tecmant"
+Teuhant:0 "Teuhant"
+Telpuil:0 "Telpuil"
+Grat:0 "Grat"
+Iumetel:0 "Iumetel"
+Ritigirn:0 "Ritigirn" # Rhitigern
+Oudecant:0 "Oudecant" # Odecant
+Outigirn:0 "Outigirn" # Outigern
+Ebiud:0 "Ebiud"
+Eudos:0 "Eudos"
+Eudelen:0 "Eudelen"
+Aballac:0 "Aballac"
+Dunaut:0 "Dunaut"
+Pappo:0 "Pappo" # Pabo
+Peretur:0 "Peretur" # Peredur
+Eleuther:0 "Eleuther"
+Letlum:0 "Letlum" # Lletlwm
+
+Languoreth:0 "Languoreth"
+Denyw:0 "Denyw"
+Dwywai:0 "Dwywai" # Dewei
+
+###################################
+### Common Brythonic
+##################################

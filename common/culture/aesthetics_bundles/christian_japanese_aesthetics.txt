@@ -1,0 +1,60 @@
+﻿christian_japanese_aesthetic_2 = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_yamato
+			}
+			religion = religion:christianity_religion
+			any_sub_realm_county = {
+				title_province = {
+					OR = {
+						geographical_region = world_steppe_west
+						geographical_region = world_europe_west
+						geographical_region = world_europe_south
+						geographical_region = world_europe_east
+					}
+				}
+			}
+		}
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx}
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_14
+
+	name_list = name_list_christian_japanese_2
+
+}
+
+christian_japanese_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_yamato
+			}
+			religion = religion:christianity_religion
+			any_sub_realm_county = {
+				title_province = {
+					NOR = {
+						geographical_region = world_steppe_west
+						geographical_region = world_europe_west
+						geographical_region = world_europe_south
+						geographical_region = world_europe_east
+					}
+				}
+			}
+		}
+	}
+
+	coa_gfx = { japanese_coa_gfx }
+	building_gfx = { japanese_building_gfx }
+	clothing_gfx = { japanese_clothing_gfx }
+	unit_gfx = { japanese_unit_gfx }
+	house_coa_frame = house_japan
+
+	name_list = name_list_christian_japanese
+
+}

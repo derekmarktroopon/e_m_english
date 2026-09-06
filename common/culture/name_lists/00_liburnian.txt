@@ -8,7 +8,7 @@
 		}
 
 		male_names = {
-	        lbrn_aetor lbrn_avito lbrn_bonino lbrn_klitiko lbrn_kurtiko lbrn_darmo lbrn_hospitolo lbrn_hostiduko lbrn_hostiikes lbrn_lambiko lbrn_malaviko lbrn_moiko lbrn_olkatino lbrn_oeplo lbrn_opiavo lbrn_oplo lbrn_plaetor lbrn_patalio lbrn_reco lbrn_tarno lbrn_trosio lbrn_turo lbrn_vinioko lbrn_volsono lbrn_volsouno lbrn_volsus lbrn_zupriko
+	        lbrn_aetor lbrn_avito lbrn_bonino lbrn_klitiko lbrn_kurtiko lbrn_darmo lbrn_hospitolo lbrn_hostiduko lbrn_hostiikes lbrn_lambiko lbrn_malaviko lbrn_moiko lbrn_olkatino lbrn_oeplo lbrn_opiavo lbrn_oplo lbrn_plaetor lbrn_patalio lbrn_reco lbrn_tarno lbrn_trosio lbrn_turo lbrn_vescleves lbrn_vinioko lbrn_volsono lbrn_volsouno lbrn_volsus lbrn_zupriko
 		}
 
 		female_names = {

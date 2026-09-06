@@ -3,7 +3,6 @@
             dynn_Athal-Bhrehg dynn_Klut-wig dynn_Uihro-geus dynn_Tewteh-hrex dynn_Klewos-wesu dynn_Yohroklewos dynn_Hsu-wlkwos dynn_Hregs-kartos dynn_Hmbi-wihros
 			dynn_Regh-klewos dynn_Klewo-regh dynn_Stegwhos dynn_Helbhos-hrehdh 
 			dynn_Wlkwos-Genhos dynn_Hekwos-Genhos dynn_Bher-Genhos dynn_Bel-Genhos dynn_Nmrtos-Genhos
-			
 		}
 
 		dynasty_names = {
@@ -17,12 +16,14 @@
 			Regh-klewos Klewo-regh Stegwhos Helbhos-hrehdh
 			Trito Manu_PIE Yemo Gweru-hekwos Hekwos-Suhnu Klewo-Hner Wlkwos-Whiro Hwesus-Hregs Nogw-Wlkwos Nmrtos-Manu Bel-Hekwos 
 			Hrtkos Wlop Wlkwos 
+			Hetewoklewos Demspotis Wikpotis Hsuklewes Hwesuklewes Hekwomedos
 		}
         #Gwéru-Hékwos Hwes-Hrégs Hsu-Hrégs Hékwos-Suhnú Wlkwos-Suhnú Kléwo-Hner Wlkwos-Whiro Hwésus-Hrégs Nogw-Wlkwos Nmrtós-Manu Bel-Hékwos
 		female_names = {
             Klewos-atta Bhrghentih Bhrghntyeh Hster-ker 
 			Wlkwos-dhughter Hekwos-dhughter Hsu-Wlkweh Swepnos-dhughter Bhewdeh Hwesus-dhughter Bel-Hekweh Bherh
 			Wlopeh Heweh
+			Huhrukleweh Wikpotnih
 		}
         #Wlkwos-dhughtér Hékwos-dhughtér Hsu-Wlkweh Hekwos-dhughtér Swepnos-dhughtér Bhewdeh Hwésus-dhughtér Bel-Hékweh Bherh
 	dynasty_of_location_prefix = Locationprefix_apo				
