@@ -69,7 +69,7 @@ name_list_east_brythonic = {
 
 name_list_cumbrian = {
 
-	dynasty_names = {
+	cadet_dynasty_names = {
 		dynn_Lannerch
 		{ "dynnp_vap" "dynn_Arthal" }
 		{ "dynnp_vap" "dynn_Ewen" }
@@ -119,10 +119,10 @@ name_list_cumbrian = {
 
 	dynasty_names = {
 		dynn_Lannerch
-		{ "dynnpat_pre_map" "dynn_Arthal" }
-		{ "dynnpat_pre_map" "dynn_Ewen" }
-		{ "dynnpat_pre_map" "dynn_Roun " }
-		{ "dynnpat_pre_map" "dynn_Duwnwal" }
+		{ "dynnp_vap" "dynn_Arthal" }
+		{ "dynnp_vap" "dynn_Ewen" }
+		{ "dynnp_vap" "dynn_Roun " }
+		{ "dynnp_vap" "dynn_Duwnwal" }
 		dynn_Blayncair
 		dynn_Aber_Cogur
 		dynn_Aber_Duwon
@@ -152,6 +152,17 @@ name_list_cumbrian = {
 		dynn_Perthik
 		dynn_Rinnfrow
 		dynn_Troon
+		{ "dynnp_vap" "dynn_Ourven" }
+		{ "dynnp_vap" "dynn_Leenok" }
+		dynn_Bulch
+		dynn_Breden
+		{ "dynnp_vap" "dynn_Pabo" }
+		dynn_Godebok
+		dynn_Gwledik
+		dynn_Edin
+		{ "dynnp_vap" "dynn_Cludno" }
+		dynn_Toudglit
+		dynn_Hael
 	}
 
 	male_names = {
