@@ -117,66 +117,224 @@
 ### New Cumbric
 ##################################
 
-dynn_Laenauc:0 "Laenauc"
-dynn_Guallauc:0 "Guallauc"
-dynn_Blayncair:0 "Blayncair"
-dynn_Reged:0 "Reged"
-dynn_Ogled:0 "Ogled"
+dynnp_vap:0 "vap "
+dynnpat_pre_vap:0 "vap "
+
 dynn_Lannerch:0 "Lannerch"
+dynn_Arthal:0 "Arthal"
+dynn_Ewen:0 "Ewen"
+dynn_Roun:0 "Roun"
+dynn_Duwnwal:0 "Duwnwal"
+dynn_Blayncair:0 "Blayncair"
+dynn_Aber_Cogur:0 "Aber Cogur"
+dynn_Aber_Duwon:0 "Aber Duwon"
+dynn_Aber_Aloun:0 "Aber Aloun"
+dynn_Al_Clout:0 "Al Clout"
+dynn_Arvderidh:0 "Arvderidh"
+dynn_Baedhgait:0 "Baedhgait"
+dynn_Basselek:0 "Basselek"
+dynn_Blayntir:0 "Blayntir"
+dynn_Cair_Anaw:0 "Cair Anaw"
+dynn_Cair_Caledin:0 "Cair Caledin"
+dynn_Cair_Duw:0 "Cair Duw"
+dynn_Cilgait:0 "Cilgait"
+dynn_Dinbarr:0 "Dinbarr" 
+dynn_Dinbris:0 "Dinbris"
+dynn_Din_Edin:0 "Din Edin"
+dynn_Dolar:0 "Dolar"
+dynn_Dolgait:0 "Dolgait"
+dynn_Egloosvreyth:0 "Egloosvreyth"
+dynn_Govann:0 "Govann"
+dynn_Inis:0 "Inis"
+dynn_Liswidh:0 "Liswidh"
+dynn_Mailvre:0 "Mailvre"
+dynn_Pebil:0 "Pebil"
+dynn_Pennrit:0 "Pennrit"
+dynn_Perth:0 "Perth"
+dynn_Perthik:0 "Perthik"
+dynn_Rinnfrow:0 "Rinnfrow"
+dynn_Troon:0 "Troon"
+dynn_Reget:0 "Reget"
+dynn_Ledlumm:0 "Ledlumm"
+dynn_Ourven:0 "Ourven"
+dynn_Manaw_Gododhin:0 "Manaw Gododhin"
+dynn_Leenok:0 "Leenok"
+dynn_Bulch:0 "Bulch"
+dynn_Breden:0 "Breden"
+dynn_Pabo:0 "Pabo"
+dynn_Godebok:0 "Godebok"
+dynn_Gwledik:0 "Gwledik"
+dynn_Edin:0 "Edin"
+dynn_Cludno:0 "Cludno"
+dynn_Toudglit:0 "Toudglit"
+dynn_Hael:0 "Hael"
 
+Cardok:0 "Cardok" # Caratacus, Caradog
+Cerdik:0 "Cerdik" # Ceredig
+Cundiarn:0 "Cundiarn" # Kentigern, Cyndeyrn
+Cunon:0 "Cunon" # Conan, Cynon
+Cunoot:0 "Cunoot" # Kenneth*, Cynwyd
+Dinggat:0 "Dinggat" # Duncan*, Dinogad
+Duwnwal:0 "Duwnwal" # Donald, Dyfnwal
+Ewen:0 "Ewen" # Owen, Ewan, Owain
+Gorust:0 "Gorust" #   Fergus, Gwrwst
+Gwallok:0 "Gwallok" #   Gwallog
+Gwaskolomm:0 "Gwaskolomm" # Malcolm
+Gwascubrit:0 "Gwascubrit" # Goscuthbert
+Gwasmunku:0 "Gwasmunku" # Gosmungo
+Gwasoswalht:0 "Gwasoswalht" # Gososwald
+Gwaspadrik:0 "Gwaspadrik" # Gospatric
+Gwendholow:0 "Gwendholow" # Gwenddolau
+Gwenngat:0 "Gwenngat" # Gwengad
+Mayldret:0 "Mayldret" # Meldred, Maldred
+Morgant:0 "Morgant" # Morgan
+Nethon:0 "Nethon" # (Nathan), Neithon
+Noudh:0 "Noudh" # Nodens, Nudd, Lludd
+Ounust:0 "Ounust" # Angus, Unwst
+Ourvyen:0 "Ourvyen" # Urien
+Redherch:0 "Redherch" # Roderick*, Rhydderch
+Riwallon:0 "Riwallon" # Rhiwallon
+Roun:0 "Roun" # Run / Rhun
+Toudwal:0 "Toudwal" # Tudwal
+Centil:0 "Centil" # Quintillus
+Cloov:0 "Cloov" # Clement, Clwyf
+Coustentin:0 "Coustentin" # Constantine, Custenin
+Dounot:0 "Dounot" # Dunod, Dinoot*
+Garvonyon:0 "Garvonyon" # Garfonion
+Merchyon:0 "Merchyon" # Marcian, Meirchion
+Meryon:0 "Meryon" # Meirion
+Owst:0 "Owst" # August, Awst
+Owstin:0 "Owstin" # Augustine, Awstin
+Padarn:0 "Padarn" # Padarn
+Pascent:0 "Pascent" # Pasgen
+Adhav:0 "Adhav" # Adam, Adda
+Andruw:0 "Andruw" # Andrew
+Aron:0 "Aron" # Aaron
+Cristofur:0 "Cristofur" # Christopher
+Cubrit:0 "Cubrit" # Cuthbert
+Denyool:0 "Denyool" # Daniel, Deinwyl
+Dewidh:0 "Dewidh" # David, Dewi, Dafydd
+Louk:0 "Louk" # Luke
+Mathow:0 "Mathow" # Matthew, Mathau
+Michel:0 "Michel" # Michael
+Moarch:0 "Moarch" # Mark, Marc, Marcus
+Oswalht:0 "Oswalht" # Oswald
+Padrik:0 "Padrik" # Patrick, Padrig
+Pedir:0 "Pedir" # Peter, Pedr
+Powl:0 "Powl" # Paul
+Sawool:0 "Sawool" # Samuel, Sawyl
+Seliv:0 "Seliv" # Solomon, Selyf
+Yagov:0 "Yagov" # Jacob, James, Iago
+Yossef:0 "Yossef" # Joseph, Ioseff, Iosep
+Yowann:0 "Yowann" # John, Ieuan, Ioan, Ifan
+Alsandur:0 "Alsandur" # Alexander, Alastair
+Archil:0 "Archil" # ON. Arnkil
+Aydhan:0 "Aydhan" # Aidan, Aeddan
+Duvan:0 "Duvan" # Gael. Dubhan
+Edwardh:0 "Edwardh" # Edward
+Gwilom:0 "Gwilom" # William, Gwilym
+Jordh:0 "Jordh" # George
+Retsarht:0 "Retsarht" # Richard
+Robarht:0 "Robarht" # Robert
+Sharlas:0 "Sharlas" # Charles
+Gwledik:0 "Gwledik" # Guletic
+Gwidhno:0 "Gwidhno" # Guipno
+Neython:0 "Neython" # Neithon
+Cludno:0 "Cludno" # Clinoch
+Bely:0 "Bely" # Beli
+Elffin:0 "Elffin" # Elfin
+Toudir:0 "Toudir" # Teudebur
+Arthal:0 "Arthal" # Artgal
 
-Dunegal:0 "Dunegal" # Donald
-Moryn:0 "Moryn" # Morgen
-Eilifr:0 "Eilifr" # Eleuther
-Gospatrick:0 "Gospatrick"
-Gosmungo:0 "Gosmungo"
-Goscuthbert:0 "Goscuthbert"
-Urbgen:0 "Urbgen" #Urbgenius
-Riderch:0 "Riderch" # Roderick
-Eugein:0 "Eugein" # Eugene
-Teudebur:0 "Teudebur" # Theodore
-Guipno:0 "Guipno" # Cynwyd 
-Cinuit:0 "Cinuit" # Cynwyd
-Ceritic:0 "Ceritic" # Caratacus
-Cynloyp:0 "Cynloyp"
-Cinhil:0 "Cinhil" # Cinhyll
-Cluim:0 "Cluim"
-Cursalem:0 "Cursalem"
-Fer:0 "Fer" # Ffer
-Confer:0 "Confer" # Cynffer
-Clinoch:0 "Clinoch" # Clydno
-Cinbelim:0 "Cinbelim" # Cynfelyn
-Cinmarc:0 "Cinmarc" # Cynfarch
-Merchian:0 "Merchian" # Marcianus
-Gurgust:0 "Gurgust" # Gwrwst
-Guallauc:0 "Guallauc" # Gwallog
-Laenauc:0 "Laenauc" # Llaennog
-Coledauc:0 "Coledauc" # Coledog
-Cincar:0 "Cincar" # Cyngar
-Garbaniaun:0 "Garbaniaun" # Garfonion
-Guotepauc:0 "Guotepauc" # Godebog
-Tecmant:0 "Tecmant"
-Teuhant:0 "Teuhant"
-Telpuil:0 "Telpuil"
-Grat:0 "Grat"
-Iumetel:0 "Iumetel"
-Ritigirn:0 "Ritigirn" # Rhitigern
-Oudecant:0 "Oudecant" # Odecant
-Outigirn:0 "Outigirn" # Outigern
-Ebiud:0 "Ebiud"
-Eudos:0 "Eudos"
-Eudelen:0 "Eudelen"
-Aballac:0 "Aballac"
-Dunaut:0 "Dunaut"
-Pappo:0 "Pappo" # Pabo
-Peretur:0 "Peretur" # Peredur
-Eleuther:0 "Eleuther"
-Letlum:0 "Letlum" # Lletlwm
-
-Languoreth:0 "Languoreth"
-Denyw:0 "Denyw"
-Dwywai:0 "Dwywai" # Dewei
+Ankarat:0 "Ankarat" # Angharad
+Ardhoun:0 "Ardhoun" # Arddun
+Duwe:0 "Duwe" # Dwywai
+Ewrdhil:0 "Ewrdhil" # Efrddyl
+Gwenndhidh:0 "Gwenndhidh" # Gwendydd
+Gwennvaden:0 "Gwennvaden" #
+Gwoal:0 "Gwoal" # Gwawl
+Gwoar:0 "Gwoar" #   Dawn, Gwawr
+Lannwaret:0 "Lannwaret" # Languoreth 
+Morvoudh:0 "Morvoudh" # Morfudd, Morfydd
+Neven:0 "Neven" # Nyfain
+Rienvelht:0 "Rienvelht" # Riemmelth, Rhieinfellt
+Tanuw:0 "Tanuw" # Thaneu
+Cadrin:0 "Cadrin" # Catherine, Katherine
+Elispet:0 "Elispet" # Elizabeth
+Ester:0 "Ester" # Esther / Stella
+Mer:0 "Mer" # Mary, Maria, Mair
+Merrit:0 "Merrit" # Margaret
+Merrerit:0 "Merrerit" # Margaret
+Rachool:0 "Rachool" # Rachel, Rachael
+Rebecka:0 "Rebecka" # Rebecca(h)
+Alse:0 "Alse" # Alice, Alicia
+Anes:0 "Anes" # Agnes
+Bethak:0 "Bethak" # Gael. Beathàg
+Ispel:0 "Ispel" # Isobel, Isabel, Isabella
+Jonet:0 "Jonet" # Janet
 
 ###################################
 ### Common Brythonic
 ##################################
+
+common_brythonic:0 "Britton"
+common_brythonic_collective_noun:0 "Brittons"
+common_brythonic_prefix:0 "Brittono"
+
+name_list_late_brythonic:0 "Late Brittonic"
+
+dynn_Amueithig:0 "Amueithig"
+dynn_Cadmagl:0 "Cadmagl"
+dynn_Cairgluiu:0 "Cairgluiu"
+dynn_Bichan:0 "Bichan"
+dynn_Grifuiud:0 "Grifuiud"
+dynn_Lugbelen:0 "Lugbelen"
+dynn_Luid:0 "Luid"
+dynn_Rigs:0 "Rigs"
+dynn_Tudur:0 "Tudur"
+dynn_Caradog:0 "Caradog"
+dynn_Brochmagl:0 "Brochmagl"
+dynn_Dumnarth:0 "Dumnarth"
+dynn_Uorthigern:0 "Uorthigern"
+
+Arthomagl:0 "Arthomagl" # Arthfael
+Arthobodu:0 "Arthobodu" # Arthfoddw
+Bledinn:0 "Bledinn" # Bleddyn
+Blediud:0 "Blediud" # Bleiddud
+Brochmagl:0 "Brochmagl" # Brochfael
+Cadmagl:0 "Cadmagl" # Cadfael
+Cadualadr:0 "Cadualadr" # Cadwaladr
+Cunagn:0 "Cunagn" # Cynan
+Cunotigern:0 "Cunotigern" # Cyndeyrn
+Cunomarch:0 "Cunomarch" # Cynfarch
+Cunbelin:0 "Cunbelin" # Cynfelyn
+Cunual:0 "Cunual" # Cynwal
+Dumnarth:0 "Dumnarth" # Dyfnarth
+Dumnoual:0 "Dumnoual" # Dyfnwal
+Uurbodu:0 "Uurbodu" # Gwrfoddw
+Uinn:0 "Uinn" # Gwyn
+Uorthigern:0 "Uorthigern" # Gwrtheyrn
+Grifuiud:0 "Grifuiud" # Gruffydd
+Loumarch:0 "Loumarch" # Llywarch
+Lugbelen:0 "Lugbelen" # Llywelyn
+Magl:0 "Magl" # Mael
+Mailgun:0 "Mailgun" # Maelgwn
+Auigen:0 "Auigen" # Owain / Eugene
+Rigwal:0 "Rigwal" # Rhiwal
+Run:0 "Run" # Rhun
+Tudur:0 "Tudur" # Twdwr
+Anarod:0 "Anarod" # Anarawd
+Cagi:0 "Cagi" # Cai
+Deiniel:0 "Deiniel" # Deiniol / Daniel
+Dunod:0 "Dunod" # Dynod
+Gerent:0 "Gerent" # Geraint
+Maxen:0 "Maxen" # Macsen 
+Meirig:0 "Meirig" # Meurig
+
+Argantrod:0 "Argantrod" # Arianrhod
+Auel:0 "Auel" # Awel
+Branuen:0 "Branuen" # Branwen
+Budig:0 "Budig" # Buddug / Boudica
+Erg:0 "Erg" # Eira
+Sterenn:0 "Sterenn" # Seren
+Uinnohuivar:0 "Uinnohuivar" # Gwenhwyfar 

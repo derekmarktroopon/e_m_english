@@ -58,60 +58,158 @@ name_list_east_brythonic = {
 
 }
 
+# Proto-Brythonic
+
+# Amweiθig Kadmaɣl kaɨrgluɨw bɨxan Grifujʉð Lluɣβelen lluɨd rīɣs Tʉdür 
+# arθomaɣl arθoboðw blėðɨnn blėðjʉð broxmaɣl Kadmaɣl kadwaladr Karadọg kunagn kunotɨɣern kunomarx kunbelin kunwal duβnarθ Duβnowal wurboðw wɨnn worθɨɣern grifujʉð llowβ̃arx lluɣβelen maɣl maɨlgun marx morβ̃arx morcant awɨɣėn rīɣwal rrʉn Tʉdür worθɨɣern
+# Anarọd Arθʉr Kaɣi Kʉstentin Daβið Dawið Deɨnjėl Dʉnọd Ėdern Eɨnjọn Gerėnt Maksen Meɨrxjọn Meɨrjọn Meɨrīg Padarn Rrʉβ̃ọn Seβɨr Seɨsɨl Önör Korentin
+
+
+# arɣantrrod awel branwenn bʉðig ėrɣ fion sterenn wɨnn wɨnnohuɨβar
 
 name_list_cumbrian = {
 
-	cadet_dynasty_names = {
-		"dynn_Wledig"
-		{ "dynnpat_pre_map" "dynn_Edern" }
-		{ "dynnpat_pre_map" "dynn_Laenauc" }
+	dynasty_names = {
 		dynn_Lannerch
-		{ "dynnpat_pre_map" "dynn_Guallauc" }
-		"dynn_Ogled"
-		"dynn_Reged"
-		{ "dynnpat_pre_map" "dynn_Mallerslange" }
-		{ "dynnpat_pre_map" "dynn_Winander" }
-		{ "dynnpat_pre_map" "dynn_Ulles" }
-		{ "dynnpat_pre_map" "dynn_Wingfield" }
-		{ "dynnpat_pre_map" "dynn_Gillsland" }
-		"dynn_Guletic"
-		"dynn_Prydain"
-		"dynn_Bwr"
-		"dynn_Penuchel"
-		{ "dynnpat_pre_map" "dynn_Reged" }
-		{ "dynnpat_pre_map" "dynn_Eden" }
+		{ "dynnp_vap" "dynn_Arthal" }
+		{ "dynnp_vap" "dynn_Ewen" }
+		{ "dynnp_vap" "dynn_Roun " }
+		{ "dynnp_vap" "dynn_Duwnwal" }
 		dynn_Blayncair
+		dynn_Aber_Cogur
+		dynn_Aber_Duwon
+		dynn_Aber_Aloun
+		dynn_Al_Clout
+		dynn_Arvderidh
+		dynn_Baedhgait 
+		dynn_Basselek
+		dynn_Blayntir
+		dynn_Cair_Anaw
+		dynn_Cair_Caledin
+		dynn_Cair_Duw
+		dynn_Cilgait
+		dynn_Dinbarr 
+		dynn_Dinbris
+		dynn_Din_Edin
+		dynn_Dolar
+		dynn_Dolgait
+		dynn_Egloosvreyth
+		dynn_Govann
+		dynn_Inis 
+		dynn_Liswidh
+		dynn_Mailvre
+		dynn_Pebil
+		dynn_Pennrit
+		dynn_Perth
+		dynn_Perthik
+		dynn_Rinnfrow
+		dynn_Troon
+		{ "dynnp_vap" "dynn_Ourven" }
+		{ "dynnp_vap" "dynn_Leenok" }
+		dynn_Bulch
+		dynn_Breden
+		{ "dynnp_vap" "dynn_Pabo" }
+		dynn_Godebok
+		dynn_Gwledik
+		dynn_Edin
+		{ "dynnp_vap" "dynn_Cludno" }
+		dynn_Toudglit
+		dynn_Hael
 	}
 
 	dynasty_names = {
-		"dynn_Wledig"
-		{ "dynnpat_pre_map" "dynn_Edern" }
-		{ "dynnpat_pre_map" "dynn_Laenauc" }
 		dynn_Lannerch
-		{ "dynnpat_pre_map" "dynn_Guallauc" }
-		"dynn_Ogled"
-		"dynn_Reged"
-		{ "dynnpat_pre_map" "dynn_Mallerslange" }
-		{ "dynnpat_pre_map" "dynn_Winander" }
-		{ "dynnpat_pre_map" "dynn_Ulles" }
-		{ "dynnpat_pre_map" "dynn_Wingfield" }
-		{ "dynnpat_pre_map" "dynn_Gillsland" }
-		"dynn_Guletic"
-		"dynn_Prydain"
-		"dynn_Bwr"
-		"dynn_Penuchel"
-		{ "dynnpat_pre_map" "dynn_Reged" }
-		{ "dynnpat_pre_map" "dynn_Eden" }
+		{ "dynnpat_pre_map" "dynn_Arthal" }
+		{ "dynnpat_pre_map" "dynn_Ewen" }
+		{ "dynnpat_pre_map" "dynn_Roun " }
+		{ "dynnpat_pre_map" "dynn_Duwnwal" }
 		dynn_Blayncair
+		dynn_Aber_Cogur
+		dynn_Aber_Duwon
+		dynn_Aber_Aloun
+		dynn_Al_Clout
+		dynn_Arvderidh
+		dynn_Baedhgait 
+		dynn_Basselek
+		dynn_Blayntir
+		dynn_Cair_Anaw
+		dynn_Cair_Caledin
+		dynn_Cair_Duw
+		dynn_Cilgait
+		dynn_Dinbarr 
+		dynn_Dinbris
+		dynn_Din_Edin
+		dynn_Dolar
+		dynn_Dolgait
+		dynn_Egloosvreyth
+		dynn_Govann
+		dynn_Inis 
+		dynn_Liswidh
+		dynn_Mailvre
+		dynn_Pebil
+		dynn_Pennrit
+		dynn_Perth
+		dynn_Perthik
+		dynn_Rinnfrow
+		dynn_Troon
 	}
 
 	male_names = {
-		Dunegal Dumnagual Moryn Eilifr Gospatrick Gosmungo Goscuthbert Urbgen Riderch Eugein Teudebur Beli Bran Elfin Neithon Guipno Cinuit Ceritic Cynloyp Cinhil Cluim Cursalem Fer Confer Clinoch Cinbelim Cinmarc Merchian Gurgust Guallauc Laenauc Ceneu Morcant Coledauc Cincar Garbaniaun Guotepauc Tecmant Teuhant Telpuil Urban Grat Iumetel Ritigirn Oudecant Outigirn Ebiud Eudos Eudelen Aballac Dunaut Pappo Gurci Peretur Eleuther Letlum
+		Bran Cardok Cerdik Cundiarn Cunon Cunoot Dinggat Duwnwal Ewen Gorust Gwallok Gwaskolomm Gwascubrit Gwasmunku Gwasoswalht Gwaspadrik Gwendholow Gwenngat Mayldret Morgant Nethon Noudh Ounust Ourvyen Redherch Riwallon Roun Toudwal
+		Centil Cloov Coustentin Dounot Elfin Garvonyon Merchyon Meryon Owst Owstin Padarn Pascent
+		Adhav Andruw Aron Cristofur Cubrit Denyool Dewidh Louk Mathow Michel Moarch Oswalht Padrik Pedir Powl Sawool Seliv Stefan Tomas Yagov Yossef Yowann
+		Alsandur Archil Aydhan Duvan Edwardh Gwilom Hary Ivar Jordh Retsarht Robarht Sharlas
+		Gwledik Gwidhno Neython Cludno Bely Elffin Toudir Arthal
 	}
 	female_names = {
-		Languoreth Denyw Dwywai
-		Afrella Alys Annes Catrin Cerie Cerys Cicely Cristin Isabel Margred Mawd Morganna Morien Nest Sara
-		Senena Sibyl Susanna Tegla
+		Ankarat Ardhoun Duwe Ewrdhil Gwenndhidh Gwennvaden Gwoal Gwoar Lannwaret Modron Morvoudh Neven Rienvelht Tanuw
+		Elen
+		Anna Cadrin Elispet Ester Eva Mer Merrit Merrerit Rachool Rebecka Sara
+		Alse Anes Bethak Cristin Ispel Jon Jonet
+	}
+	
+	patronym_prefix_male = "dynnpat_pre_vap"
+	patronym_prefix_female = "dynnpat_pre_vch"	
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 80
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+	
+	
+}
+
+name_list_late_brythonic = {
+
+	cadet_dynasty_names = {
+		dynn_Amueithig dynn_Cadmagl dynn_Cairgluiu dynn_Bichan dynn_Grifuiud dynn_Lugbelen dynn_Luid dynn_Rigs dynn_Tudur
+		{ "dynnpat_pre_map" "dynn_Caradog" }
+		{ "dynnpat_pre_map" "dynn_Brochmagl" }
+		{ "dynnpat_pre_map" "dynn_Dumnarth " }
+		{ "dynnpat_pre_map" "dynn_Uorthigern" }
+	}
+
+	dynasty_names = {
+		dynn_Amueithig dynn_Cadmagl dynn_Cairgluiu dynn_Bichan dynn_Grifuiud dynn_Lugbelen dynn_Luid dynn_Rigs dynn_Tudur
+		{ "dynnpat_pre_map" "dynn_Caradog" }
+		{ "dynnpat_pre_map" "dynn_Brochmagl" }
+		{ "dynnpat_pre_map" "dynn_Dumnarth " }
+		{ "dynnpat_pre_map" "dynn_Uorthigern" }
+	}
+
+	male_names = {
+		Arthomagl Arthobodu Bledinn Blediud Brochmagl Cadmagl Cadualadr Caradog Cunagn Cunotigern Cunomarch Cunbelin Cunual Dumnarth Dumnoual Uurbodu Uinn Uorthigern Grifuiud Loumarch Lugbelen Magl Mailgun March Mormarch Morcant Auigen Rigwal Run Tudur 
+		Anarod Arthur Cagi Custentin David Dauid Deiniel Dunod Edern Einion Gerent Maxen Meirchion Meirion Meirig Padarn Rumon Sevir Seisil Onor Corentin
+	}
+	female_names = {
+		Argantrod Auel Branuen Budig Erg Fion Sterenn Uinn Uinnohuivar
+		Cristin Elaine Elen Isabel Sara Susanna Tegla
 	}
 	
 	patronym_prefix_male = "dynnpat_pre_map"
@@ -130,43 +228,4 @@ name_list_cumbrian = {
 	mother_name_chance = 0
 	
 	
-}
-
-
-# Proto-Brythonic
-
-# Amweiθig Kadmaɣl kaɨrgluɨw bɨxan Grifujʉð Lluɣβelen lluɨd rīɣs Tʉdür 
-# arθomaɣl arθoboðw blėðɨnn blėðjʉð broxmaɣl Kadmaɣl kadwaladr Karadọg kunagn kunotɨɣern kunomarx kunbelin kunwal duβnarθ Duβnowal wurboðw wɨnn worθɨɣern grifujʉð llowβ̃arx lluɣβelen maɣl maɨlgun marx morβ̃arx morcant awɨɣėn rīɣwal rrʉn Tʉdür worθɨɣern
-# Anarọd Arθʉr Kaɣi Kʉstentin Daβið Dawið Deɨnjėl Dʉnọd Ėdern Eɨnjọn Gerėnt Maksen Meɨrxjọn Meɨrjọn Meɨrīg Padarn Rrʉβ̃ọn Seβɨr Seɨsɨl Önör Korentin
-
-
-# arɣantrrod awel branwenn bʉðig ėrɣ fion sterenn wɨnn wɨnnohuɨβar
-
-# Amueithig Cadmagl Cairgluiu Bichan Grifuiud Lugbelen Luid Rigs Tudur 
-# Arthomagl Arthobodu Bledinn Blediud Brochmagl Cadmagl Cadualadr Caradog Cunagn Cunotigern Cunomarch Cunbelin Cunual Dumnarth Dumnoual Uurbodu Uinn Uorthigern Grifuiud Loumarch Lugbelen Magl Mailgun March Mormarch Morcant Auigen Rigwal Run 
-# Anarod Arthur Cagi Custentin David Dauid Deiniel Dunod Edren Einion Gerent Maxen Meirchion Meirion Meirig Padarn Rumon Sevir Seisil Onor Corentin 
-
-# Argantrod Auel Branuen Budig Erg Fion Sterenn Uinn Uinnohuivar
-# Cristin Elaine Elen Isabel Sara Susanna Tegla
-
-name_list_late_brythonic = {
-	cadet_dynasty_names = {
-		
-	}
-
-	dynasty_names = {
-		
-	}
-
-	male_names = {
-		
-	}
-	female_names = {
-		
-	}
-	
-	patronym_prefix_male = "dynnpat_pre_map"
-	patronym_prefix_male_vowel = "dynnpat_pre_vow_mab"
-	patronym_prefix_female = "dynnpat_pre_vch"	
-	always_use_patronym = yes	
 }

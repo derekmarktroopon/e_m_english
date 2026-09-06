@@ -1,0 +1,17 @@
+﻿
+#1029000 = {
+	#name = "dynn_Reget"
+	#culture = "cumbrian"
+#}
+1029002 = {
+	name = "dynn_Ebrauc"
+	culture = "cumbrian"
+}
+1029039 = {
+	name = "dynn_Manaw_Gododhin"
+	culture = "cumbrian"
+}
+816 = {
+	name = "dynn_Al_Clout"
+	culture = "common_brythonic"
+}

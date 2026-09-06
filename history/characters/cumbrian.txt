@@ -1,5 +1,5 @@
 ﻿131110 = {
-	name = "Eugein"
+	name = "Ewen"
 	# AKA: Owain 'the Bald'
 	dynasty = 816
 	martial = 6
@@ -22,7 +22,7 @@
 	name = "Tegid" #
 	dynasty = 1029039 # Goddoddin
 	religion = "catholic"
-	culture = "cumbrian"
+	culture = "common_brythonic"
 	240.1.1 = {
 		birth = "240.1.1"
 	}
@@ -34,7 +34,7 @@
 	name = "Padarn_Beisrudd" #
 	dynasty = 1029039 # Goddoddin
 	religion = "catholic"
-	culture = "cumbrian"
+	culture = "common_brythonic"
 	father = 159007
 	270.1.1 = {
 		birth = "270.1.1"
@@ -47,7 +47,7 @@
 	name = "Edern" #
 	dynasty = 1029039 # Goddoddin
 	religion = "catholic"
-	culture = "cumbrian"
+	culture = "common_brythonic"
 	father = 159008
 	310.1.1 = {
 		birth = "310.1.1"
@@ -112,7 +112,7 @@
 	}
 }
 159033 = {
-	name = "Llywarch" #
+	name = "Loumarch" #
 	dynasty_house = house_british_isles_rheged #Rheged
 	religion = "catholic"
 	culture = "cumbrian"
@@ -131,7 +131,7 @@
 	name = "Elidyr" # the Handsome
 	dynasty_house = house_british_isles_rheged #Rheged
 	religion = "catholic"
-	culture = "cumbrian"
+	culture = "common_brythonic"
 	father = 159035 # Meirchion Gul
 	500.1.1 = {
 		birth = "500.1.1"
@@ -147,7 +147,7 @@
 	name = "Meirchion" # Gul
 	dynasty_house = house_british_isles_rheged #Rheged
 	religion = "catholic"
-	culture = "cumbrian"
+	culture = "common_brythonic"
 	father = 159036 # Gwrast the Ragged
 	430.1.1 = {
 		birth = "430.1.1"
@@ -160,7 +160,7 @@
 	name = "Gwrast" # the Ragged
 	dynasty_house = house_british_isles_rheged #Rheged
 	religion = "catholic"
-	culture = "cumbrian"
+	culture = "common_brythonic"
 	father = 159037 # Ceneu
 	410.1.1 = {
 		birth = "410.1.1"
@@ -174,7 +174,7 @@
 	name = "Ceneu" #
 	dynasty = 1029002 #Ebrauc
 	religion = "catholic"
-	culture = "cumbrian"
+	culture = "common_brythonic"
 	father = 159038 # Coel
 	mother = 159951 #Ystradwel of Dumnonia
 	390.1.1 = {
@@ -188,7 +188,7 @@
 	name = "Coel" #
 	dynasty = 1029002 #Ebrauc
 	religion = "catholic"
-	culture = "cumbrian"
+	culture = "common_brythonic"
 	340.1.1 = {
 		birth = "340.1.1"
 	}
@@ -203,11 +203,11 @@
 	}
 }
 159039 = {
-	name = "Gwawl" #
+	name = "Gwoal" #
 	female = yes
 	dynasty = 1029002 #Ebrauc
 	religion = "catholic"
-	culture = "cumbrian"
+	culture = "common_brythonic"
 	father = 159038 # Coel
 	mother = 159951 #Ystradwel of Dumnonia
 	359.1.1 = {
@@ -223,10 +223,10 @@
 
 
 159952 = {
-	name = "Cynfarch" #Oer
+	name = "Cunomarch" #Oer
 	dynasty_house = house_british_isles_rheged #Rheged
 	religion = "catholic"
-	culture = "cumbrian"
+	culture = "common_brythonic"
 	father = 159035 # Meirchion Gul
 	460.1.1 = {
 		birth = "460.1.1"
@@ -239,7 +239,7 @@
 	}
 }
 159953 = {
-	name = "Urien"
+	name = "Ourvyen"
 	dynasty_house = house_british_isles_rheged #Rheged
 	religion = "catholic"
 	culture = "cumbrian"
@@ -253,7 +253,7 @@
 	}
 }
 159954 = {
-	name = "Rhun"
+	name = "Roun"
 	dynasty_house = house_british_isles_rheged #Rheged
 	religion = "catholic"
 	culture = "cumbrian"
@@ -280,7 +280,7 @@
 }
 
 159958 = {
-	name = "Eugein"
+	name = "Ewen"
 	dynasty_house = house_british_isles_rheged #Rheged
 	religion = "catholic"
 	culture = "cumbrian"
@@ -306,11 +306,11 @@
 	}
 }
 159960 = {
-	name = "Nyfain"
+	name = "Neven"
 	female = yes
 	dynasty_house = house_british_isles_rheged #Rheged
 	religion = "catholic"
-	culture = "cumbrian"
+	culture = "common_brythonic"
 	father = 159952 # Cynfarch
 	mother = 159957
 	476.1.1 = {
@@ -327,7 +327,7 @@
 
 
 163104 = {
-	name = "Artgal"
+	name = "Arthal"
 	dynasty = 816
 	martial = 6
 	diplomacy = 3
@@ -346,7 +346,7 @@
 }
 
 166433 = {  	
-	name = "Malcolm"
+	name = "Gwaskolomm"
 	# AKA: Mael Coluim II, "Son of the King of the Cumbrians"
 	dynasty = 816
 	martial = 4
@@ -365,7 +365,7 @@
 }
 
 166434 = {  	
-	name = "Malcolm"
+	name = "Gwaskolomm"
 	# AKA: Mael Coluim I
 	dynasty = 816
 	martial = 5
@@ -404,7 +404,7 @@
 }
 
 166440 = {  	
-	name = "Dunegal"
+	name = "Duwnwal"
 	# AKA: Dyfnwal map Eochaid
 	dynasty = 816
 	martial = 4
@@ -445,7 +445,7 @@
 }
 
 166445 = {  	
-	name = "Rhydderch"
+	name = "Redherch"
 	# AKA: Riderch II of Alt Clut
 	dynasty = 816
 	martial = 7
@@ -483,7 +483,7 @@
 }
 
 166448 = {  	
-	name = "Teudebur"
+	name = "Toudir"
 	# AKA: Teudebur map Beli of Alt Clut
 	dynasty = 816
 	martial = 7
@@ -502,7 +502,7 @@
 }
 
 166449 = {  	
-	name = "Beli"
+	name = "Bely"
 	# AKA: Beli II map Elfin of Alt Clut
 	dynasty = 816
 	martial = 6
@@ -578,7 +578,7 @@
 }
 
 166454 = {  	
-	name = "Beli"
+	name = "Bely"
 	# AKA: Beli I map Neithon of Alt Clut
 	dynasty = 816
 	martial = 6
@@ -597,7 +597,7 @@
 }
 
 166455 = {  	
-	name = "Neithon"
+	name = "Nethon"
 	# AKA: Neithon map Guipno map Dumnagual Hen of Alt Clut
 	dynasty = 816
 	martial = 8
@@ -616,7 +616,7 @@
 }
 
 166456 = {  	
-	name = "Custennin"
+	name = "Coustentin"
 	# AKA: St. Constantine map Riderch I Hael of Alt Clut
 	dynasty = 816
 	martial = 4
@@ -636,7 +636,7 @@
 }
 
 166457 = {  	
-	name = "Rhydderch"
+	name = "Redherch"
 	# AKA: Riderch I Hael map Tutagual of Alt Clut
 	dynasty = 816
 	martial = 8
@@ -664,7 +664,7 @@
 	intrigue = 4
 	stewardship = 5
 	religion = "catholic"
-	culture = "cumbrian"
+	culture = "common_brythonic"
 	father = 166459
 	492.1.1 = {
 		birth = "492.1.1"
@@ -675,7 +675,7 @@
 }
 
 166459 = {  	
-	name = "Clinoch"
+	name = "Cludno"
 	# AKA: Clinoch map Dumnagual Hen of Alt Clut
 	dynasty = 816
 	martial = 5
@@ -683,7 +683,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = "catholic"
-	culture = "cumbrian"
+	culture = "common_brythonic"
 	father = 166461
 	464.1.1 = {
 		birth = "464.1.1"
@@ -694,7 +694,7 @@
 }
 
 166460 = {  	
-	name = "Guipno"
+	name = "Gwidhno"
 	# AKA: Guipno map Dumnagual Hen of Alt Clut
 	dynasty = 816
 	martial = 8
@@ -702,7 +702,7 @@
 	intrigue = 5
 	stewardship = 3
 	religion = "catholic"
-	culture = "cumbrian"
+	culture = "common_brythonic"
 	father = 166461
 	506.1.1 = {
 		birth = "506.1.1"
@@ -721,7 +721,7 @@
 	intrigue = 4
 	stewardship = 8
 	religion = "catholic"
-	culture = "cumbrian"
+	culture = "common_brythonic"
 	father = 166462
 	440.1.1 = {
 		birth = "440.1.1"
@@ -741,7 +741,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = "catholic"
-	culture = "cumbrian"
+	culture = "common_brythonic"
 	father = 166463
 	422.1.1 = {
 		birth = "422.1.1"
@@ -760,7 +760,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = "catholic"
-	culture = "cumbrian"
+	culture = "common_brythonic"
 	trait = education_martial_2
 	father = 166464
 	400.1.1 = {
@@ -776,7 +776,7 @@
 	# AKA: Cynloyp map Cinhil
 	dynasty = 816
 	religion = "catholic"
-	culture = "cumbrian"
+	culture = "common_brythonic"
 	father = 166465
 	383.1.1 = {
 		birth = "383.1.1"
@@ -791,7 +791,7 @@
 	# AKA: Cinhil map Cluim
 	dynasty = 816
 	religion = "catholic"
-	culture = "cumbrian"
+	culture = "common_brythonic"
 	father = 166466
 	360.1.1 = {
 		birth = "360.1.1"
@@ -806,7 +806,7 @@
 	# AKA: Cluim
 	dynasty = 816
 	religion = "catholic"
-	culture = "cumbrian"
+	culture = "common_brythonic"
 	333.1.1 = {
 		birth = "333.1.1"
 	}
@@ -816,7 +816,7 @@
 }
 
 166442 = {  	
-	name = "Rhun"
+	name = "Roun"
 	# AKA: Run of Alt Clut
 	dynasty = 816
 	martial = 3
@@ -838,7 +838,7 @@
 }
 
 166446 = {  	
-	name = "Eugein"
+	name = "Ewen"
 	# AKA: Eugein II of Alt Clut
 	dynasty = 816
 	martial = 6
@@ -857,7 +857,7 @@
 }
 
 166453 = {  	
-	name = "Eugein"
+	name = "Ewen"
 	# AKA: Eugein I map Beli of Alt Clut
 	dynasty = 816
 	martial = 4
@@ -896,7 +896,7 @@
 }
 
 166436 = {  	
-	name = "Rhydderch"
+	name = "Redherch"
 	# AKA: Amdarch
 	dynasty = 816
 	martial = 7
@@ -915,7 +915,7 @@
 }
 
 166437 = {  	
-	name = "Dunegal"
+	name = "Duwnwal"
 	# AKA: Dyfnwal map Ywain
 	dynasty = 816
 	martial = 7
@@ -934,7 +934,7 @@
 }
 
 166438 = {  	
-	name = "Eugein"
+	name = "Ewen"
 	# AKA: Ywain map Dyfnwal
 	dynasty = 816
 	martial = 7
@@ -953,7 +953,7 @@
 }
 
 166439 = {  	
-	name = "Dunegal"
+	name = "Duwnwal"
 	# AKA: Dyfnwal map Dyfnwal
 	dynasty = 816
 	martial = 5
