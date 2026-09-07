@@ -1,0 +1,175 @@
+﻿
+on_raid_action_completion = {
+	events = {
+		raiding.0001 # An independent liege personally raids a county capital.
+		raiding.0021 # Adjust raider completion tally.
+		raiding.0022 # Chance to fire viking/raider acquisition event
+		raiding.0013 # Chance to kidnap prisoners
+		raiding.0014 # Chance to steal an artifact
+		bp2_yearly.8031 # Steal a doll
+		raiding.0031 # Hereward adds XP
+		raiding.0040 # Raid Intent Effects
+	}
+	effect = {
+		scope:raider = {
+			if = {
+				limit = { has_trait = viking }
+				add_trait_xp = {
+					trait = viking                             
+					value = {
+						value = 0.5
+						add = {
+							value = martial
+							divide = 10
+						}
+					}
+				}
+			}
+			send_interface_message = {
+				type = msg_raid_completed
+				left_icon = scope:county.holder
+				right_icon = scope:barony
+			}
+			if = {
+				limit = { 
+					scope:county = {
+						any_county_province = { has_special_building = yes }
+					}
+					NOT = { has_character_flag = raider_legend }
+					has_dlc_feature = legends
+					NOT = { has_game_rule = historical_legends_only }
+				}
+				random = {
+					chance = legend_seed_chance_low
+					add_character_flag = raider_legend
+					create_legend_seed = {
+						type = heroic
+						quality = famed
+						chronicle = legendary_battle
+						properties = {
+							winner = scope:raider
+							loser = scope:county.holder
+							location = scope:barony.title_province
+						}
+					}
+				}
+			}
+			house ?= {
+				if = {
+					limit = {
+						exists = scope:county.holder.house
+					}
+					change_house_relation_effect = {
+						HOUSE = scope:county.holder.house
+						VALUE = house_relation_damage_minor_value
+						REASON = raid
+						CHAR = scope:raider
+						TARGET_CHAR = scope:county.holder
+						TITLE = scope:dummy_gender
+					}
+				}
+			}
+		}
+		scope:barony.title_province = {
+			add_province_modifier = {
+				modifier = recently_looted_modifier
+				years = 5
+			}
+			county = {
+				if = {
+					limit = {
+						holder = {
+							NOT = { has_perk = enduring_hardships_perk }
+						}
+					}
+					change_county_control = raid_county_control_loss_value
+					random_list = {
+						25 = {
+							change_development_progress_with_overflow = -2
+						}
+						25 = {
+							change_development_progress_with_overflow = -3
+						}
+						25 = {
+							change_development_progress_with_overflow = -4
+						}
+						25 = {
+							change_development_progress_with_overflow = -5
+						}
+					}
+				}
+				# Silk Road
+				tgp_silk_road_raid_effect = yes
+			}
+		}
+		scope:county.holder = { add_to_list = raid_targets }
+		scope:county.holder.liege ?= { add_to_list = raid_targets }
+		scope:county.holder.liege.liege ?= { add_to_list = raid_targets }
+		scope:county.holder.liege.liege.liege ?= { add_to_list = raid_targets }
+		every_in_list = {
+			list = raid_targets
+			send_interface_message = {
+				type = msg_raid_lost
+				left_icon = scope:raider
+				right_icon = scope:barony
+			}
+		}
+
+		## Struggles
+		if = {
+			limit = {
+				scope:raider = {
+					any_character_struggle = {
+						activate_struggle_catalyst_secondary_character_involvement_involved_trigger = {
+							CATALYST = catalyst_raided_involved
+							CHAR = scope:county.holder
+						}
+					}
+				}
+				scope:county.holder = { # Theoretical edge case where X is from one struggle, Y from another one and they trigger catalysts. But unlikely to be an issue.
+					any_character_struggle = {
+						involvement = involved
+						phase_has_catalyst = catalyst_raided_involved
+					}
+				}
+			}
+			scope:raider = {
+				every_character_struggle = {
+					limit = {
+						activate_struggle_catalyst_secondary_character_involvement_involved_trigger = {
+							CATALYST = catalyst_raided_involved
+							CHAR = scope:county.holder
+						}
+					}
+					activate_struggle_catalyst = {
+						catalyst = catalyst_raided_involved
+						character = scope:raider
+					}
+					log_debug_variable_for_persian_struggle_effect = { VAR = concession_catalyst_raided_involved }
+				}
+			}
+		}
+
+		# Commander trait leveling
+		root.army_commander ?= {
+			if = {
+				limit = {
+					has_trait = reaver
+					is_commanding_army = yes
+				}
+				add_trait_xp = {
+					trait = reaver
+					value = {
+						value = 0.5
+						add = {
+							value = martial
+							divide = 10
+						}
+					}
+				}
+			}
+		}
+
+		tgp_treasury_raided_effect = yes
+	}
+}

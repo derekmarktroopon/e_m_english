@@ -277,9 +277,11 @@ Jonet:0 "Jonet" # Janet
 ### Common Brythonic
 ##################################
 
-common_brythonic:0 "Britton"
-common_brythonic_collective_noun:0 "Brittons"
-common_brythonic_prefix:0 "Brittono"
+dynnp_map:0 "map "
+
+common_brythonic:0 "Briton"
+common_brythonic_collective_noun:0 "Britons"
+common_brythonic_prefix:0 "Britono"
 
 name_list_late_brythonic:0 "Late Brittonic"
 

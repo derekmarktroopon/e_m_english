@@ -1,0 +1,158 @@
+﻿viking = {
+	category = fame
+
+	martial = 1
+	prowess = 5
+	monthly_prestige = 0.3
+	
+	rf_pagan_opinion = 5
+	same_opinion = 5
+	
+	ruler_designer_cost = 25
+
+	flag = trait_enable_raiding_without_restrictions
+
+    track = {
+
+		50 = {
+			raid_speed = 0.25                        
+            monthly_prestige = 0.2
+            glory_hound_opinion = 5
+            prowess = 2
+		}
+
+		100 = {
+			raid_speed = 0.25
+            monthly_prestige = 0.5
+            glory_hound_opinion = 5
+            prowess = 3		        
+        }
+    }
+
+    name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { 
+					NOT = { exists = this } 
+				}
+				desc = trait_viking_fallback
+			}
+
+			#Sea King
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = viking
+						value >= 100
+					}
+					is_female = no
+					culture = { has_innovation = innovation_longboats }
+				}
+				desc = trait_viking_3_male
+			}
+
+			#Sea Queen
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = viking
+						value >= 100
+					}
+					culture = { has_innovation = innovation_longboats }
+				}
+				desc = trait_viking_3_female
+			}
+
+			#Ravager
+			triggered_desc = {
+				trigger = {
+					exists = this
+					has_trait_xp = {
+						trait = viking
+						value >= 50
+					}
+					culture = { has_innovation = innovation_longboats }
+				}
+				desc = trait_viking_2
+			}
+
+			#Viking
+
+			triggered_desc = {
+				trigger = {
+					exists = this
+					culture = { has_innovation = innovation_longboats }
+				}
+				desc = trait_viking_has_longships
+			}
+
+			desc = trait_viking_fallback
+
+
+		}
+	}
+
+	desc = {
+		first_valid = {
+			#The trait can never go higher than the first level if it's not assigned to a character
+			triggered_desc = {
+				trigger = { 
+					NOT = { exists = this } 
+				}
+				desc = trait_viking_character_desc
+			}
+			#Sea King
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = viking
+						value >= 100
+					}
+					is_female = no
+				}
+				desc = trait_viking_3_male_desc
+			}
+
+			#Sea Queen
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = viking
+						value >= 100
+					}
+				}
+				desc = trait_viking_3_female_desc
+			}
+
+			#Ravager
+			triggered_desc = {
+				trigger = {
+					exists = this
+					has_trait_xp = {
+						trait = viking
+						value >= 50
+					}
+				}
+				desc = trait_viking_2_desc
+			}
+
+			triggered_desc = {
+				trigger = {
+					exists = this
+					culture = { has_innovation = innovation_longboats }
+				}
+				desc = trait_viking_desc
+			}
+
+			desc = trait_viking_character_desc
+		}
+	}
+
+	ai_energy = 10
+	ai_boldness = 10
+
+}

@@ -6215,7 +6215,7 @@
 	}
 }
 159822 = {
-	name = "Ynyr" # Honorius
+	name = "Onor" # Honorius
 	dynasty = 1029129 #Gwent
 	religion = "catholic"
 	culture = "common_brythonic"
