@@ -21,6 +21,10 @@
  ostrogothic_collective_noun:0 "Ostrogoths"
  ostrogothic_prefix:0 "Gotho"
 
+ italo_ostrogoths:0 "Strogott"
+ italo_ostrogoths_collective_noun:0 "Strogotti"
+ italo_ostrogoths_prefix:0 "Gotto"
+
  vandal:0 "Vandal"
  vandal_collective_noun:0 "Vandals"
  vandal_prefix:0 "Vandalo"

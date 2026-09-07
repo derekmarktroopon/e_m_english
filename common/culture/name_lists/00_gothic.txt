@@ -143,3 +143,37 @@ name_list_vandalic = {
 
 	
 }
+
+name_list_italo_goths = {
+
+	cadet_dynasty_names = {
+		dynn_Alaricingi dynn_Amalamundingi dynn_Amalingi dynn_Ataulfingi dynn_Atanarichingi dynn_Fatilingi dynn_Gotingi dynn_Chindasvintingi dynn_Liubagildingi dynn_Rodulfingi dynn_Raginameringi dynn_Suniafredingi dynn_Roderichingi dynn_Rodesindingi dynn_Varamundingi dynn_Teodorichingi
+
+	}
+	
+	dynasty_names = {
+		dynn_Alaricingi dynn_Amalamundingi dynn_Amalingi dynn_Ataulfingi dynn_Atanarichingi dynn_Fatilingi dynn_Gotingi dynn_Chindasvintingi dynn_Liubagildingi dynn_Rodulfingi dynn_Raginameringi dynn_Suniafredingi dynn_Roderichingi dynn_Rodesindingi dynn_Varamundingi dynn_Teodorichingi
+	} 
+
+	male_names = {
+
+		Alfonso Atalarico Ermenegildo Ermanarico Alarico Amalarico Odoacre Atanagildo Atanarico Badui_la Berengario Ervigio Eurico Attila Eutarico Fadila_goth Fritigerno Fritarico Gozaberto Gesalico Gundisalbo Guntimero Chindasvinto Chintila Liubagildo Roderico Rodulfo Rodesindo Riciredo Ranemero Raginarito Recesvinto Ricime_ro Ildibado Sisenando Suintila Teodefrido Teodato Teodemiro Teodorico Teodogiselo Torismondo Varamondo Vilfredo Viamaro Vitige Viterico Ulfila
+	}
+	female_names = {
+		Atalagunda Audosunda Audofleda Amalafrida Ava_goth Bado_goth Brunilde Alfonsa Atalavara Elvira Ermengarda Ermensunda Amalasunda Gado_goth Ingunda Leodegunda Maria Matasunda Sisenanda Vinidilda
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 5
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 5
+
+	
+}
