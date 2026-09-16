@@ -1,4 +1,4 @@
-
+﻿
 aurelia_female = { Aurelia Efrddyl Efyrddyl Ewrdhil }
 Felicitaven_female = { Felicita_ven Felicita }
 catherine_female = { Cattarina Catterina CaitilI_n Caitrion Catalina Catarina Cateline Caterina Catherine CathE_rine Catrin Catriona CatrI_ona Ecatarina Ekaterina Kaarina Karin Katalin Katalina Katarina Katarzyna KateR_ina Katharina Kathrijne Katranide Katrien Katrine Ketevan Nienke Yekaterina Katherine gls_Cathrin gls_Carin gls_Key cpt_Kattrin Caterin jp_Katarina jp2_Cotarina Cadrin }

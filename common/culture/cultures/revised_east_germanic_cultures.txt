@@ -191,7 +191,7 @@ italo_ostrogoths = {
 
 	parents = { ostrogothic italian }
 	
-	ethos = ethos_stoic
+	ethos = ethos_bureaucratic
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only

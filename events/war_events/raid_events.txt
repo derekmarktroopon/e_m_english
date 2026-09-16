@@ -1307,12 +1307,12 @@ raiding.0031 = {
 				trait = the_wake
 				value = { 1 3 }
 			}
-		}
-		if = {
-			limit = { has_trait = viking }
-			add_trait_xp = {
-				trait = viking                             
-				value = 5
+			if = {
+				limit = { has_trait = viking }
+				add_trait_xp = {
+					trait = viking                             
+					value = 5
+				}
 			}
 		}
 	}

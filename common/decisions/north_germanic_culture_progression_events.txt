@@ -15,11 +15,13 @@ norse_emergence_decision = {
 		has_global_variable = vendel_period_began
 		NOT = { has_global_variable = norse_emergence_occured }
 		current_year >= 780
+		current_year < 800
     }
 	
     is_valid = {
 		is_ai = yes
 		current_year >= 780
+		current_year < 800
     }
 	
 	is_valid_showing_failures_only = {
@@ -61,11 +63,13 @@ vendel_period_begins_decision = {
 		is_ai = yes
 		NOT = { has_global_variable = vendel_period_began }
 		current_year >= 550
+		current_year < 600
     }
 	
     is_valid = {
 		is_ai = yes
 		current_year >= 550
+		current_year < 600
     }
 	
 	is_valid_showing_failures_only = {
