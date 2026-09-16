@@ -256,7 +256,7 @@ kushitism_religion = {
 	        doctrine = doctrine_theocracy_temporal
 
 	        #Marriage
-	        doctrine = doctrine_polygamy
+	        doctrine = doctrine_monogamy
 	        doctrine = doctrine_divorce_allowed
 	        doctrine = doctrine_bastardry_none
 	        doctrine = doctrine_consanguinity_unrestricted
@@ -472,7 +472,7 @@ kushitism_religion = {
 	        doctrine = doctrine_theocracy_lay_clergy
 
 	        #Marriage
-	        doctrine = doctrine_polygamy
+	        doctrine = doctrine_monogamy
 	        doctrine = doctrine_divorce_allowed
 	        doctrine = doctrine_bastardry_legitimization
 	        doctrine = doctrine_consanguinity_unrestricted

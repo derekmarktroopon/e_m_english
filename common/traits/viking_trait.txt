@@ -14,7 +14,7 @@
 
     track = {
 
-		50 = {
+		25 = {
 			raid_speed = 0.25                        
             monthly_prestige = 0.2
             glory_hound_opinion = 5
