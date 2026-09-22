@@ -1,3 +1,40 @@
+﻿
+
+name_list_proto_germanic = { 
+		cadet_dynasty_names = {
+            dynn_Agiling dynn_Agithewing dynn_Alariking dynn_Albiging dynn_Albiharing dynn_Andaswaring dynn_Ansulaibing dynn_Anulaibing dynn_Arowulfing dynn_Audariking dynn_Audawakring dynn_Audawarding dynn_Audawining dynn_Audawulfing dynn_Auziwandiling dynn_Athalagaing dynn_Balthawining dynn_Frithuberhting dynn_Frithuging dynn_Frithumunding dynn_Froding dynn_Fulkamering dynn_Gaizaharding dynn_Gaizawalding dynn_Gaizawulfing dynn_Griming dynn_Gunthiharing dynn_Gunthilaibing dynn_Gunthiwulfing dynn_Haimariking dynn_Harigasting dynn_Harjabranding dynn_Harjamoding dynn_Harjawalding dynn_Hrothiberhting dynn_Hrothiging dynn_Hrothiriking dynn_Hrothiwulfing dynn_Ingumering dynn_Kunjamunding dynn_Raginaharing dynn_Raginawalding dynn_Redawulfing dynn_Rikaharding dynn_Sigifrithing dynn_Sigimunding dynn_Sigiwarding dynn_Waldaharing dynn_Wiljahelming dynn_Theudobalthing dynn_Theudoberhting dynn_Theudomering dynn_Theudoriking
+		}
+
+		dynasty_names = {
+            dynn_Agiling dynn_Agithewing dynn_Alariking dynn_Albiging dynn_Albiharing dynn_Andaswaring dynn_Ansulaibing dynn_Anulaibing dynn_Arowulfing dynn_Audariking dynn_Audawakring dynn_Audawarding dynn_Audawining dynn_Audawulfing dynn_Auziwandiling dynn_Athalagaing dynn_Balthawining dynn_Frithuberhting dynn_Frithuging dynn_Frithumunding dynn_Froding dynn_Fulkamering dynn_Gaizaharding dynn_Gaizawalding dynn_Gaizawulfing dynn_Griming dynn_Gunthiharing dynn_Gunthilaibing dynn_Gunthiwulfing dynn_Haimariking dynn_Harigasting dynn_Harjabranding dynn_Harjamoding dynn_Harjawalding dynn_Hrothiberhting dynn_Hrothiging dynn_Hrothiriking dynn_Hrothiwulfing dynn_Ingumering dynn_Kunjamunding dynn_Raginaharing dynn_Raginawalding dynn_Redawulfing dynn_Rikaharding dynn_Sigifrithing dynn_Sigimunding dynn_Sigiwarding dynn_Waldaharing dynn_Wiljahelming dynn_Theudobalthing dynn_Theudoberhting dynn_Theudomering dynn_Theudoriking   
+		}
+		male_names = {  
+		    Agilaz Agithewaz Alariks Albigaizaz Albiharjaz Amalariks Andaswaraz Ansuberhtaz Ansuharjaz Ansulaibaz Ansuwaldaz Anulaibaz Anulo Arnuwulfaz Audamunduz Audariks Audawakraz Audawarduz Audawiniz Audawulfaz Auziwandilaz Athalagaizaz Athalawulfaz Balthawiniz Bernuharduz Frithuberhtaz Frithugaizaz Frithumunduz Frithuriks Frodo Fulkamerijaz Gaizaharduz Gaizariks Gaizawalda Gaizawulfaz Grimaz Gumasinthaz Gunthiharjaz Gunthilaibaz Gunthiwulfaz Haimariks Harigastiz Harjabrandaz Harjamodaz Harjawaldaz Hathuwulfaz Helpariks Hildiriks Hrothiberhtaz Hrothigaizaz Hrothiriks Hrothiwulfaz Ingeldaz Ingwomeraz Iwaz Kunjamunduz Othalariks Raginaharduz Raginaharjaz Raginawaldaz Redawulfaz Rikaharduz Sigiberhtaz Sigifrithuz Sigimeraz Sigimunduz Sigiwarduz Stainawarjaz Waldaharjaz Wiljahelmaz Theudobalthaz Theudoberhtaz Theudomeraz Theudoriks
+
+		    #Agilaz Agiþewaz Alariks Albigaizaz Albiharjaz Amalariks Andaswaraz Ansuberhtaz Ansuharjaz Ansulaibaz Ansuwaldaz Anulaibaz Anulo Arnuwulfaz Audamunduz Audariks Audawakraz Audawarduz Audawiniz Audawulfaz Auziwandilaz Aþalagaizaz Aþalawulfaz Balþawiniz Bernuharduz Friþuberhtaz Friþugaizaz Friþumunduz Friþuriks Frodo Fulkamerijaz Gaizaharduz Gaizariks Gaizawalda Gaizawulfaz Grimaz Gumasinþaz Gunþiharjaz Gunthilaibaz Gunthiwulfaz Haimariks Harigastiz Harjabrandaz Harjamodaz Harjawaldaz Haþuwulfaz Helpariks Hildiriks Hroþiberhtaz Hroþigaizaz Hroþiriks Hroþiwulfaz Ingeldaz Ingwomeraz Iwaz Kunjamunduz Oþalariks Raginaharduz Raginaharjaz Raginawaldaz Redawulfaz Rikaharduz Sigiberhtaz Sigifrithuz Sigimeraz Sigimunduz Sigiwarduz Stainawarjaz Waldaharjaz Wiljahelmaz Þeudobalþaz Þeudoberhtaz Þeudomeraz Þeudoriks
+		} 
+		female_names = { 
+		    Amalaswinth Athalagunthiz Ansuburgz Ansugebo Ansugunthiz Audi Audagunthiz Brunjohildiz Badwohildiz Ermunaburgz Ermunahildiz Ermunaswinth Gaizathruthiz Gunthhildiz Gudagebo Hludahildiz Kunjaswinth Leubagebo Leubawaro Mahtihildiz Othalaburgz Redaburgz Redagunthiz Rikathruthiz Saiwigeibo Saiwigunthiz Sigiburgz Theudiswinth Waldagunthiz Waldathruthiz Wiljogunthiz Winithruthiz Wulfagunthiz Wulfahildiz   
+		    # Amalaswinþ Aþalagunþiz Ansuburgz Ansugebo Ansugunþiz Audi Audagunþiz Brunjohildiz Badwohildiz Ermunaburgz Ermunahildiz Ermunaswinþ Gaizaþruþiz Gunþhildiz Gudagebo Hildiburgz Hludahildiz Kunjaswinþ Leubagebo Leubawaro Mahtihildiz Oþalaburgz Redaburgz Redagunþiz Rikaþruþiz Saiwigeibo Saiwigunþiz Sigiburgz Þeudiswinþ Waldagunþiz Waldathruthiz Wiljogunþiz Winiþruþiz Wulfagunþiz Wulfahildiz 
+		}
+
+	dynasty_of_location_prefix = Locationprefix_ab			
+
+}
+
+
+#Albigejani Albikharjani Annasarani Ansukharjani Ansulebani Odamunnuni Odavadduni Atalagejani Bernukhadduni Pritubettani Pritugejani Prodoni Gejakhadduni Gejarikani Pritubettani Grimani Gumasittani Guttilebani Guttivuppani Hemarikani Harjabrannani Rotirikani Ingomirani Otalarikani Raginakharjani Sigivadduni Tenavarjani Teudobanatani Teudomirani Teudorikani
+
+
+#Agila Agiteva Alarika Albigeja Albikharja Amalarika Annasara Ansubetta Ansukharja Ansuleba Ansuvadda Anuleba Anulo Arnuvuppa Odamunnu Odarika Odavakra Odavaddu Odavini Odavuppa Ojivannila Atalageja Atalavuppa Balatavini Bernukhaddu Pritubetta Pritugeja Pritumunnu Priturika Prodo Pulkamerija Gejakhaddu Gejarika Gejavadda Gejavuppa Grima Gumasitta Guttikharja Guttileba Guttivuppa Hemarika Harigati Harjabranna Harjamoda Harjavadda Hatuvuppa Hepparika Hiddirika Rotibetta Rotigeja Rotirika Rotivuppa Ingedda Ingomira Iva Kunjamunnu Otalarika Raginakhaddu Raginakharja Raginavadda Redavuppa Rikakhaddu Sigibeta Sigipritu Sigimira Sigimunnu Sigivaddu Tenavarja Vaddakharja Viljakhemma Teudobanata Teudobetta Teudomira Teudorika
+
+
+# Amalasitti Atalagutti Ansuburgi Ansugebo Ansugutti Odi Odagutti Brunjokhiddi Badokhiddi Ermunaburgi Ermunakhiddi Ermunasitti Gejatruti Guttiddi Gudagebo Hiddiburgi Ludakhiddi Kunjasitti Leubagebo Leubavaro Matikhiddi Otalaburgi Redaburgi Redagutti Rikatruti Sevigeibo Sevigutti Sigiburgi Teudisitti Vaddagutti Vaddatruti Viljogutti Vinitruti Vuppagutti Vuppakhiddi 
+
+# Tiva Vodana Pravjo Tunra Prijo Nettu
+
+# Tiwaz Wodanaz Frawjo Thunraz Frijjo Nerthuz
+
 name_list_ingaevonic = { #pre 430
 
 	cadet_dynasty_names = {

@@ -331,6 +331,7 @@ Dunod:0 "Dunod" # Dynod
 Gerent:0 "Gerent" # Geraint
 Maxen:0 "Maxen" # Macsen 
 Meirig:0 "Meirig" # Meurig
+Gluiu:0 "Gluiu"
 
 Argantrod:0 "Argantrod" # Arianrhod
 Auel:0 "Auel" # Awel
@@ -339,3 +340,152 @@ Budig:0 "Budig" # Buddug / Boudica
 Erg:0 "Erg" # Eira
 Sterenn:0 "Sterenn" # Seren
 Uinnohuivar:0 "Uinnohuivar" # Gwenhwyfar 
+
+###################################
+### Old Brythonic
+##################################
+
+dynnpat_pre_merca:0 "merca "
+
+old_brythonic:0 "Prittanian"
+old_brythonic_collective_noun:0 "Britons"
+old_brythonic_prefix:0 "Britono"
+
+name_list_old_brythonic:0 "Prittanic"
+
+dynn_Camulogenos:0 "Camulogenos"
+dynn_Bellinos:0 "Bellinos"
+dynn_Belismicos:0 "Belismicos"
+dynn_Manduorix:0 "Manduorix"
+dynn_Mandutenos:0 "Mandutenos"
+dynn_Senebellenos:0 "Senebellenos"
+dynn_Tancorix:0 "Tancorix"
+dynn_Uallaunios:0 "Uallaunios"
+dynn_Atrebatios:0 "Atrebatios"
+dynn_Catuuellaunos:0 "Catuuellaunos"
+dynn_Dobunnos:0 "Dobunnos"
+dynn_Dubnonios:0 "Dubnonios"
+dynn_Durotrigios:0 "Durotrigios"
+dynn_Reginios:0 "Reginios"
+dynn_Trinouantos:0 "Trinouantos"
+dynn_Icenos:0 "Icenos"
+dynn_Cornouios:0 "Cornouios"
+dynn_Brigantos:0 "Brigantos"
+dynn_Calidonos:0 "Calidonos"
+dynn_Uotadinios:0 "Uotadinios"
+
+Artomaglos:0 "Artomaglos" # Arthfael
+Artoboduos:0 "Artoboduos" # Arthfoddw
+Bledinios:0 "Bledinios" # Bleddyn
+Bledioudos:0 "Bledioudos" # Bleiddud
+Broccomaglos:0 "Broccomaglos" # Brochfael
+Catumaglos:0 "Catumaglos" # Cadfael
+Catuualatros:0 "Catuualatros" # Cadwaladr
+Caratacos:0 "Caratacos" # Caradog
+Cunagnos:0 "Cunagnos" # Cynan
+Cunotigernos:0 "Cunotigernos" # Cyndeyrn
+Cunomarcos:0 "Cunomarcos" # Cynfarch
+Cunoualos:0 "Cunoualos" # Cynwal
+Dubnartos:0 "Dubnartos" # Dyfnarth
+Dubnoualos:0 "Dubnoualos" # Dyfnwal
+Uiroboduos:0 "Uiroboduos" # Gwrfoddw
+Uindos:0 "Uindos" # Gwyn
+Uortigernos:0 "Uortigernos" # Gwrtheyrn
+Griphuioudos:0 "Griphuioudos" # Gruffydd
+Lugumarcos:0 "Lugumarcos" # Llywarch
+Lugubelinos:0 "Lugubelinos" # Llywelyn
+Maglos:0 "Maglos" # Mael
+Maglocunos:0 "Maglocunos" # Maelgwn
+# Marcos:0 "Marcos" # March
+Morimarcos:0 "Morimarcos" # Morfarch
+Moricantos:0 "Moricantos" # Morgan
+Rigoualos:0 "Rigoualos" # Rhiwal
+Roinos:0 "Roinos" # Rhun 
+Toutorix:0 "Toutorix" # Twdwr
+Adatuucos:0 "Adatuucos" # 
+Addedomaros:0 "Addedomaros" #
+Aesibuas:0 "Aesibuas" #
+Ariouissus:0 "Ariouissus" #
+Andecaros:0 "Andecaros" #
+Amminus:0 "Amminus" #
+# Argentocoxos:0 "Argentocoxos" #
+Atignomaros:0 "Atignomaros" #
+Bellicos:0 "Bellicos" #
+Bellinos:0 "Bellinos" #
+Bitucos:0 "Bitucos" #
+Brigomaglos:0 "Brigomaglos" #
+Camulorix:0 "Camulorix" #
+Cartiuellaunos:0 "Cartiuellaunos" #
+Commios:0 "Commios" # gal_commios
+Cunobelinos:0 "Cunobelinos" # gal_cunobelinus
+Dubnocoueros:0 "Dubnocoueros" #
+Dubnouellaunos:0 "Dubnouellaunos" #
+Eisu:0 "Eisu" #
+Epaticcos:0 "Epaticcos" #
+Prastu:0 "Prastu" #
+Prastutagos:0 "Prastutagos" # gal_prasutagus
+Saenu:0 "Saenu" #
+Solidu:0 "Solidu" #
+Tasgouanos:0 "Tasgouanos" #
+Tasciouanos:0 "Tasciouanos" # gal_tasciovanus
+Tigirsenos:0 "Tigirsenos" #
+Uerica:0 "Uerica" #
+Uodenos:0 "Uodenos" #
+Uolisios:0 "Uolisios" #
+Gleiuos:0 "Gleiuos"
+
+Argantrota:0 "Argantrota" # Arianrhod
+Auela:0 "Auela" # Awel
+Branouenda:0 "Branouenda" # Branwen
+Boudicca:0 "Boudicca" # gal_boudica
+Argia:0 "Argia" # Eira
+Sfiona:0 "Sfiona" # Ffion
+Sterinia:0 "Sterinia" # Seren
+Uenda:0 "Uenda" # Gwen
+Uindoseibaris:0 "Uindoseibaris" #  Gwenhwyfar
+Aessicunia:0 "Aessicunia" # gal_aessicunia
+Banna:0 "Banna" #
+Bellicia:0 "Bellicia" #
+Bellica:0 "Bellica" # gal_billica
+Bodicacia:0 "Bodicacia" # gal_bodicacia
+Britiuenda:0 "Britiuenda" #
+Cantissena:0 "Cantissena" # gal_catissena
+Carssouna:0 "Carssouna" #
+Cartimandua:0 "Cartimandua" # gal_cartimandua
+Cata:0 "Cata" #
+Catia:0 "Catia" # gal_catia
+Cingetissa:0 "Cingetissa" # gal_cingetessa
+Conna:0 "Conna" #
+Corotica:0 "Corotica" #
+Cunouinna:0 "Cunouinna" # gal_cunovinna
+Cunsa:0 "Cunsa" #
+Docillina:0 "Docillina" #
+Deiana:0 "Deiana" # gal_deiana
+Deieda:0 "Deieda" # 
+Diseta:0 "Diseta" # gal_diseta
+Enica:0 "Enica" #
+Gleua:0 "Gleua" #
+Iamcilla:0 "Iamcilla" # gal_iamcilla
+Illica:0 "Illica" # gal_illica
+Locinna:0 "Locinna" #
+Magunna:0 "Magunna" # gal_magunna
+Matugena:0 "Matugena" #
+Minura:0 "Minura" #
+Paltucca:0 "Paltucca" #
+Senecita:0 "Senecita" #
+# Senica:0 "Senica" #
+Senna:0 "Senna" #
+Senouara:0 "Senouara" #
+Sentica:0 "Sentica" # gal_sentica
+Senuna:0 "Senuna" #
+Sulicena:0 "Sulicena" #
+Titocuna:0 "Titocuna" # gal_titocuna
+Totia:0 "Totia" #
+Uassura:0 "Uassura" #
+Uatta:0 "Uatta" #
+Ueldicca:0 "Ueldicca" #
+Uellibia:0 "Uellibia" # gal_velibia
+Ueloriga:0 "Ueloriga" # gal_veloriga
+Uelua:0 "Uelua" #
+Uinoma:0 "Uinoma" # gal_vinoma
+Urocata:0 "Urocata" # gal_vrocata

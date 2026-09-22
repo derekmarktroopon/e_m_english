@@ -259,10 +259,12 @@ hidden = yes
 				}
 				if = {
 					limit = {
-						any_culture_global = { any_culture_county = {
-							is_in_list = venetic_cult_count_for_vnt_sicilian
-							count >= 1
-						} )
+						any_culture_global = { 
+							any_culture_county = {
+								is_in_list = venetic_cult_count_for_vnt_sicilian
+								count >= 1
+							}
+						} 
 					}
 					random_culture_county = {
 						limit = {

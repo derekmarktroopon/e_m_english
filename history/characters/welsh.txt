@@ -6647,10 +6647,10 @@
 	}
 }
 159944 = {
-	name = "Gloyw" #
+	name = "Gluiu" #
 	dynasty = 1029132 #Caerloyw
 	religion = "catholic"
-	culture = "welsh"
+	culture = "common_brythonic"
 	270.1.1 = {
 		birth = "270.1.1"
 	}

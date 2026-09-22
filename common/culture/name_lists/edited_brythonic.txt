@@ -222,6 +222,8 @@ name_list_late_brythonic = {
 		Argantrod Auel Branuen Budig Erg Fion Sterenn Uinn Uinnohuivar
 		Cristin Elaine Elen Isabel Sara Susanna Tegla
 	}
+
+	 
 	
 	patronym_prefix_male = "dynnpat_pre_map"
 	patronym_prefix_male_vowel = "dynnpat_pre_vow_mab"
@@ -238,5 +240,61 @@ name_list_late_brythonic = {
 	mat_grm_name_chance = 50
 	mother_name_chance = 0
 	
+}
+
+name_list_old_brythonic = {
+
+	cadet_dynasty_names = {
+		dynn_Camulogenos dynn_Bellinos dynn_Belismicos dynn_Manduorix dynn_Mandutenos dynn_Senebellenos dynn_Tancorix dynn_Uallaunios dynn_Atrebatios dynn_Catuuellaunos dynn_Dobunnos dynn_Dubnonios dynn_Durotrigios dynn_Reginios dynn_Trinouantos dynn_Icenos dynn_Cornouios dynn_Brigantos dynn_Calidonos dynn_Uotadinios
+	}
+
+	dynasty_names = {
+		dynn_Camulogenos dynn_Bellinos dynn_Belismicos dynn_Manduorix dynn_Mandutenos dynn_Senebellenos dynn_Tancorix dynn_Uallaunios dynn_Atrebatios dynn_Catuuellaunos dynn_Dobunnos dynn_Dubnonios dynn_Durotrigios dynn_Reginios dynn_Trinouantos dynn_Icenos dynn_Cornouios dynn_Brigantos dynn_Calidonos dynn_Uotadinios	
+	}
+
+	male_names = {
+		Artomaglos Artoboduos Bledinios Bledioudos Broccomaglos Catumaglos Catuualatros Caratacos Cunagnos Cunotigernos Cunomarcos Cunoualos Dubnartos Dubnoualos Uiroboduos Uindos Uortigernos Griphuioudos Lugumarcos Lugubelinos Maglos Maglocunos Marcos Morimarcos Moricantos Rigoualos Roinos Toutorix
+		Adatuucos Addedomaros Aesibuas Ariouissus Andecaros Amminus Argentocoxos Atignomaros Bellicos Bellinos Bitucos Brigomaglos Camulorix Cartiuellaunos Commios Cunobelinos Dubnocoueros Dubnouellaunos Eisu Epaticcos Prastu Prastutagos Saenu Solidu Tasgouanos Tasciouanos Tigirsenos Uerica Uodenos Uolisios
+	}
+	female_names = {
+		Argantrota Auela Branouenda Boudicca Argia Sfiona Sterinia Uenda Uindoseibaris
+		Aessicunia Banna Bellicia Bellica Bodicacia Britiuenda Cantissena Carssouna Cartimandua Cata Catia Cingetissa Conna Corotica Cunouinna Cunsa Docillina Deiana Deieda Diseta Enica Gleua Iamcilla Illica Locinna Magunna Matugena Minura Paltucca Senecita Senica Senna Senouara Sentica Senuna Sulicena Titocuna Totia Uassura Uatta Ueldicca Uellibia Ueloriga Uelua Uinoma Urocata 
+	}
+
+	 
+	
+	patronym_prefix_male = "dynnpat_pre_mapos"
+	patronym_prefix_female = "dynnpat_pre_merca"	
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 80
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+	
 	
 }
+
+
+# Sources: Wiktionary reconstructions of proto-brythonic & proto-celtic roots of Welsh + Cornish names, & https://www.asnc.cam.ac.uk/personalnames 
+
+# Artomaglos Artoboduos Bledinios Bledioudos Broccomaglos Catumaglos Catuualatros Caratacos Cunagnos Cunotigernos Cunomarcos Cunoualos Dubnartos Dubnoualos Uiroboduos Uindos Uortigernos Griphuioudos Lugumarcos Lugubelinos Maglos Maglocunos Marcos Morimarcos Moricantos Rigoualos Roinos Toutorix
+# Adatuucos Addedomaros Aesibuas Ariouissus Andecaros Amminus Argentocoxos Atignomaros Bellicos Bellinos Bitucos Brigomaglos Camulorix Cartiuellaunos Commios Cunobelinos Dubnocoueros Dubnouellaunos Eisu Epaticcos Prastu Prastutagos Saenu Solidu Tasgouanos Tasciouanos Tigirsenos Uerica Uodenos Uolisios
+
+# Argantrota Auela Branouenda Boudicca Argia Sfiona Sterinia Uenda Uindoseibaris
+# Aessicunia Banna Bellicia Bellica Bodicacia Britiuenda Cantissena Carssouna Cartimandua Cata Catia Cingetissa Conna Corotica Cunouinna Cunsa Docillina Deiana Deieda Diseta Enica Gleua Iamcilla Illica Locinna Magunna Matugena Minura Paltucca Senecita Senica Senna Senouara Sentica Senuna Sulicena Titocuna Totia Uassura Uatta Ueldicca Uellibia Ueloriga Uelua Uinoma Urocata
+
+# Camulogenos Bellinos Belismicos Manduorix Mandutenos Senebellenos Tancorix Uallaunios
+# Atrebatios Catuuellaunos Dobunnos Dubnonios Durotrigios Reginios Trinouantos Icenos Cornouios Brigantos Calidonos Uotadinios
+
+
+# Arthfael Arthfoddw Bleddyn Bleiddud Brochfael Cadfael Cadwaladr Caradog Cynan Cyndeyrn Cynfarch Cynfelyn Cynwal Dyfnarth Dyfnwal Gwrfoddw Gwyn Gwrtheyrn Gruffydd Llywarch Llywelyn Mael Maelgwn March Morfarch Morgan Owain Rhiwal Rhun Twdwr Gwrtheyrn 
+		# Anarawd Arthwr Cai Custennin Dafydd Dewi Deiniol Dynod Edern Einion Geraint Macsen Meirchion Meirion Meurig Padern Rhufon Seferus Seisyll Ynyr Corentin Tydy
+		#Alwyn Adgar Alured Anlaff Berthwallt Edwyn Edylfred Elystan Godwyn Herewallt Ivor Oswallt Tewdrig Adda Alisander Andreas Asa Asaph Awst Elis Emrys Ffilip Ffransis Garmon Gerallt Grygor Gwilym Harri Huw Iago Iestyn Ieuan Ioan Sion Mihangel Padrig Pawl Pedr Rheinallt Rhicert Rhobert Sawyl Serigi Sieffre Sior Steffen Tewdos Tewdwr Tomos
+# Arianrhod Awel Branwen Buddug Eira Ffion Seren Gwen Gwenhwyfar
+		# Alys Annes Annest Nest Nesta Catrin Cicely Cristin Denis Efa Effros Elaine Elen Ellyn Elinor Fflur Ffraid Hawys Hellawes Isabel Ysbail Lleuca Mair Mali Mallt Mawd Marared Margred Marchell Melisant Sara Sibyl Sioned Siwan Susanna Tegla
