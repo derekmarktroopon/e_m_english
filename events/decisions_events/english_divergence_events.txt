@@ -76,9 +76,12 @@ old_middle_english_events.2 = { #Early middle english anglo saxon either switche
 										this = culture:english
 									}
 								}
+								any_sub_realm_county = {
+									is_in_list = english_counties_in_england
+									count >= 3
+								} 
 							}
 						}
-						english_counties_in_england >= 3
 					}
 					set_name_list = later_english_no_normans
 				}

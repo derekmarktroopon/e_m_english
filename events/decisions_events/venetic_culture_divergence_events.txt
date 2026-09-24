@@ -14,7 +14,7 @@ venetic_divergence_events.1 = {
 			}
 			every_culture_county = {
 				limit = {
-					geographical_region = world_europe_south
+					title_province = { geographical_region = world_europe_south }
 				}
 				add_to_list = romanoveneti_counties_to_make_venetian
 			}

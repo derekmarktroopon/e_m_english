@@ -1,4 +1,4 @@
-name_list_east_brythonic = {
+﻿name_list_east_brythonic = {
 	cadet_dynasty_names = {
 		dynn_Amwaithai dynn_Cadmayl dynn_CairglA_w dynn_Bichan dynn_GrifoyA_dh dynn_Loivilen dynn_Lid dynn_Rais dynn_TA_dir
 		dynn_Donad dynn_Tedor

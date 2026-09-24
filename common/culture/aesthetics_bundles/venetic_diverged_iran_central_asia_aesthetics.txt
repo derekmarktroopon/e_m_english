@@ -161,8 +161,6 @@ venetic_turkic_aesthetic = {
 	building_gfx = { steppe_building_gfx }
 	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx}
 	unit_gfx = { mongol_unit_gfx }
-
-	name_order_convention = dynasty_always_first
 	
 	name_list = name_list_venetic_turkic
 
@@ -214,8 +212,6 @@ venetic_mongol_aesthetic = {
 	building_gfx = { steppe_building_gfx } 
 	clothing_gfx = { mongol_clothing_gfx } 
 	unit_gfx = { mongol_unit_gfx } 
-
-	name_order_convention = dynasty_always_first
 	
 	name_list = name_list_venetic_mongol
 

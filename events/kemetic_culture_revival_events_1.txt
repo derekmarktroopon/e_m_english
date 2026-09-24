@@ -23,7 +23,7 @@ kemetic_revival_event.1 = { #whispers of the nile
 			}
 		}
 		any_held_county = { 
-		    AND = {
+		    title_province = {
 			    geographical_region = custom_roman_aegyptus
 			}
 		}

@@ -33,10 +33,10 @@ hidden = yes
 				}
 				if = {
 					limit = {
-						any_culture_global.any_culture_county = {
+						any_culture_global = { any_culture_county = {
 							is_in_list = gaulish_cult_count_for_france
 							count >= 1
-						}
+						} }
 					}
 					random_culture_county = {
 						limit = {
@@ -81,10 +81,10 @@ hidden = yes
 				}
 				if = {
 					limit = {
-						any_culture_global.any_culture_county = {
+						any_culture_global = { any_culture_county = {
 							is_in_list = gaulish_cult_count_for_occitania
 							count >= 1
-						}
+						} }
 					}
 					random_culture_county = {
 						limit = {
@@ -138,10 +138,10 @@ hidden = yes
 				}
 				if = {
 					limit = {
-						any_culture_global.any_culture_county = {
+						any_culture_global = { any_culture_county = {
 							is_in_list = gaulish_cult_count_for_iberia
 							count >= 1
-						}
+						} }
 					}
 					random_culture_county = {
 						limit = {
@@ -197,10 +197,10 @@ hidden = yes
 				}
 				if = {
 					limit = {
-						any_culture_global.any_culture_county = {
+						any_culture_global = { any_culture_county = {
 							is_in_list = gaulish_cult_count_for_italy
 							count >= 1
-						}
+						} }
 					}
 					random_culture_county = {
 						limit = {
@@ -266,10 +266,10 @@ hidden = yes
 				}
 				if = {
 					limit = {
-						any_culture_global.any_culture_county = {
+						any_culture_global = { any_culture_county = {
 							is_in_list = celtiberian_cult_count_for_spain
 							count >= 1
-						}
+						} }
 					}
 					random_culture_county = {
 						limit = {
@@ -309,10 +309,10 @@ hidden = yes
 				}
 				if = {
 					limit = {
-						any_culture_global.any_culture_county = {
+						any_culture_global = { any_culture_county = {
 							is_in_list = celtiberian_cult_count_for_portugal
 							count >= 1
-						}
+						} }
 					}
 					random_culture_county = {
 						limit = {
@@ -378,10 +378,10 @@ hidden = yes
 				}
 				if = {
 					limit = {
-						any_culture_global.any_culture_county = {
+						any_culture_global = { any_culture_county = {
 							is_in_list = lusitanian_cult_count_for_spain
 							count >= 1
-						}
+						} }
 					}
 					random_culture_county = {
 						limit = {
@@ -421,10 +421,10 @@ hidden = yes
 				}
 				if = {
 					limit = {
-						any_culture_global.any_culture_county = {
+						any_culture_global = { any_culture_county = {
 							is_in_list = lusitanian_cult_count_for_portugal
 							count >= 1
-						}
+						} }
 					}
 					random_culture_county = {
 						limit = {

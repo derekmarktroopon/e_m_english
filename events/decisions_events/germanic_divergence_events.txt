@@ -381,7 +381,7 @@ proto_germanic_divergence_events.2 = {
 			}
 			every_culture_county = {
 				limit = {
-					geographical_region = world_europe_north
+					title_province = { geographical_region = world_europe_north }
 				}
 				add_to_list = vendel_counties_to_make_old_norse
 			}

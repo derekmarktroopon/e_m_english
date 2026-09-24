@@ -92,7 +92,7 @@ name_list_galsignish_special = {
 				gls_Atha gls_Sesal gls_Dilan gls_Evan gls_Garath gls_Hyu gls_Maical gls_Mogan gls_Owin gls_Treva gls_Tristan gls_Braian gls_Yuan gls_Keelan gls_Kiaran gls_Raian
 			}
 			10 = {#Swede
-				gls_Eric gls_Guna gls_Nicalas gls_Andas gls_Dan gls_Nilz gls_Gwstav gls_Henric
+				gls_Eric gls_byon gls_Guna gls_Nicalas gls_Andas gls_Dan gls_Nilz gls_Gwstav gls_Henric
 			}
         	25 = {#Venetian    
             	gls_Antownyow gls_Ogwstin gls_Getanow gls_Lucanow gls_Vitoryow gls_Valanten gls_Anzalow gls_Marin gls_Matin gls_Gjacumow gls_Zuan

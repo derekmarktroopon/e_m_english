@@ -40,11 +40,8 @@
 	building_gfx = { japanese_building_gfx }
 	clothing_gfx = { japanese_clothing_gfx }
 	unit_gfx = { japanese_unit_gfx }
-	house_coa_frame = house_japan
 
 	name_list = name_list_venetic_japanese
-
-	name_order_convention = dynasty_always_first
 
 	#ai_chance = {
 	#	value = 10
@@ -172,9 +169,6 @@ venetic_chinese_aesthetic = {
 	building_gfx = { chinese_building_gfx }
 	clothing_gfx = { chinese_clothing_gfx }
 	unit_gfx = { chinese_unit_gfx }
-	house_coa_frame = house_china
-
-	name_order_convention = dynasty_always_first
 
 	name_list = name_list_venetic_han
 
@@ -251,7 +245,6 @@ venetic_tibetan_aesthetic = {
 	building_gfx = { tibetan_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
-	house_coa_frame = house_frame_28
 
 	name_list = name_list_venetic_tibetan
 

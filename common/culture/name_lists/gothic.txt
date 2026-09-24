@@ -1,4 +1,4 @@
-name_list_gothic = {
+﻿name_list_gothic = {
 
 	cadet_dynasty_names = {
 		dynn_Erwigiana dynn_Kindasuinthiana dynn_Athanagildid dynn_Athaulf dynn_Sigireik dynn_Gaisalaik dynn_Thiudis dynn_Liwa dynn_Guntimer dynn_Swinthila dynn_Tulga dynn_Hairwig dynn_Witiza dynn_Rotreik dynn_Lewigild dynn_Walja dynn_Witireik dynn_Sisibaud dynn_Kindila dynn_Wanbs
@@ -226,7 +226,7 @@ name_list_italo_goths = {
 
 	male_names = {
 		60 = {
-			Atalafonso Atalarico Ermenegildo Ermanarico Alarico Amalarico Odoacre Atanagildo Atanarico Badui_la Berengario Ervigio Eurico Attila Eutarico Fadila_goth Fritigerno Fritarico Gozaberto Gesalico Gundisalbo Guntimero Chindasvinto Chintila Liubagildo Roderico Rodulfo Rodesindo Riciredo Ranemero Raginarito Recesvinto Ricime_ro Ildibado Sisenando Suintila Teodefrido Teodato Teodemiro Teodorico Teodogiselo Torismondo Varamondo Vilfredo Viamaro Vitige Viterico Ulfila
+			Atalafonso Atalarico Ermenegildo Ermanarico Alarico Amalarico Odoacre Atanagildo Atanarico Badui_la Berengario Ervigio Eurico Attila Eutarico Fadila_goth Fritigerno Fritarico Gozaberto Gesalico Gundisalbo Guntimero Chindasvinto Chintila Liubagildo Roderico Rodulfo Rodesindo Riciredo Ranemero Raginarito Recesvinto Ricime_ro Ildibado Sisenando Suintila Teodefrido Teodato_gth Teodemiro Teodorico Teodogiselo Torismondo Varamondo Vilfredo Viamaro Vitige Viterico Ulfila
 		}
 		40 = {
 			Atalaberto Alberto Alberto-Azzo Aldobrandino Aleramo Alessandro Ambrogio Amedeo Andrea Anscario Anselmo Anterio Antonio Ardicino Ardizzone Ardoino Azzo Azzone BernabO_ Bartolomeo Benedetto Berengario Bernardo Bernardino Bertoldo Biagio Bonconte Bonifacio Bonifazio Boso Burgondo Carlo Corrado Dado Damiano Demetrio Domenico Emanuele Emrico Enrico Eriprando Everardo Filippo Folco Francesco Fresco Galeazzo Gandolfo Gausberto Gherardo Ghiberto Giacomo Giacopo Giorgio Giovanni Girolamo Giselberto Giulio Gotefredo Guglielmo Guido Lamberto Lanfranco Leo Liudfredo Lodovico Lorenzo Luchetto Luchino Luigi Manfredo Martino Massimiliano Matteo Michele Montefeltrano Moruello Napoleone NiccolO_ Oberto Obizzo Odalrico Oddone Odoardo Opizzino Ottone Ostisio Pagano Pallodino Pandolfo Paolo Pietro Pio Raimondo Rambaldo Ranieri Raniero-Ioannes Rinaldo Riprando Roberto Ruggiero Stefano Ubaldo Udalrico Ugolino Salinguerra Sebastiano Sigifredo Siginolfo Simone Taddeo Teobaldo Teodoro Tommaso Ugo Ugonino Vilfredo Vincenzo Vittorio Walfredo

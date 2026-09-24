@@ -1,5 +1,5 @@
 ﻿l_english:
- 
+
 name_list_oscan:0 "Oscan"
 
 dynnpat_suf_is:0 "is"

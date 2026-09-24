@@ -1,4 +1,4 @@
-name_list_indo_germanic = {
+﻿name_list_indo_germanic = {
 	cadet_dynasty_names = {
 		dynn_Albigejinja dynn_Albiharyinga dynn_Andasaringa dynn_Asuharyinga dynn_Anulebinga dynn_Odamundinga dynn_Odavardinga dynn_Athalagejinja dynn_Bernuhardinga dynn_Prithubertinga dynn_Prithugejinja dynn_Prodinga dynn_Gejahardinga dynn_Gejarikinga dynn_Griminga dynn_Gumasinthinga dynn_Gunthilebinga dynn_Gunthivulvinga dynn_Hemarikinga dynn_Haryabrandinga dynn_Rothirikinga dynn_Ingomiringa dynn_Othalarikinga dynn_Raginaharyinja dynn_Sigivardinga dynn_Tenavaryinja dynn_Thedubalithinga dynn_Thedumiringa dynn_Thedurikinga
 	}

@@ -1,4 +1,4 @@
-name_list_northumbrian = {
+﻿name_list_northumbrian = {
 	cadet_dynasty_names = {
         dynn_oe_E_lling dynn_oe_Yffing dynn_oe_Wuscfreaing dynn_oe_Wilgilsing dynn_oe_Storwalcning dynn_oe_Soemling dynn_oe_SE_fugling dynn_oe_SE_balding dynn_oe_Siggeoting dynn_oe_SuebdE_ging dynn_oe_Siggaring dynn_oe_WedE_ging dynn_oe_Cuthwining dynn_oe_Liodwalding dynn_oe_Ecgwalding dynn_oe_Edelming dynn_oe_Ocgting dynn_oe_Iding dynn_oe_Eating dynn_oe_Peding dynn_oe_Pypbing dynn_oe_Crioding dynn_oe_Cynewalding dynn_oe_Cnebbing dynn_oe_Icling dynn_oe_Eamering dynn_oe_Angengeoting dynn_oe_UE_rmunding dynn_oe_WihtlE_ging dynn_oe_Watholgeoting dynn_oe_E_tting dynn_oe_Eanferthing dynn_oe_Biscoping dynn_oe_Beding dynn_oe_Bubbing dynn_oe_CE_dbE_ding dynn_oe_Cueldgilsing dynn_oe_Cretting dynn_oe_Winting
 	}

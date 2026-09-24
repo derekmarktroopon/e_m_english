@@ -57,7 +57,7 @@
 		{ name = holy_order_warriors_of_the_symbol }
 	}
 
-	holy_order_maa = { ekvopetobos camunic_axe_infantry }
+	holy_order_maa = { ekvopetobos }
 
 	localization = {
 		HighGodName = paganism_high_god_name

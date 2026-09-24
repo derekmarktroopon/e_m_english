@@ -61,7 +61,7 @@ brythonic_cultures_events.1 = { # Common brythonic diverges
 			every_culture_county = {
 				limit = {
 					AND = {
-						title_province = { geographical_region = geographical_region = world_europe_west }
+						title_province = { geographical_region = world_europe_west }
 						NOT = { 
 							title_province = { geographical_region = world_europe_west_britannia }
 						}
