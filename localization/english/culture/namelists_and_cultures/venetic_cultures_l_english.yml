@@ -250,6 +250,6 @@ neo_lepontic_collective_noun:0 "Lepontes"
 
  venetic_coa_gfx:0 "Old Cisalpine"
 
- galsianer:0 "Galsianer"
- galsianer_prefix:0 "Galsino"
- galsianer_collective_noun:0 "Galsianers"
+ galsianer_culture_name:0 "Galsianer"
+ galsianer_culture_name_prefix:0 "Galsino"
+ galsianer_culture_name_collective_noun:0 "Galsianers"

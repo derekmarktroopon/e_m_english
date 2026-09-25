@@ -1,0 +1,22 @@
+﻿
+
+galsianer_culture_name = {
+	trigger = {
+		scope:culture = {
+			AND = {
+				OR = {
+					any_parent_culture = { has_cultural_pillar = heritage_north_germanic }
+					any_parent_culture = { any_parent_culture = { has_cultural_pillar = heritage_north_germanic } }
+				}
+				OR = {
+					any_parent_culture = { has_cultural_pillar = heritage_west_germanic }
+					any_parent_culture = { any_parent_culture = { has_cultural_pillar = heritage_west_germanic } }
+				}
+				OR = {
+					any_parent_culture = { has_cultural_pillar = heritage_latin }
+					any_parent_culture = { any_parent_culture = { has_cultural_pillar = heritage_latin } }
+				}
+			}
+		}
+	}
+}

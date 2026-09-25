@@ -1,134 +1,115 @@
 ﻿name_list_galsignish = {
-		cadet_dynasty_names = {
-		    dynn_Barbarigo dynn_Morosini dynn_Dente dynn_Adoaldo dynn_Amizo dynn_Arimondo dynn_Aventurado dynn_Badoer dynn_Baffo dynn_Balbi dynn_Barsiano dynn_Barozzi dynn_Bastio dynn_Bembo dynn_Benedetto dynn_Bobizo dynn_Boldu dynn_Bollani dynn_Bon dynn_Bragadin dynn_Brizzi dynn_Condulmer dynn_Contarini dynn_Corner dynn_Correr dynn_Dandolo dynn_Dolfin dynn_Falier dynn_Gradenigo dynn_Gritti dynn_Loredan dynn_Marcelo dynn_Marin dynn_Mazzaman dynn_Memmo dynn_Morosini dynn_Nadal dynn_Navager dynn_Salamon dynn_Soranzo dynn_Steno dynn_Tiepolo dynn_Trivisan dynn_Tron dynn_Valaresso dynn_Venier dynn_Viaro dynn_Vielmo dynn_Zanchani dynn_Zantani dynn_Zeno dynn_Zorzi dynn_Zusto dynn_Polo dynn_Memmo 
-		    dynn_gals_Ametego dynn_gals_Aplizego dynn_gals_Arspedago dynn_gals_Brogiogo dynn_gals_Depiarego dynn_gals_Deligo dynn_gals_Enegio dynn_gals_Fago dynn_gals_Fovonego dynn_gals_Inondego dynn_gals_Cassigo dynn_gals_Ciodavigo dynn_gals_Crevin dynn_gals_Nesco dynn_gals_Oghagio dynn_gals_Osogo dynn_gals_Ossiango dynn_gals_Pelonego dynn_gals_Pitanego dynn_gals_Resungo dynn_gals_Tresigo dynn_gals_Tresion dynn_gals_Voltolarigo 
-			dynn_Abernethy dynn_Arbuthnot dynn_Archil dynn_Armstrong dynn_Ballantyne dynn_Bannock dynn_Barclay dynn_Blackadder dynn_Borthwick dynn_Bradnigh dynn_Branain dynn_Bruce dynn_Buchan dynn_Cameron dynn_Campbell dynn_Camshron dynn_Carrun dynn_Cockburn dynn_Cosmungho dynn_Craigies dynn_Dean dynn_Douglas dynn_Errol dynn_Forbes dynn_Fothriff dynn_Fraser	dynn_Friseal dynn_Gillespie dynn_Glenklochar dynn_Gordon dynn_Graham dynn_Grant	dynn_Johnston dynn_Kennoway dynn_Kyle dynn_Lochore dynn_Lowden dynn_Menteith dynn_Murray dynn_Olifard dynn_Rannaire	dynn_Saint-Clair dynn_Scoine dynn_Strathearn dynn_Turnbull dynn_Wallace
-			dynn_Grip dynn_Svarte dynn_Skancke dynn_Skarsholm dynn_Thornberg dynn_Ribbing dynn_Lejon dynn_Erik dynn_Horn dynn_Bagge dynn_Borg dynn_Bese dynn_Boberg dynn_Bragde dynn_Bure dynn_Eka dynn_Fargalt dynn_Knoppe dynn_Kraam dynn_Lake dynn_Lejonbalk dynn_Marsvin dynn_Fluga dynn_Guldtupp dynn_Ulfsax dynn_Fleming dynn_Bidz dynn_Stiernkors dynn_Fincke dynn_Dufva dynn_Ormslev dynn_Gnarr dynn_Holmsen dynn_Benkestokk dynn_Handingmann dynn_Kane dynn_Losna dynn_Ringnes dynn_Galen dynn_Brock dynn_Banner	dynn_Thott dynn_Botner dynn_Darre dynn_Egge dynn_Kusse dynn_Grand dynn_Hack dynn_Juul dynn_Ulfeldt dynn_Bang dynn_Toll 
-		}
+	cadet_dynasty_names = {
+	    dynn_Barbarigo dynn_Morosini dynn_Dente dynn_Adoaldo dynn_Amizo dynn_Arimondo dynn_Aventurado dynn_Badoer dynn_Baffo dynn_Balbi dynn_Barsiano dynn_Barozzi dynn_Bastio dynn_Bembo dynn_Benedetto dynn_Bobizo dynn_Boldu dynn_Bollani dynn_Bon dynn_Bragadin dynn_Brizzi dynn_Condulmer dynn_Contarini dynn_Corner dynn_Correr dynn_Dandolo dynn_Dolfin dynn_Falier dynn_Gradenigo dynn_Gritti dynn_Loredan dynn_Marcelo dynn_Marin dynn_Mazzaman dynn_Memmo dynn_Morosini dynn_Nadal dynn_Navager dynn_Salamon dynn_Soranzo dynn_Steno dynn_Tiepolo dynn_Trivisan dynn_Tron dynn_Valaresso dynn_Venier dynn_Viaro dynn_Vielmo dynn_Zanchani dynn_Zantani dynn_Zeno dynn_Zorzi dynn_Zusto dynn_Polo dynn_Memmo 
+	    dynn_gals_Ametego dynn_gals_Aplizego dynn_gals_Arspedago dynn_gals_Brogiogo dynn_gals_Depiarego dynn_gals_Deligo dynn_gals_Enegio dynn_gals_Fago dynn_gals_Fovonego dynn_gals_Inondego dynn_gals_Cassigo dynn_gals_Ciodavigo dynn_gals_Crevin dynn_gals_Nesco dynn_gals_Oghagio dynn_gals_Osogo dynn_gals_Ossiango dynn_gals_Pelonego dynn_gals_Pitanego dynn_gals_Resungo dynn_gals_Tresigo dynn_gals_Tresion dynn_gals_Voltolarigo 
+		dynn_Abernethy dynn_Arbuthnot dynn_Archil dynn_Armstrong dynn_Ballantyne dynn_Bannock dynn_Barclay dynn_Blackadder dynn_Borthwick dynn_Bradnigh dynn_Branain dynn_Bruce dynn_Buchan dynn_Cameron dynn_Campbell dynn_Camshron dynn_Carrun dynn_Cockburn dynn_Cosmungho dynn_Craigies dynn_Dean dynn_Douglas dynn_Errol dynn_Forbes dynn_Fothriff dynn_Fraser	dynn_Friseal dynn_Gillespie dynn_Glenklochar dynn_Gordon dynn_Graham dynn_Grant	dynn_Johnston dynn_Kennoway dynn_Kyle dynn_Lochore dynn_Lowden dynn_Menteith dynn_Murray dynn_Olifard dynn_Rannaire	dynn_Saint-Clair dynn_Scoine dynn_Strathearn dynn_Turnbull dynn_Wallace
+		dynn_Grip dynn_Svarte dynn_Skancke dynn_Skarsholm dynn_Thornberg dynn_Ribbing dynn_Lejon dynn_Erik dynn_Horn dynn_Bagge dynn_Borg dynn_Bese dynn_Boberg dynn_Bragde dynn_Bure dynn_Eka dynn_Fargalt dynn_Knoppe dynn_Kraam dynn_Lake dynn_Lejonbalk dynn_Marsvin dynn_Fluga dynn_Guldtupp dynn_Ulfsax dynn_Fleming dynn_Bidz dynn_Stiernkors dynn_Fincke dynn_Dufva dynn_Ormslev dynn_Gnarr dynn_Holmsen dynn_Benkestokk dynn_Handingmann dynn_Kane dynn_Losna dynn_Ringnes dynn_Galen dynn_Brock dynn_Banner	dynn_Thott dynn_Botner dynn_Darre dynn_Egge dynn_Kusse dynn_Grand dynn_Hack dynn_Juul dynn_Ulfeldt dynn_Bang dynn_Toll 
+	}
 
-		dynasty_names = {
-			dynn_Barbarigo dynn_Morosini dynn_Dente dynn_Adoaldo dynn_Amizo dynn_Arimondo dynn_Aventurado dynn_Badoer dynn_Baffo dynn_Balbi dynn_Barsiano dynn_Barozzi dynn_Bastio dynn_Bembo dynn_Benedetto dynn_Bobizo dynn_Boldu dynn_Bollani dynn_Bon dynn_Bragadin dynn_Brizzi dynn_Condulmer dynn_Contarini dynn_Corner dynn_Correr dynn_Dandolo dynn_Dolfin dynn_Falier dynn_Gradenigo dynn_Gritti dynn_Loredan dynn_Marcelo dynn_Marin dynn_Mazzaman dynn_Memmo dynn_Morosini dynn_Nadal dynn_Navager dynn_Salamon dynn_Soranzo dynn_Steno dynn_Tiepolo dynn_Trivisan dynn_Tron dynn_Valaresso dynn_Venier dynn_Viaro dynn_Vielmo dynn_Zanchani dynn_Zantani dynn_Zeno dynn_Zorzi dynn_Zusto dynn_Polo dynn_Memmo 
-		    dynn_gals_Ametego dynn_gals_Aplizego dynn_gals_Arspedago dynn_gals_Brogiogo dynn_gals_Depiarego dynn_gals_Deligo dynn_gals_Enegio dynn_gals_Fago dynn_gals_Fovonego dynn_gals_Inondego dynn_gals_Cassigo dynn_gals_Ciodavigo dynn_gals_Crevin dynn_gals_Nesco dynn_gals_Oghagio dynn_gals_Osogo dynn_gals_Ossiango dynn_gals_Pelonego dynn_gals_Pitanego dynn_gals_Resungo dynn_gals_Tresigo dynn_gals_Tresion dynn_gals_Voltolarigo 
-			dynn_Abernethy dynn_Arbuthnot dynn_Archil dynn_Armstrong dynn_Ballantyne dynn_Bannock dynn_Barclay dynn_Blackadder dynn_Borthwick dynn_Bradnigh dynn_Branain dynn_Bruce dynn_Buchan dynn_Cameron dynn_Campbell dynn_Camshron dynn_Carrun dynn_Cockburn dynn_Cosmungho dynn_Craigies dynn_Dean dynn_Douglas dynn_Errol dynn_Forbes dynn_Fothriff dynn_Fraser	dynn_Friseal dynn_Gillespie dynn_Glenklochar dynn_Gordon dynn_Graham dynn_Grant	dynn_Johnston dynn_Kennoway dynn_Kyle dynn_Lochore dynn_Lowden dynn_Menteith dynn_Murray dynn_Olifard dynn_Rannaire	dynn_Saint-Clair dynn_Scoine dynn_Strathearn dynn_Turnbull dynn_Wallace
-			dynn_Grip dynn_Svarte dynn_Skancke dynn_Skarsholm dynn_Thornberg dynn_Ribbing dynn_Lejon dynn_Erik dynn_Horn dynn_Bagge dynn_Borg dynn_Bese dynn_Boberg dynn_Bragde dynn_Bure dynn_Eka dynn_Fargalt dynn_Knoppe dynn_Kraam dynn_Lake dynn_Lejonbalk dynn_Marsvin dynn_Fluga dynn_Guldtupp dynn_Ulfsax dynn_Fleming dynn_Bidz dynn_Stiernkors dynn_Fincke dynn_Dufva dynn_Ormslev dynn_Gnarr dynn_Holmsen dynn_Benkestokk dynn_Handingmann dynn_Kane dynn_Losna dynn_Ringnes dynn_Galen dynn_Brock dynn_Banner	dynn_Thott dynn_Botner dynn_Darre dynn_Egge dynn_Kusse dynn_Grand dynn_Hack dynn_Juul dynn_Ulfeldt dynn_Bang dynn_Toll
-		}
+	dynasty_names = {
+		dynn_Barbarigo dynn_Morosini dynn_Dente dynn_Adoaldo dynn_Amizo dynn_Arimondo dynn_Aventurado dynn_Badoer dynn_Baffo dynn_Balbi dynn_Barsiano dynn_Barozzi dynn_Bastio dynn_Bembo dynn_Benedetto dynn_Bobizo dynn_Boldu dynn_Bollani dynn_Bon dynn_Bragadin dynn_Brizzi dynn_Condulmer dynn_Contarini dynn_Corner dynn_Correr dynn_Dandolo dynn_Dolfin dynn_Falier dynn_Gradenigo dynn_Gritti dynn_Loredan dynn_Marcelo dynn_Marin dynn_Mazzaman dynn_Memmo dynn_Morosini dynn_Nadal dynn_Navager dynn_Salamon dynn_Soranzo dynn_Steno dynn_Tiepolo dynn_Trivisan dynn_Tron dynn_Valaresso dynn_Venier dynn_Viaro dynn_Vielmo dynn_Zanchani dynn_Zantani dynn_Zeno dynn_Zorzi dynn_Zusto dynn_Polo dynn_Memmo 
+	    dynn_gals_Ametego dynn_gals_Aplizego dynn_gals_Arspedago dynn_gals_Brogiogo dynn_gals_Depiarego dynn_gals_Deligo dynn_gals_Enegio dynn_gals_Fago dynn_gals_Fovonego dynn_gals_Inondego dynn_gals_Cassigo dynn_gals_Ciodavigo dynn_gals_Crevin dynn_gals_Nesco dynn_gals_Oghagio dynn_gals_Osogo dynn_gals_Ossiango dynn_gals_Pelonego dynn_gals_Pitanego dynn_gals_Resungo dynn_gals_Tresigo dynn_gals_Tresion dynn_gals_Voltolarigo 
+		dynn_Abernethy dynn_Arbuthnot dynn_Archil dynn_Armstrong dynn_Ballantyne dynn_Bannock dynn_Barclay dynn_Blackadder dynn_Borthwick dynn_Bradnigh dynn_Branain dynn_Bruce dynn_Buchan dynn_Cameron dynn_Campbell dynn_Camshron dynn_Carrun dynn_Cockburn dynn_Cosmungho dynn_Craigies dynn_Dean dynn_Douglas dynn_Errol dynn_Forbes dynn_Fothriff dynn_Fraser	dynn_Friseal dynn_Gillespie dynn_Glenklochar dynn_Gordon dynn_Graham dynn_Grant	dynn_Johnston dynn_Kennoway dynn_Kyle dynn_Lochore dynn_Lowden dynn_Menteith dynn_Murray dynn_Olifard dynn_Rannaire	dynn_Saint-Clair dynn_Scoine dynn_Strathearn dynn_Turnbull dynn_Wallace
+		dynn_Grip dynn_Svarte dynn_Skancke dynn_Skarsholm dynn_Thornberg dynn_Ribbing dynn_Lejon dynn_Erik dynn_Horn dynn_Bagge dynn_Borg dynn_Bese dynn_Boberg dynn_Bragde dynn_Bure dynn_Eka dynn_Fargalt dynn_Knoppe dynn_Kraam dynn_Lake dynn_Lejonbalk dynn_Marsvin dynn_Fluga dynn_Guldtupp dynn_Ulfsax dynn_Fleming dynn_Bidz dynn_Stiernkors dynn_Fincke dynn_Dufva dynn_Ormslev dynn_Gnarr dynn_Holmsen dynn_Benkestokk dynn_Handingmann dynn_Kane dynn_Losna dynn_Ringnes dynn_Galen dynn_Brock dynn_Banner	dynn_Thott dynn_Botner dynn_Darre dynn_Egge dynn_Kusse dynn_Grand dynn_Hack dynn_Juul dynn_Ulfeldt dynn_Bang dynn_Toll 
+	}
 
-		male_names = {
-			25 = { #Extra
-				David Derek Douglas Duncan Denis Edmund Edward Eric Gunnar Harold Hans Mark Nicholas Thomas William
-			}
-			25 = {#Scott + Angle
-				Adam Alpin Alan Alastair Alexander Andrew Angus Archibald Arthur Arran Aulay Beathan Brian Brice Cailean Calum Carbrey Colban Colin Conall Conan Constantine David Dermid Donald Duff Dugald Edgar Edwin Evander Ewan Farquhar Fergus Fingal Findlay Gavin Gilbert Gilbride Gilchrist Gillespie Gilpatrick Gilroy Giric Glenn Godfrey Gregor Hamish Hector Henry Hugh Iain Indulf James John Kenneth Kentigern Lachlan Laurence Lennon Lulach Macbeth Magnus Malcolm Maldoven Maldred Matthew Michael Morgan Murdoch Murray Neil Oscar Patrick Paul Peter Philip Radulf Ranald Richard Robert Roderick Ronald Rory Ross Roy Shaw Simon Stephan Sweeny Talore Thomas Torquil Walan Waldeve Walter 
-				Adam Alan Albert Alexander Alfred Andrew Anselm Arnold Arthur Aubrey Baldrick Christopher Eustace George Gerald Gilbert Geoffrey Godfrey Gregory Guy Henry Hugh Humphrey Jocelyn Jordan Laurence Lionel Martin Matthew Maurice Michael Paul Peter Philip Ralph Randolph Reginald Roderick Roger Richard Robert Samuel Simon Stephen Theobald Walter Waleran
-			}
-			5 = {#Swede
-				Anders Arne Arnfast Astrad Balder BjO_rn Dan Dyre Einar Erik Fredrik Grim Gustav Halsten Henrik Ingvar Karl Kettil Knut Lars Magnus Markus Nils Olaf Ragnar Rolf Sigurd Starkad Sven Torbrand Torfinn Torkel Torsten Ulf Valdemar 
-			}
-        	23 = {#Venetian    
-            	Agustin Alexander Aloysius Alvise Ambrosius Ambroso Andrea Angelo Annibale Antonio Anzolo Aurelio Auro Austin Bado Baldissere Bartholomio Bastian Bastiano Batista Battista Benedetto Benetto Bernardin Bernardo Biasio Bortholo Bortolamio Bortolo Camillus Carlo Claudio Cristofalo Cristofolo Diodato Dionisio Domenego Enrigo Fazzin Filippo Gabriele Galeazzo Galla Gasparo Guglielmo Ippolito Jacomo Lazaro Leonardo Lodovico Lorenzo Luca Lundardo Magno Marcantonio Marcello Marco Marin Martin Mercurio Michiel Miro Moricio Nicolo Ordelafo Orsso Otto Paolo Pasqual Pasqualin Paulo Petro Piero Raffaele Renier Rocco Rugir Salvador Salvator Sebastian Stefano Teodor Tobias Tomado Tomaso Tommaso Tranquilo Tribun Valentin Valerio Ventura Venturo Vidal Vincenzo Vittorio Vivian Zacharia Zago Zanetto Zordan Zorzi Zuan Zuandomenego Zuane Zuann Zuanne Zuano
-            }
-            0 = { #Anglo Venetic
-            	vnteng_Ayler vnteng_Ette vnteng_Aver vnteng_Butick vnteng_Deole vnteng_Ebe vnteng_Enne vnteng_Gaye vnteng_Foe vnteng_Fug vnteng_Futt vnteng_Chestick vnteng_Kell vnteng_Cogg vnteng_Coat vnteng_Lewch vnteng_Melling vnteng_Mets vnteng_Oapp vnteng_Osten vnteng_Oast vnteng_Ostir vnteng_Quert vnteng_Suer vnteng_Tidam vnteng_Ture vnteng_Turion vnteng_Weam vnteng_Kedric vnteng_Laffs vnteng_Padder vnteng_Pledow vnteng_Werkwel vnteng_Avyer vnteng_Acute vnteng_Ary vnteng_Edgest vnteng_Ennon vnteng_Enog vnteng_Encleve vnteng_Font vnteng_Fugant vnteng_Fremes vnteng_Fugey vnteng_Greak vnteng_Hostaff vnteng_Cant vnteng_Carman vnteng_Chiton vnteng_Quait vnteng_Lemater vnteng_Lemett vnteng_Lees vnteng_Molde vnteng_Molden vnteng_Moll vnteng_Mollot vnteng_Molton vnteng_Nagle vnteng_Pillpot vnteng_Plede vnteng_Pupin vnteng_Rew vnteng_Syke vnteng_Tival vnteng_Uke vnteng_Wassen vnteng_Wyse vnteng_Woltig vnteng_Woltin vnteng_Wolton vnteng_Wott
-            }
-            10 = {#Venetic
-            	vnt_vants vnt_iuvants vnt_oppos vnt_akuts vnt_egests vnt_enogenes vnt_fugios vnt_fonts vnt_kantes vnt_kellos vnt_kuges vnt_lemetor vnt_molon vnt_uko vnt_vilkenis vnt_voltigens vnt_enokleves vnt_gaijos
-            }
-            10 = {#Tupi
-            	gals_Tibirisah gals_Pikerobie gals_Caiuby gals_Pirayah gals_Piriyah gals_Toruih gals_Mbicyigh 
-				gals_Arariboia gals_Caikeh gals_Cawan gals_Cungambebeh gals_Jandaya gals_Moacyighra gals_Ubiratan gals_Ubirayara gals_Piatan gals_Taparica
-            }
-            2 = {#Others, for anglicised versions
-            	gals_Ahculmo gals_Ahcal gals_Chan gals_Ckawil gals_Bahlam gals_Bot gals_Ahc gals_Caneck gals_Chanckinich gals_Yophat gals_Ahin gals_Chanahc gals_Hhunbalam gals_Canckuhck gals_Siyahckack gals_Yaghawteh gals_Ckinich
-            }
+	male_names = {
+		25 = { #Extra
+			David Derek Douglas Duncan Denis Edmund Edward Eric Gunnar Harold Hans Mark Nicholas Thomas William
 		}
+		25 = {#Scott + Angle
+			Adam Alpin Alan Alastair Alexander Andrew Angus Archibald Arthur Arran Aulay Beathan Brian Brice Cailean Calum Carbrey Colban Colin Conall Conan Constantine David Dermid Donald Duff Dugald Edgar Edwin Evander Ewan Farquhar Fergus Fingal Findlay Gavin Gilbert Gilbride Gilchrist Gillespie Gilpatrick Gilroy Giric Glenn Godfrey Gregor Hamish Hector Henry Hugh Iain Indulf James John Kenneth Kentigern Lachlan Laurence Lennon Lulach Macbeth Magnus Malcolm Maldoven Maldred Matthew Michael Morgan Murdoch Murray Neil Oscar Patrick Paul Peter Philip Radulf Ranald Richard Robert Roderick Ronald Rory Ross Roy Shaw Simon Stephan Sweeny Talore Thomas Torquil Walan Waldeve Walter 
+			Adam Alan Albert Alexander Alfred Andrew Anselm Arnold Arthur Aubrey Baldrick Christopher Eustace George Gerald Gilbert Geoffrey Godfrey Gregory Guy Henry Hugh Humphrey Jocelyn Jordan Laurence Lionel Martin Matthew Maurice Michael Paul Peter Philip Ralph Randolph Reginald Roderick Roger Richard Robert Samuel Simon Stephen Theobald Walter Waleran
+		}
+		15 = {#Swede
+			Anders Arne Arnfast Astrad Balder BjO_rn Dan Dyre Einar Erik Fredrik Grim Gustav Halsten Henrik Ingvar Karl Kettil Knut Lars Magnus Markus Nils Olaf Ragnar Rolf Sigurd Starkad Sven Torbrand Torfinn Torkel Torsten Ulf Valdemar 
+		}
+       	25 = {#Venetian    
+           	Agustin Alexander Aloysius Alvise Ambrosius Ambroso Andrea Angelo Annibale Antonio Anzolo Aurelio Auro Austin Bado Baldissere Bartholomio Bastian Bastiano Batista Battista Benedetto Benetto Bernardin Bernardo Biasio Bortholo Bortolamio Bortolo Camillus Carlo Claudio Cristofalo Cristofolo Diodato Dionisio Domenego Enrigo Fazzin Filippo Gabriele Galeazzo Galla Gasparo Guglielmo Ippolito Jacomo Lazaro Leonardo Lodovico Lorenzo Luca Lundardo Magno Marcantonio Marcello Marco Marin Martin Mercurio Michiel Miro Moricio Nicolo Ordelafo Orsso Otto Paolo Pasqual Pasqualin Paulo Petro Piero Raffaele Renier Rocco Rugir Salvador Salvator Sebastian Stefano Teodor Tobias Tomado Tomaso Tommaso Tranquilo Tribun Valentin Valerio Ventura Venturo Vidal Vincenzo Vittorio Vivian Zacharia Zago Zanetto Zordan Zorzi Zuan Zuandomenego Zuane Zuann Zuanne Zuano
+        }
+        10 = {#Venetic
+        	vnt_vants vnt_iuvants vnt_oppos vnt_akuts vnt_egests vnt_enogenes vnt_fugios vnt_fonts vnt_kantes vnt_kellos vnt_kuges vnt_lemetor vnt_molon vnt_uko vnt_vilkenis vnt_voltigens vnt_enokleves vnt_gaijos
+        }
+	}
 
-		female_names = {
-			20 = {#Extra
-				Catherine Elizabeth Edith Juliana Joanna Katherine Karin Mary
-			}
-			35 = {#Scott + Angle
-				Ada Agnes Aileen Alice Anna Annabella Cecilia Christina Edith Ela Eleanor Eva Flora Glenna Helen Innes Jean Julia Kirstin Maisie Malina Margaret Mary Martha Maud Maura Mirren Morag Muriel Ronalda Steacy
-				Adela Adelaide Alice Amice Anne Aveline Beatrice Blanche Cecilia Constance Ela Eleanor Emma Hawise Isabel Isabella Joan Mahaut Margaret Matilda Maud Philippa Sybilla
-			}
-			10 = {#Swede
-				Alfhild Anna Asta Astrid Birgitta Freja Gunhild Gyla Gytha Helena Iliana Inga Ingfrid Ingrid Katarina Kristina Linda  Ragnfrid Ragnhild Saga Sara Sofia Svanhild Thordis Ylva
-			}
-			15 = {#Venetian
-		    	Agnese Agnesina Alba Alessandra Anastasia Andriana Angela Angelica Anna Antonia Anzola Barbara Bella Benetta Benvegnuda Betta Bettina Bianca Borthola Camilla Cassandra Catarina Caterina Cattarina Catterina Cecilia Christina Clara Claudia Contarina Cornelia Corona Cristina Daniela Diana Dianora Dionora Elena Elisabetta Emilia Eugenia Faustina Felicita_ven Fiametta Filomena Fiordelise Fiorenza Gabriella Gaspara Gratiosa Helena Helia Hortensa Iseppa Jacomina Julia Justina Laura Lavinia Leandra Leonarda Libera Livia Lodovica Lucrezia Lugretia Madalena Maddalena Marcella Marcella Margarita Maria Marieta Marina Marita Matthia Menega Moderata Nicolosa Olivia Orelia Orsa Orseta Orsolina Osana Paola Paolina Pasqueta Paula Paulissena Pelegrina Perina Philippa Pollonia Polonia Portia Prudentia Pulisena Pulissena Regina Rosa Sabina Samaritana Santina Simona Simonetta Stella Susanna Thomasina Tomasina Valentina Valeria Vendramina Venedranda Veniera Veronica Viena Vienna Vincenza Violante Virginia Vittoria Zaneta Zanetta Zuanna
-			}
-			0 = { #Anglo Venetic
-				vnteng_Fow vnteng_Wrote vnteng_Ichewonne vnteng_Levine vnteng_Less vnteng_Usdike vnteng_f_Wenne vnteng_Iwant vnteng_Ostle vnteng_f_Acute vnteng_Andene vnteng_Apee vnteng_Atte vnteng_Beale vnteng_Bucke vnteng_Effie vnteng_Egsten vnteng_Egator vnteng_f_Fugant vnteng_Frem vnteng_Fremen vnteng_Fruton vnteng_Fugie vnteng_Fugin vnteng_Iwanten vnteng_Itury vnteng_f_Cant vnteng_Lemetone vnteng_Lossie vnteng_Makin vnteng_f_Molden vnteng_Mushell vnteng_Must vnteng_Nerk vnteng_Ruman vnteng_Seakin vnteng_Sowen vnteng_Turkin vnteng_Urkleen vnteng_Woltone vnteng_Wotin vnteng_Fugonton vnteng_Catakin
-            }
-			9 = {#Venetic
-				vnt_fugia Kanta vnt_fugsia vnt_iuvanta Nerka vnt_fougonta Votina Frema vnt_logsia Egetora vnt_ituria
-			}
-			9 = { #Tupi
-				gals_Bartira gals_Potira gals_Mayara gals_Cawanyigh gals_Jusara gals_Jurema gals_Iracyigh gals_Juracyigh gals_Tainah gals_Jacira gals_Jandira gals_Jacie gals_Moara gals_Moema gals_Yara
-			}
-			2 = {#Others, for anglicised versions
-				gals_Ahckabil gals_Alatsil gals_Backel gals_Batseck gals_Buluch gals_Chel gals_Hish gals_Ihcats gals_Iis gals_Icom gals_Ishcamay gals_Hhomib gals_Ckayammoh gals_Tsam
-            }
+	female_names = {
+		20 = {#Extra
+			Catherine Elizabeth Edith Juliana Joanna Katherine Karin Mary
 		}
+		40 = {#Scott + Angle
+			Ada Agnes Aileen Alice Anna Annabella Cecilia Christina Edith Ela Eleanor Eva Flora Glenna Helen Innes Jean Julia Kirstin Maisie Malina Margaret Mary Martha Maud Maura Mirren Morag Muriel Ronalda Steacy
+			Adela Adelaide Alice Amice Anne Aveline Beatrice Blanche Cecilia Constance Ela Eleanor Emma Hawise Isabel Isabella Joan Mahaut Margaret Matilda Maud Philippa Sybilla
+		}
+		10 = {#Swede
+			Alfhild Anna Asta Astrid Birgitta Freja Gunhild Gyla Gytha Helena Iliana Inga Ingfrid Ingrid Katarina Kristina Linda  Ragnfrid Ragnhild Saga Sara Sofia Svanhild Thordis Ylva
+		}
+		15 = {#Venetian
+	    	Agnese Agnesina Alba Alessandra Anastasia Andriana Angela Angelica Anna Antonia Anzola Barbara Bella Benetta Benvegnuda Betta Bettina Bianca Borthola Camilla Cassandra Catarina Caterina Cattarina Catterina Cecilia Christina Clara Claudia Contarina Cornelia Corona Cristina Daniela Diana Dianora Dionora Elena Elisabetta Emilia Eugenia Faustina Felicita_ven Fiametta Filomena Fiordelise Fiorenza Gabriella Gaspara Gratiosa Helena Helia Hortensa Iseppa Jacomina Julia Justina Laura Lavinia Leandra Leonarda Libera Livia Lodovica Lucrezia Lugretia Madalena Maddalena Marcella Marcella Margarita Maria Marieta Marina Marita Matthia Menega Moderata Nicolosa Olivia Orelia Orsa Orseta Orsolina Osana Paola Paolina Pasqueta Paula Paulissena Pelegrina Perina Philippa Pollonia Polonia Portia Prudentia Pulisena Pulissena Regina Rosa Sabina Samaritana Santina Simona Simonetta Stella Susanna Thomasina Tomasina Valentina Valeria Vendramina Venedranda Veniera Veronica Viena Vienna Vincenza Violante Virginia Vittoria Zaneta Zanetta Zuanna
+		}
+		10 = {#Venetic
+			vnt_fugia Kanta vnt_fugsia vnt_iuvanta Nerka vnt_fougonta Votina Frema vnt_logsia Egetora vnt_ituria
+		}
+	}
 	
 	dynasty_of_location_prefix = "dynnp_of"				
 
 }
 
 name_list_galsignish_special = {
-		cadet_dynasty_names = {
-		    dynn_gls_Bilsland dynn_gls_Makizan dynn_gls_Tramontan dynn_gls_Crog dynn_gls_Scoc dynn_gls_Dentry dynn_gls_Rudy dynn_gls_Ucat dynn_gls_Bucanan dynn_gls_Hawad dynn_gls_Micl dynn_gls_Galzingan dynn_gls_Abenathy dynn_gls_Abathnot dynn_gls_Acil dynn_gls_Amstrong dynn_gls_Banoc dynn_gls_Brus dynn_gls_Bucan dynn_gls_Camran dynn_gls_Cocbun dynn_gls_Den dynn_gls_Duglas dynn_gls_Evanz dynn_gls_Kenowwey dynn_gls_Lowdan dynn_gls_Olifad dynn_gls_Tunbwl dynn_gls_Wolis dynn_gls_Adowaldow dynn_gls_Babarygow dynn_gls_Bragadin dynn_gls_Boldiw dynn_gls_Bolany dynn_gls_Bon dynn_gls_Badowe dynn_gls_Core dynn_gls_Dandalow dynn_gls_Donato dynn_gls_Faliye dynn_gls_Malypyero dynn_gls_Marin dynn_gls_Nadal dynn_gls_Salamon dynn_gls_Pytsaman dynn_gls_Stenow dynn_gls_Ribing dynn_gls_Svat dynn_gls_Hon dynn_gls_Leyanboc dynn_gls_Leic dynn_gls_Finc dynn_gls_Cein dynn_gls_Losna dynn_gls_Galan dynn_gls_Thot dynn_gls_Ega dynn_gls_mogan
-		}
+	cadet_dynasty_names = {
+	    dynn_gls_Bilsland dynn_gls_Makizan dynn_gls_Tramontan dynn_gls_Crog dynn_gls_Scoc dynn_gls_Dentry dynn_gls_Rudy dynn_gls_Ucat dynn_gls_Bucanan dynn_gls_Hawad dynn_gls_Micl dynn_gls_Galzingan dynn_gls_Abenathy dynn_gls_Abathnot dynn_gls_Acil dynn_gls_Amstrong dynn_gls_Banoc dynn_gls_Brus dynn_gls_Bucan dynn_gls_Camran dynn_gls_Cocbun dynn_gls_Den dynn_gls_Duglas dynn_gls_Evanz dynn_gls_Kenowwey dynn_gls_Lowdan dynn_gls_Olifad dynn_gls_Tunbwl dynn_gls_Wolis dynn_gls_Adowaldow dynn_gls_Babarygow dynn_gls_Bragadin dynn_gls_Boldiw dynn_gls_Bolany dynn_gls_Bon dynn_gls_Badowe dynn_gls_Core dynn_gls_Dandalow dynn_gls_Donato dynn_gls_Faliye dynn_gls_Malypyero dynn_gls_Marin dynn_gls_Nadal dynn_gls_Salamon dynn_gls_Pytsaman dynn_gls_Stenow dynn_gls_Ribing dynn_gls_Svat dynn_gls_Hon dynn_gls_Leyanboc dynn_gls_Leic dynn_gls_Finc dynn_gls_Cein dynn_gls_Losna dynn_gls_Galan dynn_gls_Thot dynn_gls_Ega dynn_gls_mogan
+	}
 
-		dynasty_names = {
-			dynn_gls_Bilsland dynn_gls_Makizan dynn_gls_Tramontan dynn_gls_Crog dynn_gls_Scoc dynn_gls_Dentry dynn_gls_Rudy dynn_gls_Ucat dynn_gls_Bucanan dynn_gls_Hawad dynn_gls_Micl dynn_gls_Galzingan dynn_gls_Abenathy dynn_gls_Abathnot dynn_gls_Acil dynn_gls_Amstrong dynn_gls_Banoc dynn_gls_Brus dynn_gls_Bucan dynn_gls_Camran dynn_gls_Cocbun dynn_gls_Den dynn_gls_Duglas dynn_gls_Evanz dynn_gls_Kenowwey dynn_gls_Lowdan dynn_gls_Olifad dynn_gls_Tunbwl dynn_gls_Wolis dynn_gls_Adowaldow dynn_gls_Babarygow dynn_gls_Bragadin dynn_gls_Boldiw dynn_gls_Bolany dynn_gls_Bon dynn_gls_Badowe dynn_gls_Core dynn_gls_Dandalow dynn_gls_Donato dynn_gls_Faliye dynn_gls_Malypyero dynn_gls_Marin dynn_gls_Nadal dynn_gls_Salamon dynn_gls_Pytsaman dynn_gls_Stenow dynn_gls_Ribing dynn_gls_Svat dynn_gls_Hon dynn_gls_Leyanboc dynn_gls_Leic dynn_gls_Finc dynn_gls_Cein dynn_gls_Losna dynn_gls_Galan dynn_gls_Thot dynn_gls_Ega dynn_gls_mogan
-		}
+	dynasty_names = {
+		dynn_gls_Bilsland dynn_gls_Makizan dynn_gls_Tramontan dynn_gls_Crog dynn_gls_Scoc dynn_gls_Dentry dynn_gls_Rudy dynn_gls_Ucat dynn_gls_Bucanan dynn_gls_Hawad dynn_gls_Micl dynn_gls_Galzingan dynn_gls_Abenathy dynn_gls_Abathnot dynn_gls_Acil dynn_gls_Amstrong dynn_gls_Banoc dynn_gls_Brus dynn_gls_Bucan dynn_gls_Camran dynn_gls_Cocbun dynn_gls_Den dynn_gls_Duglas dynn_gls_Evanz dynn_gls_Kenowwey dynn_gls_Lowdan dynn_gls_Olifad dynn_gls_Tunbwl dynn_gls_Wolis dynn_gls_Adowaldow dynn_gls_Babarygow dynn_gls_Bragadin dynn_gls_Boldiw dynn_gls_Bolany dynn_gls_Bon dynn_gls_Badowe dynn_gls_Core dynn_gls_Dandalow dynn_gls_Donato dynn_gls_Faliye dynn_gls_Malypyero dynn_gls_Marin dynn_gls_Nadal dynn_gls_Salamon dynn_gls_Pytsaman dynn_gls_Stenow dynn_gls_Ribing dynn_gls_Svat dynn_gls_Hon dynn_gls_Leyanboc dynn_gls_Leic dynn_gls_Finc dynn_gls_Cein dynn_gls_Losna dynn_gls_Galan dynn_gls_Thot dynn_gls_Ega dynn_gls_mogan
+	}
 
-		male_names = {
-			25 = { #Extra
-				gls_Andru gls_Deric gls_Duglas gls_Dungcan gls_Deivid Denis gls_Edwad gls_Harald gls_Gjeimz gls_Cal gls_Kevin gls_Hanz gls_Hawad gls_Mac gls_Wilyam  
-			}
-			30 = {#Scott + Angle + Other British
-				gls_Oldwin gls_Boldric gls_Calz gls_Duf gls_Edmand gls_Edweika gls_Edwin gls_Elfric gls_Elma gls_Ethlstan gls_Gjogj gls_Godric gls_Godwin gls_Gjon gls_Nel gls_Peta gls_Robin gls_Robat gls_Rogja gls_Ricad gls_Samyual gls_Stevn gls_Thedric gls_Tomas gls_Walfric
-				gls_Atha gls_Sesal gls_Dilan gls_Evan gls_Garath gls_Hyu gls_Maical gls_Mogan gls_Owin gls_Treva gls_Tristan gls_Braian gls_Yuan gls_Keelan gls_Kiaran gls_Raian
-			}
-			10 = {#Swede
-				gls_Eric gls_byon gls_Guna gls_Nicalas gls_Andas gls_Dan gls_Nilz gls_Gwstav gls_Henric
-			}
-        	25 = {#Venetian    
-            	gls_Antownyow gls_Ogwstin gls_Getanow gls_Lucanow gls_Vitoryow gls_Valanten gls_Anzalow gls_Marin gls_Matin gls_Gjacumow gls_Zuan
-            }
-            5 = {#Venetic
-            	gls_Vants gls_Enowgenz gls_Egezts gls_Kelos gls_Lemato
-            }
-            5 = {#Tupi
-            	gls_Caike gls_Cawa
-            }
-            0 = {#Uncommon
-            	gls_Michl 
-            }
+	male_names = {
+		25 = { #Extra
+			gls_Andru gls_Deric gls_Duglas gls_Dungcan gls_Deivid Denis gls_Edwad gls_Harald gls_Gjeimz gls_Cal gls_Kevin gls_Hanz gls_Hawad gls_Mac gls_Wilyam  
 		}
+		30 = {#Scott + Angle + Other British
+			gls_Oldwin gls_Boldric gls_Calz gls_Duf gls_Edmand gls_Edweika gls_Edwin gls_Elfric gls_Elma gls_Ethlstan gls_Gjogj gls_Godric gls_Godwin gls_Gjon gls_Nel gls_Peta gls_Robin gls_Robat gls_Rogja gls_Ricad gls_Samyual gls_Stevn gls_Thedric gls_Tomas gls_Walfric
+			gls_Atha gls_Sesal gls_Dilan gls_Evan gls_Garath gls_Hyu gls_Maical gls_Mogan gls_Owin gls_Treva gls_Tristan gls_Braian gls_Yuan gls_Keelan gls_Kiaran gls_Raian
+		}
+		10 = {#Swede
+			gls_Eric gls_byon gls_Guna gls_Nicalas gls_Andas gls_Dan gls_Nilz gls_Gwstav gls_Henric
+		}
+       	25 = {#Venetian    
+           	gls_Antownyow gls_Ogwstin gls_Getanow gls_Lucanow gls_Vitoryow gls_Valanten gls_Anzalow gls_Marin gls_Matin gls_Gjacumow gls_Zuan
+        }
+        5 = {#Venetic
+           	gls_Vants gls_Enowgenz gls_Egezts gls_Kelos gls_Lemato
+        }
+        5 = {#Tupi
+          	gls_Caike gls_Cawa
+        }
+        0 = {#Uncommon
+           	gls_Michl 
+        }
+	}
 
-		female_names = {
-			20 = {#Extra
-				gls_Cathrin gls_Ilizabath gls_Edith gls_Gjowana gls_Cristena gls_Carin gls_Mery gls_Ana gls_Gjein gls_Gjesi gls_Gjowan 
-			}
-			45 = {#Scott + Angle + Other British
-				gls_Alis gls_An gls_Oldith gls_Biatris gls_Doly gls_Elan gls_Elveva gls_Godeva gls_Magrat gls_Alivia gls_Sera gls_Sowfia gls_Steisy gls_Marian gls_Matilda gls_Meizy gls_Mod gls_Myurial
-				gls_Gwen gls_Mogan gls_Gjenifa gls_Gjeny gls_Fyouna
-			}
-			10 = {#Swede
-				gls_Key
-			}
-			15 = {#Venetian
-		    	gls_Gjwliana gls_Gjulia gls_Agnis gls_Daiana gls_Rowz
-			}
-			15 = {#Venetic
-		    	gls_Fwgjia gls_Canta gls_Nuca gls_Ywvanta gls_Egatora
-			}
-			5 = { #Tupi
-				gls_Maiyara gls_Gjurema gls_Gjandyra gls_Gjasy gls_Yara
-			}
+	female_names = {
+		20 = {#Extra
+			gls_Cathrin gls_Ilizabath gls_Edith gls_Gjowana gls_Cristena gls_Carin gls_Mery gls_Ana gls_Gjein gls_Gjesi gls_Gjowan 
 		}
+		45 = {#Scott + Angle + Other British
+			gls_Alis gls_An gls_Oldith gls_Biatris gls_Doly gls_Elan gls_Elveva gls_Godeva gls_Magrat gls_Alivia gls_Sera gls_Sowfia gls_Steisy gls_Marian gls_Matilda gls_Meizy gls_Mod gls_Myurial
+			gls_Gwen gls_Mogan gls_Gjenifa gls_Gjeny gls_Fyouna
+		}
+		10 = {#Swede
+			gls_Key
+		}
+		15 = {#Venetian
+	    	gls_Gjwliana gls_Gjulia gls_Agnis gls_Daiana gls_Rowz
+		}
+		15 = {#Venetic
+	    	gls_Fwgjia gls_Canta gls_Nuca gls_Ywvanta gls_Egatora
+		}
+		5 = { #Tupi
+			gls_Maiyara gls_Gjurema gls_Gjandyra gls_Gjasy gls_Yara
+		}
+	}
 	
 	dynasty_of_location_prefix = "dynnp_ov_gals"				
 
