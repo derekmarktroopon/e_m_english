@@ -42,7 +42,7 @@ name_list_venetic_venetian = {
 			vnven_Fogonta vnven_Fremesna
 		}
 		7 = {
-			vnven_Frema vnven_Volteomena
+			Frema vnven_Volteomena
 		}
 		14 = {
 			vnven_Fogona vnven_Levna vnven_Lemedorna vnven_Oszala vnven_Romana vnven_Voina vnven_Vroda
@@ -100,7 +100,7 @@ name_list_venetic_venetian_biblical = {
 				vnven_Fogonta vnven_Fremesna
 			}
 			7 = {
-				vnven_Frema vnven_Volteomena
+				Frema vnven_Volteomena
 			}
 			14 = {
 				vnven_Fogona vnven_Levna vnven_Lemedorna vnven_Oszala vnven_Romana vnven_Voina vnven_Vroda
@@ -129,7 +129,7 @@ name_list_venetic_cisalpine = {
 		}
 
 		female_names = {
-            vncslp_Agoda vncslp_Andeda vncslp_Abea vncslp_Acolea vncslp_Ada vncslp_Bagsonea vncslp_Bedonea vncslp_Bregena vncslp_Boga vncslp_Eboa vncslp_Eva vncslp_Egheda vncslp_Egedora vncslp_Fedena vncslp_Fogonda vncslp_Frema vncslp_Fremeda vncslp_Fremena vncslp_Fugea vncslp_Ganda vncslp_Egeveonia vncslp_Edorea vncslp_Zovanda vncslp_Canda vncslp_Colea vncslp_Coccoda vncslp_Magna vncslp_Moldona vncslp_Mociala vncslp_Mosta vncslp_Nierga vncslp_Nerga vncslp_Odnea vncslp_Rebedona vncslp_Reda vncslp_Trostea vncslp_Orclena vncslp_Osedea vncslp_Vancenna vncslp_Venna vncslp_Verzondarna
+            vncslp_Agoda vncslp_Andeda vncslp_Abea vncslp_Acolea vncslp_Ada vncslp_Bagsonea vncslp_Bedonea vncslp_Bregena vncslp_Boga vncslp_Eboa vncslp_Eva vncslp_Egheda vncslp_Egedora vncslp_Fedena vncslp_Fogonda Frema vncslp_Fremeda vncslp_Fremena vncslp_Fugea vncslp_Ganda vncslp_Egeveonia vncslp_Edorea vncslp_Zovanda vncslp_Canda vncslp_Colea vncslp_Coccoda vncslp_Magna vncslp_Moldona vncslp_Mociala vncslp_Mosta vncslp_Nierga vncslp_Nerga vncslp_Odnea vncslp_Rebedona vncslp_Reda vncslp_Trostea vncslp_Orclena vncslp_Osedea vncslp_Vancenna vncslp_Venna vncslp_Verzondarna
 		}
 
 	dynasty_of_location_prefix = "dynnp_de"		
@@ -155,7 +155,7 @@ name_list_venetic_cisalpine_biblical = {
 
 		female_names = {
 			60 = {
-            	vncslp_Agoda vncslp_Andeda vncslp_Abea vncslp_Acolea vncslp_Ada vncslp_Bagsonea vncslp_Bedonea vncslp_Bregena vncslp_Boga vncslp_Eboa vncslp_Eva vncslp_Egheda vncslp_Egedora vncslp_Enocleva vncslp_Fedena vncslp_Fogonda vncslp_Frema vncslp_Fremeda vncslp_Fremena vncslp_Fugea vncslp_Fugea vncslp_Ganda vncslp_Egeveonia vncslp_Edorea vncslp_Zovanda vncslp_Canda vncslp_Colea vncslp_Coccoda vncslp_Magna vncslp_Moldona vncslp_Mociala vncslp_Mosta vncslp_Nierga vncslp_Nerga vncslp_Odnea vncslp_Rebedona vncslp_Reda vncslp_Trostea vncslp_Orclena vncslp_Osedea vncslp_Vancenna vncslp_Venna vncslp_Verzondarna
+            	vncslp_Agoda vncslp_Andeda vncslp_Abea vncslp_Acolea vncslp_Ada vncslp_Bagsonea vncslp_Bedonea vncslp_Bregena vncslp_Boga vncslp_Eboa vncslp_Eva vncslp_Egheda vncslp_Egedora vncslp_Enocleva vncslp_Fedena vncslp_Fogonda Frema vncslp_Fremeda vncslp_Fremena vncslp_Fugea vncslp_Fugea vncslp_Ganda vncslp_Egeveonia vncslp_Edorea vncslp_Zovanda vncslp_Canda vncslp_Colea vncslp_Coccoda vncslp_Magna vncslp_Moldona vncslp_Mociala vncslp_Mosta vncslp_Nierga vncslp_Nerga vncslp_Odnea vncslp_Rebedona vncslp_Reda vncslp_Trostea vncslp_Orclena vncslp_Osedea vncslp_Vancenna vncslp_Venna vncslp_Verzondarna
 			}
 			40 = {
 				Agnese Alessandra Anna Caterina Elisa Elisabetta Giovanna Giuseppa Isabella Maria Mariana Paola Sofia Stefania Tomasina
@@ -181,7 +181,7 @@ name_list_venetic_italian = {
 		}
 
 		female_names = {
-            vnita_Acota vnita_Andeta vnita_Apea vnita_Ascolea vnita_Atta vnita_Betuonea vnita_Bregdena vnita_Bocca vnita_Evoa vnita_Efa vnita_Egesta vnita_Egetora vnita_Feteana vnita_Foguonta vnita_Frema vnita_Fremesta vnita_Fremestena vnita_Fugea vnita_Fussea vnita_Gianta vnita_Ecevviogna vnita_Etorea vnita_Giovanta vnita_Canta vnita_Colea vnita_Coecota vnita_Macna vnita_Molduona vnita_Mosceala vnita_Mosta vnita_Nerca vnita_Uotnea vnita_Rebetuona vnita_Retza vnita_Truostea vnita_Orclena vnita_Osedegia vnita_Vantcegna vnita_Venna vnita_Vercuondarna
+            vnita_Acota vnita_Andeta vnita_Apea vnita_Ascolea vnita_Atta vnita_Betuonea vnita_Bregdena vnita_Bocca vnita_Evoa vnita_Efa vnita_Egesta Egetora vnita_Feteana vnita_Foguonta Frema vnita_Fremesta vnita_Fremestena vnita_Fugea vnita_Fussea vnita_Gianta vnita_Ecevviogna vnita_Etorea vnita_Giovanta vnita_Canta vnita_Colea vnita_Coecota vnita_Macna vnita_Molduona vnita_Mosceala vnita_Mosta vnita_Nerca vnita_Uotnea vnita_Rebetuona vnita_Retza vnita_Truostea vnita_Orclena vnita_Osedegia vnita_Vantcegna vnita_Venna vnita_Vercuondarna
 		}
 
 	dynasty_of_location_prefix = "dynnp_di"
@@ -209,7 +209,7 @@ name_list_venetic_italian_biblical = {
 
 		female_names = {
 			60 = {
-            	vnita_Acota vnita_Andeta vnita_Apea vnita_Ascolea vnita_Atta vnita_Betuonea vnita_Bregdena vnita_Bocca vnita_Evoa vnita_Efa vnita_Egesta vnita_Egetora vnita_Feteana vnita_Foguonta vnita_Frema vnita_Fremesta vnita_Fremestena vnita_Fugea vnita_Fussea vnita_Gianta vnita_Ecevviogna vnita_Etorea vnita_Giovanta vnita_Canta vnita_Colea vnita_Coecota vnita_Macna vnita_Molduona vnita_Mosceala vnita_Mosta vnita_Nerca vnita_Uotnea vnita_Rebetuona vnita_Retza vnita_Truostea vnita_Orclena vnita_Osedegia vnita_Vantcegna vnita_Venna vnita_Vercuondarna
+            	vnita_Acota vnita_Andeta vnita_Apea vnita_Ascolea vnita_Atta vnita_Betuonea vnita_Bregdena vnita_Bocca vnita_Evoa vnita_Efa vnita_Egesta Egetora vnita_Feteana vnita_Foguonta Frema vnita_Fremesta vnita_Fremestena vnita_Fugea vnita_Fussea vnita_Gianta vnita_Ecevviogna vnita_Etorea vnita_Giovanta vnita_Canta vnita_Colea vnita_Coecota vnita_Macna vnita_Molduona vnita_Mosceala vnita_Mosta vnita_Nerca vnita_Uotnea vnita_Rebetuona vnita_Retza vnita_Truostea vnita_Orclena vnita_Osedegia vnita_Vantcegna vnita_Venna vnita_Vercuondarna
 			}
 			40 = {
 				Agnese Alessandra Ambrosia Anna Caterina Elena Elisa Elisabetta Giovanna Isabella Maria Martina Paola Sofia 
@@ -234,7 +234,7 @@ name_list_venetic_dalmatian = {
 		}
 
 		female_names = {
-            vndal_Acota vndal_Anda vndal_Apea vndal_Ascola vndal_Atta vndal_Bagsona vndal_Betuna vndal_Bregda vndal_Bocca vndal_Evoa vndal_Efa vndal_Egesta vndal_Egetora vndal_Fetena vndal_Fogunta vndal_Frema vndal_Fremesta vndal_Fugia vndal_Fussia vndal_Ecevvia vndal_Etorea vndal_Giovanta vndal_Canta vndal_Colea vndal_Coeta vndal_Macna vndal_Molda vndal_Mosca vndal_Mosta vndal_Nerca vndal_Uotnia vndal_Rebuna vndal_Retza vndal_Truostea vndal_Orclena vndal_Osegia vndal_Vantena vndal_Venna vndal_Vercuonna
+            vndal_Acota vndal_Anda vndal_Apea vndal_Ascola vndal_Atta vndal_Bagsona vndal_Betuna vndal_Bregda vndal_Bocca vndal_Evoa vndal_Efa vndal_Egesta Egetora vndal_Fetena vndal_Fogunta Frema vndal_Fremesta vndal_Fugia vndal_Fussia vndal_Ecevvia vndal_Etorea vndal_Giovanta vndal_Canta vndal_Colea vndal_Coeta vndal_Macna vndal_Molda vndal_Mosca vndal_Mosta vndal_Nerca vndal_Uotnia vndal_Rebuna vndal_Retza vndal_Truostea vndal_Orclena vndal_Osegia vndal_Vantena vndal_Venna vndal_Vercuonna
 		}
 
 	dynasty_of_location_prefix = "dynnp_di"
@@ -261,7 +261,7 @@ name_list_venetic_dalmatian_biblical = {
 
 		female_names = {
 			60 = {
-            	vndal_Acota vndal_Anda vndal_Apea vndal_Ascola vndal_Atta vndal_Bagsona vndal_Betuna vndal_Bregda vndal_Bocca vndal_Evoa vndal_Efa vndal_Egesta vndal_Egetora vndal_Fetena vndal_Fogunta vndal_Frema vndal_Fremesta vndal_Fugia vndal_Fussia vndal_Ecevvia vndal_Etorea vndal_Giovanta vndal_Canta vndal_Colea vndal_Coeta vndal_Macna vndal_Molda vndal_Mosca vndal_Mosta vndal_Nerca vndal_Uotnia vndal_Rebuna vndal_Retza vndal_Truostea vndal_Orclena vndal_Osegia vndal_Vantena vndal_Venna vndal_Vercuonna
+            	vndal_Acota vndal_Anda vndal_Apea vndal_Ascola vndal_Atta vndal_Bagsona vndal_Betuna vndal_Bregda vndal_Bocca vndal_Evoa vndal_Efa vndal_Egesta Egetora vndal_Fetena vndal_Fogunta Frema vndal_Fremesta vndal_Fugia vndal_Fussia vndal_Ecevvia vndal_Etorea vndal_Giovanta vndal_Canta vndal_Colea vndal_Coeta vndal_Macna vndal_Molda vndal_Mosca vndal_Mosta vndal_Nerca vndal_Uotnia vndal_Rebuna vndal_Retza vndal_Truostea vndal_Orclena vndal_Osegia vndal_Vantena vndal_Venna vndal_Vercuonna
 			}
 			40 = {
 				Agnese Alessandra Ambrosia Anna Caterina Elena Elisa Elisabetta Giovanna Isabella Maria Martina Paola Sofia 
@@ -288,7 +288,7 @@ name_list_venetic_sardinian = {
 		}
 
 		female_names = {
-            vnsard_Acuta vnsard_Agndeta vnsard_Apia vnsard_Assogia vnsard_Atta vnsard_Bagsongia vnsard_Betongia vnsard_Brigdina vnsard_Bucca vnsard_Eua vnsard_Efa vnsard_Eghesta vnsard_Eghetora vnsard_Fezana vnsard_Fougonta vnsard_Frema vnsard_Fremesta vnsard_Fremestina vnsard_Fughia vnsard_Fussia vnsard_Ianta vnsard_Iceioneia vnsard_Ituria vnsard_Iuanta vnsard_Canta vnsard_Coza vnsard_Cuicuta vnsard_Macna vnsard_Moddona vnsard_Muziala vnsard_Musta vnsard_Neirca vnsard_Nerca vnsard_Otngia vnsard_Retona vnsard_Reiza vnsard_Troza vnsard_Urcheina vnsard_Useia vnsard_Banchengia vnsard_Benna vnsard_Bercogndarna
+            vnsard_Acuta vnsard_Agndeta vnsard_Apia vnsard_Assogia vnsard_Atta vnsard_Bagsongia vnsard_Betongia vnsard_Brigdina vnsard_Bucca vnsard_Eua vnsard_Efa vnsard_Eghesta vnsard_Eghetora vnsard_Fezana vnsard_Fougonta Frema vnsard_Fremesta vnsard_Fremestina vnsard_Fughia vnsard_Fussia vnsard_Ianta vnsard_Iceioneia vnsard_Ituria vnsard_Iuanta vnsard_Canta vnsard_Coza vnsard_Cuicuta vnsard_Macna vnsard_Moddona vnsard_Muziala vnsard_Musta vnsard_Neirca vnsard_Nerca vnsard_Otngia vnsard_Retona vnsard_Reiza vnsard_Troza vnsard_Urcheina vnsard_Useia vnsard_Banchengia vnsard_Benna vnsard_Bercogndarna
 		}
 
 	dynasty_of_location_prefix = "dynnp_di"
@@ -317,7 +317,7 @@ name_list_venetic_sardinian_biblical = {
 
 		female_names = {
 			60 = {
-            	vnsard_Acuta vnsard_Agndeta vnsard_Apia vnsard_Assogia vnsard_Atta vnsard_Bagsongia vnsard_Betongia vnsard_Brigdina vnsard_Bucca vnsard_Eua vnsard_Efa vnsard_Eghesta vnsard_Eghetora vnsard_Enuclea vnsard_Fezana vnsard_Fougonta vnsard_Frema vnsard_Fremesta vnsard_Fremestina vnsard_Fughia vnsard_Fussia vnsard_Ianta vnsard_Iceioneia vnsard_Ituria vnsard_Iuanta vnsard_Canta vnsard_Coza vnsard_Cuicuta vnsard_Macna vnsard_Moddona vnsard_Muziala vnsard_Musta vnsard_Neirca vnsard_Nerca vnsard_Otngia vnsard_Retona vnsard_Reiza vnsard_Troza vnsard_Urcheina vnsard_Useia vnsard_Banchengia vnsard_Benna vnsard_Bercogndarna
+            	vnsard_Acuta vnsard_Agndeta vnsard_Apia vnsard_Assogia vnsard_Atta vnsard_Bagsongia vnsard_Betongia vnsard_Brigdina vnsard_Bucca vnsard_Eua vnsard_Efa vnsard_Eghesta vnsard_Eghetora vnsard_Enuclea vnsard_Fezana vnsard_Fougonta Frema vnsard_Fremesta vnsard_Fremestina vnsard_Fughia vnsard_Fussia vnsard_Ianta vnsard_Iceioneia vnsard_Ituria vnsard_Iuanta vnsard_Canta vnsard_Coza vnsard_Cuicuta vnsard_Macna vnsard_Moddona vnsard_Muziala vnsard_Musta vnsard_Neirca vnsard_Nerca vnsard_Otngia vnsard_Retona vnsard_Reiza vnsard_Troza vnsard_Urcheina vnsard_Useia vnsard_Banchengia vnsard_Benna vnsard_Bercogndarna
 			}
 			40 = {
 				Agnese Angelica Anna Catellina Giuanna Ispella Juanna Maria Marianna Markusa Pascalina Susanna Teresa Zuseppa
@@ -342,7 +342,7 @@ name_list_venetic_sicilian = {
 		}
 
 		female_names = {
-            vensic_acota vensic_andeta vensic_apia vensic_ascolia vensic_atta vensic_bagsonia vensic_betonia vensic_bredina vensic_bocca vensic_ebua vensic_efa vensic_egesta vensic_egetora vensic_fetiana vensic_fugota vensic_frema vensic_frimesta vensic_frimestena vensic_fugia vensic_fugsia vensic_gianta vensic_eceviunia vensic_etoria vensic_giuvanta vensic_canta vensic_colia vensic_cuicota vensic_mana vensic_muldona vensic_mosciala vensic_mosta vensic_nierca vensic_nerca vensic_otnia vensic_rebitona vensic_rietia vensic_trostia vensic_orliena vensic_osidegia vensic_vancenia vensic_vegna vensic_vercuondana
+            vensic_acota vensic_andeta vensic_apia vensic_ascolia vensic_atta vensic_bagsonia vensic_betonia vensic_bredina vensic_bocca vensic_ebua vensic_efa vensic_egesta Egetora vensic_fetiana vensic_fugota Frema vensic_frimesta vensic_frimestena vensic_fugia vensic_fugsia vensic_gianta vensic_eceviunia vensic_etoria vensic_giuvanta vensic_canta vensic_colia vensic_cuicota vensic_mana vensic_muldona vensic_mosciala vensic_mosta vensic_nierca vensic_nerca vensic_otnia vensic_rebitona vensic_rietia vensic_trostia vensic_orliena vensic_osidegia vensic_vancenia vensic_vegna vensic_vercuondana
 		}
 
 	dynasty_of_location_prefix = "dynnp_di"
@@ -368,7 +368,7 @@ name_list_venetic_sicilian_biblical = {
 
 		female_names = {
 			60 = {
-            	vensic_acota vensic_andeta vensic_apia vensic_ascolia vensic_atta vensic_bagsonia vensic_betonia vensic_bredina vensic_bocca vensic_ebua vensic_efa vensic_egesta vensic_egetora vensic_fetiana vensic_fugota vensic_frema vensic_frimesta vensic_frimestena vensic_fugia vensic_fugsia vensic_gianta vensic_eceviunia vensic_etoria vensic_giuvanta vensic_canta vensic_colia vensic_cuicota vensic_mana vensic_muldona vensic_mosciala vensic_mosta vensic_nierca vensic_nerca vensic_otnia vensic_rebitona vensic_rietia vensic_trostia vensic_orliena vensic_osidegia vensic_vancenia vensic_vegna vensic_vercuondana
+            	vensic_acota vensic_andeta vensic_apia vensic_ascolia vensic_atta vensic_bagsonia vensic_betonia vensic_bredina vensic_bocca vensic_ebua vensic_efa vensic_egesta Egetora vensic_fetiana vensic_fugota Frema vensic_frimesta vensic_frimestena vensic_fugia vensic_fugsia vensic_gianta vensic_eceviunia vensic_etoria vensic_giuvanta vensic_canta vensic_colia vensic_cuicota vensic_mana vensic_muldona vensic_mosciala vensic_mosta vensic_nierca vensic_nerca vensic_otnia vensic_rebitona vensic_rietia vensic_trostia vensic_orliena vensic_osidegia vensic_vancenia vensic_vegna vensic_vercuondana
 			}
 			40 = {
 				Anna Catarina Cristina Giordana Giuditta Giuseppa Giuvanna Isabella Lisabetta Maddalena MarIIa Marianna Olimpia Sibbila Simuna
@@ -388,7 +388,7 @@ name_list_venetic_romanian = {
 		}
 
 		male_names = {
-            vnrom_afru vnrom_im vnrom_acut vnrom_aieru vnrom_amietcu vnrom_anzietiu vnrom_anziet vnrom_aplescu vnrom_arb vnrom_ariu vnrom_ascoru vnrom_att vnrom_bet vnrom_baine vnrom_boial vnrom_boiu vnrom_brujucu vnrom_budajacu vnrom_daiparicu vnrom_daipare vnrom_dalecu vnrom_dale vnrom_ieb vnrom_egest vnrom_iegetor vnrom_eineu vnrom_ineiu vnrom_inietu vnrom_inugine vnrom_esin vnrom_fieug vnrom_funte vnrom_fugunte vnrom_frimetu vnrom_fogiu vnrom_geu vnrom_gracu vnrom_osteu vnrom_ofu vnrom_ot vnrom_ioante vnrom_cante vnrom_caraun vnrom_castacu vnrom_cialoi vnrom_ceutin vnrom_tulest vnrom_cvet vnrom_lamusu vnrom_lente vnrom_lavscu vnrom_jimetor vnrom_lu vnrom_mietu vnrom_mold vnrom_nagalcan vnrom_nesuncu vnrom_niesu vnrom_ocijeju vnrom_opu vnrom_osocu vnrom_os vnrom_panariu vnrom_parunecu vnrom_palpot vnrom_plede vnrom_ratev vnrom_riet vnrom_rasuncoi vnrom_secu vnrom_soru vnrom_teciu vnrom_tumatoriu vnrom_trasicu vnrom_turiju vnrom_ocu vnrom_orcieu vnrom_orcie vnrom_vante vnrom_vasien vnrom_viainoi vnrom_viaime vnrom_vinune vnrom_vercval vnrom_vultigene vnrom_vultsun vnrom_vot
+            vnrom_afru vnrom_im vnrom_acut vnrom_aieru vnrom_amietcu vnrom_anzietiu vnrom_anziet vnrom_aplescu vnrom_arb vnrom_ariu vnrom_ascoru vnrom_att vnrom_bet vnrom_baine vnrom_boial vnrom_boiu vnrom_brujucu vnrom_budajacu vnrom_daiparicu vnrom_daipare vnrom_dalecu vnrom_dale vnrom_ieb Egest vnrom_iegetor vnrom_eineu vnrom_ineiu vnrom_inietu vnrom_inugine vnrom_esin vnrom_fieug vnrom_funte vnrom_fugunte vnrom_frimetu vnrom_fogiu vnrom_geu vnrom_gracu vnrom_osteu vnrom_ofu vnrom_ot vnrom_ioante vnrom_cante vnrom_caraun vnrom_castacu vnrom_cialoi vnrom_ceutin vnrom_tulest vnrom_cvet vnrom_lamusu vnrom_lente vnrom_lavscu vnrom_jimetor vnrom_lu vnrom_mietu vnrom_mold vnrom_nagalcan vnrom_nesuncu vnrom_niesu vnrom_ocijeju vnrom_opu vnrom_osocu vnrom_os vnrom_panariu vnrom_parunecu vnrom_palpot vnrom_plede vnrom_ratev vnrom_riet vnrom_rasuncoi vnrom_secu vnrom_soru vnrom_teciu vnrom_tumatoriu vnrom_trasicu vnrom_turiju vnrom_ocu vnrom_orcieu vnrom_orcie vnrom_vante vnrom_vasien vnrom_viainoi vnrom_viaime vnrom_vinune vnrom_vercval vnrom_vultigene vnrom_vultsun vnrom_vot
 		}
 
 		female_names = {
@@ -444,7 +444,7 @@ name_list_venetic_pannonian = {
 		}
 
 		female_names = {
-            vnpan_akota vnpan_andeta vnpan_apa vnpan_askolea vnpan_ata vnpan_bagsuona vnpan_betuona vnpan_bregdina vnpan_boka vnpan_eva vnpan_efa vnpan_egesta vnpan_egetura vnpan_fetjana vnpan_fogonta vnpan_frema vnpan_fremesta vnpan_fremestena vnpan_fuda vnpan_fusa vnpan_janta vnpan_ecevjogna vnpan_etura vnpan_jovanta vnpan_kanta vnpan_kolea vnpan_kokota vnpan_makna vnpan_molda vnpan_mosala vnpan_mosta vnpan_njerka vnpan_nerka vnpan_uotna vnpan_rebetuna vnpan_reka vnpan_trosta vnpan_orklena vnpan_oseda vnpan_vantjena vnpan_vena vnpan_verkondra 
+            vnpan_akota vnpan_andeta vnpan_apa vnpan_askolea vnpan_ata vnpan_bagsuona vnpan_betuona vnpan_bregdina vnpan_boka vnpan_eva vnpan_efa vnpan_egesta vnpan_egetura vnpan_fetjana vnpan_fogonta Frema vnpan_fremesta vnpan_fremestena vnpan_fuda vnpan_fusa vnpan_janta vnpan_ecevjogna vnpan_etura vnpan_jovanta Kanta vnpan_kolea vnpan_kokota vnpan_makna vnpan_molda vnpan_mosala vnpan_mosta vnpan_njerka Nerka vnpan_uotna vnpan_rebetuna vnpan_reka vnpan_trosta vnpan_orklena vnpan_oseda vnpan_vantjena vnpan_vena vnpan_verkondra 
 		}
 
 	dynasty_of_location_prefix = "dynnp_de"
@@ -470,7 +470,7 @@ name_list_venetic_pannonian_biblical = {
 
 		female_names = {
 			60 = {
-            	vnpan_akota vnpan_andeta vnpan_apa vnpan_askolea vnpan_ata vnpan_bagsuona vnpan_betuona vnpan_bregdina vnpan_boka vnpan_eva vnpan_efa vnpan_egesta vnpan_egetura vnpan_fetjana vnpan_fogonta vnpan_frema vnpan_fremesta vnpan_fremestena vnpan_fuda vnpan_fusa vnpan_janta vnpan_ecevjogna vnpan_etura vnpan_jovanta vnpan_kanta vnpan_kolea vnpan_kokota vnpan_makna vnpan_molda vnpan_mosala vnpan_mosta vnpan_njerka vnpan_nerka vnpan_uotna vnpan_rebetuna vnpan_reka vnpan_trosta vnpan_orklena vnpan_oseda vnpan_vantjena vnpan_vena vnpan_verkondra
+            	vnpan_akota vnpan_andeta vnpan_apa vnpan_askolea vnpan_ata vnpan_bagsuona vnpan_betuona vnpan_bregdina vnpan_boka vnpan_eva vnpan_efa vnpan_egesta vnpan_egetura vnpan_fetjana vnpan_fogonta Frema vnpan_fremesta vnpan_fremestena vnpan_fuda vnpan_fusa vnpan_janta vnpan_ecevjogna vnpan_etura vnpan_jovanta Kanta vnpan_kolea vnpan_kokota vnpan_makna vnpan_molda vnpan_mosala vnpan_mosta vnpan_njerka Nerka vnpan_uotna vnpan_rebetuna vnpan_reka vnpan_trosta vnpan_orklena vnpan_oseda vnpan_vantjena vnpan_vena vnpan_verkondra
 			}
             40 = {
 				Alexandra Alexia Ana Angela Christina Elena Elisabeta Iacoba Ioana Maria Sophia Stefana Stefania Tereza Zina
@@ -497,7 +497,7 @@ name_list_venetic_portuguese = {
 		}
 
 		female_names = {
-            vnport_aguda vnport_andeda vnport_abia vnport_asgola vnport_ada vnport_bagcomia vnport_baidomia vnport_brigdinha vnport_buga vnport_eva vnport_efa vnport_egesta vnport_egedora vnport_feiana vnport_fougonda vnport_frema vnport_fremaisda vnport_fremaistinha vnport_fugia vnport_fuchia vnport_janda vnport_igeveomia vnport_idura vnport_juvanda vnport_canda vnport_cola vnport_cuiguda vnport_macna vnport_moldomia vnport_muchiala vnport_muja vnport_neirca vnport_nerca vnport_otnia vnport_revedoma vnport_reia vnport_trochia vnport_ulhinha vnport_useja vnport_vantemia vnport_vema vnport_vercomara
+            vnport_aguda vnport_andeda vnport_abia vnport_asgola vnport_ada vnport_bagcomia vnport_baidomia vnport_brigdinha vnport_buga vnport_eva vnport_efa vnport_egesta vnport_egedora vnport_feiana vnport_fougonda Frema vnport_fremaisda vnport_fremaistinha vnport_fugia vnport_fuchia vnport_janda vnport_igeveomia vnport_idura vnport_juvanda vnport_canda vnport_cola vnport_cuiguda vnport_macna vnport_moldomia vnport_muchiala vnport_muja vnport_neirca vnport_nerca vnport_otnia vnport_revedoma vnport_reia vnport_trochia vnport_ulhinha vnport_useja vnport_vantemia vnport_vema vnport_vercomara
 		}
 
 	dynasty_of_location_prefix = "dynnp_de"
@@ -526,7 +526,7 @@ name_list_venetic_portuguese_biblical = {
 
 		female_names = {
 			60 = {
-            	vnport_aguda vnport_andeda vnport_abia vnport_asgola vnport_ada vnport_bagcomia vnport_baidomia vnport_brigdinha vnport_buga vnport_eva vnport_efa vnport_egesta vnport_egedora vnport_feiana vnport_fougonda vnport_frema vnport_fremaisda vnport_fremaistinha vnport_fugia vnport_fuchia vnport_janda vnport_igeveomia vnport_idura vnport_juvanda vnport_canda vnport_cola vnport_cuiguda vnport_macna vnport_moldomia vnport_muchiala vnport_muja vnport_neirca vnport_nerca vnport_otnia vnport_revedoma vnport_reia vnport_trochia vnport_ulhinha vnport_useja vnport_vantemia vnport_vema vnport_vercomara
+            	vnport_aguda vnport_andeda vnport_abia vnport_asgola vnport_ada vnport_bagcomia vnport_baidomia vnport_brigdinha vnport_buga vnport_eva vnport_efa vnport_egesta vnport_egedora vnport_feiana vnport_fougonda Frema vnport_fremaisda vnport_fremaistinha vnport_fugia vnport_fuchia vnport_janda vnport_igeveomia vnport_idura vnport_juvanda vnport_canda vnport_cola vnport_cuiguda vnport_macna vnport_moldomia vnport_muchiala vnport_muja vnport_neirca vnport_nerca vnport_otnia vnport_revedoma vnport_reia vnport_trochia vnport_ulhinha vnport_useja vnport_vantemia vnport_vema vnport_vercomara
 			}
 			40 = {
 				Catarina Cristina Estevainha EstefA_nia Isabel Joana Maria Marinha Ximena
@@ -553,7 +553,7 @@ name_list_venetic_spanish = {
 		}
 
 		female_names = {
-            vnspa_aguda vnspa_andeda vnspa_abia vnspa_asgolia vnspa_ada vnspa_bejuenia vnspa_baiduenia vnspa_urigdina vnspa_buga vnspa_evua vnspa_eja vnspa_eguesta vnspa_eciedora vnspa_hiediana vnspa_huguenta vnspa_frema vnspa_friemasda vnspa_friemstina vnspa_hucia vnspa_huja vnspa_jianda vnspa_icievenia vnspa_iduria vnspa_jivanta vnspa_canda vnspa_colia vnspa_cuiguda vnspa_mana vnspa_mueunda vnspa_musala vnspa_musda vnspa_nerca vnspa_otna vnspa_rievdona vnspa_redia vnspa_trostia vnspa_urgena vnspa_usedya vnspa_vancentia vnspa_vena vnspa_viercuendarna
+            vnspa_aguda vnspa_andeda vnspa_abia vnspa_asgolia vnspa_ada vnspa_bejuenia vnspa_baiduenia vnspa_urigdina vnspa_buga vnspa_evua vnspa_eja vnspa_eguesta vnspa_eciedora vnspa_hiediana vnspa_huguenta Frema vnspa_friemasda vnspa_friemstina vnspa_hucia vnspa_huja vnspa_jianda vnspa_icievenia vnspa_iduria vnspa_jivanta vnspa_canda vnspa_colia vnspa_cuiguda vnspa_mana vnspa_mueunda vnspa_musala vnspa_musda vnspa_nerca vnspa_otna vnspa_rievdona vnspa_redia vnspa_trostia vnspa_urgena vnspa_usedya vnspa_vancentia vnspa_vena vnspa_viercuendarna
 		}
 
 	dynasty_of_location_prefix = "dynnp_de"
@@ -582,7 +582,7 @@ name_list_venetic_spanish_biblical = {
 
 		female_names = {
 			60 = {
-            	vnspa_aguda vnspa_andeda vnspa_abia vnspa_asgolia vnspa_ada vnspa_bejuenia vnspa_baiduenia vnspa_urigdina vnspa_buga vnspa_evua vnspa_eja vnspa_eguesta vnspa_eciedora vnspa_hiediana vnspa_huguenta vnspa_frema vnspa_friemasda vnspa_friemstina vnspa_hucia vnspa_huja vnspa_jianda vnspa_icievenia vnspa_iduria vnspa_jivanta vnspa_canda vnspa_colia vnspa_cuiguda vnspa_mana vnspa_mueunda vnspa_musala vnspa_musda vnspa_nerca vnspa_otna vnspa_rievdona vnspa_redia vnspa_trostia vnspa_urgena vnspa_usedya vnspa_vancentia vnspa_vena vnspa_viercuendarna
+            	vnspa_aguda vnspa_andeda vnspa_abia vnspa_asgolia vnspa_ada vnspa_bejuenia vnspa_baiduenia vnspa_urigdina vnspa_buga vnspa_evua vnspa_eja vnspa_eguesta vnspa_eciedora vnspa_hiediana vnspa_huguenta Frema vnspa_friemasda vnspa_friemstina vnspa_hucia vnspa_huja vnspa_jianda vnspa_icievenia vnspa_iduria vnspa_jivanta vnspa_canda vnspa_colia vnspa_cuiguda vnspa_mana vnspa_mueunda vnspa_musala vnspa_musda vnspa_nerca vnspa_otna vnspa_rievdona vnspa_redia vnspa_trostia vnspa_urgena vnspa_usedya vnspa_vancentia vnspa_vena vnspa_viercuendarna
 			}
 			40 = {
 				Alicia Catalina Cristina EstefanI_a Isabel Juana MarI_a Marina Teresa
@@ -735,11 +735,11 @@ name_list_venetic_occitan = {
 	}
 
 	male_names = {
-		vnocc_afre vnocc_aime vnocc_acus vnocc_aler vnocc_amedici vnocc_anedia vnocc_anet vnocc_ablesse vnocc_arbe vnocc_ariu vnocc_ascole vnocc_ate vnocc_bait vnocc_belenes vnocc_boials vnocc_boia vnocc_irejuoce vnocc_budejace vnocc_dibiarece vnocc_dibiar vnocc_dilesse vnocc_dilis vnocc_eve vnocc_egues vnocc_eguedors vnocc_enatge vnocc_enetia vnocc_enoguen vnocc_esenie vnocc_feugue vnocc_fonts vnocc_fouguont vnocc_fremaist vnocc_foguia vnocc_iatge vnocc_iraisse vnocc_oisava vnocc_uove vnocc_ute vnocc_euvan vnocc_cants vnocc_caran vnocc_castici vnocc_celo vnocc_ceudis vnocc_tulest vnocc_cevet vnocc_lamosia vnocc_lant vnocc_lausce vnocc_lemeder vnocc_lus vnocc_metze vnocc_moud vnocc_nagualne vnocc_naisonca vnocc_naica vnocc_isejatge vnocc_uopa vnocc_vosoca vnocc_vost vnocc_panaire vnocc_peloneca vnocc_pelpodes vnocc_blezes vnocc_raivia vnocc_reidis vnocc_resonca vnocc_ceca vnocc_sura vnocc_tesia vnocc_tomadoria vnocc_iresisse vnocc_torige vnocc_uca vnocc_urlia vnocc_urles vnocc_vante vnocc_vans vnocc_vasen vnocc_veicna vnocc_veimes vnocc_venonis vnocc_vervala vnocc_vouteguen vnocc_vouteva vnocc_vot
+		vnocc_afre vnocc_aime vnocc_acus vnocc_aler vnocc_amedici vnocc_anedia vnocc_anet vnocc_ablesse vnocc_arbe vnocc_ariu vnocc_ascole vnocc_ate vnocc_bait vnocc_belenes vnocc_boials vnocc_boia vnocc_irejuoce vnocc_budejace vnocc_dibiarece vnocc_dibiar vnocc_dilesse vnocc_dilis vnocc_eve vnocc_egues vnocc_eguedors vnocc_enatge vnocc_enetia vnocc_enoguen vnocc_esenie vnocc_feugue vnocc_fonts vnocc_fouguont vnocc_fremaist vnocc_foguia vnocc_iatge vnocc_iraisse vnocc_oisava vnocc_uove vnocc_ute vnocc_euvan vnocc_cants vnocc_caran vnocc_castici vnocc_celo vnocc_ceudis vnocc_tulest vnocc_cevet vnocc_lamosia vnocc_lant vnocc_lausce vnocc_lemeder vnocc_lus vnocc_metze vnocc_moud vnocc_nagualne vnocc_naisonca vnocc_naica vnocc_isejatge vnocc_uopa vnocc_vosoca vnocc_vost vnocc_panaire vnocc_peloneca vnocc_pelpodes vnocc_blezes vnocc_raivia vnocc_reidis vnocc_resonca vnocc_ceca vnocc_sura vnocc_tesia vnocc_tomadoria vnocc_iresisse vnocc_torige vnocc_uca vnocc_urlia vnocc_urles vnocc_vante Vans vnocc_vasen vnocc_veicna vnocc_veimes vnocc_venonis vnocc_vervala vnocc_vouteguen vnocc_vouteva vnocc_vot
 	}
 
 	female_names = {
-		vnocc_acoda vnocc_andedena vnocc_abaia vnocc_ascolia vnocc_ata vnocc_basnia vnocc_baidonia vnocc_irecdena vnocc_busa vnocc_eba vnocc_efa vnocc_eguestena vnocc_eguedora vnocc_fejana vnocc_fouguonta vnocc_frema vnocc_fremaista vnocc_fremaistina vnocc_f_foguia vnocc_fuisia vnocc_ianta vnocc_iseveonha vnocc_edoria vnocc_ieuvantena vnocc_canta vnocc_calia vnocc_ceucuda vnocc_macena vnocc_maudona vnocc_muscialna vnocc_musta vnocc_neirca vnocc_nerca vnocc_votenia vnocc_revedonia vnocc_reja vnocc_tainanissa vnocc_iroisa vnocc_urleina vnocc_uciesica vnocc_vancenia vnocc_vena vnocc_vercondarna
+		vnocc_acoda vnocc_andedena vnocc_abaia vnocc_ascolia vnocc_ata vnocc_basnia vnocc_baidonia vnocc_irecdena vnocc_busa vnocc_eba vnocc_efa vnocc_eguestena vnocc_eguedora vnocc_fejana vnocc_fouguonta Frema vnocc_fremaista vnocc_fremaistina vnocc_f_foguia vnocc_fuisia vnocc_ianta vnocc_iseveonha vnocc_edoria vnocc_ieuvantena vnocc_canta vnocc_calia vnocc_ceucuda vnocc_macena vnocc_maudona vnocc_muscialna vnocc_musta vnocc_neirca vnocc_nerca vnocc_votenia vnocc_revedonia vnocc_reja vnocc_tainanissa vnocc_iroisa vnocc_urleina vnocc_uciesica vnocc_vancenia vnocc_vena vnocc_vercondarna
 	}
 
 	dynasty_of_location_prefix = "dynnp_da"
@@ -767,7 +767,7 @@ name_list_venetic_occitan_biblical = {
 
 	female_names = {
 		60 = {
-			vnocc_acoda vnocc_andedena vnocc_abaia vnocc_ascolia vnocc_ata vnocc_basnia vnocc_baidonia vnocc_irecdena vnocc_busa vnocc_eba vnocc_efa vnocc_eguestena vnocc_eguedora vnocc_fejana vnocc_fouguonta vnocc_frema vnocc_fremaista vnocc_fremaistina vnocc_f_foguia vnocc_fuisia vnocc_ianta vnocc_iseveonha vnocc_edoria vnocc_ieuvantena vnocc_canta vnocc_calia vnocc_ceucuda vnocc_macena vnocc_maudona vnocc_muscialna vnocc_musta vnocc_neirca vnocc_nerca vnocc_votenia vnocc_revedonia vnocc_reja vnocc_tainanissa vnocc_iroisa vnocc_urleina vnocc_uciesica vnocc_vancenia vnocc_vena vnocc_vercondarna
+			vnocc_acoda vnocc_andedena vnocc_abaia vnocc_ascolia vnocc_ata vnocc_basnia vnocc_baidonia vnocc_irecdena vnocc_busa vnocc_eba vnocc_efa vnocc_eguestena vnocc_eguedora vnocc_fejana vnocc_fouguonta Frema vnocc_fremaista vnocc_fremaistina vnocc_f_foguia vnocc_fuisia vnocc_ianta vnocc_iseveonha vnocc_edoria vnocc_ieuvantena vnocc_canta vnocc_calia vnocc_ceucuda vnocc_macena vnocc_maudona vnocc_muscialna vnocc_musta vnocc_neirca vnocc_nerca vnocc_votenia vnocc_revedonia vnocc_reja vnocc_tainanissa vnocc_iroisa vnocc_urleina vnocc_uciesica vnocc_vancenia vnocc_vena vnocc_vercondarna
 		}
 		40 = {
 			Agata AinE_s AliC_ Beatritz Caterina EisabE_u Elena Elisa ElisabE_ta IsabE_u IsabE_la Joana Maria Marta Sibilla TerE_sa
@@ -791,7 +791,7 @@ name_list_venetic_african = {
 	}
 
 	female_names = {
-        vnafric_acuta vnafric_andeta vnafric_apia vnafric_ascolia vnafric_atta vnafric_bagsonia vnafric_betonia vnafric_brigdina vnafric_bucca vnafric_eua vnafric_efa vnafric_egesta vnafric_egetora vnafric_fetiana vnafric_fougonta vnafric_frema vnafric_fremesta vnafric_fremestina vnafric_fugia vnafric_fucsia vnafric_ianta vnafric_iceejoneja vnafric_ituria vnafric_iuanta vnafric_canta vnafric_colia vnafric_cuicuta vnafric_macna vnafric_moldona vnafric_musciala vnafric_musta vnafric_neirca vnafric_nerca vnafric_otnia vnafric_reetona vnafric_reitia vnafric_trostia vnafric_urcleina vnafric_usedija vnafric_vantcenia vnafric_venna vnafric_vercondarna
+        vnafric_acuta vnafric_andeta vnafric_apia vnafric_ascolia vnafric_atta vnafric_bagsonia vnafric_betonia vnafric_brigdina vnafric_bucca vnafric_eua vnafric_efa vnafric_egesta Egetora vnafric_fetiana vnafric_fougonta Frema vnafric_fremesta vnafric_fremestina vnafric_fugia vnafric_fucsia vnafric_ianta vnafric_iceejoneja vnafric_ituria vnafric_iuanta vnafric_canta vnafric_colia vnafric_cuicuta vnafric_macna vnafric_moldona vnafric_musciala vnafric_musta vnafric_neirca vnafric_nerca vnafric_otnia vnafric_reetona vnafric_reitia vnafric_trostia vnafric_urcleina vnafric_usedija vnafric_vantcenia vnafric_venna vnafric_vercondarna
 	}
 
 	dynasty_of_location_prefix = "dynnp_de"
@@ -817,7 +817,7 @@ name_list_venetic_african_biblical = {
 
 	female_names = {
 		60 = {
-           	vnafric_acuta vnafric_andeta vnafric_apia vnafric_ascolia vnafric_atta vnafric_bagsonia vnafric_betonia vnafric_brigdina vnafric_bucca vnafric_eua vnafric_efa vnafric_egesta vnafric_egetora vnafric_fetiana vnafric_fougonta vnafric_frema vnafric_fremesta vnafric_fremestina vnafric_fugia vnafric_fucsia vnafric_ianta vnafric_iceejoneja vnafric_ituria vnafric_iuanta vnafric_canta vnafric_colia vnafric_cuicuta vnafric_macna vnafric_moldona vnafric_musciala vnafric_musta vnafric_neirca vnafric_nerca vnafric_otnia vnafric_reetona vnafric_reitia vnafric_trostia vnafric_urcleina vnafric_usedija vnafric_vantcenia vnafric_venna vnafric_vercondarna
+           	vnafric_acuta vnafric_andeta vnafric_apia vnafric_ascolia vnafric_atta vnafric_bagsonia vnafric_betonia vnafric_brigdina vnafric_bucca vnafric_eua vnafric_efa vnafric_egesta Egetora vnafric_fetiana vnafric_fougonta Frema vnafric_fremesta vnafric_fremestina vnafric_fugia vnafric_fucsia vnafric_ianta vnafric_iceejoneja vnafric_ituria vnafric_iuanta vnafric_canta vnafric_colia vnafric_cuicuta vnafric_macna vnafric_moldona vnafric_musciala vnafric_musta vnafric_neirca vnafric_nerca vnafric_otnia vnafric_reetona vnafric_reitia vnafric_trostia vnafric_urcleina vnafric_usedija vnafric_vantcenia vnafric_venna vnafric_vercondarna
 		}
 		40 = {
 			Agnese Angelica Anna Catellina Giuanna Ispella Juanna Maria Marianna Markusa Pascalina PA_ula Susanna Teresa Zuseppa
@@ -837,7 +837,7 @@ name_list_venetic_romansh = {
 	}
 
 	male_names = {
-		vnrmnsh_efre vnrmnsh_eime vnrmnsh_ecut vnrmnsh_eleir vnrmnsh_ameitieg vnrmnsh_andeitieg vnrmnsh_andeit vnrmnsh_apliesieg vnrmnsh_erb vnrmnsh_arieun vnrmnsh_escol vnrmnsh_ette vnrmnsh_beit vnrmnsh_beillien vnrmnsh_boial vnrmnsh_boi vnrmnsh_breigioug vnrmnsh_bouteigag vnrmnsh_dipjarieg vnrmnsh_dipjar vnrmnsh_delleg vnrmnsh_dell vnrmnsh_eib vnrmnsh_iegheist vnrmnsh_eighietur vnrmnsh_ejenej vnrmnsh_einiet vnrmnsh_jenougain vnrmnsh_eirien vnrmnsh_feioug vnrmnsh_font vnrmnsh_fougont vnrmnsh_friemeist vnrmnsh_foug vnrmnsh_gej vnrmnsh_greig vnrmnsh_ustiev vnrmnsh_ouv vnrmnsh_outt vnrmnsh_giovant vnrmnsh_tschant vnrmnsh_tscharemn vnrmnsh_chestieg vnrmnsh_cheill vnrmnsh_cheiutien vnrmnsh_ctouliest vnrmnsh_cvit vnrmnsh_lamous vnrmnsh_lent vnrmnsh_levsce vnrmnsh_leimietur vnrmnsh_loug vnrmnsh_miez vnrmnsh_mold vnrmnsh_naghelgne vnrmnsh_niesong vnrmnsh_neis vnrmnsh_uchigeig vnrmnsh_opp vnrmnsh_ossog vnrmnsh_ost vnrmnsh_paner vnrmnsh_pielunieg vnrmnsh_pilpot vnrmnsh_pleid vnrmnsh_rietev vnrmnsh_rejet vnrmnsh_reisong vnrmnsh_sieg vnrmnsh_sore vnrmnsh_teig vnrmnsh_toumator vnrmnsh_triesieg vnrmnsh_turieg vnrmnsh_oug vnrmnsh_orclej vnrmnsh_orcl vnrmnsh_vent vnrmnsh_vassein vnrmnsh_vejegne vnrmnsh_vejem vnrmnsh_veinnon vnrmnsh_viercval vnrmnsh_voultieghein vnrmnsh_voultion vnrmnsh_vot
+		vnrmnsh_efre vnrmnsh_eime vnrmnsh_ecut vnrmnsh_eleir vnrmnsh_ameitieg vnrmnsh_andeitieg vnrmnsh_andeit vnrmnsh_apliesieg vnrmnsh_erb vnrmnsh_arieun vnrmnsh_escol vnrmnsh_ette vnrmnsh_beit vnrmnsh_beillien vnrmnsh_boial vnrmnsh_boi vnrmnsh_breigioug vnrmnsh_bouteigag vnrmnsh_dipjarieg vnrmnsh_dipjar vnrmnsh_delleg vnrmnsh_dell vnrmnsh_eib vnrmnsh_iegheist vnrmnsh_eighietur vnrmnsh_ejenej vnrmnsh_einiet vnrmnsh_jenougain vnrmnsh_eirien vnrmnsh_feioug vnrmnsh_font vnrmnsh_fougont vnrmnsh_friemeist vnrmnsh_foug vnrmnsh_gej vnrmnsh_greig vnrmnsh_ustiev vnrmnsh_ouv vnrmnsh_outt vnrmnsh_giovant vnrmnsh_tschant vnrmnsh_tscharemn vnrmnsh_chestieg vnrmnsh_cheill vnrmnsh_cheiutien vnrmnsh_ctouliest vnrmnsh_cvit vnrmnsh_lamous vnrmnsh_lent vnrmnsh_levsce vnrmnsh_leimietur vnrmnsh_loug vnrmnsh_miez vnrmnsh_mold vnrmnsh_naghelgne vnrmnsh_niesong vnrmnsh_neis vnrmnsh_uchigeig Opp vnrmnsh_ossog vnrmnsh_ost vnrmnsh_paner vnrmnsh_pielunieg vnrmnsh_pilpot vnrmnsh_pleid vnrmnsh_rietev vnrmnsh_rejet vnrmnsh_reisong vnrmnsh_sieg vnrmnsh_sore vnrmnsh_teig vnrmnsh_toumator vnrmnsh_triesieg vnrmnsh_turieg vnrmnsh_oug vnrmnsh_orclej vnrmnsh_orcl vnrmnsh_vent vnrmnsh_vassein vnrmnsh_vejegne vnrmnsh_vejem vnrmnsh_veinnon vnrmnsh_viercval vnrmnsh_voultieghein vnrmnsh_voultion vnrmnsh_vot
 	}
 
 	female_names = {
@@ -858,7 +858,7 @@ name_list_venetic_romansh_biblical = {
 
 	male_names = {
 		70 = {
-			vnrmnsh_efre vnrmnsh_eime vnrmnsh_ecut vnrmnsh_eleir vnrmnsh_ameitieg vnrmnsh_andeitieg vnrmnsh_andeit vnrmnsh_apliesieg vnrmnsh_erb vnrmnsh_arieun vnrmnsh_escol vnrmnsh_ette vnrmnsh_beit vnrmnsh_beillien vnrmnsh_boial vnrmnsh_boi vnrmnsh_breigioug vnrmnsh_bouteigag vnrmnsh_dipjarieg vnrmnsh_dipjar vnrmnsh_delleg vnrmnsh_dell vnrmnsh_eib vnrmnsh_iegheist vnrmnsh_eighietur vnrmnsh_ejenej vnrmnsh_einiet vnrmnsh_jenougain vnrmnsh_eirien vnrmnsh_feioug vnrmnsh_font vnrmnsh_fougont vnrmnsh_friemeist vnrmnsh_foug vnrmnsh_gej vnrmnsh_greig vnrmnsh_ustiev vnrmnsh_ouv vnrmnsh_outt vnrmnsh_giovant vnrmnsh_tschant vnrmnsh_tscharemn vnrmnsh_chestieg vnrmnsh_cheill vnrmnsh_cheiutien vnrmnsh_ctouliest vnrmnsh_cvit vnrmnsh_lamous vnrmnsh_lent vnrmnsh_levsce vnrmnsh_leimietur vnrmnsh_loug vnrmnsh_miez vnrmnsh_mold vnrmnsh_naghelgne vnrmnsh_niesong vnrmnsh_neis vnrmnsh_uchigeig vnrmnsh_opp vnrmnsh_ossog vnrmnsh_ost vnrmnsh_paner vnrmnsh_pielunieg vnrmnsh_pilpot vnrmnsh_pleid vnrmnsh_rietev vnrmnsh_rejet vnrmnsh_reisong vnrmnsh_sieg vnrmnsh_sore vnrmnsh_teig vnrmnsh_toumator vnrmnsh_triesieg vnrmnsh_turieg vnrmnsh_oug vnrmnsh_orclej vnrmnsh_orcl vnrmnsh_vent vnrmnsh_vassein vnrmnsh_vejegne vnrmnsh_vejem vnrmnsh_veinnon vnrmnsh_viercval vnrmnsh_voultieghein vnrmnsh_voultion vnrmnsh_vot
+			vnrmnsh_efre vnrmnsh_eime vnrmnsh_ecut vnrmnsh_eleir vnrmnsh_ameitieg vnrmnsh_andeitieg vnrmnsh_andeit vnrmnsh_apliesieg vnrmnsh_erb vnrmnsh_arieun vnrmnsh_escol vnrmnsh_ette vnrmnsh_beit vnrmnsh_beillien vnrmnsh_boial vnrmnsh_boi vnrmnsh_breigioug vnrmnsh_bouteigag vnrmnsh_dipjarieg vnrmnsh_dipjar vnrmnsh_delleg vnrmnsh_dell vnrmnsh_eib vnrmnsh_iegheist vnrmnsh_eighietur vnrmnsh_ejenej vnrmnsh_einiet vnrmnsh_jenougain vnrmnsh_eirien vnrmnsh_feioug vnrmnsh_font vnrmnsh_fougont vnrmnsh_friemeist vnrmnsh_foug vnrmnsh_gej vnrmnsh_greig vnrmnsh_ustiev vnrmnsh_ouv vnrmnsh_outt vnrmnsh_giovant vnrmnsh_tschant vnrmnsh_tscharemn vnrmnsh_chestieg vnrmnsh_cheill vnrmnsh_cheiutien vnrmnsh_ctouliest vnrmnsh_cvit vnrmnsh_lamous vnrmnsh_lent vnrmnsh_levsce vnrmnsh_leimietur vnrmnsh_loug vnrmnsh_miez vnrmnsh_mold vnrmnsh_naghelgne vnrmnsh_niesong vnrmnsh_neis vnrmnsh_uchigeig Opp vnrmnsh_ossog vnrmnsh_ost vnrmnsh_paner vnrmnsh_pielunieg vnrmnsh_pilpot vnrmnsh_pleid vnrmnsh_rietev vnrmnsh_rejet vnrmnsh_reisong vnrmnsh_sieg vnrmnsh_sore vnrmnsh_teig vnrmnsh_toumator vnrmnsh_triesieg vnrmnsh_turieg vnrmnsh_oug vnrmnsh_orclej vnrmnsh_orcl vnrmnsh_vent vnrmnsh_vassein vnrmnsh_vejegne vnrmnsh_vejem vnrmnsh_veinnon vnrmnsh_viercval vnrmnsh_voultieghein vnrmnsh_voultion vnrmnsh_vot
 		} 
 		30 = {
 			Andreia Chrest Chiaspar Eusebi Gion Gisep Gionas Josua Martegn Mathiu Mitgel NicolA_

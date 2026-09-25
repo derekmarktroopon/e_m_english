@@ -32,7 +32,7 @@ name_list_neo_ligurian = {
 	}
 
 	male_names = {
-		nlig_Eni nlig_Enisto nlig_Cilo nlig_Cigi nlig_Coegi nlig_Curdgi nlig_Cusa nlig_Doegi nlig_Duz nlig_Lamo nlig_Ston nlig_Ido nlig_Keva nlig_Mezu nlig_Ostro nlig_Ruvi nlig_Savo nlig_Stodo nlig_Tosto nlig_Tusti nlig_Uveza nlig_Veltoi nlig_Vemetoi
+		Eni nlig_Enisto nlig_Cilo nlig_Cigi nlig_Coegi nlig_Curdgi nlig_Cusa nlig_Doegi nlig_Duz nlig_Lamo nlig_Ston nlig_Ido nlig_Keva nlig_Mezu nlig_Ostro nlig_Ruvi nlig_Savo nlig_Stodo nlig_Tosto nlig_Tusti nlig_Uveza nlig_Veltoi nlig_Vemetoi
 		#Enì Enistò Cilo Cigi Coegi Curdgi Cusà Doegi Duz Làmo Ston Idò	Kevà Mèzu Ostro Ruvi Savo Stòdo Tosto Tustì Uvezà Veltoi Vemetoi 
 	}
 

@@ -90,7 +90,6 @@ ancient_egyptian = {
 	coa_gfx = { berber_group_coa_gfx  }
 	building_gfx = { berber_group_building_gfx mena_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
-	clothing_gfx = { papuan_clothing_gfx }
 	unit_gfx = { sub_sahran_unit_gfx }
 }
 
@@ -128,7 +127,7 @@ coptic_culture = {
 }
 
 neo_kemetic = {
-	parents = { middle_egyptian coptic_culture egyptian }
+	parents = { middle_egyptian egyptian }
 	created =  800.1.1 
 	color = rgb { 245 197 66 }
 	

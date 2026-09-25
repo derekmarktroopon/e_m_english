@@ -43,7 +43,7 @@ old_steppe = {
 	doctrine = doctrine_no_anointment
 
 	traits = {
-		virtues = { brave just diligent vengeful poet callous raider }
+		virtues = { brave just diligent vengeful lifestyle_poet callous viking }
 		sins = { craven arbitrary sadistic compassionate }
 	}
 

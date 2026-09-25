@@ -83,8 +83,8 @@ old_middle_english_events.2 = { #Early middle english anglo saxon either switche
 							}
 						}
 					}
-					set_name_list = later_english_no_normans
 				}
+				set_name_list = later_english_no_normans
 			}
 			else = {
 				set_name_list = name_list_anglo_saxon

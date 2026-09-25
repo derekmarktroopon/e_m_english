@@ -70,7 +70,8 @@ late_ibero_gaulish_aesthetic = {
 
 	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
 	building_gfx = { iberian_building_gfx }
-	clothing_gfx = { iberian_christian_clothing_gfx northern_clothing_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { iberian_christian_unit_gfx }
 
 	name_list = name_list_late_ibero_gaulish
@@ -96,7 +97,8 @@ late_luso_gaulish_aesthetic = {
 
 	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
 	building_gfx = { iberian_building_gfx }
-	clothing_gfx = { iberian_christian_clothing_gfx northern_clothing_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { iberian_christian_unit_gfx }
 
 	name_list = name_list_late_luso_gaulish
@@ -181,7 +183,8 @@ neo_celtiberian_aesthetic = {
 
 	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
 	building_gfx = { iberian_building_gfx }
-	clothing_gfx = { iberian_christian_clothing_gfx northern_clothing_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { iberian_christian_unit_gfx }
 
 	name_list = name_list_neo_celtiberian
@@ -207,7 +210,8 @@ neo_gallaecian_aesthetic = {
 
 	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
 	building_gfx = { iberian_building_gfx }
-	clothing_gfx = { iberian_christian_clothing_gfx northern_clothing_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { iberian_christian_unit_gfx }
 
 	name_list = name_list_neo_gallaecian
@@ -247,7 +251,8 @@ neo_lusitanian_aesthetic = {
 
 	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
 	building_gfx = { iberian_building_gfx }
-	clothing_gfx = { iberian_christian_clothing_gfx northern_clothing_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { iberian_christian_unit_gfx }
 
 	name_list = name_list_neo_lusitanian

@@ -60,7 +60,7 @@
 				vnteng_Fow vnteng_Wrote vnteng_Ichewonne vnteng_Levine vnteng_Less vnteng_Usdike vnteng_f_Wenne vnteng_Iwant vnteng_Ostle vnteng_f_Acute vnteng_Andene vnteng_Apee vnteng_Atte vnteng_Beale vnteng_Bucke vnteng_Effie vnteng_Egsten vnteng_Egator vnteng_f_Fugant vnteng_Frem vnteng_Fremen vnteng_Fruton vnteng_Fugie vnteng_Fugin vnteng_Iwanten vnteng_Itury vnteng_f_Cant vnteng_Lemetone vnteng_Lossie vnteng_Makin vnteng_f_Molden vnteng_Mushell vnteng_Must vnteng_Nerk vnteng_Ruman vnteng_Seakin vnteng_Sowen vnteng_Turkin vnteng_Urkleen vnteng_Woltone vnteng_Wotin vnteng_Fugonton vnteng_Catakin
             }
 			9 = {#Venetic
-				vnt_fugia vnt_kanta vnt_fugsia vnt_iuvanta vnt_nerka vnt_fougonta vnt_votina vnt_frema vnt_logsia vnt_egetora vnt_ituria
+				vnt_fugia Kanta vnt_fugsia vnt_iuvanta Nerka vnt_fougonta Votina Frema vnt_logsia Egetora vnt_ituria
 			}
 			9 = { #Tupi
 				gals_Bartira gals_Potira gals_Mayara gals_Cawanyigh gals_Jusara gals_Jurema gals_Iracyigh gals_Juracyigh gals_Tainah gals_Jacira gals_Jandira gals_Jacie gals_Moara gals_Moema gals_Yara

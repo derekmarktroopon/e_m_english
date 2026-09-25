@@ -487,9 +487,11 @@ hidden = yes
 				}
 				if = {
 					limit = {
-						any_culture_global.any_culture_county = {
-							is_in_list = lepontic_cult_count_for_cisalpine
-							count >= 1
+						any_culture_global = {
+							any_culture_county = {
+								is_in_list = lepontic_cult_count_for_cisalpine
+								count >= 1
+							} 
 						}
 					}
 					random_culture_county = {
@@ -536,9 +538,11 @@ hidden = yes
 				}
 				if = {
 					limit = {
-						any_culture_global.any_culture_county = {
-							is_in_list = lepontic_cult_count_for_occitania
-							count >= 1
+						any_culture_global = {
+							any_culture_county = {
+								is_in_list = lepontic_cult_count_for_occitania
+								count >= 1
+							}
 						}
 					}
 					random_culture_county = {
@@ -580,9 +584,11 @@ hidden = yes
 				}
 				if = {
 					limit = {
-						any_culture_global.any_culture_county = {
-							is_in_list = lepontic_cult_count_for_romansh
-							count >= 1
+						any_culture_global = {
+							any_culture_county = {
+								is_in_list = lepontic_cult_count_for_romansh
+								count >= 1
+							}
 						}
 					}
 					random_culture_county = {
