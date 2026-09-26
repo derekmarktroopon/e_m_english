@@ -202,7 +202,7 @@ name_list_late_irminonic = { #450 - 600 very start of german consonant shift
 		Aigil Aliberht Ailrun Arogisal Arsibodo Liobo
 	}
 	female_names = {
-  		Eggalindi Albiflad Angilhild Odaburg Odagiba Odgund Aldahild Alhathrud Alhaburg Adalagard Adalahaid Adalalind Baldahild Berhtgiba Berhtflad Kunigiba Irmingard Irminhild Irminswind Irminthrud Gundhild Godaburg Godagiba Godagund Hildigarda Hludaswind Hrosamunda Hrodhaid Hungiba Lama Ledra Liobwara Maganthrud Mahtihild Madlgarda Odilburg Saigiba Saigund Sidabad Waldagund Waldathrud Walda Warburg Wintra Wulfwara 
+  		Eggalindi Albiflad Angilhild Odaburg Odagiba Odgund Aldahild Alhathrud Alhaburg Adalagard Adalahaid Adalalind Baldahild Berhtgiba Berhtflad Kunigiba Irmingard Irminhild Irminswind Irminthrud Gundhild Godaburg Godagiba Godagund Hildigarda Hludaswind Hrosamunda Hrodihaid Hungiba Lama Ledra Liobwara Maganthrud Mahtihild Madlgarda Odilburg Saigiba Saigund Sidabad Waldagund Waldathrud Walda Warburg Wintra Wulfwara 
 		Aldaburg Adalagarda Thiotiswind 
 		Alagund Godahild
 	}

@@ -43,18 +43,20 @@ galsignan_culture_events.1 = {
 		root.culture = {
 			add_culture_tradition = tradition_strong_kinship
 			add_culture_tradition = tradition_ekvopetobos
+			set_culture_pillar = heritage_north_germanic
+			set_culture_pillar = language_anglic
 		}
 	}
 
 	option = { # Our varies spellings are a mark of history!
-		desc = galsignan_culture_events.option_a
+		name = galsignan_culture_events.option_a
 		root.culture = {
 			set_name_list = name_list_galsignish
 		}
 	}
 
 	option = { # We ought to devise a new orthography to unite this culture.
-		desc = galsignan_culture_events.option_b
+		name = galsignan_culture_events.option_b
 		root.culture = {
 			set_name_list = name_list_galsignish_special
 		}

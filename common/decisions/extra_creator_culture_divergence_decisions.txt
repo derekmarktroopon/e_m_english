@@ -13,35 +13,25 @@ emergence_of_the_galsianers = {
     is_shown = {
 		is_ai = no
 		OR = {
-			scope:character = {
-				culture = {
-					has_cultural_pillar = heritage_north_germanic
-				}
+			root.culture = {
+				has_cultural_pillar = heritage_north_germanic
 			}
-			scope:character = {
-				culture = {
-					has_cultural_pillar = heritage_west_germanic
-				}
+			root.culture = {
+				has_cultural_pillar = heritage_west_germanic
 			}
 		}
 		OR = {
 			AND = {
 				is_landed = no
-				domicile.domicile_location.county.title_province = {
-					any_this_title_or_de_jure_above = { this = title:d_verona }
-				} 
-				OR = {
-					domicile.domicile_location.county.culture = culture:venetian
-					domicile.domicile_location.county.culture = culture:venetic
+				root = {
+					domicile.domicile_location.county.title_province = {
+						duchy = title:d_verona
+					} 
 				}
 			}
-			AND = {
+			root = {
 				capital_county.title_province = {
-					any_this_title_or_de_jure_above = { this = title:d_verona }
-				}
-				OR = {
-					capital_county.culture = culture:venetian 
-					capital_county.culture = culture:venetic
+					duchy = title:d_verona
 				}
 			}
 		}

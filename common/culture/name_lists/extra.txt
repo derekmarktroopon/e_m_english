@@ -28,7 +28,7 @@
            	Agustin Alexander Aloysius Alvise Ambrosius Ambroso Andrea Angelo Annibale Antonio Anzolo Aurelio Auro Austin Bado Baldissere Bartholomio Bastian Bastiano Batista Battista Benedetto Benetto Bernardin Bernardo Biasio Bortholo Bortolamio Bortolo Camillus Carlo Claudio Cristofalo Cristofolo Diodato Dionisio Domenego Enrigo Fazzin Filippo Gabriele Galeazzo Galla Gasparo Guglielmo Ippolito Jacomo Lazaro Leonardo Lodovico Lorenzo Luca Lundardo Magno Marcantonio Marcello Marco Marin Martin Mercurio Michiel Miro Moricio Nicolo Ordelafo Orsso Otto Paolo Pasqual Pasqualin Paulo Petro Piero Raffaele Renier Rocco Rugir Salvador Salvator Sebastian Stefano Teodor Tobias Tomado Tomaso Tommaso Tranquilo Tribun Valentin Valerio Ventura Venturo Vidal Vincenzo Vittorio Vivian Zacharia Zago Zanetto Zordan Zorzi Zuan Zuandomenego Zuane Zuann Zuanne Zuano
         }
         10 = {#Venetic
-        	vnt_vants vnt_iuvants vnt_oppos vnt_akuts vnt_egests vnt_enogenes vnt_fugios vnt_fonts vnt_kantes vnt_kellos vnt_kuges vnt_lemetor vnt_molon vnt_uko vnt_vilkenis vnt_voltigens vnt_enokleves vnt_gaijos
+        	vnt_vants vnt_iuvants vnt_oppos vnt_akuts vnt_egests vnt_enogenes vnt_fugios vnt_fonts vnt_kantes vnt_kellos vnt_kuges vnt_lemetor vnt_molon Uko vnt_vilkenis vnt_voltigens vnt_enokleves vnt_gaijos
         }
 	}
 

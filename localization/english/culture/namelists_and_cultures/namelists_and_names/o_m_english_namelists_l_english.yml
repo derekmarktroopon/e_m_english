@@ -921,7 +921,8 @@ SighE_ht:0 "Sighæht"
 Wigthegn:0 "Wigthegn"
  
 #female
- 
+
+Aneis:0 "Aneis"
 E_lffled:0 "Ælffled"
 E_lfhild:0 "Ælfhild"
 E_lfrun:0 "Ælfrun"
@@ -1659,7 +1660,6 @@ Waldahar:0 "Waldahar"
 Warmund:0 "Warmund"
 Weland:0 "Weland"
 Wihtgisal:0 "Wihtgisal"
-Witgisal
 Wiglaibo:0 "Wiglaibo"
 Wilagisal:0 "Wilagisal"
 Witagisal:0 "Witagisal"
