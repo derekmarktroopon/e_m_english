@@ -37,22 +37,39 @@ select_personal_deity_venetic_decision = {
 				100 = {
 					show_chance = no
 					desc = select_personal_deity_venetic_decision.select_reitia
-					add_character_modifier = bhakti_germanic_reitia
+					root = {
+						add_character_modifier = {
+							modifier = bhakti_germanic_reitia
+						}
+					}
+					
 				}
 				100 = {
 					show_chance = no
 					desc = select_personal_deity_venetic_decision.select_tumusiates
-					add_character_modifier = bhakti_germanic_tumusiates 
+					root = {
+						add_character_modifier = {
+							modifier = bhakti_germanic_tumusiates
+						}
+					}
 				}
 				100 = {
 					show_chance = no
 					desc = select_personal_deity_venetic_decision.select_altino
-					add_character_modifier = bhakti_germanic_altino 
+					root = {
+						add_character_modifier = {
+							modifier = bhakti_germanic_altino
+						}
+					}
 				}
 				100 = {
 					show_chance = no
 					desc = select_personal_deity_venetic_decision.select_alkomno
-					add_character_modifier = bhakti_germanic_alkomno 
+					root = {
+						add_character_modifier = {
+							modifier = bhakti_germanic_alkomno
+						}
+					}
 				}
 			}
 		}	
@@ -107,13 +124,13 @@ written_offering_decision = {
 		}
 		every_vassal = {
 			limit = {
-				OR = {
-		            faith = { has_doctrine_parameter = ritual_writing_active }
+				#OR = {
+		            #faith = { has_doctrine_parameter = ritual_writing_active }
 		            AND = {
 		                faith = { has_doctrine = tenet_ritual_celebrations	}
 		                religion = religion:retic_religion			
 		            }
-		        }
+		        #}
 			}
 			add_opinion = {
 				modifier = pleased_opinion

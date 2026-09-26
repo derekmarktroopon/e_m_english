@@ -846,7 +846,7 @@ language_himalayo_venetic = {
 				}
 				scope:character = { 
 					culture = {
-						has_name_list = language_himalayo_venetic
+						has_name_list = name_list_venetic_tibetan
 					}
 				}
 			}

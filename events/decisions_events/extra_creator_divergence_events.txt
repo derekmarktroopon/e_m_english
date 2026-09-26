@@ -18,33 +18,70 @@ galsignan_culture_events.1 = {
 		hidden_effect = {
 			IF = {
 				limit = {
-					has_cultural_pillar = heritage_north_germanic
+					root.culture = {
+						has_cultural_pillar = heritage_north_germanic
+					}
 				}
 				create_hybrid_culture = culture:scottish
 			}
 			ELSE_IF = {
 				limit = {
-					has_cultural_pillar = heritage_west_germanic
+					root.culture = {
+						has_cultural_pillar = heritage_west_germanic
+					}
 				}
 				create_hybrid_culture = culture:swedish
+			}
+			if = {
+				limit = {
+					is_landed = no
+				}
+				domicile.domicile_location.county.culture = {
+					save_scope_as = venetian_county_that_becomes_galsianer_original_culture
+				}
 			}
 		}
 		create_hybrid_culture = culture:venetian
 		hidden_effect = {
+			if = {
+				limit = {
+					is_landed = no
+				}
+				domicile.domicile_location.county.culture = {
+					set_county_culture = scope:venetian_county_that_becomes_galsianer_original_culture
+				}	
+			}
 			root.culture = {
 				set_culture_name = {
 					noun = galsianer_culture_name
 					collective_noun = galsianer_culture_name_prefix
 					prefix = galsianer_culture_name_collective_noun
 				}
+				set_ethos_from = culture:norse
+				join_era = culture_era_early_medieval
+				add_culture_tradition = tradition_ekvopetobos
+				if = {
+					limit = {
+						has_dlc_feature = the_northern_lords
+					}
+					add_culture_tradition = tradition_fp1_coastal_warriors
+				}
+				add_culture_tradition = tradition_strong_kinship
+				if = {
+					limit = {
+						has_dlc_feature = the_northern_lords
+					}
+					add_culture_tradition = tradition_fp1_performative_honour
+				}
+				if = {
+					limit = {
+						has_dlc_feature = the_northern_lords
+					}
+					add_culture_tradition = tradition_fp1_northern_stories
+				}
+				set_culture_pillar = heritage_north_germanic
+				set_culture_pillar = language_anglic
 			}
-			set_ethos_from = culture:norse
-		}
-		root.culture = {
-			add_culture_tradition = tradition_strong_kinship
-			add_culture_tradition = tradition_ekvopetobos
-			set_culture_pillar = heritage_north_germanic
-			set_culture_pillar = language_anglic
 		}
 	}
 

@@ -3,7 +3,7 @@
 	created = 510.1.1 
 	parents = { ingaevonic }
 	
-	ethos = ethos_stoic
+	ethos = ethos_bureaucratic
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
@@ -117,7 +117,7 @@ kentish = {
 	traditions = {
 		tradition_the_witenagemot
 		tradition_hird
-		tradition_maritime_mercantilism
+		tradition_collective_lands
 	}
 	
 	name_list = name_list_jutish
@@ -179,15 +179,15 @@ east_saxon = {
 	created = 510.1.1
 	parents = { ingaevonic }
 	
-	ethos = ethos_stoic
+	ethos = ethos_bureaucratic
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_the_witenagemot
-		tradition_loyal_soldiers
 		tradition_hird
+		tradition_loyal_soldiers
 	}
 	
 	name_list = name_list_east_saxon

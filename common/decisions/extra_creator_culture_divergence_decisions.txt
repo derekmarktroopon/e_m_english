@@ -39,11 +39,11 @@ emergence_of_the_galsianers = {
     }
 	
     is_valid = {
-		is_ai = no
+		prestige >= 1000
     }
 	
 	is_valid_showing_failures_only = {
-		is_ai = yes
+		#is_ai = yes
 	}
 	
     effect = {

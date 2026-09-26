@@ -34,7 +34,7 @@ look_for_egyptian_tomb_decision = {
     	    }    
     	    OR = {
     	    	knows_language = language_coptic
-    	    	knows_language = language_kemetic
+    	    	knows_language = language_egyptian
     	    	learning > 10
     	    }
     	}
