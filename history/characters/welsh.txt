@@ -3805,7 +3805,6 @@
 159063 = {
 	name = "Run" #
 	dynasty_house = house_british_isles_ternyllwg #Ternyllwg
-	religion = "catholic"
 	culture = "common_brythonic"
 	father = 159062
 	510.1.1 = {
