@@ -1,0 +1,384 @@
+﻿raetic_pagan = {
+	name = raetic_pagan
+	desc = raetic_pagan_desc
+	faith = raetic_pagan
+	icon = raetic
+	reformed_icon = raetic_reformed
+
+	color = { 194 222 53 }
+
+	tenets = {
+		tenet_sanctity_of_nature
+		tenet_communal_identity
+		tenet_cthonic_redoubts
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+
+	cultures = { rhaetian }
+
+}
+
+venetic_paganism = {
+	name = venetic_paganism
+	desc = venetic_paganism_desc
+	faith = venetic_paganism
+	icon = venetic
+	reformed_icon = venetic_reformed
+
+	color = { 92 240 242 }
+
+	tenets = {
+		tenet_sanctity_of_nature
+		tenet_ritual_writing
+		tenet_bhakti
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+
+	cultures = { venetic liburnian }
+
+}
+
+camunic_pagan = {
+	name = camunic_pagan
+	desc = camunic_pagan_desc
+	faith = raetic_pagan
+
+	color = { 194 222 53 }
+	icon = camunic
+	reformed_icon = camunic
+
+	eminent_holy_sites = {
+		trent
+		innsbruck
+	}
+
+	holy_sites = {
+		brescia
+		friuli
+		volterra
+	}
+
+	tenets = {
+		tenet_communal_identity
+		tenet_warmonger
+		tenet_megaliths
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+		doctrine_pilgrimage_encouraged
+		doctrine_no_head
+		doctrine_gender_male_dominated
+		doctrine_pluralism_pluralistic
+		doctrine_theocracy_temporal
+		doctrine_monogamy
+		doctrine_divorce_allowed
+		doctrine_bastardry_legitimization
+		doctrine_consanguinity_cousins
+		doctrine_homosexuality_crime
+		doctrine_adultery_men_crime
+		doctrine_adultery_women_crime
+		doctrine_kinslaying_close_kin_crime
+		doctrine_deviancy_crime
+		doctrine_witchcraft_crime
+		doctrine_clerical_function_recruitment
+		doctrine_clerical_gender_female_only
+		doctrine_clerical_marriage_allowed
+		doctrine_clerical_succession_temporal_appointment
+		doctrine_pilgrimage_encouraged
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_rosa_camuna" }
+		{ name = "holy_order_faithful_of_reitia" }
+		{ name = "holy_order_warriors_of_kernunnus" }
+		{ name = "holy_order_guardians_of_the_realm_of_the_rose" }
+	}
+
+	localization = {
+		#HighGodName
+		HighGodName = camunic_high_god_name
+		HighGodName2 = camunic_high_god_name
+		HighGodNamePossessive = camunic_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = camunic_high_god_alternate
+		HighGodNameAlternatePossessive = camunic_high_god_alternate_possessive
+
+		#Creator
+		CreatorName = camunic_creator_god_name
+		CreatorNamePossessive = camunic_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+
+		#HealthGod
+    	HealthGodName = camunic_health_god_name
+		HealthGodNamePossessive = camunic_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_SHE
+		HealthGodHerHis = CHARACTER_HERHIS_HER
+		HealthGodHerHim = CHARACTER_HERHIM_HER
+				
+		#FertilityGod
+		FertilityGodName = camunic_fertility_god_name
+		FertilityGodNamePossessive = camunic_fertility_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+		#WealthGod
+		WealthGodName = camunic_wealth_god_name
+		WealthGodNamePossessive = camunic_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#HouseholdGod
+		HouseholdGodName = camunic_household_god_name
+		HouseholdGodNamePossessive = camunic_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HER
+		HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+		#FateGod
+		FateGodName = camunic_fate_god_name
+		FateGodNamePossessive = camunic_fate_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_THEY
+		FateGodHerHis = CHARACTER_HERHIS_THEIR
+		FateGodHerHim = CHARACTER_HERHIM_THEM
+
+		#KnowledgeGod
+		KnowledgeGodName = camunic_knowledge_god_name
+		KnowledgeGodNamePossessive = camunic_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WarGod
+		WarGodName = camunic_war_god_name
+		WarGodNamePossessive = camunic_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+
+		#TricksterGod
+		TricksterGodName = camunic_trickster_god_name
+		TricksterGodNamePossessive = camunic_trickster_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_HE
+		TricksterGodHerHis = CHARACTER_HERHIS_HIS
+		TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+		#NightGod
+		NightGodName = camunic_night_god_name
+		NightGodNamePossessive = camunic_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_SHE
+		NightGodHerHis = CHARACTER_HERHIS_HER
+		NightGodHerHim = CHARACTER_HERHIM_HER
+
+		#WaterGod
+		WaterGodName = camunic_water_god_name
+		WaterGodNamePossessive = camunic_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+    	PantheonTerm = religion_the_gods
+		PantheonTerm2 = religion_the_gods
+		PantheonTerm3 = religion_the_gods
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { camunic_good_god_sun }
+		DevilName = camunic_devil_name
+		DevilNamePossessive = camunic_devil_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		EvilGodNames = { camunic_evil_goddess_moon }
+		HouseOfWorship = camunic_house_of_worship
+    	HouseOfWorship2 = camunic_house_of_worship
+		HouseOfWorship3 = camunic_house_of_worship
+		HouseOfWorshipPlural = camunic_house_of_worship_plural
+		ReligiousSymbol = camunic_religious_symbol
+		ReligiousSymbol2 = camunic_religious_symbol
+		ReligiousSymbol3 = camunic_religious_symbol
+		ReligiousText = camunic_religious_text
+		ReligiousText2 = camunic_religious_text
+		ReligiousText3 = camunic_religious_text
+		ReligiousHeadName = camunic_religious_head_title
+		ReligiousHeadTitleName = camunic_religious_head_title_name
+		DevoteeMale = camunic_devotee
+		DevoteeMalePlural = camunic_devoteeplural
+		DevoteeFemale = camunic_devotee
+		DevoteeFemalePlural = camunic_devoteeplural
+		DevoteeNeuter = camunic_devotee
+		DevoteeNeuterPlural = camunic_devoteeplural
+		PriestMale = camunic_priest_male
+    	PriestMalePlural = camunic_priest_male_plural
+		PriestFemale = camunic_priest_female
+		PriestFemalePlural = camunic_priest_female_plural
+		PriestNeuter = camunic_priest_neuter
+		PriestNeuterPlural = camunic_priest_neuter_plural
+		AltPriestTermPlural = camunic_priest_alternate_plural
+		BishopMale = camunic_bishop_male
+		BishopMalePlural = camunic_bishop_male_plural
+		BishopFemale = camunic_bishop_female
+		BishopFemalePlural = camunic_bishop_female_plural
+		BishopNeuter = camunic_bishop_neuter
+		BishopNeuterPlural = camunic_bishop_neuter_plural
+		DivineRealm = camunic_divine_realm
+		DivineRealm2 = camunic_divine_realm
+		DivineRealm3 = camunic_divine_realm
+		PositiveAfterLife = camunic_positive_afterlife
+		PositiveAfterLife2 = camunic_positive_afterlife
+		PositiveAfterLife3 = camunic_positive_afterlife
+		NegativeAfterLife = camunic_death_deity_name
+		NegativeAfterLife2 = camunic_death_deity_name
+		NegativeAfterLife3 = camunic_death_deity_name
+		DeathDeityName = camunic_death_deity_name
+		DeathDeityNamePossessive = camunic_death_deity_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_SHE
+		DeathDeityHerHis = CHARACTER_HERHIS_HER
+		WitchGodName = camunic_evil_goddess_moon
+		WitchGodNamePossessive = camunic_evil_goddess_moon_possessive
+		WitchGodHerHis = CHARACTER_HERHIS_HER
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHim = CHARACTER_HERHIM_HER
+		WitchGodMistressMaster = mistress
+		WitchGodMotherFather = mother
+
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+
+	cultures = { camunian }
+
+}
+
+cult_of_reitia_paganism = {
+	name = cult_of_reitia_paganism
+	desc = cult_of_reitia_paganism_desc
+	faith = venetic_paganism
+	icon = reitian
+	reformed_icon = reitian_reformed
+
+	color = { 117 168 108 }
+
+	tenets = {
+		tenet_sanctity_of_nature
+		tenet_ritual_writing
+		tenet_alexandrian_catechism
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+		doctrine_gender_equal
+		doctrine_pilgrimage_encouraged
+		doctrine_funeral_cremation
+	}
+
+	localization = {
+		#High God Name
+		HighGodName = reitia
+    	HighGodNamePossessive = reitia_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_SHE
+		HighGodHerselfHimself = CHARACTER_HERSELF
+		HighGodHerHis = CHARACTER_HERHIS_HER
+		
+		#Creator
+		CreatorName = altino
+		CreatorNamePossessive = altino_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+		
+		#HealthGod
+		HealthGodName = bouleno
+		HealthGodNamePossessive = bouleno_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WealthGod
+		WealthGodName = trumusiate
+		WealthGodNamePossessive = trumusiate_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+		
+		#HouseholdGod
+		HouseholdGodName = einaios
+		HouseholdGodNamePossessive = einaios_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerHim = CHARACTER_HERHIM_HIS
+
+		#KnowledgeGod
+		KnowledgeGodName = reitia
+		KnowledgeGodNamePossessive = reitia_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+		#WarGod
+		WarGodName = fladukia
+		WarGodNamePossessive = fladukia_possessive
+		WarGodSheHe = CHARACTER_SHEHE_SHE
+		WarGodHerHis = CHARACTER_HERHIS_HER
+		WarGodHerHim = CHARACTER_HERHIS_HER
+		
+		PantheonTerm = religion_the_gods
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { reitia altino alkomno einaios fladukia trumusijates bouleno vetusa }
+		DevilName = retic_evil_god
+		DevilNamePossessive = retic_evil_god_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		EvilGodNames = { retic_evil_god }
+		HouseOfWorship = paganism_house_of_worship
+		HouseOfWorshipPlural = paganism_house_of_worship_plural
+		ReligiousSymbol = venetic_nature
+		ReligiousText = reitian_bible
+		ReligiousHeadName = reitian_high_priest
+		ReligiousHeadTitleName = reitian_high_circle
+		DevoteeMale = paganism_devotee
+		DevoteeMalePlural = paganism_devoteeplural
+		DevoteeFemale = paganism_devotee
+		DevoteeFemalePlural = paganism_devoteeplural
+		DevoteeNeuter = paganism_devotee
+		DevoteeNeuterPlural = paganism_devoteeplural
+		PriestMale = reitian_priest
+		PriestMalePlural = reitian_priests
+		PriestFemale = reitian_priestess
+		PriestFemalePlural = reitian_priestesses
+		PriestNeuter = reitian_priest
+		PriestNeuterPlural = reitian_priests
+		AltPriestTermPlural = paganism_priest_alternate_plural
+		BishopMale = reitian_priest
+		BishopMalePlural = reitian_priests
+		BishopFemale = reitian_priestess
+		BishopFemalePlural = reitian_priestesses
+		BishopNeuter = reitian_priest
+		BishopNeuterPlural = reitian_priests
+		DivineRealm = paganism_afterlife
+		PositiveAfterLife = venetic_eternity
+		NegativeAfterLife = venetic_hell
+		DeathDeityName = vetusa
+		DeathDeityNamePossessive = vetusa_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+
+	cultures = { venetic }
+
+}
+

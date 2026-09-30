@@ -1,0 +1,276 @@
+﻿
+raetic_pagan = {
+	main_rite = raetic_pagan
+	faith_details = {
+		religion = retic_religion
+		color = { 194 222 53 }
+		icon = raetic
+		reformed_icon = raetic_reformed
+	}
+
+	reserved_male_names = {
+		rht_esumne rht_lathur rht_lasta rht_phelturie rht_phelzurie rht_pithamne rht_pithiave rht_reithe rht_reituse rht_valthikie rht_velthie
+	}
+	reserved_female_names = {
+		rht_aruse rht_arusna rht_perkusi rht_phelna
+	}
+
+	eminent_holy_sites = {
+		trent
+		innsbruck
+	}
+
+	holy_sites = {
+		brescia
+		friuli
+		volterra
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+		doctrine_pilgrimage_encouraged
+		doctrine_funeral_cremation
+	}
+			
+	localization = {
+		#High God Name
+		HighGodName = tianus
+		HighGodNamePossessive = tianus_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_SHE
+		HighGodHerselfHimself = CHARACTER_HERSELF
+		HighGodHerHis = CHARACTER_HERHIS_HER
+		HighGodNameAlternate = taranis
+		HighGodNameAlternatePossessive = taranis_possessive
+		
+		#Creator
+		CreatorName = athari
+		CreatorNamePossessive = athari_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+		
+		#HealthGod
+		HealthGodName = thiuthi
+		HealthGodNamePossessive = thiuthi_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerHim = CHARACTER_HERHIM_HIM
+		
+		#HouseholdGod
+		HouseholdGodName = kusenku
+		HouseholdGodNamePossessive = kusenku_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HER
+		HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+		#KnowledgeGod
+		KnowledgeGodName = ssinikhe
+		KnowledgeGodNamePossessive = ssinikhe_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+		#WarGod
+		WarGodName = ethsu
+		WarGodNamePossessive = ethsu_possessive
+		WarGodSheHe = CHARACTER_SHEHE_SHE
+		WarGodHerHis = CHARACTER_HERHIS_HER
+		WarGodHerHim = CHARACTER_HERHIS_HER
+		
+		PantheonTerm = religion_the_gods
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { tianus athari thiuthi kusenku ssinikhe ethsu }
+		DevilName = camunic_devil_name
+		DevilNamePossessive = camunic_devil_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		EvilGodNames = { camunic_evil_goddess_moon }
+		HouseOfWorship = camunic_house_of_worship
+		HouseOfWorship2 = camunic_house_of_worship
+		HouseOfWorship3 = camunic_house_of_worship
+		HouseOfWorshipPlural = camunic_house_of_worship_plural
+		ReligiousSymbol = camunic_religious_symbol
+		ReligiousSymbol2 = camunic_religious_symbol
+		ReligiousSymbol3 = camunic_religious_symbol
+		ReligiousText = camunic_religious_text
+		ReligiousText2 = camunic_religious_text
+		ReligiousText3 = camunic_religious_text
+		ReligiousHeadName = camunic_religious_head_title
+		ReligiousHeadTitleName = camunic_religious_head_title_name
+		DevoteeMale = camunic_devotee
+		DevoteeMalePlural = camunic_devoteeplural
+		DevoteeFemale = camunic_devotee
+		DevoteeFemalePlural = camunic_devoteeplural
+		DevoteeNeuter = camunic_devotee
+		DevoteeNeuterPlural = camunic_devoteeplural
+		PriestMale = camunic_priest_male
+		PriestMalePlural = camunic_priest_male_plural
+		PriestFemale = camunic_priest_female
+		PriestFemalePlural = camunic_priest_female_plural
+		PriestNeuter = camunic_priest_neuter
+		PriestNeuterPlural = camunic_priest_neuter_plural
+		AltPriestTermPlural = camunic_priest_alternate_plural
+		BishopMale = camunic_bishop_male
+		BishopMalePlural = camunic_bishop_male_plural
+		BishopFemale = camunic_bishop_female
+		BishopFemalePlural = camunic_bishop_female_plural
+		BishopNeuter = camunic_bishop_neuter
+		BishopNeuterPlural = camunic_bishop_neuter_plural
+		DivineRealm = camunic_divine_realm
+		DivineRealm2 = camunic_divine_realm
+		DivineRealm3 = camunic_divine_realm
+		PositiveAfterLife = camunic_positive_afterlife
+		PositiveAfterLife2 = camunic_positive_afterlife
+		PositiveAfterLife3 = camunic_positive_afterlife
+		NegativeAfterLife = camunic_death_deity_name
+		NegativeAfterLife2 = camunic_death_deity_name
+		NegativeAfterLife3 = camunic_death_deity_name
+		DeathDeityName = camunic_death_deity_name
+		DeathDeityNamePossessive = camunic_death_deity_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_SHE
+		DeathDeityHerHis = CHARACTER_HERHIS_HER
+		WitchGodName = camunic_evil_goddess_moon
+		WitchGodNamePossessive = camunic_evil_goddess_moon_possessive
+		WitchGodHerHis = CHARACTER_HERHIS_HER
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHim = CHARACTER_HERHIM_HER
+		WitchGodMistressMaster = mistress
+		WitchGodMotherFather = mother
+		
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+}		
+
+venetic_paganism = {
+	main_rite = venetic_paganism
+	faith_details = {
+		religion = retic_religion
+		color = { 92 240 242 }
+		icon = venetic
+		reformed_icon = venetic_reformed
+	}
+	
+	reserved_male_names = {
+		vnt_bellenes vnt_deivolaijos vnt_iuvants vnt_voltiomnos vnt_voltigens vnt_voltignos vnt_voto vnt_votos
+	}
+	reserved_female_names = {
+		vnt_iuvanta vnt_iuvantna vnt_votina vnt_voltiomnina
+	}
+
+	eminent_holy_sites = {
+		padua
+		friuli
+	}
+
+	holy_sites = {
+		mantua
+		treviso
+		trieste
+	}
+			
+	doctrines = {
+		unreformed_faith_doctrine
+		doctrine_pilgrimage_encouraged
+		doctrine_funeral_cremation
+	}
+			
+	localization = {
+		#High God Name
+		HighGodName = altino
+		HighGodNamePossessive = altino_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = reitia
+		HighGodNameAlternatePossessive = reitia_possessive
+		
+		#Creator
+		CreatorName = altino
+		CreatorNamePossessive = altino_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+		
+		#HealthGod
+		HealthGodName = bouleno
+		HealthGodNamePossessive = bouleno_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WealthGod
+		WealthGodName = trumusiate
+		WealthGodNamePossessive = trumusiate_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+		
+		#HouseholdGod
+		HouseholdGodName = einaios
+		HouseholdGodNamePossessive = einaios_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerHim = CHARACTER_HERHIM_HIS
+
+		#KnowledgeGod
+		KnowledgeGodName = reitia
+		KnowledgeGodNamePossessive = reitia_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+		#WarGod
+		WarGodName = fladukia
+		WarGodNamePossessive = fladukia_possessive
+		WarGodSheHe = CHARACTER_SHEHE_SHE
+		WarGodHerHis = CHARACTER_HERHIS_HER
+		WarGodHerHim = CHARACTER_HERHIS_HER
+		
+		PantheonTerm = religion_the_gods
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { reitia altino alkomno einaios fladukia trumusijates bouleno vetusa }
+		DevilName = retic_evil_god
+		DevilNamePossessive = retic_evil_god_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		EvilGodNames = { retic_evil_god }
+		HouseOfWorship = paganism_house_of_worship
+		HouseOfWorshipPlural = paganism_house_of_worship_plural
+		ReligiousSymbol = venetic_nature
+		ReligiousText = reitian_bible
+		ReligiousHeadName = reitian_high_priest
+		ReligiousHeadTitleName = reitian_high_circle
+		DevoteeMale = paganism_devotee
+		DevoteeMalePlural = paganism_devoteeplural
+		DevoteeFemale = paganism_devotee
+		DevoteeFemalePlural = paganism_devoteeplural
+		DevoteeNeuter = paganism_devotee
+		DevoteeNeuterPlural = paganism_devoteeplural
+		PriestMale = reitian_priest
+		PriestMalePlural = reitian_priests
+		PriestFemale = reitian_priestess
+		PriestFemalePlural = reitian_priestesses
+		PriestNeuter = reitian_priest
+		PriestNeuterPlural = reitian_priests
+		AltPriestTermPlural = paganism_priest_alternate_plural
+		BishopMale = reitian_priest
+		BishopMalePlural = reitian_priests
+		BishopFemale = reitian_priestess
+		BishopFemalePlural = reitian_priestesses
+		BishopNeuter = reitian_priest
+		BishopNeuterPlural = reitian_priests
+		DivineRealm = paganism_afterlife
+		PositiveAfterLife = venetic_eternity
+		NegativeAfterLife = venetic_hell
+		DeathDeityName = vetusa
+		DeathDeityNamePossessive = vetusa_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+}

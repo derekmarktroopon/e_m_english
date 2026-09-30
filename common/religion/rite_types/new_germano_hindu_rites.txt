@@ -1,0 +1,76 @@
+﻿
+indo_germanic_hinduism = {
+	main_rite = indo_germanic_hinduism
+	faith_details = {
+		religion = hinduism_religion
+		color = { 135 69 77 }
+		icon = indo_germanic_hinduism
+	}
+
+	eminent_holy_sites = {
+		varanasi
+		mathura
+		multan
+		kanchipuram
+		konarak
+	}
+
+	#doctrine = tenet_reincarnation
+	#doctrine = tenet_warmonger
+	#doctrine = tenet_monasticism
+
+	doctrines = {
+		doctrine = doctrine_deviancy_accepted
+	}
+
+	localization = {
+
+		#HighGod
+		HighGodName = Tiva_creator_god_name
+		HighGodName2 = saura_good_god_mitra
+		HighGodNamePossessive = Tiva_creator_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+
+		#HealthGod
+		HealthGodName = Pravijo_health_god_name
+		HealthGodNamePossessive = Pravijo_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_SHE
+		HealthGodHerHis = CHARACTER_HERHIS_HER
+		HealthGodHerHim = CHARACTER_HERHIM_HER
+
+		#HouseholdGod
+		HouseholdGodName = Prijo_household_god_name
+		HouseholdGodNamePossessive = Prijo_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HER
+		HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+		#KnowledgeGod
+		KnowledgeGodName = Vodana_knowledge_god_name
+		KnowledgeGodNamePossessive = Vodana_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WarGod
+		WarGodName = Tunara_war_god_name
+		WarGodNamePossessive = Tunara_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+
+		#NightGod
+		NightGodName = Nettu_night_god_name
+		NightGodNamePossessive = Nettu_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerHim = CHARACTER_HERHIM_HIM
+
+		GoodGodNames = {
+			Tiva_creator_god_name Vodana_knowledge_god_name Tunara_war_god_name Pravijo_health_god_name Pravijo_health_god_name Prijo_household_god_name
+		}
+	}
+}
+

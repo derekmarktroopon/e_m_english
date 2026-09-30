@@ -1,0 +1,351 @@
+﻿
+kemetism = {
+	main_rite = kemetism
+	faith_details = {
+		religion = kushitism_religion
+		color = { 1.0 0.8 0.0 }
+		icon = kemetic_ankh
+	}
+
+	eminent_holy_sites = {
+		thebes_kemeticHS
+		memphis_kemeticHS
+	}
+
+	holy_sites = {
+		heliopolis_kemeticHS
+		hermopolis_magna_kemeticHS
+		alexandria_kemeticHS
+	}
+	
+	doctrines = {
+		doctrine_spiritual_head
+		doctrine_gender_male_dominated
+		doctrine_pluralism_righteous
+		doctrine_theocracy_temporal
+		doctrine_monogamy
+		doctrine_divorce_allowed
+		doctrine_bastardry_none
+		doctrine_consanguinity_unrestricted
+		doctrine_homosexuality_shunned
+		doctrine_adultery_men_shunned
+		doctrine_adultery_women_shunned
+		doctrine_kinslaying_shunned
+		doctrine_deviancy_accepted
+		doctrine_clerical_function_taxation
+		doctrine_clerical_gender_either
+		doctrine_clerical_marriage_allowed
+		doctrine_witchcraft_accepted
+		doctrine_clerical_succession_spiritual_fixed_appointment
+		doctrine_funeral_mummification
+		doctrine_anointment_permitted
+	}
+
+	holy_order_names = {
+	    { name = "holy_order_servants_of_ra" }
+	    { name = "holy_order_defenders_of_the_neteru" }
+	    { name = "holy_order_maat_warriors" }
+	}	
+
+    localization = {
+	    HighGodName = kemetism_high_god_name
+	    HighGodName2 = kemetism_high_god_name_2
+	    HighGodNamePossessive = kemetism_high_god_name_possessive
+	    HighGodNameSheHe = CHARACTER_SHEHE_HE
+	    HighGodHerselfHimself = CHARACTER_HIMSELF
+	    HighGodHerHis = CHARACTER_HERHIS_HIS
+	    HighGodNameAlternate = kemetism_high_god_name_alternate
+	    HighGodNameAlternatePossessive = kemetism_high_god_name_alternate_possessive
+
+	    #Creator
+	    CreatorName = kemetism_creator_god_name
+	    CreatorNamePossessive = kemetism_creator_god_name_possessive
+	    CreatorSheHe = CHARACTER_SHEHE_THEY
+	    CreatorHerHis = CHARACTER_HERHIM_THEM
+	    CreatorHerHim = CHARACTER_HERHIS_THEIR
+
+	    #HealthGod
+	    HealthGodName = kemetism_health_god_name
+	    HealthGodNamePossessive = kemetism_health_god_name_possessive
+	    HealthGodSheHe = CHARACTER_SHEHE_SHE
+	    HealthGodHerHis = CHARACTER_HERHIS_HER
+	    HealthGodHerHim = CHARACTER_HERHIM_HER
+	    
+	    #FertilityGod
+	    FertilityGodName = kemetism_fertility_god_name
+	    FertilityGodNamePossessive = kemetism_fertility_god_name_possessive
+	    FertilityGodSheHe = CHARACTER_SHEHE_HE
+	    FertilityGodHerHis = CHARACTER_HERHIS_HIS
+	    FertilityGodHerHim = CHARACTER_HERHIM_HIM
+
+	    #WealthGod
+	    WealthGodName = kemetism_wealth_god_name
+	    WealthGodNamePossessive = kemetism_wealth_god_name_possessive
+	    WealthGodSheHe = CHARACTER_SHEHE_HE
+	    WealthGodHerHis = CHARACTER_HERHIS_HER
+	    WealthGodHerHim = CHARACTER_HERHIM_HER
+	         
+	    #HouseholdGod
+	    HouseholdGodName = kemetism_household_god_name
+	    HouseholdGodNamePossessive = kemetism_household_god_name_possessive
+	    HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+	    HouseholdGodHerHis = CHARACTER_HERHIS_HER
+	    HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+	    #FateGod
+	    FateGodName = kemetism_fate_god_name
+	    FateGodNamePossessive = kemetism_fate_god_name_possessive
+	    FateGodSheHe = CHARACTER_SHEHE_IT
+	    FateGodHerHis = CHARACTER_HERHIS_THEIR
+	    FateGodHerHim = CHARACTER_HERHIM_IT
+
+	    #KnowledgeGod
+	    KnowledgeGodName = kemetism_knowledge_god_name
+	    KnowledgeGodNamePossessive = kemetism_knowledge_god_name_possessive
+	    KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+	    KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+	    KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+	    #WarGod
+	    WarGodName = kemetism_war_god_name
+	    WarGodNamePossessive = kemetism_war_god_name_possessive
+	    WarGodSheHe = CHARACTER_SHEHE_HE
+	    WarGodHerHis = CHARACTER_HERHIS_HIS
+	    WarGodHerHim = CHARACTER_HERHIM_HIM
+
+	    #TricksterGod
+	    TricksterGodName = kemetism_trickster_god_name
+	    TricksterGodNamePossessive = kemetism_trickster_god_name_possessive
+	    TricksterGodSheHe = CHARACTER_SHEHE_HE
+	    TricksterGodHerHis = CHARACTER_HERHIS_HIS
+	    TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+	    #NightGod
+	    NightGodName = kemetism_night_god_name
+	    NightGodNamePossessive = kemetism_night_god_name_possessive
+	    NightGodSheHe = CHARACTER_SHEHE_HE
+	    NightGodHerHis = CHARACTER_HERHIS_HIS
+	    NightGodHerHim = CHARACTER_HERHIM_HIM
+
+	    #WaterGod
+	    WaterGodName = kemetism_water_god_name
+	    WaterGodNamePossessive = kemetism_water_god_name_possessive
+	    WaterGodSheHe = CHARACTER_SHEHE_SHE
+	    WaterGodHerHis = CHARACTER_HERHIS_HER
+	    WaterGodHerHim = CHARACTER_HERHIM_HER
+
+        PantheonTerm = religion_the_gods
+        PantheonTerm2 = religion_the_gods_2
+        PantheonTerm3 = religion_the_gods_3
+        PantheonTermHasHave = pantheon_term_have
+        GoodGodNames = { kemetism_good_god_amun_ra kemetism_good_god_ptah kemetism_good_god_atum kemetism_good_god_horus kemetism_good_god_thoth kemetism_good_god_set kemetism_good_god_osiris kemetism_good_god_isis kemetism_good_god_anubis kushitism_high_god_name }
+        DevilName = kemetism_devil_name
+        DevilNamePossessive = kemetism_devil_name_possessive
+        DevilSheHe = CHARACTER_SHEHE_HE
+        DevilHerHis = CHARACTER_HERHIS_HIS
+        DevilHerselfHimself = CHARACTER_HIMSELF
+        EvilGodNames = { kemetism_evil_god_kek kemetism_evil_god_amheh }
+        HouseOfWorship = paganism_house_of_worship
+        HouseOfWorship2 = paganism_house_of_worship_2
+        HouseOfWorship3 = paganism_house_of_worship_3
+        HouseOfWorshipPlural = paganism_house_of_worship_plural
+        ReligiousSymbol = kemetism_religious_symbol
+      	ReligiousSymbol2 = kemetism_religious_symbol_2
+        ReligiousSymbol3 = kemetism_religious_symbol_3
+	    ReligiousText = paganism_religious_text
+	    ReligiousText2 = paganism_religious_text_2
+	    ReligiousText3 = paganism_religious_text_3
+	    ReligiousHeadName = kemetism_religious_head_title
+	    ReligiousHeadTitleName = kemetism_religious_head_title_name
+	    DevoteeMale = paganism_devotee
+	    DevoteeMalePlural = paganism_devoteeplural
+		DevoteeFemale = paganism_devotee
+		DevoteeFemalePlural = paganism_devoteeplural
+	    DevoteeNeuter = paganism_devotee
+	    DevoteeNeuterPlural = paganism_devoteeplural
+	    PriestMale = kemetism_priest_male
+	    PriestMalePlural = kemetism_priest_male_plural
+	    PriestFemale = kemetism_priest_male
+	    PriestFemalePlural = kemetism_priest_male_plural
+	    PriestNeuter = kemetism_priest_male
+	    PriestNeuterPlural = kemetism_priest_male_plural
+	    AltPriestTermPlural = paganism_priest_alternate_plural
+	    BishopMale = kemetism_priest_male
+	    BishopMalePlural = kemetism_priest_male_plural
+	    BishopFemale = kemetism_priest_male
+	    BishopFemalePlural = kemetism_priest_male_plural
+	    BishopNeuter = kemetism_priest_male
+	    BishopNeuterPlural = kemetism_priest_male_plural
+	    DivineRealm = kemetism_divine_realm
+	   	DivineRealm2 = kemetism_divine_realm_2
+	   	DivineRealm3 = kemetism_divine_realm_3
+	  	PositiveAfterLife = kemetism_divine_realm
+	   	PositiveAfterLife2 = kemetism_divine_realm_2
+	   	PositiveAfterLife3 = kemetism_divine_realm_3
+	   	NegativeAfterLife = kemetism_divine_realm
+	   	NegativeAfterLife2 = kemetism_divine_realm_2
+	   	NegativeAfterLife3 = kemetism_divine_realm_3
+	   	DeathDeityName = kemetism_death_god_name
+	   	DeathDeityNamePossessive = kemetism_death_god_name_possessive
+	   	DeathDeitySheHe = CHARACTER_SHEHE_HE
+	   	DeathDeityHerHis = CHARACTER_HERHIS_HIS
+	   	WitchGodName = kemetism_witchgodname_heket
+	   	WitchGodNamePossessive = kemetism_witchgodname_heket_possessive    
+	   	WitchGodHerHis = CHARACTER_HERHIS_HER
+	   	WitchGodSheHe = CHARACTER_SHEHE_SHE
+	   	WitchGodHerHim = CHARACTER_HERHIM_HER
+	   	WitchGodMistressMaster = mistress
+	    WitchGodMotherFather = mother
+
+	    GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+    }
+}
+
+atenism= {
+	main_rite = atenism
+	faith_details = {
+		religion = kushitism_religion
+		color = { 1.0 0.8 0.0 }
+		icon = custom_faith_aten
+	}
+
+	reserved_male_names = {
+		kmt_Akhenaten kmt_Nakhtpaaten kmt_Tutankhaten
+	}
+	reserved_female_names = {
+		kmt_Ankhesenaten kmt_Beketaten kmt_Duatentopet kmt_Meritaten kmt_Meketaten kmt_Neferneferuaten
+	}
+
+	eminent_holy_sites = {
+		akhetaten_kemeticHS
+	}
+
+	holy_sites = {
+		alexandria_kemeticHS
+		thebes_kemeticHS
+		memphis_kemeticHS
+		hermopolis_magna_kemeticHS
+	}
+
+	doctrines = {
+		doctrine_monotheist
+		doctrine_temporal_head
+		doctrine_gender_male_dominated
+		doctrine_pluralism_fundamentalist
+		doctrine_theocracy_lay_clergy
+		doctrine_monogamy
+		doctrine_divorce_allowed
+		doctrine_bastardry_legitimization
+		doctrine_consanguinity_unrestricted
+		doctrine_homosexuality_accepted
+		doctrine_adultery_men_shunned
+		doctrine_adultery_women_shunned
+		doctrine_kinslaying_close_kin_crime
+		doctrine_deviancy_accepted
+		doctrine_witchcraft_shunned
+		doctrine_clerical_function_taxation
+		doctrine_clerical_gender_either
+		doctrine_clerical_marriage_allowed
+		doctrine_clerical_succession_temporal_appointment
+		doctrine_funeral_mummification
+		doctrine_imperial_anointment
+	}
+
+	holy_order_names = {
+	 	{ name = "holy_order_servants_of_Ra-Hor" }
+		{ name = "holy_order_defenders_of_the_Aten" }
+		{ name = "holy_order_maat_warriors" }
+    }
+
+    localization = {
+		HighGodName = atenism_high_god_name
+		HighGodName2 = atenism_high_god_name_2
+		HighGodNamePossessive = atenism_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = atenism_high_god_name_alternate
+		HighGodNameAlternatePossessive = atenism_high_god_name_alternate_possessive
+
+        #Creator
+        CreatorName = atenism_creator_god_name
+        CreatorNamePossessive = atenism_creator_god_name_possessive
+        CreatorSheHe = CHARACTER_SHEHE_HE
+        CreatorHerHis = CHARACTER_HERHIM_HIM
+        CreatorHerHim = CHARACTER_HERHIS_HIS
+
+        PantheonTerm = religion_the_aten
+        PantheonTerm2 = religion_the_aten
+        PantheonTerm3 = religion_the_aten
+        PantheonTermHasHave = religion_the_aten_have
+        GoodGodNames = { atenism_god_the_aten atenism_god_re_hor }
+        DevilName = kemetism_devil_name
+        DevilNamePossessive = kemetism_devil_name_possessive
+        DevilSheHe = CHARACTER_SHEHE_HE
+        DevilHerHis = CHARACTER_HERHIS_HIS
+	    DevilHerselfHimself = CHARACTER_HIMSELF
+	    EvilGodNames = { kemetism_evil_god_kek kemetism_evil_god_amheh }
+	    HouseOfWorship = paganism_house_of_worship
+	    HouseOfWorship2 = paganism_house_of_worship_2
+	    HouseOfWorship3 = paganism_house_of_worship_3
+	    HouseOfWorshipPlural = paganism_house_of_worship_plural
+	    ReligiousSymbol = kemetism_religious_symbol
+	    ReligiousSymbol2 = kemetism_religious_symbol_2
+	    ReligiousSymbol3 = kemetism_religious_symbol_3
+	    ReligiousText = paganism_religious_text
+	    ReligiousText2 = paganism_religious_text_2
+	    ReligiousText3 = paganism_religious_text_3
+	    ReligiousHeadName = atenism_religious_head_title
+	    ReligiousHeadTitleName = atenism_religious_head_title_name
+	    DevoteeMale = paganism_devotee
+	    DevoteeMalePlural = paganism_devoteeplural
+	    DevoteeFemale = paganism_devotee
+	    DevoteeFemalePlural = paganism_devoteeplural
+	    DevoteeNeuter = paganism_devotee
+	    DevoteeNeuterPlural = paganism_devoteeplural
+	    PriestMale = kemetism_priest_male
+	    PriestMalePlural = kemetism_priest_male_plural
+	    PriestFemale = kemetism_priest_male
+	    PriestFemalePlural = kemetism_priest_male_plural
+	    PriestNeuter = kemetism_priest_male
+	    PriestNeuterPlural = kemetism_priest_male_plural
+	    AltPriestTermPlural = paganism_priest_alternate_plural
+	    BishopMale = kemetism_priest_male
+	    BishopMalePlural = kemetism_priest_male_plural
+	    BishopFemale = kemetism_priest_male
+	    BishopFemalePlural = kemetism_priest_male_plural
+	    BishopNeuter = kemetism_priest_male
+	    BishopNeuterPlural = kemetism_priest_male_plural
+	    DivineRealm = kemetism_divine_realm
+	    DivineRealm2 = kemetism_divine_realm_2
+	    DivineRealm3 = kemetism_divine_realm_3
+	    PositiveAfterLife = kemetism_divine_realm
+	    PositiveAfterLife2 = kemetism_divine_realm_2
+	    PositiveAfterLife3 = kemetism_divine_realm_3
+	    NegativeAfterLife = kemetism_divine_realm
+	    NegativeAfterLife2 = kemetism_divine_realm_2
+	    NegativeAfterLife3 = kemetism_divine_realm_3
+	    DeathDeityName = kemetism_death_god_name
+	    DeathDeityNamePossessive = kemetism_death_god_name_possessive
+	    DeathDeitySheHe = CHARACTER_SHEHE_HE
+	    DeathDeityHerHis = CHARACTER_HERHIS_HIS
+	    WitchGodName = kemetism_witchgodname_heket
+	    WitchGodNamePossessive = kemetism_witchgodname_heket_possessive    
+	    WitchGodHerHis = CHARACTER_HERHIS_HER
+	    WitchGodSheHe = CHARACTER_SHEHE_SHE
+	    WitchGodHerHim = CHARACTER_HERHIM_HER
+	    WitchGodMistressMaster = mistress
+	    WitchGodMotherFather = mother
+
+	    GHWName = ghw_great_holy_war
+	    GHWNamePlural = ghw_great_holy_wars
+	}
+}
+
+
+
+
+
+
+

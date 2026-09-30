@@ -1,114 +1,29 @@
 ﻿
-#tenet_ritual_writing = {
-#	icon = core_tenet_esotericism
-#
-#	piety_cost = {
-#		if = {
-#			limit = { 
-#				religion_tag = christianity_religion
-#			}
-#			value = faith_tenet_cost_low
-#		}
-#		else_if = {
-#			limit = {
-#				religion_tag = christianity_religion
-#			}
-#			value = faith_tenet_cost_mid
-#		}
-#		else = {
-#			value = faith_tenet_cost_high
-#		}
-#		# Multiplier for keeping same tenet
-#		if = {
-#			limit = { has_doctrine = tenet_ritual_writing }
-#			multiply = faith_unchanged_doctrine_cost_mult
-#		}
-#	}
-#	is_shown = {
-#		religion_tag = retic_religion
-#	}
-#
-#	parameters = {
-#		ritual_writing_active = yes
-#	}
-#	character_modifier = {
-#		learning_per_piety_level = 1
-#		cultural_head_fascination_mult = 0.1		
-#	}		
-#	traits = {
-#		virtues = { lifestyle_mystic = 2 }
-#		sins = { greedy = 2}
-#	}
-#
-#}
+tenet_ritual_writing = {
+	icon = tenet_ritual_celebrations
 
-tenet_ritual_celebrations = {
-	icon = core_tenet_ritual_celebrations
+	piety_cost = faith_tenet_cost_mid
 
-	name = {
-		first_valid = {
-			triggered_desc = {
-				trigger = { religion_tag = retic_religion }
-				desc = tenet_ritual_writing_name
-			}
-			desc = tenet_ritual_celebrations_name
-		}
+	is_shown = {
+		religion = religion:retic_religion
 	}
 
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = { religion_tag = retic_religion }
-				desc = tenet_ritual_writing_desc
-			}
-			desc = tenet_ritual_celebrations_desc
-		}
-	}
-
-	piety_cost = {
-		if = {
-			limit = {
-				OR = {
-					religion_tag = hinduism_religion
-					religion_tag = zoroastrianism_religion
-					has_doctrine = pagan_hostility_doctrine
-				}
-			}
-			value = faith_tenet_cost_low
-		}
-		else = {
-			value = faith_tenet_cost_mid
-		}
-
-		# Multiplier for keeping same tenet
-		if = {
-			limit = { has_doctrine = tenet_ritual_celebrations }
-			multiply = faith_unchanged_doctrine_cost_mult
-		}
-	}
-
-	#if = {
-	#	limit = {
-	#		religion_tag = retic_religion
-	#	}
-	#	parameters = {
-	#		ritual_writing_active = yes
-	#	}
-	#	character_modifier = {
-	#		learning_per_piety_level = 1
-	#		cultural_head_fascination_mult = 0.1
-	#	}
-	#}
 	parameters = {
-		piety_from_feasts_active = yes
-		piety_from_festivals_active = yes
-		mandatory_feast_attendance = yes
-		allows_brewery = yes
+		ritual_writing_active
 	}
 	character_modifier = {
-		vassal_opinion = 5
-		courtier_opinion = 5
+		learning_per_piety_level = 1
+		cultural_head_fascination_mult = 0.1		
+	}		
+	traits = {
+		virtues = { 
+			lifestyle_mystic = { weight = 15 scale = 1 }
+		}
+		sins = { 
+			greedy = { weight = 15 scale = 1 }
+		}
 	}
+
 }
 
 #tenet_venetic_deities = {
@@ -137,16 +52,16 @@ tenet_ritual_celebrations = {
 #}
 
 tenet_bhakti = {
-	icon = core_tenet_bhakti
+	icon = tenet_bhakti
 
 	name = {
 		first_valid = {
 			triggered_desc = {
-				trigger = { religion_tag = hinduism_religion }
+				trigger = { rite_religion_tag = hinduism_religion }
 				desc = tenet_bhakti_name
 			}
 			triggered_desc = {
-				trigger = { religion_tag = retic_religion }
+				trigger = { religion = religion:retic_religion }
 				desc = tenet_venetic_deities_name
 			}
 			desc = tenet_bhakti_patron_god_name
@@ -156,7 +71,7 @@ tenet_bhakti = {
 	desc = {
 		first_valid = {
 			triggered_desc = {
-				trigger = { religion_tag = retic_religion }
+				trigger = { religion = religion:retic_religion }
 				desc = tenet_venetic_deities_desc
 			}
 			desc = tenet_bhakti_desc
@@ -177,45 +92,34 @@ tenet_bhakti = {
 		}
 	}
 
+	can_pick = {
+		OR = {
+			religion = religion:hinduism_religion
+			# With FP1, Germanics also get personal deities.
+			trigger_if = {
+				limit = { has_fp1_dlc_trigger = yes }
+				religion = religion:germanic_religion
+			}
+			religion = religion:retic_religion
+		}
+		custom_tooltip = {
+			text = incompatible_doctrine_monotheist
+			NOT = { doctrine:doctrine_monotheist = { is_in_list = selected_doctrines } }
+		}
+	}
+
 	parameters = {
-		select_personal_god_active = yes
+		select_personal_god_active
 	}
 }
 
-#tenet_camunic_arts = {
-#	icon = core_tenet_megaliths
-#	piety_cost = {
-#		value = faith_tenet_cost_low
-#		# Multiplier for keeping same tenet
-#		if = {
-#			limit = { has_doctrine = tenet_camunic_arts }
-#			multiply = faith_unchanged_doctrine_cost_mult
-#		}
-#	}
-#
-#	is_shown = {
-#		religion_tag = retic_religion
-#	}
-#
-#	can_pick = {
-#		always = yes
-#	}
-#
-#	character_modifier = {
-#		learning = 2
-#		monthly_lifestyle_xp_gain_mult = 0.2
-#		faith_creation_piety_cost_mult = 500
-#		faith_conversion_piety_cost_mult = 500
-#	}
-#}
-
 tenet_megaliths = {
-	icon = core_tenet_megaliths
+	icon = tenet_megaliths
 
 	name = {
 		first_valid = {
 			triggered_desc = {
-				trigger = { religion_tag = retic_religion }
+				trigger = { religion = religion:retic_religion }
 				desc = tenet_camunic_arts_name
 			}
 			desc = tenet_megaliths_name
@@ -225,7 +129,7 @@ tenet_megaliths = {
 	desc = {
 		first_valid = {
 			triggered_desc = {
-				trigger = { religion_tag = retic_religion }
+				trigger = { religion = religion:retic_religion }
 				desc = tenet_camunic_arts_desc
 			}
 			desc = tenet_megaliths_desc
@@ -331,12 +235,12 @@ tenet_megaliths = {
 #}
 
 tenet_warmonger = {
-	icon = core_tenet_warmonger
+	icon = tenet_warmonger
 
 	name = {
 		first_valid = {
 			triggered_desc = {
-				trigger = { religion_tag = retic_religion }
+				trigger = { religion = religion:retic_religion }
 				desc = tenet_religious_belligerence_name
 			}
 			desc = tenet_warmonger_name
@@ -346,7 +250,7 @@ tenet_warmonger = {
 	desc = {
 		first_valid = {
 			triggered_desc = {
-				trigger = { religion_tag = retic_religion }
+				trigger = { religion = religion:retic_religion }
 				desc = tenet_religious_belligerence_desc
 			}
 			desc = tenet_warmonger_desc
@@ -357,9 +261,9 @@ tenet_warmonger = {
 		if = {
 			limit = {
 				OR = {
-					religion_tag = buddhism_religion
-					religion_tag = jainism_religion
-					religion_tag = taoism_religion
+					rite_religion_tag = buddhism_religion
+					rite_religion_tag = jainism_religion
+					rite_religion_tag = taoism_religion
 				}
 			}
 			value = faith_tenet_cost_massive
@@ -370,55 +274,77 @@ tenet_warmonger = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_warmonger }
+			limit = { rite_has_tenet = tenet_warmonger }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
 
-	is_shown = {
-		NOR = {
-			religion_tag = christianity_religion
-			religion_tag = islam_religion
-			religion_tag = judaism_religion
-			religion_tag = dualism_religion
-		}
-	}
-
 	can_pick = {
+		NOR = {
+			religion = religion:christianity_religion
+			religion = religion:islam_religion
+			religion = religion:judaism_religion
+			religion = religion:dualism_religion
+		}
 		custom_description = {
 			text = incompatible_tenet_pacifism_trigger
-			NOT = { doctrine:tenet_pacifism = { is_in_list = selected_doctrines } }
+			NOT = { tenet:tenet_pacifism = { is_in_list = selected_doctrines } }
 		}
 		custom_description = {
 			text = incompatible_tenet_dharmic_pacifism_trigger
-			NOT = { doctrine:tenet_dharmic_pacifism = { is_in_list = selected_doctrines } }
+			NOT = { tenet:tenet_dharmic_pacifism = { is_in_list = selected_doctrines } }
 		}
 	}
 
 	parameters = {
-		conquest_cb_enabled = yes
-		invasion_cb_enabled = yes
-		great_holy_wars_active_if_reformed = yes
-		clergy_can_fight = yes
-		warmonger = yes
-		faith_can_raid = yes
+		warmonger
+		conquest_cb_enabled
+		invasion_cb_enabled
+		great_holy_wars_active_if_reformed
+		clergy_can_fight
+		sanctify_artifacts_weapons
+		faith_can_raid
 	}
+
+	special_parameters = {
+		warmonger = yes
+	}
+
 	character_modifier = {
 		ai_war_chance = 0.5
 		ai_war_cooldown = -0.25
 		accolade_glory_gain_mult = 0.1
 	}
+
+	personal_tenet_parameters = {
+		clergy_can_fight_personal
+	}
+
+	personal_tenet_modifier = {
+		prowess_per_piety_level = 1
+		maa_damage_mult = 0.05
+	}
+
+	traits = {
+		virtues = {
+			brave = { weight = 20 scale = 1 }
+			zealous = { weight = 10 scale = 1 }
+		}
+		sins = {
+			craven = { weight = 20 scale = 1 }
+		}
+	}
 }
 
 tenet_alexandrian_catechism = {
-	icon = core_tenet_alexandrian_catechism
+	icon = tenet_alexandrian_catechism
 
 	piety_cost = {
 		value = faith_tenet_cost_mid
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_alexandrian_catechism }
+			limit = { rite_has_tenet = tenet_alexandrian_catechism }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
@@ -427,12 +353,41 @@ tenet_alexandrian_catechism = {
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					religion_tag = christianity_religion
+					NOT = { faith = { religion = religion:christianity_religion } }
+				}
+				desc = tenet_islamic_rationalism_name
+			}
+			triggered_desc = {
+				trigger = {
+					has_pam_dlc_trigger = yes
+					pam_latin_as_liturgical_language_trigger = yes
+				}
+				desc = tenet_alexandrian_catechism_latin_name
+			}
+			triggered_desc = {
+				trigger = {
+					has_pam_dlc_trigger = yes
+					pam_greek_as_liturgical_language_trigger = yes
+				}
+				desc = tenet_alexandrian_catechism_greek_name
+			}
+			triggered_desc = {
+				trigger = {
+					has_pam_dlc_trigger = yes
+					pam_greek_as_liturgical_language_trigger = no
+					pam_latin_as_liturgical_language_trigger = no
+				}
+				desc = tenet_alexandrian_catechism_default_name
+			}
+			triggered_desc = {
+				trigger = {
+					rite_religion_tag = christianity_religion
+					has_pam_dlc_trigger = no
 				}
 				desc = tenet_alexandrian_catechism_name
 			}
 			triggered_desc = {
-				trigger = { religion_tag = retic_religion }
+				trigger = { religion = religion:retic_religion }
 				desc = tenet_cult_of_reitia_name
 			}
 			desc = tenet_islamic_rationalism_name
@@ -443,39 +398,80 @@ tenet_alexandrian_catechism = {
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					religion_tag = christianity_religion
+					NOT = { faith = { religion = religion:christianity_religion } }
+				}
+				desc = tenet_islamic_rationalism_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_pam_dlc_trigger = yes
+					pam_latin_as_liturgical_language_trigger = yes
+				}
+				desc = tenet_alexandrian_catechism_latin_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_pam_dlc_trigger = yes
+					pam_greek_as_liturgical_language_trigger = yes
+				}
+				desc = tenet_alexandrian_catechism_greek_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_pam_dlc_trigger = yes
+					pam_greek_as_liturgical_language_trigger = no
+					pam_latin_as_liturgical_language_trigger = no
+				}
+				desc = tenet_alexandrian_catechism_default_desc
+			}
+			triggered_desc = {
+				trigger = {
+					faith = { religion = religion:christianity_religion }
+					has_pam_dlc_trigger = no
 				}
 				desc = tenet_alexandrian_catechism_desc
 			}
 			triggered_desc = {
-				trigger = { religion_tag = retic_religion }
+				trigger = { religion = religion:retic_religion }
 				desc = tenet_cult_of_reitia_desc
 			}
 			desc = tenet_islamic_rationalism_desc
 		}
 	}
 
-	is_shown = {
-		OR = {
-			religion_tag = christianity_religion
-			religion_tag = islam_religion 
-			religion_tag = retic_religion
-		}
-	}
-
 	can_pick = {
+		OR = {
+			religion = religion:christianity_religion
+			religion = religion:islam_religion
+		}
 		custom_description = {
 			text = doctrine_pluralism_fundamentalist_trigger
 			NOT = { doctrine:doctrine_pluralism_fundamentalist = { is_in_list = selected_doctrines } }
 		}
 	}
 
+	divergence_multiplier = 1.5
+
 	character_modifier = {
-		monthly_learning_lifestyle_xp_gain_mult = 0.2
+		monthly_learning_lifestyle_xp_gain_mult = 0.1
 		learning_per_stress_level = 2
+	}
+	
+	parameters = {
+		scholasticism_is_holy
+	}
+
+	personal_tenet_parameters = {
+		tenet_alexandrian_catechism_catechetical_school
+		tenet_alexandrian_catechism_catechesis_conversion
 	}
 
 	traits = {
-		virtues = { scholar }
+		virtues = {
+			eccentric = { weight = 15 scale = 1 }
+		}
+		sins = {
+			zealous = { weight = 15 scale = 1 }
+		}
 	}
 }

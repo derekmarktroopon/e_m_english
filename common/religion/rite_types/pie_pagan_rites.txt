@@ -1,0 +1,15 @@
+﻿
+pie_pagan = {
+	faith = pie_pagan
+	color = { 1 33 66 }
+
+	tenets = {
+		tenet_human_sacrifice
+		tenet_warmonger
+		tenet_ancestor_worship
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}	
+}

@@ -1,0 +1,11 @@
+﻿indo_germanic_buddhism = {
+	faith = indo_germanic_buddhism
+	color = { 105 51 55 }
+
+	tenets = {
+		tenet_ritual_celebrations
+		tenet_monasticism
+		tenet_unreformed_syncretism
+	}
+
+}

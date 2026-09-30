@@ -1,0 +1,28 @@
+﻿
+
+pie_pagan = {
+	main_rite = pie_pagan
+	faith_details = {
+		religion = old_steppe
+		color = { 1 33 66 }
+		icon = dyeus-phter
+		reformed_icon = dyeus-phter_reformed
+	}
+
+	eminent_holy_sites = {
+		preslav
+		itil
+	}
+
+	holy_sites = {
+		kiev
+		kerch
+		qayaliq
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+		doctrine_funeral_cremation
+	}
+			
+}

@@ -1,0 +1,11 @@
+﻿indo_germanic_hinduism = {
+	faith = indo_germanic_hinduism
+	color = { 135 69 77 }
+
+	tenets = {
+		tenet_reincarnation
+		tenet_warmonger
+		tenet_monasticism
+	}
+
+}

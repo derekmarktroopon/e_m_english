@@ -1,0 +1,25 @@
+﻿
+kemetism = {
+	faith = kemetism
+	color = { 1.0 0.8 0.0 }
+
+	tenets = {
+		tenet_communal_identity
+		tenet_ancestor_worship
+		tenet_egyptian_magic
+	}
+
+}
+
+atenism = {
+	faith = atenism
+	color = { 1.0 0.8 0.0 }
+
+	tenets = {
+		tenet_ancestor_worship
+		tenet_sun_worship
+		tenet_egyptian_magic
+	}
+
+}
+

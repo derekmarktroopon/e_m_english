@@ -1,10 +1,13 @@
 ﻿
 old_steppe = {
-	family = rf_pagan
+	religion_details = {
+		family = rf_pagan
+		graphical_faith = pagan_gfx
+	}
+
+	pagan_roots = yes
 
 	doctrine = pagan_hostility_doctrine
-
-	pagan_roots = yes	# Religious names tied to this religious family
 
 	#Main Group
 	doctrine = doctrine_polytheist
@@ -43,8 +46,18 @@ old_steppe = {
 	doctrine = doctrine_no_anointment
 
 	traits = {
-		virtues = { brave just diligent vengeful lifestyle_poet callous viking }
-		sins = { craven arbitrary sadistic compassionate }
+		virtues = { 
+			brave = { weight = 30 scale = 1 }
+			just = { weight = 20 scale = 1 }  
+			vengeful = { weight = 20 scale = 1 }
+			lifestyle_poet = { weight = 20 scale = 1 }
+			viking = { weight = 10 scale = 1 }
+		}
+		sins = { 
+			craven = { weight = 30 scale = 1 }
+			arbitrary = { weight = 20 scale = 1 }
+			compassionate = { weight = 10 scale = 1 }
+		}
 	}
 
 	custom_faith_icons = {
@@ -71,187 +84,159 @@ old_steppe = {
 		
 		GHWName = ghw_great_holy_war
 		GHWNamePlural = ghw_great_holy_wars
+
+		HighGodName = dyeus-phter
+		HighGodName2 = dyeus
+		HighGodNamePossessive = dyeus-phter_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = sehul
+		HighGodNameAlternatePossessive = sehul_possessive
+		
+		#Creator
+		CreatorName = monus
+		CreatorNamePossessive = monus_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIS
+		
+		#HealthGod
+		HealthGodName = heryo-men
+		HealthGodNamePossessive = heryo-men_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerHim = CHARACTER_HERHIM_HIS
+				
+		#FertilityGod
+		FertilityGodName = prihyeh
+		FertilityGodNamePossessive = prihyeh_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+		#WealthGod
+		WealthGodName = pehuson
+		WealthGodNamePossessive = pehuson_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#HouseholdGod
+		HouseholdGodName = dheghom
+		HouseholdGodNamePossessive = dheghom_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HER
+		HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+		#FateGod
+		FateGodName = the_fates
+		FateGodNamePossessive = the_fates_possessive
+		FateGodSheHe = CHARACTER_SHEHE_HE
+		FateGodHerHis = CHARACTER_HERHIS_HER
+		FateGodHerHim = CHARACTER_HERHIM_HER
+
+		#KnowledgeGod
+		KnowledgeGodName = monus
+		KnowledgeGodNamePossessive = monus_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WarGod
+		WarGodName = perkwunos
+		WarGodNamePossessive = perkwunos_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+		
+		#TricksterGod
+		TricksterGodName = welnos
+		TricksterGodNamePossessive = welnos_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_HE
+		TricksterGodHerHis = CHARACTER_HERHIS_HIS
+		TricksterGodHerHim = CHARACTER_HERHIM_HIM
+		
+		#NightGod
+		NightGodName = mehnot
+		NightGodNamePossessive = mehnot_possessive
+		NightGodSheHe = CHARACTER_SHEHE_SHE
+		NightGodHerHis = CHARACTER_HERHIS_HER
+		NightGodHerHim = CHARACTER_HERHIM_HER
+		
+		#WaterGod
+		WaterGodName = hepom_nepots
+		WaterGodNamePossessive = hepon_nepots_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
+		
+		
+		PantheonTerm = paganism_mother_earth_father_sky
+		PantheonTerm2 = paganism_mother_earth_father_sky_2
+		PantheonTerm3 = paganism_mother_earth_father_sky_3
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { dyeus-phter dheghom hewsos sehul mehnot perkwunos monus pehuson prihyeh welnos }
+		DevilName = yemhos
+		DevilNamePossessive = yemhos_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HERSELFHIMSELF_HIMSELF
+		EvilGodNames = { ngwhi yemhos kolyo rudlos }
+		#Ngwhi Dyéus-Phtér Dhéghom Héwsos Séhul Mónus Mehnot Perkwunos Péhuson YémHos Hepom-Nepots Hngwnis Welnos Heryo-mén PrihHyéh Kólyo
+		HouseOfWorship = paganism_house_of_worship
+		HouseOfWorship2 = paganism_house_of_worship_2
+		HouseOfWorship3 = paganism_house_of_worship_3
+		HouseOfWorshipPlural = paganism_house_of_worship_plural
+		ReligiousSymbol = paganism_religious_symbol
+		ReligiousSymbol2 = paganism_religious_symbol_2
+		ReligiousSymbol3 = paganism_religious_symbol_3
+		ReligiousText = paganism_religious_text
+		ReligiousText2 = paganism_religious_text_2
+		ReligiousText3 = paganism_religious_text_3
+		ReligiousHeadName = paganism_religious_head_title
+		ReligiousHeadTitleName = paganism_religious_head_title_name
+		DevoteeMale = paganism_devotee
+		DevoteeMalePlural = paganism_devoteeplural
+		DevoteeFemale = paganism_devotee
+		DevoteeFemalePlural = paganism_devoteeplural
+		DevoteeNeuter = paganism_devotee
+		DevoteeNeuterPlural = paganism_devoteeplural
+		PriestMale = paganism_priest
+		PriestMalePlural = paganism_priest_plural
+		PriestFemale = paganism_priest
+		PriestFemalePlural = paganism_priest_plural
+		PriestNeuter = paganism_priest
+		PriestNeuterPlural = paganism_priest_plural
+		AltPriestTermPlural = paganism_priest_alternate_plural
+		BishopMale = paganism_priest
+		BishopMalePlural = paganism_priest_plural
+		BishopFemale = paganism_priest
+		BishopFemalePlural = paganism_priest_plural
+		BishopNeuter = paganism_priest
+		BishopNeuterPlural = paganism_priest_plural
+		DivineRealm = paganism_divine_realm
+		DivineRealm2 = paganism_divine_realm_2
+		DivineRealm3 = paganism_divine_realm_3
+		PositiveAfterLife = paganism_divine_realm
+		PositiveAfterLife2 = paganism_divine_realm_2
+		PositiveAfterLife3 = paganism_divine_realm_3
+		NegativeAfterLife = paganism_afterlife
+		NegativeAfterLife2 = paganism_afterlife_2
+		NegativeAfterLife3 = paganism_afterlife_3
+		DeathDeityName = dheghom
+		DeathDeityNamePossessive = dheghom_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_SHE
+		DeathDeityHerHis = CHARACTER_HERHIS_HER
+		WitchGodName = rudlos
+		WitchGodNamePossessive = rudlos_possessive
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		WitchGodHerHim = CHARACTER_HERHIM_HIM
+		WitchGodMistressMaster = witch_spirit
+		WitchGodMotherFather = witch_source
+				
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
 	}	
-
-	faiths = {	
-		pie_pagan = {
-			color = { 1 33 66 }
-			icon = dyeus-phter
-			reformed_icon = dyeus-phter_reformed
-			
-			holy_site = kiev
-			holy_site = kerch
-			holy_site = preslav
-			holy_site = qayaliq
-			holy_site = itil
-			
-			doctrine = unreformed_faith_doctrine
-
-
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_warmonger
-			doctrine = tenet_human_sacrifice
-
-			doctrine = doctrine_funeral_cremation
-			
-			localization = {
-				HighGodName = dyeus-phter
-				HighGodName2 = dyeus
-				HighGodNamePossessive = dyeus-phter_possessive
-				HighGodNameSheHe = CHARACTER_SHEHE_HE
-				HighGodHerselfHimself = CHARACTER_HIMSELF
-				HighGodHerHis = CHARACTER_HERHIS_HIS
-				HighGodNameAlternate = sehul
-				HighGodNameAlternatePossessive = sehul_possessive
-		
-				#Creator
-				CreatorName = monus
-				CreatorNamePossessive = monus_possessive
-				CreatorSheHe = CHARACTER_SHEHE_HE
-				CreatorHerHis = CHARACTER_HERHIS_HIS
-				CreatorHerHim = CHARACTER_HERHIM_HIS
-		
-				#HealthGod
-				HealthGodName = heryo-men
-				HealthGodNamePossessive = heryo-men_possessive
-				HealthGodSheHe = CHARACTER_SHEHE_HE
-				HealthGodHerHis = CHARACTER_HERHIS_HIS
-				HealthGodHerHim = CHARACTER_HERHIM_HIS
-				
-				#FertilityGod
-				FertilityGodName = prihyeh
-				FertilityGodNamePossessive = prihyeh_possessive
-				FertilityGodSheHe = CHARACTER_SHEHE_SHE
-				FertilityGodHerHis = CHARACTER_HERHIS_HER
-				FertilityGodHerHim = CHARACTER_HERHIM_HER
-
-				#WealthGod
-				WealthGodName = pehuson
-				WealthGodNamePossessive = pehuson_possessive
-				WealthGodSheHe = CHARACTER_SHEHE_HE
-				WealthGodHerHis = CHARACTER_HERHIS_HIS
-				WealthGodHerHim = CHARACTER_HERHIM_HIM
-
-				#HouseholdGod
-				HouseholdGodName = dheghom
-				HouseholdGodNamePossessive = dheghom_possessive
-				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
-				HouseholdGodHerHis = CHARACTER_HERHIS_HER
-				HouseholdGodHerHim = CHARACTER_HERHIM_HER
-
-				#FateGod
-				FateGodName = the_fates
-				FateGodNamePossessive = the_fates_possessive
-				FateGodSheHe = CHARACTER_SHEHE_HE
-				FateGodHerHis = CHARACTER_HERHIS_HER
-				FateGodHerHim = CHARACTER_HERHIM_HER
-
-				#KnowledgeGod
-				KnowledgeGodName = monus
-				KnowledgeGodNamePossessive = monus_possessive
-				KnowledgeGodSheHe = CHARACTER_SHEHE_HE
-				KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
-				KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
-
-				#WarGod
-				WarGodName = perkwunos
-				WarGodNamePossessive = perkwunos_possessive
-				WarGodSheHe = CHARACTER_SHEHE_HE
-				WarGodHerHis = CHARACTER_HERHIS_HIS
-				WarGodHerHim = CHARACTER_HERHIM_HIM
-		
-				#TricksterGod
-				TricksterGodName = welnos
-				TricksterGodNamePossessive = welnos_possessive
-				TricksterGodSheHe = CHARACTER_SHEHE_HE
-				TricksterGodHerHis = CHARACTER_HERHIS_HIS
-				TricksterGodHerHim = CHARACTER_HERHIM_HIM
-		
-				#NightGod
-				NightGodName = mehnot
-				NightGodNamePossessive = mehnot_possessive
-				NightGodSheHe = CHARACTER_SHEHE_SHE
-				NightGodHerHis = CHARACTER_HERHIS_HER
-				NightGodHerHim = CHARACTER_HERHIM_HER
-		
-				#WaterGod
-				WaterGodName = hepom_nepots
-				WaterGodNamePossessive = hepon_nepots_possessive
-				WaterGodSheHe = CHARACTER_SHEHE_HE
-				WaterGodHerHis = CHARACTER_HERHIS_HIS
-				WaterGodHerHim = CHARACTER_HERHIM_HIM
-		
-		
-				PantheonTerm = paganism_mother_earth_father_sky
-				PantheonTerm2 = paganism_mother_earth_father_sky_2
-				PantheonTerm3 = paganism_mother_earth_father_sky_3
-				PantheonTermHasHave = pantheon_term_have
-				GoodGodNames = { dyeus-phter dheghom hewsos sehul mehnot perkwunos monus pehuson prihyeh welnos }
-				DevilName = yemhos
-				DevilNamePossessive = yemhos_possessive
-				DevilSheHe = CHARACTER_SHEHE_HE
-				DevilHerHis = CHARACTER_HERHIS_HIS
-				DevilHerselfHimself = CHARACTER_HERSELFHIMSELF_HIMSELF
-				EvilGodNames = { ngwhi yemhos kolyo rudlos }
-				#Ngwhi Dyéus-Phtér Dhéghom Héwsos Séhul Mónus Mehnot Perkwunos Péhuson YémHos Hepom-Nepots Hngwnis Welnos Heryo-mén PrihHyéh Kólyo
-				HouseOfWorship = paganism_house_of_worship
-				HouseOfWorship2 = paganism_house_of_worship_2
-				HouseOfWorship3 = paganism_house_of_worship_3
-				HouseOfWorshipPlural = paganism_house_of_worship_plural
-				ReligiousSymbol = paganism_religious_symbol
-				ReligiousSymbol2 = paganism_religious_symbol_2
-				ReligiousSymbol3 = paganism_religious_symbol_3
-				ReligiousText = paganism_religious_text
-				ReligiousText2 = paganism_religious_text_2
-				ReligiousText3 = paganism_religious_text_3
-				ReligiousHeadName = paganism_religious_head_title
-				ReligiousHeadTitleName = paganism_religious_head_title_name
-				DevoteeMale = paganism_devotee
-				DevoteeMalePlural = paganism_devoteeplural
-				DevoteeFemale = paganism_devotee
-				DevoteeFemalePlural = paganism_devoteeplural
-				DevoteeNeuter = paganism_devotee
-				DevoteeNeuterPlural = paganism_devoteeplural
-				PriestMale = paganism_priest
-				PriestMalePlural = paganism_priest_plural
-				PriestFemale = paganism_priest
-				PriestFemalePlural = paganism_priest_plural
-				PriestNeuter = paganism_priest
-				PriestNeuterPlural = paganism_priest_plural
-				AltPriestTermPlural = paganism_priest_alternate_plural
-				BishopMale = paganism_priest
-				BishopMalePlural = paganism_priest_plural
-				BishopFemale = paganism_priest
-				BishopFemalePlural = paganism_priest_plural
-				BishopNeuter = paganism_priest
-				BishopNeuterPlural = paganism_priest_plural
-				DivineRealm = paganism_divine_realm
-				DivineRealm2 = paganism_divine_realm_2
-				DivineRealm3 = paganism_divine_realm_3
-				PositiveAfterLife = paganism_divine_realm
-				PositiveAfterLife2 = paganism_divine_realm_2
-				PositiveAfterLife3 = paganism_divine_realm_3
-				NegativeAfterLife = paganism_afterlife
-				NegativeAfterLife2 = paganism_afterlife_2
-				NegativeAfterLife3 = paganism_afterlife_3
-				DeathDeityName = dheghom
-				DeathDeityNamePossessive = dheghom_possessive
-				DeathDeitySheHe = CHARACTER_SHEHE_SHE
-				DeathDeityHerHis = CHARACTER_HERHIS_HER
-				WitchGodName = rudlos
-				WitchGodNamePossessive = rudlos_possessive
-				WitchGodSheHe = CHARACTER_SHEHE_HE
-				WitchGodHerHis = CHARACTER_HERHIS_HIS
-				WitchGodHerHim = CHARACTER_HERHIM_HIM
-				WitchGodMistressMaster = witch_spirit
-				 WitchGodMotherFather = witch_source
-				
-				GHWName = ghw_great_holy_war
-				GHWNamePlural = ghw_great_holy_wars
-
-                 
-           
-			}
-		}
-	}
 }

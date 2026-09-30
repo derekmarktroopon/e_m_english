@@ -116,7 +116,7 @@ venetic_religious_decision.21 = {
 		}
 		flavor = venetic_religious_decision.21.areitia		
 		trigger = {
-				has_character_modifier = bhakti_venetic_reitia
+			has_character_modifier = bhakti_venetic_reitia
 		}
 	    custom_tooltip = venetic_religious_decision.21.areitia.tooltip
         trigger_event = { id = venetic_religious_decision.2001 }
