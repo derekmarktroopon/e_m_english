@@ -94,7 +94,7 @@
 
   vnt_ven_venetken_venetians_name:0 "Venetchen"
   vnt_ven_venetken_venetians_prefix:0 "Venetcheni"
-  vnt_ven_venetken_venetians_namecollective_noune:0 "Veneto"
+  vnt_ven_venetken_venetians_collective_noune:0 "Veneto"
 
   vnt_arb_fanitkin_name:0 "Fanitkin"
   vnt_arb_fanitkin_prefix:0 "Fanitki"
@@ -141,7 +141,7 @@
  venetic_danish_name:0 "Dantk"
  venetic_danish_prefix:0 "Dantic"
  venetic_danish_collective_noun:0 "Dantes"
- venetic_icelandi_namec:0 "Gelithka"
+ venetic_icelandic_name:0 "Gelithka"
  venetic_icelandic_prefix:0 "Gelithic"
  venetic_icelandic_collective_noun:0 "Gelithka"
 
@@ -196,7 +196,7 @@ venetic_dalmatian_collective_noun:0 "Dalmati"
 venetic_pannonian_name:0 "Panarce"
 venetic_pannonian_prefix:0 "Panarce"
 venetic_pannonian_collective_noun:0 "Panarci"
-venetic_romania_namen:0 "Vallatce"
+venetic_romanian_name:0 "Vallatce"
 venetic_romanian_prefix:0 "Vallatce"
 venetic_romanian_collective_noun:0 "Vallati"
 venetic_sardinian_name:0 "Sardicen"
@@ -223,8 +223,8 @@ gaulespanic_culture_prefix:0 "Liguaro"
 gaulespanic_culture_collective_noun:0 "Liguars"
 
 cisalpinegaul_culture_name:0 "Liguare"
-cisalpinegaul_culture_name_prefix:0 "Liguaro"
-cisalpinegaul_culture_name_collective_noun:0 "Liguars"
+cisalpinegaul_culture_prefix:0 "Liguaro"
+cisalpinegaul_culture_collective_noun:0 "Liguars"
 
 gaule_culture_name:0 "Liguare"
 gaule_culture_prefix:0 "Liguaro"

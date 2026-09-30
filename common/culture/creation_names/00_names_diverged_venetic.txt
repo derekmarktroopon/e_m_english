@@ -293,7 +293,7 @@ venetic_gaelic = {
 	}
 }
 
-name_list_venetic_briton = {
+venetic_briton = {
 	trigger = {
 		scope:culture = {
 			has_name_list = name_list_venetic_briton

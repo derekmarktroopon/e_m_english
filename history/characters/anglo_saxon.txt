@@ -3727,7 +3727,7 @@
 205000 = {
 	name = "Wehha"
 	dynasty = 1047000
-	culture = anglian
+	culture = ingaevonic
 	rite = "norse_pagan"
 	500.1.1 = {
 		birth = "500.1.1"

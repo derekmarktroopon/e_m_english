@@ -1,6 +1,6 @@
 ﻿
 
-galsianer_culture_name = {
+galsianer_culture = {
 	trigger = {
 		scope:culture = {
 			AND = {

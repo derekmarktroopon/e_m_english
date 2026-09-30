@@ -18,7 +18,7 @@
 	-2850.1.1 = { holder = kec_egypt_history_011 } # Hotepsekhemwy I
 	-2804.1.1 = { holder = kec_egypt_history_012 } # Nebra I
 	-2748.1.1 = { holder = kec_egypt_history_013 } # Nynetjer I
-	-2622.1.1 = { holder = kec_egypt_history_014 } # Wadjenes I
+	-2722.1.1 = { holder = kec_egypt_history_014 } # Wadjenes I
 	-2705.1.1 = { holder = kec_egypt_history_015 } # Senedj I
 	-2698.1.1 = { holder = kec_egypt_history_016 } # Sekhemib I
 	-2691.1.1 = { holder = kec_egypt_history_017 } # Peribsen I
@@ -216,7 +216,7 @@
 	-424.1.1 = { holder = kec_egypt_history_291 } # Darius II
 	-404.1.1 = { holder = kec_egypt_history_292 } # Artaxerxes II
 	# Egyptian
-	-358.1.1 = { holder = kec_egypt_history_293 } # Amyrtaeus I
+	-404.6.1 = { holder = kec_egypt_history_293 } # Amyrtaeus I
 	-399.1.1 = { holder = kec_egypt_history_294 } # Nepherites I
 	-393.1.1 = { holder = kec_egypt_history_295 } # Psammuthes I
 	-393.3.1 = { holder = kec_egypt_history_296 } # Achoris I
@@ -231,11 +231,16 @@
 	-330.1.1 = { holder = 0 } # End of compressed ancient succession
 
 	
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 14 }
+	
 	762.1.1 = {
 		liege = "e_arabia"
 	}
 	762.1.1 = {
 		holder = 210009
+		government = clan_government
 	}
 	866.1.1 = {
 		holder = 163115
@@ -255,7 +260,10 @@
 			if = {
 				limit = {
 					exists = holder
-					has_dlc_feature = royal_court
+					holder = {
+						has_dlc_feature = royal_court
+						has_royal_court = yes
+					}
 				}
 				holder = {
 					set_court_type = court_scholarly
@@ -3215,7 +3223,7 @@ c_firaun = {
 	1161.1.1 = {
 		holder = 232700
 	}	
-	1168.1.1 = {
+	1167.1.1 = { # fiefs renounced
 		holder = 223561
 	}
 	1171.1.1 = {

@@ -114,6 +114,10 @@ anglosaxon_culture_unification.1 = {
 				trigger_event = anglosaxon_culture_unification.2
 			}
 		}
+
+		root = {
+			trigger_event = anglosaxon_culture_unification.3
+		}
 	}
 
 }

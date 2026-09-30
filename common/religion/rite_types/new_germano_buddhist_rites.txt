@@ -1,82 +1,12 @@
 ﻿
 indo_germanic_buddhism = {
-	main_rite = indo_germanic_buddhism
-	faith_details = {
-		religion = buddhism_religion
-		color = { 105 51 55 }
-		icon = indo_germanic_buddhism
+	faith = indo_germanic_buddhism
+	color = { 105 51 55 }
+
+	tenets = {
+		tenet_ritual_celebrations
+		tenet_monasticism
+		tenet_unreformed_syncretism
 	}
 
-	eminent_holy_sites = {
-		muara_takus
-		bodh_gaya
-		sarnath
-	}
-
-	holy_sites = {
-		kalasan
-		ajanta
-	}
-	doctrines = { 
-		doctrine_gender_male_dominated
-		doctrine_concubines
-		doctrine_adultery_men_accepted
-		doctrine_adultery_women_accepted
-		doctrine_deviancy_accepted
-		doctrine_witchcraft_accepted
-		doctrine_funeral_cremation
-		#tenet_ritual_celebrations
-		#tenet_monasticism
-		#tenet_unreformed_syncretism
-		special_doctrine_immaterial_harmony
-	}
-
-	localization = {
-
-		#Creator
-		CreatorName = Tiva_creator_god_name
-		CreatorNamePossessive = Tiva_creator_god_name_possessive
-		CreatorSheHe = CHARACTER_SHEHE_HE
-		CreatorHerHis = CHARACTER_HERHIS_HIS
-		CreatorHerHim = CHARACTER_HERHIM_HIM
-
-		#HealthGod
-		HealthGodName = Pravijo_health_god_name
-		HealthGodNamePossessive = Pravijo_health_god_name_possessive
-		HealthGodSheHe = CHARACTER_SHEHE_SHE
-		HealthGodHerHis = CHARACTER_HERHIS_HER
-		HealthGodHerHim = CHARACTER_HERHIM_HER
-
-		#HouseholdGod
-		HouseholdGodName = Prijo_household_god_name
-		HouseholdGodNamePossessive = Prijo_household_god_name_possessive
-		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
-		HouseholdGodHerHis = CHARACTER_HERHIS_HER
-		HouseholdGodHerHim = CHARACTER_HERHIM_HER
-
-		#KnowledgeGod
-		KnowledgeGodName = Vodana_knowledge_god_name
-		KnowledgeGodNamePossessive = Vodana_knowledge_god_name_possessive
-		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
-		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
-		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
-
-		#WarGod
-		WarGodName = Tunara_war_god_name
-		WarGodNamePossessive = Tunara_war_god_name_possessive
-		WarGodSheHe = CHARACTER_SHEHE_HE
-		WarGodHerHis = CHARACTER_HERHIS_HIS
-		WarGodHerHim = CHARACTER_HERHIM_HIM
-
-		#NightGod
-		NightGodName = Nettu_night_god_name
-		NightGodNamePossessive = Nettu_night_god_name_possessive
-		NightGodSheHe = CHARACTER_SHEHE_HE
-		NightGodHerHis = CHARACTER_HERHIS_HIS
-		NightGodHerHim = CHARACTER_HERHIM_HIM
-
-		GoodGodNames = {
-			buddhism_high_god_name buddhism_high_god_alternate buddhism_good_god_buddha Tiva_creator_god_name Vodana_knowledge_god_name Tunara_war_god_name
-		}
-	}
 }

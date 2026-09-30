@@ -139,13 +139,13 @@ tenet_megaliths = {
 	piety_cost = {
 		if = {
 			limit = {
-				has_doctrine = tenet_natural_primitivism
+				rite_has_tenet = tenet_natural_primitivism
 			}
 			value = faith_tenet_cost_low
 		}
 		else_if = {
 			limit = { #Reduction in cost for Celtic Christianity because of stone circle shenanigans
-				this = faith:insular_celtic
+				faith = faith:christian_faith
 			}
 			value = faith_tenet_cost_mid
 		}
@@ -155,17 +155,18 @@ tenet_megaliths = {
 		
 		#We already practice megaliths
 		if = {
-			limit = { has_doctrine = tenet_megaliths }
+			limit = { rite_has_tenet = tenet_megaliths }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
 
-	is_shown = {
+	can_pick = {
 		
 	}
 
-	can_pick = {
-		
+	parameters = {
+		can_build_megaliths
+		sanctify_artifacts_megalithic
 	}
 
 	character_modifier = {
@@ -174,8 +175,29 @@ tenet_megaliths = {
 		hills_levy_size = 0.3
 		hills_advantage = 5
 	}
-	parameters = {
-		can_build_megaliths = yes
+
+	personal_tenet_modifier = {
+		hills_construction_gold_cost = -0.1
+		terraced_hills_construction_gold_cost = -0.1
+		mountains_construction_gold_cost = -0.1
+		desert_mountains_construction_gold_cost = -0.1
+		build_speed = 0.25
+	}
+
+	personal_tenet_parameters = {
+		tenet_megaliths_building_poi_double_rewards
+		tenet_megaliths_rough_terrain_construction_fulfillment
+	}
+
+	traits = {
+		# Megalithic builder cultures
+		virtues = {
+			architect = { weight = 15 scale = 1 }
+			diligent = { weight = 10 scale = 1 }
+		}
+		sins = {
+			lazy = { weight = 10 scale = 1 }
+		}
 	}
 }
 	
@@ -352,6 +374,10 @@ tenet_alexandrian_catechism = {
 	name = {
 		first_valid = {
 			triggered_desc = {
+				trigger = { religion = religion:retic_religion }
+				desc = tenet_cult_of_reitia_name
+			}
+			triggered_desc = {
 				trigger = {
 					NOT = { faith = { religion = religion:christianity_religion } }
 				}
@@ -386,16 +412,16 @@ tenet_alexandrian_catechism = {
 				}
 				desc = tenet_alexandrian_catechism_name
 			}
-			triggered_desc = {
-				trigger = { religion = religion:retic_religion }
-				desc = tenet_cult_of_reitia_name
-			}
 			desc = tenet_islamic_rationalism_name
 		}
 	}
 
 	desc = {
 		first_valid = {
+			triggered_desc = {
+				trigger = { religion = religion:retic_religion }
+				desc = tenet_cult_of_reitia_desc
+			}
 			triggered_desc = {
 				trigger = {
 					NOT = { faith = { religion = religion:christianity_religion } }
@@ -430,10 +456,6 @@ tenet_alexandrian_catechism = {
 					has_pam_dlc_trigger = no
 				}
 				desc = tenet_alexandrian_catechism_desc
-			}
-			triggered_desc = {
-				trigger = { religion = religion:retic_religion }
-				desc = tenet_cult_of_reitia_desc
 			}
 			desc = tenet_islamic_rationalism_desc
 		}

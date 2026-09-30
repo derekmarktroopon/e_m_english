@@ -6786,7 +6786,7 @@
 194030 = {
 	name = "Anulaibar"
 	dynasty = 490 #af Sigurd, father of Ragnarr Lodbrok
-	culture = ptoto_norse
+	culture = proto_norse
 	rite = norse_pagan
 	father = 194031
 	640.1.1 = {

@@ -38,9 +38,7 @@ select_personal_deity_venetic_decision = {
 					show_chance = no
 					desc = select_personal_deity_venetic_decision.select_reitia
 					root = {
-						add_character_modifier = {
-							modifier = bhakti_germanic_reitia
-						}
+						add_character_modifier = bhakti_venetic_reitia
 					}
 					
 				}
@@ -48,27 +46,21 @@ select_personal_deity_venetic_decision = {
 					show_chance = no
 					desc = select_personal_deity_venetic_decision.select_tumusiates
 					root = {
-						add_character_modifier = {
-							modifier = bhakti_germanic_tumusiates
-						}
+						add_character_modifier = bhakti_venetic_tumusiates
 					}
 				}
 				100 = {
 					show_chance = no
 					desc = select_personal_deity_venetic_decision.select_altino
 					root = {
-						add_character_modifier = {
-							modifier = bhakti_germanic_altino
-						}
+						add_character_modifier = bhakti_venetic_altino
 					}
 				}
 				100 = {
 					show_chance = no
 					desc = select_personal_deity_venetic_decision.select_alkomno
 					root = {
-						add_character_modifier = {
-							modifier = bhakti_germanic_alkomno
-						}
+						add_character_modifier = bhakti_venetic_alkomno
 					}
 				}
 			}
@@ -79,11 +71,12 @@ select_personal_deity_venetic_decision = {
 	
 	ai_potential = {
 		piety >= minor_piety_value
+		religion = religion:retic_religion
 		NOR = {
-			has_character_modifier = bhakti_germanic_reitia
-			has_character_modifier = bhakti_germanic_tumusiates
-			has_character_modifier = bhakti_germanic_altino
-			has_character_modifier = bhakti_germanic_alkomno
+			has_character_modifier = bhakti_venetic_reitia
+			has_character_modifier = bhakti_venetic_tumusiates
+			has_character_modifier = bhakti_venetic_altino
+			has_character_modifier = bhakti_venetic_alkomno
 		}
 	}
 
