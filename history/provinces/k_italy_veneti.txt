@@ -3,7 +3,7 @@
 ###c_aquileia
 2508 = {	#AQUILEIA
 	culture = romanoveneti
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	620.1.1 = {
         culture = venetian
@@ -12,7 +12,7 @@
 
 ###c_friuli
 2512 = {	#CAORLE
-	religion = catholic
+	rite = roman_rite
 	culture = romanoveneti
 	holding = castle_holding
     620.1.1 = {
@@ -23,7 +23,7 @@
 ###c_gorz
 2516 = {    #GORIZIA
     culture = romanoveneti
-    religion = catholic
+    rite = roman_rite
     holding = castle_holding
 
     620.1.1 = {
@@ -38,7 +38,7 @@
 ###c_verona
 2501 = {	#VERONA
 	culture = romanoveneti
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
     620.1.1 = {
         culture = venetian
@@ -47,7 +47,7 @@
 
 ###c_treviso
 2505 = {	#TREVISO
-    religion = catholic
+    rite = roman_rite
     culture = romanoveneti
 	holding = castle_holding
     620.1.1 = {
@@ -57,7 +57,7 @@
 
 ###c_padua
 2503 = {	#PADUA
-	religion = catholic
+	rite = roman_rite
     culture = romanoveneti
 	holding = castle_holding
     620.1.1 = {
@@ -68,7 +68,7 @@
 
 ###c_polesine
 2525 = {	#ROVIGO
-    religion = catholic
+    rite = roman_rite
     culture = romanoveneti
 	holding = castle_holding
     620.1.1 = {

@@ -3,7 +3,7 @@
 ###c_middlesex
 1527 = {	#Edmonton / London
 	culture = east_saxon
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	769.1.1 = {
 		special_building_slot = the_tower_of_london_01
@@ -53,7 +53,7 @@
 ###c_essex
 1514 = {	#Colchester
 	culture = east_saxon
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -79,7 +79,7 @@
 ###c_bedford
 1538 = {	#Bedford
 	culture = mercian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -104,7 +104,7 @@
 ###c_hertfordshire
 1531 = {	#Berkhamsted
 	culture = east_saxon
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -126,7 +126,7 @@
 ###c_buckinghamshire
 1551 = {	#Buckingham
 	culture = east_saxon
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -155,7 +155,7 @@
 ###c_northumberland
 1609 = {	#Bamburgh
 	culture = northumbrian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	122.1.1 = {
 		special_building = hadrians_wall_01
@@ -185,7 +185,7 @@
 ###c_durham
 1606 = {	# 1606 - Durham
 	culture = northumbrian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -206,7 +206,7 @@
 ###c_cumberland
 1635 = {	#Carlisle
 	culture = cumbrian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	122.1.1 = {
 		special_building = hadrians_wall_01
@@ -242,7 +242,7 @@
 ###c_lancashire
 1639 = {	#Lancaster
 	culture = northumbrian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -261,7 +261,7 @@
 ###c_westmorland
 1637 = {	#Kendal
 	culture = northumbrian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -277,7 +277,7 @@
 ###c_cheshire
 1643 = {	#Chester
 	culture = northumbrian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	767.1.1 = {
 		special_building = offas_dyke_01
@@ -302,7 +302,7 @@
 ###c_derby
 1621 = {	#Derby
 	culture = northumbrian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -326,7 +326,7 @@
 ###c_north_riding
 1595 = {	# York
 	culture = northumbrian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -362,7 +362,7 @@
 ###c_east_riding
 1588 = {	#Pocklington
 	culture = northumbrian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -384,7 +384,7 @@
 ###c_west_riding
 1591 = {	#Leeds
 	culture = northumbrian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -418,7 +418,7 @@
 ###c_lincolnshire
 1583 = {	#Lincoln
 	culture = east_brythonic
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -456,7 +456,7 @@
 ###c_norfolk
 1522 = {	#Norwich
 	culture = east_anglian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -489,7 +489,7 @@
 ###c_suffolk
 1518 = {	#Ipswich
 	culture = east_anglian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -512,7 +512,7 @@
 ###c_cambridgeshire
 1534 = {	#Cambridge
 	culture = east_brythonic
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	900.11.11 = {
 		culture = east_anglian
@@ -539,7 +539,7 @@
 ###c_warwickshire
 1603 = {	#Warwick
 	culture = mercian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -559,7 +559,7 @@
 ###c_leicestershire
 1615 = {	#Leicester
 	culture = mercian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -582,7 +582,7 @@
 ###c_nottinghamshire
 1618 = {	#Nottingham
 	culture = mercian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -604,7 +604,7 @@
 ###c_staffordshire
 1627 = {	#Stafford
 	culture = mercian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -624,7 +624,7 @@
 ###c_worcestershire
 1624 = {	#Worcester
 	culture = mercian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -644,7 +644,7 @@
 ###c_huntingdonshire
 1541 = {	#Hurstingstone
 	culture = mercian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -663,7 +663,7 @@
 ###c_northamptonshire
 1600 = {	#Northampton
 	culture = mercian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	1100.11.11 = {
 		culture = english
@@ -679,7 +679,7 @@
 ###c_shropshire
 1646 = {	#Shrewshbury
 	culture = mercian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	767.1.1 = {
 		special_building = offas_dyke_01
@@ -708,7 +708,7 @@
 ###c_gloucestershire
 1580 = {	#Gloucester
 	culture = west_saxon
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -735,7 +735,7 @@
 ###c_wiltshire
 1561 = {	#Salisbury
 	culture = west_saxon
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	2.1.1 = {
 		special_building = stonehenge_01
@@ -764,7 +764,7 @@
 ###c_oxfordshire
 1558 = {	#Oxford
 	culture = west_saxon
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	special_building_slot = generic_university
 	937.11.11 = {
@@ -787,7 +787,7 @@
 ###c_berkshire
 1555 = {	#Reading
 	culture = west_saxon
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -810,7 +810,7 @@
 ###c_kent
 1502 = {	#Dover
 	culture = kentish
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	1066.1.1 = {
 		buildings = {
@@ -845,7 +845,7 @@
 ###c_surrey
 1510 = {	#Chertsey
 	culture = kentish
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -867,7 +867,7 @@
 ###c_sussex
 1506 = {	#Lewes
 	culture = kentish
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -890,7 +890,7 @@
 ###c_hampton
 1544 = {	#Winchester
 	culture = west_saxon
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	867.1.1 = {
 		buildings = {
@@ -928,7 +928,7 @@
 ###c_isle_of_wight
 1549 = {	#Carisbrooke
 	culture = west_saxon
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	1100.11.11 = {
 		culture = english
@@ -938,7 +938,7 @@
 ###c_dorset
 1565 = {	#Wareham
 	culture = west_saxon
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -963,7 +963,7 @@
 ###c_somerset
 1576 = {	#Bath
 	culture = west_saxon
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -989,7 +989,7 @@
 ###c_devon
 1569 = {	#Exeter
 	culture = cornish
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	937.11.11 = {
 		culture = anglo_saxon
@@ -1017,7 +1017,7 @@
 ###c_cornwall
 1573 = {	#Launceston
 	culture = cornish
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 }
 1574 = {	#Tintagel

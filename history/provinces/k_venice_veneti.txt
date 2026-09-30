@@ -3,7 +3,7 @@
 ###c_venezia
 2517 = {	#VENEZIA
 	culture = romanoveneti
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	special_building_slot = doges_palace_01
 	special_building = doges_palace_01
@@ -23,7 +23,7 @@
 ###c_veneto
 2506 = {	#MESTRE
 
-	religion = catholic
+	rite = roman_rite
 	culture = romanoveneti
 	holding = castle_holding
 	
