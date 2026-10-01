@@ -7,8 +7,7 @@ kec_egypt_history_001 = { # Iry-Hor; Dynasty Zero
 	rite = "kemetism"
 	culture = "predynastic_egyptian"
 	dynasty = kec_dynasty_00
-	disallow_random_traits = yes
-
+	
 	-3230.1.1 = { birth = yes }
 	-3175.1.1 = { death = yes }
 }
@@ -18,8 +17,8 @@ kec_egypt_history_002 = { # Ka; Dynasty Zero
 	rite = "kemetism"
 	culture = "predynastic_egyptian"
 	dynasty = kec_dynasty_00
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_001
+	
 	-3198.1.1 = { birth = yes }
 	-3100.1.1 = { death = yes }
 }
@@ -29,8 +28,7 @@ kec_egypt_history_003 = { # Narmer; First Dynasty
 	rite = "kemetism"
 	culture = "predynastic_egyptian"
 	dynasty = kec_dynasty_01
-	disallow_random_traits = yes
-
+	
 	-3145.1.1 = { birth = yes }
 	-3095.1.1 = { death = yes }
 }
@@ -40,8 +38,8 @@ kec_egypt_history_004 = { # Hor-Aha; First Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_01
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_003
+	
 	-3120.1.1 = { birth = yes }
 	-3022.1.1 = { death = yes }
 }
@@ -51,8 +49,8 @@ kec_egypt_history_005 = { # Djer; First Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_01
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_004
+	
 	-3096.1.1 = { birth = yes }
 	-2980.1.1 = { death = yes }
 }
@@ -62,8 +60,8 @@ kec_egypt_history_006 = { # Djet; First Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_01
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_005
+	
 	-3023.1.1 = { birth = yes }
 	-2970.1.1 = { death = yes }
 }
@@ -73,8 +71,8 @@ kec_egypt_history_007 = { # Den; First Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_01
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_006
+	
 	-3000.1.1 = { birth = yes }
 	-2928.1.1 = { death = yes }
 }
@@ -84,8 +82,8 @@ kec_egypt_history_008 = { # Anedjib; First Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_01
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_007
+	
 	-2986.1.1 = { birth = yes }
 	-2920.1.1 = { death = yes }
 }
@@ -95,9 +93,9 @@ kec_egypt_history_009 = { # Semerkhet; First Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_01
-	disallow_random_traits = yes
-
-	-2930.1.1 = { birth = yes }
+	father = kec_egypt_history_008
+	
+	-2950.1.1 = { birth = yes }
 	-2911.6.1 = { death = yes }
 }
 
@@ -106,8 +104,8 @@ kec_egypt_history_010 = { # Qa'a; First Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_01
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_009
+	
 	-2930.1.1 = { birth = yes }
 	-2877.1.1 = { death = yes }
 }
@@ -117,9 +115,9 @@ kec_egypt_history_011 = { # Hotepsekhemwy; Second Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_02 
-	disallow_random_traits = yes
-
-	-2870.1.1 = { #Accends 2850 BCE
+	father = kec_egypt_history_010
+	
+	-2880.1.1 = { #Accends 2850 BCE
 		birth = yes
 	}
 	-2804.1.1 = { death = yes }
@@ -130,8 +128,8 @@ kec_egypt_history_012 = { # Nebra; Second Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_02
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_011
+	
 	-2824.1.1 = { birth = yes }
 	-2748.1.1 = { death = yes }
 }
@@ -141,8 +139,8 @@ kec_egypt_history_013 = { # Nynetjer; Second Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_02
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_012
+	
 	-2712.1.1 = { birth = yes }
 	-2622.1.1 = { death = yes }
 }
@@ -152,8 +150,8 @@ kec_egypt_history_014 = { # Wadjenes; Second Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_02
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_012
+	
 	-2732.1.1 = { birth = yes }
 	-2705.1.1 = { death = yes }
 }
@@ -163,8 +161,8 @@ kec_egypt_history_015 = { # Senedj; Second Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_02
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_013
+	
 	-2725.1.1 = { birth = yes }
 	-2698.1.1 = { death = yes }
 }
@@ -174,8 +172,8 @@ kec_egypt_history_016 = { # Sekhemib; Second Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_02
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_014
+	
 	-2718.1.1 = { birth = yes }
 	-2691.1.1 = { death = yes }
 }
@@ -185,8 +183,8 @@ kec_egypt_history_017 = { # Peribsen; Second Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_02
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_014
+	
 	-2713.1.1 = { birth = yes }
 	-2691.6.1 = { death = yes }
 }
@@ -196,8 +194,8 @@ kec_egypt_history_018 = { # Neferkasokar; Second Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_02
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_014
+	
 	-2711.1.1 = { birth = yes }
 	-2690.1.1 = { death = yes }
 }
@@ -207,8 +205,8 @@ kec_egypt_history_019 = { # Khasekhemwy; Second Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_02
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_012
+	
 	-2736.1.1 = { birth = yes }
 	-2670.1.1 = { death = yes }
 }
@@ -218,7 +216,6 @@ kec_egypt_history_020 = { # Sanakht; Third Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_03
-	disallow_random_traits = yes 
 
 	-2683.1.1 = { birth = yes }
 	-2654.1.1 = { death = yes } 
@@ -229,8 +226,8 @@ kec_egypt_history_021 = { # Djoser; Third Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_03
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_020
+	
 	-2665.1.1 = { birth = yes }
 	-2628.1.1 = { death = yes }
 }
@@ -240,8 +237,8 @@ kec_egypt_history_022 = { # Sekhemkhet; Third Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_03
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_021
+	
 	-2639.1.1 = { birth = yes }
 	-2622.1.1 = { death = yes }
 }
@@ -251,8 +248,8 @@ kec_egypt_history_023 = { # Khaba; Third Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_03
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_021
+	
 	-2630.1.1 = { birth = yes }
 	-2615.1.1 = { death = yes }
 }
@@ -262,8 +259,8 @@ kec_egypt_history_025 = { # Huni; Third Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_03
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_021
+	
 	-2635.1.1 = { birth = yes }
 	-2614.1.1 = { death = yes }
 }
@@ -273,8 +270,8 @@ kec_egypt_history_026 = { # Sneferu; Fourth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_04
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_025
+	
 	-2633.1.1 = { birth = yes }
 	-2580.1.1 = { death = yes }
 }
@@ -283,10 +280,11 @@ kec_egypt_history_027 = { # Khufu; Fourth Dynasty
 	name = kmt_Khufu
 	rite = "kemetism"
 	culture = "middle_egyptian"
+	give_nickname = nick_the_builder
 	dynasty = kec_dynasty_04
-	disallow_random_traits = yes
-
-	-2579.1.1 = { birth = yes }
+	father = kec_egypt_history_026
+	
+	-2585.1.1 = { birth = yes }
 	-2553.1.1 = { death = yes }
 }
 
@@ -295,9 +293,9 @@ kec_egypt_history_028 = { # Djedefre; Fourth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_04
-	disallow_random_traits = yes
-
-	-2552.1.1 = { birth = yes }
+	father = kec_egypt_history_027
+	
+	-2562.1.1 = { birth = yes }
 	-2545.1.1 = { death = yes }
 }
 
@@ -306,9 +304,9 @@ kec_egypt_history_029 = { # Khafre; Fourth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_04
-	disallow_random_traits = yes
-
-	-2555.1.1 = { birth = yes }
+	father = kec_egypt_history_027
+	
+	-2565.1.1 = { birth = yes }
 	-2518.1.1 = { death = yes }
 }
 
@@ -317,9 +315,9 @@ kec_egypt_history_030 = { # Menkaure; Fourth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_04
-	disallow_random_traits = yes
-
-	-2527.1.1 = { birth = yes }
+	father = kec_egypt_history_029
+	
+	-2545.1.1 = { birth = yes }
 	-2512.1.1 = { death = yes }
 }
 
@@ -328,8 +326,20 @@ kec_egypt_history_031 = { # Shepseskaf; Fourth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_04
-	disallow_random_traits = yes
+	father = kec_egypt_history_029
+	
+	-2527.1.1 = { birth = yes }
+	-2476.1.1 = { death = yes }
+}
 
+kec_egypt_history_11032 = { # Queen Khentkaus
+	name = kmt_Khentkaus
+	rite = "kemetism"
+	culture = "middle_egyptian"
+	female = yes
+	dynasty = kec_dynasty_05
+	father = kec_egypt_history_029
+	
 	-2521.1.1 = { birth = yes }
 	-2476.1.1 = { death = yes }
 }
@@ -339,8 +349,8 @@ kec_egypt_history_032 = { # Userkaf; Fifth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_05
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_029
+	
 	-2528.1.1 = { birth = yes }
 	-2491.1.1 = { death = yes }
 }
@@ -350,8 +360,9 @@ kec_egypt_history_033 = { # Sahure; Fifth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_05
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_032
+	mother = kec_egypt_history_11032
+	
 	-2511.1.1 = { birth = yes } #ascended 2508 bce
 	-2477.1.1 = { death = yes }
 }
@@ -361,8 +372,8 @@ kec_egypt_history_034 = { # Neferirkare; Fifth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_05
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_033
+	
 	-2497.1.1 = { birth = yes }
 	-2460.1.1 = { death = yes }
 }
@@ -372,8 +383,8 @@ kec_egypt_history_035 = { # Neferefre Isi; Fifth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_05
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_034
+	
 	-2480.1.1 = { birth = yes }
 	-2458.1.1 = { death = yes }
 }
@@ -383,8 +394,8 @@ kec_egypt_history_036 = { # Shepseskare; Fifth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_05
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_033
+	
 	-2480.1.1 = { birth = yes }
 	-2458.6.1 = { death = yes }
 }
@@ -394,8 +405,8 @@ kec_egypt_history_037 = { # Nyuserre; Fifth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_05
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_034
+	
 	-2478.1.1 = { birth = yes }
 	-2422.1.1 = { death = yes }
 }
@@ -405,9 +416,9 @@ kec_egypt_history_038 = { # Menkauhor; Fifth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_05
-	disallow_random_traits = yes
-
-	-2442.1.1 = { birth = yes }
+	father = kec_egypt_history_035
+	
+	-2460.1.1 = { birth = yes }
 	-2414.1.1 = { death = yes }
 }
 
@@ -416,9 +427,9 @@ kec_egypt_history_039 = { # Djedkare; Fifth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_05
-	disallow_random_traits = yes
-
-	-2434.1.1 = { birth = yes }
+	father = kec_egypt_history_038
+	
+	-2440.1.1 = { birth = yes }
 	-2375.1.1 = { death = yes }
 }
 
@@ -427,10 +438,22 @@ kec_egypt_history_040 = { # Unas; Fifth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_05
-	disallow_random_traits = yes
-
-	-2395.1.1 = { birth = yes }
+	father = kec_egypt_history_039
+	
+	-2420.1.1 = { birth = yes }
 	-2345.1.1 = { death = yes }
+}
+
+kec_egypt_history_11041 = { # Queen Iput
+	name = kmt_Iput
+	rite = "kemetism"
+	culture = "middle_egyptian"
+	female = yes
+	dynasty = kec_dynasty_05
+	father = kec_egypt_history_040
+	
+	-2395.1.1 = { birth = yes }
+	-2333.1.1 = { death = yes }
 }
 
 kec_egypt_history_041 = { # Teti; Sixth Dynasty
@@ -438,9 +461,8 @@ kec_egypt_history_041 = { # Teti; Sixth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_06
-	disallow_random_traits = yes
-
-	-2365.1.1 = { birth = yes }
+	
+	-2400.1.1 = { birth = yes }
 	-2333.1.1 = { death = yes }
 }
 
@@ -449,9 +471,9 @@ kec_egypt_history_042 = { # Userkare; Sixth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_06
-	disallow_random_traits = yes
-
-	-2353.1.1 = { birth = yes }
+	father = kec_egypt_history_041
+	
+	-2383.1.1 = { birth = yes }
 	-2331.1.1 = { death = yes }
 }
 
@@ -460,9 +482,10 @@ kec_egypt_history_043 = { # Pepi; Sixth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_06
-	disallow_random_traits = yes
-
-	-2351.1.1 = { birth = yes }
+	father = kec_egypt_history_041
+	mother = kec_egypt_history_040
+	
+	-2361.1.1 = { birth = yes }
 	-2287.1.1 = { death = yes }
 }
 
@@ -471,8 +494,8 @@ kec_egypt_history_044 = { # Merenre; Sixth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_06
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_043
+	
 	-2307.1.1 = { birth = yes }
 	-2278.1.1 = { death = yes }
 }
@@ -482,8 +505,8 @@ kec_egypt_history_045 = { # Pepi; Sixth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_06
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_044
+	
 	-2298.1.1 = { birth = yes }
 	-2184.1.1 = { death = yes }
 }
@@ -493,8 +516,8 @@ kec_egypt_history_046 = { # Merenre; Sixth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_06
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_045
+	
 	-2238.1.1 = { birth = yes }
 	-2184.6.1 = { death = yes }
 }
@@ -504,10 +527,20 @@ kec_egypt_history_047 = { # Netjerkare; Sixth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_06
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_045
+	
 	-2214.1.1 = { birth = yes }
 	-2181.1.1 = { death = yes }
+}
+
+kec_egypt_history_01148 = { # Random ficticous father
+	name = kmt_Pepi
+	rite = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_08
+	
+	-2234.1.1 = { birth = yes }
+	-2191.0.1 = { death = yes }
 }
 
 kec_egypt_history_048 = { # Menkare; Eighth Dynasty
@@ -515,8 +548,8 @@ kec_egypt_history_048 = { # Menkare; Eighth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_08
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_01148
+	
 	-2214.1.1 = { birth = yes }
 	-2181.6.1 = { death = yes }
 }
@@ -526,8 +559,8 @@ kec_egypt_history_049 = { # Neferkare; Eighth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_08
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_01148
+	
 	-2214.1.1 = { birth = yes }
 	-2180.1.1 = { death = yes }
 }
@@ -537,8 +570,8 @@ kec_egypt_history_050 = { # Neferkare; Eighth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_08
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_01148
+	
 	-2204.1.1 = { birth = yes }
 	-2176.1.1 = { death = yes }
 }
@@ -548,8 +581,8 @@ kec_egypt_history_051 = { # Djedkare; Eighth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_08
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_01148
+	
 	-2204.1.1 = { birth = yes }
 	-2174.3.1 = { death = yes }
 }
@@ -559,8 +592,8 @@ kec_egypt_history_052 = { # Neferkare; Eighth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_08
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_01148
+	
 	-2204.1.1 = { birth = yes }
 	-2174.7.1 = { death = yes }
 }
@@ -570,8 +603,8 @@ kec_egypt_history_053 = { # Merenhor; Eighth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_08
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_01148
+	
 	-2201.1.1 = { birth = yes }
 	-2174.9.1 = { death = yes }
 }
@@ -581,8 +614,8 @@ kec_egypt_history_054 = { # Neferkamin; Eighth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_08
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_049
+	
 	-2193.1.1 = { birth = yes }
 	-2173.2.1 = { death = yes }
 }
@@ -592,8 +625,8 @@ kec_egypt_history_055 = { # Nikare; Eighth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_08
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_049
+	
 	-2195.1.1 = { birth = yes }
 	-2173.6.1 = { death = yes }
 }
@@ -603,8 +636,8 @@ kec_egypt_history_056 = { # Neferkare; Eighth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_08
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_01148
+	
 	-2204.1.1 = { birth = yes }
 	-2173.8.1 = { death = yes }
 }
@@ -614,8 +647,8 @@ kec_egypt_history_057 = { # Neferkahor; Eighth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_08
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_049
+	
 	-2195.1.1 = { birth = yes }
 	-2172.1.1 = { death = yes }
 }
@@ -625,8 +658,8 @@ kec_egypt_history_058 = { # Neferkare; Eighth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_08
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_01148
+	
 	-2201.1.1 = { birth = yes }
 	-2171.1.1 = { death = yes }
 }
@@ -636,8 +669,8 @@ kec_egypt_history_059 = { # Neferkamin; Eighth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_08
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_048
+	
 	-2190.1.1 = { birth = yes }
 	-2170.1.1 = { death = yes }
 }
@@ -647,8 +680,8 @@ kec_egypt_history_060 = { # Qakare; Eighth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_08
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_048
+	
 	-2193.1.1 = { birth = yes }
 	-2167.2.2 = { death = yes }
 }
@@ -658,8 +691,8 @@ kec_egypt_history_061 = { # Neferkaure; Eighth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_08
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_048
+	
 	-2187.1.1 = { birth = yes }
 	-2163.1.1 = { death = yes }
 }
@@ -669,8 +702,8 @@ kec_egypt_history_062 = { # Neferkauhor; Eighth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_08
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_047
+	
 	-2183.1.1 = { birth = yes }
 	-2161.2.2 = { death = yes }
 }
@@ -680,8 +713,8 @@ kec_egypt_history_063 = { # Neferirkare; Eighth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_08
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_047
+	
 	-2181.1.1 = { birth = yes }
 	-2160.6.1 = { death = yes }
 }
@@ -691,8 +724,8 @@ kec_egypt_history_064 = { # Khety; Ninth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_09
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_047
+	
 	-2180.1.1 = { birth = yes }
 	-2150.1.1 = { death = yes }
 }
@@ -702,8 +735,8 @@ kec_egypt_history_065 = { # Neferkare; Ninth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_09
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_056
+	
 	-2170.1.1 = { birth = yes }
 	-2140.1.1 = { death = yes }
 }
@@ -713,8 +746,8 @@ kec_egypt_history_066 = { # Khety; Ninth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_09
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_064
+	
 	-2160.1.1 = { birth = yes }
 	-2135.1.1 = { death = yes }
 }
@@ -724,8 +757,8 @@ kec_egypt_history_067 = { # Senen; Ninth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_09
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_066
+	
 	-2155.1.1 = { birth = yes }
 	-2130.1.1 = { death = yes }
 }
@@ -735,8 +768,7 @@ kec_egypt_history_068 = { # Neferkare; Tenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_10
-	disallow_random_traits = yes
-
+	
 	-2150.1.1 = { birth = yes }
 	-2110.6.1 = { death = yes }
 }
@@ -746,8 +778,8 @@ kec_egypt_history_069 = { # Khety; Tenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_10
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_068
+	
 	-2130.1.1 = { birth = yes }
 	-2080.1.1 = { death = yes }
 }
@@ -757,10 +789,20 @@ kec_egypt_history_070 = { # Merikare; Tenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_10
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_069
+	
 	-2100.1.1 = { birth = yes }
 	-2040.1.1 = { death = yes }
+}
+
+kec_egypt_history_11079 = { # Ancestor - Interf the Elder
+	name = kmt_Intef
+	rite = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_11
+	
+	-2194.1.1 = { birth = yes } 
+	-2142.1.1 = { death = yes }
 }
 
 kec_egypt_history_079 = { # Mentuhotep; Eleventh Dynasty
@@ -768,8 +810,8 @@ kec_egypt_history_079 = { # Mentuhotep; Eleventh Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_11
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_11079
+	
 	-2154.1.1 = { birth = yes } # accended 2134 bce
 	-2122.1.1 = { death = yes }
 }
@@ -779,8 +821,8 @@ kec_egypt_history_080 = { # Intef; Eleventh Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_11
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_079
+	
 	-2142.1.1 = { birth = yes }
 	-2118.1.1 = { death = yes }
 }
@@ -790,8 +832,8 @@ kec_egypt_history_081 = { # Intef; Eleventh Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_11
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_079
+	
 	-2138.1.1 = { birth = yes }
 	-2069.1.1 = { death = yes }
 }
@@ -801,8 +843,8 @@ kec_egypt_history_082 = { # Intef; Eleventh Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_11
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_081
+	
 	-2089.1.1 = { birth = yes }
 	-2040.1.1 = { death = yes }
 }
@@ -812,8 +854,8 @@ kec_egypt_history_083 = { # Mentuhotep; Eleventh Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_11
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_082
+	
 	-2060.1.1 = { birth = yes }
 	-2009.1.1 = { death = yes }
 }
@@ -823,9 +865,9 @@ kec_egypt_history_084 = { # Mentuhotep; Eleventh Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_11
-	disallow_random_traits = yes
-
-	-2029.1.1 = { birth = yes }
+	father = kec_egypt_history_083
+	
+	-2040.1.1 = { birth = yes }
 	-1997.1.1 = { death = yes }
 }
 
@@ -834,8 +876,8 @@ kec_egypt_history_085 = { # Mentuhotep; Eleventh Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_11
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_084
+	
 	-2017.1.1 = { birth = yes }
 	-1991.1.1 = { death = yes }
 }
@@ -845,8 +887,7 @@ kec_egypt_history_086 = { # Amenemhat; Twelfth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_12
-	disallow_random_traits = yes
-
+	
 	-2011.1.1 = { birth = yes }
 	-1962.1.1 = { death = yes }
 }
@@ -856,8 +897,8 @@ kec_egypt_history_087 = { # Senusret; Twelfth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_12
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_086
+	
 	-1982.1.1 = { birth = yes }
 	-1926.1.1 = { death = yes }
 }
@@ -867,8 +908,8 @@ kec_egypt_history_088 = { # Amenemhat; Twelfth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_12
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_087
+	
 	-1946.1.1 = { birth = yes }
 	-1895.1.1 = { death = yes }
 }
@@ -878,8 +919,8 @@ kec_egypt_history_089 = { # Senusret; Twelfth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_12
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_088
+	
 	-1915.1.1 = { birth = yes }
 	-1878.1.1 = { death = yes }
 }
@@ -889,8 +930,8 @@ kec_egypt_history_090 = { # Senusret; Twelfth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_12
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_089
+	
 	-1898.1.1 = { birth = yes }
 	-1839.1.1 = { death = yes }
 }
@@ -900,8 +941,8 @@ kec_egypt_history_091 = { # Amenemhat; Twelfth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_12
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_090
+	
 	-1859.1.1 = { birth = yes }
 	-1814.1.1 = { death = yes }
 }
@@ -911,9 +952,9 @@ kec_egypt_history_092 = { # Amenemhat; Twelfth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_12
-	disallow_random_traits = yes
-
-	-1834.1.1 = { birth = yes }
+	father = kec_egypt_history_091
+	
+	-1839.1.1 = { birth = yes }
 	-1806.1.1 = { death = yes }
 }
 
@@ -923,8 +964,8 @@ kec_egypt_history_093 = { # Sobekneferu; Twelfth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_12
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_091
+	
 	-1826.1.1 = { birth = yes }
 	-1802.1.1 = { death = yes }
 }
@@ -934,8 +975,8 @@ kec_egypt_history_094 = { # Sobekhotep; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_092
+	
 	-1822.1.1 = { birth = yes }
 	-1800.1.1 = { death = yes }
 }
@@ -945,8 +986,8 @@ kec_egypt_history_095 = { # Sonbef; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_092
+	
 	-1820.1.1 = { birth = yes }
 	-1796.1.1 = { death = yes }
 }
@@ -956,8 +997,8 @@ kec_egypt_history_096 = { # Nerikare; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_092
+	
 	-1816.1.1 = { birth = yes }
 	-1796.6.1 = { death = yes }
 }
@@ -967,8 +1008,8 @@ kec_egypt_history_097 = { # Amenemhat; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_092
+	
 	-1816.1.1 = { birth = yes }
 	-1793.1.1 = { death = yes }
 }
@@ -978,8 +1019,8 @@ kec_egypt_history_098 = { # Ameny Qemau; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_092
+	
 	-1813.1.1 = { birth = yes }
 	-1792.1.1 = { death = yes }
 }
@@ -989,8 +1030,8 @@ kec_egypt_history_099 = { # Sehotepibre; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_092
+	
 	-1812.1.1 = { birth = yes }
 	-1790.1.1 = { death = yes }
 }
@@ -1000,8 +1041,8 @@ kec_egypt_history_100 = { # Iufni; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_092
+	
 	-1810.1.1 = { birth = yes }
 	-1788.1.1 = { death = yes }
 }
@@ -1011,8 +1052,8 @@ kec_egypt_history_101 = { # Amenemhat; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_092
+	
 	-1808.1.1 = { birth = yes }
 	-1785.1.1 = { death = yes }
 }
@@ -1022,8 +1063,8 @@ kec_egypt_history_102 = { # Nebnun; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_094
+	
 	-1805.1.1 = { birth = yes }
 	-1783.1.1 = { death = yes }
 }
@@ -1033,8 +1074,8 @@ kec_egypt_history_103 = { # Sehotepibre; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_094
+	
 	-1803.1.1 = { birth = yes }
 	-1781.1.1 = { death = yes }
 }
@@ -1044,8 +1085,8 @@ kec_egypt_history_104 = { # Sewadjkare; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_094
+	
 	-1801.1.1 = { birth = yes }
 	-1781.6.1 = { death = yes }
 }
@@ -1055,8 +1096,8 @@ kec_egypt_history_105 = { # Nedjemibre; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_094
+	
 	-1801.1.1 = { birth = yes }
 	-1780.1.1 = { death = yes }
 }
@@ -1066,8 +1107,8 @@ kec_egypt_history_106 = { # Sobekhotep; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_095
+	
 	-1800.1.1 = { birth = yes }
 	-1777.1.1 = { death = yes }
 }
@@ -1077,8 +1118,8 @@ kec_egypt_history_107 = { # Renseneb; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_095
+	
 	-1797.1.1 = { birth = yes }
 	-1777.6.1 = { death = yes }
 }
@@ -1088,8 +1129,8 @@ kec_egypt_history_108 = { # Hor; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_097
+	
 	-1797.1.1 = { birth = yes }
 	-1775.1.1 = { death = yes }
 }
@@ -1099,8 +1140,8 @@ kec_egypt_history_109 = { # Sekhemre Khutawy; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_097
+	
 	-1795.1.1 = { birth = yes }
 	-1772.1.1 = { death = yes }
 }
@@ -1110,8 +1151,8 @@ kec_egypt_history_110 = { # Djedkheperew; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_099
+	
 	-1792.1.1 = { birth = yes }
 	-1770.1.1 = { death = yes }
 }
@@ -1121,8 +1162,8 @@ kec_egypt_history_111 = { # Sebkay; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_099
+	
 	-1790.1.1 = { birth = yes }
 	-1769.1.1 = { death = yes }
 }
@@ -1132,9 +1173,9 @@ kec_egypt_history_112 = { # Amenemhat; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
-	-1789.1.1 = { birth = yes }
+	father = kec_egypt_history_099
+	
+	-1790.6.1 = { birth = yes }
 	-1767.1.1 = { death = yes }
 }
 
@@ -1143,8 +1184,8 @@ kec_egypt_history_113 = { # Wegaf; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_100
+	
 	-1787.1.1 = { birth = yes }
 	-1767.6.1 = { death = yes }
 }
@@ -1154,8 +1195,8 @@ kec_egypt_history_114 = { # Khendjer; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_100
+	
 	-1787.1.1 = { birth = yes }
 	-1759.1.1 = { death = yes }
 }
@@ -1165,8 +1206,8 @@ kec_egypt_history_115 = { # Imyremeshaw; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_106
+	
 	-1779.1.1 = { birth = yes }
 	-1757.1.1 = { death = yes }
 }
@@ -1176,8 +1217,8 @@ kec_egypt_history_116 = { # Intef; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_106
+	
 	-1777.1.1 = { birth = yes }
 	-1755.1.1 = { death = yes }
 }
@@ -1187,8 +1228,8 @@ kec_egypt_history_117 = { # Seth Meribre; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_108
+	
 	-1775.1.1 = { birth = yes }
 	-1755.6.1 = { death = yes }
 }
@@ -1198,8 +1239,8 @@ kec_egypt_history_118 = { # Sobekhotep; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_108
+	
 	-1775.1.1 = { birth = yes }
 	-1751.1.1 = { death = yes }
 }
@@ -1209,8 +1250,8 @@ kec_egypt_history_119 = { # Neferhotep; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_110
+	
 	-1771.1.1 = { birth = yes }
 	-1740.1.1 = { death = yes }
 }
@@ -1220,8 +1261,8 @@ kec_egypt_history_120 = { # Sihathor; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_114
+	
 	-1760.1.1 = { birth = yes }
 	-1739.1.1 = { death = yes }
 }
@@ -1231,8 +1272,8 @@ kec_egypt_history_121 = { # Sobekhotep; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_114
+	
 	-1759.1.1 = { birth = yes }
 	-1730.1.1 = { death = yes }
 }
@@ -1241,9 +1282,8 @@ kec_egypt_history_122 = { # Sobekhotep; Thirteenth Dynasty
 	name = kmt_Sobekhotep
 	rite = "kemetism"
 	culture = "middle_egyptian"
-	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	dynasty = kec_dynasty_119
+	
 	-1750.1.1 = { birth = yes }
 	-1727.1.1 = { death = yes }
 }
@@ -1253,8 +1293,8 @@ kec_egypt_history_123 = { # Sobekhotep; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_119
+	
 	-1747.1.1 = { birth = yes }
 	-1720.1.1 = { death = yes }
 }
@@ -1264,8 +1304,8 @@ kec_egypt_history_124 = { # Wahibre Ibiau; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_119
+	
 	-1740.1.1 = { birth = yes }
 	-1713.1.1 = { death = yes }
 }
@@ -1275,8 +1315,8 @@ kec_egypt_history_125 = { # Merneferre Ay; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_119
+	
 	-1743.1.1 = { birth = yes }
 	-1690.1.1 = { death = yes }
 }
@@ -1286,8 +1326,8 @@ kec_egypt_history_126 = { # Merhotepre Ini; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_125
+	
 	-1710.1.1 = { birth = yes } #Ascended 1677 bce
 	-1675.1.1 = { death = yes }
 }
@@ -1297,8 +1337,8 @@ kec_egypt_history_127 = { # Sewadjtu; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_126
+	
 	-1695.1.1 = { birth = yes }
 	-1672.1.1 = { death = yes }
 }
@@ -1308,8 +1348,8 @@ kec_egypt_history_128 = { # Ined; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_126
+	
 	-1692.1.1 = { birth = yes }
 	-1664.1.1 = { death = yes }
 }
@@ -1319,8 +1359,8 @@ kec_egypt_history_130 = { # Sobekhotep; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_126
+	
 	-1684.1.1 = { birth = yes }
 	-1663.1.1 = { death = yes }
 }
@@ -1330,8 +1370,8 @@ kec_egypt_history_131 = { # Merkheperre; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_126
+	
 	-1683.1.1 = { birth = yes }
 	-1656.1.1 = { death = yes }
 }
@@ -1341,8 +1381,8 @@ kec_egypt_history_132 = { # Merkare; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_127
+	
 	-1676.1.1 = { birth = yes }
 	-1656.6.1 = { death = yes }
 }
@@ -1352,8 +1392,8 @@ kec_egypt_history_133 = { # Sekhemkare; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_127
+	
 	-1676.1.1 = { birth = yes }
 	-1653.1.1 = { death = yes }
 }
@@ -1363,8 +1403,8 @@ kec_egypt_history_134 = { # Sewahenre; Thirteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_13
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_127
+	
 	-1673.1.1 = { birth = yes }
 	-1649.1.1 = { death = yes }
 }
@@ -1374,8 +1414,7 @@ kec_egypt_history_169 = { # Salitis; Fifteenth Dynasty
 	rite = "kemetism"
 	culture = "carthaginian"
 	dynasty = kec_dynasty_15
-	disallow_random_traits = yes
-
+	
 	-1670.1.1 = { birth = yes } #accended 1650 bce
 	-1631.1.1 = { death = yes }
 }
@@ -1385,8 +1424,8 @@ kec_egypt_history_171 = { # Semqen; Sixteenth Dynasty
 	rite = "kemetism"
 	culture = "carthaginian"
 	dynasty = kec_dynasty_16
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_169
+	
 	-1651.1.1 = { birth = yes }
 	-1620.1.1 = { death = yes }
 }
@@ -1396,8 +1435,8 @@ kec_egypt_history_172 = { # Aperanat; Sixteenth Dynasty
 	rite = "kemetism"
 	culture = "carthaginian"
 	dynasty = kec_dynasty_16
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_169
+	
 	-1640.1.1 = { birth = yes }
 	-1610.1.1 = { death = yes }
 }
@@ -1407,8 +1446,8 @@ kec_egypt_history_173 = { # Sakir-Har; Fifteenth Dynasty
 	rite = "kemetism"
 	culture = "carthaginian"
 	dynasty = kec_dynasty_15
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_171
+	
 	-1630.1.1 = { birth = yes }
 	-1600.1.1 = { death = yes }
 }
@@ -1418,8 +1457,8 @@ kec_egypt_history_174 = { # Khyan; Fifteenth Dynasty
 	rite = "kemetism"
 	culture = "carthaginian"
 	dynasty = kec_dynasty_15
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_172
+	
 	-1620.1.1 = { birth = yes }
 	-1590.1.1 = { death = yes }
 }
@@ -1429,8 +1468,8 @@ kec_egypt_history_175 = { # Apepi; Fifteenth Dynasty
 	rite = "kemetism"
 	culture = "carthaginian"
 	dynasty = kec_dynasty_15
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_173
+	
 	-1610.1.1 = { birth = yes }
 	-1550.1.1 = { death = yes }
 }
@@ -1440,8 +1479,8 @@ kec_egypt_history_176 = { # Khamudi; Fifteenth Dynasty
 	rite = "kemetism"
 	culture = "carthaginian"
 	dynasty = kec_dynasty_15
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_175
+	
 	-1570.1.1 = { birth = yes }
 	-1540.1.1 = { death = yes }
 }
@@ -1451,9 +1490,8 @@ kec_egypt_history_209 = { # Ahmose; Eighteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_18
-	disallow_random_traits = yes
-
-	-1569.1.1 = { birth = yes } #Ascends 1549 bce
+	
+	-1590.1.1 = { birth = yes } #Ascends 1549 bce
 	-1524.1.1 = { death = yes }
 }
 
@@ -1462,10 +1500,22 @@ kec_egypt_history_210 = { # Amenhotep; Eighteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_18
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_209
+	
 	-1564.1.1 = { birth = yes }
 	-1503.1.1 = { death = yes }
+}
+
+kec_egypt_history_11211 = { # Queen Ahmose
+	name = kmt_Ahmose
+	rite = "kemetism"
+	culture = "middle_egyptian"
+	is_female = yes
+	dynasty = kec_dynasty_18
+	father = kec_egypt_history_210
+	
+	-1543.1.1 = { birth = yes }
+	-1493.1.1 = { death = yes }
 }
 
 kec_egypt_history_211 = { # Thutmose; Eighteenth Dynasty
@@ -1473,9 +1523,9 @@ kec_egypt_history_211 = { # Thutmose; Eighteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_18
-	disallow_random_traits = yes
-
-	-1523.1.1 = { birth = yes }
+	father = kec_egypt_history_209
+	
+	-1548.1.1 = { birth = yes }
 	-1493.1.1 = { death = yes }
 }
 
@@ -1484,21 +1534,10 @@ kec_egypt_history_212 = { # Thutmose; Eighteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_18
-	disallow_random_traits = yes
-
-	-1503.1.1 = { birth = yes }
+	father = kec_egypt_history_211
+	
+	-1513.1.1 = { birth = yes }
 	-1479.1.1 = { death = yes }
-}
-
-kec_egypt_history_214 = { # Thutmose; Eighteenth Dynasty
-	name = kmt_Thutmose
-	rite = "kemetism"
-	culture = "middle_egyptian"
-	dynasty = kec_dynasty_18
-	disallow_random_traits = yes
-
-	-1498.1.1 = { birth = yes }
-	-1425.1.1 = { death = yes }
 }
 
 kec_egypt_history_213 = { # Hatshepsut; Eighteenth Dynasty
@@ -1507,19 +1546,32 @@ kec_egypt_history_213 = { # Hatshepsut; Eighteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_18
-	disallow_random_traits = yes
-
-	-1499.1.1 = { birth = yes } #ascended 1472 bce
+	father = kec_egypt_history_212
+	mother = kec_egypt_history_11211
+	
+	-1512.1.1 = { birth = yes } #ascended 1472 bce
 	-1458.1.1 = { death = yes }
 }
+
+kec_egypt_history_214 = { # Thutmose; Eighteenth Dynasty
+	name = kmt_Thutmose
+	rite = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_18
+	father = kec_egypt_history_212
+	
+	-1480.1.1 = { birth = yes }
+	-1425.1.1 = { death = yes }
+}
+
 
 kec_egypt_history_215 = { # Amenhotep; Eighteenth Dynasty
 	name = kmt_Amenhotep
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_18
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_214
+	
 	-1467.1.1 = { birth = yes } #Ascends 1427 bce
 	-1397.1.1 = { death = yes }
 }
@@ -1529,9 +1581,9 @@ kec_egypt_history_216 = { # Thutmose; Eighteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_18
-	disallow_random_traits = yes
-
-	-1417.1.1 = { birth = yes }
+	father = kec_egypt_history_215
+	
+	-1437.1.1 = { birth = yes }
 	-1388.1.1 = { death = yes }
 }
 
@@ -1540,21 +1592,24 @@ kec_egypt_history_217 = { # Amenhotep; Eighteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_18
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_216
+	
 	-1408.1.1 = { birth = yes }
 	-1351.1.1 = { death = yes }
 }
 
-kec_egypt_history_218 = { # Amenhotep; Eighteenth Dynasty
+kec_egypt_history_218 = { # Amenhotep; Eighteenth Dynasty - Atkhenaten
 	name = kmt_Amenhotep
 	rite = "atenism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_18
-	disallow_random_traits = yes
-
-	-1371.1.1 = { birth = yes }
-	-1334.1.1 = { death = yes }
+	give_nickname = nick_the_apostate
+	trait = zealous
+	father = kec_egypt_history_217
+	mother = kec_egypt_history_12222
+	
+	-1368.1.1 = { birth = yes }
+	-1335.1.1 = { death = yes }
 }
 
 kec_egypt_history_219 = { # Smenkhkare; Eighteenth Dynasty
@@ -1563,8 +1618,8 @@ kec_egypt_history_219 = { # Smenkhkare; Eighteenth Dynasty
 	rite = "atenism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_18
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_218
+	
 	-1355.1.1 = { birth = yes } #Ascended 1335 bce
 	-1334.1.1 = { death = yes }
 }
@@ -1574,8 +1629,9 @@ kec_egypt_history_220 = { #  Neferneferuaten; Eighteenth Dynasty
 	rite = "atenism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_18
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_218
+	mother = kec_egypt_history_12223
+	
 	-1352.1.1 = { birth = yes }
 	-1332.1.1 = { death = yes }
 }
@@ -1585,10 +1641,34 @@ kec_egypt_history_221 = { # Tutankhamun; Eighteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_18
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_218
+	mother = kec_egypt_history_12223
+	
 	-1342.1.1 = { birth = yes }
 	-1323.1.1 = { death = yes }
+}
+
+kec_egypt_history_11222 = { # Thuya
+	name = kmt_Thuya
+	rite = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_18
+	father = kec_egypt_history_215
+	
+	-1436.1.1 = { birth = yes }
+	-1388.1.1 = { death = yes }
+}
+
+kec_egypt_history_12222 = { # Tiye
+	name = kmt_Tiye
+	female = yes
+	rite = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_18
+	father = kec_egypt_history_215
+	
+	-1372.1.1 = { birth = yes }
+	-1334.1.1 = { death = yes }
 }
 
 kec_egypt_history_222 = { # Ay; Eighteenth Dynasty
@@ -1596,19 +1676,33 @@ kec_egypt_history_222 = { # Ay; Eighteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_18
-	disallow_random_traits = yes
-
-	-1353.1.1 = { birth = yes }
+	father = kec_egypt_history_215
+	
+	-1370.1.1 = { birth = yes }
 	-1319.1.1 = { death = yes }
 }
+
+kec_egypt_history_12223 = { # Nefertiti
+	name = kmt_Nefertiti
+	female = yes
+	rite = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_18
+	trait = beauty_good_3
+	father = kec_egypt_history_215
+	
+	-1358.1.1 = { birth = yes }
+	-1334.1.1 = { death = yes }
+}
+
 
 kec_egypt_history_223 = { # Horemheb; Eighteenth Dynasty
 	name = kmt_Horemheb
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_18
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_215
+	
 	-1339.1.1 = { birth = yes }
 	-1292.1.1 = { death = yes }
 }
@@ -1618,8 +1712,7 @@ kec_egypt_history_224 = { # Ramesses; Nineteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_19
-	disallow_random_traits = yes
-
+	
 	-1340.1.1 = { birth = yes }
 	-1290.1.1 = { death = yes }
 }
@@ -1629,8 +1722,8 @@ kec_egypt_history_225 = { # Seti; Nineteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_19
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_224
+	
 	-1320.1.1 = { birth = yes }
 	-1279.1.1 = { death = yes }
 }
@@ -1640,8 +1733,8 @@ kec_egypt_history_226 = { # Ramesses; Nineteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_19
-	disallow_random_traits = yes
 	give_nickname = nick_the_great
+	father = kec_egypt_history_225
 
 	-1303.1.1 = { birth = yes }
 	-1213.1.1 = { death = yes }
@@ -1652,30 +1745,30 @@ kec_egypt_history_227 = { # Merneptah; Nineteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_19
-	disallow_random_traits = yes
-
-	-1243.1.1 = { birth = yes }
+	father = kec_egypt_history_226
+	
+	-1283.1.1 = { birth = yes }
 	-1203.1.1 = { death = yes }
 }
 
-kec_egypt_history_228 = { # Amenmesse; Nineteenth Dynasty
-	name = kmt_Amenmesse
-	rite = "kemetism"
-	culture = "middle_egyptian"
-	dynasty = kec_dynasty_19
-	disallow_random_traits = yes
-
-	-1220.1.1 = { birth = yes }
-	-1198.1.1 = { death = yes }
-}
-
-kec_egypt_history_229 = { # Seti; Nineteenth Dynasty
+kec_egypt_history_228 = { # Seti; Nineteenth Dynasty 
 	name = kmt_Seti
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_19
-	disallow_random_traits = yes
+	father = kec_egypt_history_227
+	
+	-1240.1.1 = { birth = yes }
+	-1198.1.1 = { death = yes }
+}
 
+kec_egypt_history_229 = { # Amenmesse; Nineteenth Dynasty
+	name = kmt_Amenmesse
+	rite = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_19
+	father = kec_egypt_history_228
+	
 	-1223.1.1 = { birth = yes }
 	-1197.1.1 = { death = yes }
 }
@@ -1685,8 +1778,8 @@ kec_egypt_history_230 = { # Siptah; Nineteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_19
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_229
+	
 	-1217.1.1 = { birth = yes }
 	-1191.1.1 = { death = yes }
 }
@@ -1697,10 +1790,20 @@ kec_egypt_history_231 = { # Tausret; Nineteenth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_19
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_227
+	
 	-1210.1.1 = { birth = yes }
 	-1188.1.1 = { death = yes }
+}
+
+kec_egypt_history_11232 = { # Ficticous ancestor
+	name = kmt_Nesbanebdjed
+	rite = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_20
+	
+	-1238.1.1 = { birth = yes }
+	-1199.1.1 = { death = yes }
 }
 
 kec_egypt_history_232 = { # Setnakhte; Twentieth Dynasty
@@ -1708,8 +1811,8 @@ kec_egypt_history_232 = { # Setnakhte; Twentieth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_20
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_11232
+	
 	-1208.1.1 = { birth = yes }
 	-1185.1.1 = { death = yes }
 }
@@ -1719,8 +1822,8 @@ kec_egypt_history_233 = { # Ramesses; Twentieth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_20
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_11232
+	
 	-1205.1.1 = { birth = yes }
 	-1154.1.1 = { death = yes }
 }
@@ -1730,8 +1833,8 @@ kec_egypt_history_234 = { # Ramesses; Twentieth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_20
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_233
+	
 	-1174.1.1 = { birth = yes }
 	-1148.1.1 = { death = yes }
 }
@@ -1741,8 +1844,8 @@ kec_egypt_history_235 = { # Ramesses; Twentieth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_20
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_234
+	
 	-1168.1.1 = { birth = yes }
 	-1144.1.1 = { death = yes }
 }
@@ -1752,8 +1855,8 @@ kec_egypt_history_236 = { # Ramesses; Twentieth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_20
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_234
+	
 	-1164.1.1 = { birth = yes }
 	-1136.1.1 = { death = yes }
 }
@@ -1763,8 +1866,8 @@ kec_egypt_history_237 = { # Ramesses; Twentieth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_20
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_235
+	
 	-1156.1.1 = { birth = yes }
 	-1129.1.1 = { death = yes }
 }
@@ -1774,8 +1877,8 @@ kec_egypt_history_238 = { # Ramesses; Twentieth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_20
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_236
+	
 	-1149.1.1 = { birth = yes }
 	-1128.1.1 = { death = yes }
 }
@@ -1785,8 +1888,8 @@ kec_egypt_history_239 = { # Ramesses; Twentieth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_20
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_236
+	
 	-1148.1.1 = { birth = yes }
 	-1110.1.1 = { death = yes }
 }
@@ -1796,8 +1899,8 @@ kec_egypt_history_240 = { # Ramesses; Twentieth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_20
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_237
+	
 	-1130.1.1 = { birth = yes }
 	-1106.1.1 = { death = yes }
 }
@@ -1807,10 +1910,22 @@ kec_egypt_history_241 = { # Ramesses; Twentieth Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_20
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_239
+	
 	-1126.1.1 = { birth = yes }
 	-1077.1.1 = { death = yes }
+}
+
+kec_egypt_history_11242 = { # Queen Tentamun
+	name = kmt_Tentamun
+	rite = "kemetism"
+	culture = "middle_egyptian"
+	female = yes
+	dynasty = kec_dynasty_20
+	father = kec_egypt_history_241
+	
+	-1097.1.1 = { birth = yes }
+	-1051.1.1 = { death = yes }
 }
 
 kec_egypt_history_242 = { # Smendes; Twenty-first Dynasty
@@ -1818,8 +1933,7 @@ kec_egypt_history_242 = { # Smendes; Twenty-first Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_21
-	disallow_random_traits = yes
-
+	
 	-1097.1.1 = { birth = yes }
 	-1051.1.1 = { death = yes }
 }
@@ -1829,10 +1943,34 @@ kec_egypt_history_243 = { # Amenemnisu; Twenty-first Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_21
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_242
+	mother = kec_egypt_history_11242
+	
 	-1071.1.1 = { birth = yes }
 	-1047.1.1 = { death = yes }
+}
+
+kec_egypt_history_11244 = { # Nodjmet
+	name = kmt_Nodjmet
+	rite = "kemetism"
+	culture = "middle_egyptian"
+	female = yes
+	dynasty = kec_dynasty_20
+	father = kec_egypt_history_241
+	
+	-1098.1.1 = { birth = yes }
+	-1071.1.1 = { death = yes }
+}
+
+kec_egypt_history_12244 = { # Pinedjem
+	name = kmt_Pinedjem
+	rite = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_21
+	mother = kec_egypt_history_11244
+	
+	-1084.1.1 = { birth = yes }
+	-1051.1.1 = { death = yes }
 }
 
 kec_egypt_history_244 = { # Psusennes; Twenty-first Dynasty
@@ -1840,8 +1978,8 @@ kec_egypt_history_244 = { # Psusennes; Twenty-first Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_21
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_12244
+	
 	-1067.1.1 = { birth = yes }
 	-998.1.1 = { death = yes }
 }
@@ -1851,8 +1989,8 @@ kec_egypt_history_245 = { # Amenemope; Twenty-first Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_21
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_244
+	
 	-1018.1.1 = { birth = yes }
 	-991.1.1 = { death = yes }
 }
@@ -1862,8 +2000,7 @@ kec_egypt_history_246 = { # Osochor; Twenty-first Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_21
-	disallow_random_traits = yes
-
+	
 	-1011.1.1 = { birth = yes }
 	-985.1.1 = { death = yes }
 }
@@ -1873,19 +2010,42 @@ kec_egypt_history_247 = { # Siamun; Twenty-first Dynasty
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_21
-	disallow_random_traits = yes
-
+	
 	-1005.1.1 = { birth = yes }
 	-966.1.1 = { death = yes }
 }
+
+kec_egypt_history_11248 = { # Isetemkheb
+	name = kmt_Isetemkheb
+	rite = "kemetism"
+	culture = "middle_egyptian"
+	female = yes
+	dynasty = kec_dynasty_21
+	father = kec_egypt_history_244
+	
+	-1041.1.1 = { birth = yes }
+	-985.1.1 = { death = yes }
+}
+
+kec_egypt_history_12248 = { # Pinedjem
+	name = kmt_Pinedjem
+	rite = "kemetism"
+	culture = "middle_egyptian"
+	dynasty = kec_dynasty_21
+	mother = kec_egypt_history_11248
+	
+	-1011.1.1 = { birth = yes }
+	-985.1.1 = { death = yes }
+}
+
 
 kec_egypt_history_248 = { # Psusennes; Twenty-first Dynasty
 	name = kmt_Pasebakhaenniut
 	rite = "kemetism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_21
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_12248
+	
 	-986.1.1 = { birth = yes }
 	-943.1.1 = { death = yes }
 }
@@ -1895,8 +2055,7 @@ kec_egypt_history_249 = { # Sheshonq; Twenty-second Dynasty
 	rite = "kemetism"
 	culture = "butr"
 	dynasty = kec_dynasty_22
-	disallow_random_traits = yes
-
+	
 	-963.1.1 = { birth = yes }
 	-922.1.1 = { death = yes }
 }
@@ -1906,8 +2065,8 @@ kec_egypt_history_250 = { # Osorkon; Twenty-second Dynasty
 	rite = "kemetism"
 	culture = "butr"
 	dynasty = kec_dynasty_22
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_249
+	
 	-942.1.1 = { birth = yes }
 	-887.1.1 = { death = yes }
 }
@@ -1917,8 +2076,8 @@ kec_egypt_history_251 = { # Sheshonq; Twenty-second Dynasty
 	rite = "kemetism"
 	culture = "butr"
 	dynasty = kec_dynasty_22
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_250
+	
 	-907.1.1 = { birth = yes }
 	-885.1.1 = { death = yes }
 }
@@ -1928,8 +2087,8 @@ kec_egypt_history_253 = { # Takelot; Twenty-second Dynasty
 	rite = "kemetism"
 	culture = "butr"
 	dynasty = kec_dynasty_22
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_250
+	
 	-905.1.1 = { birth = yes }
 	-872.1.1 = { death = yes }
 }
@@ -1939,8 +2098,8 @@ kec_egypt_history_254 = { # Osorkon; Twenty-second Dynasty
 	rite = "kemetism"
 	culture = "butr"
 	dynasty = kec_dynasty_22
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_253
+	
 	-892.1.1 = { birth = yes }
 	-837.1.1 = { death = yes }
 }
@@ -1950,8 +2109,7 @@ kec_egypt_history_255 = { # Sheshonq; Twenty-second Dynasty
 	rite = "kemetism"
 	culture = "butr"
 	dynasty = kec_dynasty_22
-	disallow_random_traits = yes
-
+	
 	-857.1.1 = { birth = yes }
 	-798.1.1 = { death = yes }
 }
@@ -1961,8 +2119,7 @@ kec_egypt_history_256 = { # Sheshonq; Twenty-second Dynasty
 	rite = "kemetism"
 	culture = "butr"
 	dynasty = kec_dynasty_22
-	disallow_random_traits = yes
-
+	
 	-818.1.1 = { birth = yes }
 	-785.1.1 = { death = yes }
 }
@@ -1972,8 +2129,7 @@ kec_egypt_history_257 = { # Pami; Twenty-second Dynasty
 	rite = "kemetism"
 	culture = "butr"
 	dynasty = kec_dynasty_22
-	disallow_random_traits = yes
-
+	
 	-805.1.1 = { birth = yes }
 	-778.1.1 = { death = yes }
 }
@@ -1983,8 +2139,8 @@ kec_egypt_history_258 = { # Sheshonq; Twenty-second Dynasty
 	rite = "kemetism"
 	culture = "butr"
 	dynasty = kec_dynasty_22
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_257
+	
 	-785.1.1 = { birth = yes } #ascended 767 bce
 	-730.1.1 = { death = yes }
 }
@@ -1994,8 +2150,7 @@ kec_egypt_history_259 = { # Pedubast; Twenty-second Dynasty
 	rite = "kemetism"
 	culture = "butr"
 	dynasty = kec_dynasty_22
-	disallow_random_traits = yes
-
+	
 	-761.1.1 = { birth = yes } #ascended 743 bce
 	-733.1.1 = { death = yes }
 }
@@ -2005,8 +2160,8 @@ kec_egypt_history_260 = { # Osorkon; Twenty-second Dynasty
 	rite = "kemetism"
 	culture = "butr"
 	dynasty = kec_dynasty_22
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_258
+	
 	-746.1.1 = { birth = yes } #ascended 730 bce
 	-716.1.1 = { death = yes }
 }
@@ -2016,8 +2171,7 @@ kec_egypt_history_274 = { # Piye; Twenty-fifth Dynasty
 	rite = "kemetism"
 	culture = "nubian"
 	dynasty = kec_dynasty_25
-	disallow_random_traits = yes
-
+	
 	-767.1.1 = { birth = yes } #conquered lower egypt around 726
 	-714.1.1 = { death = yes }
 }
@@ -2027,8 +2181,8 @@ kec_egypt_history_275 = { # Shebitku; Twenty-fifth Dynasty
 	rite = "kemetism"
 	culture = "nubian"
 	dynasty = kec_dynasty_25
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_274
+	
 	-734.1.1 = { birth = yes }
 	-705.1.1 = { death = yes }
 }
@@ -2038,8 +2192,8 @@ kec_egypt_history_276 = { # Shabaka; Twenty-fifth Dynasty
 	rite = "kemetism"
 	culture = "nubian"
 	dynasty = kec_dynasty_25
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_273
+	
 	-725.1.1 = { birth = yes }
 	-690.1.1 = { death = yes }
 }
@@ -2049,9 +2203,9 @@ kec_egypt_history_277 = { # Taharqa; Twenty-fifth Dynasty
 	rite = "kemetism"
 	culture = "nubian"
 	dynasty = kec_dynasty_25
-	disallow_random_traits = yes
-
-	-710.1.1 = { birth = yes }
+	father = kec_egypt_history_274
+	
+	-720.1.1 = { birth = yes }
 	-664.1.1 = { death = yes }
 }
 
@@ -2060,9 +2214,9 @@ kec_egypt_history_278 = { # Tantamani; Twenty-fifth Dynasty
 	rite = "kemetism"
 	culture = "nubian"
 	dynasty = kec_dynasty_25
-	disallow_random_traits = yes
-
-	-684.1.1 = { birth = yes }#Takes control in 664.2.1
+	father = kec_egypt_history_276
+	
+	-691.1.1 = { birth = yes }#Takes control in 664.2.1
 	-656.1.1 = { death = yes }
 }
 
@@ -2071,8 +2225,7 @@ kec_egypt_history_281 = { # Psamtik; Twenty-sixth Dynasty
 	rite = "kemetism"
 	culture = "ancient_egyptian"
 	dynasty = kec_dynasty_26
-	disallow_random_traits = yes
-
+	
 	-684.1.1 = { birth = yes } #Takes control in 664.1.1, and regains in 663.6.1 
 	-610.1.1 = { death = yes }
 }
@@ -2082,9 +2235,9 @@ kec_egypt_history_282 = { # Necho; Twenty-sixth Dynasty
 	rite = "kemetism"
 	culture = "ancient_egyptian"
 	dynasty = kec_dynasty_26
-	disallow_random_traits = yes
-
-	-630.1.1 = { birth = yes }
+	father = kec_egypt_history_281
+	
+	-636.1.1 = { birth = yes }
 	-595.1.1 = { death = yes }
 }
 
@@ -2093,8 +2246,8 @@ kec_egypt_history_283 = { # Psamtik; Twenty-sixth Dynasty
 	rite = "kemetism"
 	culture = "ancient_egyptian"
 	dynasty = kec_dynasty_26
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_282
+	
 	-613.1.1 = { birth = yes }
 	-589.1.1 = { death = yes }
 }
@@ -2104,8 +2257,8 @@ kec_egypt_history_284 = { # Apries; Twenty-sixth Dynasty
 	rite = "kemetism"
 	culture = "ancient_egyptian"
 	dynasty = kec_dynasty_26
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_283
+	
 	-599.1.1 = { birth = yes }
 	-570.1.1 = { death = yes }
 }
@@ -2115,8 +2268,7 @@ kec_egypt_history_285 = { # Amasis; Twenty-sixth Dynasty
 	rite = "kemetism"
 	culture = "ancient_egyptian"
 	dynasty = kec_dynasty_26
-	disallow_random_traits = yes
-
+	
 	-590.1.1 = { birth = yes }
 	-526.1.1 = { death = yes }
 }
@@ -2126,75 +2278,180 @@ kec_egypt_history_286 = { # Psamtik; Twenty-sixth Dynasty
 	rite = "kemetism"
 	culture = "ancient_egyptian"
 	dynasty = kec_dynasty_26
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_285
+	
 	-546.1.1 = { birth = yes }
 	-525.1.1 = { death = yes }
 }
 
-kec_egypt_history_287 = { # Cambyses; Twenty-seventh Dynasty
-	name = Cambyses
+kec_egypt_history_11287 = { # Achaemenes I
+	name = Haxamanish
 	rite = "mazdayasna"
 	culture = "persian"
 	dynasty = kec_dynasty_27
-	disallow_random_traits = yes
+	
+	-720.1.1 = { birth = yes }
+	-675.1.1 = { death = yes }
+}
 
-	-556.1.1 = { birth = yes } #takes egypt in 525 bce, lost in 522 bce
+kec_egypt_history_12287 = { # Teispes I
+	name = Chishpish
+	rite = "mazdayasna"
+	culture = "persian"
+	dynasty = kec_dynasty_27
+	father = kec_egypt_history_11287
+	
+	-690.1.1 = { birth = yes }
+	-640.1.1 = { death = yes }
+}
+
+
+kec_egypt_history_13287 = { # Cyrus I
+	name = Kurush
+	rite = "mazdayasna"
+	culture = "persian"
+	dynasty = kec_dynasty_27
+	father = kec_egypt_history_12287
+	
+	-658.1.1 = { birth = yes }
+	-600.1.1 = { death = yes }
+}
+
+kec_egypt_history_14287 = { # Cambyses I
+	name = Kambujiya
+	rite = "mazdayasna"
+	culture = "persian"
+	dynasty = kec_dynasty_27
+	father = kec_egypt_history_13287
+	
+	-600.1.1 = { birth = yes }
+	-559.1.1 = { death = yes }
+}
+
+kec_egypt_history_15287 = { # Cyrus II (of persian kingdom - Ist of empire) the Great
+	name = Kurush
+	rite = "mazdayasna"
+	culture = "persian"
+	give_nickname = nick_the_great
+	dynasty = kec_dynasty_27
+	father = kec_egypt_history_14287
+	
+	-580.1.1 = { birth = yes }
+	-528.1.1 = { death = yes }
+}
+
+
+kec_egypt_history_287 = { # Cambyses II; Twenty-seventh Dynasty
+	name = Kambujiya # Kambiz in modern persian
+	rite = "mazdayasna"
+	culture = "persian"
+	dynasty = kec_dynasty_27
+	father = kec_egypt_history_15287
+	
+	-566.1.1 = { birth = yes } #takes egypt in 525 bce, lost in 522 bce
 	-522.1.1 = { death = yes }
 }
 
-kec_egypt_history_288 = { # Darius; Twenty-seventh Dynasty
-	name = Dariush
+kec_egypt_history_16287 = { # Princess Atossa
+	name = Utautha
+	rite = "mazdayasna"
+	culture = "persian"
+	female = yes
+	dynasty = kec_dynasty_27
+	father = kec_egypt_history_15287
+	
+	-564.1.1 = { birth = yes } 
+	-522.1.1 = { death = yes }
+}
+
+kec_egypt_history_11288 = { # Ariaramnes
+	name = Ariyaramna
 	rite = "mazdayasna"
 	culture = "persian"
 	dynasty = kec_dynasty_27
-	disallow_random_traits = yes
+	father = kec_egypt_history_12287
+	
+	-658.1.1 = { birth = yes }
+	-600.1.1 = { death = yes }
+}
 
-	-550.9.1 = { birth = yes } #retakes egypt in 518 bce
+kec_egypt_history_12288 = { # Arsames
+	name = Arshama
+	rite = "mazdayasna"
+	culture = "persian"
+	dynasty = kec_dynasty_27
+	father = kec_egypt_history_11288
+	
+	-600.1.1 = { birth = yes }
+	-559.1.1 = { death = yes }
+}
+
+kec_egypt_history_13288 = { # Hystaspes
+	name = Vishtaspa
+	rite = "mazdayasna"
+	culture = "persian"
+	dynasty = kec_dynasty_27
+	father = kec_egypt_history_12288
+
+	-580.1.1 = { birth = yes }
+	-528.1.1 = { death = yes }
+}
+
+kec_egypt_history_288 = { # Darius I; Twenty-seventh Dynasty
+	name = Darayavaush # Dariush in modern persian
+	rite = "mazdayasna"
+	culture = "persian"
+	give_nickname = nick_the_great
+	dynasty = kec_dynasty_27
+	father = kec_egypt_history_13288
+	mother = kec_egypt_history_16287
+	
+	-545.9.1 = { birth = yes } #retakes egypt in 518 bce
 	-486.10.1 = { death = yes }
 }
 
-kec_egypt_history_289 = { # Xerxes; Twenty-seventh Dynasty
-	name = Xerxes
+kec_egypt_history_289 = { # Xerxes I; Twenty-seventh Dynasty
+	name = Xshayarsha # Khashayar in modern persian
 	rite = "mazdayasna"
 	culture = "persian"
+	give_nickname = nick_the_great
 	dynasty = kec_dynasty_27
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_288
+	
 	-518.10.1 = { birth = yes }
 	-465.8.1 = { death = yes }
 }
 
-kec_egypt_history_290 = { # Artaxerxes; Twenty-seventh Dynasty
-	name = Artaxerxes
+kec_egypt_history_290 = { # Artaxerxes I; Twenty-seventh Dynasty
+	name = Artaxshaca # Ardashir in modern persian
 	rite = "mazdayasna"
 	culture = "persian"
 	dynasty = kec_dynasty_27
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_289
+	
 	-485.1.1 = { birth = yes }
 	-424.12.1 = { death = yes }
 }
 
-kec_egypt_history_291 = { # Darius; Twenty-seventh Dynasty
-	name = Dariush
+kec_egypt_history_291 = { # Darius II; Twenty-seventh Dynasty
+	name = Darayavaush
 	rite = "mazdayasna"
 	culture = "persian"
 	dynasty = kec_dynasty_27
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_290
+	
 	-454.1.1 = { birth = yes }
 	-404.1.1 = { death = yes }
 }
 
-kec_egypt_history_292 = { # Artaxerxes; Twenty-seventh Dynasty
-	name = Artaxerxes
+kec_egypt_history_292 = { # Artaxerxes II; Twenty-seventh Dynasty
+	name = Artaxshaca
 	rite = "mazdayasna"
 	culture = "persian"
 	dynasty = kec_dynasty_27
-	disallow_random_traits = yes
-
-	-436.1.1 = { birth = yes }
+	father = kec_egypt_history_291
+	
+	-439.1.1 = { birth = yes }
 	-358.4.1 = { death = yes }
 }
 
@@ -2203,8 +2460,7 @@ kec_egypt_history_293 = { # Amyrtaeus; Twenty-eighth Dynasty
 	rite = "kemetism"
 	culture = "ancient_egyptian"
 	dynasty = kec_dynasty_28
-	disallow_random_traits = yes
-
+	
 	-424.1.1 = { birth = yes } #ascends 404 bce
 	-399.10.1 = { death = yes }
 }
@@ -2214,9 +2470,8 @@ kec_egypt_history_294 = { # Nepherites; Twenty-ninth Dynasty
 	rite = "kemetism"
 	culture = "ancient_egyptian"
 	dynasty = kec_dynasty_29
-	disallow_random_traits = yes
-
-	-419.1.1 = { birth = yes }
+	
+	-470.1.1 = { birth = yes }
 	-393.1.1 = { death = yes }
 }
 
@@ -2225,10 +2480,21 @@ kec_egypt_history_295 = { # Psammuthes; Twenty-ninth Dynasty
 	rite = "kemetism"
 	culture = "ancient_egyptian"
 	dynasty = kec_dynasty_29
-	disallow_random_traits = yes
-
-	-419.1.1 = { birth = yes }
+	father = kec_egypt_history_294
+	
+	-460.1.1 = { birth = yes }
 	-393.3.1 = { death = yes }
+}
+
+kec_egypt_history_11296 = { # Achoris fictional father 
+	name = kmt_Nakhtnebef
+	rite = "kemetism"
+	culture = "ancient_egyptian"
+	dynasty = kec_dynasty_29
+	father = kec_egypt_history_294
+	
+	-440.1.1 = { birth = yes }
+	-410.1.1 = { death = yes }
 }
 
 kec_egypt_history_296 = { # Achoris; Twenty-ninth Dynasty
@@ -2236,8 +2502,8 @@ kec_egypt_history_296 = { # Achoris; Twenty-ninth Dynasty
 	rite = "kemetism"
 	culture = "ancient_egyptian"
 	dynasty = kec_dynasty_29
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_11296
+	
 	-419.1.1 = { birth = yes }
 	-380.1.1 = { death = yes }
 }
@@ -2247,8 +2513,8 @@ kec_egypt_history_297 = { # Nefaarud; Twenty-ninth Dynasty
 	rite = "kemetism"
 	culture = "ancient_egyptian"
 	dynasty = kec_dynasty_29
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_296
+	
 	-400.1.1 = { birth = yes }
 	-380.6.1 = { death = yes }
 }
@@ -2258,8 +2524,8 @@ kec_egypt_history_298 = { # Nectanebo; Twenty-ninth Dynasty
 	rite = "kemetism"
 	culture = "ancient_egyptian"
 	dynasty = kec_dynasty_30
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_296
+	
 	-400.1.1 = { birth = yes }
 	-362.1.1 = { death = yes }
 }
@@ -2269,8 +2535,8 @@ kec_egypt_history_299 = { # Teos; Twenty-ninth Dynasty
 	rite = "kemetism"
 	culture = "ancient_egyptian"
 	dynasty = kec_dynasty_30
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_296
+	
 	-382.1.1 = { birth = yes }
 	-360.1.1 = { death = yes }
 }
@@ -2280,41 +2546,76 @@ kec_egypt_history_300 = { # Nectanebo; Twenty-ninth Dynasty
 	rite = "kemetism"
 	culture = "ancient_egyptian"
 	dynasty = kec_dynasty_30
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_296
+	
 	-380.1.1 = { birth = yes }
 	-343.1.1 = { death = yes }
 }
 
 kec_egypt_history_301 = { # Artaxerxes III; Twenty-seventh Dynasty
-	name = Artaxerxes
+	name = Artaxshaca
 	rite = "mazdayasna"
 	culture = "persian"
 	dynasty = kec_dynasty_27
-	disallow_random_traits = yes
-
-	-370.1.1 = { birth = yes } #Conquered 343 bce
+	father = kec_egypt_history_292
+	
+	-410.1.1 = { birth = yes } #Conquered 343 bce
 	-338.9.1 = { death = yes }
 }
 
-kec_egypt_history_302 = { # Artaxerxes IV - Arses; Twenty-seventh Dynasty
-	name = Artaxerxes
+kec_egypt_history_302 = { # Artaxerxes IV; Twenty-seventh Dynasty
+	name = Artaxshaca
 	rite = "mazdayasna"
 	culture = "persian"
 	dynasty = kec_dynasty_27
-	disallow_random_traits = yes
-
+	father = kec_egypt_history_301
+	
 	-349.1.1 = { birth = yes } 
 	-336.1.1 = { death = yes }
 }
 
-kec_egypt_history_303 = { # Darius III; Twenty-seventh Dynasty
-	name = Dariush
+kec_egypt_history_11303 = { # Sisygambis
+	name = Chithrakambujiya
+	rite = "mazdayasna"
+	culture = "persian"
+	female = yes
+	dynasty = kec_dynasty_27
+	father = kec_egypt_history_292
+
+	-407.1.1 = { birth = yes } 
+	-323.1.1 = { death = yes }
+}
+
+kec_egypt_history_12303 = { # Ostanes
+	name = Hushtana
 	rite = "mazdayasna"
 	culture = "persian"
 	dynasty = kec_dynasty_27
-	disallow_random_traits = yes
+	father = kec_egypt_history_291
+	
+	-420.1.1 = { birth = yes }
+	-358.4.1 = { death = yes }
+}
 
+kec_egypt_history_13303 = { # Arsames
+	name = Arshama
+	rite = "mazdayasna"
+	culture = "persian"
+	dynasty = kec_dynasty_27
+	father = kec_egypt_history_12303
+	
+	-400.1.1 = { birth = yes } 
+	-340.1.1 = { death = yes }
+}
+
+kec_egypt_history_303 = { # Darius III; Twenty-seventh Dynasty
+	name = Darayavaush
+	rite = "mazdayasna"
+	culture = "persian"
+	dynasty = kec_dynasty_27
+	father = kec_egypt_history_13303
+	mother = kec_egypt_history_11303
+	
 	-380.1.1 = { birth = yes } 
 	-330.1.1 = { death = yes }
 }

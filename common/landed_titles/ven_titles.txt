@@ -159,6 +159,29 @@ e_italy = {
 					    }	
 					}
 				}
+
+				c_gorz = {
+					color = { 180 255 200 }
+
+					cultural_names = {
+						name_list_swabian = cn_gorz
+						name_list_swabian = cn_gorz
+						name_list_franconian = cn_gorz
+						name_list_bavarian = cn_gorz
+						name_list_saxon = cn_gorz
+					}
+
+					b_gorizia = {
+						province = 2516
+
+						color = { 180 255 200 }
+					}
+					b_triglavski = { #Tricorno
+						province = 2515
+
+						color = { 180 255 200 }
+					}
+				}
 			}
 		
 			d_verona = {
@@ -194,6 +217,16 @@ e_italy = {
 					    	name_list_wyntish = cn_b_verona_wyntish
 					    	name_list_wyntish_venetians = cn_b_verona_wyntish
 					    }					
+					}
+					b_lessinia = {
+						province = 2502
+
+						color = { 150 245 210 }
+					}
+					b_garda = {
+						province = 2496
+
+						color = { 150 245 210 }
 					}
 				}
 		
@@ -356,6 +389,21 @@ e_italy = {
 					cultural_names = {
 						name_list_venetic_culture = cn_b_istria_venetic
 					}
+				}
+				b_piran = {
+					province = 2519
+
+					color = { 75 110 105 }
+				}
+				b_pazin = {
+					province = 2520
+
+					color = { 75 110 105 }
+				}
+				b_labin = {
+					province = 2522
+
+					color = { 75 110 105 }
 				}
 			}
 		}

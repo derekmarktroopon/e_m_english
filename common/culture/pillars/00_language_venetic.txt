@@ -730,7 +730,10 @@ language_steppe_venetic = {
 				}
 				scope:character = { 
 					culture = {
-						has_name_list = language_steppe_venetic
+						OR = {
+							has_name_list = name_list_venetic_turkic
+							has_name_list = name_list_venetic_mongol
+						}
 					}
 				}
 			}

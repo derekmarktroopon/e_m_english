@@ -1,0 +1,290 @@
+﻿@smErmine = 0.27
+@smLysX = 0.23
+@smLysY = 0.26
+
+# ce_religion_kushism - wolf head
+# ce_religion_custom_faith_9 - Egyptian cat
+# ce_african_yoruba_snake - snake
+
+kec_dynasty_00 = { # Dynasty zero
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_falcon.dds"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "blue"
+	}
+}
+
+kec_dynasty_01 = { # First Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_fish.dds"
+		color1 = "yellow_light"
+		color2 = "red"
+		color3 = "red"
+	}
+}
+
+kec_dynasty_02 = { # Second Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "green"
+
+	colored_emblem = {
+		texture = "ce_persian_bull.dds"
+		color1 = "white"
+		color2 = "white"
+		color3 = "green"
+	}
+}
+
+kec_dynasty_03 = { # Third Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_hand.dds"
+		color1 = "yellow"
+	}
+}
+
+kec_dynasty_04 = { # Fourth Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_ram_horn.dds"
+		color1 = "blue"
+	}
+}
+
+kec_dynasty_05 = { # fifth Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_eastern_sun.dds"
+		color1 = "red"
+		color2 = "yellow"
+	}
+}
+
+kec_dynasty_06 = { # Sixth Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "green"
+
+	colored_emblem = {
+		texture = "ce_mena_polo_stick.dds"
+		color1 = "white"
+	}
+}
+
+kec_dynasty_08 = { # Eighth Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_religion_kushism.dds"
+		color1 = "red"
+	}
+}
+
+kec_dynasty_09 = { # Ninth Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_polo_sticks.dds"
+		color1 = "white"
+		color2 = "green"
+	}
+}
+
+kec_dynasty_10 = { # Tenth Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_palm_tree.dds"
+		color1 = "yellow"
+	}
+}
+
+kec_dynasty_11 = { # Eleventh Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_persian_lion.dds"
+		color1 = "green"
+		color2 = "blue"
+		color3 = "yellow"
+	}
+}
+
+kec_dynasty_12 = { # Twelfth Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_kamon_stroke.dds"
+		color1 = "blue"
+	}
+}
+
+kec_dynasty_13 = { # thirteenth Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_religion_custom_faith_9.dds"
+		color1 = "white"
+	}
+}
+
+kec_dynasty_15 = { # Hyskos Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "purple"
+
+	colored_emblem = {
+		texture = "ce_goat_02.dds"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "purple"
+	}
+}
+
+kec_dynasty_16 = { # Sixteenth Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_mena_polo_stick.dds"
+		color1 = "yellow_light"
+	}
+}
+
+
+kec_dynasty_18 = { # Eighteenth Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_moon_sun.dds"
+		color1 = "white"
+		color2 = "yellow"
+	}
+}
+
+kec_dynasty_19 = { # Nineteenth Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_religion_custom_faith_9.dds"
+		color1 = "white"
+	}
+}
+
+kec_dynasty_20 = { # Twentieth Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_persian_bull.dds"
+		color1 = "blue"
+		color2 = "blue"
+		color3 = "white"
+	}
+}
+
+kec_dynasty_21 = { # Twenty-first
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_falcon.dds"
+		color1 = "blue"
+		color2 = "yellow"
+		color3 = "white"
+	}
+}
+
+kec_dynasty_22 = { # Twenty-Second
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_ram_horn.dds"
+		color1 = "yellow_light"
+	}
+}
+
+kec_dynasty_25 = { # Twenty-fifth
+	pattern = "pattern_solid.dds"
+	color1 = "yellow_light"
+
+	colored_emblem = {
+		texture = "ce_religion_kushism.dds"
+		color1 = "black"
+	}
+}
+
+kec_dynasty_26 = { # Twenty-sixth
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_palm_tree.dds"
+		color1 = "red"
+	}
+}
+
+kec_dynasty_27 = { # Achaemenids
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_shahbaz.dds"
+		color1 = "yellow"
+		color2 = "blue"
+		color3 = "white"
+	}
+}
+
+kec_dynasty_28 = { # Twenty-eighth
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_moon_sun.dds"
+		color1 = "blue"
+		color2 = "white"
+	}
+}
+
+kec_dynasty_29 = { # Twenty-ninth
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_persian_bull.dds"
+		color1 = "white"
+		color2 = "white"
+		color3 = "red"
+	}
+}
+
+kec_dynasty_30 = { # Thirtieth
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_african_yoruba_snake.dds"
+		color1 = "white"
+	}
+}

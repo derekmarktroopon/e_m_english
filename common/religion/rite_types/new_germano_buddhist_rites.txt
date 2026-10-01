@@ -5,7 +5,7 @@ indo_germanic_buddhism = {
 
 	tenets = {
 		tenet_ritual_celebrations
-		tenet_monasticism
+		tenet_unrelenting_faith
 		tenet_unreformed_syncretism
 	}
 

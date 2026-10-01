@@ -66,11 +66,6 @@ kec_dynasty_13 = {
 	culture = "ancient_egyptian"
 }
 
-kec_dynasty_14 = {
-	name = "dynn_kec_ancient_egypt_14"
-	culture = "levantine"
-}
-
 kec_dynasty_15 = {
 	name = "dynn_kec_ancient_egypt_15"
 	culture = "levantine"
@@ -78,16 +73,6 @@ kec_dynasty_15 = {
 
 kec_dynasty_16 = {
 	name = "dynn_kec_ancient_egypt_16"
-	culture = "ancient_egyptian"
-}
-
-kec_dynasty_abydos = {
-	name = "dynn_kec_ancient_egypt_abydos"
-	culture = "ancient_egyptian"
-}
-
-kec_dynasty_17 = {
-	name = "dynn_kec_ancient_egypt_17"
 	culture = "ancient_egyptian"
 }
 
@@ -113,16 +98,6 @@ kec_dynasty_21 = {
 
 kec_dynasty_22 = {
 	name = "dynn_kec_ancient_egypt_22"
-	culture = "butr"
-}
-
-kec_dynasty_23 = {
-	name = "dynn_kec_ancient_egypt_23"
-	culture = "butr"
-}
-
-kec_dynasty_24 = {
-	name = "dynn_kec_ancient_egypt_24"
 	culture = "butr"
 }
 
@@ -156,13 +131,5 @@ kec_dynasty_30 = {
 	culture = "ancient_egyptian"
 }
 
-kec_dynasty_31 = {
-	name = "dynn_kec_ancient_egypt_31"
-	culture = "persian"
-}
 
-kec_dynasty_khababash = {
-	name = "dynn_kec_ancient_egypt_khababash"
-	culture = "ancient_egyptian"
-}
 

@@ -14,12 +14,8 @@
 		konarak
 	}
 
-	#doctrine = tenet_reincarnation
-	#doctrine = tenet_warmonger
-	#doctrine = tenet_monasticism
-
 	doctrines = {
-		doctrine = doctrine_deviancy_accepted
+		doctrine_deviancy_accepted
 	}
 
 	localization = {

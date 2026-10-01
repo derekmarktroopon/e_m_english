@@ -28,7 +28,6 @@ raetic_pagan = {
 
 	doctrines = {
 		unreformed_faith_doctrine
-		doctrine_pilgrimage_encouraged
 		doctrine_funeral_cremation
 	}
 			
@@ -97,6 +96,7 @@ raetic_pagan = {
 		ReligiousText2 = camunic_religious_text
 		ReligiousText3 = camunic_religious_text
 		ReligiousHeadName = camunic_religious_head_title
+		ReligiousHeadNameFemale = camunic_religious_head_title
 		ReligiousHeadTitleName = camunic_religious_head_title_name
 		DevoteeMale = camunic_devotee
 		DevoteeMalePlural = camunic_devoteeplural
@@ -242,6 +242,7 @@ venetic_paganism = {
 		ReligiousSymbol = venetic_nature
 		ReligiousText = reitian_bible
 		ReligiousHeadName = reitian_high_priest
+		ReligiousHeadNameFemale = reitian_high_priest
 		ReligiousHeadTitleName = reitian_high_circle
 		DevoteeMale = paganism_devotee
 		DevoteeMalePlural = paganism_devoteeplural

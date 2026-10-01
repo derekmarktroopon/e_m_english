@@ -1819,7 +1819,6 @@ christian_male = { Chrestien Christian Cristiano Kersten Kristian Krystyn Chrest
 christopher_male = { Cristofalo Cristofolo Christoffer Christophe Christopher Christophoros Cristoforo CristO_furu Cristolu Kristof Kristofor Krystafer Krzysztof Risto jp_Kurisutofu jp2_Curisutoheru Cristofur }
 claudius_male = { Claude Claudio ClA_udiu Claudius Glywys Claudi jp_Kuro_jiu jp2_Curaudziu }
 clement_male = { ClamenC_ Clemen Clemence Clemens Clement Clemente Climent Climenti Kliment jp2_Curemensu Cloov }
-cyrus_male = { Ciro Cyrus Kurian KU_ruS_E_ Kurush jp2_Sciru }
 daniel_male = { Danail Danelu Daniel DaniE_l Danieli Daniil Danilo Daniyel Danyal Dan gls_Dan Deiniol Deinyil Deniel Taniel jp2_Danieru Denyool Deiniel }
 dionysus_male = { Dionisio Danis Denys Dinis Dionigi Dionisii DiO_nisios Dioniso Dionisi Dionysios Dionysus Dionys Denis dmt_Dionysios cpt_Dionesios jp_Jionishiyu jp2_Dzionisciu }
 dominic_male = { Domenego DomE_nico Domenigo Dominic Domingo Domingu Dominigu Dominik DumI_nicu jp_Dominiku jp2_Dominicu }
@@ -2005,3 +2004,11 @@ Mitsuko_female = { Mitsuko Mitsuko_2 Mitsuko_3 jp_Mituca }
 Nagiko_female = { Nagiko jp_Naghica }
 Kaoruko_female = { Kaoruko Kaoruko_2 jp_Cooruca }
 
+# Old iranian names 
+
+ardashir_male = { Ardashir Artaxshaca Artaxerxes }
+cyrus_male = { Ciro Cyrus Kurian KU_ruS_E_ Kurush jp2_Sciru }
+cambyses_male = { Kambiz Cambyses Kambujiya }
+darius_male = { Darius Dariush DaryU_S_ Darayavaush }
+goshtasb_male = { Goshtasb GoS_tasp Vishtaspa Hystaspes }
+khashayar_male = { Khashayar XaS_ayar Xshayarsha Xerxes }

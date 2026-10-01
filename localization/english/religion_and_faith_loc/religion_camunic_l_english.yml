@@ -100,6 +100,7 @@ l_english:
  camunic_house_of_worship_plural:0 "Temples of the Rosa Camuna"
 
  camunic_pagan:0 "Camunism"
+ camunic_pagan_desc:0 "The faith of the Old Camunians is said to echo that of their northern Raeti cousins, though theirs lacks the carved megaliths and ritual stoneworks of the Camuni. In an age of foreign domination, the carved rose of the Camuni echoes ancient gods and an acient past."
  camunic_pagan_adj:0 "Camunic"
  camunic_pagan_adherent:0 "Camunist"
  camunic_pagan_adherent_plural:0 "Camunists"

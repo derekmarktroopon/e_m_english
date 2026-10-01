@@ -34,8 +34,10 @@ unite_anglosaxon_cultures_decision = {
 		NOT = {
 			culture:anglo_saxon = {
 				any_culture_county = {
-					count >= 1
-					any_de_jure_top_liege = { this = title:k_england }
+					any_county_province = {
+						count >= 1
+						geographical_region = world_europe_west_britannia
+					}
 				}
 			}
 		}

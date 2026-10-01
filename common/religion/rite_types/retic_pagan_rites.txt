@@ -3,7 +3,6 @@
 	desc = raetic_pagan_desc
 	faith = raetic_pagan
 	icon = raetic
-	reformed_icon = raetic_reformed
 
 	color = { 194 222 53 }
 
@@ -26,7 +25,6 @@ venetic_paganism = {
 	desc = venetic_paganism_desc
 	faith = venetic_paganism
 	icon = venetic
-	reformed_icon = venetic_reformed
 
 	color = { 92 240 242 }
 
@@ -51,18 +49,6 @@ camunic_pagan = {
 
 	color = { 194 222 53 }
 	icon = camunic
-	reformed_icon = camunic
-
-	eminent_holy_sites = {
-		trent
-		innsbruck
-	}
-
-	holy_sites = {
-		brescia
-		friuli
-		volterra
-	}
 
 	tenets = {
 		tenet_communal_identity
@@ -94,12 +80,12 @@ camunic_pagan = {
 		doctrine_pilgrimage_encouraged
 	}
 
-	holy_order_names = {
-		{ name = "holy_order_rosa_camuna" }
-		{ name = "holy_order_faithful_of_reitia" }
-		{ name = "holy_order_warriors_of_kernunnus" }
-		{ name = "holy_order_guardians_of_the_realm_of_the_rose" }
-	}
+	#holy_order_names = {
+	#	{ name = "holy_order_rosa_camuna" }
+	#	{ name = "holy_order_faithful_of_reitia" }
+	#	{ name = "holy_order_warriors_of_kernunnus" }
+	#	{ name = "holy_order_guardians_of_the_realm_of_the_rose" }
+	#}
 
 	localization = {
 		#HighGodName
@@ -256,7 +242,7 @@ camunic_pagan = {
 		GHWNamePlural = ghw_great_holy_wars
 	}
 
-	cultures = { camunian }
+	cultures = { camunic }
 
 }
 
@@ -265,7 +251,7 @@ cult_of_reitia_paganism = {
 	desc = cult_of_reitia_paganism_desc
 	faith = venetic_paganism
 	icon = reitian
-	reformed_icon = reitian_reformed
+	# reformed_icon = reitian_reformed
 
 	color = { 117 168 108 }
 

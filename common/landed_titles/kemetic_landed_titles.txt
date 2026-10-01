@@ -42,7 +42,7 @@
 							culture = culture:predynastic_egyptian
 							culture = culture:middle_egyptian
 							culture = culture:ancient_egyptian
-							culture = culture:coptic													
+							culture = culture:coptic_culture													
 						}
 					}
 					add = @correct_culture_primary_score
@@ -64,6 +64,68 @@
 							name_list_coptic = cn_b_barqa-al-marj_coptic
 						}	
 						color = { 34 152 65 }
+					}
+					b_wadi_masus = {
+						province = 6102
+
+						color = { 34 152 65 }
+					}
+					b_jabal_al-gharbi = {
+						province = 6103
+
+						color = { 34 152 65 }
+					}
+					b_benghazi = {
+						province = 6105
+
+						color = { 34 152 65 }
+					}
+				}
+				c_awjila = {
+					color = { 36 154 67 }
+
+					b_awjila = {
+						province = 6106
+
+						color = { 36 154 67 }
+					}
+					b_jalu = {
+						province = 6107
+
+						color = { 36 154 67 }
+					}
+					b_jakharrad = {
+						province = 6108
+
+						color = { 36 154 67 }
+					}
+				}
+				c_derna = {
+					color = { 38 156 69 }
+
+					b_derna = {
+						province = 6099
+
+						color = { 38 156 69 }
+					}
+					b_wadi_makhil = {
+						province = 6100
+
+						color = { 38 156 69 }
+					}
+					b_marawa = {
+						province = 6101
+
+						color = { 38 156 69 }
+					}
+				}
+				c_tobruk = {
+					color = { 40 158 71 }
+
+					b_tobruk = {
+						province = 6098
+
+						color = { 40 158 71 }
 					}
 				}
 			}

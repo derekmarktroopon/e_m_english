@@ -2,9 +2,6 @@
 	867.1.1 = {	change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
 	1178.1.1 = { change_development_level = 14 }
-	# V7: compressed pre-Christian royal succession for regnal numbering
-	# Every listed ruler holds k_egypt for exactly one year; the title is cleared afterward.
-	# Egyptian
 	-3200.1.1 = { holder = kec_egypt_history_001 } # Iry-Hor I
 	-3175.1.1 = { holder = kec_egypt_history_002 } # Ka I
 	-3100.1.1 = { holder = kec_egypt_history_003 } # Narmer I
@@ -142,7 +139,8 @@
 	-1503.1.1 = { holder = kec_egypt_history_211 } # Thutmose I
 	-1493.1.1 = { holder = kec_egypt_history_212 } # Thutmose II
 	-1479.1.1 = { holder = kec_egypt_history_213 } # Hatshepsut I
-	-1458.1.1 = { holder = kec_egypt_history_215 } # Amenhotep II
+	-1458.1.1 = { holder = kec_egypt_history_214 } # Thutmose II
+	-1425.1.1 = { holder = kec_egypt_history_215 } # Amenhotep II
 	-1397.1.1 = { holder = kec_egypt_history_216 } # Thutmose IV
 	-1388.1.1 = { holder = kec_egypt_history_217 } # Amenhotep III
 	-1351.1.1 = { holder = kec_egypt_history_218 } # Amenhotep IV

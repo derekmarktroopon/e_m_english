@@ -290,14 +290,18 @@ kemetic_revival_event.4 = { #Diciphering the heiroglyphs
 						add = 15
 						OR = {
 							has_trait = lifestyle_mystic
-							has_trait = scholar
+							has_trait = scholarly_court
+							has_trait = scholarly_court_1
+							has_trait = scholarly_court_2
 						}
 					}
 					modifier = {
 						add = 15
 		                any_learning_councillor = { 
 							OR = { 
-								has_trait = scholar 
+								has_trait = scholarly_court
+								has_trait = scholarly_court_1
+								has_trait = scholarly_court_2
 								has_trait = lifestyle_mystic 
 							} 
 						}

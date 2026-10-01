@@ -25,9 +25,6 @@ indo_germanic_buddhism = {
 		doctrine_deviancy_accepted
 		doctrine_witchcraft_accepted
 		doctrine_funeral_cremation
-		#tenet_ritual_celebrations
-		#tenet_monasticism
-		#tenet_unreformed_syncretism
 		special_doctrine_immaterial_harmony
 	}
 
