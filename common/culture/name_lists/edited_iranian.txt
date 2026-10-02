@@ -1,11 +1,11 @@
 ﻿name_list_old_persian = {
 
 	cadet_dynasty_names = {
-		dynn_Artavazdanah dynn_Haxamanish dynn_Hutanaiya dynn_Aspacanaya dynn_Gaubaruviya dynn_Vindafarniya dynn_Bagabuxshiya dynn_Vidrnaya dynn_Darayavaushiya dynn_Mrduniyanah dynn_Pathragada dynn_Marafiya dynn_Martiya dynn_Asagartiya
+		dynn_Artavazdanah dynn_Haxamanishiya dynn_Hutanaiya dynn_Aspacanaya dynn_Gaubaruviya dynn_Vindafarniya dynn_Bagabuxshiya dynn_Vidrnaya dynn_Darayavaushiya dynn_Mrduniyanah dynn_Pathragada dynn_Marafiya dynn_Martiya dynn_Asagartiya
 	}
 
 	dynasty_names = {
-		dynn_Artavazdanah dynn_Haxamanish dynn_Hutanaiya dynn_Aspacanaya dynn_Gaubaruviya dynn_Vindafarniya dynn_Bagabuxshiya dynn_Vidrnaya dynn_Darayavaushiya dynn_Mrduniyanah dynn_Pathragada dynn_Marafiya dynn_Martiya dynn_Asagartiya
+		dynn_Artavazdanah dynn_Haxamanishiya dynn_Hutanaiya dynn_Aspacanaya dynn_Gaubaruviya dynn_Vindafarniya dynn_Bagabuxshiya dynn_Vidrnaya dynn_Darayavaushiya dynn_Mrduniyanah dynn_Pathragada dynn_Marafiya dynn_Martiya dynn_Asagartiya
 	}
 
 
@@ -38,11 +38,11 @@
 name_list_late_old_persian = {
 
 	cadet_dynasty_names = {
-		dynn_Artavazdanah dynn_Haxamanish dynn_Hutanaiya dynn_Aspacanaya dynn_Gaubaruviya dynn_Vindafarniya dynn_Bagabuxshiya dynn_Vidrnaya dynn_Darayavaushiya dynn_Mrduniyanah dynn_Pathragada dynn_Marafiya dynn_Martiya dynn_Asagartiya
+		dynn_Artavazdanah dynn_Haxamanishiya dynn_Hutanaiya dynn_Aspacanaya dynn_Gaubaruviya dynn_Vindafarniya dynn_Bagabuxshiya dynn_Vidrnaya dynn_Darayavaushiya dynn_Mrduniyanah dynn_Pathragada dynn_Marafiya dynn_Martiya dynn_Asagartiya
 	}
 
 	dynasty_names = {
-		dynn_Artavazdanah dynn_Haxamanish dynn_Hutanaiya dynn_Aspacanaya dynn_Gaubaruviya dynn_Vindafarniya dynn_Bagabuxshiya dynn_Vidrnaya dynn_Darayavaushiya dynn_Mrduniyanah dynn_Pathragada dynn_Marafiya dynn_Martiya dynn_Asagartiya
+		dynn_Artavazdanah dynn_Haxamanishiya dynn_Hutanaiya dynn_Aspacanaya dynn_Gaubaruviya dynn_Vindafarniya dynn_Bagabuxshiya dynn_Vidrnaya dynn_Darayavaushiya dynn_Mrduniyanah dynn_Pathragada dynn_Marafiya dynn_Martiya dynn_Asagartiya
 	}
 
 	male_names = {
