@@ -1781,7 +1781,7 @@ c_hamadan = {
 		holder = extra_bedouins_0022 #Banu Salama elder (Historical tax collector in Hamadan until mid-9th century)
 	}
 	815.1.1 = {
-		holder = extra_bedouins_0023 #Banu Salama elder (Historical tax collector in Hamadan until mid-9th century). Other clans in the area at the time were the Banu Ḥanẓala and Banu Johayna.
+		holder = extra_bedouins_0023 #Banu Salama elder (Historical tax collector in Hamadan until mid-9th century). Other clans in the area at the time were the Banu ?an?ala and Banu Johayna.
 	}
 	1041.1.1 = {
 		holder = 1231054 #Garshasp Kayukid 

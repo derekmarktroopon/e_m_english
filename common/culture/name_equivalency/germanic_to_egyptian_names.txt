@@ -2006,9 +2006,36 @@ Kaoruko_female = { Kaoruko Kaoruko_2 jp_Cooruca }
 
 # Old iranian names 
 
-ardashir_male = { Ardashir Artaxshaca Artaxerxes }
+
+ardashir_male = { Ardashir Artaxshacah Artaxerxes }
+ardavan_male = { Ardavan Artivan Erdewan Artabanush }
+arshak_male = { Arshak Arshakah }
+artavazd_male = { Artavazd Artavazdah }
+Aryamanah_male = { Aryamanah Aremanah }
+asparukh_male = { Asparukh Usprnakah }
+babak_male = { Babak Babek Papakah }
+bahman_male = { Bahman Vahumanah }
 cyrus_male = { Ciro Cyrus Kurian KU_ruS_E_ Kurush jp2_Sciru }
-cambyses_male = { Kambiz Cambyses Kambujiya }
-darius_male = { Darius Dariush DaryU_S_ Darayavaush }
+cambyses_male = { Kambiz Cambyses Kambujiyah }
+dadmihr_male = { Dadmihr Datamithrah }
+Dahyuvraithah_male = { Dahyuvraithah Dahyuvrethah }
+darius_male = { Darius Dariush DaryU_S_ Darayavaush Darayaush }
+djamasp_male = { Djamasp Jamaspah }
+eumenes_male = { Eumenes Haumanah Humanah }
 goshtasb_male = { Goshtasb GoS_tasp Vishtaspa Hystaspes }
+humayun_male = { Humayun Humayon Humayah }
+jamshid_male = { Jamshid CemS_I_d Yamaxshaitah Yamaxshetah }
+Kapautah_male = { Kapautah Kapotah }
 khashayar_male = { Khashayar XaS_ayar Xshayarsha Xerxes }
+mithridates_male = { Mithridates Mihrdat Milad Mithradatah }
+narses_male = { Narses Nerse Nerseh Narsieh Narsi Narseh Nerses Naryasanhah }
+Raucakah_male = { Raucakah Rocakah }
+syavosh_male = { Siyavosh Thyavarsha }
+tahmasb_male = { Tahmasb Tahmasp Tahmaspah }
+tigran_male = { Tigran Tigranah }
+Vahyazdatah_male = { Vahyazdatah Vezdatah }
+Yamaxshaitah_male = { Yamaxshaitah Yamaxshetah }
+
+apame_female = { Apame }
+Atossa_female = { Hutautha Hutotha }
+roxana_female = { Roxana Rauxshna }

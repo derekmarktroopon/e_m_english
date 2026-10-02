@@ -92,6 +92,7 @@ venetic_religious_decision.21 = {
 				has_character_modifier = bhakti_venetic_tumusiates
 				has_character_modifier = bhakti_venetic_altino
 				has_character_modifier = bhakti_venetic_alkomno
+				faith = { has_doctrine = doctrine_monotheist }
 			}
 		}
 	    custom_tooltip = venetic_religious_decision.21.adeivobos.tooltip
@@ -193,6 +194,36 @@ venetic_religious_decision.21 = {
 	    custom_tooltip = venetic_religious_decision.21.aalkomno.tooltip
         trigger_event = { id = venetic_religious_decision.2001 }
 	}
+	option = { # Ok
+		name = {
+			trigger = { scope:outcome = 1 }
+			text = venetic_religious_decision.21.a1deivos
+		}
+        name = {
+			trigger = { scope:outcome = 2 }
+			text = venetic_religious_decision.21.a2deivos
+		}
+		name = {
+			trigger = { scope:outcome = 3 }
+			text = venetic_religious_decision.21.a3deivos
+		}
+		name = {
+			trigger = { scope:outcome = 4 }
+			text = venetic_religious_decision.21.a4deivos
+		}
+		flavor = venetic_religious_decision.21.adeivos
+		trigger = {
+			faith = { has_doctrine = doctrine_monotheist }
+			NOR = {
+				has_character_modifier = bhakti_venetic_reitia
+				has_character_modifier = bhakti_venetic_tumusiates
+				has_character_modifier = bhakti_venetic_altino
+				has_character_modifier = bhakti_venetic_alkomno
+			}
+		}
+	    custom_tooltip = venetic_religious_decision.21.adeivos.tooltip
+        trigger_event = { id = venetic_religious_decision.2001 }
+	}
 }	
 
 venetic_religious_decision.2001 = {
@@ -201,22 +232,22 @@ venetic_religious_decision.2001 = {
 	immediate = {
 		    random_list = {
 		    40 = {
-                    trigger_event = { id = venetic_religious_decision.3001 days = { 6 7 } }
+                trigger_event = { id = venetic_religious_decision.3001 days = { 6 7 } }
 			}
 			35 = {
- 			        trigger_event = { id = venetic_religious_decision.3002 days = { 6 7 } }
+ 			    trigger_event = { id = venetic_religious_decision.3002 days = { 6 7 } }
 			}
 			10 = {
- 			        trigger_event = { id = venetic_religious_decision.3003 days = { 6 7 } }
+ 			    trigger_event = { id = venetic_religious_decision.3003 days = { 6 7 } }
 			}
 			07 = {
- 			        trigger_event = { id = venetic_religious_decision.3004 days = { 6 7 } }
+ 			    trigger_event = { id = venetic_religious_decision.3004 days = { 6 7 } }
 			}
 			05 = {
- 			        trigger_event = { id = venetic_religious_decision.3005 days = { 6 7 } }			
+ 			    trigger_event = { id = venetic_religious_decision.3005 days = { 6 7 } }			
 			}
 			03 = {
- 			        trigger_event = { id = venetic_religious_decision.3006 days = { 6 7 } }
+ 			    trigger_event = { id = venetic_religious_decision.3006 days = { 6 7 } }
 			}
 	    }
 	}
@@ -224,8 +255,28 @@ venetic_religious_decision.2001 = {
 
 venetic_religious_decision.3001 = {
 	type = character_event
-	title = venetic_religious_decision.3001.t
-	desc = venetic_religious_decision.3001.desc.a
+	title = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					faith = { has_doctrine = doctrine_monotheist }
+				}
+				desc = venetic_religious_decision.3001.t_monotheistic
+			}
+			desc = venetic_religious_decision.3001.t
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					faith = { has_doctrine = doctrine_monotheist }
+				}
+				desc = venetic_religious_decision.3001.desc_monotheistic
+			}
+			desc = venetic_religious_decision.3001.desc.a
+		}
+	}
 	theme = faith
 
 	override_background = {
@@ -245,8 +296,28 @@ venetic_religious_decision.3001 = {
 
 venetic_religious_decision.3002 = {
 	type = character_event
-	title = venetic_religious_decision.3001.t
-	desc = venetic_religious_decision.3002.desc.a
+	title = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					faith = { has_doctrine = doctrine_monotheist }
+				}
+				desc = venetic_religious_decision.3001.t_monotheistic
+			}
+			desc = venetic_religious_decision.3001.t
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					faith = { has_doctrine = doctrine_monotheist }
+				}
+				desc = venetic_religious_decision.3002.desc_monotheistic
+			}
+			desc = venetic_religious_decision.3002.desc.a
+		}
+	}
 	theme = faith
 
 	override_background = {
@@ -265,8 +336,28 @@ venetic_religious_decision.3002 = {
 
 venetic_religious_decision.3003 = {
 	type = character_event
-	title = venetic_religious_decision.3001.t
-	desc = venetic_religious_decision.3003.desc.a
+	title = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					faith = { has_doctrine = doctrine_monotheist }
+				}
+				desc = venetic_religious_decision.3001.t_monotheistic
+			}
+			desc = venetic_religious_decision.3001.t
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					faith = { has_doctrine = doctrine_monotheist }
+				}
+				desc = venetic_religious_decision.3003.desc_monotheistic
+			}
+			desc = venetic_religious_decision.3003.desc.a
+		}
+	}
 	theme = faith
 
 	override_background = {
@@ -278,7 +369,17 @@ venetic_religious_decision.3003 = {
 		animation = personality_zealous
 	}
 	option = { 
-		name = venetic_religious_decision.3003.a
+		name = {
+	    	first_valid = {
+				triggered_desc = {
+					trigger = {
+						faith = { has_doctrine = doctrine_monotheist }
+					}
+					desc = venetic_religious_decision.3003.a_monotheistic
+				}
+				desc = venetic_religious_decision.3003.a
+			}	 	
+	    }
  		add_piety = major_piety_gain
 		add_prestige = minor_prestige_gain		
     }
@@ -286,8 +387,28 @@ venetic_religious_decision.3003 = {
 
 venetic_religious_decision.3004 = {
 	type = character_event
-	title = venetic_religious_decision.3001.t
-	desc = venetic_religious_decision.3004.desc.a
+	title = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					faith = { has_doctrine = doctrine_monotheist }
+				}
+				desc = venetic_religious_decision.3001.t_monotheistic
+			}
+			desc = venetic_religious_decision.3001.t
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					faith = { has_doctrine = doctrine_monotheist }
+				}
+				desc = venetic_religious_decision.3004.desc_monotheistic
+			}
+			desc = venetic_religious_decision.3004.desc.a
+		}
+	}
 	theme = faith
 
 	override_background = {
@@ -299,7 +420,17 @@ venetic_religious_decision.3004 = {
 		animation = personality_zealous
 	}
 	option = {
-	    name = venetic_religious_decision.3004.a 	
+	    name = {
+	    	first_valid = {
+				triggered_desc = {
+					trigger = {
+						faith = { has_doctrine = doctrine_monotheist }
+					}
+					desc = venetic_religious_decision.3004.a_monotheistic
+				}
+				desc = venetic_religious_decision.3004.a
+			}	 	
+	    }
 	    add_prowess_skill = 2	
 		add_prestige = 150
 		add_trait = zealous
@@ -308,8 +439,28 @@ venetic_religious_decision.3004 = {
 
 venetic_religious_decision.3005 = {
 	type = character_event
-	title = venetic_religious_decision.3001.t
-	desc = venetic_religious_decision.3005.desc.a
+	title = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					faith = { has_doctrine = doctrine_monotheist }
+				}
+				desc = venetic_religious_decision.3001.t_monotheistic
+			}
+			desc = venetic_religious_decision.3001.t
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					faith = { has_doctrine = doctrine_monotheist }
+				}
+				desc = venetic_religious_decision.3005.desc_monotheistic
+			}
+			desc = venetic_religious_decision.3005.desc.a
+		}
+	}
 	theme = faith
 
 	override_background = {
@@ -332,8 +483,28 @@ venetic_religious_decision.3005 = {
 
 venetic_religious_decision.3006 = {
 	type = character_event
-	title = venetic_religious_decision.3001.t
-	desc = venetic_religious_decision.3006.desc.a
+	title = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					faith = { has_doctrine = doctrine_monotheist }
+				}
+				desc = venetic_religious_decision.3001.t_monotheistic
+			}
+			desc = venetic_religious_decision.3001.t
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					faith = { has_doctrine = doctrine_monotheist }
+				}
+				desc = venetic_religious_decision.3006.desc_monotheistic
+			}
+			desc = venetic_religious_decision.3006.desc.a
+		}
+	}
 	theme = faith
 
 	override_background = {

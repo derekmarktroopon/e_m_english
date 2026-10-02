@@ -75,6 +75,12 @@ venetic_religious_decision.21.a3alkomno:0 "Eik [ROOT.Char.GetName] doto Alkomnoi
 venetic_religious_decision.21.a4alkomno:0 "Ego doto Alkomnoi u donom eik"
 venetic_religious_decision.21.aalkomno:0 "An offering, along with an inscription written by you, are placed in the grove."
 venetic_religious_decision.21.aalkomno.tooltip:0 "#E You have given an offering to #T Alkomnos#!#!" ####
+venetic_religious_decision.21.a1deivos:0 "Eik [ROOT.Char.GetName] doto Deivoi"
+venetic_religious_decision.21.a2deivos:0 "Ego doto Deivoi u donom ekvos"
+venetic_religious_decision.21.a3deivos:0 "[ROOT.Char.GetName] donom per Deivoi toler"
+venetic_religious_decision.21.a4deivos:0 "Eik [ROOT.Char.GetName] doto Deivoi u donom"
+venetic_religious_decision.21.adeivos:0 "An offering, along with an inscription written by you, are placed in the grove."
+venetic_religious_decision.21.adeivos.tooltip:0 "#! You have given an offering to [ROOT.Char.GetFaith.HighGodName]#!" ####
 
 doctrine_parameter_ritual_writing_active:0 "Allows #ERitual Inscriptions as gifts in exchange for piety"
 doctrine_parameter_select_personal_god_active_retic:0 "#E $retic_religion_adj$#! faithful with this tenet may select a personal #E deity#!."
@@ -82,22 +88,31 @@ doctrine_parameter_select_personal_god_active_retic:0 "#E $retic_religion_adj$#!
 religious_decision.102.optout:0 "Maybe this was a bad idea"
 religious_decision.102.flavour:0 "I shouldn't invoke the wrath of many gods by choosing one"
 
-gave_written_offering:0 "Inscribed Gratitude to the Gods"
+gave_written_offering:0 "Inscribed Gratitude to the Divine"
 
 ritual_writing_vassals:0 "Pleased Faithful"
 
 venetic_religious_decision.3001.t:0 "Blessing of the Gods"
+venetic_religious_decision.3001.t_monotheistic:0 "Blessing of [ROOT.Char.GetFaith.HighGodName]"
 venetic_religious_decision.3001.desc.a:0  "After giving my inscriptions, and gifts, to the gods, I've unsurprisingly made myself look better in the eyes of my vassals and peers."
+venetic_religious_decision.3001.desc_monotheistic:0  "After giving my inscriptions, and gifts, to [ROOT.Char.GetFaith.HighGodName], I've unsurprisingly made myself look better in the eyes of my vassals and peers."
 venetic_religious_decision.3002.desc.a:0  "After leaving the sanctuary, where I could feel the spirit of the Gods, I've never truely felt them leave. I realize now that what I had done is of great importance, not just to the world of the Gods, but also in legitimizing power in my own."
-venetic_religious_decision.3003.desc.a:0  "Sitting in the sanctuary, with the fire having died down, I take in my surroundings and let myself feel the spirits around me. Reflecting on the gods to which I had just made my sacrifice, I start to feel energy entering into my body, and I realize that I am reciving their blessings."
+venetic_religious_decision.3002.desc_monotheistic:0  "After leaving the sanctuary, where I could feel the spirit of [ROOT.Char.GetFaith.HighGodName], I've never truely felt [ROOT.Char.GetFaith.CreatorHerHim] leave. I realize now that what I had done is of great importance, not just to the world of [ROOT.Char.GetFaith.HighGodName], but also in legitimizing power in my own."
+venetic_religious_decision.3003.desc.a:0  "Sitting in the sanctuary, with the fire having died down, I take in my surroundings and let myself feel the spirits around me. Reflecting on the gods to which I had just made my sacrifice, I start to feel energy entering into my body, and I realize that I am receiving their blessings."
+venetic_religious_decision.3003.desc_monotheistic:0  "Sitting in the sanctuary, with the fire having died down, I take in my surroundings and let myself feel the spirits around me. Reflecting on [ROOT.Char.GetFaith.HighGodName] to who I had just made my sacrifice, I start to feel energy entering into my body, and I realize that I am receiving [ROOT.Char.GetFaith.HighGodHerHis] blessings."
 venetic_religious_decision.3004.desc.a:0  "Sitting in the sanctuary, with the fire having died down, I take in my surroundings and let myself feel the spirits around me. Reflecting on the gods to which I had just made my sacrifice, I start to feel significantly stronger. I realize that they will still be with me through the toughest of trials."
+venetic_religious_decision.3004.desc_monotheistic:0  "Sitting in the sanctuary, with the fire having died down, I take in my surroundings and let myself feel the spirits around me. Reflecting on [ROOT.Char.GetFaith.HighGodName] to who I had just made my sacrifice, I start to feel significantly stronger. I realize that [ROOT.Char.GetFaith.HighGodNameSheHe] will still be with me through the toughest of trials."
 venetic_religious_decision.3005.desc.a:0  "It isn't long since I last gave a sacrifice to the divine, but only now do I feel the divine magnitude of the Gods grace. It is becoming clear to me that I must better myself if I am to be able to truely be worthy of the Gods."
+venetic_religious_decision.3005.desc_monotheistic:0  "It isn't long since I last gave a sacrifice to [ROOT.Char.GetFaith.HighGodNameAlternate], but only now do I feel the divine magnitude of [ROOT.Char.GetFaith.HighGodNamePossessive] grace. It is becoming clear to me that I must better myself if I am to be able to truely be worthy of [ROOT.Char.GetFaith.HighGodName]."
 venetic_religious_decision.3006.desc.a:0  "In spite of having left the grove of the sanctuary, I feel as if I am still there, connected to the gods through the ritual carried out. Suddenly, I feel a burst of divine energy, running through my body, and feel myself become stronger, and more capable. Knowlage of the occult floods my mind, as the Gods bestow me with their benevolence."
+venetic_religious_decision.3006.desc_monotheistic:0  "In spite of having left the grove of the sanctuary, I feel as if I am still there, connected to [ROOT.Char.GetFaith.HighGodName] through the ritual carried out. Suddenly, I feel a burst of divine energy, running through my body, and feel myself become stronger, and more capable. Knowlage of the occult floods my mind, as [ROOT.Char.GetFaith.HighGodName] bestow me with [ROOT.Char.GetFaith.HighGodHerHis] benevolence."
 
 venetic_religious_decision.3001.a:0 "We are all favoured"
 venetic_religious_decision.3002.a:0 "I am Humbled"
 venetic_religious_decision.3003.a:0 "I feel the glory of the Gods!"
+venetic_religious_decision.3003.a_monotheistic:0 "I feel the glory of [ROOT.Char.GetFaith.HighGodName]!"
 venetic_religious_decision.3004.a:0 "Deivos, help me in battle!"
+venetic_religious_decision.3004.a_monotheistic:0 "[ROOT.Char.GetFaith.WarGodName], help me in battle!"
 venetic_religious_decision.3005.a:0 "Knowledge flows into my mind!"
 venetic_religious_decision.3006.a:0 "Such power, I am truely chosen!"
 

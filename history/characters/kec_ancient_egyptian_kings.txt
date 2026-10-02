@@ -540,7 +540,7 @@ kec_egypt_history_01148 = { # Random ficticous father
 	dynasty = kec_dynasty_08
 	
 	-2234.1.1 = { birth = yes }
-	-2191.0.1 = { death = yes }
+	-2191.1.1 = { death = yes }
 }
 
 kec_egypt_history_048 = { # Menkare; Eighth Dynasty
@@ -1282,7 +1282,8 @@ kec_egypt_history_122 = { # Sobekhotep; Thirteenth Dynasty
 	name = kmt_Sobekhotep
 	rite = "kemetism"
 	culture = "middle_egyptian"
-	dynasty = kec_dynasty_119
+	dynasty = kec_dynasty_13
+	father = kec_egypt_history_119
 	
 	-1750.1.1 = { birth = yes }
 	-1727.1.1 = { death = yes }
@@ -1510,7 +1511,7 @@ kec_egypt_history_11211 = { # Queen Ahmose
 	name = kmt_Ahmose
 	rite = "kemetism"
 	culture = "middle_egyptian"
-	is_female = yes
+	female = yes
 	dynasty = kec_dynasty_18
 	father = kec_egypt_history_210
 	
@@ -2287,7 +2288,7 @@ kec_egypt_history_286 = { # Psamtik; Twenty-sixth Dynasty
 kec_egypt_history_11287 = { # Achaemenes I
 	name = Haxamanish
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	dynasty = kec_dynasty_27
 	
 	-720.1.1 = { birth = yes }
@@ -2295,9 +2296,9 @@ kec_egypt_history_11287 = { # Achaemenes I
 }
 
 kec_egypt_history_12287 = { # Teispes I
-	name = Chishpish
+	name = Cishpish
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	dynasty = kec_dynasty_27
 	father = kec_egypt_history_11287
 	
@@ -2309,7 +2310,7 @@ kec_egypt_history_12287 = { # Teispes I
 kec_egypt_history_13287 = { # Cyrus I
 	name = Kurush
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	dynasty = kec_dynasty_27
 	father = kec_egypt_history_12287
 	
@@ -2318,9 +2319,9 @@ kec_egypt_history_13287 = { # Cyrus I
 }
 
 kec_egypt_history_14287 = { # Cambyses I
-	name = Kambujiya
+	name = Kambujiyah
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	dynasty = kec_dynasty_27
 	father = kec_egypt_history_13287
 	
@@ -2331,7 +2332,7 @@ kec_egypt_history_14287 = { # Cambyses I
 kec_egypt_history_15287 = { # Cyrus II (of persian kingdom - Ist of empire) the Great
 	name = Kurush
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	give_nickname = nick_the_great
 	dynasty = kec_dynasty_27
 	father = kec_egypt_history_14287
@@ -2342,9 +2343,9 @@ kec_egypt_history_15287 = { # Cyrus II (of persian kingdom - Ist of empire) the 
 
 
 kec_egypt_history_287 = { # Cambyses II; Twenty-seventh Dynasty
-	name = Kambujiya # Kambiz in modern persian
+	name = Kambujiyah # Kambiz in modern persian
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	dynasty = kec_dynasty_27
 	father = kec_egypt_history_15287
 	
@@ -2353,9 +2354,9 @@ kec_egypt_history_287 = { # Cambyses II; Twenty-seventh Dynasty
 }
 
 kec_egypt_history_16287 = { # Princess Atossa
-	name = Utautha
+	name = Hutautha
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	female = yes
 	dynasty = kec_dynasty_27
 	father = kec_egypt_history_15287
@@ -2365,9 +2366,9 @@ kec_egypt_history_16287 = { # Princess Atossa
 }
 
 kec_egypt_history_11288 = { # Ariaramnes
-	name = Ariyaramna
+	name = Aryaramnah
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	dynasty = kec_dynasty_27
 	father = kec_egypt_history_12287
 	
@@ -2376,9 +2377,9 @@ kec_egypt_history_11288 = { # Ariaramnes
 }
 
 kec_egypt_history_12288 = { # Arsames
-	name = Arshama
+	name = Arshamah
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	dynasty = kec_dynasty_27
 	father = kec_egypt_history_11288
 	
@@ -2387,9 +2388,9 @@ kec_egypt_history_12288 = { # Arsames
 }
 
 kec_egypt_history_13288 = { # Hystaspes
-	name = Vishtaspa
+	name = Vishtaspah
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	dynasty = kec_dynasty_27
 	father = kec_egypt_history_12288
 
@@ -2400,7 +2401,7 @@ kec_egypt_history_13288 = { # Hystaspes
 kec_egypt_history_288 = { # Darius I; Twenty-seventh Dynasty
 	name = Darayavaush # Dariush in modern persian
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	give_nickname = nick_the_great
 	dynasty = kec_dynasty_27
 	father = kec_egypt_history_13288
@@ -2413,7 +2414,7 @@ kec_egypt_history_288 = { # Darius I; Twenty-seventh Dynasty
 kec_egypt_history_289 = { # Xerxes I; Twenty-seventh Dynasty
 	name = Xshayarsha # Khashayar in modern persian
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	give_nickname = nick_the_great
 	dynasty = kec_dynasty_27
 	father = kec_egypt_history_288
@@ -2423,9 +2424,9 @@ kec_egypt_history_289 = { # Xerxes I; Twenty-seventh Dynasty
 }
 
 kec_egypt_history_290 = { # Artaxerxes I; Twenty-seventh Dynasty
-	name = Artaxshaca # Ardashir in modern persian
+	name = Artaxshacah # Ardashir in modern persian
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	dynasty = kec_dynasty_27
 	father = kec_egypt_history_289
 	
@@ -2436,7 +2437,7 @@ kec_egypt_history_290 = { # Artaxerxes I; Twenty-seventh Dynasty
 kec_egypt_history_291 = { # Darius II; Twenty-seventh Dynasty
 	name = Darayavaush
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	dynasty = kec_dynasty_27
 	father = kec_egypt_history_290
 	
@@ -2445,9 +2446,9 @@ kec_egypt_history_291 = { # Darius II; Twenty-seventh Dynasty
 }
 
 kec_egypt_history_292 = { # Artaxerxes II; Twenty-seventh Dynasty
-	name = Artaxshaca
+	name = Artaxshacah
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	dynasty = kec_dynasty_27
 	father = kec_egypt_history_291
 	
@@ -2553,9 +2554,9 @@ kec_egypt_history_300 = { # Nectanebo; Twenty-ninth Dynasty
 }
 
 kec_egypt_history_301 = { # Artaxerxes III; Twenty-seventh Dynasty
-	name = Artaxshaca
+	name = Artaxshacah
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	dynasty = kec_dynasty_27
 	father = kec_egypt_history_292
 	
@@ -2564,9 +2565,9 @@ kec_egypt_history_301 = { # Artaxerxes III; Twenty-seventh Dynasty
 }
 
 kec_egypt_history_302 = { # Artaxerxes IV; Twenty-seventh Dynasty
-	name = Artaxshaca
+	name = Artaxshacah
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	dynasty = kec_dynasty_27
 	father = kec_egypt_history_301
 	
@@ -2575,9 +2576,9 @@ kec_egypt_history_302 = { # Artaxerxes IV; Twenty-seventh Dynasty
 }
 
 kec_egypt_history_11303 = { # Sisygambis
-	name = Chithrakambujiya
+	name = Cithrakambujiya
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	female = yes
 	dynasty = kec_dynasty_27
 	father = kec_egypt_history_292
@@ -2589,7 +2590,7 @@ kec_egypt_history_11303 = { # Sisygambis
 kec_egypt_history_12303 = { # Ostanes
 	name = Hushtana
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	dynasty = kec_dynasty_27
 	father = kec_egypt_history_291
 	
@@ -2598,9 +2599,9 @@ kec_egypt_history_12303 = { # Ostanes
 }
 
 kec_egypt_history_13303 = { # Arsames
-	name = Arshama
+	name = Arshamah
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	dynasty = kec_dynasty_27
 	father = kec_egypt_history_12303
 	
@@ -2611,7 +2612,7 @@ kec_egypt_history_13303 = { # Arsames
 kec_egypt_history_303 = { # Darius III; Twenty-seventh Dynasty
 	name = Darayavaush
 	rite = "mazdayasna"
-	culture = "persian"
+	culture = "old_persian"
 	dynasty = kec_dynasty_27
 	father = kec_egypt_history_13303
 	mother = kec_egypt_history_11303

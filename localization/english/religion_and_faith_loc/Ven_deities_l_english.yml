@@ -2,10 +2,10 @@
 
  reitia:0 "Reitia"
  reitia_possessive:0 "Reitias"
- trumusijates:0 "Tumusiates"
- trumusijates_possesssive:0 "Tumusiates'"
- bouleno:0 "Bouleno"
- bouleno_possessive:0 "Boulenos"
+ trumusijates:0 "Trumusijates"
+ trumusijates_possesssive:0 "Trumusijates'"
+ bouleno:0 "Boulenos"
+ bouleno_possessive:0 "Boulenos'"
  fladukia:0 "Fladukia"
  fladukia_possessive:0 "Fladukias"
  vetusa:0 "Vetusa"
@@ -23,9 +23,9 @@
  venetic_eternity:0 "Eternity" #Keilomnos - my guess based on proto-italic Kailom
  venetic_hell:0 "Hell" ##Anguninos - my guess based on proto-italic angwnis
  
- altino:0 "Altino"
+ altino:0 "Altinos"
  altino_possessive:0 "Altinos'"
- alkomno:0 "Alkomno"
+ alkomno:0 "Alkomnos"
  alkomno_possessive:0 "Alkomnos'"
  einaios:0 "Einaios"
  einaios_possessive:0 "Einaios'"

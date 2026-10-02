@@ -1,0 +1,226 @@
+﻿l_english:
+
+name_list_old_persian:0 "Old Persian"
+name_list_late_old_persian:0 "Late Old Persian"
+
+old_persian:0 "Old Persian"
+old_persian_prefix:0 "Perso"
+old_persian_collective_noun:0 "Persians"
+
+# Old Persian
+
+dynnpat_suf_puca:0 " puça"
+dynnpat_suf_duxt:0 " duxt"
+
+Abrakah:0 "Abrakah"
+Arbaraivah:0 "Arbaraivah" # Arbarius
+Arbinah:0 "Arbinah" # Arbinas
+Arushah:0 "Arushah" # Aryses
+Arvantah:0 "Arvantah" # Aryandes
+Arvantapatah:0 "Arvantapātah" # Orontopates
+Aryabrzah:0 "Aryabrzāh" # Ariobarzanes
+Aryamanah:0 "Aryamanah" # Ariamenes 
+Aremanah:0 "Arēmanah" # Ariamenes - LATE OLD PERSIAN VERSION
+Aryukah:0 "Aryukah" # Arioch
+Aryabignah:0 "Aryābignah" # Ariabignes
+Aspamithrah:0 "Aspamithrah" # Aspamitres
+Badrah:0 "Badrah" # Badres
+Bagacithrah:0 "Bagacithrah" # Megasidrus
+Bagadushtah:0 "Bagadushtah" # Megadostes
+Bagadatah:0 "Bagadātah" # Bagadates
+Bagafarnah:0 "Bagafarnāh" # Megaphernes
+Bagamsakah:0 "Bagamsakah" # Bagasaces
+Bagasakah:0 "Bagasakah" # Bagasaces
+Bagapanah:0 "Bagapānah" # Megapanus
+Bagapatah:0 "Bagapātah" # Megabates
+Bagavahyah:0 "Bagavahyah" # Bagoas
+Bagavazdah:0 "Bagavazdāh" # Megabazus
+Bagayah:0 "Bagayah" # Bagaeus
+Baradatah:0 "Baradātah" # Baradates
+Barakah:0 "Barakah" # Barakes
+Bayacah:0 "Bayaçāh" # Bessos
+Batah:0 "Bātah" # Batis
+Bubarah:0 "Būbarah" # Bubares
+Cicafarnah:0 "Ciçafarnāh" # Tissaphernes
+Cicamithrah:0 "Ciçamithrah" # Sisimithres
+Cicantahmah:0 "Ciçantahmah"
+Cithrafarnah:0 "Cithrafarnāh" # Tetraphernes
+Cithravahishtah:0 "Cithravahishtah" # Tithraustes
+Dahyufarnah:0 "Dahyufarnāh" # Daipharnes
+Dahyuvraithah:0 "Dahyuvraithah" # 
+Dahyuvrethah:0 "Dahyuvrēthah" # LATE OLD PERSIAN VERSION
+Druvafarnah:0 "Druvafarnāh" # Droaphernes
+Datafarnah:0 "Dātafarnāh" # Dataphernes
+Datah:0 "Dātah"
+Datamah:0 "Dātamah" # Datames
+Datamithrah:0 "Dātamithrah" # - or Dadmihr
+Datiyah:0 "Dātiyah" # Datis
+Datamah:0 "Dātāmah" # Datames
+Farnadatah:0 "Farnadātah" # Pharandates
+Farnavazdah:0 "Farnavazdāh" # Pharnabazus
+Farnukah:0 "Farnukah" # Pharnoukhes
+Fravartipatah:0 "Fravartipātah"
+Fryapatish:0 "Fryapatish"
+Gadatah:0 "Gadātah" # Gadatas
+Gaucithrah:0 "Gaucithrah" # Gosithres
+Gautamah:0 "Gautamah"
+Haumanah:0 "Haumanah" # Eumenes
+Humanah:0 "Humanah" # Eumenes -
+Hufratah:0 "Hufratah" # Euphratas -
+Humargah:0 "Humargah" # Amorges
+Humayah:0 "Humāyah" # Hymaes - or Humayun / Humayon
+Huvardatah:0 "Huvardātah"
+Jamaspah:0 "Jāmāspah" # Zamasphes - or Djamasp
+Jivakah:0 "Jīvakah"
+Kapautah:0 "Kapautah" #
+Kapotah:0 "Kapōtah" # LATE OLD PERSIAN VERSION
+Krshna:0 "Krshna"
+Karukah:0 "Kārukah" # Carouchas
+Manaicah:0 "Manaicah"
+Manushtanah:0 "Manushtanah" # Menostanes
+Mazdakah:0 "Mazdākah" # Mazdaces - or Mazdak
+Mazdayah:0 "Mazdāyah" # Mazaeus
+Mashkamah:0 "Mashkāmah" # Mascames
+Mithrabaujanah:0 "Mithrabaujanah" # Mithrabauzanes
+Mithrabrzah:0 "Mithrabrzāh" # Mithrobarzanes
+Mithradatah:0 "Mithradātah" # Mithridates - or Milad
+Mithrafarnah:0 "Mitrafarnāh" # Mithraphernes
+Mithrapatah:0 "Mithrapātah" # Mitrobates
+Mithraupastah:0 "Mithraupastah" # Mithropastes
+Mithravahishtah:0 "Mithravahishtah" # Mithraustes
+Mithrayah:0 "Mithrayah" # Mithraeus
+Mithratah:0 "Mithrātah" # Mithrates
+Mahibaujanah:0 "Māhibaujanah" # Maebuzanes
+Mahidatah:0 "Māhidātah" # Maedatas - or Mahdad
+Naryamana:0 "Naryamanā" #  - or Nariman
+Naryasanhah:0 "Naryasanhah" # Narses - or Narsi / Narseh / Narsieh
+Paradatah:0 "Paradātah"
+Pishishyauthnah:0 "Pishishyauthnah" # Pissuthnes - or Peshotan / Pishyotan
+Padakah:0 "Pādakah"
+Papakah:0 "Pāpakah" # - or Babak
+Patixshayathah:0 "Pātixshayathah" # Patizeithes
+Raivamithrah:0 "Raivamithrah" # Rheomithres
+Raucakah:0 "Raucakah" # Rhosaces
+Rocakah:0 "Rōcakah" # Rhosaces - LATE OLD PERSIAN VERSION
+Rauxshnadatah:0 "Rauxshnadātah" 
+Rauxshnah:0 "Rauxshnah" # Roxanes
+Rauxshnapatah:0 "Rauxshnapātah"
+Radamaithah:0 "Rādamaithah" # Rhadamasis
+Ardifyah:0 "Ardifyah" # Artuphius
+Artabrzah:0 "Artabrzāh" # Artabazanes
+Artabanush:0 "Artabānush" # Artabanus - or Ardavan
+Artafarnah:0 "Artafarnāh" # Artaphernes
+Artakamah:0 "Artakāmah" # Artakamas
+Artamah:0 "Artamah" # Artames
+Artamanah:0 "Artamanah" # Artamenes
+Artamanyush:0 "Artamanyush"
+Artapanah:0 "Artapānah" # Artapanes
+Artavazdah:0 "Artavazdāh" # Artabazes - or Ashavazd
+Artavazdanah:0 "Artavazdānah" # Artabazanes
+Artaxayah:0 "Artaxayah" # Artachaees
+Artaxsharah:0 "Artaxsharah" # Artoxares 
+Artayah:0 "Artayah" # Artaeus
+Artimah:0 "Artimah" # Artimas
+Arshitah:0 "Arshitah" # Arsites
+Arsha:0 "Arshā" # Arsis
+Arshakah:0 "Arshakah" # Arsaces - or Arshak
+Spantadatah:0 "Spantadātah" # Sphendadates
+Spithradatah:0 "Spithradātah" # Spithradates
+Tahmaspah:0 "Tahmāspah" # - or Tahmasb / Tahmasp
+Tanuvazrkah:0 "Tanūvazrkah" # Tanyoxarces
+Tigrapatah:0 "Tigrapātah" # Tigrapates 
+Tigranah:0 "Tigrānah" # Tigranes - or Tigran
+Tirayah:0 "Tīrayah" # Tiraeus
+Tiridatah:0 "Tīrīdātah" # Tiridates
+Usprnakah:0 "Usprnakah" # - or Asparukh
+Vahubarah:0 "Vahubarah" # Oebares
+Vahumanah:0 "Vahumanāh" # Omanes - or Bahman
+Varufarnah:0 "Varufarnāh" # Holofernes
+Vatafradatah:0 "Vātafradātah" # Autophradates
+Yamah:0 "Yamah" #
+Yamakah:0 "Yamakah" #
+Yamaxshaitah:0 "Yamaxshaitah" #  - or Jamshid
+Yamaxshetah:0 "Yamaxshētah" #  - or Jamshid - LATE OLD PERSIAN VERSION
+Zabrakanah:0 "Zabrakānah" # Zabrican
+Atrdatah:0 "Ātrdātah" # Artadates 
+Atrpatah:0 "Ātrpātah" # Atropates
+Acidatah:0 "Āçidātah" # Asidates
+Acipatah:0 "Āçipātah" 
+Shyatibrzah:0 "Shyātibrzāh" # Satibarzanes
+Shyatifarnah:0 "Shyātifarnāh" # Satiphernes
+Thyavarsha:0 "Thyāvarshā" # - or Siyavosh
+Araxah:0 "Araxah" # 
+Aspacanah:0 "Aspacanāh" # Aspathines
+Acinah:0 "Āçinah"
+Hutanah:0 "Hutānah" # Otanes
+Upadarmah:0 "Upadarmah"
+Huvaxshtrah:0 "Huvaxshtrah"
+Gaubaruvah:0 "Gaubaruvah" # Gobruas
+Gaumatah:0 "Gaumātah" # Cometes
+Xshathritah:0 "Xshathritah" # 
+Cicantaxmah:0 "Ciçantaxmah" # 
+Taxmaspadah:0 "Taxmaspādah"
+Dadrshish:0 "Dādrshish"
+Thuxrah:0 "Thuxrah"
+Bagabignah:0 "Bagābignah"
+Bagabuxshah:0 "Bagabuxshah" # Megabyzus
+Brdiyah:0 "Brdiyah" # Bardia/Smerdis
+Fravartish:0 "Fravartish" # Phraortes
+Mathishtah:0 "Mathishtah" # Masistes
+Mrduniyah:0 "Mrduniyah" # Mardonius
+Vahyazdatah:0 "Vahyazdātah"
+Vezdatah:0 "Vēzdātah" # - LATE OLD PERSIAN VERSION
+Vindafarnah:0 "Vindafarnāh" # Intaphernes 
+Vidrnah:0 "Vidrnah" # Hydarnes
+Vivanah:0 "Vivānah"
+Halditah:0 "Halditah" 
+
+Haxamanish:0 "Haxāmanish" # Achaemenes
+Cishpish:0 "Cishpish" #Teispes
+Kambujiyah:0 "Kambūjiyah" # Cambyses - or Kambiz
+Aryaramnah:0 "Aryāramnah" # Ariaramnes
+Arshamah:0 "Arshāmah" # Arsames
+Vishtaspah:0 "Vishtāspah" # Hystaspes - or Goshtasb
+Darayavaush:0 "Dārayavaush" # Darius - or Dariush
+Darayaush:0 "Dārayaush" # Darius (this is a contracted version)
+Xshayarsha:0 "Xshayārshā" # Xerxes - or Khashayar
+Artaxshacah:0 "Artaxshacāh" # Artaxerxes - or Ardashir 
+
+Hushtana:0 "Hushtāna" # Ostanes - MEDIAN NAME
+
+
+
+Amastri:0 "Amāstrī" # Amastris/Amestris
+Apama:0 "Apamā" # Apame
+Fratagauna:0 "Frātagaunā" # Phratagune
+Jamaspiya:0 "Jāmāspiyā" # Damaspia
+Mazdaya:0 "Mazdāyā" # Mazaia
+Parushyatish:0 "Parushyātish" # Parysatis
+Rauxshna:0 "Rauxshnā" # Roxane - or Roxana
+Artastuna:0 "Artastūnā" # Artystone - MALE AND FEMALE
+Statira:0 "Stātirā" # Stateira
+Huparviya:0 "Huparviyā" # Parmis
+Artazaushtri:0 "Artazaushtrī" # Artazostre 
+
+Hutautha:0 "Hutauthā" # Atossa 
+Hutotha:0 "Hutōthā" # Atossa - LATE OLD PERSIAN VERSION
+Cithrakambujiya:0 "Cithrakambūjiya" # Sisygambis
+
+# Surnames
+
+dynn_Artavazdanah:0 "Artavazdānah"
+dynn_Haxamanishiya:0 "Haxāmanishiya"
+dynn_Hutanaiya:0 "Hutānaiya"
+dynn_Aspacanaya:0 "Aspacanāya"
+dynn_Gaubaruviya:0 "Gaubaruviya"
+dynn_Vindafarniya:0 "Vindafarnya"
+dynn_Bagabuxshiya:0 "Bagabuxshiya"
+dynn_Vidrnaya:0 "Vidrnaya"
+dynn_Darayavaushiya:0 "Dārayavaushiya"
+dynn_Mrduniyanah:0 "Mrduniyanah"
+dynn_Pathragada:0 "Pāthragadā"
+dynn_Marafiya:0 "Marafiya"
+dynn_Martiya:0 "Martiya"
+dynn_Asagartiya:0 "Asagartiya"
+
+

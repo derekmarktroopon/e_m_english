@@ -9,13 +9,13 @@ select_personal_deity_venetic_decision = {
 
 	is_shown = {
 		religion = religion:retic_religion
-		culture = { 
-		    OR = {
-                has_cultural_pillar = heritage_venetic
-                has_cultural_pillar = language_venetic_culture
-                has_name_list = name_list_venetic_culture
-		    }
-		}
+		#culture = { 
+		#    OR = {
+        #        has_cultural_pillar = heritage_venetic
+        #        has_cultural_pillar = language_venetic_culture
+        #        has_name_list = name_list_venetic_culture
+		#    }
+		#}
 		faith = { has_doctrine_parameter = select_personal_god_active }
 	}
 

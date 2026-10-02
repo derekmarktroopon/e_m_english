@@ -28,6 +28,15 @@ tenet_egyptian_magic = {
 		}
 	}
 
+	character_modifier = {
+		vassal_opinion = 5
+		courtier_opinion = 5
+	}
+
+	personal_tenet_parameters = {
+		tenet_ritual_celebrations_praise_the_gods
+	}
+
 	parameters = {
 		piety_from_feasts_active
 		piety_from_festivals_active
