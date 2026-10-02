@@ -10,7 +10,7 @@ old_persian = {
 
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_gardening
+		tradition_futuwaa
 		tradition_legalistic
 		tradition_ce1_ritual_washing
 	}
