@@ -87,7 +87,7 @@ mycenaean = {
 		tradition_practiced_pirates 
 		tradition_hereditary_hierarchy 
 	}
-	name_list = name_list_ancient_greek
+	name_list = name_list_mycenaean
 	head_determination = head_determination_domain
 	martial_custom = martial_custom_male_only
 
