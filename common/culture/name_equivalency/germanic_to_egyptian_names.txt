@@ -73,6 +73,21 @@ theophilos_male = { Theophilos cpt_Theophilos }
 trajan_male = { Trajan Traianos cpt_Traiane cpt_Traianos }
 apries_male = { Apries kmt_Wahibre }
 zeno_male = { Zenon Sein cpt_Zenon }
+ulysses_male = { Odysseus Oduseus }
+hephaistion_male = { Hephaistion Haphaistijos }
+pyrrus_male = { Pyrros Pyrrhos }
+telemachus_male = { Telemakhos }
+alketas_male = { Alketas Alxoitas }
+achilles_male = { Achille Akhilleus }
+Deiphontes_male = { Deiphontes Dahikuhontas }
+Danaos_male = { Danaos Danajos }
+molobros_male = { Molobros Mologwros }
+aegyptius_male = { Aiguptijos Aegyptios }
+augeas_male = { Augeas Augeias Augewas }
+kydon_male = { Kydon Kudon }
+eteokles_male = { Eteokles Etewoklewos }
+zakunthos_male = { Zakunthos Dzakunsijos }
+andromachos_male = { Andromachos Antromaxos }
 
 apollonia_female = { Apollonia Balungia Paluongia dmt_Apollonia }
 arsinoe_female = { dmt_Arsinoe cpt_Arisone }
@@ -87,6 +102,8 @@ maria_female = { Maike Mair MA_ire Mairi Mara Mareike Mari Maria MA_ria MarI_a M
 nicola_female = { Nicola Nicole Nicolesa Nika Nikolena Niculina dmt_Niko dmt_Nikaia }
 tausret_female = { Tausret kmt_Twosret dmt_Tausiris }
 zoe_female = { Zoe cpt_Zoe }
+iphimedeia_female = { Iphimedeia Iphemedeia }
+penelope_female = { Penelope }
 
 # Celtic names
 
@@ -592,7 +609,7 @@ Futtos_male = { vnt_futtos vtcjap_Futo vnven_Foto hanvt_Fuduo vntoe_Futta vnteme
 Kastikos_male = { vnt_kastikos vtcjap_Kasuchiko vnven_Castego hanvt_Jiasitige vntoe_Caestic vnteme_Chestike vnteng_Chestick yslvvnt_kastic czcvnt_kastik polvnt_kastik rusvnt_kastik vngael_castig vnpict_gassig vnwlsh_gassic vnbrit_cassico vnrmnsh_chestieg vnafric_casticu vnocc_castici vnfrenc_chasse vnspa_castigo vnport_castigo vnpan_kaste vnrom_castacu vensic_castecu vngoth_kastiks vnger_kassig vnsax_kastik vnfrys_tsestitse vndtch_castek mngvnt_kasitiku trkvnt_kastik slvvnt_kastiku apbrmvnt_kahiga sogvnt_kastik prsvnt_kastik arbvnt_kastikus aravnt_kastiko cptvnt_kastikos grgvnt_kastiko armvnt_kastikos grkvnt_kastikos nubvnt_kastik ethvnt_qastiqos vnswed_Kasteka vndan_Kasteke vnnorw_Kasteke vnisl_Kastheka vnnrs_Kastheka vntpg_Kastiko vnsard_Castico vndal_Cascio vnita_Cascio vncslp_Castego tbtvnt_kasitika }
 Kellos_male = { vnt_kellos vtcjap_Kero gls_Kelos hanvt_Jiluo vnven_Selo vntoe_Cella vnteme_Kelle yslvvnt_kelo czcvnt_kel polvnt_kel rusvnt_kel vngael_cell vnpict_gell vnwlsh_gelys vnbrit_cellos vnrmnsh_cheill vnafric_cellu vnocc_celo vnfrenc_ceu vnspa_cello vnport_celo vnpan_kelu vnrom_cialoi vensic_ciellu vngoth_kills vnsax_sell vnfrys_tselle mngvnt_kelu trkvnt_kalus slvvnt_kelu apbrmvnt_kella sogvnt_kel prsvnt_kelush arbvnt_kallus aravnt_kelo cptvnt_kellos grgvnt_kelo armvnt_kellos grkvnt_kellos nubvnt_kelo ethvnt_qalos vnswed_Kjall vndan_Kjaell vnnorw_Kjall vnisl_Kjall vnnrs_Kjall vntpg_Kellaz vnsard_Cheddo vndal_Cello vnita_Cello vncslp_Chelo tbtvnt_kelosa Kell }
 Kuijuta_male = { vnt_kuijuta vtcjap_Kuyuta vnven_Coezoda hanvt_Guiyouda vntoe_Cuhta vnteme_Cuht vnteng_Coa }
-lucius_male = { vnt_luks vtcjap_Rukusu vnven_Loze hanvt_Liusi vntoe_Luca vnteme_Luce vnteng_Lewch yslvvnt_luko czcvnt_luk polvnt_luk rusvnt_luk vngael_luch vnpict_lug vnwlsh_llug vnbrit_lucos vnrmnsh_loug vnafric_luci vnocc_lus vnfrenc_leuis vnspa_luis vnport_luis vnpan_loke vnrom_lu vensic_luci vngoth_luks vnger_luk vnsax_luk vnfrys_luk vndtch_lok mngvnt_lugu trkvnt_lukus slvvnt_luku apbrmvnt_lukasa sogvnt_luk prsvnt_luk arbvnt_lukus aravnt_luks cptvnt_louks grgvnt_luksi armvnt_luks grkvnt_loux nubvnt_luks ethvnt_lukas vnswed_Luk vndan_Luk vnnorw_Lug vnisl_Luh vnnrs_Luk vntpg_Lukaz vnsard_Lutsi vndal_Loce vnita_Loce vncslp_Loge tbtvnt_lukasa Lles Lucio Leci Loukjos }
+lucius_male = { vnt_luks vtcjap_Rukusu vnven_Loze hanvt_Liusi vntoe_Luca vnteme_Luce vnteng_Lewch yslvvnt_luko czcvnt_luk polvnt_luk rusvnt_luk vngael_luch vnpict_lug vnwlsh_llug vnbrit_lucos vnrmnsh_loug vnafric_luci vnocc_lus vnfrenc_leuis vnspa_luis vnport_luis vnpan_loke vnrom_lu vensic_luci vngoth_luks vnger_luk vnsax_luk vnfrys_luk vndtch_lok mngvnt_lugu trkvnt_lukus slvvnt_luku apbrmvnt_lukasa sogvnt_luk prsvnt_luk arbvnt_lukus aravnt_luks cptvnt_louks grgvnt_luksi armvnt_luks grkvnt_loux nubvnt_luks ethvnt_lukas vnswed_Luk vndan_Luk vnnorw_Lug vnisl_Luh vnnrs_Luk vntpg_Lukaz vnsard_Lutsi vndal_Loce vnita_Loce vncslp_Loge tbtvnt_lukasa Lles Lucio Leci Loukjos Lukios }
 Melinks_male = { vnt_melinks vtcjap_Merige vnven_Melengo hanvt_Meilinji vntoe_Melinga vnteme_Meling vnteng_Melling }
 Metso_male = { yslvvnt_meti vtcjap_Metsuso vnven_Mezo hanvt_Miesuo vntoe_Metsa vnteme_Metse vnteng_Mets czcvnt_mec polvnt_mec rusvnt_mech vngael_mets vnpict_vess vnwlsh_fes vnbrit_messo vnrmnsh_miez vnafric_metsu vnocc_metze vnfrenc_miez vnspa_mezo vnport_metso vnpan_mezu vnrom_mietu vensic_mezu vngoth_mits vnger_mess vnsax_mets vnfrys_mets vndtch_mets mngvnt_metsu trkvnt_metse slvvnt_meti apbrmvnt_mettha sogvnt_metsh prsvnt_mechu arbvnt_matshu aravnt_metsho cptvnt_metsho grgvnt_metsho armvnt_metso grkvnt_metsos nubvnt_metso ethvnt_matsho vnswed_Mjassa vndan_Mjaessa vnnorw_Mjasse vnisl_Mjassa vnnrs_Mjassa vntpg_Metsaz vnsard_Mezo vndal_Mezo vnita_Mezo vncslp_Meso tbtvnt_metsho }
 Oppos_male = { vnt_oppos vtcjap_Ose vnven_Opo hanvt_Yabo vntoe_Oppa vnteme_Oppe vnteng_Oapp yslvvnt_opo czcvnt_op polvnt_op rusvnt_op vngael_ubb vnwlsh_offis vnbrit_oppos vnafric_oppu vnocc_uopa vnfrenc_ope vnspa_obo vnport_ovo vnpan_uopu vnrom_opu vensic_oppu vngoth_upps vnger_uppo vnsax_oppo vnfrys_oppe vndtch_oepp mngvnt_obu trkvnt_opus slvvnt_opu apbrmvnt_opa sogvnt_apw prsvnt_apush arbvnt_ubbus aravnt_oppos cptvnt_oppos grgvnt_opo armvnt_oppos grkvnt_oppos nubvnt_opo ethvnt_opos vnswed_Epp vndan_Ebb vnnorw_Ebbe vnisl_Epfur vnnrs_Eppr vntpg_Oppoz vnsard_Oppo vndal_Oppo vnita_Uoppo vncslp_Opo tbtvnt_opasa Opp }
@@ -601,7 +618,7 @@ Ostiaris_male = { vnt_ostiaris vtcjap_Osuchiyari vnven_Oszaro hanvt_Wositia vnto
 Kvartio_male = { vnt_kvartio vtcjap_Kubaruto vnven_Cvarzo hanvt_Jiawatiwo vntoe_Cwearta vnteme_Querte vnteng_Quert }
 Suros_male = { vnt_suros vtcjap_Suro vnven_Soro hanvt_Suluo vntoe_Sura vnteme_Sur vnteng_Suer yslvvnt_suro czcvnt_sur polvnt_sur rusvnt_sur vngael_sur vnpict_sur vnwlsh_swr vnbrit_suro vnrmnsh_sore vnafric_suru vnocc_sura vnfrenc_suere vnspa_suro vnport_suro vnpan_suar vnrom_soru vensic_suoru vngoth_surs vnger_sur vnsax_sur vnfrys_sur vndtch_zor mngvnt_suru trkvnt_surus slvvnt_suru apbrmvnt_sura sogvnt_sur prsvnt_surush arbvnt_surus aravnt_suros cptvnt_suros grgvnt_suro armvnt_suros grkvnt_suros nubvnt_suro ethvnt_suros vnswed_Sur vndan_Sur vnnorw_Sure vnisl_Surr vnnrs_Surr vntpg_Sura vnsard_Suro vndal_Soro vnita_Soro vncslp_Soro tbtvnt_suro }
 Tideimes_male = { vnt_tideimes vtcjap_Chiteyume vnven_Tedeme hanvt_Tidimei vntoe_Tidema vnteme_Tydeme vnteng_Tidam }
-Turijo_male = { vnt_turijo vtcjap_Tsuriyo vnven_Torezo hanvt_Duliyu vntoe_Turia vnteme_Ture vnteng_Ture vnv_Torejo gals_Torejo }
+Turijo_male = { vnt_turijo vtcjap_Tsuriyo vnven_Torezo hanvt_Duliyu vntoe_Turia vnteme_Ture vnteng_Ture vnv_Torejo gals_Torejo Turios }
 Turijones_male = { vnt_turijones vtcjap_Tsuriyone vnven_Torezon hanvt_Duliyuni vntoe_Turion vnteme_Turyon vnteng_Turion }
 Veimes_male = { vnt_veimes vtcjap_Eme vnven_Veme hanvt_Weimei vntoe_Weoma vnteme_Weome vnteng_Weam yslvvnt_vim czcvnt_vjem polvnt_wiem rusvnt_vem vngael_fem vnpict_uem vnwlsh_gwemys vnbrit_wemos vnrmnsh_vejem vnafric_veime vnocc_veimes vnfrenc_jeme vnspa_veime vnport_veinhe vnpan_vemu vnrom_viaime vensic_viemi vngoth_weims vnger_wieme vnsax_weme vnfrys_weme vndtch_wiemi mngvnt_beymu trkvnt_baymas slvvnt_vemi apbrmvnt_vaima sogvnt_weym prsvnt_vemesh arbvnt_baymis aravnt_bimes cptvnt_veimes grgvnt_veime armvnt_veymos grkvnt_beimes nubvnt_bemi ethvnt_waymas vnswed_Ym vndan_Ym vnnorw_Yme vnisl_Ymur vnnrs_Ymr vntpg_Wemiz vnsard_Beime vndal_Veme vnita_Veme vncslp_Veme tbtvnt_beyime }
 #######Doubious+surnames#######
@@ -1926,7 +1943,7 @@ cawa_male = { gals_Cawan }
 
 septimius_male = { Septimius Septemos }
 
-lucia_female = { Lleuca LlU_cia Lucia Luci_a LU_cia Lucie Lucija L_ucja Loukja jp_Rushya jp2_Ruscia }
+lucia_female = { Lleuca LlU_cia Lucia Luci_a LU_cia Lucie Lucija L_ucja Loukja jp_Rushya jp2_Ruscia Luktia }
 
 
 

@@ -1,0 +1,42 @@
+﻿
+@cultural_maa_extra_ai_score = 60 # Equivalent to having 6 extra regiments beyond what the code scoring would indicate (see NEGATIVE_SCORE_PER_EXISTING_REGIMENT)
+
+hellenic_hoplites = {
+	type = pikemen
+	
+	damage = 50
+	toughness = 75
+	pursuit = 0
+	screen = 5
+	
+	terrain_bonus = {
+		mountains = { toughness = 22 }
+		desert_mountains = { toughness = 12 }
+		hills = { toughness = 20 }
+	}
+
+	counters = {
+		light_cavalry = 1
+		heavy_cavalry = 1
+		skirmishers = 1
+		archers = 0.5
+		archer_cavalry = 0.5
+	}
+
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_hellenic_hoplites }
+	}	
+
+	buy_cost = { gold = skoutatoi_recruitment_cost }
+	low_maintenance_cost = { gold = skoutatoi_low_maint_cost }
+	high_maintenance_cost = { gold = skoutatoi_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_moderate
+
+	stack = 80
+	ai_quality = {
+		value = @[cultural_maa_extra_ai_score + 20]
+		add = counter_synergy_ai_weight_pikemen
+	}
+	icon = skoutatoi
+}
+

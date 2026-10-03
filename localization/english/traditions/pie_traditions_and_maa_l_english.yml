@@ -5,7 +5,7 @@
  koryos_maa_desc:0 "Made up of bands of unmarried young men, sent out to seek fortune, glory and plunder for their communities, the Kóryos bands not only serve as a rite of passage for the youth, but also increase the lands and wealth held by their communities."
  koryos_maa_flavor:0 "Though they go into combat wearing little more than a belt and the occasional helmet, Koryos are oath-sworn to protect their communities and fight with a frenzied vigor that few enemies can withstand for long."
  culture_parameter_unlock_maa_koryos:0 "This culture can recruit Kóryos units"
- unlock_maa_koryos:0 "This culture can recruit Kóryos units"
+ unlock_maa_koryos:0 "[GetMaA('koryos_maa').GetName] as [men_at_arms|E]"
  tradition_koryos_name:0 "Kóryos Bands"
  tradition_koryos:0 "Kóryos Bands"
  tradition_koryos_desc:0 "Before they can join polite society, youths of this culture spend their formative years cattle-raiding and pillaging in Kóryos war bands. These bands are often called upon by leaders to aid them in expanding both their lands and their cattle herds."

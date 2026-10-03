@@ -11,7 +11,7 @@
 
 	male_names = {
 		20 = {
-			Haxamanish Cishpish Kambujiyah Aryaramnah Arshamah Vishtaspah Darayavaush Darayaush Xshayarsha Artaxshacah
+			Kurush Haxamanish Cishpish Kambujiyah Aryaramnah Arshamah Vishtaspah Darayavaush Darayaush Xshayarsha Artaxshacah
 		}
 		80 = {
 			Abrakah Arbaraivah Arbinah Arushah Arvantah Arvantapatah Aryabrzah Aryamanah Aryukah Aryabignah Aspamithrah Badrah Bagacithrah Bagadushtah Bagadatah Bagafarnah Bagamsakah Bagasakah Bagapanah Bagapatah Bagavahyah Bagavazdah Bagayah Baradatah Barakah Bayacah Batah Bubarah Cicafarnah Cicamithrah Cicantahmah Cithrafarnah Cithravahishtah Dahyufarnah Dahyuvraithah Druvafarnah Datafarnah Datah Datamah Datamithrah Datiyah Datamah Farnadatah Farnavazdah Farnukah Fravartipatah Fryapatish Gadatah Gaucithrah Gautamah Haumanah Humanah Hufratah Humargah Humayah Huvardatah Jamaspah Jivakah Kapautah Kapotah Krshna Karukah Manaicah Manushtanah Mazdakah Mazdayah Mashkamah Mithrabaujanah Mithrabrzah Mithradatah Mithrafarnah Mithrapatah Mithraupastah Mithravahishtah Mithrayah Mithratah Mahibaujanah Mahidatah Naryamana Naryasanhah Paradatah Pishishyauthnah Padakah Papakah Patixshayathah Raivamithrah Raucakah Rauxshnadatah Rauxshnah Rauxshnapatah Radamaithah Ardifyah Artabrzah Artabanush Artafarnah Artakamah Artamah Artamanah Artamanyush Artapanah Artavazdah Artavazdanah Artaxayah Artaxsharah Artayah Artimah Arshitah Arsha Arshakah Spantadatah Spithradatah Tahmaspah Tanuvazrkah Tigrapatah Tigranah Tirayah Tiridatah Usprnakah Vahubarah Vahumanah Varufarnah Vatafradatah Yamah Yamakah Yamaxshaitah Zabrakanah Atrdatah Atrpatah Acidatah Acipatah Shyatibrzah Shyatifarnah Thyavarsha Araxah Aspacanah Acinah Hutanah Upadarmah Huvaxshtrah Gaubaruvah Gaumatah Xshathritah Cicantaxmah Taxmaspadah Dadrshish Thuxrah Bagabignah Bagabuxshah Brdiyah Fravartish Mathishtah Mrduniyah Vahyazdatah Vindafarnah Vidrnah Vivanah Halditah Artastuna
@@ -47,7 +47,7 @@ name_list_late_old_persian = {
 
 	male_names = {
 		50 = {
-			Haxamanish Cishpish Kambujiyah Aryaramnah Arshamah Vishtaspah Darayavaush Darayaush Xshayarsha Artaxshacah
+			Kurush Haxamanish Cishpish Kambujiyah Aryaramnah Arshamah Vishtaspah Darayavaush Darayaush Xshayarsha Artaxshacah
 		}
 		50 = {
 			Aremanah Dahyuvrethah Datamithrah Humayah Jamaspah Kapotah Mazdakah Mithradatah Mahidatah Naryamana Naryasanhah Pishishyauthnah Papakah Rocakah Artabanush Artavazdah Arshakah Tahmaspah Tigranah Usprnakah Vahumanah Yamaxshetah Thyavarsha Vezdatah Artastuna
