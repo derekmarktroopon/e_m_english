@@ -1383,7 +1383,7 @@ name_list_ancient_greek = {
 			Deiphontes Pyhrros Sokrates Telemakhos Aphareus Kydon Eteokles
 		}
 		1 = {
-			Odysseus Aegyptios Akhilleus Augeas Augeias Danaus Kretheus Kopreus Kukleus Molobros Zakunthos
+			Odysseus Aegyptios Akhilleus Augeas Augeias Danaus Kretheus Kopreus Kukleus Molobros Zakunthos Laertes
 		}
 	}
 	
@@ -1417,28 +1417,33 @@ name_list_ancient_greek = {
 	dynasty_of_location_prefix = "dynnp_of"
 }
 
-name_list_mycenaean = { # Wiktionary + https://www.peiraeuspubliclibrary.com/names/europa/mycenaean.html
+name_list_mycenaean = { # Wiktionary + https://www.peiraeuspubliclibrary.com/names/europa/mycenaean.html + https://www.researchgate.net/publication/396594105_Linear_B_Lexicon
 
 	cadet_dynasty_names = {
-		dynn_Etewoklewehios dynn_Hektorijos dynn_Achillewehios dynn_Kudonijos dynn_Alektruonijos dynn_Ekhinijos dynn_Twinonijos dynn_Haphaistijos dynn_Gwouklijos dynn_Krethewehios dynn_Wedanewehios dynn_Mologwrijos dynn_Xaridhmijos
+		dynn_Etewoklewehios dynn_Hektorios dynn_Achillewehios dynn_Kudonios dynn_Alektruonios dynn_Ekhinios dynn_Twinonios dynn_Haphaistios dynn_Gwouklios dynn_Krethewehios dynn_Wedanewehios dynn_Mologwrios dynn_Xaridhmios
 	}
 
 	dynasty_names = {
-		dynn_Etewoklewehios dynn_Hektorijos dynn_Achillewehios dynn_Kudonijos dynn_Alektruonijos dynn_Ekhinijos dynn_Twinonijos dynn_Haphaistijos dynn_Gwouklijos dynn_Krethewehios dynn_Wedanewehios dynn_Mologwrijos dynn_Xaridhmijos
+		dynn_Etewoklewehios dynn_Hektorios dynn_Achillewehios dynn_Kudonios dynn_Alektruonios dynn_Ekhinios dynn_Twinonios dynn_Haphaistios dynn_Gwouklios dynn_Krethewehios dynn_Wedanewehios dynn_Mologwrios dynn_Xaridhmios
 	}
 
 	male_names = {
-		Aiguptijos Akhilleus Alektruon Alxoitas Amphimedes Antromaxos Aphareus Augewas Dahikwhontas Danajos Dexiwos Drakokardos Drakomaxos Dzakunsijos Ekhinos Enkhelyawon Etewoklewos Eruthros Eumenes Filaretos Glaukos Gwouklos Haphaistijos Hektor Khalkeus Klumenos Kretheus Kopreus Kudon Kukleus Lukios Mologwros Oduseus Opilimnios Orestes Phugegwrins Pitakeus Poimnios Turios Twinon Wedaneus Xaridhmos
+		Aiguptios Akhilleus Alektruon Alxoitas Amphimedes Antromaxos Aphareus Augewas Dahikwhontas Danaios Dexiwos Drakokardos Drakomaxos Dzakunsios Ekhinos Enkhelyawon Etewoklewos Eruthros Eumenes Philaretos Glaukos Gwouklos Haphaistios Hektor Khalkeus Klumenos Kretheus Kopreus Kudon Kukleus Lukios Mologwros Oduseus Opilimnios Orestes Phugegwrins Pitakeus Poimnios Turios Twinon Wedaneus Xaridhmos
+		Lawertas
+		Adamao Adameweis Adrastios Adinwatas Aelipotas Aigeus Aiginoos Aigupos Aikontas Aimireweis Aithaloweis Aithiopes Aithon Aiwatas Aiwolos Alkmanor Aktaios Akhaiwos Argeios Arkhailawos Axotas Argotheus Aktor Aktoinos Akorwos Amalutao Amnisios Amunthawon Anukos Anutos Apsaios Aptarwaios Apelitawon Amphihalos Amphiagros Amphidoros Amphiarewos Amphiietas Amphipotas Amphilawos Amgwatos Agwaimon Amgwotas Alexeus Alexitos Alektruwon Areimenes Asiwios Antanor Artemitios Artemon Atukos Augewan Autias Aweixeus Daipontas Daitraros Daiaros Daron Dataiaros Deukalion Deukios Dikonaros Dipsios Diuawon Diwieus Diwon Doriewes Dromeus Dunios Dureus Dutasos Duwoios Edaeus Eidomeneus Ehemedes Eheliawon Enheros Erhomenatas Ephialtas Engwaros Elateios Erikleweis Erikorwos Eruthras Etawoneus Etewas Eudamos Eudonos Euhomenos Eumedes Eumetas Eunawos Euormos Euplowos Eurudamos Euruptolemos Eurupotas Euagros Ewitaios Ezowos Idomeneios Iawon Ipsewas Isuhuwdotos Iwax Iwasos Khandaros Kaesamenos Kaeseus Kharadowatas Khariseus Kharisios Xanthos Katawas Kastor Khaunos Kerkios Kerameus Kerawios Krethiwos Kerowos Kesandros Keousas Kewetos Kodos Kokalos Kolhidas Kolhios Komaweis Knosios Korinsios Korinthios Xouthos Koturion Kukadaros Kuparisios Kupselos Kuprios Kulanos Kutaisios Kutheraios Kutherea Ktugianor Makhawon Mnasiwergos Manikhos Manouros Maranenios Maltheus Maleus Malitas Mautios Medeios Metapios Metopeus Mopsos Moleus Moroplos Naisewios Nausikleweis Nawilos Nedwatas Nestianor Odriwios Orkhomeneus Okunawos Opheltas Orestas Ortinawos Pandageus Pandion Sphakosios Paraios Patas Pepithmenos Prespotas Pleuronios Perimedes Pelitas Periteus Perithowos Psellos Petalos Pikereus Pipis Philowergos Piswatas Pitakeus Podargos Poliwos Proteus Plouteus Polukastos Poluwotas Psophres Psorakos Psoros Puxelos Purasos Phuges Phusiarhos Kadasos Karnuwasos Kwaraisos Ketraieus Ketawos Lakheus Lakhuros Lampsakos Lawodokos Lawoponos Leukasos Leukos Lokhos Lukouros Lukoworos Runasos Siaduweis Simakos Smintheus Sinouros Sirios Souros Sudnikos Suros Suwerowios Tamieus Tanikhos Thalamatas Tharsus Tantalos Telouros Theseus Tridaros Tokeus Thorios Tukheneus Tulitas Thuwestas Ulaios Ulamnos Uleus Ulion Utaios Utanos Uwatas Wanataios Wanikhos Waphalos Wastuokhos Wendaneus Wewesios Widowoios Wiphinoos Wiseios Wisulos Witimios Witulios Wonewes Wokewes Zowios 
 	}
 	
 	female_names = { # For a lack of better source: https://issendai.com/minoan/minoan-and-mycenaean-names/mycenaean-womens-names/
-		Adrasteia Aigeia Aipugeneia Aiwaia Alexandra Austera Eritha Iphemedeia Itamo Karpathia Kerameia Korinsia Luktia Orthwowije Perieia Phaistia Philagra Phonikeia Poulxeria Purwa Thegwaia Wordieia
+		Adrasteia Aigeia Aipugeneia Aiwaia Alexandra Austera Eritha Iphemedeia Itamo Karpathia Kerameia Korinsia Luktia Orthwowie Perieia Phaistia Philagra Phonikeia Poulxeria Purwa Thegwaia Wordieia
+		Aptarwaia Asiwia Atreiwia Dikonareia Dipsia Erathra Esalewia Ewripia Idomeneia Inia Karpasia Keraso Knidia Knosia Korinthia Milatia Odriwia Psoreia Sima Thalamika Theodora 
 	}
 
 	dynasty_of_location_prefix = "dynnp_of"
 
-	patronym_suffix_male = "dynnpat_suf_ijos"
-	patronym_suffix_female = "dynnpat_suf_ija"
+	patronym_suffix_male = "dynnpat_suf_ios" # also, iewes
+	patronym_suffix_female = "dynnpat_suf_ia"
 }
 
 # Minoan Pitakesi(Pitakeus)
+
+Adamas Adameus

@@ -1,0 +1,23 @@
+﻿
+
+k_ithaca = {
+	color = { 66 147 245 }
+
+	capital = c_cephalonia # Ithaca
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				AND = {
+					culture = {
+						OR = {
+							has_name_list = name_list_ancient_greek
+							has_name_list = name_list_mycenaean
+						}
+					}
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}

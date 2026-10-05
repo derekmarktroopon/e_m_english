@@ -1,0 +1,67 @@
+﻿
+mythical_greek_char_01 = { # Arcesius
+	name = Arkeisios
+	rite = "hellenic_pagan"
+	culture = "mycenaean"
+	dynasty = Mythical_greek_dynasty_01
+	add_trait = ambitious
+	
+	-1320.1.1 = { birth = yes }
+	-1268.1.1 = { death = yes }
+}
+
+
+mythical_greek_char_02 = { # Laertes - father of Odysseus
+	name = Lawertas
+	rite = "hellenic_pagan"
+	culture = "mycenaean"
+	dynasty = Mythical_greek_dynasty_01
+	father = mythical_greek_char_01
+	add_trait = content
+	add_trait = compassionate
+	
+	-1268.1.1 = { birth = yes }
+	-1173.1.1 = { death = yes } # abdicates around 1202
+}
+
+mythical_greek_char_03 = { # Odysseus
+	name = Oduseus
+	rite = "hellenic_pagan"
+	culture = "mycenaean"
+	dynasty = Mythical_greek_dynasty_01
+	father = mythical_greek_char_02
+	add_trait = arrogant
+	add_trait = wrathful
+	add_trait = brave
+	
+	-1220.1.1 = { birth = yes } 
+	-1135.1.1 = { death = yes }
+}
+
+mythical_greek_char_04 = { # Penelope
+	name = Penelope
+	rite = "hellenic_pagan"
+	culture = "mycenaean"
+	female = yes
+	add_trait = beauty_good_2
+	add_trait = chaste
+	add_trait = stubborn
+	
+	-1218.1.1 = { birth = yes }
+	-1128.1.1 = { death = yes }
+}
+
+mythical_greek_char_05 = { # Telemachus
+	name = Telemakhos
+	rite = "hellenic_pagan"
+	culture = "mycenaean"
+	dynasty = Mythical_greek_dynasty_01
+	father = mythical_greek_char_03
+	mother = mythical_greek_char_04
+	add_trait = just
+	add_trait = ambitious
+	add_trait = brave
+	
+	-1194.1.1 = { birth = yes }
+	-1105.1.1 = { death = yes }
+}

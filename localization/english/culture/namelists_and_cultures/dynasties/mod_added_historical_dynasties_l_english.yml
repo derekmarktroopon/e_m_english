@@ -33,3 +33,7 @@
  dynn_kec_ancient_egypt_30:0 "Thirtieth Dynasty"
  dynn_kec_ancient_egypt_31:0 "Thirty-first Dynasty"
  dynn_kec_ancient_egypt_khababash:0 "Khababash Dynasty"
+ # Venetic dynasty
+ dynn_Patavnios:0 "Patavnios"
+ # Mythical Greek
+ dynn_Lawertios:0 "Lawertios"

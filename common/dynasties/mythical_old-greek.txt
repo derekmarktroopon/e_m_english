@@ -1,0 +1,7 @@
+﻿## These are really not in numeric order... sorry...
+
+
+Mythical_greek_dynasty_01 = {
+	name = "dynn_Lawertios"
+	culture = "mycenaean"
+}

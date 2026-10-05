@@ -1,0 +1,26 @@
+﻿@smErmine = 0.27
+@smLysX = 0.23
+@smLysY = 0.26
+
+dynn_Patavnios = {
+	pattern = "pattern_solid.dds"
+	color1 = rgb { 2 54 158 } #Patavion Blue
+	color2 = rgb { 255 247 92 } #light yellow
+
+	colored_emblem = {
+		texture = "ce_venetic_warrior.dds"
+		color1 = rgb { 250 248 237 } #Olympian white
+		color2 = rgb { 255 247 92 } #light yellow
+		color3 = "black"
+		instance = { scale = { 0.8 0.8 }}
+	}
+
+	colored_emblem = {
+		texture = "ce_border_venetic_7.dds"
+		color1 = rgb { 255 247 92 } #light yellow
+
+		instance = { rotation = 0 }
+	    instance = { rotation = 180 }
+	}
+}
+

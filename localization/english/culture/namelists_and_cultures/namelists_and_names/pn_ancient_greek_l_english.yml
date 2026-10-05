@@ -15,8 +15,10 @@
  Telemakhos:0 "Telemakhos"
  Molobros:0 "Molobros"
  Aegyptios:0 "Aegyptios"
- Kydon:0 "Kydon""
+ Kydon:0 "Kydon"
  Zakunthos:0 "Zakunthos"
+ Laertes:0 "Laertes"
+ Arkeisios:0 "Arkeisios"
 
  Iphimedeia:0 "Iphimedeia"
  Penelope:0 "Penelope"
@@ -25,44 +27,41 @@
 
  name_list_mycenaean:0 "Mycenaean"
 
- dynnpat_suf_ijos:0 "ijos"
- dynnpat_suf_ija:0 "dynnpat_suf_ija"
-
  dynn_Etewoklewehios:0 "Etewoklewehios"
- dynn_Hektorijos:0 "Hektorijos"
+ dynn_Hektorios:0 "Hektorios"
  # The first two are attested, the rest speculative
  dynn_Achillewehios:0 "Achillewehios"
- dynn_Kudonijos:0 "Kudonijos"
- dynn_Alektruonijos:0 "Alektruonijos"
- dynn_Ekhinijos:0 "Ekhinijos"
- dynn_Twinonijos:0 "Twinonijos"
- dynn_Haphaistijos:0 "Haphaistijos"
- dynn_Gwouklijos:0 "Gwouklijos"
+ dynn_Kudonios:0 "Kudonios"
+ dynn_Alektruonios:0 "Alektruonios"
+ dynn_Ekhinios:0 "Ekhinios"
+ dynn_Twinonios:0 "Twinonios"
+ dynn_Haphaistios:0 "Haphaistios"
+ dynn_Gwouklios:0 "Gwouklios"
  dynn_Krethewehios:0 "Krethewehios"
  dynn_Wedanewehios:0 "Wedanewehios"
- dynn_Mologwrijos:0 "Mologwrijos"
- dynn_Xaridhmijos:0 "Xaridhmijos"
+ dynn_Mologwrios:0 "Mologwrios"
+ dynn_Xaridhmios:0 "Xaridhmios"
 
- Aiguptijos:0 "Aiguptijos"
+ Aiguptios:0 "Aiguptios"
  Alektruon:0 "Alektruon"
  Alxoitas:0 "Alxoitas"
  Amphimedes:0 "Amphimedes"
  Antromaxos:0 "Antromaxos"
  Augewas:0 "Augewas"
  Dahikwhontas:0 "Dahikwhontas"
- Danajos:0 "Danajos"
+ Danaios:0 "Danaios"
  Dexiwos:0 "Dexiwos"
  Drakokardos:0 "Drakokardos"
  Drakomaxos:0 "Drakomaxos"
- Dzakunsijos:0 "Dzakunsijos"
+ Dzakunsios:0 "Dzakunsios"
  Ekhinos:0 "Ekhinos"
  Enkhelyawon:0 "Enkhelyawon"
- Etewoklewos:0 "Etewoklewos"
+ Etewoklewos:0 "Etewoklewos" # Etewoklewes
  Eruthros:0 "Eruthros"
  Filaretos:0 "Filaretos"
  Glaukos:0 "Glaukos"
  Gwouklos:0 "Gwouklos"
- Haphaistijos:0 "Haphaistijos"
+ Haphaistios:0 "Haphaistios"
  Khalkeus:0 "Khalkeus"
  Klumenos:0 "Klumenos"
  Kretheus:0 "Kretheus"
@@ -80,6 +79,269 @@
  Twinon:0 "Twinon"
  Wedaneus:0 "Wedaneus"
  Xaridhmos:0 "Xaridhmos"
+ Lawertas:0 "Lawertas" #
+Adamao:0 "Adamao" #
+Adameweis:0 "Adameweis" #
+Adrastios:0 "Adrastios" #
+Adinwatas:0 "Adinwatas" #
+Aelipotas:0 "Aelipotas" #
+Aigeus:0 "Aigeus" #
+Aiginoos:0 "Aiginoos" #
+Aigupos:0 "Aigupos" #
+Aikontas:0 "Aikontas" #
+Aimireweis:0 "Aimireweis" #
+Aithaloweis:0 "Aithaloweis" #
+Aithiopes:0 "Aithiopes" #
+Aithon:0 "Aithon" #
+Aiwatas:0 "Aiwatas" #
+Aiwolos:0 "Aiwolos" #
+Alkmanor:0 "Alkmanor" #
+Aktaios:0 "Aktaios" #
+Akhaiwos:0 "Akhaiwos" #
+Argeios:0 "Argeios" #
+Arkhailawos:0 "Arkhailawos" #
+Axotas:0 "Axotas" #
+Argotheus:0 "Argotheus" #
+Aktor:0 "Aktor" #
+Aktoinos:0 "Aktoinos" #
+Akorwos:0 "Akorwos" #
+Amalutao:0 "Amalutao" #
+Amnisios:0 "Amnisios" #
+Amunthawon:0 "Amunthawon" #
+Anukos:0 "Anukos" #
+Anutos:0 "Anutos" #
+Apsaios:0 "Apsaios" #
+Aptarwaios:0 "Aptarwaios" #
+Apelitawon:0 "Apelitawon" #
+Amphihalos:0 "Amphihalos" #
+Amphiagros:0 "Amphiagros" #
+Amphidoros:0 "Amphidoros" #
+Amphiarewos:0 "Amphiarewos" #
+Amphietas:0 "Amphietas" #
+Amphipotas:0 "Amphipotas" #
+Amphilawos:0 "Amphilawos" #
+Amgwatos:0 "Amgwatos" #
+Agwaimon:0 "Agwaimon" #
+Amgwotas:0 "Amgwotas" #
+Alexeus:0 "Alexeus" #
+Alexitos:0 "Alexitos" #
+Alektruwon:0 "Alektruwon" #
+Areimenes:0 "Areimenes" #
+Asiwios:0 "Asiwios" #
+Antanor:0 "Antanor" #
+Artemitios:0 "Artemitios" #
+Artemon:0 "Artemon" #
+Atukos:0 "Atukos" #
+Augewan:0 "Augewan" #
+Autias:0 "Autias" #
+Aweixeus:0 "Aweixeus" #
+Daipontas:0 "Daipontas" #
+Daitraros:0 "Daitraros" #
+Daiaros:0 "Daiaros" #
+Daron:0 "Daron" #
+Dataiaros:0 "Dataiaros" #
+Deukalion:0 "Deukalion" #
+Deukios:0 "Deukios" #
+Dikonaros:0 "Dikonaros" #
+Dipsios:0 "Dipsios" #
+Diuawon:0 "Diuawon" #
+Diwieus:0 "Diwieus" #
+Diwon:0 "Diwon" #
+Doriewes:0 "Doriewes" #
+Dromeus:0 "Dromeus" #
+Dunios:0 "Dunios" #
+Dureus:0 "Dureus" #
+Dutasos:0 "Dutasos" #
+Duwoios:0 "Duwoios" #
+Edaeus:0 "Edaeus" #
+Eidomeneus:0 "Eidomeneus" #
+Ehemedes:0 "Ehemedes" #
+Eheliawon:0 "Eheliawon" #
+Enheros:0 "Enheros" #
+Erhomenatas:0 "Erhomenatas" #
+Ephialtas:0 "Ephialtas" #
+Engwaros:0 "Engwaros" #
+Elateios:0 "Elateios" #
+Erikleweis:0 "Erikleweis" #
+Erikorwos:0 "Erikorwos" #
+Eruthras:0 "Eruthras" #
+Etawoneus:0 "Etawoneus" #
+Etewas:0 "Etewas" #
+Eudamos:0 "Eudamos" #
+Eudonos:0 "Eudonos" #
+Euhomenos:0 "Euhomenos" #
+Eumedes:0 "Eumedes" #
+Eumetas:0 "Eumetas" #
+Eunawos:0 "Eunawos" #
+Euormos:0 "Euormos" #
+Euplowos:0 "Euplowos" #
+Eurudamos:0 "Eurudamos" #
+Euruptolemos:0 "Euruptolemos" #
+Eurupotas:0 "Eurupotas" #
+Euagros:0 "Euagros" #
+Ewitaios:0 "Ewitaios" #
+Ezowos:0 "Ezowos" #
+Idomeneios:0 "Idomeneios" #
+Iawon:0 "Iawon" #
+Ipsewas:0 "Ipsewas" #
+Isuhuwdotos:0 "Isuhuwdotos" #
+Iwax:0 "Iwax" #
+Iwasos:0 "Iwasos" #
+Khandaros:0 "Khandaros" #
+Kaesamenos:0 "Kaesamenos" #
+Kaeseus:0 "Kaeseus" #
+Kharadowatas:0 "Kharadowatas" #
+Khariseus:0 "Khariseus" #
+Kharisios:0 "Kharisios" #
+Xanthos:0 "Xanthos" #
+Katawas:0 "Katawas" #
+Kastor:0 "Kastor" #
+Khaunos:0 "Khaunos" #
+Kerkios:0 "Kerkios" #
+Kerameus:0 "Kerameus" #
+Kerawios:0 "Kerawios" #
+Krethiwos:0 "Krethiwos" #
+Kerowos:0 "Kerowos" #
+Kesandros:0 "Kesandros" #
+Keousas:0 "Keousas" #
+Kewetos:0 "Kewetos" #
+Kodos:0 "Kodos" #
+Kokalos:0 "Kokalos" #
+Kolhidas:0 "Kolhidas" #
+Kolhios:0 "Kolhios" #
+Komaweis:0 "Komaweis" #
+Knosios:0 "Knosios" #
+Korinsios:0 "Korinsios" #
+Korinthios:0 "Korinthios" #
+Xouthos:0 "Xouthos" #
+Koturion:0 "Koturion" #
+Kukadaros:0 "Kukadaros" #
+Kuparisios:0 "Kuparisios" #
+Kupselos:0 "Kupselos" #
+Kuprios:0 "Kuprios" #
+Kulanos:0 "Kulanos" #
+Kutaisios:0 "Kutaisios" #
+Kutheraios:0 "Kutheraios" #
+Kutherea:0 "Kutherea" #
+Ktugianor:0 "Ktugianor" #
+Makhawon:0 "Makhawon" #
+Mnasiwergos:0 "Mnasiwergos" #
+Manikhos:0 "Manikhos" #
+Manouros:0 "Manouros" #
+Maranenios:0 "Maranenios" #
+Maltheus:0 "Maltheus" #
+Maleus:0 "Maleus" #
+Malitas:0 "Malitas" #
+Mautios:0 "Mautios" #
+Medeios:0 "Medeios" #
+Metapios:0 "Metapios" #
+Metopeus:0 "Metopeus" #
+Mopsos:0 "Mopsos" #
+Moleus:0 "Moleus" #
+Moroplos:0 "Moroplos" #
+Naisewios:0 "Naisewios" #
+Nausikleweis:0 "Nausikleweis" #
+Nawilos:0 "Nawilos" #
+Nedwatas:0 "Nedwatas" #
+Nestianor:0 "Nestianor" #
+Odriwios:0 "Odriwios" #
+Orkhomeneus:0 "Orkhomeneus" #
+Okunawos:0 "Okunawos" #
+Opheltas:0 "Opheltas" #
+Orestas:0 "Orestas" #
+Ortinawos:0 "Ortinawos" #
+Pandageus:0 "Pandageus" #
+Pandion:0 "Pandion" #
+Sphakosios:0 "Sphakosios" #
+Paraios:0 "Paraios" #
+Patas:0 "Patas" #
+Pepithmenos:0 "Pepithmenos" #
+Prespotas:0 "Prespotas" #
+Pleuronios:0 "Pleuronios" #
+Perimedes:0 "Perimedes" #
+Pelitas:0 "Pelitas" #
+Periteus:0 "Periteus" #
+Perithowos:0 "Perithowos" #
+Psellos:0 "Psellos" #
+Petalos:0 "Petalos" #
+Pikereus:0 "Pikereus" #
+Pipis:0 "Pipis" #
+Philowergos:0 "Philowergos" #
+Piswatas:0 "Piswatas" #
+Pitakeus:0 "Pitakeus" #
+Podargos:0 "Podargos" #
+Poliwos:0 "Poliwos" #
+Proteus:0 "Proteus" #
+Plouteus:0 "Plouteus" #
+Polukastos:0 "Polukastos" #
+Poluwotas:0 "Poluwotas" #
+Psophres:0 "Psophres" #
+Psorakos:0 "Psorakos" #
+Psoros:0 "Psoros" #
+Puxelos:0 "Puxelos" #
+Purasos:0 "Purasos" #
+Phuges:0 "Phuges" #
+Phusiarhos:0 "Phusiarhos" #
+Kadasos:0 "Kadasos" #
+Karnuwasos:0 "Karnuwasos" #
+Kwaraisos:0 "Kwaraisos" #
+Ketraieus:0 "Ketraieus" #
+Ketawos:0 "Ketawos" #
+Lakheus:0 "Lakheus" #
+Lakhuros:0 "Lakhuros" #
+Lampsakos:0 "Lampsakos" #
+Lawodokos:0 "Lawodokos" #
+Lawoponos:0 "Lawoponos" #
+Leukasos:0 "Leukasos" #
+Leukos:0 "Leukos" #
+Lokhos:0 "Lokhos" #
+Lukouros:0 "Lukouros" #
+Lukoworos:0 "Lukoworos" #
+Runasos:0 "Runasos" #
+Siaduweis:0 "Siaduweis" #
+Simakos:0 "Simakos" #
+Smintheus:0 "Smintheus" #
+Sinouros:0 "Sinouros" #
+Sirios:0 "Sirios" #
+Souros:0 "Souros" #
+Sudnikos:0 "Sudnikos" #
+Suros:0 "Suros" #
+Suwerowios:0 "Suwerowios" #
+Tamieus:0 "Tamieus" #
+Tanikhos:0 "Tanikhos" #
+Thalamatas:0 "Thalamatas" #
+Tharsus:0 "Tharsus" #
+Tantalos:0 "Tantalos" #
+Telouros:0 "Telouros" #
+Theseus:0 "Theseus" #
+Tridaros:0 "Tridaros" #
+Tokeus:0 "Tokeus" #
+Thorios:0 "Thorios" #
+Tukheneus:0 "Tukheneus" #
+Tulitas:0 "Tulitas" #
+Thuwestas:0 "Thuwestas" #
+Ulaios:0 "Ulaios" #
+Ulamnos:0 "Ulamnos" #
+Uleus:0 "Uleus" #
+Ulion:0 "Ulion" #
+Utaios:0 "Utaios" #
+Utanos:0 "Utanos" #
+Uwatas:0 "Uwatas" #
+Wanataios:0 "Wanataios" #
+Wanikhos:0 "Wanikhos" #
+Waphalos:0 "Waphalos" #
+Wastuokhos:0 "Wastuokhos" #
+Wendaneus:0 "Wendaneus" #
+Wewesios:0 "Wewesios" #
+Widowoios:0 "Widowoios" #
+Wiphinoos:0 "Wiphinoos" #
+Wiseios:0 "Wiseios" #
+Wisulos:0 "Wisulos" #
+Witimios:0 "Witimios" #
+Witulios:0 "Witulios" #
+Wonewes:0 "Wonewes" #
+Wokewes:0 "Wokewes" #
+Zowios:0 "Zowios" #
 
  Adrasteia:0 "Adrasteia"
  Aigeia:0 "Aigeia"
@@ -93,7 +355,7 @@
  Kerameia:0 "Kerameia"
  Korinsia:0 "Korinsia"
  Luktia:0 "Luktia"
- Orthwowije:0 "Orthwowije"
+ Orthwowie:0 "Orthwowie"
  Perieia:0 "Perieia"
  Phaistia:0 "Phaistia"
  Philagra:0 "Philagra"
@@ -102,3 +364,23 @@
  Purwa:0 "Purwa"
  Thegwaia:0 "Thegwaia"
  Wordieia:0 "Wordieia"
+ Aptarwaia:0 "Aptarwaia" #
+Asiwia:0 "Asiwia" #
+Atreiwia:0 "Atreiwia" #
+Dikonareia:0 "Dikonareia" #
+Dipsia:0 "Dipsia" #
+Erathra:0 "Erathra" #
+Esalewia:0 "Esalewia" #
+Ewripia:0 "Ewripia" #
+Idomeneia:0 "Idomeneia" #
+Inia:0 "Inia" #
+Karpasia:0 "Karpasia" #
+Keraso:0 "Keraso" #
+Knidia:0 "Knidia" #
+Knosia:0 "Knosia" #
+Korinthia:0 "Korinthia" #
+Milatia:0 "Milatia" #
+Odriwia:0 "Odriwia" #
+Psoreia:0 "Psoreia" #
+Sima:0 "Sima" #
+Thalamika:0 "Thalamika" #
