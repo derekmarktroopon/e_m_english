@@ -18,12 +18,12 @@ restore_ithaca_scripted_effect = {
 			holder = root
 			change = scope:title_change
 		}
-		set_county_culture = root.culture
-		set_county_faith = root.faith
-		set_county_rite = root.rite
 	}
 	title:c_cephalonia = {
 		change_development_level = medium_development_level_gain
+		set_county_culture = root.culture
+		set_county_faith = root.faith
+		set_county_rite = root.rite
 	}
 
 	hidden_effect = {

@@ -3,7 +3,7 @@
  ekvopetobos_flavor:0 "Eppetars are the mighty horsemen of the Veneti."
  tradition_ekvopetobos_name:0 "Ekupetabos"
  tradition_ekvopetobos_desc:0 "The Eppetabos/Ekupetabos (literally, 'horselords') were a social class of horsemen in Venetken society, akin to the knights of medieval societies. Highly revered, and incredibly effective, they held the line for their people against inumerous invasions." 
- culture_parameter_unlock_maa_ekvopetobos:0 "[GetMaA('ekvopetobos').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_ekvopetobos:0 "Unlock [GetMaA('ekvopetobos').GetName] as [men_at_arms|E]"
 
  ekfopetaboz:0 "Ekfopetars" 
  ekfopetaboz_flavor:0 "The mighty horsemen of the Winitkens, stories tell of their heroic deeds against ancient foes."

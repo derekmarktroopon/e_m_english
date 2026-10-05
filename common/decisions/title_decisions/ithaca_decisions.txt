@@ -9,7 +9,7 @@ restore_ithaca_decision = {
 	selection_tooltip = restore_ithaca_decision_tooltip
 
 	is_shown = {
-		religion = religion:hellenic_pagan
+		faith = faith:hellenic_pagan
 		culture = { 
 		    OR = {
                 has_cultural_pillar = heritage_byzantine
@@ -23,7 +23,7 @@ restore_ithaca_decision = {
 			}
 		}	
 		is_playable_character = yes	
-		has_title = title:c_cephalonia
+		#has_title = title:c_cephalonia
 	}
 
 	is_valid = {

@@ -2,7 +2,7 @@
 @smLysX = 0.23
 @smLysY = 0.26
 
-dynn_Patavnios = {
+historical_patavian_venetic_dynasty = {
 	pattern = "pattern_solid.dds"
 	color1 = rgb { 2 54 158 } #Patavion Blue
 	color2 = rgb { 255 247 92 } #light yellow
