@@ -1610,6 +1610,7 @@ kec_egypt_history_218 = { # Amenhotep; Eighteenth Dynasty - Atkhenaten
 	mother = kec_egypt_history_12222
 	
 	-1368.1.1 = { birth = yes }
+	-1356.1.1 = { add_spouse = kec_egypt_history_12223 }
 	-1335.1.1 = { death = yes }
 }
 
