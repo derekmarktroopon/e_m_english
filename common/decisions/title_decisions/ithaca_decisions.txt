@@ -1,0 +1,93 @@
+﻿
+restore_ithaca_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	}
+	decision_group_type = major
+
+	desc = restore_ithaca_decision_desc
+	selection_tooltip = restore_ithaca_decision_tooltip
+
+	is_shown = {
+		religion = religion:hellenic_pagan
+		culture = { 
+		    OR = {
+                has_cultural_pillar = heritage_byzantine
+                has_cultural_pillar = heritage_ancient_greek
+		    }
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_restored_ithaca
+			}
+		}	
+		is_playable_character = yes	
+		has_title = title:c_cephalonia
+	}
+
+	is_valid = {
+		#Must be independent.
+		top_liege = this
+		#Has to be around for the ceremony.
+		is_imprisoned = no
+		#Should have the highest prestige level.
+		prestige_level >= max_prestige_level
+		capital_county = title:c_cephalonia
+		capital_county = {
+			development_level >= 30
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_alive = yes
+		not = { exists = involved_activity }
+		is_imprisoned = no
+		has_contagious_deadly_disease_trigger = no
+	}
+
+	cooldown = { years = 5 }
+    
+	effect = {
+		gain_heroic_legend_seed_tooltip_effect = yes
+		save_scope_as = founder
+		# Trigger effects.
+		show_as_tooltip = { restore_ithaca_scripted_effect = yes }
+		trigger_event = { id = eme_mythical_historical_title_creation.1 }
+		#Notify other players.
+		every_player = {
+			limit = {
+				capital_province = { geographical_region = world_europe_south_east }
+				#Obviously, we exempt scope:founder themselves.
+				this != scope:founder
+			}
+			#Vassal players get a separate event.
+			if = {
+				limit = {
+					any_liege_or_above = { this = scope:founder }
+				}
+				trigger_event = eme_mythical_historical_title_creation.2
+			}
+			#Everyone else within range gets a less personal version.
+			else = { trigger_event = eme_mythical_historical_title_creation.3 }
+		}
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_restored_ithaca
+			}
+		}
+	}
+
+	cost = {
+		prestige = 2000
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

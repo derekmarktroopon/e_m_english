@@ -1,0 +1,14 @@
+﻿l_english:
+
+ 
+ eme_mythical_historical_title_creation.1.t:0 "The Kingdom of Ithaca"
+ eme_mythical_historical_title_creation.1.desc:0 "[ROOT.GetCharacter.GetFirstName] stands looking out, from [ROOT.GetCharacter.GetHerHis] grand palace, to the western shores towards Magna Graecia. It is said that this was the view Penelope held as she awaited the arrival of her beloved Odysseus during his decade-long voyage back from the Trojan war. Now again, the spouses of Ithacans will be called to wait upon the expeditions of their lovers to foreign lands, however this will no longer be done under the whims of Lacedaemonian tyrants, nor the demands of any other sovereigns, for today it is Ithaca that stands tall and proud.\n\nWhere once our forebearers looked out to the daunting sea with sorrow and longing, we now look out with wonderlust and ambition. Across these waters we will once again voyage, and across these waters we will conquer!"
+ eme_mythical_historical_title_creation.1.a:0 "The Kingdom of Ithaca is Reborn!"
+
+ eme_mythical_historical_title_creation.2.t:0 "The Kingdom of Ithaca"
+ eme_mythical_historical_title_creation.2.desc:0 "Through great trial our leige [founder.GetCharacter.GetFirstName] has raised the island of Ithaca to hights unseen since the days gods walked the earth, making the island a central power of eastern Hellas. Few can now doubt that little Ithaca stands amongst the great kingdoms of southern Europa."
+ eme_mythical_historical_title_creation.2.a:0 "Praise be the Kings of Ithaca!"
+
+ eme_mythical_historical_title_creation.3.t:0 "Rise of Ithaca"
+ eme_mythical_historical_title_creation.3.desc:0 "Inpulsed by the Legend of the great hero Odysseus, it seems as though the upstart [founder.GetCharacter.GetFirstName] has proclaimed the little island of Ithaca to once more be its own kingdom.\n\nThough the wealth and power of the island has grown considerably, only time will tell if anything will come of it."
+ eme_mythical_historical_title_creation.3.a:0 "Curious"

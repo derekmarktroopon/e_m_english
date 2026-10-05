@@ -1,0 +1,85 @@
+﻿namespace = eme_mythical_historical_title_creation
+							
+
+eme_mythical_historical_title_creation.1 = {
+	type = character_event
+	title = eme_mythical_historical_title_creation.1.t # The Kingdom of Ithaca
+	desc = eme_mythical_historical_title_creation.1.desc # 
+	theme = war
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_war_declared"
+		# Apply effects
+		restore_ithaca_scripted_effect = yes
+		legend_seed_new_title_effect = yes
+	}
+
+	# The Kingdom of Ithaca is Reborn!
+	option = {
+		name = eme_mythical_historical_title_creation.1.a
+
+		# Add a unique nickname.
+		give_nickname = nick_the_great_and_terrible
+	}
+}
+
+#	Vassal notification event
+eme_mythical_historical_title_creation.2 = {
+	type = character_event
+	title = eme_mythical_historical_title_creation.2.t # The Kingdom of Ithaca
+	desc = eme_mythical_historical_title_creation.2.desc # 
+	theme = war
+	left_portrait = {
+		character = scope:founder
+		animation = personality_honorable
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_war_declared"
+		# Apply effects
+		scope:founder = {
+			show_as_tooltip = { restore_ithaca_scripted_effect = yes }
+		}
+	}
+
+	# Praise be the Kings of Ithaca!
+	option = {
+		name = eme_mythical_historical_title_creation.2.a
+	}
+}
+
+#	Distant players notification event
+eme_mythical_historical_title_creation.3 = {
+	type = character_event
+	title = eme_mythical_historical_title_creation.3.t # Rise of Ithaca
+	desc = eme_mythical_historical_title_creation.3.desc # 
+	theme = war
+	left_portrait = {
+		character = scope:founder
+		animation = personality_honorable
+	}
+
+
+	immediate = {
+		play_music_cue = "mx_cue_war_declared"
+		# Apply effects
+		scope:founder = {
+			show_as_tooltip = { restore_ithaca_scripted_effect = yes }
+		}
+	}
+
+	# Curious
+	option = {
+		name = eme_mythical_historical_title_creation.3.a
+
+		ai_chance = {
+			#Doesn't especially matter.
+			base = 100
+		}
+	}
+
+}

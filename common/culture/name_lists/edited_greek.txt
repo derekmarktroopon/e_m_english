@@ -1425,6 +1425,7 @@ name_list_mycenaean = { # Wiktionary + https://www.peiraeuspubliclibrary.com/nam
 
 	dynasty_names = {
 		dynn_Etewoklewehios dynn_Hektorios dynn_Achillewehios dynn_Kudonios dynn_Alektruonios dynn_Ekhinios dynn_Twinonios dynn_Haphaistios dynn_Gwouklios dynn_Krethewehios dynn_Wedanewehios dynn_Mologwrios dynn_Xaridhmios
+		dynn_Orkhomeniewes dynn_Lampsakios
 	}
 
 	male_names = {

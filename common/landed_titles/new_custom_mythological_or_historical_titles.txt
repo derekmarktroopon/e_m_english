@@ -21,3 +21,9 @@ k_ithaca = {
 		}
 	}
 }
+
+d_buthrotum = {
+	color = { 190 90 70 }
+
+	capital = c_buthrotum
+}
