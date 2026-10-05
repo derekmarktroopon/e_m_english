@@ -35,7 +35,7 @@ restore_ithaca_decision = {
 		prestige_level >= max_prestige_level
 		capital_county = title:c_cephalonia
 		capital_county = {
-			development_level >= 30
+			development_level >= 15
 		}
 	}
 
