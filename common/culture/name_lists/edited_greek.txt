@@ -1436,7 +1436,7 @@ name_list_mycenaean = { # Wiktionary + https://www.peiraeuspubliclibrary.com/nam
 	
 	female_names = { # For a lack of better source: https://issendai.com/minoan/minoan-and-mycenaean-names/mycenaean-womens-names/ + https://www.researchgate.net/publication/396594105_Linear_B_Lexicon
 		Adrasteia Aigeia Aipugeneia Aiwaia Alexandra Austera Eritha Iphemedeia Itamo Karpathia Kerameia Korinsia Luktia Orthwowie Perieia Phaistia Philagra Phonikeia Poulxeria Purwa Thegwaia Wordieia
-		Aptarwaia Asiwia Atreiwia Dikonareia Dipsia Erathra Esalewia Ewripia Idomeneia Inia Karpasia Keraso Knidia Knosia Korinthia Milatia Odriwia Psoreia Sima Thalamika Theodora 
+		Aptarwaia Asiwia Atreiwia Dikonareia Dipsia Erathra Esalewia Ewripia Idomeneia Inia Karpasia Keraso Knidia Knosia Korinthia Milatia Odriwia Psoreia Sima_grk Thalamika Theodora 
 	}
 
 	dynasty_of_location_prefix = "dynnp_of"

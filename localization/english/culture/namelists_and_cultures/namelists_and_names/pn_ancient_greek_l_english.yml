@@ -75,7 +75,7 @@
  Oduseus:0 "Oduseus"
  Opilimnios:0 "Opilimnios"
  Phugegwrins:0 "Phugegwrins"
- Pitakeus:0 "Pitakeus"
+ # Pitakeus:0 "Pitakeus"
  Poimnios:0 "Poimnios"
  Turios:0 "Turios"
  Twinon:0 "Twinon"
@@ -384,5 +384,5 @@ Korinthia:0 "Korinthia" #
 Milatia:0 "Milatia" #
 Odriwia:0 "Odriwia" #
 Psoreia:0 "Psoreia" #
-Sima:0 "Sima" #
+Sima_grk:0 "Sima" #
 Thalamika:0 "Thalamika" #
