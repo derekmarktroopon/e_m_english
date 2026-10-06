@@ -108,7 +108,7 @@ name_list_middle_persian = {
 	}
 }
 
-name_list_median = {
+name_list_old_median = {
 
 	cadet_dynasty_names = {
 		dynn_Magushana dynn_Aryazantana dynn_Astruxantana dynn_Budiya dynn_Arabazukiya dynn_Mazdakana dynn_Mithratana dynn_Hushtaniya dynn_Sataspah dynn_Spitakana dynn_Brziyana dynn_Masishtah

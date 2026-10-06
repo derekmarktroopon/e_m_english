@@ -225,11 +225,11 @@ dynn_Asagartiya:0 "Asagartiya"
 
 dynnpat_suf_pus:0 "pus"
 
-name_list_parthian:0 "Parthian"
+name_list_middle_persian:0 "Middle Persian"
 
-parthian:0 "Parthian"
-parthian_prefix:0 "Partho"
-parthian_collective_noun:0 "Parthians"
+middle_persian:0 "Parsig"
+middle_persian_prefix:0 "Parso"
+middle_persian_collective_noun:0 "Persians"
 
 Ardaxshir:0 "Ardaxshīr" # Ardashir
 Ohrmazd:0 "Ōhrmazd" # Hormazd
@@ -334,7 +334,7 @@ old_median:0 "Median"
 old_median_prefix:0 "Medo"
 old_median_collective_noun:0 "Medians"
 
-name_list_median:0 "Old Median"
+name_list_old_median:0 "Old Median"
 
 dynnpat_suf_puthra:0 "puthra"
 
@@ -407,11 +407,11 @@ dynn_Masishtah:0 "Masishtāna"
 
 # Parthian
 
-name_list_middle_persian:0 "Middle Persian"
+name_list_parthian:0 "Parthian"
 
-par:0 "Parsig"
-mmiddle_persian_prefix:0 "Parso"
-mmiddle_persian_collective_noun:0 "Persians"
+parthian:0 "Parthian"
+parthian_prefix:0 "Partho"
+parthian_collective_noun:0 "Parthians"
 
 dynnpat_suf_puhr:0 "puhr"
 
