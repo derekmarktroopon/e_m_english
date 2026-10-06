@@ -3,7 +3,7 @@
 name_list_old_persian:0 "Old Persian"
 name_list_late_old_persian:0 "Late Old Persian"
 
-old_persian:0 "Old Persian"
+old_persian:0 "Pārsa"
 old_persian_prefix:0 "Perso"
 old_persian_collective_noun:0 "Persians"
 
@@ -37,7 +37,7 @@ Bagavahyah:0 "Bagavahyah" # Bagoas
 Bagavazdah:0 "Bagavazdāh" # Megabazus
 Bagayah:0 "Bagayah" # Bagaeus
 Baradatah:0 "Baradātah" # Baradates
-Barakah:0 "Barakah" # Barakes
+# Barakah:0 "Barakah" # Barakes
 Bayacah:0 "Bayaçāh" # Bessos
 Batah:0 "Bātah" # Batis
 Bubarah:0 "Būbarah" # Bubares
@@ -55,7 +55,6 @@ Datah:0 "Dātah"
 Datamah:0 "Dātamah" # Datames
 Datamithrah:0 "Dātamithrah" # - or Dadmihr
 Datiyah:0 "Dātiyah" # Datis
-Datamah:0 "Dātāmah" # Datames
 Farnadatah:0 "Farnadātah" # Pharandates
 Farnavazdah:0 "Farnavazdāh" # Pharnabazus
 Farnukah:0 "Farnukah" # Pharnoukhes
@@ -186,8 +185,6 @@ Darayaush:0 "Dārayaush" # Darius (this is a contracted version)
 Xshayarsha:0 "Xshayārshā" # Xerxes - or Khashayar
 Artaxshacah:0 "Artaxshacāh" # Artaxerxes - or Ardashir 
 
-Hushtana:0 "Hushtāna" # Ostanes - MEDIAN NAME
-
 
 
 Amastri:0 "Amāstrī" # Amastris/Amestris
@@ -224,3 +221,237 @@ dynn_Martiya:0 "Martiya"
 dynn_Asagartiya:0 "Asagartiya"
 
 
+# Middle Persian
+
+dynnpat_suf_pus:0 "pus"
+
+name_list_parthian:0 "Parthian"
+
+parthian:0 "Parthian"
+parthian_prefix:0 "Partho"
+parthian_collective_noun:0 "Parthians"
+
+Ardaxshir:0 "Ardaxshīr" # Ardashir
+Ohrmazd:0 "Ōhrmazd" # Hormazd
+Husroy:0 "Husrōy" # Khosrau 
+Narse:0 "Narsē" # Narses
+Papak:0 "Pāpak" # Babak
+Shabuhr:0 "Shābuhr" # Shapur
+Wahram:0 "Wahrām" # Bahram
+Wahman:0 "Wahman" # Bahman
+Frasiyab:0 "Frāsiyāb"
+Anoshag:0 "Anōshag"
+Bamdad:0 "Bāmdād"
+Wehafrid:0 "Wehāfrīd"
+Jawed:0 "Jāwēd"
+Jamshed:0 "Jamshēd" # Jamshid
+Husrav:0 "Husrav" # Khosrau 
+Daray:0 "Dārāy" # Darius
+Rodstahm:0 "Rōdstahm" # Rostam
+Rozweh:0 "Rōzweh"
+Sasan_mp:0 "Sāsān" # Sasan - need new name equiv
+Peroz_mp:0 "Pērōz" # Peroz
+Shahryar_mp:0 "Shahryār" # Shahryar
+Tahmasp_mp:0 "Tahmāsp" # Tahmasb
+Fredon:0 "Frēdōn" # Feridun
+Mihran_mp:0 "Mihrān" # Mihran
+Mihrdad_mp:0 "Mihrdād" # Mihrdat / Milad / Mithradates
+Hoshang:0 "Hōshang" # Hushang
+Kamran_mp:0 "Kāmrān" # Kamran
+Gehan:0 "Gēhān" # Jahan
+Farrukhzadag:0 "Farrūkhzādag" # Farrukhzad
+# Zardusht - make name eðuivalency with Zartosht
+Parvez:0 "Parvēz " # Parviz - make name eðuivalency 
+Adarbad:0 "Adarbad"
+Adurnarseh:0 "Adurnarseh"
+Anosherawan:0 "Anōsherawān" # Anushirvan
+Askjawar:0 "Askjawar"
+# Asparukh
+Azat:0 "Azat"
+Baydad:0 "Baydad"
+Frahad:0 "Frahād"
+Gundafarr:0 "Gundafarr"
+# Justan
+Jamasp_mp:0 "Jāmāsp"
+Kawad:0 "Kawād"
+Mahdad:0 "Mahdad"
+Manez:0 "Manēz"
+Mihrfarr:0 "Mihrfarr"
+Pakur:0 "Pakur"
+Siyamak:0 "Siyāmak"
+Tirdad:0 "Tīrdād"
+Wadfradad:0 "Wadfradad"
+Wiraz:0 "Wirāz"
+Wiroy:0 "Wīrōy"
+Wistahm:0 "Wistahm"
+# Yazdegerd
+Walaxsh:0 "Walāxsh"
+
+
+Azarmigduxt:0 "Āzarmīgduxt" # Azarmidokht
+Boran:0 "Bōrān" 
+Denag:0 "Dēnag" # Dana
+Shiren:0 "Shīrēn" # Shirin
+Banug:0 "Bānūg" # Banu - need new name equiv
+Farigis:0 "Farīgīs" # Farangis
+Humay:0 "Hūmāy"
+Anahid_mp:0 "Anāhīd" # Anahid - need new name equiv
+Aduranahid:0 "Ādurānāhīd"
+Roshan:0 "Rōshan" # Roxana
+Yazdanduxt:0 "Yazdānduxt"
+Shahrbanug:0 "Shahrbānūg"
+Apranik:0 "Apranik"
+Golandoxt:0 "Golāndoxt"
+Spandarmad:0 "Spandarmad"
+Tida:0 "Tida"
+
+# dynasties
+
+dynn_Suren:0 "Sūrēn"
+dynn_Karen_mp:0 "Kārēn"
+dynn_Karen_pahlaw:0 "Kārēn-Pahlaw"
+dynn_Mihran_mp:0 "Mihrān"
+dynn_Aspahbadhan:0 "Aspāhbadhān"
+dynn_waraz_mp:0 "Warāz"
+dynn_Spandyat:0 "Spandyat"
+dynn_Zikan:0 "Zikān"
+dynn_Ardaxshiran:0 "Ardaxshīrān"
+dynn_Ohrmazdan:0 "Ōhrmazdān"
+dynn_Frasiyaban:0 "Frāsiyābān"
+dynn_Darayan:0 "Darayān"
+dynn_Sasanan:0 "Sāsānān"
+dynn_Sipihran:0 "Sipirān"
+dynn_Fredonan:0 "Frēdōnān"
+dynn_Mihranan:0 "Mihrānān"
+dynn_Hoshangan:0 "Hōshangān"
+dynn_Gehanan:0 "Gēhānān"
+dynn_Parvezan:0 "Parvēzān"
+
+
+# Median
+
+old_median:0 "Median"
+old_median_prefix:0 "Medo"
+old_median_collective_noun:0 "Medians"
+
+name_list_median:0 "Old Median"
+
+dynnpat_suf_puthra:0 "puthra"
+
+Agnifarnah:0 "Agnifarnāh"
+Arabazukah:0 "Arabāzukah" # Arbazacius
+Arbakah:0 "Arbakah" # Arbaces
+Artasurah:0 "Artasūrah" # Artasyras
+Artambarah:0 "Artambarah" # Artembares
+# Artayah:0 "Artayah" # Artaeus - Egyptian Arty
+Artukah:0 "Artukah" # Artycas
+Arshtivaigah:0 "Arshtivaigah" # Astyages
+Arzifyah:0 "Arzifyah" # PERSIAN - Ardifyah
+Athrinah:0 "Āthrinah" # PERSIAN - Acinah
+Bagafarnah:0 "Bagafarnāh" # Megabernes
+Bagazushtah:0 "Bagazushtah" # Megasystas
+Brziyah:0 "Brziyah" # PERSIAN - Brdiyah 
+Dahyukah:0 "Dahyukah" # Deioces
+Dahyuvraisah:0 "Dahyuvraisah" # Daurises - PERSIAN - Dahyuvraithah
+Gauzainah:0 "Gauzainah"
+Hathyah:0 "Hathyah"
+Huvaxsharah:0 "Huvaxsharah" # Cyaxares
+# Huvaxshtrah:0 "Huvaxshtrah" # 
+Masishtah:0 "Masishtah" # PERSIAN -Mathishtah
+# Mazdakah:0 "Mazdākah" # Mazdaces - or Mazdak
+Mahifarnah:0 "Māhifarnāh" # Maephernes - or Maxfarn
+Zaryaspah:0 "Zaryāspah" # Zariaspes
+# Mithratah:0 "Mithrātah" # Mithrates
+# Mithradatah:0 "Mithradātah" # Mithridates - or Milad
+Mithranah:0 "Mithrānah" # Mitranes
+# Mithrapatah:0 "Mithrapātah" # Mitrobates
+Hushtana:0 "Hushtāna" # Ostanes 
+Parmicah:0 "Pārmicah" # Parmises
+Prkshaspa:0 "Prkshāspa" # Prexaspes
+Sataspah:0 "Satāspah" # Sataspes
+Sriramithra:0 "Srīramithra" # Siromitres
+Spitakah:0 "Spitakah" # Spitaces
+Spitamah:0 "Spitāmah" # Spitamas
+Suxrah:0 "Suxrah" # PERSIAN - Thuxrah
+Syamakah:0 "Syāmakah" # - OR Siyamak
+# Taxmaspadah:0 "Taxmaspādah"
+# Xshathritah:0 "Xshathritah" # 
+# Cithrafarnah:0 "Cithrafarnāh" # Tetraphernes
+Cithrantaxmah:0 "Cithrantaxmah" # Tritantaechmes - PERSIAN - Cicantahmah
+Vistaxma:0 "Vistaxma" # Hystaechmas
+# Farnavazdah:0 "Farnavazdāh" # Pharnabazus
+Farnakah:0 "Farnakah" # Pharnaces
+# Farnukah:0 "Farnukah" # Pharnoukhes
+Fravartish:0 "Fravartish" # Phraortes
+Fratafarnah:0 "Fratafarnāh" # Phrataphernes
+
+Humatish:0 "Humatish" # Amutis
+Mandana_median:0 "Mandanā" # Mandane
+# More doubious names found online
+Vispafrya:0 "Vispafryā"
+
+
+dynn_Magushana:0 "Magushāna"
+dynn_Aryazantana:0 "Aryazantāna"
+dynn_Astruxantana:0 "Atrūxantāna"
+dynn_Budiya:0 "Budiya"
+dynn_Arabazukiya:0 "Arabāzukiya"
+dynn_Mazdakana:0 "Mazdākāna"
+dynn_Mithratana:0 "Mithrātāna"
+dynn_Hushtaniya:0 "Hushtāniya"
+dynn_Sataspah:0 "Satāspāna"
+dynn_Spitakana:0 "Spitakāna"
+dynn_Brziyana:0 "Brziyāna"
+dynn_Masishtah:0 "Masishtāna"
+
+
+# Parthian
+
+name_list_middle_persian:0 "Middle Persian"
+
+par:0 "Parsig"
+mmiddle_persian_prefix:0 "Parso"
+mmiddle_persian_collective_noun:0 "Persians"
+
+dynnpat_suf_puhr:0 "puhr"
+
+dynn_Suren:0 "Sūrēn"
+dynn_Pabagan:0 "Pābagān"
+dynn_Walgashan:0 "Walgashanān"
+dynn_Aryabarzan:0 "Aryabarzananān"
+dynn_Ardabanan:0 "Ardabānān"
+dynn_Gotarzan:0 "Gōtarzān"
+dynn_Wahraman:0 "Wahrāmān"
+dynn_Manecan:0 "Manēcān"
+dynn_Tigranan:0 "Tigrānān"
+dynn_Narisaxwan:0 "Narisaxwān"
+dynn_Fryapatan:0 "Fryapatān"
+dynn_Rastakan:0 "Rastakān"
+dynn_Husrawan:0 "Husrawān"
+dynn_Werodan:0 "Wērōdān"
+
+Aryabarzan:0 "Aryabarzan" # OLD PERSIAN - Aryabrzah
+# Arshak
+Ardaban:0 "Ardabān" # PERSIAN Artabanush- or Ardavan
+Ardaxshahr:0 "Ardaxshahr" # or Ardashir
+Tigran_prth:0 "Tigrān"
+Ardapan:0 "Ardapān" # PERSIAN Artapanah
+Bagdat:0 "Bagdāt" # - or Bagrat
+Gotarz:0 "Gōtarz" # 
+Walgash:0 "Walgash" #
+Werod:0 "Wērōd" # middle persian Wiroy
+# Wahram:0 "Wahrām" # Bahram
+# Husraw:0 "Husraw" # middle persian Husroy / Husrav
+Manec:0 "Manēc"
+Mihrdat_prth:0 "Mihrdāt" # Mihrdat / Milad / Mithradates
+Narisaxw:0 "Narisaxw" # Narses
+# Narseh
+Spanddat:0 "Spanddāt" # OLD PERSIAN - Spantadatah
+# Pakur:0 "Pakur"
+Pabag:0 "Pābag"
+Frahat:0 "Frahāt" # Middle persian - Frahad
+Fryapat:0 "Fryapat" # OLD PERSIAN - Fryapatish
+Rastak:0 "Rastak"
+# Shabuhr:0 "Shābuhr" # Shapur
+Tirdat:0 "Tīrdāt" # Middle persian - Tirdad
+Tiridat:0 "Tīrīdāt"

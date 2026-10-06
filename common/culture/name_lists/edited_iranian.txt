@@ -62,9 +62,111 @@ name_list_late_old_persian = {
 
 	patronym_suffix_male = "dynnpat_suf_puca"
 	patronym_suffix_female = "dynnpat_suf_duxt"
+	dynn_waraz
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_band_of_medes" }
+		{ name = "mercenary_company_immortals_of_place" }
+	}
+}
+
+name_list_middle_persian = {
+
+	cadet_dynasty_names = {
+		dynn_Suren dynn_Karen_mp dynn_Karen_pahlaw dynn_Mihran_mp dynn_Aspahbadhan dynn_waraz_mp dynn_Spandyat dynn_Zikan
+		dynn_Ardaxshiran dynn_Ohrmazdan dynn_Frasiyaban dynn_Darayan dynn_Sasanan dynn_Sipihran dynn_Fredonan dynn_Mihranan dynn_Hoshangan dynn_Gehanan dynn_Parvezan
+	}
+
+	dynasty_names = {
+		dynn_Suren dynn_Karen_mp dynn_Karen_pahlaw dynn_Mihran_mp dynn_Aspahbadhan dynn_waraz_mp dynn_Spandyat dynn_Zikan
+		dynn_Ardaxshiran dynn_Ohrmazdan dynn_Frasiyaban dynn_Darayan dynn_Sasanan dynn_Sipihran dynn_Fredonan dynn_Mihranan dynn_Hoshangan dynn_Gehanan dynn_Parvezan
+	}
+
+	male_names = { # Not the best source: https://www.behindthename.com/names/usage/middle-persian
+		Ardaxshir Ohrmazd Husroy Narse Narseh Shabuhr Wahram Wahman
+		Frasiyab Anoshag Bamdad Wehafrid Jawed Jamshed Husrav Daray Rozweh Sasan_mp Peroz_mp Shahryar_mp Tahmasp_mp Fredon Mihran_mp Mihrdad_mp Hoshang Gehan
+		Farrukhzadag Zardusht Parvez
+		Adarbad Adurnarseh Anosherawan Askjawar Asparukh Azat Baydad Frahad Gundafarr Justan Jamasp_mp Kawad Mahdad Manez Mihrfarr Pakur Siyamak Tirdad Wadfradad Wiraz Wiroy Wistahm Yazdegerd Walaxsh
+	}
+	female_names = {
+		Wehafrid Azarmigduxt Boran Denag Shiren Banug Farigis Humay Anahid_mp Aduranahid Roshan Yazdanduxt Shahrbanug Zruanduxt
+		Apranik Golandoxt Spandarmad Tida
+	}
+	
+	founder_named_dynasties = yes
+	house_based_map_names = yes
+
+	patronym_suffix_male = "dynnpat_suf_pus"
+	patronym_suffix_female = "dynnpat_suf_duxt"
 	
 	
 
+	mercenary_names = {
+		{ name = "mercenary_company_band_of_medes" }
+		{ name = "mercenary_company_immortals_of_place" }
+	}
+}
+
+name_list_median = {
+
+	cadet_dynasty_names = {
+		dynn_Magushana dynn_Aryazantana dynn_Astruxantana dynn_Budiya dynn_Arabazukiya dynn_Mazdakana dynn_Mithratana dynn_Hushtaniya dynn_Sataspah dynn_Spitakana dynn_Brziyana dynn_Masishtah
+	}
+
+	dynasty_names = {
+		dynn_Magushana dynn_Aryazantana dynn_Astruxantana dynn_Budiya dynn_Arabazukiya dynn_Mazdakana dynn_Mithratana dynn_Hushtaniya dynn_Sataspah dynn_Spitakana dynn_Brziyana dynn_Masishtah
+	}
+
+	male_names = { # Source - Wiktionary
+		Agnifarnah Arabazukah Arbakah Artasurah Artambarah Artayah Artukah Arshtivaigah Arzifyah Athrinah Bagafarnah Bagazushtah Brziyah Dahyukah Dahyuvraisah Gauzainah Hathyah Huvaxsharah Huvaxshtrah Masishtah Mazdakah Mahifarnah Zaryaspah Mithratah Mithradatah Mithranah Mithrapatah Hushtana Parmicah Prkshaspa Sataspah Sriramithra Spitakah Spitamah Suxrah Syamakah Taxmaspadah Xshathritah Cithrafarnah Cithrantaxmah Vistaxma Farnavazdah Farnakah Farnukah Fravartish Fratafarnah
+	}
+	female_names = {
+		Humatish Mandana_median Vispafrya
+		# The rest are old persian names compatible with old median
+		Amastri Apama Fratagauna Jamaspiya Mazdaya Parushyatish Rauxshna Artastuna Statira Huparviya Artazaushtri 
+	}
+	
+	founder_named_dynasties = yes
+	house_based_map_names = yes
+
+	patronym_suffix_male = "dynnpat_suf_puthra"
+	patronym_suffix_female = "dynnpat_suf_duxt"
+	
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_band_of_medes" }
+		{ name = "mercenary_company_immortals_of_place" }
+	}
+}
+
+name_list_parthian = {
+
+	cadet_dynasty_names = {
+		dynn_Suren dynn_Pabagan dynn_Walgashan dynn_Aryabarzan dynn_Ardabanan dynn_Gotarzan dynn_Wahraman dynn_Manecan dynn_Tigranan dynn_Narisaxwan dynn_Fryapatan dynn_Rastakan dynn_Husrawan dynn_Werodan
+	}
+
+	dynasty_names = {
+		dynn_Suren dynn_Pabagan dynn_Walgashan dynn_Aryabarzan dynn_Ardabanan dynn_Gotarzan dynn_Wahraman dynn_Manecan dynn_Tigranan dynn_Narisaxwan dynn_Fryapatan dynn_Rastakan dynn_Husrawan dynn_Werodan
+	}
+
+	male_names = { # Source - Wiktionary
+		Aryabarzan Arshak Ardaban Ardaxshahr Tigran_prth Ardapan Bagdat Gotarz Walgash Werod Wahram Husraw Manec Mihrdat_prth Narisaxw Narseh Spanddat Pakur Pabag Frahat Fryapat Rastak Shabuhr Tirdat Tiridat
+	}
+	female_names = {
+		# Middle Persian female names - I found no sources online, but many loans from middle persian are among the male names anyways
+		Wehafrid Azarmigduxt Boran Denag Shiren Banug Farigis Humay Anahid_mp Aduranahid Roshan Yazdanduxt Shahrbanug Zruanduxt
+		Apranik Golandoxt Spandarmad Tida
+	}
+	
+	founder_named_dynasties = yes
+	house_based_map_names = yes
+
+	patronym_suffix_male = "dynnpat_suf_puhr"
+	patronym_suffix_female = "dynnpat_suf_duxt"
+	
+	
 	mercenary_names = {
 		{ name = "mercenary_company_band_of_medes" }
 		{ name = "mercenary_company_immortals_of_place" }
