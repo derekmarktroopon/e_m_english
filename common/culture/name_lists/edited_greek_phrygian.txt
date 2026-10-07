@@ -1334,6 +1334,7 @@ name_list_ancient_greek = {
 
 	male_names = {
 		99 = {
+			# From Trojan name list
 			Abreas Achaios Aineias Airopos Agaios Agatharchides Agathokles Agathon Agelaos Agenor
 			Agesipolis Agis Aiakides Aischines Aknonios Akrotatos Alexandros Alexarchos Alketas
 			Alkimachos Alkimos Amantas Amphoteros Amyntas Anaxarchos Anaxikrates Anaximandros
@@ -1379,15 +1380,17 @@ name_list_ancient_greek = {
 			Theokritos Theophilos Theophrastos Thoas Thoinias Thoinon Thrasykles Timaios Timarchos
 			Timoleon Timotheos Tryphon Xanthippos Xenares Xenokrates Xenophon Zeionises Zenon Zeuxis
 			Zoilos Zopyrion
+			# new
 			Argaios Dioskourides Dokimos Telesphoros
-			Deiphontes Pyhrros Sokrates Telemakhos Aphareus Kydon Eteokles
+			Deiphontes Sokrates Telemakhos Aphareus Kydon Eteokles
 		}
 		1 = {
-			Odysseus Aegyptios Akhilleus Augeas Augeias Danaus Kretheus Kopreus Kukleus Molobros Zakunthos Laertes
+			Odysseus Aegyptios Akhilleus Augeas Augeias Danaos Kretheus Kopreus Kukleus Molobros Zakunthos Laertes
 		}
 	}
 	
 	female_names = {
+		# From Trojan name list
 		Charis Demetria Diantha Dionysia Agathokleia Agiatis Antiochis Apame
 		Apollonia Ariadne Arsinoe Artemisia Athenais Belistiche Berenike Damarate
 		Daphne Demo Elpis Eirene Euphemia Euthalia Hypatia Kandake Kassandra Megaira
@@ -1411,6 +1414,7 @@ name_list_ancient_greek = {
 		Rhode Satyra Sima Simale Simon Syra Theano Theodora Theodote Thessalonike Thraitta
 		Timagora Timarete Timokleia Timostrate Troias Xeno Xenokrateia Zopyra Zopyris
 		Nikesipolis Gygaia
+		# new
 		Iphimedeia Penelope
 	}
 
@@ -1445,7 +1449,7 @@ name_list_mycenaean = { # Wiktionary + https://www.peiraeuspubliclibrary.com/nam
 	patronym_suffix_female = "dynnpat_suf_ia"
 }
 
-name_list_graeco_phrygian = { # Speculative
+name_list_greco_phrygian = { # Speculative
 
 	cadet_dynasty_names = {
 		dynn_Monwandrios dynn_Wanaktandrios  dynn_Diwandrios dynn_Zemelandrios dynn_Matrandrios dynn_Monwios dynn_Andrios dynn_Diwios dynn_Korwios dynn_Zemelios

@@ -241,7 +241,7 @@ Wahram:0 "Wahrām" # Bahram
 Wahman:0 "Wahman" # Bahman
 Frasiyab:0 "Frāsiyāb"
 Anoshag:0 "Anōshag"
-Bamdad:0 "Bāmdād"
+Bamdad_mp:0 "Bāmdād"
 Wehafrid:0 "Wehāfrīd"
 Jawed:0 "Jāwēd"
 Jamshed:0 "Jamshēd" # Jamshid
@@ -256,7 +256,7 @@ Tahmasp_mp:0 "Tahmāsp" # Tahmasb
 Fredon:0 "Frēdōn" # Feridun
 Mihran_mp:0 "Mihrān" # Mihran
 Mihrdad_mp:0 "Mihrdād" # Mihrdat / Milad / Mithradates
-Hoshang:0 "Hōshang" # Hushang
+Hoshang_mp:0 "Hōshang" # Hushang
 Kamran_mp:0 "Kāmrān" # Kamran
 Gehan:0 "Gēhān" # Jahan
 Farrukhzadag:0 "Farrūkhzādag" # Farrukhzad
@@ -297,7 +297,7 @@ Farigis:0 "Farīgīs" # Farangis
 Humay:0 "Hūmāy"
 Anahid_mp:0 "Anāhīd" # Anahid - need new name equiv
 Aduranahid:0 "Ādurānāhīd"
-Roshan:0 "Rōshan" # Roxana
+Roshan_mp:0 "Rōshan" # Roxana
 Yazdanduxt:0 "Yazdānduxt"
 Shahrbanug:0 "Shahrbānūg"
 Apranik:0 "Apranik"
@@ -348,7 +348,7 @@ Artukah:0 "Artukah" # Artycas
 Arshtivaigah:0 "Arshtivaigah" # Astyages
 Arzifyah:0 "Arzifyah" # PERSIAN - Ardifyah
 Athrinah:0 "Āthrinah" # PERSIAN - Acinah
-Bagafarnah:0 "Bagafarnāh" # Megabernes
+# Bagafarnah:0 "Bagafarnāh" # Megabernes
 Bagazushtah:0 "Bagazushtah" # Megasystas
 Brziyah:0 "Brziyah" # PERSIAN - Brdiyah 
 Dahyukah:0 "Dahyukah" # Deioces
@@ -382,7 +382,7 @@ Vistaxma:0 "Vistaxma" # Hystaechmas
 # Farnavazdah:0 "Farnavazdāh" # Pharnabazus
 Farnakah:0 "Farnakah" # Pharnaces
 # Farnukah:0 "Farnukah" # Pharnoukhes
-Fravartish:0 "Fravartish" # Phraortes
+# Fravartish:0 "Fravartish" # Phraortes
 Fratafarnah:0 "Fratafarnāh" # Phrataphernes
 
 Humatish:0 "Humatish" # Amutis
@@ -415,7 +415,7 @@ parthian_collective_noun:0 "Parthians"
 
 dynnpat_suf_puhr:0 "puhr"
 
-dynn_Suren:0 "Sūrēn"
+# dynn_Suren:0 "Sūrēn"
 dynn_Pabagan:0 "Pābagān"
 dynn_Walgashan:0 "Walgashanān"
 dynn_Aryabarzan:0 "Aryabarzananān"
@@ -459,13 +459,63 @@ Tiridat:0 "Tīrīdāt"
 Xudos:0 "Xudōs" # Atossa
 Roshn:0 "Rōshn" # Roxana
 
-# Scythian - wiktionary + http://opar.unior.it/487/1/R._Schmitt_pp.1-31_pdf.pdf
+# Scythian - wiktionary, wikipedia + http://opar.unior.it/487/1/R._Schmitt_pp.1-31_pdf.pdf
+
+dynnpat_suf_pita:0 "pita"
+
+scythian:0 "Scythian"
+scythian_collective_noun:0 "Scythians"
+scythian_prefix:0 "Scytho"
+
+name_list_scythian:0 "Scythian"
+
+dynn_Haxathrausha:0 "Haxāthrausha"
+dynn_Skuda:0 "Skuda"
+dynn_Skula:0 "Skula"
+dynn_Paralata:0 "Paralāta"
+dynn_Borustana:0 "Bōrustāna"
+dynn_Pantikapa:0 "Pantikapa"
+dynn_Raha:0 "Rahā"
+dynn_Waru:0 "Waru"
+dynn_Lipoxshayana:0 "Lipoxshayāna"
+dynn_Madawana:0 "Madawāna"
+dynn_Asparukana:0 "Asparukāna"
+dynn_Spargapana:0 "Spargapāna"
 
 Asparuki:0 "Asparuki" # 
 Jiwaki:0 "Jīwaki" # OLD PERSIAN - Jivakah
 Padaki:0 "Pādaki" # OLD PERSIAN - Padakah
-Spargapesi:0 "Spargapēsi"
+Spargapesi:0 "Spargapēsi" # Spargapeithes
 Xshathraki:0 "Xshathraki"
+Ariyanta:0 "Ariyānta" # Ariantas
+Arbuxshayi:0 "Arbuxshayi" # Arpoaxis
+Aryapesi:0 "Aryapēsi" # Ariapeithes
+Aryapati:0 "Aryapati"
+Dargatawe:0 "Dargatawē"
+Kolaxshayi:0 "Kolaxshayi"
+Lipoxshayi:0 "Lipoxshayi"
+Madawe:0 "Madawē" # Madyes
+Purthutawi:0 "Purthutawi" # Protothyes 
+Prtatawe:0 "Prtatawē" # Prtatavah
+Skula:0 "Skula" # Scyles 
+Spargapis:0 "Spargapis" # Spargapises - Technically the same name as Spargapeithes
+Spakayi:0 "Spakayi" # Idanthyrsos 
+Targitawe:0 "Targītawē" # Targitaos 
+Tigratawe:0 "Tigratawē"
+Uxtamazate:0 "Uxtamazatē" # Octamasadas 
+Warika:0 "Warika" # Oricus
+
+Hupaya:0 "Hupāyā" # Opoea
+Tomuriya:0 "Tōmuriya" # Tomyris 
+Tigratawe:0 "Tigratawē"
+Wadanya:0 "Wadanyā" # Odatis ?
+Zaranya:0 "Zaranyā"
+# More doubious names - https://aeon.co/essays/imagine-scythias-fierce-warrior-women-the-real-amazons
+Alkaya:0 "Alkaya" 
+Kheuke:0 "Kheuke"
+Euryale:0 "Euryale"
+Molpadya:0 "Molpadya"
+Khasa:0 "Khasa"
 
 # Sarmatian
 

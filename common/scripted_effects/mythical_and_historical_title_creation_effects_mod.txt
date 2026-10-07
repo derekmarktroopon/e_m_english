@@ -46,6 +46,9 @@ restore_ithaca_scripted_effect = {
 			add_province_modifier = extra_building_slot
 			add_province_modifier = restore_ithaca_modifier
 		}
+		title_province.county = {
+			remove_county_modifier = backwater_county_modifier
+		}
 	}
 
 	hidden_effect = {

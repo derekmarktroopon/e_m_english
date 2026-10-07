@@ -85,12 +85,12 @@ name_list_middle_persian = {
 
 	male_names = { # Not the best source: https://www.behindthename.com/names/usage/middle-persian
 		Ardaxshir Ohrmazd Husroy Narse Narseh Shabuhr Wahram Wahman
-		Frasiyab Anoshag Bamdad Wehafrid Jawed Jamshed Husrav Daray Rozweh Sasan_mp Peroz_mp Shahryar_mp Tahmasp_mp Fredon Mihran_mp Mihrdad_mp Hoshang Gehan
+		Frasiyab Anoshag Bamdad_mp Wehafrid Jawed Jamshed Husrav Daray Rozweh Sasan_mp Peroz_mp Shahryar_mp Tahmasp_mp Fredon Mihran_mp Mihrdad_mp Hoshang_mp Gehan
 		Farrukhzadag Zardusht Parvez
 		Adarbad Adurnarseh Anosherawan Askjawar Asparukh Azat Baydad Frahad Gundafarr Justan Jamasp_mp Kawad Mahdad Manez Mihrfarr Pakur Siyamak Tirdad Wadfradad Wiraz Wiroy Wistahm Yazdegerd Walaxsh
 	}
 	female_names = {
-		Wehafrid Azarmigduxt Boran Denag Shiren Banug Farigis Humay Anahid_mp Aduranahid Roshan Yazdanduxt Shahrbanug Zruanduxt
+		Wehafrid Azarmigduxt Boran Denag Shiren Banug Farigis Humay Anahid_mp Aduranahid Roshan_mp Yazdanduxt Shahrbanug Zruanduxt
 		Apranik Golandoxt Spandarmad Tida
 	}
 	
@@ -172,4 +172,31 @@ name_list_parthian = {
 		{ name = "mercenary_company_band_of_medes" }
 		{ name = "mercenary_company_immortals_of_place" }
 	}
+}
+
+name_list_scythian = {
+
+	cadet_dynasty_names = {
+		dynn_Haxathrausha dynn_Skuda dynn_Skula dynn_Paralata dynn_Borustana dynn_Pantikapa dynn_Raha dynn_Waru dynn_Lipoxshayana dynn_Madawana dynn_Asparukana dynn_Spargapana
+	}
+
+	dynasty_names = {
+		dynn_Haxathrausha dynn_Skuda dynn_Skula dynn_Paralata dynn_Borustana dynn_Pantikapa dynn_Raha dynn_Waru dynn_Lipoxshayana dynn_Madawana dynn_Asparukana dynn_Spargapana
+	}
+
+	male_names = { # Source - Wiktionary
+		Asparuki Jiwaki Padaki Spargapesi Xshathraki Ariyanta Arbuxshayi Aryapesi Aryapati Dargatawe Kolaxshayi Lipoxshayi Madawe Purthutawi Prtatawe Skula Spargapis Spakayi Targitawe Tigratawe Uxtamazate Warika
+	}
+	female_names = {
+		Hupaya Tomuriya Tigratawe Wadanya Zaranya
+		# doubious 
+		Alkaya Kheuke Euryale Molpadya Khasa
+	}
+	
+	founder_named_dynasties = yes
+	house_based_map_names = yes
+
+	patronym_suffix_male = "dynnpat_suf_pita"
+	patronym_suffix_female = "dynnpat_suf_duxt"
+	
 }

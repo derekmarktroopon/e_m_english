@@ -23,7 +23,7 @@ eme_mythical_historical_title_creation.1 = {
 		name = eme_mythical_historical_title_creation.1.a
 
 		# Add a unique nickname.
-		give_nickname = nick_the_great_and_terrible
+		give_nickname = nick_the_restorer
 	}
 }
 
