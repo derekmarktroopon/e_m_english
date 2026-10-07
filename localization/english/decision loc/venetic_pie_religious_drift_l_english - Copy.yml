@@ -2,6 +2,10 @@
 
   enter_communion_with_the_christians_pie:0 "Communion with the Christians"
   enter_communion_with_the_christians_pie_desc:0 "The Christian creed has many great virtues, but we would be hard pressed to simply throw away the traditions of our forefathers. Perhaps if we were to establish good relations with the pope, we could see about aligning our views with that of the church in a way that doesn't besmirch our ancestors..."
+  enter_communion_with_the_christians_pie_tooltip:0 "By taking this decision, we will convert to [pie_christianity.GetName], as well as bring it into communion with wider [christianity_religion.GetName]."
+  enter_communion_with_the_christians_pie_confirm:0 "It is time to bond [ROOT.Char.GetFaith.GetAdherentName] and Christian!"
 
   enter_communion_with_the_christians_venetic:0 "Communion with the Christians"
   enter_communion_with_the_christians_venetic_desc:0 "The Christian creed has many great virtues, but we would be hard pressed to simply throw away the traditions of our forefathers. Perhaps if we were to establish good relations with the pope, we could see about aligning our views with that of the church in a way that doesn't besmirch our ancestors..."
+  enter_communion_with_the_christians_venetic_tooltip:0 "By taking this decision, we will convert to [venetic_christianity.GetName], as well as bring it into communion with wider [christianity_religion.GetName]."
+  enter_communion_with_the_christians_venetic_confirm:0 "It is time to bond [ROOT.Char.GetFaith.GetAdherentName] and Christian!

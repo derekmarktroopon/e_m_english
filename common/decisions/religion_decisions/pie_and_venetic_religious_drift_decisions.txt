@@ -3,23 +3,31 @@ enter_communion_with_the_christians_pie = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/fp1_decisons_hold_bolt.dds"
 	}
+	decision_group_type = major
 
-	desc = select_personal_deity_venetic_decision_desc
-	selection_tooltip = select_personal_deity_venetic_decision_tooltip
+	desc = enter_communion_with_the_christians_pie_desc
+	selection_tooltip = enter_communion_with_the_christians_pie_tooltip
 
 	is_shown = {
-		religion = religion:old_steppe
+		root.rite.faith.religion = religion:old_steppe
 		NOT = {
 			NOT = { has_global_variable = pie_entered_communion_with_the_church }
 		}
 	}
 
 	is_valid = {
-		rite:roman_rite.head_of_rite = {
-			opinion = {
-				target = root
-				value >= 50
-			}
+		religion:christianity_religion = {
+			count >= 1
+			any_faith ={
+				any_faith_rite = {
+					head_of_rite = {
+						opinion = {
+							target = root
+							value >= 50
+						}
+					}
+				}
+			}	
 		}
 		piety >= 1000
 	}
@@ -34,104 +42,8 @@ enter_communion_with_the_christians_pie = {
 			name = pie_entered_communion_with_the_church
 			value = yes
 		}
-		if = {
-			limit = {
-				rite:roman_rite.faith = faith:catholic
-			}
-			rite:pie_christianity = {
-				set_parent_faith = { target = faith:faith main = no }
-				add_doctrine = special_doctrine_ecumenical_christian
-				add_doctrine = special_doctrine_has_clerical_electors
-				if = {
-					limit = {
-						root.location = {
-							OR = {
-								geographical_region = world_asia_china
-								geographical_region = world_asia_japan
-								geographical_region = world_asia_korea
-							}
-						}
-					}
-					add_doctrine = special_doctrine_immaterial_harmony
-				}
-				remove_tenet = tenet_christian_syncretism
-				add_tenet = tenet_communion
-			}
-
-		}
-		else_if = {
-			limit = {
-				rite:roman_rite.faith = faith:orthodox
-			}
-			rite:pie_christianity = {
-				set_parent_faith = { target = faith:orthodox main = no }
-				add_doctrine = special_doctrine_ecumenical_christian
-				add_doctrine = special_doctrine_has_clerical_electors
-				if = {
-					limit = {
-						root.location = {
-							OR = {
-								geographical_region = world_asia_china
-								geographical_region = world_asia_japan
-								geographical_region = world_asia_korea
-							}
-						}
-					}
-					add_doctrine = special_doctrine_immaterial_harmony
-				}
-				remove_tenet = tenet_christian_syncretism
-				add_tenet = tenet_communion
-			}
-		}	
-		else = {
-			rite:pie_christianity = {
-				set_parent_faith = { target = faith:christian_faith main = no }
-				add_doctrine = special_doctrine_ecumenical_christian
-				add_doctrine = special_doctrine_has_clerical_electors
-				if = {
-					limit = {
-						root.location = {
-							OR = {
-								geographical_region = world_asia_china
-								geographical_region = world_asia_japan
-								geographical_region = world_asia_korea
-							}
-						}
-					}
-					add_doctrine = special_doctrine_immaterial_harmony
-				}
-				remove_tenet = tenet_christian_syncretism
-				add_tenet = tenet_communion
-			}
-		}
-		set_character_rite = rite:pie_christianity
-		hidden_effect = {
-			every_held_title = {
-				limit = {
-					tier = tier_county
-					is_landless_type_title = no
-					culture = root.culture
-					faith = religion:old_steppe
-				}
-				add_to_list = counties_to_convert
-			}
-			# Family at court also convert
-			every_close_or_extended_family_member = {
-				limit = {
-					is_courtier_of = scope:recipient
-					faith != religion:old_steppe
-					NOT = { has_character_flag = ai_will_not_convert }
-				}
-				add_to_list = spouses_and_family_to_convert
-			}
-			every_in_list = {
-			list = counties_to_convert
-			set_county_rite = rite:pie_christianity
-			every_in_list = {
-				list = spouses_and_family_to_convert
-				set_character_rite = rite:pie_christianity
-			}
-		}	
+		show_as_tooltip = { pie_christianity_communion_scripted_effect = yes }
+		#trigger_event = { id = eme_religious_decision_events.1 }	
     }
 	ai_check_interval = 96
 	
@@ -148,23 +60,32 @@ enter_communion_with_the_christians_venetic = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/fp1_decisons_hold_bolt.dds"
 	}
+	decision_group_type = major
 
-	desc = select_personal_deity_venetic_decision_desc
-	selection_tooltip = select_personal_deity_venetic_decision_tooltip
+	desc = enter_communion_with_the_christians_venetic_desc
+	selection_tooltip = enter_communion_with_the_christians_venetic_tooltip
 
 	is_shown = {
-		religion = religion:retic_religion
+		root.rite.faith.religion = religion:old_steppe
 		NOT = {
 			NOT = { has_global_variable = venetic_entered_communion_with_the_church }
 		}
 	}
 
 	is_valid = {
-		rite:roman_rite.head_of_rite = {
-			opinion = {
-				target = root
-				value >= 50
+		religion:christianity_religion = {
+			count >= 1
+			any_faith ={
+				any_faith_rite = {
+					head_of_rite = {
+						opinion = {
+							target = root
+							value >= 50
+						}
+					}
+				}
 			}
+			
 		}
 		piety >= 1000
 	}
@@ -179,104 +100,8 @@ enter_communion_with_the_christians_venetic = {
 			name = venetic_entered_communion_with_the_church
 			value = yes
 		}
-		if = {
-			limit = {
-				rite:roman_rite.faith = faith:catholic
-			}
-			rite:venetic_christianity = {
-				set_parent_faith = { target = faith:faith main = no }
-				add_doctrine = special_doctrine_ecumenical_christian
-				add_doctrine = special_doctrine_has_clerical_electors
-				if = {
-					limit = {
-						root.location = {
-							OR = {
-								geographical_region = world_asia_china
-								geographical_region = world_asia_japan
-								geographical_region = world_asia_korea
-							}
-						}
-					}
-					add_doctrine = special_doctrine_immaterial_harmony
-				}
-				remove_tenet = tenet_christian_syncretism
-				add_tenet = tenet_communion
-			}
-
-		}
-		else_if = {
-			limit = {
-				rite:roman_rite.faith = faith:orthodox
-			}
-			rite:venetic_christianity = {
-				set_parent_faith = { target = faith:orthodox main = no }
-				add_doctrine = special_doctrine_ecumenical_christian
-				add_doctrine = special_doctrine_has_clerical_electors
-				if = {
-					limit = {
-						root.location = {
-							OR = {
-								geographical_region = world_asia_china
-								geographical_region = world_asia_japan
-								geographical_region = world_asia_korea
-							}
-						}
-					}
-					add_doctrine = special_doctrine_immaterial_harmony
-				}
-				remove_tenet = tenet_christian_syncretism
-				add_tenet = tenet_communion
-			}
-		}	
-		else = {
-			rite:venetic_christianity = {
-				set_parent_faith = { target = faith:christian_faith main = no }
-				add_doctrine = special_doctrine_ecumenical_christian
-				add_doctrine = special_doctrine_has_clerical_electors
-				if = {
-					limit = {
-						root.location = {
-							OR = {
-								geographical_region = world_asia_china
-								geographical_region = world_asia_japan
-								geographical_region = world_asia_korea
-							}
-						}
-					}
-					add_doctrine = special_doctrine_immaterial_harmony
-				}
-				remove_tenet = tenet_christian_syncretism
-				add_tenet = tenet_communion
-			}
-		}
-		set_character_rite = rite:venetic_christianity
-		hidden_effect = {
-			every_held_title = {
-				limit = {
-					tier = tier_county
-					is_landless_type_title = no
-					culture = root.culture
-					faith = religion:retic_religion
-				}
-				add_to_list = counties_to_convert
-			}
-			# Family at court also convert
-			every_close_or_extended_family_member = {
-				limit = {
-					is_courtier_of = scope:recipient
-					faith != religion:retic_religion
-					NOT = { has_character_flag = ai_will_not_convert }
-				}
-				add_to_list = spouses_and_family_to_convert
-			}
-			every_in_list = {
-			list = counties_to_convert
-			set_county_rite = rite:venetic_christianity
-			every_in_list = {
-				list = spouses_and_family_to_convert
-				set_character_rite = rite:venetic_christianity
-			}
-		}	
+		show_as_tooltip = { venetic_christianity_communion_scripted_effect = yes }
+		#trigger_event = { id = eme_religious_decision_events.1 }	
     }
 	ai_check_interval = 96
 	

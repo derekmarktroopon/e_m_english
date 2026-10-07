@@ -1,0 +1,142 @@
+﻿
+pie_christianity_communion_scripted_effect = {
+	root.faith = {
+		save_scope_as = old_faith
+	}
+	religion:christianity_religion = {
+		random_faith = {
+			limit = {
+				any_faith_rite = {
+					head_of_rite = {
+						opinion = {
+							target = root
+							value >= 50
+						}
+					}
+				}
+			}
+			save_scope_as = faith_to_which_rite_will_join
+		}
+	}
+	rite:pie_christianity = {
+		set_parent_faith = { 
+			target = scope:faith_to_which_rite_will_join
+			main = no 
+		}
+		add_doctrine = special_doctrine_ecumenical_christian
+		add_doctrine = special_doctrine_has_clerical_electors
+		if = {
+			limit = {
+				root.location = {
+					OR = {
+						geographical_region = world_asia_china
+						geographical_region = world_asia_japan
+						geographical_region = world_asia_korea
+					}
+				}
+			}
+			add_doctrine = special_doctrine_immaterial_harmony
+		}
+		remove_tenet = tenet_christian_syncretism
+		add_tenet = tenet_communion
+	}
+	set_character_rite = rite:pie_christianity
+	hidden_effect = {
+	every_held_title = {
+		limit = {
+			tier = tier_county
+			is_landless_type_title = no
+			culture = root.culture
+			faith = scope:old_faith
+		}
+		add_to_list = counties_to_convert
+	}
+	# Family at court also convert
+	every_close_or_extended_family_member = {
+		limit = {
+			is_courtier_of = scope:recipient
+			faith != scope:old_faith
+			NOT = { has_character_flag = ai_will_not_convert }
+		}
+		add_to_list = spouses_and_family_to_convert
+	}
+	every_in_list = {
+		list = counties_to_convert
+		set_county_rite = rite:pie_christianity
+		every_in_list = {
+			list = spouses_and_family_to_convert
+			set_character_rite = rite:pie_christianity
+		}
+	}
+}
+
+venetic_christianity_communion_scripted_effect = {
+	root.faith = {
+		save_scope_as = old_faith
+	}
+	religion:christianity_religion = {
+		random_faith = {
+			limit = {
+				any_faith_rite = {
+					head_of_rite = {
+						opinion = {
+							target = root
+							value >= 50
+						}
+					}
+				}
+			}
+			save_scope_as = faith_to_which_rite_will_join
+		}
+	}
+	rite:venetic_christianity = {
+		set_parent_faith = { 
+			target = scope:faith_to_which_rite_will_join
+			main = no 
+		}
+		add_doctrine = special_doctrine_ecumenical_christian
+		add_doctrine = special_doctrine_has_clerical_electors
+		if = {
+			limit = {
+				root.location = {
+					OR = {
+						geographical_region = world_asia_china
+						geographical_region = world_asia_japan
+						geographical_region = world_asia_korea
+					}
+				}
+			}
+			add_doctrine = special_doctrine_immaterial_harmony
+		}
+		remove_tenet = tenet_christian_syncretism
+		add_tenet = tenet_communion
+	}
+	set_character_rite = rite:venetic_christianity
+	hidden_effect = {
+	every_held_title = {
+		limit = {
+			tier = tier_county
+			is_landless_type_title = no
+			culture = root.culture
+			faith = scope:old_faith
+		}
+		add_to_list = counties_to_convert
+	}
+	# Family at court also convert
+	every_close_or_extended_family_member = {
+		limit = {
+			is_courtier_of = scope:recipient
+			faith != scope:old_faith
+			NOT = { has_character_flag = ai_will_not_convert }
+		}
+		add_to_list = spouses_and_family_to_convert
+	}
+	every_in_list = {
+		list = counties_to_convert
+		set_county_rite = rite:venetic_christianity
+		every_in_list = {
+			list = spouses_and_family_to_convert
+			set_character_rite = rite:venetic_christianity
+		}
+	}
+}
