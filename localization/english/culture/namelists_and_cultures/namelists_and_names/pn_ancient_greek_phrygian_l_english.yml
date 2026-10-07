@@ -386,3 +386,124 @@ Odriwia:0 "Odriwia" #
 Psoreia:0 "Psoreia" #
 Sima_grk:0 "Sima" #
 Thalamika:0 "Thalamika" #
+
+
+# Graeco-Phrygian
+
+greco_phrygian:0 "Greco-Phrygian"
+greco_phrygian_prefix:0 "Greco-Phrygio"
+greco_phrygian_collective_noun:0 "Greco-Phrygians"
+
+name_list_greco_phrygian:0 "Proto-Greco-Phrygian"
+
+language_greco_phrygian:0 "Greco-Phrygian"
+
+
+dynn_Monwandrios:0 "Monwandrios"
+dynn_Wanaktandrios:0 "Wanaktandrios"
+dynn_Diwandrios:0 "Diwandrios"
+dynn_Zemelandrios:0 "Zemelandrios"
+dynn_Matrandrios:0 "Matrandrios"
+dynn_Monwios:0 "Monwios"
+dynn_Andrios:0 "Andrios"
+dynn_Diwios:0 "Diwios"
+dynn_Korwios:0 "Korwios"
+dynn_Zemelios:0 "Zemelios"
+
+Monwandros:0 "Monwandros" 
+Wanaktandros:0 "Wanaktandros"
+Diwandros:0 "Diwandros" 
+Zemelandros:0 "Zemelandros" #
+Matrandros:0 "Matrandros" 
+Monwas:0 "Monwas" 
+# Andras
+Diwas:0 "Diwas
+Korwos:0 "Korwos" 
+Zemelas:0 "Zemelas" 
+
+
+Korwa:0 "Korwa" # Kora
+Monwa:0 "Monwa" # Mona
+Matrokorwa:0 "Matrokorwa" 
+Wanaktia:0 "Wanaktia"
+Diwa:0 "Diwa" 
+Monwokorwa:0 "Monwokorwa"
+Matrodiwa:0 "Matrodiwa"  
+
+# Phrygian
+
+language_phrygian:0 "Phrygian"
+name_list_phrygian:0 "Phrygian"
+
+phrygian:0 "Phrygian"
+phrygian_collective_coun:0 "Phrygians"
+phrygian_prefix:0 "Phrygio"
+
+dynnpat_suf_eios:0 "eios"
+dynnpat_suf_eia:0 "eia"
+
+dynn_Gordion:0 "Gordion"
+dynn_Thiounta:0 "Thiounta"
+dynn_Mikkonia:0 "Mikkonia"
+dynn_Pessinous:0 "Pessinous"
+dynn_Beitheion:0 "Beitheion"
+dynn_Tateion:0 "Tateion"
+dynn_Bonokeion:0 "Bonokeion"
+dynn_Daguvia:0 "Daguvia"
+dynn_Koteion:0 "Koteion"
+dynn_Maneseion:0 "Maneseion"
+dynn_Adithrerakeion:0 "Adithrerakeion"
+dynn_Paroreion:0 "Paroreion"
+dynn_Sollaseion:0 "Sollaseion"
+dynn_Voineion:0 "Voineion"
+dynn_Zarmeion:0 "Zarmeion"
+
+Atas:0 "Atas"
+Atatas:0 "Atatas"
+Babas:0 "Babas"
+Boalos:0 "Boalos"
+Botios:0 "Botios"
+Boubas:0 "Boubas"
+Ballion:0 "Ballion"
+Batakes:0 "Batakes"
+Biron:0 "Biron"
+Beithus:0 "Beithus"
+Bonok:0 "Bonok"
+Daguvas:0 "Daguvas"
+Feron:0 "Feron"
+Iman_phrg:0 "Iman"
+Komon:0 "Komon"
+Kotus:0 "Kotus"
+Manes:0 "Manes"
+Marion:0 "Marion"
+Manesos:0 "Manesos"
+Midas:0 "Midas"
+Adithrerak:0 "Adithrerak"
+Mitraphata:0 "Mitraphata" # Mithradates - remove as regular name
+Paroreios:0 "Paroreios"
+Sollasos:0 "Sollasos"
+Tates:0 "Tates"
+Thious:0 "Thious"
+Tiyes:0 "Tiyes"
+Voines:0 "Voines"
+Voineios:0 "Voineios"
+Zarmos:0 "Zarmos"
+
+Agipeia:0 "Agipeia"
+Babeis:0 "Babeis" 
+Ba_phrg:0 "Ba"
+Baba_phrg:0 "Baba" # same as Ba
+Banboula:0 "Banboula"
+Batta:0 "Batta"
+Imeneia:0 "Imeneia"
+Karoura:0 "Karoura"
+Lagineia:0 "Lagineia"
+Manuka:0 "Manuka"
+Pimenia:0 "Pimenia"
+Soullis:0 "Soullis"
+Tettha:0 "Tettha"
+Thettha:0 "Thettha" # same as Tettha
+Tiveia:0 "Tiveia"
+Xeune:0 "Xeune"
+
+# -eion / -eia = phrygian place name suffixes - perhaps eios and eia for names?

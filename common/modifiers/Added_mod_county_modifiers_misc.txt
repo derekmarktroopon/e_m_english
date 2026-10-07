@@ -1,0 +1,13 @@
+﻿restorers_of_ithaca_house_modifier = {
+	icon = martial_positive
+	monthly_lifestyle_xp_gain_mult = 0.1
+	sea_travel_danger = low_sea_danger_reduction
+	development_growth_factor = 0.2
+}
+
+restore_ithaca_modifier = {
+	icon = social_positive
+	development_growth_factor = 0.5
+	tax_mult = 0.5
+	build_gold_cost = -0.5
+}

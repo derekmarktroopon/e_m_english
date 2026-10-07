@@ -18,6 +18,44 @@ language_pie = {
 	color = { 1 33 66 }
 }
 
+language_greco_phrygian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_greco_phrygian
+		}
+	}
+
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_greco_phrygian }
+			multiply = 10
+		}
+	}
+	
+	color = { 214 214 94 }
+}
+
+language_phrygian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_phrygian
+		}
+	}
+
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_phrygian }
+			multiply = 10
+		}
+	}
+	
+	color = { 235 225 52 }
+}
+
 language_proto_germanic = {
 	type = language
 	is_shown = {

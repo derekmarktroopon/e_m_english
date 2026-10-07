@@ -19,11 +19,33 @@ restore_ithaca_scripted_effect = {
 			change = scope:title_change
 		}
 	}
+	if = {
+		limit = {
+			root.culture = {
+				NOR = {
+					has_name_list = name_list_ancient_greek
+					has_name_list = name_list_mycenaean
+				}
+			}
+		}
+		root.culture = {
+			save_temporary_scope_as = old_culture_to_get_innovations_from
+		}
+		set_culture = culture:ancient_greek
+		culture:ancient_greek = {
+			get_all_innovations_from = scope:old_culture_to_get_innovations_from
+		}
+		add_trait = eccentric
+	} 
 	title:c_cephalonia = {
 		change_development_level = medium_development_level_gain
 		set_county_culture = root.culture
 		set_county_faith = root.faith
 		set_county_rite = root.rite
+		title_province = { 
+			add_province_modifier = extra_building_slot
+			add_province_modifier = restore_ithaca_modifier
+		}
 	}
 
 	hidden_effect = {

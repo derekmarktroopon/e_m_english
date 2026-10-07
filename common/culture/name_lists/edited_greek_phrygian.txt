@@ -1444,3 +1444,56 @@ name_list_mycenaean = { # Wiktionary + https://www.peiraeuspubliclibrary.com/nam
 	patronym_suffix_male = "dynnpat_suf_ios" 
 	patronym_suffix_female = "dynnpat_suf_ia"
 }
+
+name_list_graeco_phrygian = { # Speculative
+
+	cadet_dynasty_names = {
+		dynn_Monwandrios dynn_Wanaktandrios  dynn_Diwandrios dynn_Zemelandrios dynn_Matrandrios dynn_Monwios dynn_Andrios dynn_Diwios dynn_Korwios dynn_Zemelios
+	}
+
+	dynasty_names = {
+		dynn_Monwandrios dynn_Wanaktandrios  dynn_Diwandrios dynn_Zemelandrios dynn_Matrandrios dynn_Monwios dynn_Andrios dynn_Diwios dynn_Korwios dynn_Zemelios
+	}
+
+	male_names = {
+		Monwandros Wanaktandros Diwandros Zemelandros Matrandros Monwas Andras Diwas Korwos Zemelas
+	}
+	
+	female_names = { 
+		Korwa Monwa Matrokorwa Wanaktia Diwa Monwokorwa Matrodiwa
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+
+	patronym_suffix_male = "dynnpat_suf_ios" 
+	patronym_suffix_female = "dynnpat_suf_ia"
+}
+
+name_list_phrygian = {  # sources: wiktionary + https://www.scribd.com/document/536420672/LYCIAN-AND-PHRYGIAN-NAMES
+
+	cadet_dynasty_names = {
+		dynn_Gordion dynn_Thiounta dynn_Mikkonia dynn_Pessinous dynn_Beitheion dynn_Tateion dynn_Bonokeion dynn_Daguvia dynn_Koteion dynn_Maneseion dynn_Adithrerakeion dynn_Paroreion dynn_Sollaseion dynn_Voineion dynn_Zarmeion
+	}
+
+	dynasty_names = {
+		dynn_Gordion dynn_Thiounta dynn_Mikkonia dynn_Pessinous dynn_Beitheion dynn_Tateion dynn_Bonokeion dynn_Daguvia dynn_Koteion dynn_Maneseion dynn_Adithrerakeion dynn_Paroreion dynn_Sollaseion dynn_Voineion dynn_Zarmeion
+	}
+
+	male_names = {
+		100 = {
+			Atas Atatas Babas Boalos Botios Boubas Ballion Batakes Biron Beithus Bonok Daguvas Feron Iman_phrg Komon Kotus Manes Marion Manesos Midas Adithrerak Paroreios Sollasos Tates Thious Tiyes Voines Voineios Zarmos
+		}
+		0 = { # Phrygian versions of foreign names
+			Mitraphata
+		}
+	} 
+	
+	female_names = { 
+		Agipeia Babeis Ba_phrg Baba_phrg Banboula Batta Imeneia Karoura Lagineia Manuka Pimenia Soullis Tettha Thettha Tiveia Xeune
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+
+	patronym_suffix_male = "dynnpat_suf_eios" 
+	patronym_suffix_female = "dynnpat_suf_eia"
+}

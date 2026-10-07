@@ -113,6 +113,8 @@ iphimedeia_female = { Iphimedeia Iphemedeia }
 penelope_female = { Penelope }
 carpathia_female = { Karpasia Karpathia }
 corinthia_female = { Korinsia Korinthia }
+cora_female = { Kora Korwa }
+mona_female = { Mona Monwa }
 
 # Celtic names
 
@@ -2081,7 +2083,7 @@ mahdad_male = { Mahidatah Mahdad }
 Manec_male = { Manaicah Manec Manez }
 Mathishtah_male = { Mathishtah Masishtah }
 mihran_male = { Mihran Mihran_mp }
-mithridates_male = { Mithridates Mihrdat Milad Mithradatah Mihrdad_mp Mihrdat_prth }
+mithridates_male = { Mithridates Mihrdat Milad Mithradatah Mihrdad_mp Mihrdat_prth Mitraphata }
 mithraphernes_male = { Mithrafarnah Mihrfarr }
 narses_male = { Narses Nerse Nerseh Narsieh Narsi Narseh Nerses Naryasanhah Narse Narisaxw }
 parviz_male = { Parviz Parvez }
@@ -2106,10 +2108,15 @@ viroy_male = { Wiroy }
 
 
 Anahid_female = { Anahid Anahid_mp }
-apame_female = { Apame }
-Atossa_female = { Hutautha Hutotha }
+apame_female = { Apame Apama }
+Atossa_female = { Hutautha Hutotha Xudos }
 Azarmidokht_female = { Azarmidokht Azarmigduxt }
 banu_female = { Banu Banug }
 Dana_female = { Dana Denag }
-roxana_female = { Roxana Rauxshna Roshan }
+roxana_female = { Roxana Rauxshna Roshan Roshn }
 shirin_female = { Shirin Shiren }
+
+# Phrygian names
+
+baba_female = { Baba_phrg Ba_phrg }
+tettha_female = { Tettha Thettha }

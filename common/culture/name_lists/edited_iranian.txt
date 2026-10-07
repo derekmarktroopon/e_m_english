@@ -155,8 +155,9 @@ name_list_parthian = {
 		Aryabarzan Arshak Ardaban Ardaxshahr Tigran_prth Ardapan Bagdat Gotarz Walgash Werod Wahram Husraw Manec Mihrdat_prth Narisaxw Narseh Spanddat Pakur Pabag Frahat Fryapat Rastak Shabuhr Tirdat Tiridat
 	}
 	female_names = {
+		Xudos Roshn
 		# Middle Persian female names - I found no sources online, but many loans from middle persian are among the male names anyways
-		Wehafrid Azarmigduxt Boran Denag Shiren Banug Farigis Humay Anahid_mp Aduranahid Roshan Yazdanduxt Shahrbanug Zruanduxt
+		Wehafrid Azarmigduxt Boran Denag Shiren Banug Farigis Humay Anahid_mp Aduranahid Yazdanduxt Shahrbanug Zruanduxt
 		Apranik Golandoxt Spandarmad Tida
 	}
 	
