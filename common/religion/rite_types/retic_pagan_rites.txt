@@ -42,6 +42,92 @@ venetic_paganism = {
 
 }
 
+venetic_christianity = {
+	name = venetic_christianity
+	desc = venetic_christianity_desc
+	faith = venetic_paganism
+	icon = venetic_christianity
+
+	color = { 127 238 240 }
+
+	tenets = {
+		tenet_sanctity_of_nature
+		tenet_ritual_writing
+		tenet_christian_syncretism
+	}
+	# set_parent_faith = { target = faith:catholic main = no }
+	# rite:venetic_christianity 
+	#	add_doctrine = special_doctrine_ecumenical_christian
+	#	add_doctrine = special_doctrine_has_clerical_electors
+	#	remove_tenet = tenet_christian_syncretism
+	#	add_tenet = tenet_communion
+	# }
+
+	localization = { # 
+
+		HighGodName = venetic_christianity_high_god_name
+		HighGodName2 = christianity_high_god_name_2
+		HighGodNamePossessive = venetic_christianity_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = venetic_christianity_high_god_name_alternate
+		HighGodNameAlternatePossessive = venetic_christianity_high_god_name_alternate_possessive
+
+		#FertilityGod
+		FertilityGodName = st_briganta_name
+		FertilityGodNamePossessive = st_briganta_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+		#WealthGod
+		WealthGodName = st_trumusiates_name
+		WealthGodNamePossessive = st_trumusiates_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#HouseholdGod
+		HouseholdGodName = st_boulenos_name
+		HouseholdGodNamePossessive = st_boulenos_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+		#KnowledgeGod
+		KnowledgeGodName = st_reitia_name
+		KnowledgeGodNamePossessive = st_reitia_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+		#WarGod
+		WarGodName = st_giorgios_name
+		WarGodNamePossessive = st_giorgios_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WaterGod
+		WaterGodName = st_nikolos_name
+		WaterGodNamePossessive = st_nikolos_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+		GoodGodNames = {
+			venetic_christianity_high_god_name
+			venetic_christianity_high_god_name_alternate
+			venetic_chistianity_good_god_jesus
+			venetic_chistianity_good_god_christ
+		}
+	}
+
+	cultures = { venetic liburnian }
+
+}
+
 camunic_pagan = {
 	name = camunic_pagan
 	desc = camunic_pagan_desc

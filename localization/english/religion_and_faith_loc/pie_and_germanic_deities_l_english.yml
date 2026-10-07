@@ -51,3 +51,10 @@
 
  Nettu_night_god_name:0 "Nertu"
  Nettu_night_god_name_possessive:0 "Nertu's"
+
+ pie_christianity_high_god_name:0 "Dyéus"
+ pie_christianity_high_god_name_possessive:0 "Dyéus'"
+ pie_christianity_high_god_name_alternate:0 "Dyéus-Phtér"
+ pie_christianity_high_god_name_alternate_possessive:0 "Dyéus-Phtér's"
+ pie_chistianity_good_god_jesus:0 "Yesos"
+ pie_chistianity_good_god_christ:0 "Krystus"

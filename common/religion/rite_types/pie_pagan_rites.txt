@@ -13,3 +13,37 @@ pie_pagan = {
 		unreformed_faith_doctrine
 	}	
 }
+
+pie_christianity = {
+	name = pie_christianity
+	desc = pie_christianityy_desc
+	faith = pie_pagan
+	icon = dyeus-phter_christian
+	color = { 58 96 135 }
+
+	tenets = {
+		tenet_christian_syncretism
+		tenet_ancestor_worship
+		tenet_warmonger
+	}
+
+	localization = {
+
+		HighGodName = pie_christianity_high_god_name
+		HighGodName2 = christianity_high_god_name_2
+		HighGodNamePossessive = pie_christianity_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = pie_christianity_high_god_name_alternate
+		HighGodNameAlternatePossessive = pie_christianity_high_god_name_alternate_possessive
+
+		GoodGodNames = {
+			pie_christianity_high_god_name
+			pie_christianity_high_god_name_alternate
+			pie_chistianity_good_god_jesus
+			pie_chistianity_good_god_christ
+		}
+	}
+
+}

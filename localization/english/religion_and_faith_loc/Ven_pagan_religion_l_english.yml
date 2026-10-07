@@ -47,3 +47,8 @@
  venetic_hellenic_syncrenism_name:0 "Venetist Syncrenism"
  venetic_hellenic_syncrenism_desc:0 "To survive in an ever-changing world, Venetists have had to work hard to adapt their views of other faiths, and the views of those hostile to theirs, acording to the situation they found themselves in. From the Etruscans to the Celts and Latins, it has always been imperative for Venetists to make others feel like they are one of their own, while still striving to retain their own traditions (even if they ended up loosing their faith to the agressive Romans this way)."
  
+ venetic_christianity:0 "Venetican Church"
+ venetic_christianity_adj:0 "Venetican"
+ venetic_christianity_adherent:0 "Venetican"
+ venetic_christianity_adherent_plural:0 "Veneticans"
+ venetic_christianity_desc:0 "Born from a Venetic syncreticism with mainline Christianity, the Veneticans believe the 'Old Gods' to be saints sent by God to prepare the Veneti for the eventual comming of Christ. As such, while ardently following Christian scripture, the old deities are seen as servants of God, rather that pagan idols."
