@@ -16,7 +16,7 @@ pie_pagan = {
 
 pie_christianity = {
 	name = pie_christianity
-	desc = pie_christianityy_desc
+	desc = pie_christianity_desc
 	faith = pie_pagan
 	icon = dyeus-phter_christian
 	color = { 58 96 135 }
@@ -27,6 +27,10 @@ pie_christianity = {
 		tenet_christian_syncretism
 		tenet_ancestor_worship
 		tenet_warmonger
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
 	}
 
 	localization = {

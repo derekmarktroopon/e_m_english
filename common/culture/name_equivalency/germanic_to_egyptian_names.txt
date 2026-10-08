@@ -2036,7 +2036,7 @@ Kaoruko_female = { Kaoruko Kaoruko_2 jp_Cooruca }
 
 Acinah_male = { Acinah Athrinah }
 anushirvan_male = { Anushirvan EnU_S_irwan Anosherawan }
-ardashir_male = { Ardeshir Artashir Ardashir Artaxshacah Artaxerxes ErdeS_I_r Ardaxshir Ardaxshahr }
+ardeshir_male = { Ardeshir Artashir Ardashir Artaxshacah Artaxerxes ErdeS_I_r Ardaxshir Ardaxshahr }
 ardapan_male = { Artapanah Ardapan }
 ardavan_male = { Ardavan Artivan Erdewan Artabanush }
 Ardifyah_male = { Ardifyah Arzifyah }

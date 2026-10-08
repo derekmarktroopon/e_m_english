@@ -57,6 +57,11 @@ venetic_christianity = {
 		tenet_ritual_writing
 		tenet_christian_syncretism
 	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+
 	# set_parent_faith = { target = faith:catholic main = no }
 	# rite:venetic_christianity 
 	#	add_doctrine = special_doctrine_ecumenical_christian
@@ -165,7 +170,6 @@ camunic_pagan = {
 		doctrine_clerical_gender_female_only
 		doctrine_clerical_marriage_allowed
 		doctrine_clerical_succession_temporal_appointment
-		doctrine_pilgrimage_encouraged
 	}
 
 	#holy_order_names = {

@@ -26,6 +26,9 @@ pie_christianity_communion_scripted_effect = {
 		}
 		add_doctrine = special_doctrine_ecumenical_christian
 		add_doctrine = special_doctrine_has_clerical_electors
+		remove_doctrine = doctrine_polytheist
+		remove_doctrine = unreformed_faith_doctrine
+		add_doctrine = doctrine_monotheist
 		if = {
 			limit = {
 				root.location = {
@@ -99,6 +102,9 @@ venetic_christianity_communion_scripted_effect = {
 		}
 		add_doctrine = special_doctrine_ecumenical_christian
 		add_doctrine = special_doctrine_has_clerical_electors
+		remove_doctrine = doctrine_polytheist
+		remove_doctrine = unreformed_faith_doctrine
+		add_doctrine = doctrine_monotheist
 		if = {
 			limit = {
 				root.location = {

@@ -27,7 +27,7 @@
 	
     effect = {
 		set_global_variable = {
-			name = countdown_till_middle_english_period
+			name = middle_english_period_names
 			value = yes
 		}
 		trigger_event = {
