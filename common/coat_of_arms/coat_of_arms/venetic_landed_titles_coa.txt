@@ -21,11 +21,9 @@ k_venice_venetic = {
     }
 
 	colored_emblem = {
-	    texture = "ce_border_venetic_2.dds"
-	    color1 = rgb { 214 153 54 } #Gold
-
-	    instance = { rotation = 0 }
-	    instance = { rotation = 180 }
+	    texture = "ce_border_venetic_14.dds"
+	    color1 = rgb { 0 85 145 } #Venetic Empire Blue
+	    color2 = rgb { 214 153 54 }
 	}
 }
 

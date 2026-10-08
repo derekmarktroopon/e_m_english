@@ -6,7 +6,7 @@ pie_christianity_communion_scripted_effect = {
 	religion:christianity_religion = {
 		random_faith = {
 			limit = {
-				any_faith_rite = {
+				main_rite = {
 					head_of_rite = {
 						opinion = {
 							target = root
@@ -18,17 +18,167 @@ pie_christianity_communion_scripted_effect = {
 			save_scope_as = faith_to_which_rite_will_join
 		}
 	}
+	hidden_effect = {
+		scope:faith_to_which_rite_will_join.main_rite = {
+			if = { limit = { rite_has_doctrine = doctrine_monogamy } doctrine:doctrine_monogamy = { save_scope_as = pope_marriage_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_polygamy } doctrine:doctrine_polygamy = { save_scope_as = pope_marriage_doctrine } }
+			else = { doctrine:doctrine_concubines = { save_scope_as = pope_marriage_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_divorce_disallowed } doctrine:doctrine_divorce_disallowed = { save_scope_as = pope_divorce_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_divorce_approval } doctrine:doctrine_divorce_approval = { save_scope_as = pope_divorce_doctrine } }
+			else = { doctrine:doctrine_divorce_allowed = { save_scope_as = pope_divorce_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_bastardry_none } doctrine:doctrine_bastardry_none = { save_scope_as = pope_bastardry_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_bastardry_legitimization } doctrine:doctrine_bastardry_legitimization = { save_scope_as = pope_bastardry_doctrine } }
+			else = { doctrine:doctrine_bastardry_all = { save_scope_as = pope_bastardry_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_homosexuality_crime } doctrine:doctrine_homosexuality_crime = { save_scope_as = pope_homosexuality_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_homosexuality_shunned } doctrine:doctrine_homosexuality_shunned = { save_scope_as = pope_homosexuality_doctrine } }
+			else = { doctrine:doctrine_homosexuality_accepted = { save_scope_as = pope_homosexuality_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_deviancy_crime } doctrine:doctrine_deviancy_crime = { save_scope_as = pope_deviancy_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_deviancy_shunned } doctrine:doctrine_deviancy_shunned = { save_scope_as = pope_deviancy_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_deviancy_accepted } doctrine:doctrine_deviancy_accepted = { save_scope_as = pope_deviancy_doctrine } }
+			else = { doctrine:doctrine_deviancy_virtuous = { save_scope_as = pope_deviancy_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_adultery_men_crime } doctrine:doctrine_adultery_men_crime = { save_scope_as = pope_male_adultery_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_adultery_men_shunned } doctrine:doctrine_adultery_men_shunned = { save_scope_as = pope_male_adultery_doctrine } }
+			else = { doctrine:doctrine_adultery_men_accepted = { save_scope_as = pope_male_adultery_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_adultery_women_crime } doctrine:doctrine_adultery_men_crime = { save_scope_as = pope_female_adultery_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_adultery_women_shunned } doctrine:doctrine_adultery_women_shunned = { save_scope_as = pope_female_adultery_doctrine } }
+			else = { doctrine:doctrine_adultery_women_accepted = { save_scope_as = pope_female_adultery_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_kinslaying_any_dynasty_member_crime } doctrine:doctrine_kinslaying_any_dynasty_member_crime = { save_scope_as = pope_kinslaying_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_kinslaying_extended_family_crime } doctrine:doctrine_kinslaying_extended_family_crime = { save_scope_as = pope_kinslaying_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_kinslaying_close_kin_crime } doctrine:doctrine_kinslaying_close_kin_crime = { save_scope_as = pope_kinslaying_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_kinslaying_shunned } doctrine:doctrine_kinslaying_shunned = { save_scope_as = pope_kinslaying_doctrine } }
+			else = { doctrine:doctrine_kinslaying_accepted = { save_scope_as = pope_kinslaying_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_witchcraft_crime } doctrine:doctrine_witchcraft_crime = { save_scope_as = pope_witchcraft_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_witchcraft_shunned } doctrine:doctrine_witchcraft_shunned = { save_scope_as = pope_witchcraft_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_witchcraft_accepted } doctrine:doctrine_witchcraft_accepted = { save_scope_as = pope_witchcraft_doctrine } }
+			else = { doctrine:doctrine_witchcraft_virtuous = { save_scope_as = pope_witchcraft_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_gender_male_dominated } doctrine:doctrine_gender_male_dominated = { save_scope_as = pope_genderequality_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_gender_equal } doctrine:doctrine_gender_equal = { save_scope_as = pope_genderequality_doctrine } }
+			else = { doctrine:doctrine_gender_female_dominated = { save_scope_as = pope_genderequality_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_consanguinity_dynastic } doctrine:doctrine_consanguinity_dynastic = { save_scope_as = pope_consanguinity_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_consanguinity_restricted } doctrine:doctrine_consanguinity_restricted = { save_scope_as = pope_consanguinity_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_consanguinity_cousins } doctrine:doctrine_consanguinity_cousins = { save_scope_as = pope_consanguinity_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece } doctrine:doctrine_consanguinity_aunt_nephew_and_uncle_niece = { save_scope_as = pope_consanguinity_doctrine } }
+			else = { doctrine:doctrine_consanguinity_unrestricted = { save_scope_as = pope_consanguinity_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_pluralism_fundamentalist } doctrine:doctrine_pluralism_fundamentalist = { save_scope_as = pope_pluralism_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_pluralism_righteous } doctrine:doctrine_pluralism_righteous = { save_scope_as = pope_pluralism_doctrine } }
+			else = { doctrine:doctrine_pluralism_pluralistic = { save_scope_as = pope_pluralism_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_theocracy_temporal } doctrine:doctrine_theocracy_temporal = { save_scope_as = pope_temporallayclergy_doctrine } }
+			else = { doctrine:doctrine_theocracy_lay_clergy = { save_scope_as = pope_temporallayclergy_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_no_head } doctrine:doctrine_pluralism_fundamentalist = { save_scope_as = pope_headofchurch_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_spiritual_head } doctrine:doctrine_spiritual_head = { save_scope_as = pope_headofchurch_doctrine } }
+			else = { doctrine:doctrine_temporal_head = { save_scope_as = pope_headofchurch_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_clerical_function_taxation } doctrine:doctrine_clerical_function_taxation = { save_scope_as = pope_clericalfunction_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_clerical_function_alms_and_pacification } doctrine:doctrine_clerical_function_alms_and_pacification = { save_scope_as = pope_clericalfunction_doctrine } }
+			else = { doctrine:doctrine_clerical_function_recruitment = { save_scope_as = pope_clericalfunction_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_clerical_gender_male_only } doctrine:doctrine_clerical_gender_male_only = { save_scope_as = pope_clericalgender_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_clerical_gender_either } doctrine:doctrine_clerical_gender_either = { save_scope_as = pope_clericalgender_doctrine } }
+			else = { doctrine:doctrine_clerical_gender_female_only = { save_scope_as = pope_clericalgender_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_clerical_marriage_allowed } doctrine:doctrine_clerical_marriage_allowed = { save_scope_as = pope_clericalmariage_doctrine } }
+			else = { doctrine:doctrine_clerical_marriage_disallowed = { save_scope_as = pope_clericalmariage_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_clerical_succession_temporal_appointment } doctrine:doctrine_clerical_succession_temporal_appointment = { save_scope_as = pope_clericalsuccession_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_clerical_succession_spiritual_appointment } doctrine:doctrine_clerical_succession_spiritual_appointment = { save_scope_as = pope_clericalsuccession_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_clerical_succession_temporal_fixed_appointment } doctrine:doctrine_clerical_succession_temporal_fixed_appointment = { save_scope_as = pope_clericalsuccession_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_clerical_succession_spiritual_fixed_appointment } doctrine:doctrine_clerical_succession_spiritual_fixed_appointment = { save_scope_as = pope_clericalsuccession_doctrine } }
+			else = { doctrine:doctrine_clerical_succession_conditional = { save_scope_as = pope_clericalsuccession_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_pilgrimage_forbidden } doctrine:doctrine_pilgrimage_forbidden = { save_scope_as = pope_pilgrimage_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_pilgrimage_encouraged } doctrine:doctrine_pilgrimage_encouraged = { save_scope_as = pope_pilgrimage_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_pilgrimage_local_rites } doctrine:doctrine_pilgrimage_local_rites = { save_scope_as = pope_pilgrimage_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_pilgrimage_mandatory } doctrine:doctrine_pilgrimage_mandatory = { save_scope_as = pope_pilgrimage_doctrine } }
+			else = { doctrine:doctrine_pilgrimage_mandatory_hajj = { save_scope_as = pope_pilgrimage_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_funeral_stoic } doctrine:doctrine_funeral_stoic = { save_scope_as = pope_funeral_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_funeral_bewailment } doctrine:doctrine_funeral_bewailment = { save_scope_as = pope_funeral_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_funeral_cremation } doctrine:doctrine_funeral_cremation = { save_scope_as = pope_funeral_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_funeral_sky_burial } doctrine:doctrine_funeral_sky_burial = { save_scope_as = pope_funeral_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_funeral_mummification } doctrine:doctrine_funeral_mummification = { save_scope_as = pope_funeral_doctrine } }
+			else = { doctrine:doctrine_family_rites = { save_scope_as = pope_funeral_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_no_anointment } doctrine:doctrine_no_anointment = { save_scope_as = pope_anointment_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_anointment_permitted } doctrine:doctrine_anointment_permitted = { save_scope_as = pope_anointment_doctrine } }
+			else = { doctrine:doctrine_imperial_anointment = { save_scope_as = pope_anointment_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_monotheist } doctrine:doctrine_monotheist = { save_scope_as = pope_thyism_doctrine } }
+			else = { doctrine:doctrine_polytheist = { save_scope_as = pope_thyism_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_monasticism_encouraged } doctrine:doctrine_monasticism_encouraged = { save_scope_as = pope_monasticism_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_monasticism_accepted } doctrine:doctrine_monasticism_accepted = { save_scope_as = pope_monasticism_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_monasticism_absent } doctrine:doctrine_monasticism_absent = { save_scope_as = pope_monasticism_doctrine } }
+			else = { doctrine:doctrine_monasticism_forbidden = { save_scope_as = pope_monasticism_doctrine } }
+			
+			if = { limit = { rite_has_doctrine = doctrine_sacraments_central } doctrine:doctrine_sacraments_central = { save_scope_as = pope_sacraments_doctrine } }
+			else = { doctrine:doctrine_sacraments_absent = { save_scope_as = pope_sacraments_doctrine } }
+
+		}
+		rite:pie_christianity = {
+			change_rite_doctrine = scope:pope_marriage_doctrine
+			change_rite_doctrine = scope:pope_divorce_doctrine
+			change_rite_doctrine = scope:pope_bastardry_doctrine
+			change_rite_doctrine = scope:pope_homosexuality_doctrine
+			change_rite_doctrine = scope:pope_deviancy_doctrine
+			change_rite_doctrine = scope:pope_male_adultery_doctrine
+			change_rite_doctrine = scope:pope_female_adultery_doctrine
+			change_rite_doctrine = scope:pope_kinslaying_doctrine
+			change_rite_doctrine = scope:pope_witchcraft_doctrine
+			change_rite_doctrine = scope:pope_genderequality_doctrine
+			change_rite_doctrine = scope:pope_consanguinity_doctrine
+			change_rite_doctrine = scope:pope_pluralism_doctrine
+			change_rite_doctrine = scope:pope_temporallayclergy_doctrine
+			change_rite_doctrine = scope:pope_headofchurch_doctrine
+			change_rite_doctrine = scope:pope_clericalfunction_doctrine
+			change_rite_doctrine = scope:pope_clericalgender_doctrine
+			change_rite_doctrine = scope:pope_clericalmariage_doctrine
+			change_rite_doctrine = scope:pope_clericalsuccession_doctrine
+			change_rite_doctrine = scope:pope_pilgrimage_doctrine
+			change_rite_doctrine = scope:pope_funeral_doctrine
+			change_rite_doctrine = scope:pope_anointment_doctrine
+			change_rite_doctrine = scope:pope_thyism_doctrine
+			change_rite_doctrine = scope:pope_monasticism_doctrine
+			change_rite_doctrine = scope:pope_sacraments_doctrine
+		}
+	}
 	rite:pie_christianity = {
 		set_can_convert_to_rite = yes
-		set_parent_faith = { 
-			target = scope:faith_to_which_rite_will_join
-			main = no 
+		if = {
+			limit = {
+				OR = {
+					scope:faith_to_which_rite_will_join = faith:christian_faith
+					NOT = { exists = scope:faith_to_which_rite_will_join }
+				}
+			}
+			set_parent_faith = { 
+				target = scope:faith_to_which_rite_will_join
+				main = no 
+			}
 		}
-		add_doctrine = special_doctrine_ecumenical_christian
-		add_doctrine = special_doctrine_has_clerical_electors
-		remove_doctrine = doctrine_polytheist
-		remove_doctrine = unreformed_faith_doctrine
-		add_doctrine = doctrine_monotheist
+		else = {
+			set_parent_faith = { 
+				target = faith:christian_faith
+				main = no 
+			}
+		}
+		add_rite_doctrine = special_doctrine_ecumenical_christian
+		add_rite_doctrine = special_doctrine_has_clerical_electors
+		remove_rite_doctrine = unreformed_faith_doctrine
+		remove_rite_doctrine = pagan_hostility_doctrine
+		add_rite_doctrine = abrahamic_hostility_doctrine
 		if = {
 			limit = {
 				root.location = {
@@ -39,10 +189,10 @@ pie_christianity_communion_scripted_effect = {
 					}
 				}
 			}
-			add_doctrine = special_doctrine_immaterial_harmony
+			add_rite_doctrine = special_doctrine_immaterial_harmony
 		}
-		remove_tenet = tenet_christian_syncretism
-		add_tenet = tenet_communion
+		remove_rite_tenet = tenet_christian_syncretism
+		add_rite_tenet = tenet_communion
 	}
 	set_character_rite = rite:pie_christianity
 	hidden_effect = {
@@ -82,7 +232,7 @@ venetic_christianity_communion_scripted_effect = {
 	religion:christianity_religion = {
 		random_faith = {
 			limit = {
-				any_faith_rite = {
+				main_rite = {
 					head_of_rite = {
 						opinion = {
 							target = root
@@ -94,17 +244,166 @@ venetic_christianity_communion_scripted_effect = {
 			save_scope_as = faith_to_which_rite_will_join
 		}
 	}
+	hidden_effect = {
+		scope:faith_to_which_rite_will_join.main_rite = {
+			if = { limit = { rite_has_doctrine = doctrine_monogamy } doctrine:doctrine_monogamy = { save_scope_as = pope_marriage_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_polygamy } doctrine:doctrine_polygamy = { save_scope_as = pope_marriage_doctrine } }
+			else = { doctrine:doctrine_concubines = { save_scope_as = pope_marriage_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_divorce_disallowed } doctrine:doctrine_divorce_disallowed = { save_scope_as = pope_divorce_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_divorce_approval } doctrine:doctrine_divorce_approval = { save_scope_as = pope_divorce_doctrine } }
+			else = { doctrine:doctrine_divorce_allowed = { save_scope_as = pope_divorce_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_bastardry_none } doctrine:doctrine_bastardry_none = { save_scope_as = pope_bastardry_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_bastardry_legitimization } doctrine:doctrine_bastardry_legitimization = { save_scope_as = pope_bastardry_doctrine } }
+			else = { doctrine:doctrine_bastardry_all = { save_scope_as = pope_bastardry_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_homosexuality_crime } doctrine:doctrine_homosexuality_crime = { save_scope_as = pope_homosexuality_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_homosexuality_shunned } doctrine:doctrine_homosexuality_shunned = { save_scope_as = pope_homosexuality_doctrine } }
+			else = { doctrine:doctrine_homosexuality_accepted = { save_scope_as = pope_homosexuality_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_deviancy_crime } doctrine:doctrine_deviancy_crime = { save_scope_as = pope_deviancy_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_deviancy_shunned } doctrine:doctrine_deviancy_shunned = { save_scope_as = pope_deviancy_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_deviancy_accepted } doctrine:doctrine_deviancy_accepted = { save_scope_as = pope_deviancy_doctrine } }
+			else = { doctrine:doctrine_deviancy_virtuous = { save_scope_as = pope_deviancy_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_adultery_men_crime } doctrine:doctrine_adultery_men_crime = { save_scope_as = pope_male_adultery_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_adultery_men_shunned } doctrine:doctrine_adultery_men_shunned = { save_scope_as = pope_male_adultery_doctrine } }
+			else = { doctrine:doctrine_adultery_men_accepted = { save_scope_as = pope_male_adultery_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_adultery_women_crime } doctrine:doctrine_adultery_men_crime = { save_scope_as = pope_female_adultery_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_adultery_women_shunned } doctrine:doctrine_adultery_women_shunned = { save_scope_as = pope_female_adultery_doctrine } }
+			else = { doctrine:doctrine_adultery_women_accepted = { save_scope_as = pope_female_adultery_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_kinslaying_any_dynasty_member_crime } doctrine:doctrine_kinslaying_any_dynasty_member_crime = { save_scope_as = pope_kinslaying_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_kinslaying_extended_family_crime } doctrine:doctrine_kinslaying_extended_family_crime = { save_scope_as = pope_kinslaying_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_kinslaying_close_kin_crime } doctrine:doctrine_kinslaying_close_kin_crime = { save_scope_as = pope_kinslaying_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_kinslaying_shunned } doctrine:doctrine_kinslaying_shunned = { save_scope_as = pope_kinslaying_doctrine } }
+			else = { doctrine:doctrine_kinslaying_accepted = { save_scope_as = pope_kinslaying_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_witchcraft_crime } doctrine:doctrine_witchcraft_crime = { save_scope_as = pope_witchcraft_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_witchcraft_shunned } doctrine:doctrine_witchcraft_shunned = { save_scope_as = pope_witchcraft_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_witchcraft_accepted } doctrine:doctrine_witchcraft_accepted = { save_scope_as = pope_witchcraft_doctrine } }
+			else = { doctrine:doctrine_witchcraft_virtuous = { save_scope_as = pope_witchcraft_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_gender_male_dominated } doctrine:doctrine_gender_male_dominated = { save_scope_as = pope_genderequality_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_gender_equal } doctrine:doctrine_gender_equal = { save_scope_as = pope_genderequality_doctrine } }
+			else = { doctrine:doctrine_gender_female_dominated = { save_scope_as = pope_genderequality_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_consanguinity_dynastic } doctrine:doctrine_consanguinity_dynastic = { save_scope_as = pope_consanguinity_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_consanguinity_restricted } doctrine:doctrine_consanguinity_restricted = { save_scope_as = pope_consanguinity_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_consanguinity_cousins } doctrine:doctrine_consanguinity_cousins = { save_scope_as = pope_consanguinity_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece } doctrine:doctrine_consanguinity_aunt_nephew_and_uncle_niece = { save_scope_as = pope_consanguinity_doctrine } }
+			else = { doctrine:doctrine_consanguinity_unrestricted = { save_scope_as = pope_consanguinity_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_pluralism_fundamentalist } doctrine:doctrine_pluralism_fundamentalist = { save_scope_as = pope_pluralism_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_pluralism_righteous } doctrine:doctrine_pluralism_righteous = { save_scope_as = pope_pluralism_doctrine } }
+			else = { doctrine:doctrine_pluralism_pluralistic = { save_scope_as = pope_pluralism_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_theocracy_temporal } doctrine:doctrine_theocracy_temporal = { save_scope_as = pope_temporallayclergy_doctrine } }
+			else = { doctrine:doctrine_theocracy_lay_clergy = { save_scope_as = pope_temporallayclergy_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_no_head } doctrine:doctrine_pluralism_fundamentalist = { save_scope_as = pope_headofchurch_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_spiritual_head } doctrine:doctrine_spiritual_head = { save_scope_as = pope_headofchurch_doctrine } }
+			else = { doctrine:doctrine_temporal_head = { save_scope_as = pope_headofchurch_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_clerical_function_taxation } doctrine:doctrine_clerical_function_taxation = { save_scope_as = pope_clericalfunction_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_clerical_function_alms_and_pacification } doctrine:doctrine_clerical_function_alms_and_pacification = { save_scope_as = pope_clericalfunction_doctrine } }
+			else = { doctrine:doctrine_clerical_function_recruitment = { save_scope_as = pope_clericalfunction_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_clerical_gender_male_only } doctrine:doctrine_clerical_gender_male_only = { save_scope_as = pope_clericalgender_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_clerical_gender_either } doctrine:doctrine_clerical_gender_either = { save_scope_as = pope_clericalgender_doctrine } }
+			else = { doctrine:doctrine_clerical_gender_female_only = { save_scope_as = pope_clericalgender_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_clerical_marriage_allowed } doctrine:doctrine_clerical_marriage_allowed = { save_scope_as = pope_clericalmariage_doctrine } }
+			else = { doctrine:doctrine_clerical_marriage_disallowed = { save_scope_as = pope_clericalmariage_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_clerical_succession_temporal_appointment } doctrine:doctrine_clerical_succession_temporal_appointment = { save_scope_as = pope_clericalsuccession_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_clerical_succession_spiritual_appointment } doctrine:doctrine_clerical_succession_spiritual_appointment = { save_scope_as = pope_clericalsuccession_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_clerical_succession_temporal_fixed_appointment } doctrine:doctrine_clerical_succession_temporal_fixed_appointment = { save_scope_as = pope_clericalsuccession_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_clerical_succession_spiritual_fixed_appointment } doctrine:doctrine_clerical_succession_spiritual_fixed_appointment = { save_scope_as = pope_clericalsuccession_doctrine } }
+			else = { doctrine:doctrine_clerical_succession_conditional = { save_scope_as = pope_clericalsuccession_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_pilgrimage_forbidden } doctrine:doctrine_pilgrimage_forbidden = { save_scope_as = pope_pilgrimage_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_pilgrimage_encouraged } doctrine:doctrine_pilgrimage_encouraged = { save_scope_as = pope_pilgrimage_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_pilgrimage_local_rites } doctrine:doctrine_pilgrimage_local_rites = { save_scope_as = pope_pilgrimage_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_pilgrimage_mandatory } doctrine:doctrine_pilgrimage_mandatory = { save_scope_as = pope_pilgrimage_doctrine } }
+			else = { doctrine:doctrine_pilgrimage_mandatory_hajj = { save_scope_as = pope_pilgrimage_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_funeral_stoic } doctrine:doctrine_funeral_stoic = { save_scope_as = pope_funeral_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_funeral_bewailment } doctrine:doctrine_funeral_bewailment = { save_scope_as = pope_funeral_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_funeral_cremation } doctrine:doctrine_funeral_cremation = { save_scope_as = pope_funeral_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_funeral_sky_burial } doctrine:doctrine_funeral_sky_burial = { save_scope_as = pope_funeral_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_funeral_mummification } doctrine:doctrine_funeral_mummification = { save_scope_as = pope_funeral_doctrine } }
+			else = { doctrine:doctrine_family_rites = { save_scope_as = pope_funeral_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_no_anointment } doctrine:doctrine_no_anointment = { save_scope_as = pope_anointment_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_anointment_permitted } doctrine:doctrine_anointment_permitted = { save_scope_as = pope_anointment_doctrine } }
+			else = { doctrine:doctrine_imperial_anointment = { save_scope_as = pope_anointment_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_monotheist } doctrine:doctrine_monotheist = { save_scope_as = pope_thyism_doctrine } }
+			else = { doctrine:doctrine_polytheist = { save_scope_as = pope_thyism_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_monasticism_encouraged } doctrine:doctrine_monasticism_encouraged = { save_scope_as = pope_monasticism_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_monasticism_accepted } doctrine:doctrine_monasticism_accepted = { save_scope_as = pope_monasticism_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_monasticism_absent } doctrine:doctrine_monasticism_absent = { save_scope_as = pope_monasticism_doctrine } }
+			else = { doctrine:doctrine_monasticism_forbidden = { save_scope_as = pope_monasticism_doctrine } }
+			
+			if = { limit = { rite_has_doctrine = doctrine_sacraments_central } doctrine:doctrine_sacraments_central = { save_scope_as = pope_sacraments_doctrine } }
+			else = { doctrine:doctrine_sacraments_absent = { save_scope_as = pope_sacraments_doctrine } }
+		}
+		rite:venetic_christianity = {
+			change_rite_doctrine = scope:pope_marriage_doctrine
+			change_rite_doctrine = scope:pope_divorce_doctrine
+			change_rite_doctrine = scope:pope_bastardry_doctrine
+			change_rite_doctrine = scope:pope_homosexuality_doctrine
+			change_rite_doctrine = scope:pope_deviancy_doctrine
+			change_rite_doctrine = scope:pope_male_adultery_doctrine
+			change_rite_doctrine = scope:pope_female_adultery_doctrine
+			change_rite_doctrine = scope:pope_kinslaying_doctrine
+			change_rite_doctrine = scope:pope_witchcraft_doctrine
+			change_rite_doctrine = scope:pope_genderequality_doctrine
+			change_rite_doctrine = scope:pope_consanguinity_doctrine
+			change_rite_doctrine = scope:pope_pluralism_doctrine
+			change_rite_doctrine = scope:pope_temporallayclergy_doctrine
+			change_rite_doctrine = scope:pope_headofchurch_doctrine
+			change_rite_doctrine = scope:pope_clericalfunction_doctrine
+			change_rite_doctrine = scope:pope_clericalgender_doctrine
+			change_rite_doctrine = scope:pope_clericalmariage_doctrine
+			change_rite_doctrine = scope:pope_clericalsuccession_doctrine
+			change_rite_doctrine = scope:pope_pilgrimage_doctrine
+			change_rite_doctrine = scope:pope_funeral_doctrine
+			change_rite_doctrine = scope:pope_anointment_doctrine
+			change_rite_doctrine = scope:pope_thyism_doctrine
+			change_rite_doctrine = scope:pope_monasticism_doctrine
+			change_rite_doctrine = scope:pope_sacraments_doctrine
+		}
+	}
 	rite:venetic_christianity = {
 		set_can_convert_to_rite = yes
-		set_parent_faith = { 
-			target = scope:faith_to_which_rite_will_join
-			main = no 
+		if = {
+			limit = {
+				OR = {
+					scope:faith_to_which_rite_will_join = faith:christian_faith
+					NOT = { exists = scope:faith_to_which_rite_will_join }
+				}
+			}
+			set_parent_faith = { 
+				target = scope:faith_to_which_rite_will_join
+				main = no 
+			}
 		}
-		add_doctrine = special_doctrine_ecumenical_christian
-		add_doctrine = special_doctrine_has_clerical_electors
-		remove_doctrine = doctrine_polytheist
-		remove_doctrine = unreformed_faith_doctrine
-		add_doctrine = doctrine_monotheist
+		else = {
+			set_parent_faith = { 
+				target = faith:christian_faith
+				main = no 
+			}
+		}
+		add_rite_doctrine = special_doctrine_ecumenical_christian
+		add_rite_doctrine = special_doctrine_has_clerical_electors
+		remove_rite_doctrine = unreformed_faith_doctrine
+		remove_rite_doctrine = pagan_hostility_doctrine
+		add_rite_doctrine = abrahamic_hostility_doctrine
 		if = {
 			limit = {
 				root.location = {
@@ -115,10 +414,10 @@ venetic_christianity_communion_scripted_effect = {
 					}
 				}
 			}
-			add_doctrine = special_doctrine_immaterial_harmony
+			add_rite_doctrine = special_doctrine_immaterial_harmony
 		}
-		remove_tenet = tenet_christian_syncretism
-		add_tenet = tenet_communion
+		remove_rite_tenet = tenet_christian_syncretism
+		add_rite_tenet = tenet_communion
 	}
 	set_character_rite = rite:venetic_christianity
 	hidden_effect = {

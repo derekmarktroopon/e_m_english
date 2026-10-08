@@ -95,7 +95,7 @@ written_offering_decision = {
 	selection_tooltip = written_offering_decision_tooltip
 
 	is_shown = {  
-		faith = { has_doctrine_parameter = ritual_writing_active }
+		rite = { has_doctrine_parameter = ritual_writing_active }
 		#AND = {
 		#   	faith = { has_doctrine = tenet_ritual_celebrations	}
 		#   	religion = religion:retic_religion			
@@ -119,9 +119,9 @@ written_offering_decision = {
 		every_vassal = {
 			limit = {
 				#OR = {
-		            faith = { has_doctrine_parameter = ritual_writing_active }
+		            rite = { has_doctrine_parameter = ritual_writing_active }
 		            #AND = {
-		            #    faith = { has_doctrine = tenet_ritual_celebrations	}
+		            #    rite = { has_doctrine = tenet_ritual_celebrations	}
 		            #    religion = religion:retic_religion			
 		            #}
 		        #}

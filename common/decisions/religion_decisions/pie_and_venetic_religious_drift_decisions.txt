@@ -90,7 +90,6 @@ enter_communion_with_the_christians_venetic = {
 					}
 				}
 			}
-			
 		}
 		piety >= 1000
 	}
