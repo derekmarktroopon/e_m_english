@@ -1,0 +1,104 @@
+﻿namespace = eme_religious_decision_events
+							
+
+eme_religious_decision_events.1 = { # Pie Christian 
+	type = character_event
+	title = eme_religious_decision_events.1.t # Into the Christian Church
+	desc = eme_religious_decision_events.1.desc # 
+	theme = coronation
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	right_portrait = {
+		character = root.faith.main_rite.head_of_rite
+		animation = personality_compassionate
+	}
+
+	immediate = {
+		show_as_tooltip = { pie_christianity_communion_scripted_effect = yes }
+		root.faith.main_rite.head_of_rite = {
+			trigger_event = {
+				id = eme_religious_decision_events.3
+			}
+		}
+	}
+
+	# Glorious!
+	option = {
+		name = eme_religious_decision_events.1.a
+	}
+}
+
+eme_religious_decision_events.2 = { # Venetic Christian 
+	type = character_event
+	title = eme_religious_decision_events.2.t # Into the Christian Church
+	desc = eme_religious_decision_events.2.desc # 
+	theme = coronation
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	right_portrait = {
+		character = root.faith.main_rite.head_of_rite
+		animation = personality_compassionate
+	}
+
+	immediate = {
+		show_as_tooltip = { pie_christianity_communion_scripted_effect = yes }
+		root.faith.main_rite.head_of_rite = {
+			trigger_event = {
+				id = eme_religious_decision_events.4
+			}
+		}
+	}
+
+	# Glorious!
+	option = {
+		name = eme_religious_decision_events.2.a
+	}
+}
+
+eme_religious_decision_events.3 = { # Pie Christian - Pope Perspective
+	type = character_event
+	title = eme_religious_decision_events.3.t # 
+	desc = eme_religious_decision_events.3.desc # 
+	theme = coronation
+	left_portrait = {
+		character = root
+		animation = personality_compassionate
+	}
+
+	right_portrait = {
+		character = rite:pie_christianity.head_of_rite
+		animation = personality_zealous
+	}
+
+	# Glorious!
+	option = {
+		name = eme_religious_decision_events.3.a
+	}
+}
+
+eme_religious_decision_events.4 = { # Venetic Christian - Pope Perspective
+	type = character_event
+	title = eme_religious_decision_events.4.t # 
+	desc = eme_religious_decision_events.4.desc # 
+	theme = coronation
+	left_portrait = {
+		character = root
+		animation = personality_compassionate
+	}
+
+	right_portrait = {
+		character = rite:venetic_christianity.head_of_rite
+		animation = personality_zealous
+	}
+
+	# Glorious!
+	option = {
+		name = eme_religious_decision_events.4.a
+	}
+}

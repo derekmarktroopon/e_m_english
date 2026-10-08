@@ -42,8 +42,8 @@ enter_communion_with_the_christians_pie = {
 			name = pie_entered_communion_with_the_church
 			value = yes
 		}
-		show_as_tooltip = { pie_christianity_communion_scripted_effect = yes }
-		#trigger_event = { id = eme_religious_decision_events.1 }	
+		pie_christianity_communion_scripted_effect = yes 
+		trigger_event = { id = eme_religious_decision_events.1 }	
     }
 	ai_check_interval = 96
 	
@@ -100,8 +100,8 @@ enter_communion_with_the_christians_venetic = {
 			name = venetic_entered_communion_with_the_church
 			value = yes
 		}
-		show_as_tooltip = { venetic_christianity_communion_scripted_effect = yes }
-		#trigger_event = { id = eme_religious_decision_events.1 }	
+		venetic_christianity_communion_scripted_effect = yes 
+		trigger_event = { id = eme_religious_decision_events.2 }	
     }
 	ai_check_interval = 96
 	
