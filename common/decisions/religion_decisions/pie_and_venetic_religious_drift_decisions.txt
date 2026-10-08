@@ -16,18 +16,21 @@ enter_communion_with_the_christians_pie = {
 	}
 
 	is_valid = {
-		religion:christianity_religion = {
-			any_faith ={
-				count >= 1
-				main_rite = {
-					head_of_rite = {
-						opinion = {
-							target = root
-							value >= 50
+		custom_tooltip = {
+			text = enter_communion_with_the_christians_requirement_tt
+			religion:christianity_religion = {
+				any_faith ={
+					count >= 1
+					main_rite = {
+						head_of_rite = {
+							opinion = {
+								target = root
+								value >= 50
+							}
 						}
 					}
 				}
-			}	
+			}
 		}
 		piety >= 1000
 	}
@@ -78,14 +81,17 @@ enter_communion_with_the_christians_venetic = {
 	}
 
 	is_valid = {
-		religion:christianity_religion = {
-			any_faith ={
-				count >= 1
-				main_rite = {
-					head_of_rite = {
-						opinion = {
-							target = root
-							value >= 50
+		custom_tooltip = {
+			text = enter_communion_with_the_christians_requirement_tt
+			religion:christianity_religion = {
+				any_faith ={
+					count >= 1
+					main_rite = {
+						head_of_rite = {
+							opinion = {
+								target = root
+								value >= 50
+							}
 						}
 					}
 				}
@@ -123,3 +129,89 @@ enter_communion_with_the_christians_venetic = {
 	}
 }
 
+synceticise_with_sinitic_world_pagan_rites_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/fp1_decisons_hold_bolt.dds"
+	}
+	decision_group_type = major
+
+	desc = synceticise_with_sinitic_world_pagan_rites_decision_desc
+	selection_tooltip = synceticise_with_sinitic_world_pagan_rites_decision_tooltip
+
+	is_shown = {
+		root.religion = {
+			OR = {
+				this = religion:kushitism_religion
+				this = religion:old_steppe
+				this = religion:retic_religion
+			}
+		}
+		NOR = {
+			root.rite = {
+				has_variable = synceticised_with_sinitic_world
+			}
+		}
+		root.location = {
+			OR = {
+				geographical_region = world_asia_china
+				geographical_region = world_asia_japan
+				geographical_region = world_asia_korea
+			}
+		}
+	}
+
+	is_valid = {
+		OR = {
+			AND = {
+				custom_tooltip = {
+					text = synceticise_with_sinitic_world_requirement_tt
+					any_religion = {
+						any_faith ={
+							count >= 1
+							main_rite = {
+								head_of_rite = {
+									opinion = {
+										target = root
+										value >= 50
+									}
+								}
+								rite_has_doctrine = special_doctrine_immaterial_harmony
+							}
+						}
+					}
+				}
+				piety >= 800
+			}
+			piety >= 1600
+		}	
+	}
+
+	is_valid_showing_failures_only = {
+		# Have to at _least_ not be in piety debt.
+		piety >= 0
+	}
+    
+	effect = {
+		root.rite = {
+			set_variable = {
+				name = synceticised_with_sinitic_world
+				value = yes
+			}
+		}
+		add_immaterial_harmony_to_pagan_rite_scripted_effect = yes 	
+    }
+
+    cost = {
+		piety = 500
+	}
+
+	ai_check_interval = 96
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

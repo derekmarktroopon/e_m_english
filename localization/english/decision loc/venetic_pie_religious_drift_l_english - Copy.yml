@@ -1,4 +1,6 @@
 ﻿l_english:
+  
+  enter_communion_with_the_christians_requirement_tt:0 "At least #E 1#! "[GetReligionByKey('christianity_religion').GetName] [head_of_faith|E] has at least #G 50#! #E opinion#! of you."
 
   enter_communion_with_the_christians_pie:0 "Communion with the Christians"
   enter_communion_with_the_christians_pie_desc:0 "The Christian creed has many great virtues, but we would be hard pressed to simply throw away the traditions of our forefathers. Perhaps if we were to establish good relations with the pope, we could see about aligning our views with that of the church in a way that doesn't besmirch our ancestors..."
@@ -9,3 +11,7 @@
   enter_communion_with_the_christians_venetic_desc:0 "The Christian creed has many great virtues, but we would be hard pressed to simply throw away the traditions of our forefathers. Perhaps if we were to establish good relations with the pope, we could see about aligning our views with that of the church in a way that doesn't besmirch our ancestors..."
   enter_communion_with_the_christians_venetic_tooltip:0 "By taking this decision, we will convert to a Syncretic [ROOT.Char.GetFaith.GetAdjective]-Christian rite, as well as bring it into communion with wider Christiandom."
   enter_communion_with_the_christians_venetic_confirm:0 "It is time to bond [ROOT.Char.GetFaith.GetAdherentName] and Christian!
+
+  synceticise_with_sinitic_world_pagan_rites_decision:0 "Integrate into the Sinitic World"
+  synceticise_with_sinitic_world_pagan_rites_decision_desc:0 "In spite of our existing creed, these lands are rife with abundant philosophies and creeds, all coexisting in relative harmony. The balance evident within this society exemplifies a profound wisdom that is to be found in the philosophies of Confucious and Laozi. While those more conservative among us abhored these stange traditions at first, it is becoming ever more clear that there is no contradiction in adopting these in one hand, while also keeping our old beliefs in the other."
+  synceticise_with_sinitic_world_requirement_tt:0 "At least #E 1#! " [head_of_faith|E] of a [main_rite|E] faith with the [GetDoctrineType('special_doctrine_immaterial_harmony').GetBaseName] doctrine has at least #G 50#! #E opinion#! of you."

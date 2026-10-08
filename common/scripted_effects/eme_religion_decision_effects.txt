@@ -3,6 +3,9 @@ pie_christianity_communion_scripted_effect = {
 	root.faith = {
 		save_scope_as = old_faith
 	}
+	root.rite = {
+		save_scope_as = old_rite
+	}
 	religion:christianity_religion = {
 		random_faith = {
 			limit = {
@@ -181,11 +184,16 @@ pie_christianity_communion_scripted_effect = {
 		add_rite_doctrine = abrahamic_hostility_doctrine
 		if = {
 			limit = {
-				root.location = {
-					OR = {
-						geographical_region = world_asia_china
-						geographical_region = world_asia_japan
-						geographical_region = world_asia_korea
+				OR = {
+					root.location = {
+						OR = {
+							geographical_region = world_asia_china
+							geographical_region = world_asia_japan
+							geographical_region = world_asia_korea
+						}
+					}
+					scope:old_rite = {
+						rite_has_doctrine = special_doctrine_immaterial_harmony
 					}
 				}
 			}
@@ -228,6 +236,9 @@ pie_christianity_communion_scripted_effect = {
 venetic_christianity_communion_scripted_effect = {
 	root.faith = {
 		save_scope_as = old_faith
+	}
+	root.rite = {
+		save_scope_as = old_rite
 	}
 	religion:christianity_religion = {
 		random_faith = {
@@ -406,11 +417,16 @@ venetic_christianity_communion_scripted_effect = {
 		add_rite_doctrine = abrahamic_hostility_doctrine
 		if = {
 			limit = {
-				root.location = {
-					OR = {
-						geographical_region = world_asia_china
-						geographical_region = world_asia_japan
-						geographical_region = world_asia_korea
+				OR = {
+					root.location = {
+						OR = {
+							geographical_region = world_asia_china
+							geographical_region = world_asia_japan
+							geographical_region = world_asia_korea
+						}
+					}
+					scope:old_rite = {
+						rite_has_doctrine = special_doctrine_immaterial_harmony
 					}
 				}
 			}
@@ -447,5 +463,11 @@ venetic_christianity_communion_scripted_effect = {
 				set_character_rite = rite:venetic_christianity
 			}
 		}
+	}
+}
+
+add_immaterial_harmony_to_pagan_rite_scripted_effect = {
+	root.rite = {
+		add_rite_doctrine = special_doctrine_immaterial_harmony
 	}
 }
