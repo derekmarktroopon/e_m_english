@@ -17,7 +17,7 @@ k_ithaca = {
 					}
 				}
 			}
-			add = @correct_culture_primary_score
+			add = @always_primary_score
 		}
 	}
 }

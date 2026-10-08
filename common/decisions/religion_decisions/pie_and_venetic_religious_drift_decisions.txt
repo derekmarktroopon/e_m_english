@@ -9,7 +9,7 @@ enter_communion_with_the_christians_pie = {
 	selection_tooltip = enter_communion_with_the_christians_pie_tooltip
 
 	is_shown = {
-		root.rite.faith.religion = religion:old_steppe
+		root.religion = religion:old_steppe
 		NOT = {
 			NOT = { has_global_variable = pie_entered_communion_with_the_church }
 		}
@@ -17,9 +17,9 @@ enter_communion_with_the_christians_pie = {
 
 	is_valid = {
 		religion:christianity_religion = {
-			count >= 1
 			any_faith ={
-				any_faith_rite = {
+				count >= 1
+				main_rite = {
 					head_of_rite = {
 						opinion = {
 							target = root
@@ -45,6 +45,11 @@ enter_communion_with_the_christians_pie = {
 		pie_christianity_communion_scripted_effect = yes 
 		trigger_event = { id = eme_religious_decision_events.1 }	
     }
+
+    cost = {
+		piety = 500
+	}
+
 	ai_check_interval = 96
 	
 	ai_potential = {
@@ -66,7 +71,7 @@ enter_communion_with_the_christians_venetic = {
 	selection_tooltip = enter_communion_with_the_christians_venetic_tooltip
 
 	is_shown = {
-		root.rite.faith.religion = religion:old_steppe
+		root.faith = faith:venetic_paganism
 		NOT = {
 			NOT = { has_global_variable = venetic_entered_communion_with_the_church }
 		}
@@ -74,9 +79,9 @@ enter_communion_with_the_christians_venetic = {
 
 	is_valid = {
 		religion:christianity_religion = {
-			count >= 1
 			any_faith ={
-				any_faith_rite = {
+				count >= 1
+				main_rite = {
 					head_of_rite = {
 						opinion = {
 							target = root
@@ -103,6 +108,11 @@ enter_communion_with_the_christians_venetic = {
 		venetic_christianity_communion_scripted_effect = yes 
 		trigger_event = { id = eme_religious_decision_events.2 }	
     }
+
+    cost = {
+		piety = 500
+	}
+
 	ai_check_interval = 96
 	
 	ai_potential = {

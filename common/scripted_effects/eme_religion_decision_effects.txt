@@ -43,30 +43,31 @@ pie_christianity_communion_scripted_effect = {
 	}
 	set_character_rite = rite:pie_christianity
 	hidden_effect = {
-	every_held_title = {
-		limit = {
-			tier = tier_county
-			is_landless_type_title = no
-			culture = root.culture
-			faith = scope:old_faith
+		every_held_title = {
+			limit = {
+				tier = tier_county
+				is_landless_type_title = no
+				culture = root.culture
+				faith = scope:old_faith
+			}
+			add_to_list = counties_to_convert
 		}
-		add_to_list = counties_to_convert
-	}
-	# Family at court also convert
-	every_close_or_extended_family_member = {
-		limit = {
-			is_courtier_of = scope:recipient
-			faith != scope:old_faith
-			NOT = { has_character_flag = ai_will_not_convert }
+		# Family at court also convert
+		every_close_or_extended_family_member = {
+			limit = {
+				is_courtier_of = scope:recipient
+				faith != scope:old_faith
+				NOT = { has_character_flag = ai_will_not_convert }
+			}
+			add_to_list = spouses_and_family_to_convert
 		}
-		add_to_list = spouses_and_family_to_convert
-	}
-	every_in_list = {
-		list = counties_to_convert
-		set_county_rite = rite:pie_christianity
 		every_in_list = {
-			list = spouses_and_family_to_convert
-			set_character_rite = rite:pie_christianity
+			list = counties_to_convert
+			set_county_rite = rite:pie_christianity
+			every_in_list = {
+				list = spouses_and_family_to_convert
+				set_character_rite = rite:pie_christianity
+			}
 		}
 	}
 }
@@ -115,30 +116,31 @@ venetic_christianity_communion_scripted_effect = {
 	}
 	set_character_rite = rite:venetic_christianity
 	hidden_effect = {
-	every_held_title = {
-		limit = {
-			tier = tier_county
-			is_landless_type_title = no
-			culture = root.culture
-			faith = scope:old_faith
+		every_held_title = {
+			limit = {
+				tier = tier_county
+				is_landless_type_title = no
+				culture = root.culture
+				faith = scope:old_faith
+			}
+			add_to_list = counties_to_convert
 		}
-		add_to_list = counties_to_convert
-	}
-	# Family at court also convert
-	every_close_or_extended_family_member = {
-		limit = {
-			is_courtier_of = scope:recipient
-			faith != scope:old_faith
-			NOT = { has_character_flag = ai_will_not_convert }
+		# Family at court also convert
+		every_close_or_extended_family_member = {
+			limit = {
+				is_courtier_of = scope:recipient
+				faith != scope:old_faith
+				NOT = { has_character_flag = ai_will_not_convert }
+			}
+			add_to_list = spouses_and_family_to_convert
 		}
-		add_to_list = spouses_and_family_to_convert
-	}
-	every_in_list = {
-		list = counties_to_convert
-		set_county_rite = rite:venetic_christianity
 		every_in_list = {
-			list = spouses_and_family_to_convert
-			set_character_rite = rite:venetic_christianity
+			list = counties_to_convert
+			set_county_rite = rite:venetic_christianity
+			every_in_list = {
+				list = spouses_and_family_to_convert
+				set_character_rite = rite:venetic_christianity
+			}
 		}
 	}
 }

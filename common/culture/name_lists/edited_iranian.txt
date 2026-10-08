@@ -62,7 +62,6 @@ name_list_late_old_persian = {
 
 	patronym_suffix_male = "dynnpat_suf_puca"
 	patronym_suffix_female = "dynnpat_suf_duxt"
-	dynn_waraz
 	
 
 	mercenary_names = {

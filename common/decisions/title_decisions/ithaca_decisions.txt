@@ -45,8 +45,6 @@ restore_ithaca_decision = {
 		is_imprisoned = no
 		has_contagious_deadly_disease_trigger = no
 	}
-
-	cooldown = { years = 5 }
     
 	effect = {
 		gain_heroic_legend_seed_tooltip_effect = yes
@@ -82,6 +80,8 @@ restore_ithaca_decision = {
 	cost = {
 		prestige = 2000
 	}
+
+	ai_check_interval = 96
 
 	ai_potential = {
 		always = yes
