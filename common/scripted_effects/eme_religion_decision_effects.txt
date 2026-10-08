@@ -19,6 +19,7 @@ pie_christianity_communion_scripted_effect = {
 		}
 	}
 	rite:pie_christianity = {
+		set_can_convert_to_rite = yes
 		set_parent_faith = { 
 			target = scope:faith_to_which_rite_will_join
 			main = no 
@@ -90,6 +91,7 @@ venetic_christianity_communion_scripted_effect = {
 		}
 	}
 	rite:venetic_christianity = {
+		set_can_convert_to_rite = yes
 		set_parent_faith = { 
 			target = scope:faith_to_which_rite_will_join
 			main = no 

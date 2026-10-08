@@ -21,6 +21,8 @@ pie_christianity = {
 	icon = dyeus-phter_christian
 	color = { 58 96 135 }
 
+	convert = no
+
 	tenets = {
 		tenet_christian_syncretism
 		tenet_ancestor_worship
