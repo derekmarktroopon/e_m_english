@@ -139,11 +139,16 @@ synceticise_with_sinitic_world_pagan_rites_decision = {
 	selection_tooltip = synceticise_with_sinitic_world_pagan_rites_decision_tooltip
 
 	is_shown = {
-		root.religion = {
-			OR = {
-				this = religion:kushitism_religion
-				this = religion:old_steppe
-				this = religion:retic_religion
+		OR = {
+			root.religion = {
+				OR = {
+					this = religion:kushitism_religion
+					this = religion:old_steppe
+					this = religion:retic_religion
+				}
+			}
+			root.rite = {
+				rite_has_doctrine = unreformed_faith_doctrine
 			}
 		}
 		NOR = {
