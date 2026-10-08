@@ -11,7 +11,7 @@ enter_communion_with_the_christians_pie = {
 	is_shown = {
 		root.religion = religion:old_steppe
 		NOT = {
-			NOT = { has_global_variable = pie_entered_communion_with_the_church }
+			has_global_variable = pie_entered_communion_with_the_church
 		}
 	}
 
@@ -73,7 +73,7 @@ enter_communion_with_the_christians_venetic = {
 	is_shown = {
 		root.faith = faith:venetic_paganism
 		NOT = {
-			NOT = { has_global_variable = venetic_entered_communion_with_the_church }
+			has_global_variable = venetic_entered_communion_with_the_church
 		}
 	}
 
