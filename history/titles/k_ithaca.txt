@@ -1,4 +1,4 @@
-﻿
+
 k_ithaca = {
 	-1292.1.1 = { holder = mythical_greek_char_01 }
 	-1268.1.1 = { holder = mythical_greek_char_02 }

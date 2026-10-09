@@ -386,7 +386,7 @@ arthbodus_male = { Arthbodus Arthfoddw Arthbodhw Arthobodu Artoboduos }
 bleddyn_male = { Bleddyn Blethin Blidhin Bledinn Bledinios }
 bleiddud_male = { Bleiddud Blethiut BlidhyA_dh Blediud Bledioudos }
 brogmaglus_male = { Brogmaglus Brochfael Brochmail Brochmagl Broccomaglos Brochuael }
-cadeyrn_male = { cadeyrn Katutigernos }
+Cadeyrn_male = { Cadeyrn Katutigernos }
 Cadfael_male = { Cadfael Cadmail Cadmagl Catumaglos }
 Cadfan_male = { Katumandus Cadfan }
 cadwaladr_male = { Cadwaladr Catgualart Cadualadr Catuualatros Katuwalos Cadwal }
@@ -2139,10 +2139,10 @@ viroy_male = { Wiroy }
 Xshathraki_male = { Xshathraki Axsharthrag }
 varaz_male = { Waraz_prth Varadah Warajah }
 yamah_male = { Yemo Yamhah Yamah }
-Artastuna_male = { Hrtastuna Hrtastuna }
+Artastuna_male = { Hrtastuna Artastuna }
 
 
-Artastuna_female = { Hrtastuna Hrtastuna }
+Artastuna_female = { Hrtastuna Artastuna }
 Amastris_female = { Hamhahstrih Amastri }
 Anahid_female = { Anahid Anahid_mp }
 apame_female = { Apame Apama }

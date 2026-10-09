@@ -151,7 +151,7 @@ name_list_proto_celtic = {
 	}
 
 	male_names = {
-		Ambikatus Anawogenos Awiganyos Awikantos Bodwakos Dagorix Dubnogenos Dubnowalos Esugenos Iwogenos Karatakos Katumaros Katutigernos Katuwalos Katuwelnamnos Kengetorixs Komgeistlos Korobilyos Kunorixs Kunowalos  Kwennowindos Maglokunos Medugenos Oinogustus Rextugenos Tankorixs Tazgogwonos Tigernomaglos Toutorixs Toutowalos Ufortigernos Weikorixs Wenikaros Wirogalos Wirognawos Wirogustus Wiroku Kunobelinos
+		Ambikatus Anawogenos Awiganyos Awikantos Bodwakos Dagorix Dubnogenos Dubnowalos Esugenos Iwogenos Karatakos Katumaros Katumandus Katutigernos Katuwalos Katuwelnamnos Kengetorixs Komgeistlos Korobilyos Kunorixs Kunowalos  Kwennowindos Maglokunos Medugenos Oinogustus Rextugenos Tankorixs Tazgogwonos Tigernomaglos Toutorixs Toutowalos Ufortigernos Weikorixs Wenikaros Wirogalos Wirognawos Wirogustus Wiroku Kunobelinos
 	}
 	female_names = {
 		Ankarayat Boudika Boudiaka Kartimandwa Kwekya Windoseibaris Attegena Belena Kiomara Kunobelina
