@@ -1,6 +1,8 @@
 ﻿
 gaulish = {
 	color = rgb { 4 176 101 }
+	created = 3.1.1
+	parents = { proto_celtic }
 	heritage = heritage_gaulish
 	language = language_gaulish
 	traditions = { 
@@ -27,6 +29,8 @@ gaulish = {
 
 celtiberian = {
 	color = rgb { 128 153 30 }
+	created = 3.1.1
+	parents = { proto_celtic }
 	heritage = heritage_iberian
 	language = language_celtiberian
 	traditions = { 
@@ -53,6 +57,8 @@ celtiberian = {
 
 lusitanian = {
 	color = rgb { 94 89 17 }
+	created = 4.1.1
+	parents = { proto_celtic proto_italic }
 	heritage = heritage_iberian
 	language = language_lusitanian
 	traditions = { 
@@ -79,6 +85,8 @@ lusitanian = {
 
 lepontic = {
 	color = rgb { 85 212 161 }
+	created = 3.1.1
+	parents = { proto_celtic }
 	heritage = heritage_gaulish
 	language = language_lepontic
 	traditions = { 
@@ -91,6 +99,34 @@ lepontic = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	ethos = ethos_communal
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+	coa_gfx = { breton_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+}
+
+proto_celtic = {
+	color = rgb { 15 166 55 }
+	created = 2.1.1
+	parents = { pie_culture }
+	heritage = heritage_gaulish
+	language = language_gaulish
+	traditions = { 
+		tradition_hit_and_run 
+		tradition_warrior_culture
+		tradition_stalwart_defenders
+		tradition_parochialism
+	}
+	name_list = name_list_proto_celtic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	ethos = ethos_stoic
 	ethnicities = {
 		5 = caucasian_blond
 		30 = caucasian_ginger

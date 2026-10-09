@@ -56,6 +56,45 @@ language_phrygian = {
 	color = { 235 225 52 }
 }
 
+
+language_proto_iranian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_proto_iranian
+		}
+	}
+
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_proto_iranian }
+			multiply = 10
+		}
+	}
+	
+	color = { 175 234 237 }
+}
+
+language_proto_celtic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_proto_celtic
+		}
+	}
+
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_proto_celtic }
+			multiply = 10
+		}
+	}
+	
+	color = { 15 166 55 }
+}
+
 language_proto_germanic = {
 	type = language
 	is_shown = {

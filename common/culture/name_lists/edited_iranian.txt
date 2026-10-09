@@ -14,7 +14,7 @@
 			Kurush Haxamanish Cishpish Kambujiyah Aryaramnah Arshamah Vishtaspah Darayavaush Darayaush Xshayarsha Artaxshacah
 		}
 		80 = {
-			Abrakah Arbaraivah Arbinah Arushah Arvantah Arvantapatah Aryabrzah Aryamanah Aryukah Aryabignah Aspamithrah Badrah Bagacithrah Bagadushtah Bagadatah Bagafarnah Bagamsakah Bagasakah Bagapanah Bagapatah Bagavahyah Bagavazdah Bagayah Baradatah Barakah Bayacah Batah Bubarah Cicafarnah Cicamithrah Cicantahmah Cithrafarnah Cithravahishtah Dahyufarnah Dahyuvraithah Druvafarnah Datafarnah Datah Datamah Datamithrah Datiyah Datamah Farnadatah Farnavazdah Farnukah Fravartipatah Fryapatish Gadatah Gaucithrah Gautamah Haumanah Humanah Hufratah Humargah Humayah Huvardatah Jamaspah Jivakah Kapautah Kapotah Krshna Karukah Manaicah Manushtanah Mazdakah Mazdayah Mashkamah Mithrabaujanah Mithrabrzah Mithradatah Mithrafarnah Mithrapatah Mithraupastah Mithravahishtah Mithrayah Mithratah Mahibaujanah Mahidatah Naryamana Naryasanhah Paradatah Pishishyauthnah Padakah Papakah Patixshayathah Raivamithrah Raucakah Rauxshnadatah Rauxshnah Rauxshnapatah Radamaithah Ardifyah Artabrzah Artabanush Artafarnah Artakamah Artamah Artamanah Artamanyush Artapanah Artavazdah Artavazdanah Artaxayah Artaxsharah Artayah Artimah Arshitah Arsha Arshakah Spantadatah Spithradatah Tahmaspah Tanuvazrkah Tigrapatah Tigranah Tirayah Tiridatah Usprnakah Vahubarah Vahumanah Varufarnah Vatafradatah Yamah Yamakah Yamaxshaitah Zabrakanah Atrdatah Atrpatah Acidatah Acipatah Shyatibrzah Shyatifarnah Thyavarsha Araxah Aspacanah Acinah Hutanah Upadarmah Huvaxshtrah Gaubaruvah Gaumatah Xshathritah Cicantaxmah Taxmaspadah Dadrshish Thuxrah Bagabignah Bagabuxshah Brdiyah Fravartish Mathishtah Mrduniyah Vahyazdatah Vindafarnah Vidrnah Vivanah Halditah Artastuna
+			Abrakah Arbaraivah Arbinah Artibrzah Arushah Arvantah Arvantapatah Aryabrzah Aryamanah Aryukah Aryabignah Aspamithrah Badrah Bagacithrah Bagadushtah Bagadatah Bagafarnah Bagamsakah Bagasakah Bagapanah Bagapatah Bagavahyah Bagavazdah Bagayah Baradatah Barakah Bayacah Batah Bubarah Cicafarnah Cicamithrah Cicantahmah Cithrafarnah Cithravahishtah Dahyufarnah Dahyuvraithah Druvafarnah Datafarnah Datah Datamah Datamithrah Datiyah Datamah Farnadatah Farnavazdah Farnukah Fravartipatah Fryapatish Gadatah Gaucithrah Gautamah Haumanah Humanah Hufratah Humargah Humayah Huvardatah Jamaspah Jivakah Kapautah Kapotah Krshna Karukah Manaicah Manushtanah Mazdakah Mazdayah Mashkamah Mithrabaujanah Mithrabrzah Mithradatah Mithrafarnah Mithrapatah Mithraupastah Mithravahishtah Mithrayah Mithratah Mahibaujanah Mahidatah Naryamana Naryasanhah Paradatah Pishishyauthnah Padakah Papakah Patixshayathah Raivamithrah Raucakah Rauxshnadatah Rauxshnah Rauxshnapatah Radamaithah Ardifyah Artabrzah Artabanush Artafarnah Artakamah Artamah Artamanah Artamanyush Artapanah Artavazdah Artavazdanah Artaxayah Artaxsharah Artayah Artimah Arshitah Arsha Arshakah Spantadatah Spithradatah Tahmaspah Tanuvazrkah Tigrapatah Tigranah Tirayah Tiridatah Usprnakah Vahubarah Vahumanah Varufarnah Vatafradatah Yamah Yamakah Yamaxshaitah Zabrakanah Atrdatah Atrpatah Acidatah Acipatah Shyatibrzah Shyatifarnah Thyavarsha Araxah Aspacanah Acinah Hutanah Upadarmah Huvaxshtrah Gaubaruvah Gaumatah Xshathritah Cicantaxmah Taxmaspadah Dadrshish Thuxrah Bagabignah Bagabuxshah Brdiyah Fravartish Mathishtah Mrduniyah Vahyazdatah Vindafarnah Vidrnah Vivanah Halditah Artastuna Varadah
 		}
 	}
 	female_names = {
@@ -25,7 +25,7 @@
 	house_based_map_names = yes
 
 	patronym_suffix_male = "dynnpat_suf_puca"
-	patronym_suffix_female = "dynnpat_suf_duxt"
+	patronym_suffix_female = "dynnpat_suf_duxcta"
 	
 	
 
@@ -61,7 +61,7 @@ name_list_late_old_persian = {
 	house_based_map_names = yes
 
 	patronym_suffix_male = "dynnpat_suf_puca"
-	patronym_suffix_female = "dynnpat_suf_duxt"
+	patronym_suffix_female = "dynnpat_suf_ducxt"
 	
 
 	mercenary_names = {
@@ -89,15 +89,15 @@ name_list_middle_persian = {
 		Adarbad Adurnarseh Anosherawan Askjawar Asparukh Azat Baydad Frahad Gundafarr Justan Jamasp_mp Kawad Mahdad Manez Mihrfarr Pakur Siyamak Tirdad Wadfradad Wiraz Wiroy Wistahm Yazdegerd Walaxsh
 	}
 	female_names = {
-		Wehafrid Azarmigduxt Boran Denag Shiren Banug Farigis Humay Anahid_mp Aduranahid Roshan_mp Yazdanduxt Shahrbanug Zruanduxt
+		Wehafrid Azarmigduxt Boran Denag Shiren Banug Farigis Humay Anahid_mp Aduranahid Roshan_mp Yazdanduxt Shahrbanug Zruanduxt Hutos
 		Apranik Golandoxt Spandarmad Tida
 	}
 	
 	founder_named_dynasties = yes
 	house_based_map_names = yes
 
-	patronym_suffix_male = "dynnpat_suf_pus"
-	patronym_suffix_female = "dynnpat_suf_duxt"
+	patronym_suffix_male = "dynnpat_suf_puca"
+	patronym_suffix_female = "dynnpat_suf_duxta"
 	
 	
 
@@ -130,7 +130,7 @@ name_list_old_median = {
 	house_based_map_names = yes
 
 	patronym_suffix_male = "dynnpat_suf_puthra"
-	patronym_suffix_female = "dynnpat_suf_duxt"
+	patronym_suffix_female = "dynnpat_suf_duxta"
 	
 	
 
@@ -151,7 +151,7 @@ name_list_parthian = {
 	}
 
 	male_names = { # Source - Wiktionary
-		Aryabarzan Arshak Ardaban Ardaxshahr Tigran_prth Ardapan Bagdat Gotarz Walgash Werod Wahram Husraw Manec Mihrdat_prth Narisaxw Narseh Spanddat Pakur Pabag Frahat Fryapat Rastak Shabuhr Tirdat Tiridat
+		Aryabarzan Arshak Atardat Ardaban Ardaxshahr Tigran_prth Ardapan Bagdat Gotarz Walgash Werod Wahram Husraw Manec Mihrdat_prth Narisaxw Narseh Spanddat Pakur Pabag Frahat Fryapat Rastak Shabuhr Tirdat Tiridat Waraz_prth Windafarn Zamasp
 	}
 	female_names = {
 		Xudos Roshn
@@ -197,5 +197,55 @@ name_list_scythian = {
 
 	patronym_suffix_male = "dynnpat_suf_pita"
 	patronym_suffix_female = "dynnpat_suf_duxt"
+	
+}
+
+name_list_bactrian = {
+
+	cadet_dynasty_names = {
+		dynn_Pabugan dynn_Pabagan dynn_Bagwyeshan dynn_Mashukan dynn_Mashan dynn_Bagatan dynn_Kushan dynn_Sinapidan dynn_Ohrmuzdan dynn_Kawan dynn_Burzmihran dynn_Watanan dynn_Kerawan dynn_Druwan dynn_Druwagan dynn_Horigan dynn_Peshladan dynn_Wibriyan dynn_Hunsekhan dynn_Shaburan dynn_Gozgan dynn_Gozagan dynn_Okhshbadagan dynn_Burnikan dynn_Yobigan dynn_Yolan dynn_Yolwyeshan dynn_Ormuzdan dynn_Pandukan dynn_Kharagan dynn_Lagukan dynn_Naruwan dynn_Khwasrawgan dynn_Samsitan dynn_Gabaliyan dynn_Aramigan dynn_Beranan dynn_Abkharagan dynn_Kasan dynn_Sawan dynn_Sibukan dynn_Adurfarnigan dynn_Aspandagan dynn_Wurolan dynn_Khahran dynn_Sartan
+	}
+
+	dynasty_names = {
+		dynn_Pabugan dynn_Pabagan dynn_Bagwyeshan dynn_Mashukan dynn_Mashan dynn_Bagatan dynn_Kushan dynn_Sinapidan dynn_Ohrmuzdan dynn_Kawan dynn_Burzmihran dynn_Watanan dynn_Kerawan dynn_Druwan dynn_Druwagan dynn_Horigan dynn_Peshladan dynn_Wibriyan dynn_Hunsekhan dynn_Shaburan dynn_Gozgan dynn_Gozagan dynn_Okhshbadagan dynn_Burnikan dynn_Yobigan dynn_Yolan dynn_Yolwyeshan dynn_Ormuzdan dynn_Pandukan dynn_Kharagan dynn_Lagukan dynn_Naruwan dynn_Khwasrawgan dynn_Samsitan dynn_Gabaliyan dynn_Aramigan dynn_Beranan dynn_Abkharagan dynn_Kasan dynn_Sawan dynn_Sibukan dynn_Adurfarnigan dynn_Aspandagan dynn_Wurolan dynn_Khahran dynn_Sartan
+	}
+
+	male_names = { # Source: https://www.austriaca.at/0xc1aa500d_0x002492f3
+		Abgas Abdabuk Abmatak Absig Absih Angadspal Adeig Adurig Adurfarnig Adurfarn Azadfardar Azgarak Azorobadig Akan_bact Alkhis Ananda Aramig Ardashar Asbarbid Asbid Aspalbid Aspalmihr Aspand Aspandlad Aspandfar Aspyun Ashtsuzd Ashfardar Babay Bab_bact Bagasp Bagiz Bagaziyas Bagbanag Bagwyesh Baglad Bagmareg Bagwanind Bagwaraz Bagremareg Bagfarn Bagormuzd Bazanuk Vasishka Baz_bact Vasudeva Bazwanind Bazpunag Bay_bact Bayrizm Bandag Band_bact Banig Basuk Batr_bact Bek_bact Besut_bact Bet_bact Bibsen Bizan Biyanbid Bip_bact Buz_bact Burzad Burzmihr Burzormuzd Bur_bact Bramarz Bredag Bresman Briyog Bozan Gazar Gamanig Gawan Gew_bact Gurambad Gognag Dathshmareg Darut Deva_bact Devaraja Deyag Dog_bact Eshkingil Zag_bact Zad_bact Zamod Zard Zaryol Zarwer Zakhfay Zbart Zenib Zer_bact Zanduk Znitman Zuk_bact Zunbandag Zunlad Zuwanind Yazdangad Yakan Yalgan Yamshbandag Yamshlad Yamshwanind Yamshspal Yamshkhwadewbandag Yanak Yan_bact Yawar Yaskul Yatak Yat_bact Yatasp Yogabdab Yogfral Yoz_bact Yol_bact Yolguzg Yolohrmuzd Kavad Kaluardag Kamirdfar Kanag Kanishka Kaw_bact Kashfarn Keraw Kilman Kirmog Kuzgashk Kujula Kulzan Kulwaraz Kumukan Lag_bact Laguk Ladguzg Ladmuzd Lasmir Maghatur Mawil Meyam Melmuk Miyar Miren Mir_bact Mirguzg Mihrmareg Mirspal Mihraman Mihrbaman Mihrsan Mihrshabur Muzdabandag Muzdak Muzdamareg Muzdawanind Muzd Muzduwan Moyan Nakin Nanbaguk Naneband Nawaz Narut Nat_bact Ninduk Nukunzuk Nospil Wayshabur Wanak Wanafar Wanekhan Wan_bact Wanusaw Warag Warazan Warazwarahran Warazbursam Warazguzag Warazwyesh Warazpiroz Warazohrmuzd Wardug Wahran Wakhshgul Wakhshyamsh Wakhshmareg Wakhshwanind Welwatan Weshlad Weshmard Wibriy Wiyus Windmarg Wind_bact Windsanag Windfrumayamsh Wisburgmareg Wisburziniy Wulezbang Wuraz Pap_bact Parsasharab Peshlad Piduk Piyaryamsh Piy_bact Purlangzin Pusk_bact Ram_bact Ramgul Ramyol Rahul Rashten Redfar Rewand Rishtak Rosankhez Sang_bact Sangkhird Sag_bact Saglukh Sadayol Salak_bact Samb_bact Sam_bact Samsit Sand_bact San_bact Sanbar Sawug Sart_bact Sasan_bact Seg_bact Sengul Sizbur Siyar Sinz_bact Sirkhumar Sisan Sit_bact Sihrag Sihrazad Skag_bact Swe_bact Suren_bact Spalf Aspring Soras Sor_bact Taginuk Tayag Tayamsh Tak_bact Talmzen Tat_bact Tetuk Tirwad Tirspal Tirushtad Tudak Tut_bact Torman Tosuk Hazarukht Hilitber Hinsar Huzin Hrilad Fanz_bact Faral_bact Farnagad Farwaraz Farwesh Farkhund Finzlad Framan Freykhwadew Friyak Friygul Friyyamshkhwadew Frumawaraz Frodag Frodasp Froduk Khay_bact Khaybet Khamir Kharag Kharbalag Khwadewlad Khwadewspad Khwarmyoz Khwasraw Khusaru Khudarbang Khudewmareg Khudewuk Khudeband Khol_bact Oz_bact Shabur Sharabird Shkur Shudba Shumugbandag Shugaw
+	}
+	female_names = {
+		Dukhtanosh Warizfinz Yoba_bact Nogsanind Ralik Mahfar Zeran Hamra Findfarriz Roshanak
+	}
+	
+	founder_named_dynasties = yes
+	house_based_map_names = yes
+
+	patronym_suffix_male = "dynnpat_suf_an"
+	patronym_suffix_female = "dynnpat_suf_logda"
+	
+}
+
+name_list_proto_iranian = {
+
+	cadet_dynasty_names = {
+		dynn_Harbahayhnana dynn_Harushana dynn_Aryahbrjana dynn_Badrana dynn_Bagacithrana dynn_Cithrahuharnana dynn_Cithratawxmana dynn_Darayahwahushana dynn_Hrtayana dynn_Hnaracanhana dynn_Cyahtibrjana
+	}
+
+	dynasty_names = {
+		dynn_Harbahayhnana dynn_Harushana dynn_Aryahbrjana dynn_Badrana dynn_Bagacithrana dynn_Cithrahuharnana dynn_Cithratawxmana dynn_Darayahwahushana dynn_Hrtayana dynn_Hnaracanhana dynn_Cyahtibrjana
+	}
+
+	male_names = { # Source: https://www.austriaca.at/0xc1aa500d_0x002492f3
+		Bagadahtah Cyahmakah Hhucrawah Hwahumanah Hahtrdahtah Warajah Windantahuharnah Harbahrahiwah Harbahayhnah Hartishbrjans Harushah Harwapahtah Aryahbrjans Aryamanah_pi Aryahmrdush Hacwamithrah Badrah_pi Bagacithrah_pi Bagajawshtah Bagahuharnah Cithrahuharnah Cithratawxma Dahyushuharnah Darayahwahush Hrtahuharnah Hrtaxshathrah Hrtayah Paradatah_pi Hnaracanhah Yamhah Hahtrpahtah Cyahtishuharnah Cyahtibrjans Hrtastuna
+	}
+	female_names = {
+		Hamhahstrih Hhutawcah Apama Rawxshna Prhushcyahtish Jamayahacwiya Hrtastuna Stahtishira
+	}
+	
+	founder_named_dynasties = yes
+	house_based_map_names = yes
+
+	patronym_suffix_male = "dynnpat_suf_puthrah"
+	patronym_suffix_female = "dynnpat_suf_duxthrah"
 	
 }

@@ -141,4 +141,33 @@ name_list_late_cisalpine_gaulish = {#
 	mother_name_chance = 10
 }
 
+name_list_proto_celtic = {
+	cadet_dynasty_names = {
+		dynn_ambonos dynn_awaroses dynn_audaxus dynn_Karosus dynn_Kulkos dynn_leukus dynn_mandonus dynn_punicus dynn_toutalus dynn_coreius dynn_diwicos dynn_duratus dynn_elitowos dynn_galbus dynn_iacus dynn_marganos dynn_sinatos dynn_wodenosos dynn_indutius dynn_dubnos dynn_epaticos dynn_toutomaglos dynn_Wiridorius dynn_magunnos dynn_brennus dynn_boios dynn_tannos dynn_ikuius dynn_galanos
+	}
+
+	dynasty_names = {
+		dynn_ambonos dynn_awaroses dynn_audaxus dynn_Karosus dynn_Kulkos dynn_leukus dynn_mandonus dynn_punicus dynn_toutalus dynn_coreius dynn_diwicos dynn_duratus dynn_elitowos dynn_galbus dynn_iacus dynn_marganos dynn_sinatos dynn_wodenosos dynn_indutius dynn_dubnos dynn_epaticos dynn_toutomaglos dynn_Wiridorius dynn_magunnos dynn_brennus dynn_boios dynn_tannos dynn_ikuius dynn_galanos
+	}
+
+	male_names = {
+		Ambikatus Anawogenos Awiganyos Awikantos Bodwakos Dagorix Dubnogenos Dubnowalos Esugenos Iwogenos Karatakos Katumaros Katutigernos Katuwalos Katuwelnamnos Kengetorixs Komgeistlos Korobilyos Kunorixs Kunowalos  Kwennowindos Maglokunos Medugenos Oinogustus Rextugenos Tankorixs Tazgogwonos Tigernomaglos Toutorixs Toutowalos Ufortigernos Weikorixs Wenikaros Wirogalos Wirognawos Wirogustus Wiroku Kunobelinos
+	}
+	female_names = {
+		Ankarayat Boudika Boudiaka Kartimandwa Kwekya Windoseibaris Attegena Belena Kiomara Kunobelina
+	}
+
+	patronym_prefix_male = "dynnpat_pre_makwos"
+	patronym_prefix_female = "dynnpat_pre_duxtir"
+	always_use_patronym = yes	
+
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 15
+	father_name_chance = 5
+	
+	pat_grm_name_chance = 30
+	mat_grm_name_chance = 15
+	mother_name_chance = 10
+}
+
 

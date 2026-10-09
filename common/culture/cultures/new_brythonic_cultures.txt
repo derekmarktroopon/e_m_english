@@ -13,8 +13,7 @@ east_brythonic = {
 	traditions = {
 		tradition_hit_and_run
 		tradition_wetlanders
-		tradition_longbow_competitions
-		tradition_fishermen
+		tradition_hird
 	}
 	
 	name_list = name_list_east_brythonic
@@ -72,6 +71,8 @@ common_brythonic = {
 
 old_brythonic = {
 	color = rgb{ 71 103 179 }
+	created = 3.1.1
+	parents = { proto_celtic }
 	
 	ethos = ethos_stoic
 	heritage = heritage_brythonic
