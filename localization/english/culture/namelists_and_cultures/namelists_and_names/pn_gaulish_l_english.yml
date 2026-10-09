@@ -538,7 +538,7 @@ dynn_donorin:0 "Donorin"
 ## Proto-Celtic - wiktionary
 
 name_list_proto_celtic:0 "Proto-Celtic"
-language_proto_celtic:0 "Proto-Celtic"
+language_proto_celtic_name:0 "Proto-Celtic"
 
 proto_celtic:0 "Keltos"
 proto_celtic_collective_noun:0 "Keltos"

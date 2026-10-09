@@ -911,8 +911,8 @@ Roshanak:0 "Roshanak" # Roxana
 
 ## Proto-Iranian
 
-name_list_proto_iranian:0 "Proto-iranian"
-language_proto_iranian:0 "Proto-Tranian"
+name_list_proto_iranian:0 "Proto-Iranian"
+language_proto_iranian_name:0 "Proto-Iranian"
 
 proto_iranian:0 "Proto-Iranian"
 proto_iranian_collective_noun:0 "Iranians"
