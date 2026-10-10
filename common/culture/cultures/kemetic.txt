@@ -32,6 +32,7 @@ middle_egyptian = {
 	parents = { predynastic_egyptian }
 	created = 2.1.1 
 	color = rgb { 252 186 3 }
+	history_loc_override = middle_egyptian_heritage_loc
 	
 	name_list = name_list_kemetic
 	heritage = heritage_egyptian
@@ -65,6 +66,7 @@ ancient_egyptian = {
 	parents = { middle_egyptian }
 	created = 2.6.1 
 	color = ancient_egyptian
+	history_loc_override = ancient_egyptian_heritage_loc
 	
 	name_list = name_list_demotic
 	heritage = heritage_egyptian

@@ -5,6 +5,7 @@ old_persian = {
 
 	created = 4.1.1
 	parents = { proto_iranian }
+	history_loc_override = old_persian_heritage_loc
 	
 	ethos = ethos_bureaucratic
 	heritage = heritage_iranian
@@ -57,6 +58,7 @@ middle_persian = {
 
 	created = 50.1.1
 	parents = { old_persian }
+	history_loc_override = middle_persian_heritage_loc
 	
 	ethos = ethos_courtly
 	heritage = heritage_iranian
@@ -163,6 +165,7 @@ old_median = {
 
 	created = 4.1.1
 	parents = { proto_iranian }
+	history_loc_override = old_median_heritage_loc
 	
 	ethos = ethos_bellicose
 	heritage = heritage_iranian
@@ -203,6 +206,7 @@ parthian = {
 
 	created = 4.1.1
 	parents = { proto_iranian }
+	history_loc_override = parthian_heritage_loc
 	
 	ethos = ethos_bellicose
 	heritage = heritage_iranian
@@ -247,6 +251,7 @@ kurdish = {
 
 	created = 400.1.1
 	parents = { old_median }
+	history_loc_override = kurdish_heritage_loc
 	
 	ethos = ethos_communal
 	heritage = heritage_iranian
@@ -328,6 +333,7 @@ scythian = {
 
 	created = 4.1.1
 	parents = { proto_iranian }
+	history_loc_override = scythian_heritage_loc
 	
 	ethos = ethos_bellicose
 	heritage = heritage_iranian
@@ -365,7 +371,7 @@ scythian = {
 tajik = {
 	color = { 0.7 0.6 1 }
 	created = 700.1.1
-	parents = { khwarezmian bactrian }
+	parents = { bactrian khwarezmian }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_iranian
@@ -411,6 +417,7 @@ saka = {
 	color = { 0.5 0.3 1 }
 	created = 100.1.1
 	parents = { scythian }
+	history_loc_override = saka_heritage_loc
 	
 	ethos = ethos_bellicose
 	heritage = heritage_iranian
@@ -485,6 +492,7 @@ bactrian = {
 
 	created = 4.1.1
 	parents = { proto_iranian }
+	history_loc_override = bactrian_heritage_loc
 	
 	ethos = ethos_stoic
 	heritage = heritage_iranian
@@ -567,6 +575,7 @@ proto_iranian = {
 
 	created = 3.1.1
 	parents = { pie_culture }
+	history_loc_override = proto_iranian_heritage_loc
 	
 	ethos = ethos_bellicose
 	heritage = heritage_iranian
@@ -600,6 +609,7 @@ sogdian = {
 
 	created = 4.1.1
 	parents = { proto_iranian }
+	history_loc_override = sogdo_kwaresmian_heritage_loc
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_iranian
@@ -645,6 +655,7 @@ khwarezmian = {
 
 	created = 4.1.1
 	parents = { proto_iranian }
+	history_loc_override = sogdo_kwaresmian_heritage_loc
 	
 	ethos = ethos_stoic
 	heritage = heritage_iranian

@@ -2,6 +2,7 @@
 	color = { 219 124 121 }
 	created = 510.1.1 
 	parents = { ingaevonic }
+	history_loc_override = saxon_ingaevonic_heritage_loc
 	
 	ethos = ethos_bureaucratic
 	heritage = heritage_west_germanic
@@ -37,6 +38,7 @@ mercian = {
 	color = { 240 150 64 }
 	created = 550.1.1 
 	parents = { ingaevonic }
+	history_loc_override = anglian_ingaevonic_heritage_loc
 	
 	ethos = ethos_stoic
 	heritage = heritage_west_germanic
@@ -72,6 +74,7 @@ northumbrian = {
 	color = { 227 67 37 }
 	created = 550.1.1
 	parents = { ingaevonic }
+	history_loc_override = anglian_ingaevonic_heritage_loc
 	
 	ethos = ethos_bellicose
 	heritage = heritage_west_germanic
@@ -106,6 +109,7 @@ northumbrian = {
 kentish = {
 	color = { 212 135 54 }
 	parents = { ingaevonic } 
+	history_loc_override = jutish_ingaevonic_heritage_loc
 
 	created = 510.1.1 
 	
@@ -143,6 +147,7 @@ east_anglian = {
 	color = { 222 127 76 }
 	created = 550.1.1 
 	parents = { ingaevonic }
+	history_loc_override = anglian_ingaevonic_heritage_loc
 	
 	ethos = ethos_stoic
 	heritage = heritage_west_germanic
@@ -178,6 +183,7 @@ east_saxon = {
 	color = { 0.729 0.221 0.229 }
 	created = 510.1.1
 	parents = { ingaevonic }
+	history_loc_override = saxon_ingaevonic_heritage_loc
 	
 	ethos = ethos_bureaucratic
 	heritage = heritage_west_germanic
@@ -261,8 +267,9 @@ ingaevonic = {
 
 anglo_saxon = {
 	color = { 0.8 0.3 0.3 }
-	created = 840.1.1
+	created = 927.1.1
 	parents = { west_saxon mercian }
+	history_loc_override = anglo_saxon_heritage_loc
 	
 	ethos = ethos_bureaucratic
 	heritage = heritage_west_germanic
@@ -369,8 +376,7 @@ scottish = {
 	}
 }
 
-frisian = {	#Consider this to be "old frisian", in the times of "Frankish" culture, so 760s and before.
-	# Effectively, this culture isn't playable in game
+frisian = {	
 	color = { 0.7 0.3 0.0 }
 	created = 550.1.1
 	parents = { ingaevonic }

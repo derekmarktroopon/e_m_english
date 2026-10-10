@@ -2,6 +2,8 @@
 	color = hsv { 0.43 0.86 0.61 }
 	created = 3.1.1
 	parents = { proto_celtic }
+
+	history_loc_override = proto_celtic_irish_heritage_loc
 	
 	ethos = ethos_courtly
 	heritage = heritage_goidelic

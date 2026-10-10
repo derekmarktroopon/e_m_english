@@ -3,6 +3,9 @@ gaulish = {
 	color = rgb { 4 176 101 }
 	created = 3.1.1
 	parents = { proto_celtic }
+	history_loc_override = proto_celtic_heritage_loc
+
+	
 	heritage = heritage_gaulish
 	language = language_gaulish
 	traditions = { 
@@ -31,6 +34,9 @@ celtiberian = {
 	color = rgb { 128 153 30 }
 	created = 3.1.1
 	parents = { proto_celtic }
+	history_loc_override = proto_celtic_heritage_loc
+
+	
 	heritage = heritage_iberian
 	language = language_celtiberian
 	traditions = { 
@@ -59,6 +65,9 @@ lusitanian = {
 	color = rgb { 94 89 17 }
 	created = 4.1.1
 	parents = { proto_celtic proto_italic }
+	history_loc_override = lusitanian_heritage_loc
+
+	
 	heritage = heritage_iberian
 	language = language_lusitanian
 	traditions = { 
@@ -87,6 +96,9 @@ lepontic = {
 	color = rgb { 85 212 161 }
 	created = 3.1.1
 	parents = { proto_celtic }
+	history_loc_override = proto_celtic_heritage_loc
+
+	
 	heritage = heritage_gaulish
 	language = language_lepontic
 	traditions = { 
@@ -115,6 +127,8 @@ proto_celtic = {
 	color = rgb { 15 166 55 }
 	created = 2.1.1
 	parents = { pie_culture }
+	history_loc_override = proto_celtic_development_loc
+	
 	heritage = heritage_gaulish
 	language = language_gaulish
 	traditions = { 

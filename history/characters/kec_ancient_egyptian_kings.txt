@@ -1604,7 +1604,7 @@ kec_egypt_history_218 = { # Amenhotep; Eighteenth Dynasty - Atkhenaten
 	rite = "atenism"
 	culture = "middle_egyptian"
 	dynasty = kec_dynasty_18
-	give_nickname = nick_the_apostate
+	give_nickname = nick_akhenaten
 	trait = zealous
 	father = kec_egypt_history_217
 	mother = kec_egypt_history_12222
@@ -1645,9 +1645,15 @@ kec_egypt_history_221 = { # Tutankhamun; Eighteenth Dynasty
 	dynasty = kec_dynasty_18
 	father = kec_egypt_history_218
 	mother = kec_egypt_history_12223
+	trait = clubfooted
+	give_nickname = nick_the_boy_king
 	
 	-1342.1.1 = { birth = yes }
-	-1323.1.1 = { death = yes }
+	-1323.1.1 = { 
+		death = {
+			death_reason = death_ill
+		}
+	}
 }
 
 kec_egypt_history_11222 = { # Thuya

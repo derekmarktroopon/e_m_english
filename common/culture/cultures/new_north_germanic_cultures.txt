@@ -52,6 +52,7 @@ proto_germanic = {
 	color = { 23 64 82 }
 	parents = { pie_culture }
 	created = 2.1.1
+	history_loc_override = pre_proto_germanic_heritage_loc
 	
 	name_list = name_list_proto_germanic
 	heritage = heritage_central_germanic

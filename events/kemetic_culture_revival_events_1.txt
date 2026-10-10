@@ -80,7 +80,7 @@ kemetic_revival_event.1 = { #whispers of the nile
 
 	option = {
 		name = kemetic_revival_event.1.b #what a waste of time!
-		custom_tooltip = kemetic_revival_event.1.b.desc #You carry on with your life as usual
+		custom_tooltip = "kemetic_revival_event.1.bdesc" #You carry on with your life as usual
 		remove_variable = searching_for_the_pharaohs_tombs
 			set_variable = { 
 				name = searched_for_the_pharaohs_tombs 

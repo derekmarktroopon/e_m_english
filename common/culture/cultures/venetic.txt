@@ -2,6 +2,7 @@
 	color = { 161 111 80 }	
 	parents = { pie_culture }
 	created = 2.1.2
+	history_loc_override = pre_proto_italic_heritage_loc
 
 	ethos = ethos_bellicose
 	heritage = heritage_pie
@@ -38,6 +39,9 @@ venetic = {
 	color = { 122 222 189 }	
 	parents = { proto_italic }
 	created = 2.1.3
+	history_loc_override = venetic_culture_emergence_loc
+
+
 	ethos = ethos_stoic
 	heritage = heritage_venetic
 	language = language_venetic_culture
@@ -74,6 +78,8 @@ liburnian = {
 	color = { 193 117 241 }	
 	parents = { proto_italic }
 	created = 2.1.3
+	history_loc_override = venetic_culture_emergence_loc
+
 	ethos = ethos_bellicose
 	heritage = heritage_venetic
 	language = language_venetic_culture
@@ -106,8 +112,10 @@ liburnian = {
 }
 
 romanoveneti = {
-	parents = { roman venetic }
+	parents = { venetic roman }
 	created = 4.1.4
+	history_loc_override = romanoveneti_culture_emergence_loc
+
 	color = { 143 33 66 }	
 	ethos = ethos_egalitarian
 	heritage = heritage_latin
@@ -243,6 +251,8 @@ old_ligurian = {
 venetian = {
 	created = 720.1.1
 	parents = { romanoveneti lombard }
+	history_loc_override = venetian_culture_emergence_loc
+
 	color = { 146 216 250 }	
 	ethos = ethos_communal
 	heritage = heritage_latin
@@ -280,6 +290,7 @@ roman = {
 	color = { 0.8 0.1 0.1 }
 	parents = { proto_italic }
 	created = 2.1.3
+	history_loc_override = roman_culture_emergence_loc
 	
 	ethos = ethos_bellicose
 	heritage = heritage_latin
@@ -316,6 +327,7 @@ oscan = {
 	color = { 235 164 52 }
 	parents = { proto_italic }
 	created = 2.1.3
+	history_loc_override = oscan_culture_emergence_loc
 
 	heritage = heritage_osco_umbrian
 	language = language_osco_umbrian

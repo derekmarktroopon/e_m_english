@@ -4,6 +4,7 @@ east_brythonic = {
 
 	parents = { common_brythonic }
 	created = 580.1.1
+    history_loc_override = east_brythonic_heritage_loc
 	
 	ethos = ethos_stoic
 	heritage = heritage_brythonic
@@ -73,6 +74,7 @@ old_brythonic = {
 	color = rgb{ 71 103 179 }
 	created = 3.1.1
 	parents = { proto_celtic }
+	history_loc_override = proto_celtic_brythonic_heritage_loc
 	
 	ethos = ethos_stoic
 	heritage = heritage_brythonic
@@ -183,6 +185,7 @@ breton = {
 
 	parents = { common_brythonic }
 	created = 580.1.1
+	history_loc_override = breton_heritage_loc
 	
 	ethos = ethos_communal
 	heritage = heritage_brythonic
@@ -219,6 +222,7 @@ cornish = {
 
 	parents = { common_brythonic }
 	created = 580.1.1
+	history_loc_override = cornish_heritage_loc
 	
 	ethos = ethos_communal
 	heritage = heritage_brythonic
