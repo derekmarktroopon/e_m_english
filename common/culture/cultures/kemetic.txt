@@ -98,6 +98,7 @@ ancient_egyptian = {
 coptic_culture = {
 	parents = { greek ancient_egyptian }
 	created = 350.1.1 
+	history_loc_override = coptic_culture_heritage_loc
 	color = rgb { 210 235 87 }
 	name_list = name_list_coptic
 	heritage = heritage_egyptian
