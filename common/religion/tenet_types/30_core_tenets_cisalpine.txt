@@ -7,7 +7,9 @@ tenet_ritual_writing = {
 	is_shown = {
 		OR = {
 			religion = religion:retic_religion
-			has_personal_tenet = tenet_ritual_writing
+			root = {
+				has_personal_tenet = tenet_ritual_writing
+			}
 		}
 	}
 

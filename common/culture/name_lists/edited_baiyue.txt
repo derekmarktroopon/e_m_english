@@ -1,0 +1,95 @@
+﻿name_list_zhuang = {
+	cadet_dynasty_names = {
+		dynn_Banh dynn_Cimz dynn_Cinz dynn_Danz dynn_Fuz dynn_Lanz dynn_Liz dynn_Lij dynn_Liengz dynn_Lingz dynn_Liu_zng dynn_Liuz dynn_Loz dynn_Lungz dynn_Moz dynn_Mungz dynn_Nungz dynn_Siz dynn_Vangz dynn_Veiz dynn_Vuz dynn_Yangz dynn_Vajsi dynn_Cwnz
+	}
+
+	dynasty_names = {
+		dynn_Banh dynn_Cimz dynn_Cinz dynn_Danz dynn_Fuz dynn_Lanz dynn_Liz dynn_Lij dynn_Liengz dynn_Lingz dynn_Liu_zng dynn_Liuz dynn_Loz dynn_Lungz dynn_Moz dynn_Mungz dynn_Nungz dynn_Siz dynn_Vangz dynn_Veiz dynn_Vuz dynn_Yangz dynn_Vajsi dynn_Cwnz
+	}
+
+	male_names = {
+		Aen Ak Bazginz Bing Cing Ciq Fanh Gaoh Zian Ciqgaoh Cienzfuk Yenfanh Ningz Cangh
+	} 
+
+	female_names = {
+		Aen Aeuj Bing Cing Ciq Fanh Sanhcej Fuhyinz
+	}
+	
+	dynasty_name_first = yes
+	suggest_family_names = no
+	suggest_ancestor_names = no
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 0
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 0
+	mat_grm_name_chance = 0
+	mother_name_chance = 0
+}
+
+name_list_hmong = {
+	cadet_dynasty_names = {
+		dynn_Faaj dynn_Haam dynn_Hawj dynn_Khaab dynn_Xoom dynn_Kwm dynn_Lis dynn_Lauj dynn_Muas dynn_Phab dynn_Thoj dynn_Tsaab dynn_Tswb dynn_Tsheej dynn_Vaaj dynn_Vwj dynn_Xyooj dynn_Yaaj
+	}
+
+	dynasty_names = {
+		dynn_Faaj dynn_Haam dynn_Hawj dynn_Khaab dynn_Xoom dynn_Kwm dynn_Lis dynn_Lauj dynn_Muas dynn_Phab dynn_Thoj dynn_Tsaab dynn_Tswb dynn_Tsheej dynn_Vaaj dynn_Vwj dynn_Xyooj dynn_Yaaj
+	}
+
+	male_names = {
+		Aee Alang Asang Bee Blia By Cai_hmg Chay_hmg Chenue Cher Cha_u Txawj Cherzong Chimua Choj Chu_ Chue Tswb Co_ng Koob Cu_ Kub Dao Ntaub De__nh Yeej Dib Di_nh Ziv Doua_hmg Duas_hmg Duab Faiv Feej Foom Foung Fuechy Ga Nkag Ga_ Ha_u Hawj
+	}  
+
+	female_names = {
+		Aee Ab Bao_Bai Blia Che_hmg Ci_hmg Chee chi_a Ntshiab Tshiab Choua Cua Chu_ Tswb Cu_ Kub Dao Dawb Dlawb Ntaub De_nh Yeeb Yeev Dib Doualy Duab Duab_Ntxoo Eve Faam Gao Nkauj Nkauj_Ntxawm Gao_Jer Ha_u Hawj
+	}
+	
+	dynasty_name_first = yes
+	suggest_family_names = no
+	suggest_ancestor_names = no
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 0
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 0
+	mat_grm_name_chance = 0
+	mother_name_chance = 0
+}
+
+name_list_mien = {
+	cadet_dynasty_names = {
+		dynn_Faaj dynn_Haam dynn_Hawj dynn_Khaab dynn_Xoom dynn_Kwm dynn_Lis dynn_Lauj dynn_Muas dynn_Phab dynn_Thoj dynn_Tsaab dynn_Tswb dynn_Tsheej dynn_Vaaj dynn_Vwj dynn_Xyooj dynn_Yaaj
+	}
+
+	dynasty_names = {
+		dynn_Faaj dynn_Haam dynn_Hawj dynn_Khaab dynn_Xoom dynn_Kwm dynn_Lis dynn_Lauj dynn_Muas dynn_Phab dynn_Thoj dynn_Tsaab dynn_Tswb dynn_Tsheej dynn_Vaaj dynn_Vwj dynn_Xyooj dynn_Yaaj
+	}
+
+	male_names = {
+		Aee Alang Asang Bee Blia By Cai_hmg Chay_hmg Chenue Cher Cha_u Txawj Cherzong Chimua Choj Chu_ Chue Tswb Co_ng Koob Cu_ Kub Dao Ntaub De__nh Yeej Dib Di_nh Ziv Doua_hmg Duas_hmg Duab Faiv Feej Foom Foung Fuechy Ga Nkag Ga_ Ha_u Hawj
+	}  
+
+	female_names = {
+		Aee Ab Bao_Bai Blia Che_hmg Ci_hmg Chee chi_a Ntshiab Tshiab Choua Cua Chu_ Tswb Cu_ Kub Dao Dawb Dlawb Ntaub De_nh Yeeb Yeev Dib Doualy Duab Duab_Ntxoo Eve Farm_hmg Gao Nkauj Nkauj_Ntxawm Gao_Jer Ha_u Hawj
+	}
+	
+	dynasty_name_first = yes
+	suggest_family_names = no
+	suggest_ancestor_names = no
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 0
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 0
+	mat_grm_name_chance = 0
+	mother_name_chance = 0
+}

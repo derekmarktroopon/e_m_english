@@ -11,9 +11,9 @@ tradition_hellenic_hoplites = {
 
 	is_shown = {
 		OR = {
-			this = culture:hellenic_greek
+			this = culture:ancient_greek
 			any_parent_culture_or_above = {
-				this = culture:hellenic_greek
+				this = culture:ancient_greek
 			}
 		}
 		# DLC check.

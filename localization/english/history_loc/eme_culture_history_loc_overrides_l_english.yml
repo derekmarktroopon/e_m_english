@@ -10,7 +10,7 @@
  saxon_ingaevonic_heritage_loc:0 "Developed from [CULTURE.GetName] Saxons migrating to Britain by the year [DATE.GetYear]."
  jutish_ingaevonic_heritage_loc:0 "Developed from [CULTURE.GetName] Jutes migrating to Britain by the year [DATE.GetYear]."
  anglian_ingaevonic_heritage_loc:0 "Developed from [CULTURE.GetName] Angles migrating to Britain by the year [DATE.GetYear]."
- anglo_saxon_heritage_loc:0 "Formed from the merger of [CULTURE.GetName] and other [GetCultureByKey('mercian').GetHeritage.GetNameNoTooltip] cultures around the year [DATE.GetYear]."
+ anglo_saxon_heritage_loc:0 "Formed from merging [CULTURE.GetName] and other [GetCultureByKey('mercian').GetHeritage.GetNameNoTooltip]s around the year [DATE.GetYear]."
  middle_egyptian_heritage_loc:0 "Diverged from [CULTURE.GetName] by around #E 2000 B.C.E#!." 
  ancient_egyptian_heritage_loc:0 "Diverged from [CULTURE.GetName] by around #E 700 B.C.E#!."
  coptic_culture_heritage_loc:0 "Diverged from [CULTURE.GetName], under [GetCultureByKey('greek').GetHeritage.GetName] influence, by the year [DATE.GetYear]."

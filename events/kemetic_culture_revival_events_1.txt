@@ -156,7 +156,7 @@ kemetic_revival_event.3 = { #A tomb has been discovered!
 	}
 	option = { # I wonder if these glyphs can be discyphered!
 		name = kemetic_revival_event.3.b
-		custom_tooltip = kemetic_revival_event.3.b.desc #You start investigating the strange glyphs
+		custom_tooltip = kemetic_revival_event.3.bdesc #You start investigating the strange glyphs
 		remove_treasury_or_gold = minor_gold_value	
 		trigger_event = {
 			id = kemetic_revival_event.4

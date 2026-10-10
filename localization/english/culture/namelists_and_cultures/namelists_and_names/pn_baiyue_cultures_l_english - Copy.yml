@@ -1,0 +1,160 @@
+﻿l_english:
+
+ # Zhuang # Wiktionary + https://www.behindthename.com/submit/names/usage/zhuang + Vahcuengh wikipedia
+
+name_list_zhuang:0 "Zhuang"
+
+dynn_Banh:0 "Banh"
+dynn_Cimz:0 "Cimz"
+dynn_Cinz:0 "Cinz"
+dynn_Danz:0 "Danz"
+dynn_Fuz:0 "Fuz"
+dynn_Lanz:0 "Lanz"
+dynn_Liz:0 "Liz"
+dynn_Lij:0 "Lij"
+dynn_Liengz:0 "Liengz"
+dynn_Lingz:0 "Lingz"
+dynn_Liu_zng:0 "Liu"
+dynn_Liuz:0 "Liuz"
+dynn_Loz:0 "Loz"
+dynn_Lungz:0 "Lungz"
+dynn_Moz:0 "Moz"
+dynn_Mungz:0 "Mungz"
+dynn_Nungz:0 "Nungz"
+dynn_Siz:0 "Siz"
+dynn_Vangz:0 "Vangz"
+dynn_Veiz:0 "Veiz"
+dynn_Vuz:0 "Vuz"
+dynn_Yangz:0 "Yangz"
+dynn_Vajsi:0 "Vajsi"
+dynn_Cwnz:0 "Cwnz"
+
+
+Aen:0 "Aen"
+Ak:0 "Ak"
+Bazginz:0 "Bazginz" # Han - Baqun - not in game
+# Bing:0 "Bing" # Han - Bing
+Cing:0 "Cing" # Han - Qing
+Ciq:0 "Ciq"
+Fanh:0 "Fanh"
+Gaoh:0 "Gaoh"
+Zian:0 "Zian"
+Ciqgaoh:0 "Ciqgaoh" # Han - Zhigao/Zhigao_57F7_7F94
+Cienzfuk:0 "Cienzfuk" # Quánfú/Quanfu
+Yenfanh:0 "Yenfanh" # Han - Xianfan
+Ningz:0 "Ningz" # Han - Ning/Ning
+Cangh:0 "Cangh" # Han - Zhāng/Zhang_5F70
+
+# Aen:0 "Aen"
+Aeuj:0 "Aeuj"
+# Bing:0 "Bing" # Han - Bing
+# Cing:0 "Cing" # Han - Qing
+# Ciq:0 "Ciq"
+# Fanh:0 "Fanh"
+Sanhcej:0 "Sanhcej" # Han - Sanjie/Sanjie_4E09_63A5
+Fuhyinz:0 "Fuhyinz" # Han - Shi/Shi_4E16
+
+# Hmong-Miao
+
+name_list_hmong:0 "Hmong"
+name_list_mien:0 "Mien"
+
+dynn_Faaj:0 "Faaj"
+dynn_Haam:0 "Haam"
+dynn_Hawj:0 "Hawj"
+dynn_Khaab:0 "Khaab"
+dynn_Xoom:0 "Xoom"
+dynn_Kwm:0 "Kwm"
+dynn_Lis:0 "Lis"
+dynn_Lauj:0 "Lauj"
+dynn_Muas:0 "Muas"
+dynn_Phab:0 "Phab"
+dynn_Thoj:0 "Thoj"
+dynn_Tsaab:0 "Tsaab"
+dynn_Tswb:0 "Tswb"
+dynn_Tsheej:0 "Tsheej"
+dynn_Vaaj:0 "Vaaj"
+dynn_Vwj:0 "Vwj"
+dynn_Xyooj:0 "Xyooj"
+dynn_Yaaj:0 "Yaaj"
+
+Aee:0 "Aee"
+Alang:0 "Alang"
+Asang:0 "Asang"
+Bee:0 "Bee"
+Blia:0 "Blia"
+By:0 "By"
+Cai_hmg:0 "Cai"
+Chay_hmg:0 "Chay" # same name as Cai_hmg
+Chenue:0 "Chenue"
+Cher:0 "Cher"
+Cha_u:0 "Chầu" # same as Txawj / Cher
+Txawj:0 "Txawj" # same as Cha_u / Cher
+Cherzong:0 "Cherzong"
+Chimua:0 "Chimua"
+Choj:0 "Choj"
+Chu_:0 "Chứ"
+Chue:0 "Chue" # same as Tswb / Chue
+Tswb:0 "Tswb" # same as Chu_ / Chue
+Co_ng:0 "Cống"
+Koob:0 "Koob" # same as Co_ng
+Cu_:0 "Cú"
+Kub:0 "Kub" # same as Cu_
+# Dao:0 "Dao"
+Ntaub:0 "Ntaub" # same as Dao / Dawb
+De__nh:0 "Dềnh"
+Yeej:0 "Yeej"
+Dib:0 "Dib"
+Di_nh:0 "Dính"
+Ziv:0 "Ziv"
+Doua_hmg:0 "Doua"
+Duas_hmg:0 "Duas"
+Duab:0 "Duab"
+Faiv:0 "Faiv"
+Feej:0 "Feej"
+Foom:0 "Foom"
+Foung:0 "Foung" # same as Foom
+Fuechy:0 "Fuechy"
+Ga:0 "Ga"
+Nkag:0 "Nkag"  # same as Ga / Ga_
+Ga_:0 "Gà"  # same as Ga / Nkag
+Ha_u:0 "Hầu" 
+Hawj:0 "Hawj" # same as Ha_u
+
+# Aee:0 "Aee"
+Ab:0 "Ab"
+Bao_Bai:0 "Bao Bai"
+# Blia:0 "Blia"
+Che_hmg:0 "Che"
+Ci_hmg:0 "Ci"
+Chee:0 "Chee" # same as Ci_hmg
+chi_a:0 "Chía"
+Ntshiab:0 "Ntshiab" # same as Tshiab / chi_a
+Tshiab:0 "Tshiab" # same as Ntshiab / chi_a
+Choua:0 "Choua" 
+Cua:0 "Cua"  # same as Choua
+# Chu_:0 "Chứ"
+# Tswb:0 "Tswb" # same as Chu_
+# Cu_:0 "Cú"
+# Kub:0 "Kub" # same as Cu_
+# Dao:0 "Dao"
+Dawb:0 "Dawb"
+Dlawb:0 "Dlawb" # same as Dawb
+# Ntaub:0 "Ntaub" # same as Dao / Dawb
+De_nh:0 "Dếnh"
+Yeeb:0 "Yeeb"  # same as Yeev / De_nh
+Yeev:0 "Yeev"  # same as Yeeb / De_nh
+# Dib:0 "Dib"
+Doualy:0 "Doualy"
+# Duab:0 "Duab"
+Duab_Ntxoo:0 "Duab Ntxoo"
+# Eve
+Farm_hmg:0 "Farm" # - (Yao)
+Faam:0 "Faam"  # same as Farm_hmg
+# Gao:0 "Gao"
+Nkauj:0 "Nkauj" # same as Gao
+Nkauj_Ntxawm:0 "Nkauj Ntxawm"
+Gao_Jer:0 "Gao Jer"
+# Ha_u:0 "Hầu" 
+# Hawj:0 "Hawj" # same as Ha_u
+

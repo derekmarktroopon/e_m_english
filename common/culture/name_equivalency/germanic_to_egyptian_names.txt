@@ -2043,7 +2043,7 @@ Kaoruko_female = { Kaoruko Kaoruko_2 jp_Cooruca }
 Arbarius_male = { Arbaraivah Harbahrahiwah }
 Arbinas_male = { Arbinah Harbahayhnah }
 Acinah_male = { Acinah Athrinah }
-Artibarzanes = { Artibrzah Hartishbrjans }
+Artibarzanes_male = { Artibrzah Hartishbrjans }
 Aryses_male = { Arushah Harushah }
 anushirvan_male = { Anushirvan EnU_S_irwan Anosherawan }
 ardeshir_male = { Ardeshir Artashir Ardashir Artaxshacah Artaxerxes ErdeS_I_r Ardaxshir Ardaxshahr Ardashar Hrtaxshathrah }
@@ -2160,3 +2160,40 @@ Statira_female = { Statira Stahtishira }
 
 baba_female = { Baba_phrg Ba_phrg }
 tettha_female = { Tettha Thettha }
+
+# Chinese / Baiyue
+
+Cing_male = { Cing Qing }
+Ciqgaoh_male = { Ciqgaoh Zhigao_57F7_7F94 }
+Cienzfuk_male = { Cienzfuk Quanfu }
+Yenfanh_male = { Yenfanh }
+Ningz_male = { Ningz Ning }
+Cangh_male = { Cangh Zhang_5F70 }
+Caihmg_male = { Cai_hmg Chay_hmg }
+Txawj_male = { Txawj Cha_u Cher }
+Tswb_male = { Tswb Chu_ }
+Koob_male = { Co_ng Koob }
+Kub_male = { Cu_ Kub }
+Ntaub_male = { Ntaub Dao }
+Yeej_male = { Yeej De__nh }
+Ziv_male = { Ziv Di_nh }
+Douahmg_male = { Doua_hmg Duas_hmg }
+Foom_male = { Foom Foung }
+Nkag_male = { Nkag Ga Ga_ }
+Hawj_male = { Hawj Ha_u }
+
+Cing_female = { Cing Qing }
+Sanhcej_female = { Sanhcej Sanjie_4E09_63A5 }
+Fuhyinz_female = { Fuhyinz Shi_4E16 }
+Cihmg_female = { Ci_hmg Chee }
+chiahmg_female = { chi_a Ntshiab Tshiab }
+Choua_female = { Choua Cua }
+Tswb_male = { Tswb Chu_ Chue }
+Kub_female = { Cu_ Kub }
+Ntaub_female = { Ntaub Dao }
+Dlawb_female = { Dlawb Dawb }
+Yeeb_female = { De_nh Yeeb Yeev }
+Faam_female = { Faam Farm_hmg }
+Nkauj_female = { Nkauj Gao }
+NkaujNtxawm_female = { Nkauj_Ntxawm Gao_Jer }
+Hawj_female = { Hawj Ha_u }

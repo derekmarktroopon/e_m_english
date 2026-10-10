@@ -309,7 +309,7 @@ old_saxon = {
 	
 	ethos = ethos_bellicose
 	heritage = heritage_west_germanic
-	language = language_anglic
+	language = language_saxon
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
