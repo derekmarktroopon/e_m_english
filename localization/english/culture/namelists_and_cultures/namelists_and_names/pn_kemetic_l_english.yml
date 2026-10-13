@@ -1333,3 +1333,79 @@ dynnp_sa:0 "Sa-"
  dmt_Philotera:0 "Philotera"
  dmt_Serapias:0 "Serapias"
  dmt_Timandra:0 "Timandra"
+
+ # Kushite
+
+ name_list_kushite:0 "Kushite"
+ kushite:0 "Kushite"
+ kushite_collective_noun:0 "Kushites"
+ kushite_prefix:0 "Kusho"
+ language_merotic_name:0 "Merotic"
+
+ dynn_Wayekiye:0 "Wayekiye"
+ dynn_Yetametane:0 "Yetametane"
+ dynn_Netewitara:0 "Netewitara"
+ dynn_Balekewiteke:0 "Balekewiteke"
+ dynn_Abratoye:0 "Abratoye"
+ dynn_Pesilikara:0 "Pesilikara"
+ dynn_Boxeye:0 "Boxeye"
+ dynn_Tameyakadiye:0 "Tameyakadiye"
+ dynn_Tapotemaxer:0 "Tapotemaxer"
+ dynn_Tapoxidat:0 "Tapoxidat"
+
+ # Alara:0 Alara
+ Amanineteyerike:0 "Amanineteyerike"
+ Amaniastabarqa:0 "Amaniastabarqa"
+ Amaninatakilebte:0 "Amaninatakilebte"
+ Analmaye:0 "Analmaye"
+ Aramatle_qo:0 "Aramatle-qo"
+ Aspelta:0 "Aspelta"
+ Anlamani:0 "Anlamani"
+ Baskakeren:0 "Baskakeren"
+ Piye:0 "Piye"
+ # kmt_Shebitku
+ # kmt_Shabaka
+ # Taharqa
+ Malonaqen:0 "Malonaqen"
+ Malewiebamani:0 "Malewiebamani"
+ Tantamani:0 "Tantamani"
+ Talakhamani:0 "Talakhamani"
+ Atlanersa:0 "Atlanersa"
+ Senkamanisken:0 "Senkamanisken"
+ # kmt_Haremakhet
+ # kmt_Isetemkheb
+ Karkamani:0 "Karkamani"
+ Kashta:0 "Kashta"
+ Netha:0 "Netha"
+ Nasakhmaqa:0 "Nasakhmaqa"
+ Piankharty:0 "Piankharty"
+ Sekhemkare:0 "Sekhemkare"
+ Si_aspiqo:0 "Si'aspiqo"
+
+ Arty:0 "Arty"
+ Abar:0 "Abar"
+ Atmataka:0 "Atmataka"
+ Amanitakaye:0 "Amanitakaye"
+ # kmt_Khensa
+ # kmt_Qalhata
+ # Aramatle_qo
+ Yeturow:0 "Yeturow"
+ Khaliset:0 "Khaliset"
+ Malotaral:0 "Malotaral"
+ Amanimalel:0 "Amanimalel"
+ Asata:0 "Asata"
+ Amenirdis:0 "Amenirdis"
+ Madekan:0 "Madekan"
+ Nasalsa:0 "Nasalsa"
+ Maletasen:0 "Maletasen"
+ Masalaye:0 "Masalaye"
+ # kmt_Shepenupet
+ # kmt_Tabekenamun
+ # kmt_Naparaye
+ Tabiry:0 "Tabiry"
+ # Netha
+ Kasaqa:0 "Kasaqa"
+ # kmt_Peksater
+ Piankhher:0 "Piankhher"
+ Pebatjma:0 "Pebatjma"
+ Saka_aye:0 "Saka'aye"

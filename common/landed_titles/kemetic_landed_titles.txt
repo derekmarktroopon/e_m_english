@@ -32,6 +32,7 @@
 				name_list_predynastic_egyptian = cn_k_egypt_kemetic
 				name_list_kemetic = cn_k_egypt_kemetic
 				name_list_demotic = cn_k_egypt_kemetic
+				name_list_kushite = cn_k_egypt_kemetic
 				name_list_coptic = cn_k_egypt_coptic
 			}
 			ai_primary_priority = {
@@ -61,6 +62,7 @@
 							name_list_predynastic_egyptian = cn_b_barqa-al-marj_kemetic
 							name_list_demotic = cn_b_barqa-al-marj_kemetic
 							name_list_kemetic = cn_b_barqa-al-marj_kemetic
+							name_list_kushite = cn_b_barqa-al-marj_kemetic
 							name_list_coptic = cn_b_barqa-al-marj_coptic
 						}	
 						color = { 34 152 65 }
@@ -138,6 +140,7 @@
 						name_list_predynastic_egyptian = cn_d_alexandria_kemetic
 						name_list_demotic = cn_d_alexandria_kemetic
 						name_list_kemetic = cn_d_alexandria_kemetic
+						name_list_kushite = cn_d_alexandria_kemetic
 						name_list_coptic = cn_d_alexandria_coptic
 					}
 				c_alexandria = {
@@ -147,6 +150,7 @@
 						name_list_predynastic_egyptian = cn_c_alexandria_kemetic
 						name_list_demotic = cn_c_alexandria_kemetic
 						name_list_kemetic = cn_c_alexandria_kemetic
+						name_list_kushite = cn_c_alexandria_kemetic
 						name_list_coptic = cn_c_alexandria_coptic
 					}
 					#b_alexandria = {
@@ -158,6 +162,7 @@
 						name_list_predynastic_egyptian = cn_b_alexandria_kemetic
 						name_list_demotic = cn_b_alexandria_kemetic
 						name_list_kemetic = cn_b_alexandria_kemetic
+						name_list_kushite = cn_b_alexandria_kemetic
 						name_list_coptic = cn_b_alexandria_coptic
 					}
 						color = { 102 221 136 }
@@ -169,6 +174,7 @@
 						name_list_predynastic_egyptian = cn_b_al-hamam_kemetic
 						name_list_demotic = cn_b_al-hamam_kemetic
 						name_list_kemetic = cn_b_al-hamam_kemetic
+						name_list_kushite = cn_b_al-hamam_kemetic
 						name_list_coptic = cn_b_al-hamam_coptic
 					}
 						color = { 102 221 136 }
@@ -180,6 +186,7 @@
 						name_list_predynastic_egyptian = cn_b_wadi_natrun_kemetic
 						name_list_demotic = cn_b_wadi_natrun_kemetic
 						name_list_kemetic = cn_b_wadi_natrun_kemetic
+						name_list_kushite = cn_b_wadi_natrun_kemetic
 						name_list_coptic = cn_b_wadi_natrun_coptic
 					}
 						color = { 102 221 136 }
@@ -205,6 +212,7 @@
 						name_list_predynastic_egyptian = cn_b_kanais_al-hadid_kemetic
 						name_list_demotic = cn_b_kanais_al-hadid_kemetic
 						name_list_kemetic = cn_b_kanais_al-hadid_kemetic
+						name_list_kushite = cn_b_kanais_al-hadid_kemetic
 						name_list_coptic = cn_b_kanais_al-hadid_coptic
 					}
 						color = { 104 223 138 }
@@ -218,6 +226,7 @@
 						name_list_predynastic_egyptian = cn_c_siwa_kemetic
 						name_list_demotic = cn_c_siwa_kemetic
 						name_list_kemetic = cn_c_siwa_kemetic
+						name_list_kushite = cn_c_siwa_kemetic
 						name_list_coptic = cn_c_siwa_coptic
 					}
 					b_siwa = {
@@ -226,6 +235,7 @@
 						name_list_predynastic_egyptian = cn_b_siwa_kemetic
 						name_list_demotic = cn_b_siwa_kemetic
 						name_list_kemetic = cn_b_siwa_kemetic
+						name_list_kushite = cn_b_siwa_kemetic
 						name_list_coptic = cn_b_siwa_coptic
 					}
 						color = { 106 225 140 }
@@ -237,6 +247,7 @@
 						name_list_predynastic_egyptian = cn_b_ain_al-gharbi_kemetic
 						name_list_demotic = cn_b_ain_al-gharbi_kemetic
 						name_list_kemetic = cn_b_ain_al-gharbi_kemetic
+						name_list_kushite = cn_b_ain_al-gharbi_kemetic
 						name_list_coptic = cn_b_ain_al-gharbi_coptic
 					}
 						color = { 106 225 140 }
@@ -248,6 +259,7 @@
 						name_list_predynastic_egyptian = cn_b_qara_kemetic
 						name_list_demotic = cn_b_qara_kemetic
 						name_list_kemetic = cn_b_qara_kemetic
+						name_list_kushite = cn_b_qara_kemetic
 						name_list_coptic = cn_b_qara_coptic
 					}
 						color = { 106 225 140 }
@@ -263,6 +275,7 @@
 						name_list_predynastic_egyptian = cn_d_delta_kemetic
 						name_list_demotic = cn_d_delta_kemetic
 						name_list_kemetic = cn_d_delta_kemetic
+						name_list_kushite = cn_d_delta_kemetic
 						name_list_coptic = cn_d_delta_coptic
 					}
 				capital = c_damietta
@@ -274,6 +287,7 @@
 						name_list_predynastic_egyptian = cn_c_damietta_kemetic
 						name_list_demotic = cn_c_damietta_kemetic
 						name_list_kemetic = cn_c_damietta_kemetic
+						name_list_kushite = cn_c_damietta_kemetic
 						name_list_coptic = cn_c_damietta_coptic
 					}
 					b_dumiyat = {
@@ -282,6 +296,7 @@
 						name_list_predynastic_egyptian = cn_b_dumiyat_kemetic
 						name_list_demotic = cn_b_dumiyat_kemetic
 						name_list_kemetic = cn_b_dumiyat_kemetic
+						name_list_kushite = cn_b_dumiyat_kemetic
 						name_list_coptic = cn_b_dumiyat_coptic
 					}
 						color = { 12 255 83 }
@@ -293,6 +308,7 @@
 						name_list_predynastic_egyptian = cn_b_daqahla_kemetic
 						name_list_demotic = cn_b_daqahla_kemetic
 						name_list_kemetic = cn_b_daqahla_kemetic
+						name_list_kushite = cn_b_daqahla_kemetic
 						name_list_coptic = cn_b_daqahla_coptic
 					}
 						color = { 12 255 83 }
@@ -304,6 +320,7 @@
 						name_list_predynastic_egyptian = cn_b_tinnis_kemetic
 						name_list_demotic = cn_b_tinnis_kemetic
 						name_list_kemetic = cn_b_tinnis_kemetic
+						name_list_kushite = cn_b_tinnis_kemetic
 						name_list_coptic = cn_b_tinnis_coptic
 					}
 						color = { 12 255 83 }
@@ -317,6 +334,7 @@
 						name_list_predynastic_egyptian = cn_c_al-buhaira_kemetic
 						name_list_demotic = cn_c_al-buhaira_kemetic
 						name_list_kemetic = cn_c_al-buhaira_kemetic
+						name_list_kushite = cn_c_al-buhaira_kemetic
 						name_list_coptic = cn_c_al-buhaira_coptic
 					}
 					b_rashid = {
@@ -325,6 +343,7 @@
 						name_list_predynastic_egyptian = cn_b_rashid_kemetic
 						name_list_demotic = cn_b_rashid_kemetic
 						name_list_kemetic = cn_b_rashid_kemetic
+						name_list_kushite = cn_c_al-cn_b_rashid_kemetic
 						name_list_coptic = cn_b_rashid_coptic
 					}
 						color = { 61 245 114 }
@@ -336,6 +355,7 @@
 							name_list_predynastic_egyptian = cn_b_damanhur_kemetic
 							name_list_demotic = cn_b_damanhur_kemetic
 							name_list_kemetic = cn_b_damanhur_kemetic
+							name_list_kushite = cn_b_damanhur_kemetic
 							name_list_coptic = cn_b_damanhur_coptic
 						}
 						color = { 61 245 114 }
@@ -347,6 +367,7 @@
 							name_list_predynastic_egyptian = cn_b_ramsis_kemetic
 							name_list_demotic = cn_b_ramsis_kemetic
 							name_list_kemetic = cn_b_ramsis_kemetic
+							name_list_kushite = cn_b_ramsis_kemetic
 							name_list_coptic = cn_b_ramsis_coptic
 						}
 						color = { 61 245 114 }
@@ -360,6 +381,7 @@
 						name_list_predynastic_egyptian = cn_c_al-gharbiya_kemetic
 						name_list_demotic = cn_c_al-gharbiya_kemetic
 						name_list_kemetic = cn_c_al-gharbiya_kemetic
+						name_list_kushite = cn_c_al-gharbiya_kemetic
 						name_list_coptic = cn_c_al-gharbiya_coptic
 					}
 					b_minuf = {
@@ -368,6 +390,7 @@
 							name_list_predynastic_egyptian = cn_b_minuf_kemetic
 							name_list_demotic = cn_b_minuf_kemetic
 							name_list_kemetic = cn_b_minuf_kemetic
+							name_list_kushite = cn_b_minuf_kemetic
 							name_list_coptic = cn_b_minuf_coptic
 						}
 						color = { 9 255 80 }
@@ -379,6 +402,7 @@
 							name_list_predynastic_egyptian = cn_b_samannud_kemetic
 							name_list_demotic = cn_b_samannud_kemetic
 							name_list_kemetic = cn_b_samannud_kemetic
+							name_list_kushite = cn_b_samannud_kemetic
 							name_list_coptic = cn_b_samannud_coptic
 						}
 						color = { 9 255 80 }
@@ -389,6 +413,7 @@
 							name_list_predynastic_egyptian = cn_b_burullus_kemetic
 							name_list_demotic = cn_b_burullus_kemetic
 							name_list_kemetic = cn_b_burullus_kemetic
+							name_list_kushite = cn_b_burullus_kemetic
 							name_list_coptic = cn_b_burullus_coptic
 						}
 						color = { 9 255 80 }
@@ -399,6 +424,7 @@
 							name_list_predynastic_egyptian = cn_b_nastarawa_kemetic
 							name_list_demotic = cn_b_nastarawa_kemetic
 							name_list_kemetic = cn_b_nastarawa_kemetic
+							name_list_kushite = cn_b_nastarawa_kemetic
 							name_list_coptic = cn_b_nastarawa_coptic
 						}
 						color = { 9 255 80 }
@@ -409,6 +435,7 @@
 							name_list_predynastic_egyptian = cn_b_ibyar_kemetic
 							name_list_demotic = cn_b_ibyar_kemetic
 							name_list_kemetic = cn_b_ibyar_kemetic
+							name_list_kushite = cn_b_ibyar_kemetic
 							name_list_coptic = cn_b_ibyar_coptic
 						}
 						color = { 9 255 80 }
@@ -420,6 +447,7 @@
 						name_list_predynastic_egyptian = cn_c_sharkiya_kemetic
 						name_list_demotic = cn_c_sharkiya_kemetic
 						name_list_kemetic = cn_c_sharkiya_kemetic
+						name_list_kushite = cn_c_sharkiya_kemetic
 						name_list_coptic = cn_c_sharkiya_coptic
 					}
 					b_bilbays = {
@@ -428,6 +456,7 @@
 							name_list_predynastic_egyptian = cn_b_bilbays_kemetic
 							name_list_demotic = cn_b_bilbays_kemetic
 							name_list_kemetic = cn_b_bilbays_kemetic
+							name_list_kushite = cn_b_bilbays_kemetic
 							name_list_coptic = cn_b_bilbays_coptic
 						}
 						color = { 41 214 91 }
@@ -438,6 +467,7 @@
 							name_list_predynastic_egyptian = cn_b_qalyub_kemetic
 							name_list_demotic = cn_b_qalyub_kemetic
 							name_list_kemetic = cn_b_qalyub_kemetic
+							name_list_kushite = cn_b_qalyub_kemetic
 							name_list_coptic = cn_b_qalyub_coptic
 						}
 						color = { 41 214 91 }
@@ -448,6 +478,7 @@
 							name_list_predynastic_egyptian = cn_b_faqus_kemetic
 							name_list_demotic = cn_b_faqus_kemetic
 							name_list_kemetic = cn_b_faqus_kemetic
+							name_list_kushite = cn_b_faqus_kemetic
 							name_list_coptic = cn_b_faqus_coptic
 						}
 						color = { 41 214 91 }
@@ -461,6 +492,7 @@
 					name_list_predynastic_egyptian = cn_d_cairo_kemetic
 					name_list_demotic = cn_d_cairo_kemetic
 					name_list_kemetic = cn_d_cairo_kemetic
+					name_list_kushite = cn_d_cairo_kemetic
 					name_list_coptic = cn_d_cairo_coptic
 				}
 				capital = c_cairo
@@ -471,6 +503,7 @@
 						name_list_predynastic_egyptian = cn_c_cairo_kemetic
 						name_list_demotic = cn_c_cairo_kemetic
 						name_list_kemetic = cn_c_cairo_kemetic
+						name_list_kushite = cn_c_cairo_kemetic
 						name_list_coptic = cn_c_cairo_coptic
 					}
 					b_cairo = {
@@ -479,6 +512,7 @@
 							name_list_predynastic_egyptian = cn_b_cairo_kemetic
 							name_list_demotic = cn_b_cairo_kemetic
 							name_list_kemetic = cn_b_cairo_kemetic
+							name_list_kushite = cn_b_cairo_kemetic
 							name_list_coptic = cn_b_cairo_coptic
 						}
 						color = { 26 214 120 }
@@ -489,6 +523,7 @@
 							name_list_predynastic_egyptian = cn_b_quzlum_kemetic
 							name_list_demotic = cn_b_quzlum_kemetic
 							name_list_kemetic = cn_b_quzlum_kemetic
+							name_list_kushite = cn_b_quzlum_kemetic
 							name_list_coptic = cn_b_quzlum_coptic
 						}
 						color = { 26 214 120 }
@@ -499,6 +534,7 @@
 							name_list_predynastic_egyptian = cn_b_atfih_kemetic
 							name_list_demotic = cn_b_atfih_kemetic
 							name_list_kemetic = cn_b_atfih_kemetic
+							name_list_kushite = cn_b_atfih_kemetic
 							name_list_coptic = cn_b_atfih_coptic
 						}
 						color = { 26 214 120 }
@@ -509,6 +545,7 @@
 							name_list_predynastic_egyptian = cn_b_hulwan-cairo_kemetic
 							name_list_demotic = cn_b_hulwan-cairo_kemetic
 							name_list_kemetic = cn_b_hulwan-cairo_kemetic
+							name_list_kushite = cn_b_hulwan-cairo_kemetic
 							name_list_coptic = cn_b_hulwan-cairo_coptic
 						}
 						color = { 26 214 120 }
@@ -520,6 +557,7 @@
 						name_list_predynastic_egyptian = cn_c_giza_kemetic
 						name_list_demotic = cn_c_giza_kemetic
 						name_list_kemetic = cn_c_giza_kemetic
+						name_list_kushite = cn_c_giza_kemetic
 						name_list_coptic = cn_c_giza_coptic
 					}
 					b_gizeh = {
@@ -528,6 +566,7 @@
 							name_list_predynastic_egyptian = cn_b_gizeh_kemetic
 							name_list_demotic = cn_b_gizeh_kemetic
 							name_list_kemetic = cn_b_gizeh_kemetic
+							name_list_kushite = cn_b_gizeh_kemetic
 							name_list_coptic = cn_b_gizeh_coptic
 						}
 						color = { 2 181 91 }
@@ -538,6 +577,7 @@
 							name_list_predynastic_egyptian = cn_b_abu_ghalib_kemetic
 							name_list_demotic = cn_b_abu_ghalib_kemetic
 							name_list_kemetic = cn_b_abu_ghalib_kemetic
+							name_list_kushite = cn_b_abu_ghalib_kemetic
 							name_list_coptic = cn_b_abu_ghalib_coptic
 						}
 						color = { 2 181 91 }
@@ -548,6 +588,7 @@
 							name_list_predynastic_egyptian = cn_b_busir_kemetic
 							name_list_demotic = cn_b_busir_kemetic
 							name_list_kemetic = cn_b_busir_kemetic
+							name_list_kushite = cn_b_busir_kemetic
 							name_list_coptic = cn_b_busir_coptic
 						}
 						color = { 2 181 91 }
@@ -559,6 +600,7 @@
 						name_list_predynastic_egyptian = cn_c_fayyum_kemetic
 						name_list_demotic = cn_c_fayyum_kemetic
 						name_list_kemetic = cn_c_fayyum_kemetic
+						name_list_kushite = cn_c_fayyum_kemetic
 						name_list_coptic = cn_c_fayyum_coptic
 					}
 					b_al-fayyum = {
@@ -567,6 +609,7 @@
 							name_list_predynastic_egyptian = cn_b_al-fayyum_kemetic
 							name_list_demotic = cn_b_al-fayyum_kemetic
 							name_list_kemetic = cn_b_al-fayyum_kemetic
+							name_list_kushite = cn_b_al-fayyum_kemetic
 							name_list_coptic = cn_b_al-fayyum_coptic
 						}
 						color = { 36 156 95 }
@@ -577,6 +620,7 @@
 							name_list_predynastic_egyptian = cn_b_tirsa_kemetic
 							name_list_demotic = cn_b_tirsa_kemetic
 							name_list_kemetic = cn_b_tirsa_kemetic
+							name_list_kushite = cn_b_tirsa_kemetic
 							name_list_coptic = cn_b_tirsa_coptic
 						}
 						color = { 36 156 95 }
@@ -587,6 +631,7 @@
 							name_list_predynastic_egyptian = cn_b_iqna_kemetic
 							name_list_demotic = cn_b_iqna_kemetic
 							name_list_kemetic = cn_b_iqna_kemetic
+							name_list_kushite = cn_b_iqna_kemetic
 							name_list_coptic = cn_b_iqna_coptic
 						}
 						color = { 36 156 95 }
@@ -600,6 +645,7 @@
 					name_list_predynastic_egyptian = cn_d_al-wahat_kemetic
 					name_list_demotic = cn_d_al-wahat_kemetic
 					name_list_kemetic = cn_d_al-wahat_kemetic
+					name_list_kushite = cn_d_al-wahat_kemetic
 					name_list_coptic = cn_d_al-wahat_kemetic
 				}
 				capital = c_bahriya
@@ -610,6 +656,7 @@
 						name_list_predynastic_egyptian = cn_c_bahriya_kemetic
 						name_list_demotic = cn_c_bahriya_kemetic
 						name_list_kemetic = cn_c_bahriya_kemetic
+						name_list_kushite = cn_c_bahriya_kemetic
 						name_list_coptic = cn_c_bahriya_coptic
 					}
 					b_al-bahriya = {
@@ -618,6 +665,7 @@
 							name_list_predynastic_egyptian = cn_b_al-bahriya_kemetic
 							name_list_demotic = cn_b_al-bahriya_kemetic
 							name_list_kemetic = cn_b_al-bahriya_kemetic
+							name_list_kushite = cn_b_al-bahriya_kemetic
 							name_list_coptic = cn_b_al-bahriya_coptic
 						}
 						color = { 45 165 145 }
@@ -628,6 +676,7 @@
 							name_list_predynastic_egyptian = cn_b_bawiti_kemetic
 							name_list_demotic = cn_b_bawiti_kemetic
 							name_list_kemetic = cn_b_bawiti_kemetic
+							name_list_kushite = cn_b_bawiti_kemetic
 							name_list_coptic = cn_b_bawiti_coptic
 						}
 						color = { 45 165 145 }
@@ -638,6 +687,7 @@
 							name_list_predynastic_egyptian = cn_b_al-harra_kemetic
 							name_list_demotic = cn_b_al-harra_kemetic
 							name_list_kemetic = cn_b_al-harra_kemetic
+							name_list_kushite = cn_b_al-harra_kemetic
 							name_list_coptic = cn_b_al-harra_coptic
 						}
 						color = { 45 165 145 }
@@ -649,6 +699,7 @@
 						name_list_predynastic_egyptian = cn_c_farafra_kemetic
 						name_list_demotic = cn_c_farafra_kemetic
 						name_list_kemetic = cn_c_farafra_kemetic
+						name_list_kushite = cn_c_farafra_kemetic
 						name_list_coptic = cn_c_farafra_coptic
 					}
 					b_al-farafra = {
@@ -657,6 +708,7 @@
 							name_list_predynastic_egyptian = cn_b_al-farafra_kemetic
 							name_list_demotic = cn_b_al-farafra_kemetic
 							name_list_kemetic = cn_b_al-farafra_kemetic
+							name_list_kushite = cn_b_al-farafra_kemetic
 							name_list_coptic = cn_b_al-farafra_coptic
 						}
 						color = { 34 148 129 }
@@ -668,6 +720,7 @@
 						name_list_predynastic_egyptian = cn_c_dakhla_kemetic
 						name_list_demotic = cn_c_dakhla_kemetic
 						name_list_kemetic = cn_c_dakhla_kemetic
+						name_list_kushite = cn_c_dakhla_kemetic
 						name_list_coptic = cn_c_dakhla_coptic
 					}
 					b_mut = {
@@ -676,6 +729,7 @@
 							name_list_predynastic_egyptian = cn_b_mut_kemetic
 							name_list_demotic = cn_b_mut_kemetic
 							name_list_kemetic = cn_b_mut_kemetic
+							name_list_kushite = cn_b_mut_kemetic
 							name_list_coptic = cn_b_mut_coptic
 						}
 						color = { 108 217 168 }
@@ -686,6 +740,7 @@
 							name_list_predynastic_egyptian = cn_b_tunayda_kemetic
 							name_list_demotic = cn_b_tunayda_kemetic
 							name_list_kemetic = cn_b_tunayda_kemetic
+							name_list_kushite = cn_b_tunayda_kemetic
 							name_list_coptic = cn_b_tunayda_coptic
 						}
 						color = { 108 217 168 }
@@ -696,6 +751,7 @@
 							name_list_predynastic_egyptian = cn_b_al-qasr-dakhla_kemetic
 							name_list_demotic = cn_b_al-qasr-dakhla_kemetic
 							name_list_kemetic = cn_b_al-qasr-dakhla_kemetic
+							name_list_kushite = cn_b_al-qasr-dakhla_kemetic
 							name_list_coptic = cn_b_al-qasr-dakhla_coptic
 						}
 						color = { 108 217 168 }
@@ -707,6 +763,7 @@
 						name_list_predynastic_egyptian = cn_c_kharga_kemetic
 						name_list_demotic = cn_c_kharga_kemetic
 						name_list_kemetic = cn_c_kharga_kemetic
+						name_list_kushite = cn_c_kharga_kemetic
 						name_list_coptic = cn_c_kharga_coptic
 					}
 					b_kharga = {
@@ -715,6 +772,7 @@
 							name_list_predynastic_egyptian = cn_b_kharga_kemetic
 							name_list_demotic = cn_b_kharga_kemetic
 							name_list_kemetic = cn_b_kharga_kemetic
+							name_list_kushite = cn_b_kharga_kemetic
 							name_list_coptic = cn_b_kharga_coptic
 						}
 						color = { 39 219 126 }
@@ -725,6 +783,7 @@
 							name_list_predynastic_egyptian = cn_b_baris_kemetic
 							name_list_demotic = cn_b_baris_kemetic
 							name_list_kemetic = cn_b_baris_kemetic
+							name_list_kushite = cn_b_baris_kemetic
 							name_list_coptic = cn_b_baris_coptic
 						}
 						color = { 39 219 126 }
@@ -738,6 +797,7 @@
 					name_list_predynastic_egyptian = cn_d_al-said_kemetic
 					name_list_demotic = cn_d_al-said_kemetic
 					name_list_kemetic = cn_d_al-said_kemetic
+					name_list_kushite = cn_d_al-said_kemetic
 					name_list_coptic = cn_d_al-said_coptic
 				}
 				capital = c_qus
@@ -748,6 +808,7 @@
 						name_list_predynastic_egyptian = cn_c_qus_kemetic
 						name_list_demotic = cn_c_qus_kemetic
 						name_list_kemetic = cn_c_qus_kemetic
+						name_list_kushite = cn_c_qus_kemetic
 						name_list_coptic = cn_c_qus_coptic
 					}
 					b_qus = {
@@ -756,6 +817,7 @@
 							name_list_predynastic_egyptian = cn_b_qus_kemetic
 							name_list_demotic = cn_b_qus_kemetic
 							name_list_kemetic = cn_b_qus_kemetic
+							name_list_kushite = cn_b_qus_kemetic
 							name_list_coptic = cn_b_qus_coptic
 						}
 						color = { 76 194 77 }
@@ -766,6 +828,7 @@
 							name_list_predynastic_egyptian = cn_b_huw_kemetic
 							name_list_demotic = cn_b_huw_kemetic
 							name_list_kemetic = cn_b_huw_kemetic
+							name_list_kushite = cn_b_huw_kemetic
 							name_list_coptic = cn_b_huw_coptic
 						}
 						color = { 76 194 77 }
@@ -780,6 +843,7 @@
 							name_list_predynastic_egyptian = cn_b_qina_kemetic
 							name_list_demotic = cn_b_qina_kemetic
 							name_list_kemetic = cn_b_qina_kemetic
+							name_list_kushite = cn_b_qina_kemetic
 							name_list_coptic = cn_b_qina_coptic
 						}
 						color = { 76 194 77 }
@@ -790,6 +854,7 @@
 							name_list_predynastic_egyptian = cn_b_armant_kemetic
 							name_list_demotic = cn_b_armant_kemetic
 							name_list_kemetic = cn_b_armant_kemetic
+							name_list_kushite = cn_b_armant_kemetic
 							name_list_coptic = cn_b_armant_coptic
 						}
 						color = { 76 194 77 }
@@ -801,6 +866,7 @@
 						name_list_predynastic_egyptian = cn_c_bahnasa_kemetic
 						name_list_demotic = cn_c_bahnasa_kemetic
 						name_list_kemetic = cn_c_bahnasa_kemetic
+						name_list_kushite = cn_c_bahnasa_kemetic
 						name_list_coptic = cn_c_bahnasa_coptic
 					}
 					b_al-bahnasa = {
@@ -810,6 +876,7 @@
 							name_list_predynastic_egyptian = cn_c_bahnasa_kemetic
 							name_list_demotic = cn_b_al-bahnasa_kemetic
 							name_list_kemetic = cn_b_al-bahnasa_kemetic
+							name_list_kushite = cn_b_al-bahnasa_kemetic
 							name_list_coptic = cn_b_al-bahnasa_coptic
 						}			
 				    }
@@ -819,6 +886,7 @@
 							name_list_predynastic_egyptian = cn_b_ahnas_kemetic
 							name_list_demotic = cn_b_ahnas_kemetic
 							name_list_kemetic = cn_b_ahnas_kemetic
+							name_list_kushite = cn_b_ahnas_kemetic
 							name_list_coptic = cn_b_ahnas_coptic
 						}
 						color = { 50 173 51 }
@@ -834,6 +902,7 @@
 						name_list_predynastic_egyptian = cn_c_ushmun_kemetic
 						name_list_demotic = cn_c_ushmun_kemetic
 						name_list_kemetic = cn_c_ushmun_kemetic
+						name_list_kushite = cn_c_ushmun_kemetic
 						name_list_coptic = cn_c_ushmun_coptic
 					}
 					b_al-ushmunain = {
@@ -842,6 +911,7 @@
 							name_list_predynastic_egyptian = cn_b_al-ushmunain_kemetic
 							name_list_demotic = cn_b_al-ushmunain_kemetic
 							name_list_kemetic = cn_b_al-ushmunain_kemetic
+							name_list_kushite = cn_b_al-ushmunain_kemetic
 							name_list_coptic = cn_b_al-ushmunain_coptic
 						}
 						color = { 72 176 73 }
@@ -852,6 +922,7 @@
 							name_list_predynastic_egyptian = cn_b_ansina_kemetic
 							name_list_demotic = cn_b_ansina_kemetic
 							name_list_kemetic = cn_b_ansina_kemetic
+							name_list_kushite = cn_b_ansina_kemetic
 							name_list_coptic = cn_b_ansina_coptic
 						}
 						color = { 72 176 73 }
@@ -862,6 +933,7 @@
 							name_list_predynastic_egyptian = cn_b_manfalut_kemetic
 							name_list_demotic = cn_b_manfalut_kemetic
 							name_list_kemetic = cn_b_manfalut_kemetic
+							name_list_kushite = cn_b_manfalut_kemetic
 							name_list_coptic = cn_b_manfalut_coptic
 						}
 						color = { 72 176 73 }
@@ -873,6 +945,7 @@
 						name_list_predynastic_egyptian = cn_c_asyut_kemetic
 						name_list_demotic = cn_c_asyut_kemetic
 						name_list_kemetic = cn_c_asyut_kemetic
+						name_list_kushite = cn_c_asyut_kemetic
 						name_list_coptic = cn_c_asyut_coptic
 					}
 					b_asyut = {
@@ -881,6 +954,7 @@
 							name_list_predynastic_egyptian = cn_b_asyut_kemetic
 							name_list_demotic = cn_b_asyut_kemetic
 							name_list_kemetic = cn_b_asyut_kemetic
+							name_list_kushite = cn_b_asyut_kemetic
 							name_list_coptic = cn_b_asyut_coptic
 						}
 						color = { 39 194 40 }
@@ -891,6 +965,7 @@
 							name_list_predynastic_egyptian = cn_b_bawit_kemetic
 							name_list_demotic = cn_b_bawit_kemetic
 							name_list_kemetic = cn_b_bawit_kemetic
+							name_list_kushite = cn_b_bawit_kemetic
 							name_list_coptic = cn_b_bawit_coptic
 						}
 						color = { 39 194 40 }
@@ -901,6 +976,7 @@
 							name_list_predynastic_egyptian = cn_b_ikhmin_kemetic
 							name_list_demotic = cn_b_ikhmin_kemetic
 							name_list_kemetic = cn_b_ikhmin_kemetic
+							name_list_kushite = cn_b_ikhmin_kemetic
 							name_list_coptic = cn_b_ikhmin_coptic
 						}
 						color = { 39 194 40 }
@@ -911,6 +987,7 @@
 							name_list_predynastic_egyptian = cn_b_ibshaya_kemetic
 							name_list_demotic = cn_b_ibshaya_kemetic
 							name_list_kemetic = cn_b_ibshaya_kemetic
+							name_list_kushite = cn_b_ibshaya_kemetic
 							name_list_coptic = cn_b_ibshaya_coptic
 						}
 						color = { 39 194 40 }
@@ -922,6 +999,7 @@
 						name_list_predynastic_egyptian = cn_c_aswan_kemetic
 						name_list_demotic = cn_c_aswan_kemetic
 						name_list_kemetic = cn_c_aswan_kemetic
+						name_list_kushite = cn_c_aswan_kemetic
 						name_list_coptic = cn_c_aswan_coptic
 					}
 					b_aswan = {
@@ -930,6 +1008,7 @@
 							name_list_predynastic_egyptian = cn_b_aswan_kemetic
 							name_list_demotic = cn_b_aswan_kemetic
 							name_list_kemetic = cn_b_aswan_kemetic
+							name_list_kushite = cn_b_aswan_kemetic
 							name_list_coptic = cn_b_aswan_coptic
 						}
 						color = { 16 163 17 }
@@ -940,6 +1019,7 @@
 							name_list_predynastic_egyptian = cn_b_udfu_kemetic
 							name_list_demotic = cn_b_udfu_kemetic
 							name_list_kemetic = cn_b_udfu_kemetic
+							name_list_kushite = cn_b_udfu_kemetic
 							name_list_coptic = cn_b_udfu_coptic
 						}
 						color = { 16 163 17 }
@@ -950,6 +1030,7 @@
 							name_list_predynastic_egyptian = cn_b_zarnikh_kemetic
 							name_list_demotic = cn_b_zarnikh_kemetic
 							name_list_kemetic = cn_b_zarnikh_kemetic
+							name_list_kushite = cn_b_zarnikh_kemetic
 							name_list_coptic = cn_b_zarnikh_coptic
 						}
 						color = { 16 163 17 }
@@ -960,6 +1041,7 @@
 							name_list_predynastic_egyptian = cn_b_aswan-west_kemetic
 							name_list_demotic = cn_b_aswan-west_kemetic
 							name_list_kemetic = cn_b_aswan-west_kemetic
+							name_list_kushite = cn_b_aswan-west_kemetic
 							name_list_coptic = cn_b_aswan-west_coptic
 						}
 						color = { 16 163 17 }
@@ -973,6 +1055,7 @@
 					name_list_predynastic_egyptian = cn_d_eastern_desert_kemetic
 					name_list_demotic = cn_d_eastern_desert_kemetic
 					name_list_kemetic = cn_d_eastern_desert_kemetic
+					name_list_kushite = cn_d_eastern_desert_kemetic
 				}
 				capital = c_qusayr
 	
@@ -982,6 +1065,7 @@
 						name_list_predynastic_egyptian = cn_c_qusayr_kemetic
 						name_list_demotic = cn_c_qusayr_kemetic
 						name_list_kemetic = cn_c_qusayr_kemetic
+						name_list_kushite = cn_c_qusayr_kemetic
 						name_list_coptic = cn_c_qusayr_coptic
 					}
 					b_qusayr = {
@@ -990,6 +1074,7 @@
 							name_list_predynastic_egyptian = cn_b_qusayr_kemetic
 							name_list_demotic = cn_b_qusayr_kemetic
 							name_list_kemetic = cn_b_qusayr_kemetic
+							name_list_kushite = cn_b_qusayr_kemetic
 							name_list_coptic = cn_b_qusayr_coptic
 						}
 						color = { 45 205 135 }
@@ -1000,6 +1085,7 @@
 							name_list_predynastic_egyptian = cn_b_safaga_kemetic
 							name_list_demotic = cn_b_safaga_kemetic
 							name_list_kemetic = cn_b_safaga_kemetic
+							name_list_kushite = cn_b_safaga_kemetic
 							name_list_coptic = cn_b_safaga_coptic
 						}
 						color = { 45 205 135 }
@@ -1011,6 +1097,7 @@
 						name_list_predynastic_egyptian = cn_c_jabal_quzlum_kemetic
 						name_list_demotic = cn_c_jabal_quzlum_kemetic
 						name_list_kemetic = cn_c_jabal_quzlum_kemetic
+						name_list_kushite = cn_c_jabal_quzlum_kemetic
 					}
 					b_north_jbl_quzlum = {
 						province = 6118
@@ -1018,6 +1105,7 @@
 							name_list_predynastic_egyptian = cn_b_north_jbl_quzlum_kemetic
 							name_list_demotic = cn_b_north_jbl_quzlum_kemetic
 							name_list_kemetic = cn_b_north_jbl_quzlum_kemetic
+							name_list_kushite = cn_b_north_jbl_quzlum_kemetic
 						}
 						color = { 45 195 130 }
 					}
@@ -1035,6 +1123,7 @@
 							name_list_predynastic_egyptian = cn_b_um_shashoba_kemetic
 							name_list_demotic = cn_b_um_shashoba_kemetic
 							name_list_kemetic = cn_b_um_shashoba_kemetic
+							name_list_kushite = cn_b_um_shashoba_kemetic
 						}
 						color = { 45 195 130 }
 					}
@@ -1047,6 +1136,7 @@
 					name_list_predynastic_egyptian = cn_d_sinai_kemetic
 					name_list_demotic = cn_d_sinai_kemetic
 					name_list_kemetic = cn_d_sinai_kemetic
+					name_list_kushite = cn_d_sinai_kemetic
 					name_list_coptic = cn_d_sinai_coptic
 				}
 				capital = c_farama
@@ -1057,6 +1147,7 @@
 						name_list_predynastic_egyptian = cn_c_farama_kemetic
 						name_list_demotic = cn_c_farama_kemetic
 						name_list_kemetic = cn_c_farama_kemetic
+						name_list_kushite = cn_c_farama_kemetic
 						name_list_coptic = cn_c_farama_coptic
 					}
 					b_farama = {
@@ -1065,6 +1156,7 @@
 							name_list_predynastic_egyptian = cn_b_farama_kemetic
 							name_list_demotic = cn_b_farama_kemetic
 							name_list_kemetic = cn_b_farama_kemetic
+							name_list_kushite = cn_b_farama_kemetic
 							name_list_coptic = cn_b_farama_coptic
 						}
 						color = { 141 198 5 }
@@ -1075,6 +1167,7 @@
 							name_list_predynastic_egyptian = cn_b_warrada_kemetic
 							name_list_demotic = cn_b_warrada_kemetic
 							name_list_kemetic = cn_b_warrada_kemetic
+							name_list_kushite = cn_b_warrada_kemetic
 							name_list_coptic = cn_b_warrada_coptic
 						}
 						color = { 141 198 5 }
@@ -1085,6 +1178,7 @@
 							name_list_predynastic_egyptian = cn_b_al-arish_kemetic
 							name_list_demotic = cn_b_al-arish_kemetic
 							name_list_kemetic = cn_b_al-arish_kemetic
+							name_list_kushite = cn_b_al-arish_kemetic
 							name_list_coptic = cn_b_al-arish_coptic
 						}
 						color = { 141 198 5 }
@@ -1096,6 +1190,7 @@
 						name_list_predynastic_egyptian = cn_c_sinai_kemetic
 						name_list_demotic = cn_c_sinai_kemetic
 						name_list_kemetic = cn_c_sinai_kemetic
+						name_list_kushite = cn_c_sinai_kemetic
 						name_list_coptic = cn_c_sinai_coptic
 					}
 					b_at-tur = {
@@ -1104,6 +1199,7 @@
 							name_list_predynastic_egyptian = cn_b_at-tur_kemetic
 							name_list_demotic = cn_b_at-tur_kemetic
 							name_list_kemetic = cn_b_at-tur_kemetic
+							name_list_kushite = cn_b_at-tur_kemetic
 							name_list_coptic = cn_b_at-tur_coptic
 						}
 						color = { 143 201 8 }
@@ -1114,6 +1210,7 @@
 							name_list_predynastic_egyptian = cn_b_stcatherine_kemetic
 							name_list_demotic = cn_b_stcatherine_kemetic
 							name_list_kemetic = cn_b_stcatherine_kemetic
+							name_list_kushite = cn_b_stcatherine_kemetic
 							name_list_coptic = cn_b_stcatherine_coptic
 						}
 						color = { 143 201 8 }
@@ -1124,6 +1221,7 @@
 							name_list_predynastic_egyptian = cn_b_faran_kemetic
 							name_list_demotic = cn_b_faran_kemetic
 							name_list_kemetic = cn_b_faran_kemetic
+							name_list_kushite = cn_b_faran_kemetic
 							name_list_coptic = cn_b_faran_coptic
 						}
 						color = { 143 201 8 }
@@ -1134,6 +1232,7 @@
 							name_list_predynastic_egyptian = cn_b_qalat_jundi_kemetic
 							name_list_demotic = cn_b_qalat_jundi_kemetic
 							name_list_kemetic = cn_b_qalat_jundi_kemetic
+							name_list_kushite = cn_b_qalat_jundi_kemetic
 							name_list_coptic = cn_b_qalat_jundi_coptic
 						}
 						color = { 143 201 8 }
@@ -1144,6 +1243,7 @@
 							name_list_predynastic_egyptian = cn_b_tih_kemetic
 							name_list_demotic = cn_b_tih_kemetic
 							name_list_kemetic = cn_b_tih_kemetic
+							name_list_kushite = cn_b_tih_kemetic
 							name_list_coptic = cn_b_tih_coptic
 						}
 						color = { 143 201 8 }
@@ -1155,6 +1255,7 @@
 						name_list_predynastic_egyptian = cn_c_firaun_kemetic
 						name_list_demotic = cn_c_firaun_kemetic
 						name_list_kemetic = cn_c_firaun_kemetic
+						name_list_kushite = cn_c_firaun_kemetic
 						name_list_coptic = cn_c_firaun_coptic
 					}
 					b_firaun = {
@@ -1163,6 +1264,7 @@
 							name_list_predynastic_egyptian = cn_b_tih_kemetic
 							name_list_demotic = cn_b_tih_kemetic
 							name_list_kemetic = cn_b_firaun_kemetic
+							name_list_kushite = cn_b_firaun_kemetic
 							name_list_coptic = cn_b_firaun_coptic
 						}
 						color = { 145 203 10 }
@@ -1173,6 +1275,7 @@
 							name_list_predynastic_egyptian = cn_b_dahab_kemetic
 							name_list_demotic = cn_b_dahab_kemetic
 							name_list_kemetic = cn_b_dahab_kemetic
+							name_list_kushite = cn_b_dahab_kemetic
 							name_list_coptic = cn_b_dahab_coptic
 						}
 						color = { 145 203 10 }
@@ -1211,6 +1314,7 @@
 					name_list_predynastic_egyptian = cn_d_palestine_kemetic
 					name_list_demotic = cn_d_palestine_kemetic
 					name_list_kemetic = cn_d_palestine_kemetic
+					name_list_kushite = cn_d_palestine_kemetic
 				}		
 				c_jerusalem = {
 					color = { 176 190 140 }
@@ -1218,6 +1322,7 @@
 						name_list_predynastic_egyptian = cn_c_jerusalem_kemetic
 						name_list_demotic = cn_c_jerusalem_kemetic
 						name_list_kemetic = cn_c_jerusalem_kemetic
+						name_list_kushite = cn_c_jerusalem_kemetic
 					}		
 					b_jerusalem = {
 						province = 5965
@@ -1225,6 +1330,7 @@
 							name_list_predynastic_egyptian = cn_b_jerusalem_kemetic
 							name_list_demotic = cn_b_jerusalem_kemetic
 							name_list_kemetic = cn_b_jerusalem_kemetic
+							name_list_kushite = cn_b_jerusalem_kemetic
 						}		
 						color = { 176 190 140 }
 					}
@@ -1250,6 +1356,7 @@
 						name_list_predynastic_egyptian = cn_c_ghazza_kemetic
 						name_list_demotic = cn_c_ghazza_kemetic
 						name_list_kemetic = cn_c_ghazza_kemetic
+						name_list_kushite = cn_c_ghazza_kemetic
 				    }	
 					b_ghazza = {
 						province = 5968
@@ -1269,6 +1376,7 @@
 						name_list_predynastic_egyptian = cn_c_jaffa_kemetic
 						name_list_demotic = cn_c_jaffa_kemetic
 						name_list_kemetic = cn_c_jaffa_kemetic
+						name_list_kushite = cn_c_jaffa_kemetic
 				    }	
 					b_yaffa = {
 						province = 5962
@@ -1357,6 +1465,7 @@ e_abyssinia = {
 			name_list_predynastic_egyptian = cn_k_nubia_kemetic
 			name_list_demotic = cn_k_nubia_kemetic
 			name_list_kemetic = cn_k_nubia_kemetic
+			name_list_kushite = cn_k_nubia_kemetic
 		}
 		capital = c_dongola
 
@@ -1375,6 +1484,7 @@ e_abyssinia = {
 				name_list_predynastic_egyptian = cn_d_nobatia_kemetic
 				name_list_demotic = cn_d_nobatia_kemetic
 				name_list_kemetic = cn_d_nobatia_kemetic
+				name_list_kushite = cn_d_nobatia_kemetic
 			}
 			capital = c_faras
 
@@ -1384,6 +1494,7 @@ e_abyssinia = {
 					name_list_predynastic_egyptian = cn_c_qasr_ibrim_kemetic
 					name_list_demotic = cn_c_qasr_ibrim_kemetic
 					name_list_kemetic = cn_c_qasr_ibrim_kemetic
+					name_list_kushite = cn_c_qasr_ibrim_kemetic
 				}
 				b_qasr_ibrim = {
 					province = 6334
@@ -1407,6 +1518,7 @@ e_abyssinia = {
 					name_list_predynastic_egyptian = cn_c_faras_kemetic
 					name_list_demotic = cn_c_faras_kemetic
 					name_list_kemetic = cn_c_faras_kemetic
+					name_list_kushite = cn_c_faras_kemetic
 				}
 				b_faras = {
 					province = 6336
@@ -1425,6 +1537,7 @@ e_abyssinia = {
 					name_list_predynastic_egyptian = cn_c_batn_al-hajar_kemetic
 					name_list_demotic = cn_c_batn_al-hajar_kemetic
 					name_list_kemetic = cn_c_batn_al-hajar_kemetic
+					name_list_kushite = cn_c_batn_al-hajar_kemetic
 				}
 				b_semna = {
 					province = 6337
@@ -1443,6 +1556,7 @@ e_abyssinia = {
 					name_list_predynastic_egyptian = cn_c_qurta_kemetic
 					name_list_demotic = cn_c_qurta_kemetic
 					name_list_kemetic = cn_c_qurta_kemetic
+					name_list_kushite = cn_c_qurta_kemetic
 				}
 				b_qurta = {
 					province = 6329
@@ -1484,6 +1598,7 @@ e_abyssinia = {
 				name_list_predynastic_egyptian = cn_d_makuria_kemetic
 				name_list_demotic = cn_d_makuria_kemetic
 				name_list_kemetic = cn_d_makuria_kemetic
+				name_list_kushite = cn_d_makuria_kemetic
 			}
 			c_dongola = {
 				color = { 145 150 80 }
@@ -1491,6 +1606,7 @@ e_abyssinia = {
 					name_list_predynastic_egyptian = cn_c_dongola_kemetic
 					name_list_demotic = cn_c_dongola_kemetic
 					name_list_kemetic = cn_c_dongola_kemetic
+					name_list_kushite = cn_c_dongola_kemetic
 				}
 				b_old_dongola = {
 					province = 6344
@@ -1524,6 +1640,7 @@ e_abyssinia = {
 					name_list_predynastic_egyptian = cn_c_sai_kemetic
 					name_list_demotic = cn_c_sai_kemetic
 					name_list_kemetic = cn_c_sai_kemetic
+					name_list_kushite = cn_c_sai_kemetic
 				}
 				b_sai = {
 					province = 6339
@@ -1662,6 +1779,7 @@ e_abyssinia = {
 				name_list_predynastic_egyptian = cn_d_shamir_kemetic
 				name_list_demotic = cn_d_shamir_kemetic
 				name_list_kemetic = cn_d_shamir_kemetic
+				name_list_kushite = cn_d_shamir_kemetic
 			}
 			c_shamir = {
 				color = { 140 125 45 }
@@ -1669,6 +1787,7 @@ e_abyssinia = {
 					name_list_predynastic_egyptian = cn_c_shamir_kemetic
 					name_list_demotic = cn_c_shamir_kemetic
 					name_list_kemetic = cn_c_shamir_kemetic
+					name_list_kushite = cn_c_shamir_kemetic
 				}
 				b_shemkhiya = {
 					province = 6367
@@ -1692,6 +1811,7 @@ e_abyssinia = {
 					name_list_predynastic_egyptian = cn_c_abu_hammad_kemetic
 					name_list_demotic = cn_c_abu_hammad_kemetic
 					name_list_kemetic = cn_c_abu_hammad_kemetic
+					name_list_kushite = cn_c_abu_hammad_kemetic
 				}
 				b_abu_hammad = {
 					province = 6352

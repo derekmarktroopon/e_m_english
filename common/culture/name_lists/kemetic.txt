@@ -165,3 +165,19 @@ name_list_coptic = {
 
 }
 #https://www.behindthename.com/submit/names/usage/coptic https://en.wiktionary.org/wiki/Category:Coptic_given_names
+
+name_list_kushite = { # Sources (Poorly done for now): Wikipedia + Behind the name 
+	cadet_dynasty_names = {
+		dynn_Wayekiye dynn_Yetametane dynn_Netewitara dynn_Balekewiteke dynn_Abratoye dynn_Pesilikara dynn_Boxeye dynn_Tameyakadiye dynn_Tapotemaxer dynn_Tapoxidat
+	}
+	dynasty_names = {
+		dynn_Wayekiye dynn_Yetametane dynn_Netewitara dynn_Balekewiteke dynn_Abratoye dynn_Pesilikara dynn_Boxeye dynn_Tameyakadiye dynn_Tapotemaxer dynn_Tapoxidat	
+	}
+	male_names = { 
+		Alara Amanineteyerike Amaniastabarqa Amaninatakilebte Analmaye Aramatle_qo Aspelta Anlamani Baskakeren Piye kmt_Shebitku kmt_Shabaka Taharqa Malonaqen Malewiebamani Tantamani Talakhamani Atlanersa Senkamanisken kmt_Haremakhet kmt_Isetemkheb Karkamani Kashta Netha Nasakhmaqa Piankharty Sekhemkare Si_aspiqo
+	}
+	female_names = {
+		Arty Abar Atmataka Amanitakaye kmt_Khensa kmt_Qalhata Aramatle_qo Yeturow Khaliset Malotaral Amanimalel Asata Amenirdis Madekan Nasalsa Maletasen Masalaye kmt_Shepenupet kmt_Tabekenamun kmt_Naparaye Tabiry Netha Kasaqa kmt_Peksater Piankhher Pebatjma Saka_aye
+	}    
+
+}

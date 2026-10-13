@@ -2177,7 +2177,7 @@ kec_egypt_history_260 = { # Osorkon; Twenty-second Dynasty
 kec_egypt_history_274 = { # Piye; Twenty-fifth Dynasty
 	name = Piye
 	rite = "kemetism"
-	culture = "nubian"
+	culture = "kushite"
 	dynasty = kec_dynasty_25
 	
 	-767.1.1 = { birth = yes } #conquered lower egypt around 726
@@ -2187,7 +2187,7 @@ kec_egypt_history_274 = { # Piye; Twenty-fifth Dynasty
 kec_egypt_history_275 = { # Shebitku; Twenty-fifth Dynasty
 	name = kmt_Shebitku
 	rite = "kemetism"
-	culture = "nubian"
+	culture = "kushite"
 	dynasty = kec_dynasty_25
 	father = kec_egypt_history_274
 	
@@ -2198,7 +2198,7 @@ kec_egypt_history_275 = { # Shebitku; Twenty-fifth Dynasty
 kec_egypt_history_276 = { # Shabaka; Twenty-fifth Dynasty
 	name = Shabaka
 	rite = "kemetism"
-	culture = "nubian"
+	culture = "kushite"
 	dynasty = kec_dynasty_25
 	father = kec_egypt_history_273
 	
@@ -2209,7 +2209,7 @@ kec_egypt_history_276 = { # Shabaka; Twenty-fifth Dynasty
 kec_egypt_history_277 = { # Taharqa; Twenty-fifth Dynasty
 	name = Taharqa
 	rite = "kemetism"
-	culture = "nubian"
+	culture = "kushite"
 	dynasty = kec_dynasty_25
 	father = kec_egypt_history_274
 	
@@ -2220,7 +2220,7 @@ kec_egypt_history_277 = { # Taharqa; Twenty-fifth Dynasty
 kec_egypt_history_278 = { # Tantamani; Twenty-fifth Dynasty
 	name = Tantamani
 	rite = "kemetism"
-	culture = "nubian"
+	culture = "kushite"
 	dynasty = kec_dynasty_25
 	father = kec_egypt_history_276
 	

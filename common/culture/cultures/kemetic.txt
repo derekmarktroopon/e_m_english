@@ -92,6 +92,7 @@ ancient_egyptian = {
 	coa_gfx = { berber_group_coa_gfx  }
 	building_gfx = { berber_group_building_gfx mena_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
+	clothing_gfx = { papuan_clothing_gfx }
 	unit_gfx = { sub_sahran_unit_gfx }
 }
 
@@ -161,4 +162,75 @@ neo_kemetic = {
 	clothing_gfx = { african_clothing_gfx }
 	clothing_gfx = { papuan_clothing_gfx }
 	unit_gfx = { sub_sahran_unit_gfx }
+}
+
+kushite = {
+		
+	color = rgb { 201 143 42 }
+	heritage = heritage_east_african
+	language = language_merotic
+	martial_custom = martial_custom_equal # Questionable, women in Egyptian court had equal status to men, but they were granted that status *by* men
+	head_determination = head_determination_domain
+
+	ethos = ethos_stoic
+
+	name_list = name_list_kushite
+	
+	traditions = {
+		tradition_pyramid_builders
+		tradition_agrarian
+		tradition_xenophilic
+		tradition_land_of_the_bow
+		tradition_nubian_warrior_queens
+	}
+
+	coa_gfx = { east_african_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx } 
+	clothing_gfx = { african_clothing_gfx }
+	clothing_gfx = { papuan_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	house_coa_frame = house_frame_19
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		80 = east_african
+		20 = african
+	}
+}
+
+nubian = {
+	color = rgb { 245 197 66 }
+	created =  350.1.1 
+	history_loc_override = kushite_heritage_loc
+	parents = { kushite }
+	
+	
+	ethos = ethos_spiritual
+	heritage = heritage_east_african
+	language = language_sudanic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_astute_diplomats
+		tradition_xenophilic
+		tradition_land_of_the_bow
+		tradition_agrarian
+		tradition_nubian_warrior_queens
+	}
+	
+	name_list = name_list_nubian
+
+	coa_gfx = { east_african_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_19
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		77 = east_african
+		23 = arab
+	}
 }

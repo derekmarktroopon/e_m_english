@@ -103,7 +103,7 @@ kec_dynasty_22 = {
 
 kec_dynasty_25 = {
 	name = "dynn_kec_ancient_egypt_25"
-	culture = "nubian"
+	culture = "kushite"
 }
 
 kec_dynasty_26 = {

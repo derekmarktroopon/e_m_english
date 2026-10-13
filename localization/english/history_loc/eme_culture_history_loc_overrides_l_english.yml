@@ -14,6 +14,7 @@
  middle_egyptian_heritage_loc:0 "Diverged from [CULTURE.GetName] by around #E 2000 B.C.E#!." 
  ancient_egyptian_heritage_loc:0 "Diverged from [CULTURE.GetName] by around #E 700 B.C.E#!."
  coptic_culture_heritage_loc:0 "Diverged from [CULTURE.GetName], under [GetCultureByKey('greek').GetHeritage.GetName] influence, by the year [DATE.GetYear]."
+ kushite_heritage_loc:0 "Formed from the mixture of [CULTURE.GetName] with migrating Nobiins around the year [DATE.GetYear]"
  ancient_greek_heritage_loc:0 "Emerged from the collapse of the ancient [CULTURE.GetName]s by about #E 870 B.C.E#!."
  mycenaean_heritage_loc:0 "Diverged from [CULTURE.GetName] by around #E 1600 B.C.E#!."
  greco_phrygian_heritage_loc:0 "Diverged from [CULTURE.GetName] by around #E 2500 B.C.E#!."
