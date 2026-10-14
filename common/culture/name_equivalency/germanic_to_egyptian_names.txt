@@ -1858,7 +1858,7 @@ dominic_male = { Domenego DomE_nico Domenigo Dominic Domingo Domingu Dominigu Do
 donatus_male = { Donata Donato Donatus Dynod Dunod DA_ned }
 eugene_male = { E_ogan EO_ganA_n EO_gan Egenio Eguen Eugene EugE_ne Eugenio Euggeniu Eugjeni Even Ewan Owain Owen Uuen Yawan gls_Owin Ewen Auigen }
 eustace_male = { Eustace Eustache Eustachy Eustathios Eusthaices jp2_Eutasciu }
-francis_male = { Francescho Cecchino Cecco Ferenc Ffransis FrancE_s Francesc Francesco FranC_esku Francis Franciscu FranC_ois Frang Franjo Franku Frans Fransaz Fransis FrantiS_ek Frantziscu Franz Fresco Proinsias Franseis jp_Furanshisu jp2_Furanscisu }
+francis_male = { Francescho Cecchino Cecco Ferenc Ffransis FrancE_s Francesc Francesco FranC_esku Francis Franciscu FranC_ois Frang Franjo Franku Frans Fransaz Fransis FrantiS_ek Frantziscu Franz Fresco Proinsias Franseis jp_Furanshisu jp2_Furanscisu Pasiku }
 caspar_male = { Gasparo Caspar GA_spA_r Gaspare Gasparru Jaspar Kaspar }
 honorius_male = { Honorius Onorio Onoriu Ynyr Inir Onor }
 hyeronimus_male = { Gieronimo Hieronimo Gerolamo Geronimo Girolamo Jeronim ZirO_nimu jp_Hyeronimu jp2_Jeronimu }
@@ -1890,7 +1890,7 @@ pascentius_male = { Pascentius Pasgen Pascent }
 pascal_male = { Pasqual Pasqualin Pascal Pascale Paschal Pasquale }
 paul_male = { Paulo Boghos PA_l PAAl Paavo Pal Paol Paolino Paolo Paul Paulos Paulose PA_ulu Paulus Pavel Pavle Pavlos PaweL_ Pawl Pol PO_l cpt_Paule cpt_Paulos eb_PA_l jp_Ho_ru jp2_Pauru Powl }
 patrick_male = { Padric Padrig PA_traic Patrick Patrikios Patrizio Patriziu Patryk Pedric Petroc Patrai jp2_Paturisciu Padrik }
-peter_male = { Piero Bedros Boutros Cephas Cephus Pathrose Peder Pedr Pedro Pedru Pedur PE_ire PE_r Pere Pero Perrot Petair Petar Peter PE_ter Petr Petre Petri Petro Petros Petruccio Petru Petrus Piarres Pierre Pieter Pietro Piotr PjetE_r gls_Peta Padrut cpt_Petros jp_Heteru jp2_Petaru Pedir }
+peter_male = { Piero Bedros Boutros Cephas Cephus Pathrose Peder Pedr Pedro Pedru Pedur PE_ire PE_r Pere Pero Pero_tp Perrot Petair Petar Peter PE_ter Petr Petre Petri Petro Petros Petruccio Petru Petrus Piarres Pierre Pieter Pietro Piotr PjetE_r gls_Peta Padrut cpt_Petros jp_Heteru jp2_Petaru Pedir }
 philip_male = { Felip Felipe Ffilip Filibus Filip Filipe Filippino Filippo Filippu Filips Filipu FulO_p Phelippe Philip Philipp Philippe Philippos Phillip Pilib Piyliypaos jp_Hirifu jp2_Hiripu }
 raphael_male = { Raffaele RafaEl Rafaello Raphael Raziel }
 salvator_male = { Salvator Bobore Salvador Salvatore Sarvaturi jp2_Saubatoru }
@@ -1932,6 +1932,7 @@ gajetan_male = { Gaetano GaetA_nu Gaitanu Gaitan gls_Getanow }
 kevin_male = { Kevin gls_Kevin }
 hans_male = { Hans gls_Hanz }
 lucien_male = { Lucien Lucjan Luchino Lucian Luciano gls_Lucanow }
+manuel_male = { Emanuele Emmanouel Emmanuel EmmanuE_l Emmanuele Immanuel Manel Manuel Manuele Mandu_tp }
 marcus_male = { Marcas March Marchell Marco Marcu Marcus Marek Margh Margos Mark MA_rk Marko Markos Markose Marku Markus Morcar Marchet gls_Mac cpt_Markos jp_Maruku jp2_Marucu Moarch }
 marcianus_male = { Marcianus Meirchion Meirchyen Merchyon }
 marinus_male = { Marin Marino Marinu Marinus gls_Marin }
@@ -1953,8 +1954,6 @@ victor_male = { Biktor Uther Uthyr Victor Viktor Vittore Vittorio Vittoriu Wecta
 valentin_male = { Ualan Valenti Valentin Valentino Valintinu Walan Walenty Valantin gls_Valanten jp_Barenchinu jp2_Barencinu }
 vincent_male = { C_enE_k Pizente VicenC_ Vicente Vincenne Vincent Vincenzo Vissente Wincenty Vincenz jp_Binsenchiyu jp2_Bisencinu }
 gustav_male = { Gustav gls_Gwstav }
-caique_male = { gals_Caikeh gls_Caike }
-cawa_male = { gals_Cawan }
 
 
 septimius_male = { Septimius Septemos }
@@ -2232,3 +2231,24 @@ Ishcamay_female = { gals_Ishcamay cls_maya_ix_kamay }
 Hhomib_female = { gals_Hhomib cls_maya_jomib }
 Ckayammoh_female = { gals_Ckayammoh  }
 Tsam_female = { gals_Tsam cls_maya_tzam }
+
+# Tupian
+
+caique_male = { gals_Caikeh gls_Caike }
+cawa_male = { gals_Cawan gls_Cawan }
+Caiubi_male = { gals_Caiuby Kaioby }
+Cunhambebe_male = { gals_Cungambebeh Kunhambeba }
+mbici_male = { gals_Mbicyigh Mbycy }
+tibirica_male = { gals_Tibirisah Tebiresa }
+ubiratan_male = { gals_Ubiratan Ybyrata }
+Jacy_male = { Jasy_tp gals_Jacie gls_Gjasy }
+
+Bartira_female = { gals_Bartira Ybotyra }
+mbici_female = { gals_Mbicyigh Mbycy }
+Jacy_female = { Jasy_tp gals_Jacie gls_Gjasy }
+Mayara_female = { gals_Mayara Maejara gls_Maiyara }
+Potira_female = { gals_Potira Potyra }
+Yara_female = { Yjara gals_Yara }
+Jusara_female = { Jusara gals_Jusara }
+Jurema_female = { Jurema gals_Jurema gls_Gjurema }
+Iracy_female = { Eirasy gals_Iracyigh }

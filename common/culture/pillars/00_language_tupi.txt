@@ -1,0 +1,18 @@
+﻿
+language_tupi = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_tupi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_tupi }
+			multiply = 10
+		}
+	}
+	
+	color = { 45 72 131 }	
+}

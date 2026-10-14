@@ -6,5 +6,5 @@ heritage_mayan = {
 			HERITAGE = heritage_mayan
 		}
 	}
-	audio_parameter = european
+	audio_parameter = sea
 }

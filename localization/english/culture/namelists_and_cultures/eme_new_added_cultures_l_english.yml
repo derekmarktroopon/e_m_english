@@ -191,6 +191,9 @@ proto_iranian_prefix:0 "Irano"
  kanjobalan:0 "Q'anjobalan"
  kanjobalan_prefix:0 "Kanjobalan"
  kanjobalan_collective_noun:1 "Q'anjobalan"
+ tupi:0 "Tupian"
+ tupi_prefix:0 "Tupi"
+ tupi_collective_noun:0 "Tupians"
 
 
  # Generated Hybrid Culture names

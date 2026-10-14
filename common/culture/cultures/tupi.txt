@@ -1,0 +1,29 @@
+﻿
+tupi = {
+	color = { 45 72 131 }	
+	ethos = ethos_bellicose
+	heritage = heritage_tupi_guarani
+	language = language_tupi
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+	    tradition_jungle_dwellers	
+		tradition_hidden_cities
+		tradition_medicinal_plants
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_tupi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { papuan_clothing_gfx southeast_asian_clothing_gfx }
+	unit_gfx = { southeast_asian_unit_gfx indian_unit_gfx }
+	house_coa_frame = house_frame_30
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		10 = native_brazilian
+	}
+}

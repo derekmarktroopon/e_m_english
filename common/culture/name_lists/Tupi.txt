@@ -1,0 +1,43 @@
+﻿name_list_tupi = {
+	cadet_dynasty_names = {
+	   	dynn_Tobajara dynn_Tamoi dynn_Pirajyba dynn_Temimino dynn_Potigwara dynn_Urubu dynn_Tubybaba dynn_Jetayba dynn_Araryboja dynn_Kwarasyjuba dynn_Murukujawasu dynn_Ybytinga dynn_Wabiru
+	}
+
+	dynasty_names = {
+		dynn_Tobajara dynn_Tamoi dynn_Pirajyba dynn_Temimino dynn_Potigwara dynn_Urubu dynn_Tubybaba dynn_Jetayba dynn_Araryboja dynn_Kwarasyjuba dynn_Murukujawasu dynn_Ybytinga dynn_Wabiru 
+	}
+
+	male_names = {
+		100 = {
+	       	Ybatata Abaosanga Abatiposanga Abatiuna Abaykyja Amandyba Ambuawasu Anhangoby Anhangupjara Aparajtykabusu Araberana Aragwasu Araruna Ararusuaja Araryboja Arongatu Ajmbire Ajurwasu Exuyu Gwajxara Inigwasu Iperuwasu Iporeseo Itaomiri Itapuku Itajyba Kaioby Kunhambeba Kwarasy Kwarasyjuba Marakajagwasu Marakawasu Marasa Mejrugwasu Moroupjarwera Murukujawasu Pindobusu Potigwara Serobebe Sowerusu Tatuwasu Tajasu Tebiresa Urubu Ybyrapuku Ybyrapwe Ybytinga Ybytingapeba Ybytyrape Jagwanharo Jagwaruna Juraytawasu Wabiru Warawasu Wyraesawasu Wyraparusu
+	        Ybyrairani
+		}
+		0 = { # Christian
+			Mandu_tp Pasiku Pero_tp 
+		}
+	}
+
+	female_names = {
+        100 = {
+        	Ybotyra Kwarasy Ybyrairani Jasy_tp Kunhawasutenhe Wyrajara Maejara Mbycy Eirasy Potyra Jusara Jurema Yjara
+        }
+        0 = {
+        	Maria Anna
+        }
+	}		
+
+	patronym_suffix_male = "dynnpat_suf_tayra"
+	patronym_suffix_female = "dynnpat_suf_rajra"
+	always_use_patronym = yes	
+	
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+
+}
