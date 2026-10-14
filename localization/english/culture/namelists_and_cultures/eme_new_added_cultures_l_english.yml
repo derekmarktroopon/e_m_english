@@ -171,6 +171,27 @@ proto_iranian_prefix:0 "Irano"
  kushite_collective_noun:0 "Kushites"
  kushite_prefix:0 "Kusho"
 
+ # Other
+
+ highland_maya:0 "Highland Maya"
+ highland_maya_prefix:0 "Highland Mayan"
+ highland_maya_collective_noun:1 "Highland Mayas"
+ chorti:0 "Ch'ol"
+ chorti_prefix:0 "Cholan"
+ chorti_collective_noun:1 "Cholans"
+ yucatec:0 "Yucatec"
+ yucatec_prefix:0 "Yucatec"
+ yucatec_collective_noun:1 "Yucatec"
+ wastec:0 "Wastec"
+ wastec_prefix:0 "Wastec"
+ wastec_collective_noun:1 "Wastec"
+ putun:0 "Putún"
+ putun_prefix:0 "Putún"
+ putun_collective_noun:1 "Putún"
+ kanjobalan:0 "Q'anjobalan"
+ kanjobalan_prefix:0 "Kanjobalan"
+ kanjobalan_collective_noun:1 "Q'anjobalan"
+
 
  # Generated Hybrid Culture names
 

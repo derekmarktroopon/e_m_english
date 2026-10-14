@@ -26,6 +26,13 @@
  # language_coptic_name:0 "Coptic" 
  language_merotic_name:0 "Merotic"
 
+ language_chorti_name:0 "Cholan" 
+ language_quichean_language_name:0 "Quichean"
+ language_yucatec_name:0 "Yucatec"
+ language_mamean_name:0 "Mamean"
+ language_qanjobalan_language_name:0 "Q'anjobalan"
+ language_wastek_name:0 "Wastek"
+
  language_anglic_venetic_name:0 "Anglo-Venetic"
  language_german_venetic_name:0 "Alemano-Venetic"
  language_nordic_venetic_name:0 "Vethka"

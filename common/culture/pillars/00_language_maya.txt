@@ -1,0 +1,81 @@
+﻿
+language_chorti = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_chorti
+		}
+	}
+
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_chorti }
+			multiply = 10
+		}
+
+	}
+	
+	color = { 345 67 45 }
+}
+
+language_quichean_language = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_quichean_language
+		}
+	}
+
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_quichean_language }
+			multiply = 10
+		}
+
+	}
+	
+	color = { 131 67 45 }
+}
+
+language_yucatec = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_yucatec
+		}
+	}
+
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_yucatec }
+			multiply = 10
+		}
+
+	}
+	
+	color = { 353 83 50 }
+}
+
+language_qanjobalan_language = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_qanjobalan_language
+		}
+	}
+
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_qanjobalan_language }
+			multiply = 10
+		}
+
+	}
+	
+	color = { 318 86 41 }
+}
+

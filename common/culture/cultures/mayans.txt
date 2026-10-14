@@ -1,0 +1,131 @@
+﻿highland_maya = {
+	color = { 131 67 45 }	
+	ethos = ethos_spiritual
+	heritage = heritage_mayan
+	language = language_quichean_language
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+	    tradition_hill_dwellers	
+		tradition_hidden_cities
+	}
+	
+	name_list = name_list_highland_maya
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { papuan_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { southeast_asian_unit_gfx indian_unit_gfx }
+
+	house_coa_frame = house_frame_17
+	
+	ethnicities = {
+		10 = mesoamerican
+	}
+}
+
+chorti = {
+	color = { 345 67 45 }	
+	ethos = ethos_bureaucratic
+	heritage = heritage_mayan
+	language = language_chorti
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+	    tradition_hidden_cities	
+	    tradition_hard_working
+	    tradition_jungle_dwellers
+	    tradition_hit_and_run
+	}
+	
+	name_list = name_list_classic_maya
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { papuan_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { southeast_asian_unit_gfx indian_unit_gfx }
+
+	house_coa_frame = house_frame_17
+	
+	ethnicities = {
+		10 = mesoamerican
+	}
+}
+
+yucatec = {
+	color = { 353 83 50 }	
+	ethos = ethos_stoic
+	heritage = heritage_mayan
+	language = language_yucatec
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+	    tradition_jungle_dwellers
+	    tradition_hidden_cities	
+	}
+	
+	name_list = name_list_maya
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { papuan_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { southeast_asian_unit_gfx indian_unit_gfx }
+
+	house_coa_frame = house_frame_17
+	
+	ethnicities = {
+		10 = mesoamerican
+	}
+}
+
+putun = {
+	color = { 345 100 42 }	
+	ethos = ethos_bellicose
+	heritage = heritage_mayan
+	language = language_chorti
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+	    tradition_hidden_cities	
+	    tradition_hard_working
+	}
+	
+	name_list = name_list_classic_maya
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { papuan_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { southeast_asian_unit_gfx indian_unit_gfx }
+
+	house_coa_frame = house_frame_17
+	
+	ethnicities = {
+		10 = mesoamerican
+	}
+}
+
+kanjobalan = {
+	color = { 318 86 41 }	
+	ethos = ethos_communal
+	heritage = heritage_mayan
+	language = language_qanjobalan_language
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+	    tradition_hidden_cities	
+	    tradition_hard_working
+	}
+	
+	name_list = name_list_highland_maya
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { papuan_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { southeast_asian_unit_gfx indian_unit_gfx }
+
+	house_coa_frame = house_frame_17
+	
+	ethnicities = {
+		10 = mesoamerican
+	}
+}

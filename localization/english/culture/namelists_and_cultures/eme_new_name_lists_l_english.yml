@@ -127,6 +127,13 @@ name_list_late_tamilo_germanic:0 "Tauticcha"
  name_list_christian_japanese_2:0 "Iamato"
  name_list_galsignish:0 "Galsignish"
  name_list_galsignish_special:0 "Galsianer"
+ name_list_maya:0 "Mayan"
+ name_list_classic_maya:0 "Central Mayan"
+ name_list_highland_maya:0 "Highland Mayan"
+ name_list_huastec:0 "Huastec"
+ name_list_euro_cholan_1:0 "Tchoulan"
+ name_list_euro_cholan_2:0 "Cholen"
+ name_list_euro_cholan_3:0 "Tjoltisk"
 
  # Diverged venetic 
 

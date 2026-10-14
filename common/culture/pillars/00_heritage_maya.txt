@@ -1,0 +1,10 @@
+﻿
+heritage_mayan = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_mayan
+		}
+	}
+	audio_parameter = european
+}

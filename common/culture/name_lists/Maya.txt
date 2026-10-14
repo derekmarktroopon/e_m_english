@@ -1,0 +1,312 @@
+﻿name_list_classic_maya = { #Cholti
+	cadet_dynasty_names = {
+        dynn_Ahkinxoc dynn_Ahmetakkukul dynn_Ahmok dynn_Ahnakukpech dynn_Ahpop-Achi dynn_Arana dynn_Bakan dynn_Balam dynn_Bor
+        dynn_Canek dynn_Chaob dynn_Chiam dynn_Hnuyg dynn_Kayom dynn_Kiin dynn_Kukumatz 
+		dynn_Mochcouoh dynn_Nachancan dynn_Nohochacyum dynn_Pacal dynn_Quitze_Balam dynn_Tecunuman 
+		dynn_Vataki dynn_Yumcaax dynn_Zotz
+			
+	    dynn_Ake dynn_Bonampak dynn_Becan dynn_Bolonchen dynn_Chaac dynn_Camazotz
+		dynn_Cancuen dynn_Caracol dynn_Chacchoben dynn_Chacmultun dynn_Chinikiha
+		dynn_Chinkultic dynn_Chunchucmil dynn_Civiltuk dynn_Calakmul dynn_Copan dynn_Coba
+		dynn_Edzna dynn_Ekab dynn_Gumarcaj dynn_Gucumatz dynn_Hocchob 
+		dynn_Hunahpu dynn_Huracan dynn_Ixchel dynn_Ixtab dynn_Ichmac
+		dynn_Ichmul dynn_Itzan dynn_Ixil dynn_Iximche dynn_Ixlu dynn_Izamal dynn_Labna 
+		dynn_Lubaantun dynn_Lubaantun dynn_Kaminaljuyu dynn_Kabah dynn_Kiuic dynn_Kantunil_Kin
+		dynn_Lamanai dynn_Mayapan dynn_Mani dynn_Muluchtzekel 
+		dynn_Muyil dynn_Nakum dynn_Nakbe dynn_Naranjo dynn_Nebaj dynn_Okop dynn_Oxcutzcab
+		dynn_Oxkintok dynn_Palenque dynn_Pomona dynn_Pusilha dynn_Quirigua dynn_Sayil
+		dynn_Seibal dynn_Sisila dynn_Tonina 
+		dynn_Tikal dynn_Tulum dynn_Tancah dynn_Tazumal dynn_Tecoh dynn_Topoxte 
+		dynn_Uxmal dynn_Uaxactun dynn_Ucanal dynn_Uci dynn_Utatlan dynn_Waka 
+		dynn_Xcalumkin dynn_Xcaret dynn_Xcorralche dynn_Xcucsuc 
+		dynn_Xculoc dynn_Xlapak dynn_Xpuhil dynn_Xultun dynn_Xunantunich dynn_Yaklmai 
+		dynn_Yaxchilan dynn_Yaxha dynn_Yookop dynn_Zipacna_Zaculeu 	
+	}
+
+	dynasty_names = {
+        dynn_Ahkinxoc dynn_Ahmetakkukul dynn_Ahmok dynn_Ahnakukpech dynn_Ahpop-Achi dynn_Arana dynn_Bakan dynn_Balam dynn_Bor
+        dynn_Canek dynn_Chaob dynn_Chiam dynn_Hnuyg dynn_Kayom dynn_Kiin dynn_Kukumatz 
+		dynn_Mochcouoh dynn_Nachancan dynn_Nohochacyum dynn_Pacal dynn_Quitze_Balam dynn_Tecunuman 
+		dynn_Vataki dynn_Yumcaax dynn_Zotz
+			
+	    dynn_Ake dynn_Bonampak dynn_Becan dynn_Bolonchen dynn_Chaac dynn_Camazotz
+		dynn_Cancuen dynn_Caracol dynn_Chacchoben dynn_Chacmultun dynn_Chinikiha
+		dynn_Chinkultic dynn_Chunchucmil dynn_Civiltuk dynn_Calakmul dynn_Copan dynn_Coba
+		dynn_Edzna dynn_Ekab dynn_Gumarcaj dynn_Gucumatz dynn_Hocchob 
+		dynn_Hunahpu dynn_Huracan dynn_Ixchel dynn_Ixtab dynn_Ichmac
+		dynn_Ichmul dynn_Itzan dynn_Ixil dynn_Iximche dynn_Ixlu dynn_Izamal dynn_Labna 
+		dynn_Lubaantun dynn_Lubaantun dynn_Kaminaljuyu dynn_Kabah dynn_Kiuic dynn_Kantunil_Kin
+		dynn_Lamanai dynn_Mayapan dynn_Mani dynn_Muluchtzekel 
+		dynn_Muyil dynn_Nakum dynn_Nakbe dynn_Naranjo dynn_Nebaj dynn_Okop dynn_Oxcutzcab
+		dynn_Oxkintok dynn_Palenque dynn_Pomona dynn_Pusilha dynn_Quirigua dynn_Sayil
+		dynn_Seibal dynn_Sisila dynn_Tonina 
+		dynn_Tikal dynn_Tulum dynn_Tancah dynn_Tazumal dynn_Tecoh dynn_Topoxte 
+		dynn_Uxmal dynn_Uaxactun dynn_Ucanal dynn_Uci dynn_Utatlan dynn_Waka 
+		dynn_Xcalumkin dynn_Xcaret dynn_Xcorralche dynn_Xcucsuc 
+		dynn_Xculoc dynn_Xlapak dynn_Xpuhil dynn_Xultun dynn_Xunantunich dynn_Yaklmai 
+		dynn_Yaxchilan dynn_Yaxha dynn_Yookop dynn_Zipacna_Zaculeu 	
+	}
+
+	male_names = {
+
+		#cls_maya_pakal cls_maya_kuk_bahlam cls_maya_kan_bahlam cls_maya_kan_mo_hix cls_maya_butz_aj_sak_chiik cls_maya_kan_joy_chitam cls_maya_chitam cls_maya_ahkal_mo_nahb cls_maya_itzamnaaj_bahlam #cls_maya_yaxun_bahlam cls_maya_yaxun_balam cls_maya_tatbu_jol cls_maya_tatbu_skull cls_maya_yopaat_balam cls_maya_bahlam cls_maya_itzam cls_maya_yaxkin cls_maya_yax_kuk_mo cls_maya_popol_hol #cls_maya_ku_ix cls_maya_balam_nahn cls_maya_chan_imix cls_maya_kak_chan cls_maya_kak_joplaj_chan cls_maya_kak_yipyaj_chan cls_maya_sak_lu cls_maya_tzi_balam cls_maya_uaxaclajuun_ubaah #cls_maya_ukit_took cls_maya_wil_ohl_kinich cls_maya_yax_pasaj cls_maya_kan_mo_hix      
+
+		cls_maya_aajaaw_bot cls_maya_ahiin cls_maya_ahk cls_maya_ahkal cls_maya_ahkul_moo cls_maya_ajan cls_maya_atz cls_maya_bah cls_maya_bahlam cls_maya_bahlam_aajaaw cls_maya_balun_kawil cls_maya_balun_tuun cls_maya_bohb cls_maya_chak_chan cls_maya_chak_el cls_maya_chak_hix cls_maya_chak_suutz cls_maya_chan cls_maya_chan_aajaaw cls_maya_chan_ahk cls_maya_chan_kan cls_maya_chan_kinich cls_maya_chan_yopaat cls_maya_el_kinich cls_maya_hix cls_maya_hux cls_maya_iik cls_maya_iiknal cls_maya_janab cls_maya_juun_bahlam cls_maya_kaan cls_maya_kaan_bahlam cls_maya_kab cls_maya_kab_chante cls_maya_kahk cls_maya_kahk_bahlam cls_maya_kal cls_maya_kal_kaan cls_maya_kan_eek cls_maya_kanan cls_maya_kawil cls_maya_kawil_kinich cls_maya_kawil_took cls_maya_kiin_bahlam cls_maya_kinich cls_maya_kinich_bahlam cls_maya_kinich_kuk cls_maya_kinich_lakamtuun cls_maya_kuk cls_maya_kuk_aajaaw cls_maya_kuk_bahlam cls_maya_kul cls_maya_kulub cls_maya_kutim cls_maya_lakam_chahk cls_maya_muux cls_maya_muwahn cls_maya_muwahn_bahlam cls_maya_muyaal_chahk cls_maya_sak_bahlam cls_maya_sak_suutz cls_maya_sihyaj_kahk cls_maya_sihyaj_kawil cls_maya_suutz cls_maya_tajal_moo cls_maya_ukit cls_maya_upakal_kinich cls_maya_wahyis cls_maya_waw cls_maya_ya_bahlam cls_maya_yaajaawte_kinich cls_maya_yaxun cls_maya_yaxun_bahlam cls_maya_yeejte_kinich cls_maya_yopaat cls_maya_yopaat_bahlam 
+	}
+
+	female_names = {
+
+       # cls_maya_iknal cls_maya_muwaan_mat cls_maya_sak_kuk cls_maya_ik_skull cls_maya_chak_joloom cls_maya_wak_tuun cls_maya_wak_jalam cls_maya_mut_bahlam cls_maya_ix_pacal cls_maya_kabal_xook cls_maya_xibalba cls_maya_ix_chak_joloom cls_maya_ix_chab cls_maya_ixchel cls_maya_nichte cls_maya_yaxkin cls_maya_yohl_iknal cls_maya_kabal_xook_2 cls_maya_ik_xook cls_maya_muwaan_mat_2 cls_maya_kawiil_yopaat cls_maya_ol_nan
+
+       cls_maya_ahiin_kuuk cls_maya_ahkabil cls_maya_ahkal_oxom cls_maya_ahkal_patah cls_maya_alatzil cls_maya_baakel cls_maya_bahlam_moo cls_maya_batz cls_maya_batz_eek cls_maya_buluch cls_maya_chak_hix cls_maya_chak_jolom cls_maya_chak_tzi cls_maya_chel cls_maya_haal cls_maya_hix cls_maya_hux_kaan cls_maya_ihkatz cls_maya_iis cls_maya_ikoom cls_maya_ix_ahiin cls_maya_ix_aj_paach cls_maya_ix_chanal cls_maya_ix_kamay cls_maya_jatznoom_chan cls_maya_jomib cls_maya_jop_kinich cls_maya_juntahn_ahk cls_maya_ka_pehkel cls_maya_kabel_nahb cls_maya_kahkis cls_maya_kalte cls_maya_kan_balun cls_maya_kan_ik cls_maya_kanel cls_maya_kawil_kaan cls_maya_kayam cls_maya_kebte cls_maya_kech cls_maya_kinich cls_maya_kinuw_mat cls_maya_kot_bahlam cls_maya_men_nik cls_maya_moo cls_maya_mut_bahlam cls_maya_nah_chan cls_maya_nahb_kuh cls_maya_nahbat cls_maya_nikte cls_maya_ook_ahiin cls_maya_pakal cls_maya_sajal_juj cls_maya_sak_biyan cls_maya_sak_kuuk cls_maya_saw cls_maya_tajal_tuun cls_maya_tooka cls_maya_tzakal_koktea cls_maya_tzam cls_maya_tzelum cls_maya_tzutz_nik cls_maya_unen_bahlam cls_maya_unen_kawil cls_maya_wak_took cls_maya_wak_tuun cls_maya_yan_kooj cls_maya_yax_chajnal cls_maya_yohl_iiknal
+	}				
+
+	founder_named_dynasties = yes
+	dynasty_of_location_prefix = "dynnp_u"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 20
+	mat_grf_name_chance = 10
+	father_name_chance = 50
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 10
+	mother_name_chance = 50
+}
+
+name_list_maya = { #Yucatec
+	cadet_dynasty_names = {
+		"dynn_Ake" "dynn_Bonampak" "dynn_Becan" "dynn_Bolonchen" "dynn_Chaac" "dynn_Camazotz"
+		"dynn_Cancuen" "dynn_Caracol" "dynn_Cerros" "dynn_Chacchoben" "dynn_Chacmultun" "dynn_Chinikiha"
+		"dynn_Chinkultic" "dynn_Chunchucmil" "dynn_Civiltuk" "dynn_Calakmul "dynn_Copan" "dynn_Coba "dynn_Dzibilchaltun"
+		"dynn_Dzibilnocac" "dynn_Dzilam" "dynn_Edzna" "dynn_Ekab" "dynn_Gumarcaj" "dynn_Gucumatz" "dynn_Hocchob" 
+		"dynn_Hormiguero" "dynn_Hunahpu" "dynn_Huracan" "dynn_Ixbalanque" "dynn_Ixchel" "dynn_Ixtab" "dynn_Ichmac"
+		"dynn_Ichmul" "dynn_Itzan" "dynn_Ixil" "dynn_Iximche" "dynn_Ixlu" "dynn_Izamal" "dynn_Labna" 
+		"dynn_Lubaantun" "dynn_Lubaantun" "dynn_Kaminaljuyu" "dynn_Kabah" "dynn_Kiuic" "dynn_Kantunil_Kin"
+		"dynn_Lamanai" "dynn_Mayapan" "dynn_Mani" "dynn_Muluchtzekel" 
+		"dynn_Muyil" "dynn_Nakum" "dynn_Nakbe" "dynn_Naranjo" "dynn_Nebaj" "dynn_Okop" "dynn_Oxcutzcab"
+		"dynn_Oxkintok" "dynn_Palenque" "dynn_Pomona" "dynn_Pusilha" "dynn_Quirigua" "dynn_Sayil"
+		"dynn_Seibal" "dynn_Sisila" "dynn_Tonina" 
+		"dynn_Tikal" "dynn_Tulum" "dynn_Tancah" "dynn_Tazumal" "dynn_Tecoh" "dynn_Topoxte" 
+		"dynn_Uxmal" "dynn_Uaxactun" "dynn_Ucanal" "dynn_Uci" "dynn_Utatlan" "dynn_Waka" 
+		"dynn_Xcalumkin" "dynn_Xcaret" "dynn_Xcorralche" "dynn_Xcucsuc" 
+		"dynn_Xculoc" "dynn_Xlapak" "dynn_Xpuhil" "dynn_Xultun" "dynn_Xunantunich" "dynn_Yaklmai" 
+		"dynn_Yaxchilan" "dynn_Yaxha" "dynn_Yookop" "dynn_Zipacna_Zaculeu" 
+	}
+
+	dynasty_names = {
+  	    "dynn_Ake" "dynn_Bonampak" "dynn_Becan" "dynn_Bolonchen" "dynn_Chaac" "dynn_Camazotz"
+		"dynn_Cancuen" "dynn_Caracol" "dynn_Cerros" "dynn_Chacchoben" "dynn_Chacmultun" "dynn_Chinikiha"
+		"dynn_Chinkultic" "dynn_Chunchucmil" "dynn_Civiltuk" "dynn_Calakmul "dynn_Copan" "dynn_Coba "dynn_Dzibilchaltun"
+		"dynn_Dzibilnocac" "dynn_Dzilam" "dynn_Edzna" "dynn_Ekab" "dynn_Gumarcaj" "dynn_Gucumatz" "dynn_Hocchob" 
+		"dynn_Hormiguero" "dynn_Hunahpu" "dynn_Huracan" "dynn_Ixbalanque" "dynn_Ixchel" "dynn_Ixtab" "dynn_Ichmac"
+		"dynn_Ichmul" "dynn_Itzan" "dynn_Ixil" "dynn_Iximche" "dynn_Ixlu" "dynn_Izamal" "dynn_Labna" 
+		"dynn_Lubaantun" "dynn_Lubaantun" "dynn_Kaminaljuyu" "dynn_Kabah" "dynn_Kiuic" "dynn_Kantunil_Kin"
+		"dynn_Lamanai" "dynn_Mayapan" "dynn_Mani" "dynn_Muluchtzekel" 
+		"dynn_Muyil" "dynn_Nakum" "dynn_Nakbe" "dynn_Naranjo" "dynn_Nebaj" "dynn_Okop" "dynn_Oxcutzcab"
+		"dynn_Oxkintok" "dynn_Palenque" "dynn_Pomona" "dynn_Pusilha" "dynn_Quirigua" "dynn_Sayil"
+		"dynn_Seibal" "dynn_Sisila" "dynn_Tonina" 
+		"dynn_Tikal" "dynn_Tulum" "dynn_Tancah" "dynn_Tazumal" "dynn_Tecoh" "dynn_Topoxte" 
+		"dynn_Uxmal" "dynn_Uaxactun" "dynn_Ucanal" "dynn_Uci" "dynn_Utatlan" "dynn_Waka" 
+		"dynn_Xcalumkin" "dynn_Xcaret" "dynn_Xcorralche" "dynn_Xcucsuc" 
+		"dynn_Xculoc" "dynn_Xlapak" "dynn_Xpuhil" "dynn_Xultun" "dynn_Xunantunich" "dynn_Yaklmai" 
+		"dynn_Yaxchilan" "dynn_Yaxha" "dynn_Yo'okop" "dynn_Zipacna_Zaculeu"
+	}
+
+		male_names = {
+
+			yct_maya_nuun_ujol_chaak yct_maya_muwaan_jol yct_maya_jasaw_chan_kawiil yct_maya_yikin_chan_kawiil yct_maya_yax_nuun_ahiin yct_maya_nuun_ujol_kinich yct_maya_tzah_noh_chenhna yct_maya_kawiil yct_maya_kinich_eb yct_maya_sihyaj_chan yct_maya_ete yct_maya_wak_chan_kawiil yct_maya_chak_tok_ichaak yct_maya_kan_chitam yct_maya_kaloomte_bahlam yct_maya_kan_ak yct_maya_te_kinich yct_maya_saak_ti_huun yct_maya_kan yct_maya_ta_batz yct_maya_uneh_chan yct_maya_kak_tiliw yct_maya_bajlaj yct_maya_nuun yct_maya_yuknoom_cheen yct_maya_itzamnaaj_balam yct_maya_baalam yct_maya_itzamna yct_maya_yaxkin yct_maya_tok_ichaak yct_maya_siyaj_kak yct_maya_ehb_xook yct_maya_yax_ehb_xook yct_maya_ah_mekat yct_maya_ah_suytok yct_maya_ah_xupan yct_maya_bolon yct_maya_tuun_kab yct_maya_wamaw yct_maya_yax_yopaat yct_maya_yuknoom
+
+		}
+
+		female_names = {
+
+            #My own name list	
+			yct_maya_lahan_unen_mo yct_maya_kalajuun_une_mo yct_maya_ix_kaloomte yct_maya_ix_yokin yct_maya_ix_kahk yct_maya_ix_wak_chan yct_maya_ix_tzutz_nik yct_maya_ix_ahiin yct_maya_ix_batz_ek yct_maya_ix_kabel yct_maya_kabel yct_maya_wak_chan yct_maya_ixchel yct_maya_itzel yct_maya_nikte yct_maya_saknikte yct_maya_yatzil yct_maya_yaxkin yct_maya_zazil yct_maya_unen_bahlam yct_maya_ix_kinich yct_maya_ix_naah_ek yct_maya_ix_bakab yct_maya_ix_bulu yct_maya_ik yct_maya_wak_chanil yct_maya_ix_yopaat yct_maya_ix_kawiil_ek yct_maya_juntan_ahk yct_maya_une_mo
+
+		}				
+
+	founder_named_dynasties = yes
+	dynasty_of_location_prefix = "dynnp_u"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 20
+	mat_grf_name_chance = 10
+	father_name_chance = 50
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 10
+	mother_name_chance = 50
+}
+
+name_list_highland_maya = { #Kiche
+	cadet_dynasty_names = {
+		"dynn_Ake" "dynn_Bonampak" "dynn_Becan" "dynn_Bolonchen" "dynn_Chaac" "dynn_Camazotz"
+		"dynn_Cancuen" "dynn_Caracol" "dynn_Cerros" "dynn_Chacchoben" "dynn_Chacmultun" "dynn_Chinikiha"
+		"dynn_Chinkultic" "dynn_Chunchucmil" "dynn_Civiltuk" "dynn_Calakmul "dynn_Copan" "dynn_Coba "dynn_Dzibilchaltun"
+		"dynn_Dzibilnocac" "dynn_Dzilam" "dynn_Edzna" "dynn_Ekab" "dynn_Gumarcaj" "dynn_Gucumatz" "dynn_Hocchob" 
+		"dynn_Hormiguero" "dynn_Hunahpu" "dynn_Huracan" "dynn_Ixbalanque" "dynn_Ixchel" "dynn_Ixtab" "dynn_Ichmac"
+		"dynn_Ichmul" "dynn_Itzan" "dynn_Ixil" "dynn_Iximche" "dynn_Ixlu" "dynn_Izamal" "dynn_Labna" 
+		"dynn_Lubaantun" "dynn_Lubaantun" "dynn_Kaminaljuyu" "dynn_Kabah" "dynn_Kiuic" "dynn_Kantunil_Kin"
+		"dynn_Lamanai" "dynn_Mayapan" "dynn_Mani" "dynn_Muluchtzekel" 
+		"dynn_Muyil" "dynn_Nakum" "dynn_Nakbe" "dynn_Naranjo" "dynn_Nebaj" "dynn_Okop" "dynn_Oxcutzcab"
+		"dynn_Oxkintok" "dynn_Palenque" "dynn_Pomona" "dynn_Pusilha" "dynn_Quirigua" "dynn_Sayil"
+		"dynn_Seibal" "dynn_Sisila" "dynn_Tonina" 
+		"dynn_Tikal" "dynn_Tulum" "dynn_Tancah" "dynn_Tazumal" "dynn_Tecoh" "dynn_Topoxte" 
+		"dynn_Uxmal" "dynn_Uaxactun" "dynn_Ucanal" "dynn_Uci" "dynn_Utatlan" "dynn_Waka" 
+		"dynn_Xcalumkin" "dynn_Xcaret" "dynn_Xcorralche" "dynn_Xcucsuc" 
+		"dynn_Xculoc" "dynn_Xlapak" "dynn_Xpuhil" "dynn_Xultun" "dynn_Xunantunich" "dynn_Yaklmai" 
+		"dynn_Yaxchilan" "dynn_Yaxha" "dynn_Yookop" "dynn_Zipacna_Zaculeu" 
+	}
+
+	dynasty_names = {
+  	    "dynn_Ake" "dynn_Bonampak" "dynn_Becan" "dynn_Bolonchen" "dynn_Chaac" "dynn_Camazotz"
+		"dynn_Cancuen" "dynn_Caracol" "dynn_Cerros" "dynn_Chacchoben" "dynn_Chacmultun" "dynn_Chinikiha"
+		"dynn_Chinkultic" "dynn_Chunchucmil" "dynn_Civiltuk" "dynn_Calakmul "dynn_Copan" "dynn_Coba "dynn_Dzibilchaltun"
+		"dynn_Dzibilnocac" "dynn_Dzilam" "dynn_Edzna" "dynn_Ekab" "dynn_Gumarcaj" "dynn_Gucumatz" "dynn_Hocchob" 
+		"dynn_Hormiguero" "dynn_Hunahpu" "dynn_Huracan" "dynn_Ixbalanque" "dynn_Ixchel" "dynn_Ixtab" "dynn_Ichmac"
+		"dynn_Ichmul" "dynn_Itzan" "dynn_Ixil" "dynn_Iximche" "dynn_Ixlu" "dynn_Izamal" "dynn_Labna" 
+		"dynn_Lubaantun" "dynn_Lubaantun" "dynn_Kaminaljuyu" "dynn_Kabah" "dynn_Kiuic" "dynn_Kantunil_Kin"
+		"dynn_Lamanai" "dynn_Mayapan" "dynn_Mani" "dynn_Muluchtzekel" 
+		"dynn_Muyil" "dynn_Nakum" "dynn_Nakbe" "dynn_Naranjo" "dynn_Nebaj" "dynn_Okop" "dynn_Oxcutzcab"
+		"dynn_Oxkintok" "dynn_Palenque" "dynn_Pomona" "dynn_Pusilha" "dynn_Quirigua" "dynn_Sayil"
+		"dynn_Seibal" "dynn_Sisila" "dynn_Tonina" 
+		"dynn_Tikal" "dynn_Tulum" "dynn_Tancah" "dynn_Tazumal" "dynn_Tecoh" "dynn_Topoxte" 
+		"dynn_Uxmal" "dynn_Uaxactun" "dynn_Ucanal" "dynn_Uci" "dynn_Utatlan" "dynn_Waka" 
+		"dynn_Xcalumkin" "dynn_Xcaret" "dynn_Xcorralche" "dynn_Xcucsuc" 
+		"dynn_Xculoc" "dynn_Xlapak" "dynn_Xpuhil" "dynn_Xultun" "dynn_Xunantunich" "dynn_Yaklmai" 
+		"dynn_Yaxchilan" "dynn_Yaxha" "dynn_Yo'okop" "dynn_Zipacna_Zaculeu"
+	}
+
+	male_names = {
+
+		#cls_maya_pakal cls_maya_kuk_bahlam cls_maya_kan_bahlam cls_maya_kan_mo_hix cls_maya_butz_aj_sak_chiik cls_maya_kan_joy_chitam cls_maya_chitam cls_maya_ahkal_mo_nahb cls_maya_itzamnaaj_bahlam #cls_maya_yaxun_bahlam cls_maya_yaxun_balam cls_maya_tatbu_jol cls_maya_tatbu_skull cls_maya_yopaat_balam cls_maya_bahlam cls_maya_itzam cls_maya_yaxkin cls_maya_yax_kuk_mo cls_maya_popol_hol #cls_maya_ku_ix cls_maya_balam_nahn cls_maya_chan_imix cls_maya_kak_chan cls_maya_kak_joplaj_chan cls_maya_kak_yipyaj_chan cls_maya_sak_lu cls_maya_tzi_balam cls_maya_uaxaclajuun_ubaah #cls_maya_ukit_took cls_maya_wil_ohl_kinich cls_maya_yax_pasaj cls_maya_kan_mo_hix      
+
+		cls_maya_aajaaw_bot cls_maya_ahiin cls_maya_ahk cls_maya_ahkal cls_maya_ahkul_moo cls_maya_ajan cls_maya_atz cls_maya_bah cls_maya_bahlam cls_maya_bahlam_aajaaw cls_maya_balun_kawil cls_maya_balun_tuun cls_maya_bohb cls_maya_chak_chan cls_maya_chak_el cls_maya_chak_hix cls_maya_chak_suutz cls_maya_chan cls_maya_chan_aajaaw cls_maya_chan_ahk cls_maya_chan_kan cls_maya_chan_kinich cls_maya_chan_yopaat cls_maya_el_kinich cls_maya_hix cls_maya_hux cls_maya_iik cls_maya_iiknal cls_maya_janab cls_maya_juun_bahlam cls_maya_kaan cls_maya_kaan_bahlam cls_maya_kab cls_maya_kab_chante cls_maya_kahk cls_maya_kahk_bahlam cls_maya_kal cls_maya_kal_kaan cls_maya_kan_eek cls_maya_kanan cls_maya_kawil cls_maya_kawil_kinich cls_maya_kawil_took cls_maya_kiin_bahlam cls_maya_kinich cls_maya_kinich_bahlam cls_maya_kinich_kuk cls_maya_kinich_lakamtuun cls_maya_kuk cls_maya_kuk_aajaaw cls_maya_kuk_bahlam cls_maya_kul cls_maya_kulub cls_maya_kutim cls_maya_lakam_chahk cls_maya_muux cls_maya_muwahn cls_maya_muwahn_bahlam cls_maya_muyaal_chahk cls_maya_sak_bahlam cls_maya_sak_suutz cls_maya_sihyaj_kahk cls_maya_sihyaj_kawil cls_maya_suutz cls_maya_tajal_moo cls_maya_ukit cls_maya_upakal_kinich cls_maya_wahyis cls_maya_waw cls_maya_ya_bahlam cls_maya_yaajaawte_kinich cls_maya_yaxun cls_maya_yaxun_bahlam cls_maya_yeejte_kinich cls_maya_yopaat cls_maya_yopaat_bahlam 
+	}
+
+	female_names = {
+
+       # cls_maya_iknal cls_maya_muwaan_mat cls_maya_sak_kuk cls_maya_ik_skull cls_maya_chak_joloom cls_maya_wak_tuun cls_maya_wak_jalam cls_maya_mut_bahlam cls_maya_ix_pacal cls_maya_kabal_xook cls_maya_xibalba cls_maya_ix_chak_joloom cls_maya_ix_chab cls_maya_ixchel cls_maya_nichte cls_maya_yaxkin cls_maya_yohl_iknal cls_maya_kabal_xook_2 cls_maya_ik_xook cls_maya_muwaan_mat_2 cls_maya_kawiil_yopaat cls_maya_ol_nan
+
+       cls_maya_ahiin_kuuk cls_maya_ahkabil cls_maya_ahkal_oxom cls_maya_ahkal_patah cls_maya_alatzil cls_maya_baakel cls_maya_bahlam_moo cls_maya_batz cls_maya_batz_eek cls_maya_buluch cls_maya_chak_hix cls_maya_chak_jolom cls_maya_chak_tzi cls_maya_chel cls_maya_haal cls_maya_hix cls_maya_hux_kaan cls_maya_ihkatz cls_maya_iis cls_maya_ikoom cls_maya_ix_ahiin cls_maya_ix_aj_paach cls_maya_ix_chanal cls_maya_ix_kamay cls_maya_jatznoom_chan cls_maya_jomib cls_maya_jop_kinich cls_maya_juntahn_ahk cls_maya_ka_pehkel cls_maya_kabel_nahb cls_maya_kahkis cls_maya_kalte cls_maya_kan_balun cls_maya_kan_ik cls_maya_kanel cls_maya_kawil_kaan cls_maya_kayam cls_maya_kebte cls_maya_kech cls_maya_kinich cls_maya_kinuw_mat cls_maya_kot_bahlam cls_maya_men_nik cls_maya_moo cls_maya_mut_bahlam cls_maya_nah_chan cls_maya_nahb_kuh cls_maya_nahbat cls_maya_nikte cls_maya_ook_ahiin cls_maya_pakal cls_maya_sajal_juj cls_maya_sak_biyan cls_maya_sak_kuuk cls_maya_saw cls_maya_tajal_tuun cls_maya_tooka cls_maya_tzakal_koktea cls_maya_tzam cls_maya_tzelum cls_maya_tzutz_nik cls_maya_unen_bahlam cls_maya_unen_kawil cls_maya_wak_took cls_maya_wak_tuun cls_maya_yan_kooj cls_maya_yax_chajnal cls_maya_yohl_iiknal
+	}			
+
+	founder_named_dynasties = yes
+	dynasty_of_location_prefix = "dynnp_al'"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 20
+	mat_grf_name_chance = 10
+	father_name_chance = 50
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 10
+	mother_name_chance = 50
+}
+
+name_list_euro_cholan_1 = { #Tchoulan
+	cadet_dynasty_names = {
+		dynn_abincali dynn_abol dynn_abomai dynn_aciban dynn_acibit dynn_acicone dynn_aguacan dynn_abin dynn_acabil dynn_acanan dynn_acat dynn_aluma dynn_amal dynn_amistin dynn_amai dynn_amus dynn_apo dynn_ascaguil dynn_atrich dynn_bats dynn_bolai dynn_boloc dynn_bolontchac dynn_cali dynn_calicon dynn_calimi dynn_calinis dynn_catan dynn_canal dynn_cante dynn_ciman dynn_coban dynn_coguo dynn_cutchin dynn_hulin dynn_imban dynn_iquin dynn_iuanat dynn_lamatasel dynn_malna dynn_metan dynn_nisaau dynn_atchamal dynn_canantum dynn_tchantcha dynn_pachmulu dynn_papacanam dynn_patcul dynn_calitunul dynn_chutchit dynn_manatcha dynn_panatcha dynn_cgetchul dynn_selutich
+	}
+
+	dynasty_names = {
+  	    dynn_abincali dynn_abol dynn_abomai dynn_aciban dynn_acibit dynn_acicone dynn_aguacan dynn_abin dynn_acabil dynn_acanan dynn_acat dynn_aluma dynn_amal dynn_amistin dynn_amai dynn_amus dynn_apo dynn_ascaguil dynn_atrich dynn_bats dynn_bolai dynn_boloc dynn_bolontchac dynn_cali dynn_calicon dynn_calimi dynn_calinis dynn_catan dynn_canal dynn_cante dynn_ciman dynn_coban dynn_coguo dynn_cutchin dynn_hulin dynn_imban dynn_iquin dynn_iuanat dynn_lamatasel dynn_malna dynn_metan dynn_nisaau dynn_atchamal dynn_canantum dynn_tchantcha dynn_pachmulu dynn_papacanam dynn_patcul dynn_calitunul dynn_chutchit dynn_manatcha dynn_panatcha dynn_cgetchul dynn_selutich
+	}
+
+	male_names = {
+		60 = {
+			eu_chol_pacal eu_chol_canbalam eu_chol_cganmoich eu_chol_tchitam eu_chol_acalmonab eu_chol_iachunbbalam eu_chol_tattbuiol eu_chol_tatbuscul eu_chol_iopatbbalam eu_chol_balam eu_chol_itcam eu_chol_iachqquin eu_chol_iachccuccmo eu_chol_popolol eu_chol_cuich eu_chol_bgalamnan eu_chol_tchanimich eu_chol_cgacctchan eu_chol_saclu eu_chol_tcibbalam eu_chol_uquitoc eu_chol_iachpasai eu_chol_cganmoich_2 eu_chol_acat eu_chol_acal eu_chol_catan eu_chol_tchac eu_chol_cgan eu_chol_mo eu_chol_nab eu_chol_tciquin eu_chol_iachebchoc 
+		}
+		40 = {
+			eu_chol_iob eu_chol_iosias eu_chol_salomon eu_chol_time eu_chol_osias eu_chol_aron eu_chol_abraam eu_chol_adam eu_chol_andre eu_chol_barttelemi eu_chol_bentchamin eu_chol_tgavitt eu_chol_tganiel eu_chol_gabriel eu_chol_tchen eu_chol_tchacob eu_chol_tchaques eu_chol_tcheremie eu_chol_tchonattan eu_chol_tchosue eu_chol_tchuttas eu_chol_marc eu_chol_mattieu eu_chol_michel eu_chol_nattan eu_chol_piere eu_chol_tomas eu_chol_luc
+		}
+	}
+
+	female_names = {
+		60 = {
+			eu_chol_iccnal eu_chol_muanmat eu_chol_iccscul eu_chol_uactun eu_chol_mutbalam eu_chol_ichpacal eu_chol_chibalba eu_chol_ichtcchab eu_chol_ichtchel eu_chol_tchel eu_chol_nitchte eu_chol_iachqquin eu_chol_ioliccnal eu_chol_cgauiliopat eu_chol_olnan eu_chol_acat eu_chol_alucha eu_chol_catan eu_chol_chac eu_chol_ecc eu_chol_eccnaa eu_chol_camali eu_chol_nictae eu_chol_tcacbu eu_chol_tciquin eu_chol_unenbalam eu_chol_ioliccnal_2 
+		}
+		40 = {
+			eu_chol_abigail eu_chol_ane eu_chol_iesabel eu_chol_tgebora eu_chol_eve eu_chol_elie eu_chol_elisabett eu_chol_tchene eu_chol_tchuttitt eu_chol_marie eu_chol_ratchel eu_chol_rebeca eu_chol_sara eu_chol_susane
+		}	
+	}			
+
+	founder_named_dynasties = yes
+	dynasty_of_location_prefix = "dynnp_al_euromayan"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 20
+	mat_grf_name_chance = 10
+	father_name_chance = 50
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 10
+	mother_name_chance = 50
+}
+
+name_list_euro_cholan_2 = { #Cholten
+	cadet_dynasty_names = {
+		dynn_Abincaly dynn_Abol dynn_Abomay dynn_Asiban dynn_Asibit dynn_Asicone dynn_Awasan dynn_Abin dynn_Acabil dynn_Acanan dynn_Acat dynn_Aluma dynn_Amal dynn_Amistin dynn_Amai dynn_Amus dynn_Apo dynn_Ascawil dynn_Atlish dynn_Bats dynn_Bolay dynn_Boloc dynn_Bolonchac dynn_Caly dynn_Calicon dynn_Calimy dynn_Calinis dynn_Catan dynn_Canal dynn_Cante dynn_Siman dynn_Coban dynn_Cowo dynn_Cuchin dynn_Hulin dynn_Imban dynn_Ikin dynn_Iwanat dynn_Lamatasel dynn_Malna dynn_Metan dynn_Nisahau dynn_Achamal dynn_Canantum dynn_Chancha dynn_Pashmulu dynn_Papacanam dynn_Patsul dynn_Calitwenul dynn_Shuchit dynn_Manacha dynn_Panacha dynn_Cqechul dynn_Lamatasel dynn_Selutish dynn_Yocop dynn_Bolontchac dynn_Chanuhnol dynn_Cqicun dynn_Itscqinshul
+	}
+
+	dynasty_names = {
+  	    dynn_Abincaly dynn_Abol dynn_Abomay dynn_Asiban dynn_Asibit dynn_Asicone dynn_Awasan dynn_Abin dynn_Acabil dynn_Acanan dynn_Acat dynn_Aluma dynn_Amal dynn_Amistin dynn_Amai dynn_Amus dynn_Apo dynn_Ascawil dynn_Atlish dynn_Bats dynn_Bolay dynn_Boloc dynn_Bolonchac dynn_Caly dynn_Calicon dynn_Calimy dynn_Calinis dynn_Catan dynn_Canal dynn_Cante dynn_Siman dynn_Coban dynn_Cowo dynn_Cuchin dynn_Hulin dynn_Imban dynn_Ikin dynn_Iwanat dynn_Lamatasel dynn_Malna dynn_Metan dynn_Nisahau dynn_Achamal dynn_Canantum dynn_Chancha dynn_Pashmulu dynn_Papacanam dynn_Patsul dynn_Calitwenul dynn_Shuchit dynn_Manacha dynn_Panacha dynn_Cqechul dynn_Lamatasel dynn_Selutish dynn_Yocop dynn_Bolontchac dynn_Chanuhnol dynn_Cqicun dynn_Itscqinshul
+	}
+
+	male_names = {
+		eu2_maya_ahawbot eu2_maya_ahiin eu2_maya_ahc eu2_maya_ahcal eu2_maya_ahculmoh eu2_maya_ahan eu2_maya_ats eu2_maya_bah eu2_maya_bahlam eu2_maya_bahlamahaw eu2_maya_baluncqawil eu2_maya_baluntun eu2_maya_bohb eu2_maya_chakchan eu2_maya_chacel eu2_maya_chakhish eu2_maya_chacsutsq eu2_maya_chan eu2_maya_chanahaw eu2_maya_chanahc eu2_maya_chancqan eu2_maya_chancqinich eu2_maya_chanyopqat eu2_maya_elcqinich eu2_maya_hish eu2_maya_hush eu2_maya_icq eu2_maya_icqnal eu2_maya_hanab eu2_maya_hunbahlam eu2_maya_can eu2_maya_canbahlam eu2_maya_cab eu2_maya_cqabchanteh eu2_maya_cqahcq eu2_maya_cqahcqbahlam eu2_maya_cqal eu2_maya_calcan eu2_maya_canecq eu2_maya_canan eu2_maya_cqawil eu2_maya_cqawilcqinich eu2_maya_cqawiltocq eu2_maya_cqinbahlam eu2_maya_cqinich eu2_maya_cqinichbahlam eu2_maya_cqinichcquhcq eu2_maya_cqinichlacamtun eu2_maya_cqucq eu2_maya_cqucqahaw eu2_maya_cqucqbahlam eu2_maya_cqul eu2_maya_culub eu2_maya_cqutim eu2_maya_lacamchahc eu2_maya_mush eu2_maya_muwahn eu2_maya_muwahnbahlam eu2_maya_muyalchahc eu2_maya_sacbahlam eu2_maya_sacsuts eu2_maya_sihyahcqahcq eu2_maya_sihyahcqawil eu2_maya_sutsq eu2_maya_tahalmoh eu2_maya_ukit eu2_maya_upakalcqinich eu2_maya_wahyis eu2_maya_waw eu2_maya_yahbahlam eu2_maya_yahawtehcqinich eu2_maya_yashun eu2_maya_yashunbahlam eu2_maya_yehtehcqinich eu2_maya_yopqat eu2_maya_yopqatbalam
+	}
+
+	female_names = {
+		eu2_maya_Ahincqucq eu2_maya_Ahcqabil eu2_maya_Ahcaloshom eu2_maya_Ahalpatah eu2_maya_Alatsil eu2_maya_Bakel eu2_maya_Bahlammoh eu2_maya_Bahtsq eu2_maya_Batsqecq eu2_maya_Buluch eu2_maya_Chakhish eu2_maya_Chakhohlom eu2_maya_Chactsqih eu2_maya_Chel eu2_maya_Hahal eu2_maya_Hish eu2_maya_Hushcan eu2_maya_Ihcats eu2_maya_Is eu2_maya_Icom eu2_maya_Ishahin eu2_maya_Ishahpach eu2_maya_Ishchanal eu2_maya_Ishcamay eu2_maya_Hatsqnomchan eu2_maya_Homib eu2_maya_Hopcqinich eu2_maya_Huntahnahc eu2_maya_Cqahpehcqel eu2_maya_Cqabelnahb eu2_maya_Cqhcqis eu2_maya_Cqalteh eu2_maya_Cqanbalun eu2_maya_Canic eu2_maya_Cqanel eu2_maya_Cqawilcan eu2_maya_Cqayam eu2_maya_Cqebteh eu2_maya_Cqech eu2_maya_Cqinich eu2_maya_Kinuwmat eu2_maya_Cotbahlam eu2_maya_Mennic eu2_maya_Moh eu2_maya_Mutbahlam eu2_maya_Nahchan eu2_maya_Nahbcquh eu2_maya_Nahbat eu2_maya_Nicteh eu2_maya_Ocahin eu2_maya_Pacal eu2_maya_Sahalhuh eu2_maya_Sacbiyan eu2_maya_Saccquhcq eu2_maya_Saw eu2_maya_Tahaltun eu2_maya_Tocqah eu2_maya_Tsacalcoctehah eu2_maya_Tsam eu2_maya_Tsqelum eu2_maya_Tsutsnic eu2_maya_Unenbahlam eu2_maya_Unencqawil eu2_maya_Wactoc eu2_maya_Wactun eu2_maya_Yancqoh eu2_maya_Yashchqahnal eu2_maya_Yohlicqnal
+	}			
+
+	founder_named_dynasties = yes
+	dynasty_of_location_prefix = "dynnp_al_euromayan"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 20
+	mat_grf_name_chance = 10
+	father_name_chance = 50
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 10
+	mother_name_chance = 50
+}
+
+name_list_euro_cholan_3 = { #Tjoltisk
+	cadet_dynasty_names = {
+		dynn_abinkali dynn_abol dynn_abolmai dynn_asiban dynn_asibit dynn_asikone dynn_avasan dynn_abin dynn_akabil dynn_akanan dynn_akat dynn_aluma dynn_amal dynn_amistin dynn_amai dynn_amus dynn_apo dynn_askavil dynn_atliks dynn_bats dynn_bolai dynn_bolok dynn_bolontjak dynn_kali dynn_kalikon dynn_kalimi dynn_kalinis dynn_katan dynn_kanal dynn_kante dynn_siman dynn_koban dynn_kovo dynn_kutjin dynn_hulin dynn_imban dynn_ikin dynn_ivanat dynn_lamatasel dynn_malna dynn_metan dynn_nisahau dynn_atjamal dynn_canantum dynn_tjantja dynn_pasjmulu dynn_papakanam dynn_patsul dynn_kalitvenul dynn_ksutjit dynn_manatja dynn_panatja dynn_cketjul dynn_selutiks dynn_jokop dynn_tjanunol dynn_ckikun dynn_itsckinsjul
+	}
+
+	dynasty_names = {
+  	    dynn_abinkali dynn_abol dynn_abolmai dynn_asiban dynn_asibit dynn_asikone dynn_avasan dynn_abin dynn_akabil dynn_akanan dynn_akat dynn_aluma dynn_amal dynn_amistin dynn_amai dynn_amus dynn_apo dynn_askavil dynn_atliks dynn_bats dynn_bolai dynn_bolok dynn_bolontjak dynn_kali dynn_kalikon dynn_kalimi dynn_kalinis dynn_katan dynn_kanal dynn_kante dynn_siman dynn_koban dynn_kovo dynn_kutjin dynn_hulin dynn_imban dynn_ikin dynn_ivanat dynn_lamatasel dynn_malna dynn_metan dynn_nisahau dynn_atjamal dynn_canantum dynn_tjantja dynn_pasjmulu dynn_papakanam dynn_patsul dynn_kalitvenul dynn_ksutjit dynn_manatja dynn_panatja dynn_cketjul dynn_selutiks dynn_jokop dynn_tjanunol dynn_ckikun dynn_itsckinsjul
+	}
+
+	male_names = {
+		eu3_maya_ahavbot eu3_maya_ahin eu3_maya_ak eu3_maya_akal eu3_maya_akulmo eu3_maya_ahan eu3_maya_ats eu3_maya_bah eu3_maya_balam eu3_maya_balamahav eu3_maya_balunckavil eu3_maya_baluntun eu3_maya_bob eu3_maya_tjaktjan eu3_maya_tjakel eu3_maya_tjakhiks eu3_maya_tjaksutjs eu3_maya_tjan eu3_maya_tjanahav eu3_maya_tjanak eu3_maya_tjanckan eu3_maya_tjanckinitg eu3_maya_tjanjopkat eu3_maya_elckinitg eu3_maya_hiks eu3_maya_huks eu3_maya_ick eu3_maya_icknal eu3_maya_hanab eu3_maya_hunbalam eu3_maya_kan eu3_maya_kanbalam eu3_maya_kab eu3_maya_ckabtjante eu3_maya_ckack eu3_maya_ckackbalam eu3_maya_ckal eu3_maya_kalkan eu3_maya_kaneck eu3_maya_kanan eu3_maya_ckavil eu3_maya_ckavilkinitg eu3_maya_ckaviltock eu3_maya_ckinbalam eu3_maya_ckinich eu3_maya_ckinitjbalam eu3_maya_ckinitjckuck eu3_maya_ckinitjlakamtun eu3_maya_ckuck eu3_maya_ckuckahav eu3_maya_ckuckbalam eu3_maya_ckul eu3_maya_kulub eu3_maya_ckutim eu3_maya_lakamtjak eu3_maya_muks eu3_maya_muvan eu3_maya_muvanbalam eu3_maya_mujaltjak eu3_maya_sakbalam eu3_maya_saksuds eu3_maya_sihyackack eu3_maya_sihyackavil eu3_maya_suts eu3_maya_tahalmo eu3_maya_ukit eu3_maya_upakalckinitg eu3_maya_vahyis eu3_maya_vav eu3_maya_jabalam eu3_maya_jahavteckinitg eu3_maya_jasjun eu3_maya_jasjunbalam eu3_maya_jeteckinitg eu3_maya_jopkat eu3_maya_jopkatbalam
+	}
+
+	female_names = {
+		eu3_maya_ahinckuck eu3_maya_ackabil eu3_maya_akalosjom eu3_maya_akalpata eu3_maya_alatsil eu3_maya_bakel eu3_maya_balammo eu3_maya_bads eu3_maya_badseck eu3_maya_bulutg eu3_maya_tjakiviks eu3_maya_tjakholom eu3_maya_tjakdsi eu3_maya_tjel eu3_maya_hahal eu3_maya_hiks eu3_maya_husjkan eu3_maya_ikats eu3_maya_ijs eu3_maya_ikom eu3_maya_isjahin eu3_maya_isjahpatg eu3_maya_isjtjanal eu3_maya_isjkamay eu3_maya_hadsnomtjan eu3_maya_homib eu3_maya_hopckinitg eu3_maya_huntanak eu3_maya_ckapeckel eu3_maya_ckabelbab eu3_maya_ckackis eu3_maya_ckalte eu3_maya_ckanbalun eu3_maya_kanik eu3_maya_ckanel eu3_maya_ckavilkan eu3_maya_ckajam eu3_maya_ckebte eu3_maya_cketg eu3_maya_ckinitg eu3_maya_kinuvmat eu3_maya_kotbalam eu3_maya_mennik eu3_maya_mo eu3_maya_mutbalam eu3_maya_natjan eu3_maya_nabcku eu3_maya_nabat eu3_maya_nikte eu3_maya_okahin eu3_maya_pakal eu3_maya_sahalhuh eu3_maya_sakbijan eu3_maya_sakckuck eu3_maya_sav eu3_maya_tahaltun eu3_maya_tocka eu3_maya_tsakalkokteha eu3_maya_tsam eu3_maya_dselum eu3_maya_tsutsnik eu3_maya_unenbalam eu3_maya_unenckavil eu3_maya_vaktok eu3_maya_vaktun eu3_maya_janckoh eu3_maya_jasjtjahnal eu3_maya_jolicknal
+	}			
+
+	founder_named_dynasties = yes
+	dynasty_of_location_prefix = "dynnp_al_euromayan"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 20
+	mat_grf_name_chance = 10
+	father_name_chance = 50
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 10
+	mother_name_chance = 50
+}

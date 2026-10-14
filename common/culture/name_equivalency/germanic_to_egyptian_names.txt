@@ -2197,3 +2197,38 @@ Faam_female = { Faam Farm_hmg }
 Nkauj_female = { Nkauj Gao }
 NkaujNtxawm_female = { Nkauj_Ntxawm Gao_Jer }
 Hawj_female = { Hawj Ha_u }
+
+# Mayan names
+
+Ahculmo_male = { gals_Ahculmo cls_maya_ahkul_moo }
+Ahcal_male = { gals_Ahcal cls_maya_ahkal }
+Chan_male = { gals_Chan cls_maya_chan }
+Ckawil_male = { gals_Ckawil cls_maya_kawil }
+Bahlam_male = { gals_Bahlam cls_maya_bahlam }
+Bot_male = { gals_Bot cls_maya_aajaaw_bot }
+Ahc_male = { gals_Ahc cls_maya_ahk }
+Caneck_male = { gals_Caneck cls_maya_kan_eek }
+Chanckinich_male = { gals_Chanckinich cls_maya_chan_kinich }
+Yophat_male = { gals_Yophat cls_maya_yopaat }
+Ahin_male = { gals_Ahin cls_maya_ahiin }
+Chanahc_male = { gals_Chanahc cls_maya_chan_ahk }
+Hhunbalam_male = { gals_Hhunbalam cls_maya_juun_bahlam }
+Canckuhck_male = { gals_Canckuhck }
+Siyahckack_male = { gals_Siyahckack cls_maya_sihyaj_kahk }
+Yaghawteh_male = { gals_Yaghawteh cls_maya_yaajaawte_kinich }
+Ckinich_male = { gals_Ckinich cls_maya_kinich }
+
+Ahckabil_female = { gals_Ahckabil cls_maya_ahkabil }
+Alatsil_female = { gals_Alatsil cls_maya_alatzil }
+Backel_female = { gals_Backel cls_maya_baakel }
+Batseck_female = { gals_Batseck cls_maya_batz_eek }
+Buluch_female = { gals_Buluch cls_maya_buluch }
+Chel_female = { gals_Chel cls_maya_chel }
+Hish_female = { gals_Hish cls_maya_hix }
+Ihcats_female = { gals_Ihcats cls_maya_ihkatz }
+Iis_female = { gals_Iis cls_maya_iis }
+Icom_female = { gals_Icom cls_maya_ikoom }
+Ishcamay_female = { gals_Ishcamay cls_maya_ix_kamay }
+Hhomib_female = { gals_Hhomib cls_maya_jomib }
+Ckayammoh_female = { gals_Ckayammoh  }
+Tsam_female = { gals_Tsam cls_maya_tzam }
