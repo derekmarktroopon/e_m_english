@@ -1,0 +1,218 @@
+﻿l_english:
+
+  # Old Italic
+  
+ name_list_venetic_culture:0 "Venetic"
+ name_list_venetian:0 "Venetian"
+ name_list_proto_italic:0 "Early Italic"
+ name_list_romanoveneti:0 "Romano-Veneti"
+ name_list_liburnian:0 "Liburnian"
+ name_list_raetic:0 "Raetic"
+ name_list_neo_raetic:0 "Late Raetian"
+ name_list_old_ligurian:0 "Old Ligurian"
+ name_list_neo_ligurian:0 "Late Ligure"
+ name_list_oscan:0 "Oscan"
+
+  # Gaulish
+
+ name_list_gaulish:0 "Gaulish"
+ name_list_late_luso_gaulish:0 "Luso-Gaulish"
+ name_list_neo_gaule:0 "Gaule"
+ name_list_late_ibero_gaulish:0 "Gaulespanic"
+ name_list_late_cisalpine_gaulish:0 "Cisalpine-Gaul"
+ name_list_proto_celtic:0 "Proto-Celtic"
+
+ #Iberian Celtic
+
+ name_list_celtiberian:0 "Celtiberian"
+ name_list_lusitanian:0 "Lusitanian"
+ name_list_neo_gallaecian:0 "Neo Gallaecian"
+ name_list_neo_celtiberian:0 "Celtespanic"
+ name_list_neo_lusitanian:0 "Neo Lusitanian"
+
+ # Cisalpine Celtic
+
+ name_list_lepontic:0 "Lepontic"
+ name_list_neo_lepontic:0 "Neo Lepontic"
+
+ # Brythonic
+
+ name_list_east_brythonic:0 "East Brythonic"
+ name_list_late_brythonic:0 "Late Brittonic"
+ name_list_old_brythonic:0 "Prittanic"
+
+ # Kemetic + East African
+
+ name_list_predynastic_egyptian:0 "Old Egyptian"
+ name_list_kemetic:0 "Kemetic"
+ name_list_demotic:0 "Demotic"
+ name_list_coptic:0 "Coptic"
+ name_list_kushite:0 "Kushite"
+
+ # PIE
+
+ name_list_pie:0 "Teutéhic"
+ 
+ # Old + West Germanic
+
+ name_list_proto_norse:0 "Proto-Norse"
+ name_list_proto_germanic:0 "Proto-Germanic"
+ name_list_later_vendel:0 "Vendel"
+ name_list_gothic:0 "Gothic"
+ name_list_gotho_roman:0 "Gotho-Roman"
+ name_list_gotho_greek:0 "Gotho-Greek"
+ name_list_late_gothic:0 "Later Gothic"
+ name_list_late_gothic_northwestern:0 "Nordogoth"
+ name_list_vandalic:0 "Vandalic"
+ name_list_ostrogothic:0 "Ostrogothic"
+ name_list_italo_goths:0 "Stogotti"
+ name_list_early_middle_english:0 "Middle English"
+ name_list_early_middle_english_no_normans:0 "Middle English"
+ later_english_no_normans:0 "Englesax"
+ name_list_northumbrian:0 "Northumbrian"
+ name_list_mercian:0 "Mercian"
+ name_list_east_anglian:0 "East Anglian"
+ name_list_west_saxon:0 "West Saxon"
+ name_list_east_saxon:0 "East Saxon"
+ name_list_jutish:0 "Jutish"
+ name_list_ingaevonic:0 "Ingaevonic"
+ name_list_istaevonic:0 "Istaevonic"
+ name_list_irminonic:0 "Irminonic"
+ name_list_late_ingaevonic:0 "North Sea Germanic"
+ name_list_late_irminonic:0 "Elbe germanic"
+
+ # Indo-Germanic
+
+name_list_indo_germanic:0 "Indo-Germanic"
+name_list_late_indo_germanic:0 "Thedikkha"
+name_list_south_indo_germanic:0 "Dekanikkha"
+name_list_tamilo_germanic:0 "Deccano-Germanic"
+name_list_late_tamilo_germanic:0 "Tauticcha"
+#Old Tamil Indo-Germanic:0 "Cutitoticika"
+
+  # Scandinavian
+
+  name_list_norwegian_isolated:0 "$name_list_norwegian$"
+  name_list_swedish_isolated:0 "$name_list_swedish$"
+  name_list_danish_isolated:0 "$name_list_danish$"
+  name_list_venegotsk:0 "Venegötsk"
+
+  # Old Greco Phrygian
+
+  name_list_ancient_greek:0 "Ancient Greek"
+  name_list_mycenaean:0 "Mycenaean"
+  name_list_greco_phrygian:0 "Proto-Greco-Phrygian"
+  name_list_phrygian:0 "Phrygian"
+
+  # Iranic
+
+ name_list_old_persian:0 "Old Persian"
+ name_list_late_old_persian:0 "Late Old Persian"
+ name_list_middle_persian:0 "Middle Persian"
+ name_list_old_median:0 "Old Median"
+ name_list_parthian:0 "Parthian"
+ name_list_scythian:0 "Scythian"
+ name_list_bactrian:0 "Bactrian"
+ name_list_proto_iranian:0 "Proto-Iranian"
+
+  # Baiyue
+
+ name_list_zhuang:0 "Zhuang"
+ name_list_hmong:0 "Hmong"
+ name_list_mien:0 "Mien"
+
+ # Other
+
+ name_list_christian_japanese:0 "Kirisutogo"
+ name_list_christian_japanese_2:0 "Iamato"
+ name_list_galsignish:0 "Galsignish"
+ name_list_galsignish_special:0 "Galsianer"
+
+ # Diverged venetic 
+
+ name_list_winitken_pg:0 "Winitic"
+ name_list_wintcin:0 "Wintcin"
+ name_list_wintissh:0 "Wintissh"
+ name_list_wintissh_biblical:0 "$name_list_wintissh$"
+ name_list_wyntish:0 "Wyntish"  
+ name_list_wyntish_venetians:0 "$name_list_wyntish$" 
+ name_list_wyntish_biblical:0 "$name_list_wyntish$"
+ name_list_venetic_briton:0 "Prytcen"
+ name_list_venetic_welsh:0 "Gwintgin"
+ name_list_venetic_welsh_biblical:0 "$name_list_venetic_welsh$"
+ name_list_venetic_pictish:0 "Pridgen"
+ name_list_venetic_pictish_biblical:0 "$name_list_venetic_pictish$"
+ name_list_venetic_gaelic:0 "Féccen"
+ name_list_venetic_gaelic_biblical:0 "$name_list_venetic_gaelic$"
+ name_list_venetic_venetian:0 "Venecchien"
+ name_list_venetic_venetian_biblical:0 "$name_list_venetic_venetian$"
+ name_list_venetic_cisalpine:0 "Cisaplizen"
+ name_list_venetic_cisalpine_biblical:0 "$name_list_venetic_cisalpine$"
+ name_list_venetic_italian:0 "Italice"
+ name_list_venetic_italian_biblical:0 "$name_list_venetic_italian$"
+ name_list_venetic_dalmatian:0 "Dalmatce"
+ name_list_venetic_dalmatian_biblical:0 "$name_list_venetic_dalmatian$"
+ name_list_venetic_sardinian:0 "Sardicen"
+ name_list_venetic_sardinian_biblical:0 "$name_list_venetic_sardinian$"
+ name_list_venetic_sicilian:0 "Sicillci"
+ name_list_venetic_sicilian_biblical:0 "$name_list_venetic_sicilian$"
+ name_list_venetic_romanian:0 "Vallatce"
+ name_list_venetic_romanian_biblical:0 "$name_list_venetic_romanian$"
+ name_list_venetic_pannonian:0 "Panarce"
+ name_list_venetic_pannonian_biblical:0 "$name_list_venetic_pannonian$"
+ name_list_venetic_portuguese:0 "Lusitaco"
+ name_list_venetic_portuguese_biblical:0 "$name_list_venetic_portuguese$"
+ name_list_venetic_spanish:0 "Espanco"
+ name_list_venetic_spanish_biblical:0 "$name_list_venetic_spanish$"
+ name_list_venetic_french:0 "Galse"
+ name_list_venetic_french_biblical:0 "$name_list_venetic_french$"
+ name_list_venetic_french_with_franks:0 "Francse"
+ name_list_venetic_french_with_franks_biblical:0 "$name_list_venetic_french_with_franks$"
+ name_list_venetic_occitan:0 "Ocze"
+ name_list_venetic_occitan_biblical:0 "$name_list_venetic_occitan$"
+ name_list_venetic_african:0 "Africo"
+ name_list_venetic_african_biblical:0 "$name_list_venetic_african$"
+ name_list_venetic_romansh:0 "Alpige"
+ name_list_venetic_romansh_biblical:0 "$name_list_venetic_romansh$"
+ name_list_venetic_dutch:0 "Teetken"
+ name_list_venetic_dutch_biblical:0 "$name_list_venetic_dutch$"
+ name_list_venetic_frisian:0 "Frytsen"
+ name_list_venetic_frisian_biblical:0 "$name_list_venetic_frisian$"
+ name_list_venetic_saxon:0 "Tiuttzen"
+ name_list_venetic_saxon_biblical:0 "$name_list_venetic_saxon$"
+ name_list_venetic_german:0 "Teuschen"
+ name_list_venetic_german_biblical:0 "$name_list_venetic_german$"
+ name_list_venetic_gothic:0 "Gutiukn"
+ name_list_venetic_norse:0 "Vethka"
+ name_list_venetic_icelandic:0 "Gelithka"
+ name_list_venetic_norwegian:0 "Nortke"
+ name_list_venetic_norwegian_biblical:0 "$name_list_venetic_norwegian$"
+ name_list_venetic_danish:0 "Dantk"
+ name_list_venetic_danish_biblical:0 "$name_list_venetic_danish$"
+ name_list_venetic_swedish:0 "Sventk"
+ name_list_venetic_swedish_biblical:0 "$name_list_venetic_swedish$"
+ name_list_uenetoi:0 "Uenetoian"
+ name_list_venetic_coptic:0 "Kemetke"
+ name_list_venetic_japanese:0 "Henechiken"
+ name_list_venetic_han:0 "Wennegen"
+ name_list_venetic_sogdian:0 "Wanakin"
+ name_list_venetic_persian:0 "Vanekin"
+ name_list_venetic_aramean:0 "Asyrygen"
+ name_list_venetic_arabic:0 "Fanitkin"
+ name_list_venetic_apabhramsa:0 "Veneyaga"
+ name_list_venetic_turkic:0 "Bänätgin"
+ name_list_venetic_mongol:0 "Benetgen"
+ name_list_venetic_tibetan:0 "Bodekan"
+ name_list_venetic_slavic:0 "Venětkanŭ"
+ name_list_venetic_amhara:0 "Ityopikan"
+ name_list_venetic_amhara_biblical:0 "$name_list_venetic_amhara$"
+ name_list_venetic_nubian:0 "Nobiken"
+ name_list_venetic_nubian_biblical:0 "$name_list_venetic_nubian$"
+ name_list_venetic_armenian:0 "Hayaken"
+ name_list_venetic_armenian_biblical:0 "$name_list_venetic_armenian$"
+ name_list_venetic_georgian:0 "Kartviliken"
+ name_list_venetic_georgian_biblical:0 "$name_list_venetic_georgian$"
+ name_list_venetic_ruthenian:0 "Rusykan"
+ name_list_venetic_polish:0 "Jezykan"
+ name_list_venetic_czech:0 "Českan-slovekan"
+ name_list_venetic_south_slavic:0 "Južnovenekan"

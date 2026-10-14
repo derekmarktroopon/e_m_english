@@ -1,0 +1,39 @@
+﻿l_english:
+
+ select_personal_deity_venetic_decision:0 "Pick a Patron Deity"
+ select_personal_deity_venetic_decision_tooltip:0 "Deciding on a Deity"
+ select_personal_deity_venetic_decision_tt:0 "Deciding on a Deity"
+ select_personal_deity_venetic_decision_desc:0 "[ROOT.Char.GetFaith.PantheonTerm|U] are many and inscrutable, yet I cannot say that there are not some who hold a level of special appeal for me. Were I to dedicate myself openly to the express worship of primarily one such deity, I would doubtless draw like-minded souls to my side.\n\nWhatever the blessings my patron provides, being with similar [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] can only bring me health, wealth, and glory."
+ select_personal_deity_venetic_decision.select_reitia:0 "Reitia, the healer, teacher and Bringer of Wisdom!"
+ select_personal_deity_venetic_decision.select_tumusiates:0 "Trumusiates, protector of merchants!"
+ select_personal_deity_venetic_decision.select_altino:0 "Altino, powerfull and glorious!"
+ select_personal_deity_venetic_decision.select_alkomno:0 "Alkomno, keeper of nature and lord of fertility!"
+ select_personal_deity_venetic_decision_confirm:0 "My choise is most wise"
+
+ venetic_divergence_decision:0 "Venetic Divergence"
+venetic_divergence_decision_tooltip:0 "XXXXXXX"
+venetic_divergence_decision_desc:0 "XXXXXXX"
+venetic_divergence.preview.tt:0 "XXXXXXX"
+venetic_divergence_confirm:0 "XXXXXXX"
+
+rhaetian_divergence_decision:0 "Raetian Divergence"
+rhaetian_divergence_decision_tooltip:0 "XXXXXXX"
+rhaetian_divergence_decision_desc:0 "XXXXXXX"
+rhaetian_divergence.preview.tt:0 "XXXXXXX"
+rhaetian_divergence_confirm:0 "XXXXXXX"
+
+ligure_divergence_decision:0 "Ligure Divergence"
+ligure_divergence_decision_tooltip:0 "XXXXXXX"
+ligure_divergence_decision_desc:0 "XXXXXXX"
+ligure_divergence.preview.tt:0 "XXXXXXX"
+ligure_divergence_confirm:0 "XXXXXXX"
+
+written_offering_decision:0 "Make a Written Offering"
+written_offering_decision_tooltip:0 "Inscribing a Prayer"
+written_offering_decision_tt:0 "Inscribing a Prayer"
+written_offering_decision_desc:0 "The Divine would look kindely upon me and my people, were I to give them a gift and write my thanks to them."
+written_offering_decision_confirm:0 "Time to pick up my stylus!"
+
+religious_decision.102.optout:0 "Maybe this was a bad idea"
+religious_decision.102.flavour:0 "I shouldn't invoke the wrath of many gods by choosing one"
+
