@@ -4,5 +4,5 @@ tags={
 	"Culture"
 	"Events"
 }
-name="Gothic, Anglo-Saxon, Proto-Norse and more Overhaul"
+name="Accurate and Ancient Cultures"
 supported_version="1.19.*"

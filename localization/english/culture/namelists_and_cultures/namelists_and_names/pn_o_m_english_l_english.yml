@@ -17,31 +17,6 @@
  name_list_late_ingaevonic:0 "North Sea Germanic"
  name_list_late_irminonic:0 "Elbe germanic"
 
-#cultures
-
-west_saxon:0 "West-Saxon"
-west_saxon_collective_noun:0 "West-Saxons"
-west_saxon_prefix:0 "Saxo"
-mercian:0 "Mercian"
-northumbrian:0 "Northumbrian"
-east_anglian:0 "East-Anglian"
-east_anglian_collective_noun:0 "East-Anglians"
-east_anglian_prefix:0 "Anglo"
-east_saxon:0 "East-Saxon"
-east_saxon_collective_noun:0 "East-Saxons"
-east_saxon_prefix:0 "Saxo"
-kentish:0 "Kentish"
-kentish_collective_noun:0 "Jutes"
-kentish_prefix:0 "Juto"
-
-ingaevonic:0 "Ingaevonic"
-ingaevonic_collective_noun:0 "Ingaevonians"
-ingaevonic_prefix:0 "Ingaevono"
-
-irminonic:0 "Irminonic"
-irminonic_collective_noun:0 "Irminonians"
-irminonic_prefix:0 "Irminono"
-
 dynnpat_suf_sdohter:0 "sdohter"
 dynnpat_suf_sdohtur:0 "sdohtur"
 

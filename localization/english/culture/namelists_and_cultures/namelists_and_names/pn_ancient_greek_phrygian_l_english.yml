@@ -390,10 +390,6 @@ Thalamika:0 "Thalamika" #
 
 # Graeco-Phrygian
 
-greco_phrygian:0 "Greco-Phrygian"
-greco_phrygian_prefix:0 "Greco-Phrygio"
-greco_phrygian_collective_noun:0 "Greco-Phrygians"
-
 name_list_greco_phrygian:0 "Proto-Greco-Phrygian"
 
 language_greco_phrygian:0 "Greco-Phrygian"
@@ -434,10 +430,6 @@ Matrodiwa:0 "Matrodiwa"
 
 language_phrygian:0 "Phrygian"
 name_list_phrygian:0 "Phrygian"
-
-phrygian:0 "Phrygian"
-phrygian_collective_coun:0 "Phrygians"
-phrygian_prefix:0 "Phrygio"
 
 dynnpat_suf_eios:0 "eios"
 dynnpat_suf_eia:0 "eia"

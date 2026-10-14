@@ -1,9 +1,5 @@
 ﻿l_english:
 
- east_brythonic:0 "Gyrwe" # Loegrish
- east_brythonic_collective_noun:0 "Gyrwas" #Loegyrians
- east_brythonic_prefix:0 "Gyrwo" # Loegyro
-
  dynnpat_pre_mherch:0 "mherch "
 
  name_list_east_brythonic:0 "East Brythonic"
@@ -279,10 +275,6 @@ Jonet:0 "Jonet" # Janet
 
 dynnp_map:0 "map "
 
-common_brythonic:0 "Briton"
-common_brythonic_collective_noun:0 "Britons"
-common_brythonic_prefix:0 "Britono"
-
 name_list_late_brythonic:0 "Late Brittonic"
 
 dynn_Amueithig:0 "Amueithig"
@@ -347,10 +339,6 @@ Uinnohuivar:0 "Uinnohuivar" # Gwenhwyfar
 ##################################
 
 dynnpat_pre_merca:0 "merca "
-
-old_brythonic:0 "Prittanian"
-old_brythonic_collective_noun:0 "Britons"
-old_brythonic_prefix:0 "Britono"
 
 name_list_old_brythonic:0 "Prittanic"
 

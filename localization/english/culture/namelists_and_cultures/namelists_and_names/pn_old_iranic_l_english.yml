@@ -3,10 +3,6 @@
 name_list_old_persian:0 "Old Persian"
 name_list_late_old_persian:0 "Late Old Persian"
 
-old_persian:0 "Pārsa"
-old_persian_prefix:0 "Perso"
-old_persian_collective_noun:0 "Persians"
-
 # Old Persian
 
 dynnpat_suf_puca:0 "puça"
@@ -230,10 +226,6 @@ dynnpat_suf_pus:0 "pus"
 
 name_list_middle_persian:0 "Middle Persian"
 
-middle_persian:0 "Parsig"
-middle_persian_prefix:0 "Parso"
-middle_persian_collective_noun:0 "Persians"
-
 Ardaxshir:0 "Ardaxshīr" # Ardashir
 Ohrmazd:0 "Ōhrmazd" # Hormazd
 Husroy:0 "Husrōy" # Khosrau 
@@ -334,10 +326,6 @@ dynn_Parvezan:0 "Parvēzān"
 
 # Median
 
-old_median:0 "Median"
-old_median_prefix:0 "Medo"
-old_median_collective_noun:0 "Medians"
-
 name_list_old_median:0 "Old Median"
 
 dynnpat_suf_puthra:0 "puthra"
@@ -413,10 +401,6 @@ dynn_Masishtah:0 "Masishtāna"
 
 name_list_parthian:0 "Parthian"
 
-parthian:0 "Parthian"
-parthian_prefix:0 "Partho"
-parthian_collective_noun:0 "Parthians"
-
 dynnpat_suf_puhr:0 "puhr"
 
 # dynn_Suren:0 "Sūrēn"
@@ -470,10 +454,6 @@ Roshn:0 "Rōshn" # Roxana
 # Scythian - wiktionary, wikipedia + http://opar.unior.it/487/1/R._Schmitt_pp.1-31_pdf.pdf
 
 dynnpat_suf_pita:0 "pita"
-
-scythian:0 "Scythian"
-scythian_collective_noun:0 "Scythians"
-scythian_prefix:0 "Scytho"
 
 name_list_scythian:0 "Scythian"
 
@@ -913,10 +893,6 @@ Roshanak:0 "Roshanak" # Roxana
 
 name_list_proto_iranian:0 "Proto-Iranian"
 language_proto_iranian_name:0 "Proto-Iranian"
-
-proto_iranian:0 "Proto-Iranian"
-proto_iranian_collective_noun:0 "Iranians"
-proto_iranian_prefix:0 "Irano"
 
 dynnpat_suf_puthrah:0 "puthráh"
 dynnpat_suf_duxthrah:0 "duxthráh"

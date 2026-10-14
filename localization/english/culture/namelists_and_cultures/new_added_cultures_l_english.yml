@@ -5,8 +5,8 @@
  venetic:0 "Venetken"
  venetic_prefix:0 "Venetic"
  venetic_collective_noun:1 "Venetkens"
- romanoveneti:0 "Romanoveneti"
- romanoveneti_prefix:0 "Romanoveneti" 
+ romanoveneti:0 "Romano-Veneti"
+ romanoveneti_prefix:0 "Romano-Veneti" 
  romanoveneti_collective_noun:0 "Veneti"
  venetian:0 "Venetian"
  liburnian:0 "Liburnian"
@@ -15,6 +15,9 @@
  oscan:0 "Oscan"
  oscan_collective_noun:0 "Oscans"
  oscan_prefix:0 "Osco"
+ proto_italic:0 "Weteljan"
+ proto_italic_collective_noun:0 "Weteljos"
+ proto_italic_prefix:0 "Weteljo"
  rhaetian:0 "Raetian"
  rhaetian_collective_noun:0 "Raeti"
  rhaetian_prefix:0 "Raetic"
@@ -24,6 +27,7 @@
  old_ligurian:0 "Ligure"
  old_ligurian_collective_noun:0 "Ligures"
  old_ligurian_prefix:0 "Ligure"
+
  enetoian:0 "Enetoian"
  enetoian_collective_noun:0 "Enetoi"
  enetoian_prefix:0 "Enetoi"
@@ -33,18 +37,47 @@
  mycenaean:0 "Mycenaean"
  mycenaean_collective_noun:0 "Mycenaeans"
  mycenaean_prefix:0 "Mycenae"
+ greco_phrygian:0 "Greco-Phrygian"
+ greco_phrygian_prefix:0 "Greco-Phrygio"
+ greco_phrygian_collective_noun:0 "Greco-Phrygians"
+ phrygian:0 "Phrygian"
+ phrygian_collective_coun:0 "Phrygians"
+ phrygian_prefix:0 "Phrygio"
+
  pie_culture:0 "Teutéhlewdh"
  pie_culture_collective_noun:0 "Teutéh"
  pie_culture_prefix:0 "Teutéhian"
+
+ #Germanic
+
+west_saxon:0 "West-Saxon"
+west_saxon_collective_noun:0 "West-Saxons"
+west_saxon_prefix:0 "Saxo"
+mercian:0 "Mercian"
+northumbrian:0 "Northumbrian"
+east_anglian:0 "East-Anglian"
+east_anglian_collective_noun:0 "East-Anglians"
+east_anglian_prefix:0 "Anglo"
+east_saxon:0 "East-Saxon"
+east_saxon_collective_noun:0 "East-Saxons"
+east_saxon_prefix:0 "Saxo"
+kentish:0 "Kentish"
+kentish_collective_noun:0 "Jutes"
+kentish_prefix:0 "Juto"
+
+ingaevonic:0 "Ingaevonic"
+ingaevonic_collective_noun:0 "Ingaevonians"
+ingaevonic_prefix:0 "Ingaevono"
+irminonic:0 "Irminonic"
+irminonic_collective_noun:0 "Irminonians"
+irminonic_prefix:0 "Irminono"
+
  proto_norse:0 "Nurþroniaz"
  proto_norse_collective_noun:0 "Nurþroniaz"
  proto_norse_prefix:0 "Nurþron" 
  proto_germanic:0 "Þiudiskaz"
  proto_germanic_collective_noun:0 "Þiudiskaz"
  proto_germanic_prefix:0 "Þiudisk"
- proto_italic:0 "Weteljan"
- proto_italic_collective_noun:0 "Weteljos"
- proto_italic_prefix:0 "Weteljo"
  crimean_gothic:0 "Gutisch"
  crimean_gothic_collective_noun:0 "Crimean Goths"
  crimean_gothic_prefix:0 "Guto"
@@ -57,12 +90,52 @@
  vandal:0 "Vandal"
  vandal_collective_noun:0 "Vandals"
  vandal_prefix:0 "Vandalo"
+
  indo_germanic:0 "Indo-Germanic"
  indo_germanic_collective_noun:0 "Thediskans"
  indo_germanic_prefix:0 "Thediska"
  deccano_germanic:0 "Deccano-Germanic"
  deccano_germanic_collective_noun:0 "Tauticchans"
  deccano_germanic_prefix:0 "Tauticcha"
+
+ east_brythonic:0 "Gyrwe" # Loegrish
+ east_brythonic_collective_noun:0 "Gyrwas" #Loegyrians
+ east_brythonic_prefix:0 "Gyrwo" # Loegyro
+ common_brythonic:0 "Briton"
+ common_brythonic_collective_noun:0 "Britons"
+ common_brythonic_prefix:0 "Britono"
+ old_brythonic:0 "Prittanian"
+ old_brythonic_collective_noun:0 "Britons"
+ old_brythonic_prefix:0 "Britono"
+ proto_celtic:0 "Keltos"
+ proto_celtic_collective_noun:0 "Keltos"
+ proto_celtic_prefix:0 "Kelto"
+
+ # Iranian Cultures 
+
+old_persian:0 "Pārsa"
+old_persian_prefix:0 "Perso"
+old_persian_collective_noun:0 "Persians"
+
+middle_persian:0 "Parsig"
+middle_persian_prefix:0 "Parso"
+middle_persian_collective_noun:0 "Persians"
+
+old_median:0 "Median"
+old_median_prefix:0 "Medo"
+old_median_collective_noun:0 "Medians"
+
+parthian:0 "Parthian"
+parthian_prefix:0 "Partho"
+parthian_collective_noun:0 "Parthians"
+
+scythian:0 "Scythian"
+scythian_collective_noun:0 "Scythians"
+scythian_prefix:0 "Scytho"
+
+proto_iranian:0 "Proto-Iranian"
+proto_iranian_collective_noun:0 "Iranians"
+proto_iranian_prefix:0 "Irano"
 
  # Kemetic cultures 
 
