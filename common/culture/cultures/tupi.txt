@@ -8,7 +8,7 @@ tupi = {
 	head_determination = head_determination_domain
 	traditions = {
 	    tradition_jungle_dwellers	
-		tradition_hidden_cities
+		tradition_bush_hunting
 		tradition_medicinal_plants
 		tradition_stalwart_defenders
 	}

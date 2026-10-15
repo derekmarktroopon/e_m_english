@@ -8,6 +8,7 @@
 	traditions = {
 	    tradition_hill_dwellers	
 		tradition_hidden_cities
+		tradition_bush_hunting
 	}
 	
 	name_list = name_list_highland_maya
@@ -36,6 +37,7 @@ chorti = {
 	    tradition_hard_working
 	    tradition_jungle_dwellers
 	    tradition_hit_and_run
+	    tradition_bush_hunting
 	}
 	
 	name_list = name_list_classic_maya

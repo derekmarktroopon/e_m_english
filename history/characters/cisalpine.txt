@@ -33086,37 +33086,6 @@ cisalpine0944 = {
 	}
 }
 
-167594 = {
-	name = "Iacopo"
-	#placeholder
-	dynasty = 516
-	rite = roman_rite
-	culture = cisalpine
-	
-	970.1.1 = {
-		birth = yes
-	}
-	1030.1.1 = {
-		death = yes
-	}
-}
-
-167598 = {
-	name = "DomE_nico"
-	#placeholder
-	dynasty = 516
-	rite = roman_rite
-	culture = cisalpine
-	father = 167595
-	
-	1055.1.1 = {
-		birth = yes
-	}
-	1115.1.1 = {
-		death = yes
-	}
-}
-
 167599 = {
 	name = "Ambrogio"
 	#placeholder
@@ -33254,54 +33223,6 @@ cisalpine0944 = {
 		birth = yes
 	}
 	1382.6.5 = {
-		death = yes
-	}
-}
-
-167608 = {
-	name = "Abbondanzio"
-	#placeholder
-	dynasty = 516
-	rite = roman_rite
-	culture = cisalpine
-	father = 167596
-	
-	1055.1.1 = {
-		birth = yes
-	}
-	1100.1.1 = {
-		death = yes
-	}
-}
-
-167609 = {
-	name = "Galeotto"
-	#placeholder
-	dynasty = 516
-	rite = roman_rite
-	culture = cisalpine
-	father = 167597
-	
-	1060.1.1 = {
-		birth = yes
-	}
-	1115.1.1 = {
-		death = yes
-	}
-}
-
-167611 = {
-	name = "Gaspare"
-	#placeholder
-	dynasty = 516
-	rite = roman_rite
-	culture = cisalpine
-	father = 167595
-	
-	1060.1.1 = {
-		birth = yes
-	}
-	1110.1.1 = {
 		death = yes
 	}
 }

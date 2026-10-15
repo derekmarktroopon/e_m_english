@@ -36,16 +36,16 @@
 
 native_brazilian = {
 	template = "ethnicity_template"
-	using = "native_brazilian"
+	using = "tupi"
 	
 	skin_color = {
-		10 = { 0 0.55 0.2 0.65 }
+		10 = { 0.2 0.55 0.45 0.65 }
 	}
 	eye_color = {
 		10 = { 0.05 0.95 0.35 1.0 }
 	}
 	hair_color = {
-		10 = { 0 0.95 0.4 1.0 }
+		100 = { 0.0 0.9 0.0 0.9 }
 	}
 
     gene_chin_forward = {
@@ -77,46 +77,13 @@ native_brazilian = {
     }
 
 	gene_eye_depth = {
-	    25 = { name = eye_depth_neg    range = { 0.25 0.35 }    }
-	    40 = { name = eye_depth_neg    range = { 0.35 0.45 }    }
-	    20 = { name = eye_depth_neg    range = { 0.45 0.5 }    }
-	    5 = { name = eye_depth_pos    range = { 0.5 0.55 }    }
-	    0 = { name = eye_depth_pos    range = { 0.55 0.65 }    }
-	    0 = { name = eye_depth_pos    range = { 0.65 0.75 }    }
-
-	    #Beauty Section
-	    0 = { name = eye_depth_neg    range = { @beauty1min @beauty1max }    traits = { beauty_1 }    }
-	    0 = { name = eye_depth_neg    range = { @beauty2min @beauty2max }    traits = { beauty_2 }    }
-	    0 = { name = eye_depth_neg    range = { @beauty3min @beauty3max }    traits = { beauty_3 }    }
-	}
-
-	gene_eye_height = {
-	    10 = { name = eye_height_neg    range = { 0.25 0.35}    }
-	    40 = { name = eye_height_neg    range = { 0.35 0.45}    }
-	    40 = { name = eye_height_neg    range = { 0.45 0.5 }    }
-	    10 = { name = eye_height_pos    range = { 0.5 0.55 }    }
-	    5 = { name = eye_height_pos    range = { 0.55 0.65}    }
-	    0 = { name = eye_height_pos    range = { 0.65 0.75}    }
-
-	    #Beauty Section
-	    0 = { name = eye_height_neg    range = { @beauty1min @beauty1max }    traits = { beauty_1 }    }
-	    0 = { name = eye_height_neg    range = { @beauty2min @beauty2max }    traits = { beauty_2 }    }
-	    0 = { name = eye_height_neg    range = { @beauty3min @beauty3max }    traits = { beauty_3 }    }
-	}
-
-	gene_eye_distance = {
-	    0 = { name = eye_distance_neg    range = { 0.25 0.35 }    }
-	    5 = { name = eye_distance_neg    range = { 0.35 0.45 }    }
-	    40 = { name = eye_distance_neg    range = { 0.45 0.5 }    }
-	    40 = { name = eye_distance_pos    range = { 0.5 0.55 }    }
-	    5 = { name = eye_distance_pos    range = { 0.55 0.65 }    }
-	    0 = { name = eye_distance_pos    range = { 0.65 0.75 }    }
-
-	    #Beauty Section
-	    0 = { name = eye_distance_neg    range = { @beauty1min @beauty1max }    traits = { beauty_1 }    }
-	    0 = { name = eye_distance_neg    range = { @beauty2min @beauty2max }    traits = { beauty_2 }    }
-	    0 = { name = eye_distance_neg    range = { @beauty3min @beauty3max }    traits = { beauty_3 }    }
-	}
+        1 = { name = eye_depth_pos    range = { 0.23 0.43 }    }
+        40 = { name = eye_depth_pos    range = { 0.43 0.53 }    }
+        40 = { name = eye_depth_pos    range = { 0.53 0.63 }    }
+        5 = { name = eye_depth_pos    range = { 0.63 0.73 }    }
+        5 = { name = eye_depth_pos    range = { 0.73 0.83 }    }
+        1 = { name = eye_depth_pos    range = { 0.83 0.93 }    }
+    }
 
 	gene_eye_shut = {
 	    0 = { name = eye_shut_neg    range = { @neg3_min @neg3_max }    }
@@ -259,12 +226,12 @@ native_brazilian = {
     }
 	
 	gene_mouth_width = {
-	    35 = { name = mouth_width_neg    range = { @blend3min @blend3max }    }
-	    15 = { name = mouth_width_neg    range = { @blend2min @blend2max }    }
-	    0 = { name = mouth_width_neg    range = { @blend1min @blend1max  }    }
-	    0 = { name = mouth_width_pos    range = { @blend1min @blend1max  }    }
-	    15 = { name = mouth_width_pos    range = { @blend2min @blend2max }    }
-	    35 = { name = mouth_width_pos    range = { @blend3min @blend3max }    }
+	    0 = { name = mouth_width_neg    range = { @blend3min @blend3max }    }
+	    35 = { name = mouth_width_neg    range = { @blend2min @blend2max }    }
+	    15 = { name = mouth_width_neg    range = { @blend1min @blend1max  }    }
+	    15 = { name = mouth_width_pos    range = { @blend1min @blend1max  }    }
+	    35 = { name = mouth_width_pos    range = { @blend2min @blend2max }    }
+	    0 = { name = mouth_width_pos    range = { @blend3min @blend3max }    }
 
 	    #Beauty Section
 	    0 = { name = mouth_width_neg    range = { @beauty1min @beauty1max }    traits = { beauty_1 }    }
@@ -397,14 +364,13 @@ native_brazilian = {
     # }
 
 	gene_bs_eye_upper_lid_size = {
-	    80 = { name = eye_upper_lid_size_neg    range = { @blend3min @blend3max }    }
-	    20 = { name = eye_upper_lid_size_neg    range = { @blend2min @blend2max }    }
-	    0 = { name = eye_upper_lid_size_neg    range = { @blend1min @blend1max }    }
-	    0 = { name = eye_upper_lid_size_pos    range = { @blend1min @blend1max }    }
-	    0 = { name = eye_upper_lid_size_pos    range = { @blend2min @blend2max }    }
-	    0 = { name = eye_upper_lid_size_pos    range = { @blend3min @blend3max }    }
-
-	}
+        5 = { name = eye_upper_lid_size_neg    range = { 0.65 0.85 }    }
+        15 = { name = eye_upper_lid_size_neg    range = { 0.45 0.65 }    }
+        30 = { name = eye_upper_lid_size_neg    range = { 0.35 0.45 }    }
+        30 = { name = eye_upper_lid_size_neg    range = { 0.25 0.35 }    }
+        15 = { name = eye_upper_lid_size_neg    range = { 0.15 0.25 }    }
+        5 = { name = eye_upper_lid_size_neg    range = { 0.0 0.15 }    }     
+    }
 
 	gene_bs_jaw_def = {
 	    10 = { name = jaw_def_neg    range = { @blend3min @blend3max }    }
@@ -489,9 +455,9 @@ native_brazilian = {
 	    0 = { name = nose_profile_neg    range = { 0.4 0.5   }    }
 	    0 = { name = nose_profile_neg    range = { 0.15 0.4  }    }
 	    0 = { name = nose_profile_neg    range = { 0.0 0.15  }    }
-	    40 = { name = nose_profile_pos    range = { 0.0 0.15  }    }
-	    15 = { name = nose_profile_pos    range = { 0.15 0.4  }    }
-	    5 = { name = nose_profile_pos    range = { 0.4 0.5   }    }
+	    30 = { name = nose_profile_pos    range = { 0.0 0.15  }    }
+	    20 = { name = nose_profile_pos    range = { 0.15 0.4  }    }
+	    10 = { name = nose_profile_pos    range = { 0.4 0.5   }    }
 
 	}
 
@@ -726,9 +692,12 @@ native_brazilian = {
     }
 
     face_detail_eye_lower_lid_def = {
-        5 = {  name = eye_lower_lid_def             range = { 0.0 0.2 }     }
-        10 = {  name = eye_lower_lid_def             range = { 0.1 0.5 }     }
-        0 = {  name = eye_lower_lid_def             range = { 0.8 1.0 }     }
+        5 = {  name = eye_lower_lid_def             range = { 0.0 0.4 }     }
+        20 = {  name = eye_lower_lid_def             range = { 0.4 0.7 }     }
+        10 = {  name = eye_lower_lid_def             range = { 0.7 1.0 }     }
+        5 = {  name = eye_lower_lid_def_02             range = { 0.0 0.4 }     }
+        20 = {  name = eye_lower_lid_def_02             range = { 0.4 0.7 }     }
+        10 = {  name = eye_lower_lid_def_02             range = { 0.7 0.9 }     }
     }
 
     face_detail_eye_socket = {

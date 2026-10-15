@@ -61,7 +61,7 @@ dynn_Hawj:0 "Hawj"
 dynn_Khaab:0 "Khaab"
 dynn_Xoom:0 "Xoom"
 dynn_Kwm:0 "Kwm"
-dynn_Lis:0 "Lis"
+# dynn_Lis:0 "Lis"
 dynn_Lauj:0 "Lauj"
 dynn_Muas:0 "Muas"
 dynn_Phab:0 "Phab"
@@ -83,7 +83,7 @@ By:0 "By"
 Cai_hmg:0 "Cai"
 Chay_hmg:0 "Chay" # same name as Cai_hmg
 Chenue:0 "Chenue"
-Cher:0 "Cher"
+# Cher:0 "Cher"
 Cha_u:0 "Chầu" # same as Txawj / Cher
 Txawj:0 "Txawj" # same as Cha_u / Cher
 Cherzong:0 "Cherzong"
