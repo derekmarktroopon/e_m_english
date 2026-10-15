@@ -74,7 +74,7 @@ name_list_neo_gallaecian = {
 		}
 
 		male_names = {
-			nglae_Abulo nglae_Acio nglae_Alido nglae_Aio nglae_Amo nglae_Ano nglae_Ato nglae_Calaido nglae_Calo nglae_Clovido nglae_Babo nglae_Belso nglae_Diogenes nglae_Eladuno nglae_Elo nglae_Guando nglae_Ledonto nglae_Loucio nglae_Lubo nglae_Medugeno nglae_Memo nglae_Pistiro nglae_Preso nglae_Rectugeno nglae_Sego nglae_Segontio nglae_Estadulo nglae_Estato nglae_Estenote nglae_Esteno nglae_Teco nglae_Tercino nglae_Tirtao nglae_Tirto nglae_Turiao nglae_Turo
+			nglae_Abulo nglae_Acio nglae_Alido nglae_Aio nglae_Amo nglae_Ano nglae_Ato nglae_Calaido nglae_Calo nglae_Clovido nglae_Babo nglae_Belso nglae_Diogenes nglae_Eladuno nglae_Elo nglae_Guando nglae_Ledonto nglae_Loucio nglae_Lubo nglae_Medugeno nglae_Memo nglae_Pistiro nglae_Preso nglae_Rectugeno nglae_Sego nglae_Segontio nglae_Estadulo nglae_Estato nglae_Estenote nglae_Esteno nglae_Teco nglae_Tercino nglae_Tirtao nglae_Tirto nglae_Turiao Turo
 			# Abulo Ácio Alido Aio Amo Ano Ato Calaito Calo Clovito Babo Bélso Diógenes Eladuno Elo Guando Letonto Lóucio Lubo Medugeno Memo Pistiro Preso Rectugeno Sego Segontio Estadulo Estato Estenote Esteno Teco Tercino Tirtão Tirto Turião Túro
 		}
 		female_names = {
@@ -106,7 +106,7 @@ name_list_neo_celtiberian = {
 		}
 
 		male_names = {
-			nctib_Abulo nctib_Acuio nctib_Alido nctib_Aio nctib_Amo nctib_Ano nctib_Ato nctib_Calaito nctib_Calo nctib_Cloito nctib_Babo nctib_Belso nctib_Diogenes nctib_Eladuno nctib_Elo nctib_Guando nctib_Letonto nctib_Lucio nctib_Lubo nctib_Medugeno nctib_Memo nctib_Pistiro nctib_Preso nctib_Rectugeno nctib_Sego nctib_Segontio nctib_Estadulo nctib_Estato nctib_Esteniote nctib_Esteno nctib_Teco nctib_Tercino nctib_Tirtano nctib_Tirto nctib_Turayo nctib_Turo
+			nctib_Abulo nctib_Acuio nctib_Alido nctib_Aio nctib_Amo nctib_Ano nctib_Ato nctib_Calaito nctib_Calo nctib_Cloito nctib_Babo nctib_Belso nctib_Diogenes nctib_Eladuno nctib_Elo nctib_Guando nctib_Letonto nctib_Lucio nctib_Lubo nctib_Medugeno nctib_Memo nctib_Pistiro nctib_Preso nctib_Rectugeno nctib_Sego nctib_Segontio nctib_Estadulo nctib_Estato nctib_Esteniote nctib_Esteno nctib_Teco nctib_Tercino nctib_Tirtano nctib_Tirto nctib_Turayo Turo
 			# Abulo Acuio Alido Aio Amo Ano Ato Calaito Calo Cloito Babo Belso Diógenes Eladuno Elo Guando Letonto Lucio Lubo Medugeno Memo Pistiro Preso Rectugeno Sego Segontio Estadulo Estato Esteniote Esteno Teco Tercino Tirtano Tirto Turayo Turo
 		}
 		female_names = {
@@ -139,7 +139,7 @@ name_list_neo_lusitanian = {
 		}
 
 		male_names = {
-			nlusi_Aelado nlusi_Ambado nlusi_Apino nlusi_Boio nlusi_Boal nlusi_Boano nlusi_Cancil nlusi_Cancilho nlusi_Cuna nlusi_Cuncio nlusi_Cuntino nlusi_Cundigo nlusi_Equeco nlusi_Ecalho nlusi_Eponeilo nlusi_Eriacao nlusi_Icau nlusi_Icalo nlusi_Iciano nlusi_Isaiz nlusi_Lebo nlusi_Matuceno nlusi_Matugeno nlusi_Melmando nlusi_Pecunio nlusi_Pompo nlusi_Touro nlusi_Vendigo
+			nlusi_Aelado nlusi_Ambado nlusi_Apino Boio nlusi_Boal nlusi_Boano nlusi_Cancil nlusi_Cancilho nlusi_Cuna nlusi_Cuncio nlusi_Cuntino nlusi_Cundigo nlusi_Equeco nlusi_Ecalho nlusi_Eponeilo nlusi_Eriacao nlusi_Icau nlusi_Icalo nlusi_Iciano nlusi_Isaiz nlusi_Lebo nlusi_Matuceno nlusi_Matugeno nlusi_Melmando nlusi_Pecunio nlusi_Pompo nlusi_Touro nlusi_Vendigo
 			# Aelado Ambado Apino Boio Boal Boano Cancil Cancílho Cuna Cúncio Cuntino Cundigo Equeço Ecalho Eponeilo Eriacão Icaú Icalo Iciano Isaiz Lebo Matuceno Matugeno Melmando Pecúnio Pompo Touro Vêndigo
 		} 
 		female_names = {

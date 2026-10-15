@@ -41,3 +41,36 @@
 	mother_name_chance = 0
 
 }
+
+name_list_veneto_tupi = {
+	cadet_dynasty_names = {
+	   	dynn_Tobajare dynn_Tamoni dynn_Pirejuba dynn_Teminino dynn_Potiguara dynn_Urobu dynn_Tubiaba dynn_Zetaiba dynn_Araruboja dynn_Quarasejuba dynn_Muroquiasu dynn_Ubitigna dynn_Vabiru
+	}
+
+	dynasty_names = {
+		dynn_Tobajare dynn_Tamoni dynn_Pirejuba dynn_Teminino dynn_Potiguara dynn_Urobu dynn_Tubiaba dynn_Zetaiba dynn_Araruboja dynn_Quarasejuba dynn_Muroquiasu dynn_Ubitigna dynn_Vabiru
+	}
+
+	male_names = {
+		Ubadaton Abosagna Abequeja Guesciare Inignoasu Iporeseon Itaomirin Quarajuba Tajasu Ubirapocu Ubignapeba Urobu Zaguagnaron Vabiru Varoasu Caiobi Cugnambebe Quarasi Pindobusu Potiguare Serobebe Tebiresa Ubirani Ubiraton Zasi
+	}
+
+	female_names = {
+        Botuera Quarasi Zasi Ubirani Cugnastene Virajara Mejara Mebuesi Eirasi Potira Zusara Zurema Izara
+	}		
+
+	patronym_suffix_male = "dynnpat_suf_tayra"
+	patronym_suffix_female = "dynnpat_suf_rajra"
+	always_use_patronym = yes	
+	
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+
+}

@@ -173,14 +173,14 @@ synceticise_with_sinitic_world_pagan_rites_decision = {
 					any_religion_global = {
 						any_faith ={
 							count >= 1
-							main_rite = {
-								head_of_rite = {
-									opinion = {
-										target = root
-										value >= 50
-									}
+							main_rite.head_of_rite = {
+								opinion = {
+									target = root
+									value >= 50
 								}
-								rite_has_doctrine = special_doctrine_immaterial_harmony
+								this.rite = {
+									rite_has_doctrine = special_doctrine_immaterial_harmony
+								}
 							}
 						}
 					}

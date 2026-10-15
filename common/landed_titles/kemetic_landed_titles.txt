@@ -343,7 +343,7 @@
 						name_list_predynastic_egyptian = cn_b_rashid_kemetic
 						name_list_demotic = cn_b_rashid_kemetic
 						name_list_kemetic = cn_b_rashid_kemetic
-						name_list_kushite = cn_c_al-cn_b_rashid_kemetic
+						name_list_kushite = cn_b_rashid_kemetic
 						name_list_coptic = cn_b_rashid_coptic
 					}
 						color = { 61 245 114 }

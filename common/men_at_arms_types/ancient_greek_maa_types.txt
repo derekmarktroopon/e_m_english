@@ -1,5 +1,6 @@
 ﻿
 @cultural_maa_extra_ai_score = 60 # Equivalent to having 6 extra regiments beyond what the code scoring would indicate (see NEGATIVE_SCORE_PER_EXISTING_REGIMENT)
+@provisions_cost_infantry_moderate = 7
 
 hellenic_hoplites = {
 	type = pikemen

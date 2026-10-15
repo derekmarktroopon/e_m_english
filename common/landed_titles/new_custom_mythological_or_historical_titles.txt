@@ -1,4 +1,4 @@
-﻿
+﻿@always_primary_score = 1000
 
 k_ithaca = {
 	color = { 66 147 245 }

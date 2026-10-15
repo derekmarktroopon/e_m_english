@@ -1,7 +1,7 @@
 ﻿l_english:
 
-dynnpat_suf_tayra:0 " ta'yra"
-dynnpat_suf_rajra:0 " rajra"
+dynnpat_suf_tayra:0 "ta'yra"
+dynnpat_suf_rajra:0 "rajra"
 
 dynn_Tobajara:0 "Tobajara"
 dynn_Tamoi:0 "Ta'mõi"
@@ -96,3 +96,64 @@ Yjara:0 "Yjara" # Yara
 
 # Maria
 # Anna
+
+
+# Venetian-Tupi
+
+dynnpat_suf_tajer:0 "tajer"
+dynnpat_suf_rera:0 "rera"
+
+dynn_Tobajare:0 "Tobajare"
+dynn_Tamoni:0 "Tamóni"
+dynn_Pirejuba:0 "Piréjuba"
+dynn_Teminino:0 "Temininó"
+dynn_Potiguara:0 "Potiguare"
+dynn_Urobu:0 "Urobu"
+dynn_Tubiaba:0 "Tubiabá"
+dynn_Zetaiba:0 "Zetaibá"
+dynn_Araruboja:0 "Araruboja"
+dynn_Quarasejuba:0 "Quarasejuba"
+dynn_Muroquiasu:0 "Muroquiasu"
+dynn_Ubitigna:0 "Ubitigna"
+dynn_Vabiru:0 "Vabiru"
+
+Ubadaton:0 "Ubadatón" # Ybatata
+Abosagna:0 "Abosagna" # Abaosanga
+Abequeja:0 "Abequeja" # Abaykyja
+Guesciare:0 "Guesciare" # Gwajxara
+Inignoasu:0 "Inignoasu" # Inigwasu
+Iporeseon:0 "Iporeseón" # Iporeseo
+Itaomirin:0 "Itaomirín" # Itaomiri
+Quarajuba:0 "Quarajuba" # Kwarasyjuba
+# Tajasu:0 "Tajasu" # Tajasu
+Ubirapocu:0 "Ubirapocu" # Ybyrapuku
+Ubignapeba:0 "Ubignapeba" # Ybytingapeba
+Urobu:0 "Urobu" # Urubu
+Zaguagnaron:0 "Zaguagnarón" # Jagwanharo
+Vabiru:0 "Vabiru" # Wabiru
+Varoasu:0 "Varoasu" # Warawasu
+Caiobi:0 "Caiobi" # Caiubi
+Cugnambebe:0 "Cugnambebe" # Cunhambebe
+Quarasi:0 "Quarasi" # Guaraci
+# Pindobusu:0 "Pindobusu" # Pindobuçu
+Potiguare:0 "Potiguare" # Potiguara
+# Serobebe:0 "Serobebé" # Zorobabé
+Tebiresa:0 "Tebiresá" # Tibiriçá
+Ubirani:0 "Ubirani" # Ubirani
+Ubiraton:0 "Ubiratón" # Ubiratã
+Zasi:0 "Zasi" # Jaci
+
+
+Botuera:0 "Botuera" # Bartira
+# Quarasi:0 "Quarasi" # Guaraci
+# Zasi:0 "Zasi" # Jaci
+# Ubirani:0 "Ubirani" # Ubirani
+Cugnastene:0 "Cugnastene" # Kunhawasutenhe
+Virajara:0 "Virajara" # Wyrajara
+Mejara:0 "Mejara" # Mayara
+Mebuesi:0 "Mebuesi" # Mbicy
+Eirasi:0 "Eirasi" # Iraci
+Potira:0 "Potira" # Potira
+Zusara:0 "Zusara" # Juçara
+Zurema:0 "Zurema" # Jurema
+Izara:0 "Izara" # Yara

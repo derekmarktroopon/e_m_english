@@ -1,0 +1,25 @@
+﻿
+veneto_tupi_aesthetic = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_name_list = name_list_tupi
+			}
+			any_sub_realm_county = {
+				OR = {
+					any_this_title_or_de_jure_above = { this = title:d_venice }
+					any_this_title_or_de_jure_above = { this = title:d_friuli }
+					any_this_title_or_de_jure_above = { this = title:d_verona }
+					any_this_title_or_de_jure_above = { this = title:d_istria }
+				}
+			}
+		}
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	name_list = name_list_veneto_tupi
+}

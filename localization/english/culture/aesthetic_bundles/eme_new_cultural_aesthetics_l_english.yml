@@ -25,6 +25,8 @@
  aesthetics_galsian_1_name:0 "Archaic Galsianer"
  aesthetics_galsian_2_name:0 "Reformed Galsianer"
 
+ veneto_tupi_aesthetic_name:0 "$name_list_veneto_tupi$"
+
  venetic_venetian_aesthetic_name: "$name_list_venetic_venetian$"
  venetic_venetian_biblical_aesthetic_name: "$name_list_venetic_venetian$"
  venetic_cisalpine_aesthetic_name: "$name_list_venetic_cisalpine$"

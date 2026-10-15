@@ -46,8 +46,8 @@ galsignan_culture_events.1 = {
 			root.culture = {
 				set_culture_name = {
 					noun = galsianer_culture_name
-					collective_noun = galsianer_culture_name_prefix
-					prefix = galsianer_culture_name_collective_noun
+					collective_noun = galsianer_culture_prefix
+					prefix = galsianer_culture_collective_noun
 				}
 				set_ethos_from = culture:norse
 				join_era = culture_era_early_medieval
