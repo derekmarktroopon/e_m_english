@@ -114,6 +114,10 @@ tenet_bhakti = {
 		}
 	}
 
+	parameters = {
+		select_personal_god_active
+	}
+
 	can_pick_as_personal_tenet = {
 		trigger_if = {
 			limit = { has_particular_personal_deity_group = no }

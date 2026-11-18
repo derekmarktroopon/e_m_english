@@ -5,5 +5,5 @@ tags={
 	"Events"
 }
 name="Accurate and Ancient Cultures"
-supported_version="1.20.1"
+supported_version="1.21.0"
 remote_file_id="3819424034"

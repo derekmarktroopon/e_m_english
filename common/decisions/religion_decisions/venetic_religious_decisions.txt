@@ -16,7 +16,10 @@ select_personal_deity_venetic_decision = {
         #        has_name_list = name_list_venetic_culture
 		#    }
 		#}
-		faith = { has_doctrine_parameter = select_personal_god_active }
+		OR = {
+			faith = { has_doctrine_parameter = select_personal_god_active }
+			has_personal_tenet_flag = select_personal_god_active_personal
+		}
 	}
 
 	is_valid = {
