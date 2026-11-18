@@ -45,6 +45,9 @@ old_steppe = {
 	#Coronation tradition
 	doctrine = doctrine_no_anointment
 
+	#Preservation
+	doctrine = doctrine_oral_storytelling
+
 	traits = {
 		virtues = { 
 			brave = { weight = 30 scale = 1 }

@@ -363,7 +363,7 @@ kemetic_revival_event.6 = { # discovering coptic
 	option = {
 	    name = kemetic_revival_event.6.a
 		custom_tooltip = kemetic_revival_event.6.adesc #you have learned the coptic language
-		learn_language_of_culture = culture:coptic_culture
+		learn_language_of_culture = culture:remenkimi
 		trigger_event = {
 			id = kemetic_revival_event.7
 			days = { 30 100 }
@@ -516,7 +516,7 @@ kemetic_revival_event.7 = { #heiroglyphs diciphered!
 			culture:neo_kemetic = {
 				reset_culture_creation_date = yes
 				get_all_innovations_from = culture:middle_egyptian
-				get_all_innovations_from = culture:coptic_culture
+				get_all_innovations_from = culture:remenkimi
 				get_all_innovations_from = culture:egyptian
 				get_all_innovations_from = root.culture
 			}

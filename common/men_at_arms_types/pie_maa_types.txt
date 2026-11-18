@@ -21,7 +21,7 @@ koryos_maa = {
 	counters = {
 		archers = 1
 		skirmishers = 1	
-		horse_archers = 1	
+		archer_cavalry = 1	
 		heavy_infantry = 1		
 	}
 

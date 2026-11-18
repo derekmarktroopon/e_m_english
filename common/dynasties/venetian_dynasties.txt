@@ -59,7 +59,7 @@
 	culture = "venetian"
 }
 13070 = {
-	name = "dynn_Moresini"
+	name = "dynn_Morosini"
 	culture = "venetian"
 }
 13071 = {

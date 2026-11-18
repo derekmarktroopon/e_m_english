@@ -1202,7 +1202,7 @@
 			Yukiko # 行
 		}
 		80 = { # Latin, Greek + Biblical
-			jp_Agune jp_Ana jp_Ba_bara jp_Erizabetsu jp_Ema jp_Herena jp_Katarina jp_Kontanchina jp_Kuara jp_Kurisuchina jp_Ma_gareta jp_Marya Jp_Rosa jp_Rushya jp_Seshirya jp_Sohiya jp_Shibira jp_Yohana jp_Yuryana
+			jp_Agune jp_Ana jp_Ba_bara jp_Erizabetsu jp_Ema jp_Herena jp_Katarina jp_Kontanchina jp_Kuara jp_Kurisuchina jp_Ma_gareta Marya Jp_Rosa jp_Rushya jp_Seshirya jp_Sohiya jp_Shibira jp_Yohana jp_Yuryana
 		}
 	}
 }

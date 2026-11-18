@@ -163,7 +163,7 @@ name_list_venetian = {
 	    "dynn_Ghisi" "dynn_Girardi" "dynn_Giustinian" "dynn_Gomberto" "dynn_Gradenigo" "dynn_Grimani" "dynn_Grioni" "dynn_Gritti"
 		"dynn_Guoro" "dynn_Ipato" "dynn_Lando" { "dynnp_da" "dynn_Da_Lezze" } "dynn_Lombardo" "dynn_Longo" "dynn_Loredan" { "dynnp_de" "dynn_De_Lorenzo" } "dynn_Magno" 
 		"dynn_Malipiero" "dynn_Marcelo" "dynn_Marin" "dynn_Marmora" "dynn_MaistroPiero" "dynn_Mazzaman" "dynn_Memo" { "dynnp_de" "dynn_De_Mezzo" } "dynn_Michiel" "dynn_Minio" "dynn_Mocenigo" "dynn_Monegario"
-		{ "dynnp_da" "dynn_Da_Molin" } "dynn_Moro" "dynn_Morosini" "dynn_Moresini" { "dynnp_da" "dynn_Da_Mosto" } { "dynnp_da" "dynn_Da_Mula" } "dynn_Nadal" "dynn_Nani" "dynn_Navager" "dynn_Nicola"
+		{ "dynnp_da" "dynn_Da_Molin" } "dynn_Moro" "dynn_Morosini" "dynn_Morosini" { "dynnp_da" "dynn_Da_Mosto" } { "dynnp_da" "dynn_Da_Mula" } "dynn_Nadal" "dynn_Nani" "dynn_Navager" "dynn_Nicola"
 		"dynn_Onoradi" "dynn_Orio" "dynn_Orsuolo" "dynn_Paradiso" "dynn_Pasqualigo" "dynn_Pesaro" "dynn_Pizaman" "dynn_Polani" { "dynnp_da" "dynn_Da_Ponte" } { "dynnp_da" "dynn_Da_Pozzo" }
 		"dynn_Premarin" "dynn_Priuli" "dynn_Querini" "dynn_Quintavalle" { "dynnp_de" "dynn_De_Riva" } "dynn_Sagredo" "dynn_Salamon" "dynn_Sanudo" "dynn_Selvo" "dynn_Signolo"
 		"dynn_Soranza" "dynn_Spirito" "dynn_Steno" "dynn_Storlado" "dynn_Stornado" "dynn_Tagliapietra" "dynn_Tanolico" "dynn_Tiepolo" "dynn_Tradomenego" "dynn_Tribun"
@@ -184,7 +184,7 @@ name_list_venetian = {
 	    "dynn_Ghisi" "dynn_Girardi" "dynn_Giustinian" "dynn_Gomberto" "dynn_Gradenigo" "dynn_Grimani" "dynn_Grioni" "dynn_Gritti"
 		"dynn_Guoro" "dynn_Ipato" "dynn_Lando" { "dynnp_da" "dynn_Da_Lezze" } "dynn_Lombardo" "dynn_Longo" "dynn_Loredan" { "dynnp_de" "dynn_De_Lorenzo" } "dynn_Magno" 
 		"dynn_Malipiero" "dynn_Marcelo" "dynn_Marin" "dynn_Marmora" "dynn_MaistroPiero" "dynn_Mazzaman" "dynn_Memo" { "dynnp_de" "dynn_De_Mezzo" } "dynn_Michiel" "dynn_Minio" "dynn_Mocenigo" "dynn_Monegario"
-		{ "dynnp_da" "dynn_Da_Molin" } "dynn_Moro" "dynn_Morosini" "dynn_Moresini" { "dynnp_da" "dynn_Da_Mosto" } { "dynnp_da" "dynn_Da_Mula" } "dynn_Nadal" "dynn_Nani" "dynn_Navager" "dynn_Nicola"
+		{ "dynnp_da" "dynn_Da_Molin" } "dynn_Moro" "dynn_Morosini" "dynn_Morosini" { "dynnp_da" "dynn_Da_Mosto" } { "dynnp_da" "dynn_Da_Mula" } "dynn_Nadal" "dynn_Nani" "dynn_Navager" "dynn_Nicola"
 		"dynn_Onoradi" "dynn_Orio" "dynn_Orsuolo" "dynn_Paradiso" "dynn_Pasqualigo" "dynn_Pesaro" "dynn_Pizaman" "dynn_Polani" { "dynnp_da" "dynn_Da_Ponte" } { "dynnp_da" "dynn_Da_Pozzo" }
 		"dynn_Premarin" "dynn_Priuli" "dynn_Querini" "dynn_Quintavalle" { "dynnp_de" "dynn_De_Riva" } "dynn_Sagredo" "dynn_Salamon" "dynn_Sanudo" "dynn_Selvo" "dynn_Signolo"
 		"dynn_Soranza" "dynn_Spirito" "dynn_Steno" "dynn_Storlado" "dynn_Stornado" "dynn_Tagliapietra" "dynn_Tanolico" "dynn_Tiepolo" "dynn_Tradomenego" "dynn_Tribun"

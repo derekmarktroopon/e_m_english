@@ -3,7 +3,7 @@ building_medium_kemetic_pyramid = {
 
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_the_pyramids.dds"
+	type_icon = "special_buildings/the_pyramids.dds"
 
 	can_construct_potential = {
 		or = {
@@ -55,8 +55,6 @@ building_medium_kemetic_pyramid = {
 			scope:holder = { ai_should_focus_on_building_in_their_capital = yes }
 		}
 	}
-
-	type = duchy_capital
 	
 	flag = duchy_building
 
@@ -66,7 +64,7 @@ building_medium_kemetic_pyramid = {
 building_large_kemetic_pyramid = {
 
 	construction_time = very_slow_construction_time
-	type_icon = "icon_structure_the_pyramids.dds"
+	type_icon = "special_buildings/the_pyramids.dds"
 	can_construct_potential = {
 		or = {
 			scope:holder.culture = { has_cultural_parameter = can_build_pyramids }
@@ -102,8 +100,6 @@ building_large_kemetic_pyramid = {
 			scope:holder.capital_province = this
 		}
 	}
-
-	type = duchy_capital
 	
 	flag = duchy_building
 }

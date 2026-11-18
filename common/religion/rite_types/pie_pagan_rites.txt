@@ -21,6 +21,7 @@ pie_christianity = {
 	icon = dyeus-phter_christian
 	color = { 58 96 135 }
 
+	create = no
 	convert = no
 
 	tenets = {

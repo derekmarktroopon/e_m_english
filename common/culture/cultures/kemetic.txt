@@ -96,38 +96,42 @@ ancient_egyptian = {
 	unit_gfx = { sub_sahran_unit_gfx }
 }
 
-coptic_culture = {
+remenkimi = {
 	parents = { ancient_egyptian greek }
-	created = 350.1.1 
+	color = { 0.2 0.55 0.55 }
+	created = 300.1.1
 	history_loc_override = coptic_culture_heritage_loc
-	color = rgb { 210 235 87 }
-	name_list = name_list_coptic
 	heritage = heritage_egyptian
 	language = language_coptic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 
 	ethos = ethos_spiritual
-	
+
 	traditions = {
-		tradition_warriors_of_the_dry
-		tradition_faith_bound 
-        tradition_agrarian
-		tradition_zealous_people
 		tradition_monastic_communities
+		tradition_philosopher_culture
+		tradition_faith_bound
+		tradition_agrarian
 	}
+
+	dlc_tradition = {
+		trait = tradition_binding_oaths
+		requires_dlc_flag = silk_and_silver
+	}
+
+	name_list = name_list_remenkimi
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_16
 
 	ethnicities = {
-		10 = arab
-		1 = east_african		
+		50 = mediterranean
+		50 = arab
 	}
-
-	coa_gfx = { berber_group_coa_gfx }
-	coa_gfx = { byzantine_group_coa_gfx }
-	building_gfx = { byzantine_building_gfx }
-	building_gfx = { berber_group_building_gfx mena_building_gfx  }
-	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
 }
 
 neo_kemetic = {

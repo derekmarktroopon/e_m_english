@@ -34,14 +34,14 @@ friuli = {
 
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		monthly_county_control_growth_factor = 0.01
+		generic_tax_mult = 0.01
+		monthly_county_control_growth_add = 0.05
 	}
 	
 	faith_character_modifier = {
 		name = holy_site_friuli_effect_name
 		direct_vassal_opinion = 5
-		tax_mult = 0.15
+		generic_tax_mult = 0.15
 	}
 
 	faith_character_modifier_scaled = {
@@ -61,7 +61,7 @@ trent = {
 
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
 	}
 	
@@ -86,8 +86,8 @@ innsbruck = {
 
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
 	}
 	
 	faith_character_modifier = {
@@ -112,13 +112,13 @@ volterra = {
 
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		county_opinion_add = 1
+		generic_tax_mult = 0.01
+		popular_opinion_add = 1
 	}
 	
 	faith_character_modifier = {
 		name = holy_site_volterra_effect_name
-		development_growth_factor = 0.15
+		prosperity_growth_factor = 0.15
 		monthly_lifestyle_xp_gain_mult = 0.1
 	}
 

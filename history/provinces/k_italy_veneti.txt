@@ -1,77 +1,1084 @@
 #k_italy
-##d_friuli ###################################
+##d_friuli
 ###c_aquileia
-2508 = {	#AQUILEIA
-	culture = romanoveneti
-	rite = roman_rite
-	holding = castle_holding
-	620.1.1 = {
-        culture = venetian
-    }
-}
-
-###c_friuli
-2512 = {	#CAORLE
-	rite = roman_rite
-	culture = romanoveneti
-	holding = castle_holding
-    620.1.1 = {
-        culture = venetian
-    }
-}
-
-###c_gorz
-2516 = {    #GORIZIA
-    culture = romanoveneti
+####b_aquileia
+2508 = { #AQUILEIA
+    culture = venetian
     rite = roman_rite
     holding = castle_holding
 
-    620.1.1 = {
-        culture = venetian
-    }
-    720.1.1 = {
-        culture = carantanian
-    }
-}
+    867.1.1 = {
+        province_size = 2
+        districts = {
+            district = {
+                type = honey_district
+            }
+            district = {
+                type = villages_district
+            }
+            district = {
+                type = manor_houses_district
+                level = 1
+            }
+        }
 
-##d_verona ###################################
+    }
+    1054.7.16 = {
+        rite = roman_rite
+    }
+    1066.1.1 = {
+        province_size = 1
+        districts = {
+            district = {
+                type = castle_holding_district
+                level = 2
+            }
+            district = {
+                type = honey_district
+                level = 2
+            }
+            district = {
+                type = villages_district
+                level = 2
+            }
+            district = {
+                type = manor_houses_district
+                level = 1
+            }
+        }
+
+    }
+    1178.1.1 = {
+        province_size = 1
+        districts = {
+            district = {
+                type = castle_holding_district
+                level = 3
+                buildings = {
+                    castle_garrison_2
+                    castle_citadel_2
+                }
+            }
+            district = {
+                type = honey_district
+                level = 6
+                buildings = {
+                    cooper_workshop_1
+                    sheep_pastures_1
+                }
+            }
+            district = {
+                type = military_district
+                level = 3
+                buildings = {
+                    mustering_grounds_1
+                    archery_ranges_1
+                }
+            }
+        }
+
+    }
+
+}
+####b_trieste
+2514 = { #TRIESTE
+    holding = city_holding
+
+    867.1.1 = {
+        districts = {
+        }
+    }
+
+    1066.1.1 = {
+        districts = {
+            district = {
+                type = city_holding_district
+                level = 2
+            }
+            district = {
+                type = villages_district
+                level = 2
+            }
+        }
+    }
+
+    1178.1.1 = {
+        districts = {
+            district = {
+                type = city_holding_district
+                level = 3
+                buildings = {
+                    city_local_shrine_2
+                    city_council_hall_2
+                }
+            }
+            district = {
+                type = villages_district
+                level = 3
+            }
+        }
+    }
+
+}
+####b_udine
+2510 = { #UDINE
+    holding = none
+    #983.1.1 = {    #outcommented to leave some empty holdings
+    #   holder = castle_holding
+    #}
+}
+####b_grado
+2507 = { #GRADO
+    holding = church_holding
+
+    867.1.1 = {
+        districts = {
+        }
+    }
+
+    1066.1.1 = {
+        districts = {
+            district = {
+                type = temple_holding_district
+                level = 2
+            }
+            district = {
+                type = villages_district
+                level = 2
+                buildings = {
+                    communal_woodland_1
+                }
+            }
+        }
+    }
+
+    1178.1.1 = {
+        districts = {
+            district = {
+                type = temple_holding_district
+                level = 3
+                buildings = {
+                    temple_hostels_2
+                    temple_religious_fairs_2
+                }
+            }
+            district = {
+                type = villages_district
+                level = 3
+                buildings = {
+                    communal_woodland_1
+                }
+            }
+        }
+    }
+
+}
+###c_friuli
+####b_caorle
+2512 = { #CAORLE
+    culture = venetian
+    rite = roman_rite
+    holding = castle_holding
+
+    867.1.1 = {
+        districts = {
+            district = {
+                type = fish_district
+            }
+            district = {
+                type = villages_district
+            }
+        }
+    }
+
+    1054.7.16 = {
+        rite = roman_rite
+    }
+
+    1066.1.1 = {
+        districts = {
+            district = {
+                type = castle_holding_district
+                level = 2
+            }
+            district = {
+                type = fish_district
+                level = 2
+            }
+            district = {
+                type = villages_district
+                level = 2
+            }
+        }
+    }
+
+    1178.1.1 = {
+        districts = {
+            district = {
+                type = castle_holding_district
+                level = 3
+                buildings = {
+                    castle_citadel_2
+                }
+            }
+            district = {
+                type = fish_district
+                level = 6
+                buildings = {
+                    netmakers_2
+                    fish_saltery_2
+                }
+            }
+            district = {
+                type = villages_district
+                level = 3
+            }
+        }
+    }
+
+}
+####b_pordenone
+2513 = { #PORDENONE
+    holding = city_holding
+
+    867.1.1 = {
+        districts = {
+        }
+    }
+
+    1066.1.1 = {
+        districts = {
+            district = {
+                type = city_holding_district
+                level = 2
+            }
+            district = {
+                type = villages_district
+                level = 2
+            }
+        }
+    }
+
+    1178.1.1 = {
+        districts = {
+            district = {
+                type = city_holding_district
+                level = 3
+                buildings = {
+                    city_local_shrine_2
+                    city_council_hall_2
+                }
+            }
+            district = {
+                type = villages_district
+                level = 3
+                buildings = {
+                    local_bailiffs_1
+                    village_granaries_1
+                }
+            }
+        }
+    }
+
+}
+####b_portogruaro
+8766 = { #PORTOGRUARO
+    holding = none
+    #Founded in 1140
+}
+###c_gorz
+####b_gorizia
+2516 = { #GORIZIA
+    culture = carantanian
+    rite = roman_rite
+    holding = castle_holding
+
+    867.1.1 = {
+        districts = {
+            district = {
+                type = mine_district
+            }
+            district = {
+                type = villages_district
+                buildings = {
+                    meadowlands_pastures_1
+                }
+            }
+        }
+    }
+
+    1054.7.16 = {
+        rite = roman_rite
+    }
+
+    1066.1.1 = {
+        districts = {
+            district = {
+                type = castle_holding_district
+                level = 2
+            }
+            district = {
+                type = mine_district
+                level = 2
+            }
+            district = {
+                type = villages_district
+                level = 2
+                buildings = {
+                    meadowlands_pastures_1
+                }
+            }
+        }
+    }
+
+    1178.1.1 = {
+        districts = {
+            district = {
+                type = castle_holding_district
+                level = 3
+                buildings = {
+                    castle_training_grounds_2
+                    castle_great_hall_2
+                }
+            }
+            district = {
+                type = mine_district
+                level = 6
+                buildings = {
+                    tool_smith_2
+                    weapon_armor_smith_2
+                }
+            }
+            district = {
+                type = villages_district
+                level = 3
+                buildings = {
+                    meadowlands_pastures_1
+                }
+            }
+        }
+    }
+
+}
+####b_triglavski
+2515 = { #TRIGLAVSKI
+    holding = none
+}
+##d_verona
 ###c_verona
-2501 = {	#VERONA
-	culture = romanoveneti
-	rite = roman_rite
-	holding = castle_holding
-    620.1.1 = {
-        culture = venetian
-    }
-}
+####b_verona
+2501 = { #VERONA
+    culture = venetian
+    rite = roman_rite
+    holding = castle_holding
 
+    867.1.1 = {
+        province_size = 4
+        districts = {
+            district = {
+                type = wine_district
+                level = 2
+                buildings = {
+                }
+            }
+            district = {
+                type = walls_district
+                level = 1
+                buildings = {
+                }
+            }
+            district = {
+                type = urban_housing_district
+                level = 2
+                buildings = {
+                    suburb_1
+                }
+            }
+            district = {
+                type = guild_district
+                level = 2
+                buildings = {
+                    weavers_guild_1
+                }
+            }
+        }
+
+    }
+    1054.7.16 = {
+        rite = roman_rite
+    }
+    1066.1.1 = {
+        province_size = 4
+        districts = {
+            district = {
+                type = castle_holding_district
+                level = 2
+            }
+            district = {
+                type = wine_district
+                level = 3
+                buildings = {
+                    seasonal_labor_shared_1
+                }
+            }
+            district = {
+                type = walls_district
+                level = 2
+                buildings = {
+                    city_watch_2
+                }
+            }
+            district = {
+                type = urban_housing_district
+                level = 2
+                buildings = {
+                    noble_townhouses_2
+                    suburb_1
+                }
+            }
+            district = {
+                type = guild_district
+                level = 2
+                buildings = {
+                    weavers_guild_1
+                }
+            }
+        }
+
+    }
+    1178.1.1 = {
+        province_size = 4
+        districts = {
+            district = {
+                type = castle_holding_district
+                level = 3
+                buildings = {
+                    castle_court_2
+                    castle_garrison_2
+                }
+            }
+            district = {
+                type = wine_district
+                level = 6
+                buildings = {
+                    seasonal_labor_shared_1
+                    cooper_workshop_1
+                }
+            }
+            district = {
+                type = walls_district
+                level = 3
+                buildings = {
+                    city_watch_2
+                    gatehouses_2
+                }
+            }
+            district = {
+                type = urban_housing_district
+                level = 3
+                buildings = {
+                    communal_wells_2
+                    suburb_1
+                }
+            }
+            district = {
+                type = guild_district
+                level = 3
+                buildings = {
+                    weavers_guild_2
+                }
+            }
+        }
+        trade_post = {
+            type = trade_post_location_district
+            level = 2
+            owner = cisalpine0204 # Grimerio Sambonifazio - Veronese capital
+            buildings = {
+                trade_counting_house_01
+                trade_cloth_hall_01
+            }
+        }
+
+    }
+
+}
+####b_lessinia
+2502 = { #LESSINIA
+    holding = none
+}
+####b_garda
+2496 = { #GARDA
+    holding = church_holding
+
+    867.1.1 = {
+        districts = {
+            district = {
+                type = villages_district
+            }
+            district = {
+                type = religious_community_district
+                level = 1
+            }
+        }
+    }
+
+    1066.1.1 = {
+        districts = {
+            district = {
+                type = temple_holding_district
+                level = 2
+                buildings = {
+                    temple_hospices_2
+                }
+            }
+            district = {
+                type = villages_district
+                level = 2
+            }
+            district = {
+                type = religious_community_district
+                level = 1
+            }
+        }
+    }
+
+    1178.1.1 = {
+        districts = {
+            district = {
+                type = temple_holding_district
+                level = 3
+                buildings = {
+                    temple_hospices_2
+                    temple_hostels_2
+                }
+            }
+            district = {
+                type = villages_district
+                level = 3
+            }
+            district = {
+                type = religious_community_district
+                level = 1
+            }
+        }
+    }
+
+}
 ###c_treviso
-2505 = {	#TREVISO
+####b_treviso
+2505 = { #TREVISO
+    culture = venetian
     rite = roman_rite
-    culture = romanoveneti
-	holding = castle_holding
-    620.1.1 = {
-        culture = venetian
-    }
-}
+    holding = castle_holding
 
+    867.1.1 = {
+        districts = {
+            district = {
+                type = millet_district
+            }
+            district = {
+                type = military_district
+                buildings = {
+                }
+            }
+        }
+    }
+
+    1054.7.16 = {
+        rite = roman_rite
+    }
+
+    1066.1.1 = {
+        districts = {
+            district = {
+                type = castle_holding_district
+                level = 2
+                buildings = {
+                    castle_training_grounds_2
+                }
+            }
+            district = {
+                type = millet_district
+                level = 2
+            }
+            district = {
+                type = military_district
+                level = 2
+                buildings = {
+                    mustering_grounds_1
+                }
+            }
+        }
+    }
+
+    1178.1.1 = {
+        districts = {
+            district = {
+                type = castle_holding_district
+                level = 3
+                buildings = {
+                    castle_court_2
+                    castle_larder_2
+                }
+            }
+            district = {
+                type = millet_district
+                level = 6
+                buildings = {
+                    seasonal_labor_shared_1
+                    double_cropping_2
+                }
+            }
+            district = {
+                type = military_district
+                level = 3
+                buildings = {
+                    archery_ranges_1
+                    militia_camps_1
+                }
+            }
+        }
+        trade_post = {
+            type = trade_post_location_district
+            level = 2
+            owner = cisalpine0208 # Ezzelino da Romano - Trevisan capital
+            buildings = {
+                trade_counting_house_01
+                trade_cloth_hall_01
+            }
+        }
+    }
+
+}
+####b_ceneta
+2511 = { #CENETA
+    holding = church_holding
+
+    867.1.1 = {
+        districts = {
+        }
+    }
+
+    1066.1.1 = {
+        districts = {
+            district = {
+                type = temple_holding_district
+                level = 2
+            }
+            district = {
+                type = villages_district
+                level = 2
+            }
+        }
+    }
+
+    1178.1.1 = {
+        districts = {
+            district = {
+                type = temple_holding_district
+                level = 3
+                buildings = {
+                    temple_religious_fairs_2
+                    temple_hostels_2
+                }
+            }
+            district = {
+                type = villages_district
+                level = 3
+            }
+        }
+    }
+
+}
+####b_vicenza
+2500 = { #VICENZA
+    holding = city_holding
+
+    867.1.1 = {
+        districts = {
+        }
+    }
+
+    1066.1.1 = {
+        districts = {
+            district = {
+                type = city_holding_district
+                level = 2
+            }
+            district = {
+                type = villages_district
+                level = 2
+            }
+        }
+    }
+
+    1178.1.1 = {
+        districts = {
+            district = {
+                type = city_holding_district
+                level = 3
+                buildings = {
+                    city_town_watch_2
+                    city_town_market_2
+                }
+            }
+            district = {
+                type = villages_district
+                level = 3
+            }
+        }
+    }
+
+}
 ###c_padua
-2503 = {	#PADUA
-	rite = roman_rite
-    culture = romanoveneti
-	holding = castle_holding
-    620.1.1 = {
-        culture = venetian
+####b_padua
+2503 = { #PADUA
+    culture = venetian
+    rite = roman_rite
+    holding = castle_holding
+
+    867.1.1 = {
+        province_size = 3
+        districts = {
+            district = {
+                type = flax_district
+                buildings = {
+                    textiles_flax_building_1
+                }
+            }
+            district = {
+                type = walls_district
+                level = 1
+                buildings = {
+                }
+            }
+            district = {
+                type = urban_housing_district
+                level = 1
+                buildings = {
+                }
+            }
+            district = {
+                type = guild_district
+                level = 2
+                buildings = {
+                    weavers_guild_1
+                }
+            }
+        }
+
+    }
+    1054.7.16 = {
+        rite = roman_rite
+    }
+    1066.1.1 = {
+        province_size = 4
+        districts = {
+            district = {
+                type = castle_holding_district
+                level = 2
+                buildings = {
+                    castle_training_grounds_2
+                }
+            }
+            district = {
+                type = flax_district
+                level = 2
+                buildings = {
+                    textiles_flax_building_2
+                }
+            }
+            district = {
+                type = walls_district
+                level = 2
+                buildings = {
+                    city_watch_2
+                }
+            }
+            district = {
+                type = urban_housing_district
+                level = 2
+                buildings = {
+                    communal_wells_2
+                }
+            }
+        }
+
+    }
+    1178.1.1 = {
+        province_size = 4
+        districts = {
+            district = {
+                type = castle_holding_district
+                level = 3
+                buildings = {
+                    castle_citadel_2
+                }
+            }
+            district = {
+                type = flax_district
+                level = 6
+                buildings = {
+                    textiles_flax_building_2
+                }
+            }
+            district = {
+                type = walls_district
+                level = 3
+                buildings = {
+                    city_watch_2
+                    gatehouses_2
+                }
+            }
+            district = {
+                type = urban_housing_district
+                level = 3
+                buildings = {
+                    travellers_inns_2
+                }
+            }
+        }
+        trade_post = {
+            type = trade_post_location_district
+            level = 2
+            owner = 223597 # Obizzo d'Este - Paduan capital
+            buildings = {
+                trade_counting_house_01
+                trade_cloth_hall_01
+            }
+        }
+
+    }
+
+}
+####b_lonigo
+2509 = { #LONIGO
+    holding = church_holding
+
+    867.1.1 = {
+        districts = {
+        }
+    }
+
+    1066.1.1 = {
+        districts = {
+            district = {
+                type = temple_holding_district
+                level = 2
+            }
+            district = {
+                type = villages_district
+                level = 2
+                buildings = {
+                    village_butcher_1
+                }
+            }
+        }
+    }
+
+    1178.1.1 = {
+        districts = {
+            district = {
+                type = temple_holding_district
+                level = 3
+                buildings = {
+                    temple_religious_fairs_2
+                    temple_hostels_2
+                }
+            }
+            district = {
+                type = villages_district
+                level = 3
+                buildings = {
+                    village_butcher_1
+                }
+            }
+        }
+    }
+
+}
+####b_montagnana
+2666 = { #MONTAGNANA
+    holding = none
+
+    1178.1.1 = {
+        holding = city_holding
+        districts = {
+            district = {
+                type = city_holding_district
+                level = 3
+                buildings = {
+                    city_town_watch_2
+                    city_town_market_2
+                }
+            }
+            district = {
+                type = villages_district
+                level = 3
+                buildings = {
+                    meadowlands_pastures_1
+                }
+            }
+        }
+
     }
 }
+####b_este
+8765 = { #ESTE
+    holding = city_holding
 
-
-###c_polesine
-2525 = {	#ROVIGO
-    rite = roman_rite
-    culture = romanoveneti
-	holding = castle_holding
-    620.1.1 = {
-        culture = venetian
+    867.1.1 = {
+        districts = {
+        }
     }
+
+    1066.1.1 = {
+        districts = {
+            district = {
+                type = city_holding_district
+                level = 2
+            }
+            district = {
+                type = villages_district
+                level = 2
+            }
+        }
+    }
+
+    1178.1.1 = {
+        districts = {
+            district = {
+                type = city_holding_district
+                level = 3
+                buildings = {
+                    city_town_market_2
+                    city_council_hall_2
+                }
+            }
+            district = {
+                type = villages_district
+                level = 3
+            }
+        }
+    }
+
+}
+###c_polesine
+####b_rovigo
+2525 = { #ROVIGO
+    culture = venetian
+    rite = roman_rite
+    holding = castle_holding
+
+    867.1.1 = {
+        districts = {
+            district = {
+                type = fish_district
+            }
+            district = {
+                type = villages_district
+                buildings = {
+                }
+            }
+        }
+    }
+
+    1054.7.16 = {
+        rite = roman_rite
+    }
+
+    1066.1.1 = {
+        districts = {
+            district = {
+                type = castle_holding_district
+                level = 2
+            }
+            district = {
+                type = fish_district
+                level = 2
+            }
+            district = {
+                type = villages_district
+                level = 2
+                buildings = {
+                    village_butcher_1
+                }
+            }
+        }
+    }
+
+    1178.1.1 = {
+        districts = {
+            district = {
+                type = castle_holding_district
+                level = 3
+                buildings = {
+                    castle_garrison_2
+                    castle_great_hall_2
+                }
+            }
+            district = {
+                type = fish_district
+                level = 6
+                buildings = {
+                    netmakers_2
+                    fish_saltery_2
+                }
+            }
+            district = {
+                type = villages_district
+                level = 3
+                buildings = {
+                    village_butcher_1
+                }
+            }
+        }
+    }
+
+}
+####b_adria
+2524 = { #ADRIA
+    holding = city_holding
+
+    867.1.1 = {
+        districts = {
+            district = {
+                type = villages_district
+            }
+        }
+    }
+
+    1066.1.1 = {
+        districts = {
+            district = {
+                type = city_holding_district
+                level = 2
+            }
+            district = {
+                type = villages_district
+                level = 2
+            }
+        }
+    }
+
+    1178.1.1 = {
+        districts = {
+            district = {
+                type = city_holding_district
+                level = 3
+                buildings = {
+                    city_town_market_2
+                    city_town_watch_2
+                }
+            }
+            district = {
+                type = villages_district
+                level = 3
+                buildings = {
+                    village_butcher_1
+                }
+            }
+        }
+    }
+
 }

@@ -232,7 +232,7 @@ Anoshag:0 "Anōshag"
 Bamdad_mp:0 "Bāmdād"
 Wehafrid:0 "Wehāfrīd"
 Jawed:0 "Jāwēd"
-Jamshed:0 "Jamshēd" # Jamshid
+# Jamshed:0 "Jamshēd" # Jamshid
 Husrav:0 "Husrav" # Khosrau 
 Daray:0 "Dārāy" # Darius
 Rodstahm:0 "Rōdstahm" # Rostam
@@ -250,7 +250,7 @@ Gehan:0 "Gēhān" # Jahan
 Farrukhzadag:0 "Farrūkhzādag" # Farrukhzad
 # Zardusht - make name eðuivalency with Zartosht
 Parvez:0 "Parvēz " # Parviz - make name eðuivalency 
-Adarbad:0 "Adarbad"
+# Adarbad:0 "Adarbad"
 Adurnarseh:0 "Adurnarseh"
 Anosherawan:0 "Anōsherawān" # Anushirvan
 Askjawar:0 "Askjawar"
@@ -296,7 +296,7 @@ Hutos:0 "Hutōs" # Atossa
 
 # dynasties
 
-dynn_Suren:0 "Sūrēn"
+# dynn_Suren:0 "Sūrēn"
 dynn_Karen_mp:0 "Kārēn"
 dynn_Karen_pahlaw:0 "Kārēn-Pahlaw"
 dynn_Mihran_mp:0 "Mihrān"
@@ -856,7 +856,7 @@ Khudewuk:0 "Khudewuk"
 Khudeband:0 "Khudeband"
 Khol_bact:0 "Khol"
 Oz_bact:0 "Oz"
-Shabur:0 "Shabur"
+# Shabur:0 "Shabur"
 Sharabird:0 "Sharabird"
 Shkur:0 "Shkur"
 Shudba:0 "Shudba"

@@ -1,21 +1,99 @@
 ﻿
 
-##d_crimea ###################################
+##d_crimea
 ###c_kerch
-562 = {		#Kerch
+####b_kerch
+562 = { #KERCH
 	culture = gothic
 	rite = byzantine_rite
 	holding = castle_holding
+
 	867.1.1 = {
-		buildings = {
-			common_tradeport_01
+
+		districts = {
+			district = {
+				type = fish_district
+				level = 2
+			}
+			district = {
+				type = villages_district
+				buildings = {
+				}
+			}
+			district = {
+				type = walls_district
+				level = 1
+				buildings = {
+				}
+			}
 		}
+
+	}
+	1030.1.1 = {
+		culture = crimean_gothic
+	}
+	1054.7.16 = {
+		rite = byzantine_rite
 	}
 	1066.1.1 = {
-		buildings = {
-			common_tradeport_01
-			#pastures_01
-			military_camps_01
+		districts = {
+			district = {
+				type = castle_holding_district
+				level = 2
+			}
+			district = {
+				type = fish_district
+				level = 3
+				buildings = {
+					netmakers_2
+				}
+			}
+			district = {
+				type = military_district
+				level = 2
+				buildings = {
+					mustering_grounds_1
+				}
+			}
+			district = {
+				type = walls_district
+				level = 2
+				buildings = {
+					city_watch_2
+				}
+			}
+		}
+
+	}
+
+	1178.1.1 = {
+		districts = {
+			district = {
+				type = castle_holding_district
+				level = 3
+				buildings = {
+					castle_training_grounds_2
+				}
+			}
+			district = {
+				type = fish_district
+				level = 6
+				buildings = {
+					netmakers_2
+				}
+			}
+			district = {
+				type = villages_district
+				level = 3
+				buildings = {
+					village_butcher_1
+				}
+			}
+			district = {
+				type = religious_community_district
+				level = 1
+			}
 		}
 	}
+
 }

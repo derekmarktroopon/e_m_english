@@ -66,6 +66,12 @@ tenet_ritual_writing = {
 tenet_bhakti = {
 	icon = tenet_bhakti
 
+	historical_glossary = {
+		first_valid = {
+			desc = tenet_bhakti_historical_glossary
+		}
+	}
+
 	name = {
 		first_valid = {
 			triggered_desc = {
@@ -92,18 +98,6 @@ tenet_bhakti = {
 
 	piety_cost = faith_tenet_cost_mid
 
-	is_shown = {
-		OR = {
-			religion_tag = hinduism_religion
-			# With FP1, Germanics also get personal deities.
-			AND = {
-				religion_tag = germanic_religion
-				has_fp1_dlc_trigger = yes
-			}
-			religion_tag = retic_religion
-		}
-	}
-
 	can_pick = {
 		OR = {
 			religion = religion:hinduism_religion
@@ -120,12 +114,34 @@ tenet_bhakti = {
 		}
 	}
 
-	parameters = {
-		select_personal_god_active
+	can_pick_as_personal_tenet = {
+		trigger_if = {
+			limit = { has_particular_personal_deity_group = no }
+			rite = { rite_has_doctrine = doctrine_pluralism_pluralistic }
+			trigger_if = {
+				limit = { faith = { NOT = { has_doctrine = pagan_hostility_doctrine } } }
+				OR = {
+					has_personal_tenet = tenet_unreformed_syncretism
+					rite = { rite_has_parameter = unreformed_syncretic_actor }
+				}
+			}
+		}
+		NOT = { rite = { rite_has_doctrine = doctrine_monotheist } }
+	}
+
+	character_modifier = {
+		trade_category_jewelry_materials_xp_gain_mult = 0.1
+		trade_good_ivory_sell_price_mult = 0.015
+	}
+
+	county_modifier = {
+		trade_category_jewelry_materials_production_mult = 0.15
 	}
 
 	personal_tenet_modifier = {
 		piety_level_impact_mult = 0.2
+		trade_category_jewelry_materials_xp_gain_mult = 0.2
+		trade_good_ivory_sell_price_mult = 0.03
 	}
 
 	personal_tenet_parameters = {
@@ -191,7 +207,7 @@ tenet_megaliths = {
 	}
 
 	can_pick = {
-		always = yes
+		
 	}
 
 	parameters = {
@@ -200,10 +216,16 @@ tenet_megaliths = {
 	}
 
 	character_modifier = {
-		hills_development_growth_factor = 0.15
+		hills_prosperity_growth_factor = 0.15
 		hills_tax_mult = 0.1
 		hills_levy_size = 0.3
 		hills_advantage = 5
+		trade_category_stone_xp_gain_mult = 0.1
+		trade_good_stone_sell_price_mult = 0.015
+	}
+
+	county_modifier = {
+		trade_good_stone_production_mult = 0.2
 	}
 
 	personal_tenet_modifier = {
@@ -211,7 +233,10 @@ tenet_megaliths = {
 		terraced_hills_construction_gold_cost = -0.1
 		mountains_construction_gold_cost = -0.1
 		desert_mountains_construction_gold_cost = -0.1
-		build_speed = 0.25
+		build_speed = -0.1
+		domicile_build_gold_cost = -0.1
+		trade_category_stone_xp_gain_mult = 0.25
+		trade_good_stone_sell_price_mult = 0.03
 	}
 
 	personal_tenet_parameters = {
@@ -355,6 +380,7 @@ tenet_warmonger = {
 		great_holy_wars_active_if_reformed
 		clergy_can_fight
 		sanctify_artifacts_weapons
+		tenet_warmonger_sacred_forge
 		faith_can_raid
 	}
 
@@ -366,6 +392,11 @@ tenet_warmonger = {
 		ai_war_chance = 0.5
 		ai_war_cooldown = -0.25
 		accolade_glory_gain_mult = 0.1
+		trade_good_iron_sell_price_mult = 0.01
+	}
+
+	county_modifier = {
+		trade_category_base_metals_production_mult = 0.1
 	}
 
 	personal_tenet_parameters = {
@@ -374,6 +405,8 @@ tenet_warmonger = {
 
 	personal_tenet_modifier = {
 		prowess_per_piety_level = 1
+		trade_category_base_metals_xp_gain_mult = 0.25
+		trade_good_iron_sell_price_mult = 0.02
 		maa_damage_mult = 0.05
 	}
 
@@ -491,11 +524,44 @@ tenet_alexandrian_catechism = {
 		}
 	}
 
+	historical_glossary = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					rite_religion_tag = islam_religion
+				}
+				desc = tenet_islamic_rationalism_historical_glossary
+			}
+			triggered_desc = {
+				trigger = {
+					has_pam_dlc_trigger = yes
+					pam_latin_as_liturgical_language_trigger = yes
+				}
+				desc = tenet_alexandrian_catechism_latin_historical_glossary
+			}
+			triggered_desc = {
+				trigger = {
+					has_pam_dlc_trigger = yes
+					pam_greek_as_liturgical_language_trigger = yes
+				}
+				desc = tenet_alexandrian_catechism_greek_historical_glossary
+			}
+			triggered_desc = {
+				trigger = {
+					has_pam_dlc_trigger = yes
+					religion = religion:christianity_religion
+					pam_greek_as_liturgical_language_trigger = no
+					pam_latin_as_liturgical_language_trigger = no
+				}
+				desc = tenet_alexandrian_catechism_default_historical_glossary
+			}
+		}
+	}
+
 	can_pick = {
 		OR = {
 			religion = religion:christianity_religion
 			religion = religion:islam_religion
-			religion = religion:retic_religion
 		}
 		custom_description = {
 			text = doctrine_pluralism_fundamentalist_trigger
@@ -512,6 +578,11 @@ tenet_alexandrian_catechism = {
 	
 	parameters = {
 		scholasticism_is_holy
+	}
+
+	personal_tenet_modifier = {
+		trade_category_books_xp_gain_mult = 0.25
+		trade_good_books_paper_sell_price_mult = 0.02
 	}
 
 	personal_tenet_parameters = {

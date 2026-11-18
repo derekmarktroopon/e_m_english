@@ -13,7 +13,7 @@ language_coptic = {
 			multiply = 10
 		}
 	}
-	color = { 210 235 87 }
+	color = { 0.2 0.55 0.55 }
 }
 
 language_merotic = {

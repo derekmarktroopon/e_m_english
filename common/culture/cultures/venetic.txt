@@ -261,10 +261,23 @@ venetian = {
 	head_determination = head_determination_domain
 	
 	traditions = {
-		tradition_maritime_mercantilism
 		tradition_republican_legacy
-		tradition_astute_diplomats
-		tradition_music_theory
+		tradition_maritime_mercantilism
+	}
+
+	dlc_tradition = {
+		trait = tradition_roman_law
+		requires_dlc_flag = silk_and_silver
+	}
+
+	dlc_tradition = {
+		trait = tradition_civic_religion
+		requires_dlc_flag = silk_and_silver
+	}
+
+	dlc_tradition = {
+		trait = tradition_fortune_seekers
+		requires_dlc_flag = silk_and_silver
 	}
 	
 	name_list = name_list_venetian

@@ -158,6 +158,7 @@ pie_christianity_communion_scripted_effect = {
 		}
 	}
 	rite:pie_christianity = {
+		enabled = yes
 		set_can_convert_to_rite = yes
 		if = {
 			limit = {
@@ -391,6 +392,7 @@ venetic_christianity_communion_scripted_effect = {
 		}
 	}
 	rite:venetic_christianity = {
+		enabled = yes
 		set_can_convert_to_rite = yes
 		if = {
 			limit = {

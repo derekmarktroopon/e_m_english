@@ -38,7 +38,7 @@ restore_ithaca_scripted_effect = {
 		add_trait = eccentric
 	} 
 	title:c_cephalonia = {
-		change_development_level = medium_development_level_gain
+		change_prosperity_level = medium_prosperity_level_gain
 		set_county_culture = root.culture
 		set_county_faith = root.faith
 		set_county_rite = root.rite

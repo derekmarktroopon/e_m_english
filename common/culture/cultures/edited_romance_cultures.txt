@@ -85,8 +85,22 @@ cisalpine = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_republican_legacy
-		tradition_mountain_homes
 		tradition_maritime_mercantilism
+	}
+
+	dlc_tradition = {
+		trait = tradition_roman_law
+		requires_dlc_flag = silk_and_silver
+	}
+
+	dlc_tradition = {
+		trait = tradition_civic_religion
+		requires_dlc_flag = silk_and_silver
+	}
+
+	dlc_tradition = {
+		trait = tradition_fortune_seekers
+		requires_dlc_flag = silk_and_silver
 	}
 	
 	name_list = name_list_cisalpine
