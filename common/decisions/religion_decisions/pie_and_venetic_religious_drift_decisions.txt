@@ -1,5 +1,4 @@
-﻿
-enter_communion_with_the_christians_pie = {
+﻿enter_communion_with_the_christians_pie = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/fp1_decisons_hold_bolt.dds"
 	}

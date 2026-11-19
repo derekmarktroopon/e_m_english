@@ -48,7 +48,7 @@ venetic_christianity = {
 	faith = venetic_paganism
 	icon = venetic_christianity
 
-	create = no
+	# create = no
 	convert = no
 
 	color = { 127 238 240 }

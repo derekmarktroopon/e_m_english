@@ -131,7 +131,12 @@ pie_christianity_communion_scripted_effect = {
 
 		}
 		rite:pie_christianity = {
-			set_rite_enabled = yes
+			if = {
+				limit = {
+					rite:pie_christianity ?= { is_rite_enabled = no }
+				}
+				set_rite_enabled = yes
+			}
 			set_can_convert_to_rite = yes
 			change_rite_doctrine = scope:pope_marriage_doctrine
 			change_rite_doctrine = scope:pope_divorce_doctrine
@@ -365,7 +370,12 @@ venetic_christianity_communion_scripted_effect = {
 			else = { doctrine:doctrine_sacraments_absent = { save_scope_as = pope_sacraments_doctrine } }
 		}
 		rite:venetic_christianity = {
-			set_rite_enabled = yes
+			if = {
+				limit = {
+					rite:venetic_christianity ?= { is_rite_enabled = no }
+				}
+				set_rite_enabled = yes
+			}
 			set_can_convert_to_rite = yes
 			change_rite_doctrine = scope:pope_marriage_doctrine
 			change_rite_doctrine = scope:pope_divorce_doctrine
