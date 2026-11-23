@@ -87,10 +87,11 @@ name_list_middle_persian = {
 		Frasiyab Anoshag Bamdad_mp Wehafrid Jawed Jamshed Husrav Daray Rozweh Sasan_mp Peroz_mp Shahryar_mp Tahmasp_mp Fredon Mihran_mp Mihrdad_mp Hoshang_mp Gehan
 		Farrukhzadag Zardusht Parvez
 		Adarbad Adurnarseh Anosherawan Askjawar Asparukh Azat Baydad Frahad Gundafarr Justan Jamasp_mp Kawad Mahdad Manez Mihrfarr Pakur Siyamak Tirdad Wadfradad Wiraz Wiroy Wistahm Yazdegerd Walaxsh
+		Neryosang Pishyotan
 	}
 	female_names = {
 		Wehafrid Azarmigduxt Boran Denag Shiren Banug Farigis Humay Anahid_mp Aduranahid Roshan_mp Yazdanduxt Shahrbanug Zruanduxt Hutos
-		Apranik Golandoxt Spandarmad Tida
+		Apranik Golandoxt Spandarmad Tida Adurduxt
 	}
 	
 	founder_named_dynasties = yes

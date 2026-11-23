@@ -1,0 +1,342 @@
+﻿namespace = iranian_cultures_events
+
+##################################################
+# Median and Parthian become Kurdish and dylamite
+##################################################
+
+iranian_cultures_events.1 = { # Old median divergences - around 300 CE
+	hidden = yes
+
+	immediate = {
+		every_culture_global = { # Old median divergences
+			limit = {
+				has_name_list = name_list_old_median
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+						
+						title_province = { duchy = title:d_isfahan } # Western Persia
+						title_province = { duchy = title:d_hamadan }
+						title_province = { duchy = title:d_fars }
+						title_province = { duchy = title:d_hormuz }
+						title_province = { duchy = title:d_khuzestan }
+						title_province = { duchy = title:d_kermanshah }
+						title_province = { duchy = title:d_azerbaijan } # Western Dylam
+						title_province = { duchy = title:d_shirvan }
+						title_province = { duchy = title:d_mesopotamia }# Armenia
+						title_province = { duchy = title:d_vaspurakan }
+						title_province = { duchy = title:d_greater_armenia }
+						title_province = { duchy = title:d_diyarrabia } # Jazira
+						title_province = { duchy = title:d_diyarmudar }
+						title_province = { duchy = title:d_diyarbakr }
+						title_province = { duchy = title:d_euphrates }
+						title_province = { duchy = title:d_kurdistan } # Iraq
+						title_province = { duchy = title:d_samarra }
+						title_province = { duchy = title:d_wasit }
+						title_province = { duchy = title:d_kufa }
+						title_province = { duchy = title:d_basra }
+						title_province = { duchy = title:d_baghdad }
+					}
+				}
+				add_to_list = median_counties_to_make_kurdish
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+
+						title_province = { duchy = title:d_kirman }# Eastern Persia 
+						title_province = { duchy = title:d_yazd }
+						title_province = { duchy = title:d_rayy }
+						title_province = { duchy = title:d_nishapur } # Khorastan
+						title_province = { duchy = title:d_merv }
+						title_province = { duchy = title:d_herat }
+						title_province = { duchy = title:d_balkh }
+						title_province = { duchy = title:d_nasa }
+						title_province = { duchy = title:d_kohestan }
+						title_province = { duchy = title:d_daylam } # Eastern Daylam
+						title_province = { duchy = title:d_tabaristan }
+						title_province = { duchy = title:d_gurgan }
+						title_province = { duchy = title:d_kabul } # Afghanistan
+						title_province = { duchy = title:d_zabulistan }
+						title_province = { duchy = title:d_ghur }
+						title_province = { duchy = title:d_sistan }
+					}
+				}
+				add_to_list = median_counties_to_make_parthian
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+
+						title_province = { duchy = title:d_makran } # Makran (Balochistan)
+						title_province = { duchy = title:d_jabal_kufs }
+					}
+				}
+				add_to_list = median_counties_to_make_baloch
+			}
+		}
+		every_in_list = {#####
+			list = median_counties_to_make_kurdish
+			set_county_culture = culture:kurdish
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							has_name_list = name_list_old_median
+						}
+					}
+					set_culture = culture:kurdish
+					every_courtier = {
+						limit = {
+							culture = { 
+								has_name_list = name_list_old_median
+							}
+						}
+						set_culture = culture:kurdish
+					}
+				}
+			}
+		}
+		culture:kurdish = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:old_median
+		}
+		every_in_list = {
+			list = median_counties_to_make_parthian
+			set_county_culture = culture:parthian
+		}
+		culture:parthian = {
+			get_all_innovations_from = culture:old_median
+		}
+		every_in_list = {#####
+			list = median_counties_to_make_baloch
+			set_county_culture = culture:baloch
+		}
+	}
+}
+
+iranian_cultures_events.2 = { # Middle Persian + Parthian divergences - around 700 CE
+	hidden = yes
+
+	immediate = {
+		every_culture_global = { # Middle Persian divergences
+			limit = {
+				has_name_list = name_list_middle_persian
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+						
+						title_province = { duchy = title:d_isfahan } # Western Persia
+						title_province = { duchy = title:d_hamadan }
+						title_province = { duchy = title:d_fars }
+						title_province = { duchy = title:d_hormuz }
+						title_province = { duchy = title:d_khuzestan }
+						title_province = { duchy = title:d_kermanshah }
+						title_province = { duchy = title:d_kirman }# Eastern Persia 
+						title_province = { duchy = title:d_yazd }
+						title_province = { duchy = title:d_rayy }
+						title_province = { duchy = title:d_azerbaijan } # Western Dylam
+						title_province = { duchy = title:d_shirvan }
+					}
+				}
+				add_to_list = middle_persian_counties_to_make_persian
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+						title_province = { duchy = title:d_nishapur } # Khorastan
+						title_province = { duchy = title:d_merv }
+						title_province = { duchy = title:d_herat }
+						title_province = { duchy = title:d_balkh }
+						title_province = { duchy = title:d_nasa }
+						title_province = { duchy = title:d_kohestan }
+						title_province = { duchy = title:d_daylam } # Eastern Daylam
+						title_province = { duchy = title:d_tabaristan }
+						title_province = { duchy = title:d_gurgan }
+						title_province = { duchy = title:d_kabul } # Afghanistan
+						title_province = { duchy = title:d_zabulistan }
+						title_province = { duchy = title:d_ghur }
+						title_province = { duchy = title:d_sistan }
+					}
+				}
+				add_to_list = middle_persian_counties_to_make_tajik
+			}
+			every_culture_county = {
+				limit = {
+					title_province = { geographical_region = world_india }
+				}
+				add_to_list = middle_persian_counties_to_make_parsi
+			}
+		}
+		every_culture_global = { # parthian divergences
+			limit = {
+				has_name_list = name_list_parthian
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+						title_province = { duchy = title:d_azerbaijan } # Western Dylam
+						title_province = { duchy = title:d_shirvan }
+						title_province = { duchy = title:d_daylam } # Eastern Daylam
+						title_province = { duchy = title:d_tabaristan }
+						title_province = { duchy = title:d_nasa } # A little of persia and khorsan
+						title_province = { duchy = title:d_rayy }
+						title_province = { duchy = title:d_nishapur }
+					}
+				}
+				add_to_list = parthian_counties_to_make_daylamite
+			}
+		}
+		every_culture_global = { # Bactrian divergences
+			limit = {
+				has_name_list = name_list_bactrian
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+						title_province = { duchy = title:d_merv } # Southern Khorsan
+						title_province = { duchy = title:d_herat }
+						title_province = { duchy = title:d_balkh }
+						title_province = { duchy = title:d_kabul } # Afghanistan
+						title_province = { duchy = title:d_zabulistan }
+						title_province = { duchy = title:d_ghur }
+						title_province = { duchy = title:d_sistan }
+					}
+				}
+				add_to_list = bactrian_counties_to_make_afghan
+			}
+		}
+		every_in_list = {#####
+			list = bactrian_counties_to_make_afghan
+			set_county_culture = culture:afghan
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							has_name_list = name_list_bactrian
+						}
+					}
+					set_culture = culture:afghan
+					every_courtier = {
+						limit = {
+							culture = { 
+								has_name_list = name_list_bactrian
+							}
+						}
+						set_culture = culture:afghan
+					}
+				}
+			}
+		}
+		culture:afghan = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:bactrian
+		}
+		every_in_list = {#####
+			list = parthian_counties_to_make_daylamite
+			set_county_culture = culture:daylamite
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							has_name_list = name_list_parthian
+						}
+					}
+					set_culture = culture:daylamite
+					every_courtier = {
+						limit = {
+							culture = { 
+								has_name_list = name_list_parthian
+							}
+						}
+						set_culture = culture:daylamite
+					}
+				}
+			}
+		}
+		culture:daylamite = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:parthian
+		}
+		every_in_list = {#####
+			list = middle_persian_counties_to_make_persian
+			set_county_culture = culture:persian
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							has_name_list = name_list_middle_persian
+						}
+					}
+					set_culture = culture:persian
+					every_courtier = {
+						limit = {
+							culture = { 
+								has_name_list = name_list_middle_persian
+							}
+						}
+						set_culture = culture:persian
+					}
+				}
+			}
+		}
+		culture:persian = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:middle_persian
+		}
+		every_in_list = {#####
+			list = middle_persian_counties_to_make_tajik
+			set_county_culture = culture:tajik
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							has_name_list = name_list_middle_persian
+						}
+					}
+					set_culture = culture:tajik
+					every_courtier = {
+						limit = {
+							culture = { 
+								has_name_list = name_list_middle_persian
+							}
+						}
+						set_culture = culture:tajik
+					}
+				}
+			}
+		}
+		culture:tajik = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:middle_persian
+		}
+		every_in_list = {#####
+			list = middle_persian_counties_to_make_parsi
+			set_county_culture = culture:parsi
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							has_name_list = name_list_middle_persian
+						}
+					}
+					set_culture = culture:parsi
+					every_courtier = {
+						limit = {
+							culture = { 
+								has_name_list = name_list_middle_persian
+							}
+						}
+						set_culture = culture:parsi
+					}
+				}
+			}
+		}
+		culture:parsi = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:middle_persian
+		}
+	}
+}

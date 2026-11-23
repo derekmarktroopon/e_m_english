@@ -371,7 +371,7 @@ scythian = {
 tajik = {
 	color = { 0.7 0.6 1 }
 	created = 700.1.1
-	parents = { bactrian khwarezmian }
+	parents = { middle_persian khwarezmian } 
 	
 	ethos = ethos_spiritual
 	heritage = heritage_iranian

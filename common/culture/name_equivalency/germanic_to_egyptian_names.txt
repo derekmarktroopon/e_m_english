@@ -2127,11 +2127,13 @@ Tritantaechmes_male = { Cicantahmah Cithrantaxmah Cithratawxma }
 Thuxrah_male = { Thuxrah Suxrah }
 Vahyazdatah_male = { Vahyazdatah Vezdatah }
 wadfradad_male = { Vatafradatah }
+Wiraz_male = { Wiraz Viraf }
 viroy_male = { Wiroy }
 Xshathraki_male = { Xshathraki Axsharthrag }
 varaz_male = { Waraz_prth Varadah Warajah }
 yamah_male = { Yemo Yamhah Yamah }
 Artastuna_male = { Hrtastuna Artastuna }
+Pishyotan_male = { Pishyotan Peshotan }
 
 
 Artastuna_female = { Hrtastuna Artastuna }
@@ -2147,6 +2149,7 @@ Patysatis_female = { Parushyatish Prhushcyahtish }
 roxana_female = { Roxana Rauxshna Roshan Roshan_mp Roshn Roshanak Rawxshna }
 shirin_female = { Shirin Shiren }
 Statira_female = { Statira Stahtishira }
+Adurduxt_female = { Adurduxt Aturdokht }
 
 # Phrygian names
 
