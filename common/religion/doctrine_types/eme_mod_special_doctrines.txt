@@ -11,7 +11,6 @@ special_doctrine_old_italic_faiths = {
 	special_parameters = {
 		hostility_level_override = {
 			tenet_unreformed_syncretism = astray
-			unreformed_faith_doctrine = hostile
 			special_doctrine_old_italic_faiths = righteous
 		}
 		parameter_opinion_override = {
