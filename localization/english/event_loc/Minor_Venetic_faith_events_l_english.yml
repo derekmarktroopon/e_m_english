@@ -53,6 +53,18 @@ venetic_religious_decision.21.a3deivos:0 "[ROOT.Char.GetFirstName] donom per Dei
 venetic_religious_decision.21.a4deivos:0 "Eik [ROOT.Char.GetFirstName] doto Deivoi u donom"
 venetic_religious_decision.21.adeivos:0 "An offering, along with an inscription written by you, are placed in the grove."
 venetic_religious_decision.21.adeivos.tooltip:0 "#! You have given an offering to [ROOT.Char.GetFaith.HighGodName]#!" ####
+venetic_religious_decision.21.a1gods:0 "This, I [ROOT.Char.GetFirstName] give to the Gods."
+venetic_religious_decision.21.a2gods:0 "I give to the Gods this offering, as a gift"
+venetic_religious_decision.21.a3gods:0 "[ROOT.Char.GetFirstName] bring, to the Gods, this gift"
+venetic_religious_decision.21.a4gods:0 "This, [ROOT.Char.GetFirstName] gifts to the Gods as an offering"
+venetic_religious_decision.21.agods:0 "An offering, along with an inscription written by you, are placed in the grove."
+venetic_religious_decision.21.agods.tooltip:0 "#! You have given an offering to the Gods#!" ####
+venetic_religious_decision.21.a1god:0 "This, I [ROOT.Char.GetFirstName] give to [ROOT.Char.GetFaith.HighGodName]"
+venetic_religious_decision.21.a2god:0 "I give to [ROOT.Char.GetFaith.HighGodName] this offering, as a gift"
+venetic_religious_decision.21.a3god:0 "[ROOT.Char.GetFirstName] bring, to [ROOT.Char.GetFaith.HighGodName], this gift"
+venetic_religious_decision.21.a4god:0 "This, [ROOT.Char.GetFirstName] gifts to [ROOT.Char.GetFaith.HighGodName] as an offering"
+venetic_religious_decision.21.agod:0 "An offering, along with an inscription written by you, are placed in the grove."
+venetic_religious_decision.21.agod.tooltip:0 "#! You have given an offering to [ROOT.Char.GetFaith.HighGodName]#!" ####
 
 venetic_religious_decision.3001.t:0 "Blessing of the Gods"
 venetic_religious_decision.3001.t_monotheistic:0 "Blessing of [ROOT.Char.GetFaith.HighGodName]"

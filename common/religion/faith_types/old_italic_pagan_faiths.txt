@@ -28,6 +28,7 @@ raetic_pagan = {
 
 	doctrines = {
 		unreformed_faith_doctrine
+		special_doctrine_old_italic_faiths
 		doctrine_funeral_cremation
 	}
 			
@@ -172,6 +173,7 @@ venetic_paganism = {
 			
 	doctrines = {
 		unreformed_faith_doctrine
+		special_doctrine_old_italic_faiths
 		doctrine_pilgrimage_encouraged
 		doctrine_funeral_cremation
 	}

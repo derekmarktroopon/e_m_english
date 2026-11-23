@@ -1,0 +1,26 @@
+﻿
+
+special_doctrine_old_italic_faiths = {
+	doctrine_group_type = is_old_italic_faith
+	icon = "special_doctrine_default"
+
+	parameters = {
+		unreformed_syncretic_recipient
+	}
+
+	special_parameters = {
+		hostility_level_override = {
+			tenet_unreformed_syncretism = astray
+			unreformed_faith_doctrine = hostile
+			special_doctrine_old_italic_faiths = righteous
+		}
+		parameter_opinion_override = {
+			unreformed_syncretic_actor = 30
+		}
+	}
+
+	character_modifier = {
+		health = 0.05
+		control_baseline_add = 2.5
+	}
+}

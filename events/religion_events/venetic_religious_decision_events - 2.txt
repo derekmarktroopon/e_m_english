@@ -68,7 +68,7 @@ venetic_religious_decision.21 = {
 			}
 		}
 	}
-	option = { # Ok
+	option = { # POLYTHEIST - VENETIC
 		name = {
 			trigger = { scope:outcome = 1 }
 			text = venetic_religious_decision.21.a1deivobos
@@ -94,107 +94,16 @@ venetic_religious_decision.21 = {
 				has_character_modifier = bhakti_venetic_alkomno
 				faith = { has_doctrine = doctrine_monotheist }
 			}
+			OR = {
+				faith = faith:venetic_paganism
+				faith = faith:raetic_pagan
+				rite = rite:venetic_christianity
+			}
 		}
 	    custom_tooltip = venetic_religious_decision.21.adeivobos.tooltip
         trigger_event = { id = venetic_religious_decision.2001 }
 	}
-	option = { # Ok
-	   	name = {
-			trigger = { scope:outcome = 1 }
-			text = venetic_religious_decision.21.a1reitia
-		}
-        name = {
-			trigger = { scope:outcome = 2 }
-			text = venetic_religious_decision.21.a2reitia
-		}
-		name = {
-			trigger = { scope:outcome = 3 }
-			text = venetic_religious_decision.21.a3reitia
-		}
-		name = {
-			trigger = { scope:outcome = 4 }
-			text = venetic_religious_decision.21.a4reitia
-		}
-		flavor = venetic_religious_decision.21.areitia		
-		trigger = {
-			has_character_modifier = bhakti_venetic_reitia
-		}
-	    custom_tooltip = venetic_religious_decision.21.areitia.tooltip
-        trigger_event = { id = venetic_religious_decision.2001 }
-	}
-	option = { # Ok
-	    name = {
-			trigger = { scope:outcome = 1 }
-			text = venetic_religious_decision.21.a1tumusiates
-		}
-        name = {
-			trigger = { scope:outcome = 2 }
-			text = venetic_religious_decision.21.a2tumusiates
-		}
-		name = {
-			trigger = { scope:outcome = 3 }
-			text = venetic_religious_decision.21.a3tumusiates
-		}
-		name = {
-			trigger = { scope:outcome = 4 }
-			text = venetic_religious_decision.21.a4tumusiates
-		}
-		flavor = venetic_religious_decision.21.atumusiates		
-		trigger = {
-				has_character_modifier = bhakti_venetic_tumusiates
-		}
-	    custom_tooltip = venetic_religious_decision.21.atumusiates.tooltip
-        trigger_event = { id = venetic_religious_decision.2001 }
-	}
-	option = { # Ok
-	    name = {
-			trigger = { scope:outcome = 1 }
-			text = venetic_religious_decision.21.a1altino
-		}
-        name = {
-			trigger = { scope:outcome = 2 }
-			text = venetic_religious_decision.21.a2altino
-		}
-		name = {
-			trigger = { scope:outcome = 3 }
-			text = venetic_religious_decision.21.a3altino
-		}
-		name = {
-			trigger = { scope:outcome = 4 }
-			text = venetic_religious_decision.21.a4altino
-		}
-		flavor = venetic_religious_decision.21.aaltino		
-		trigger = {
-				has_character_modifier = bhakti_venetic_altino
-		}
-	    custom_tooltip = venetic_religious_decision.21.aaltino.tooltip
-        trigger_event = { id = venetic_religious_decision.2001 }
-	}
-	option = { # Ok
-	    name = {
-			trigger = { scope:outcome = 1 }
-			text = venetic_religious_decision.21.a1alkomno
-		}
-        name = {
-			trigger = { scope:outcome = 2 }
-			text = venetic_religious_decision.21.a2alkomno
-		} 
-		name = {
-			trigger = { scope:outcome = 3 }
-			text = venetic_religious_decision.21.a3alkomno
-		}
-		name = {
-			trigger = { scope:outcome = 4 }
-			text = venetic_religious_decision.21.a4alkomno
-		}
-		flavor = venetic_religious_decision.21.aalkomno
-		trigger = {
-				has_character_modifier = bhakti_venetic_alkomno
-		}
-	    custom_tooltip = venetic_religious_decision.21.aalkomno.tooltip
-        trigger_event = { id = venetic_religious_decision.2001 }
-	}
-	option = { # Ok
+	option = { # MONOTHEIST - VENETIC
 		name = {
 			trigger = { scope:outcome = 1 }
 			text = venetic_religious_decision.21.a1deivos
@@ -219,6 +128,173 @@ venetic_religious_decision.21 = {
 				has_character_modifier = bhakti_venetic_tumusiates
 				has_character_modifier = bhakti_venetic_altino
 				has_character_modifier = bhakti_venetic_alkomno
+			}
+			OR = {
+				faith = faith:venetic_paganism
+				faith = faith:raetic_pagan
+				rite = rite:venetic_christianity
+			}
+		}
+	    custom_tooltip = venetic_religious_decision.21.adeivos.tooltip
+        trigger_event = { id = venetic_religious_decision.2001 }
+	}
+	option = { # FOLLOWS REITIA
+	   	name = {
+			trigger = { scope:outcome = 1 }
+			text = venetic_religious_decision.21.a1reitia
+		}
+        name = {
+			trigger = { scope:outcome = 2 }
+			text = venetic_religious_decision.21.a2reitia
+		}
+		name = {
+			trigger = { scope:outcome = 3 }
+			text = venetic_religious_decision.21.a3reitia
+		}
+		name = {
+			trigger = { scope:outcome = 4 }
+			text = venetic_religious_decision.21.a4reitia
+		}
+		flavor = venetic_religious_decision.21.areitia		
+		trigger = {
+			has_character_modifier = bhakti_venetic_reitia
+		}
+	    custom_tooltip = venetic_religious_decision.21.areitia.tooltip
+        trigger_event = { id = venetic_religious_decision.2001 }
+	}
+	option = { # FOLLOWS TRUMUSIATES
+	    name = {
+			trigger = { scope:outcome = 1 }
+			text = venetic_religious_decision.21.a1tumusiates
+		}
+        name = {
+			trigger = { scope:outcome = 2 }
+			text = venetic_religious_decision.21.a2tumusiates
+		}
+		name = {
+			trigger = { scope:outcome = 3 }
+			text = venetic_religious_decision.21.a3tumusiates
+		}
+		name = {
+			trigger = { scope:outcome = 4 }
+			text = venetic_religious_decision.21.a4tumusiates
+		}
+		flavor = venetic_religious_decision.21.atumusiates		
+		trigger = {
+				has_character_modifier = bhakti_venetic_tumusiates
+		}
+	    custom_tooltip = venetic_religious_decision.21.atumusiates.tooltip
+        trigger_event = { id = venetic_religious_decision.2001 }
+	}
+	option = { # FOLLOWS ALTINOS
+	    name = {
+			trigger = { scope:outcome = 1 }
+			text = venetic_religious_decision.21.a1altino
+		}
+        name = {
+			trigger = { scope:outcome = 2 }
+			text = venetic_religious_decision.21.a2altino
+		}
+		name = {
+			trigger = { scope:outcome = 3 }
+			text = venetic_religious_decision.21.a3altino
+		}
+		name = {
+			trigger = { scope:outcome = 4 }
+			text = venetic_religious_decision.21.a4altino
+		}
+		flavor = venetic_religious_decision.21.aaltino		
+		trigger = {
+				has_character_modifier = bhakti_venetic_altino
+		}
+	    custom_tooltip = venetic_religious_decision.21.aaltino.tooltip
+        trigger_event = { id = venetic_religious_decision.2001 }
+	}
+	option = { # FOLLOWS AKLOMNOS
+	    name = {
+			trigger = { scope:outcome = 1 }
+			text = venetic_religious_decision.21.a1alkomno
+		}
+        name = {
+			trigger = { scope:outcome = 2 }
+			text = venetic_religious_decision.21.a2alkomno
+		} 
+		name = {
+			trigger = { scope:outcome = 3 }
+			text = venetic_religious_decision.21.a3alkomno
+		}
+		name = {
+			trigger = { scope:outcome = 4 }
+			text = venetic_religious_decision.21.a4alkomno
+		}
+		flavor = venetic_religious_decision.21.aalkomno
+		trigger = {
+				has_character_modifier = bhakti_venetic_alkomno
+		}
+	    custom_tooltip = venetic_religious_decision.21.aalkomno.tooltip
+        trigger_event = { id = venetic_religious_decision.2001 }
+	}
+	option = { # POLYTHEIST - NON VENETIC
+		name = {
+			trigger = { scope:outcome = 1 }
+			text = venetic_religious_decision.21.a1gods
+		}
+        name = {
+			trigger = { scope:outcome = 2 }
+			text = venetic_religious_decision.21.a2gods
+		}
+		name = {
+			trigger = { scope:outcome = 3 }
+			text = venetic_religious_decision.21.a3gods
+		}
+		name = {
+			trigger = { scope:outcome = 4 }
+			text = venetic_religious_decision.21.a4gods
+		}
+		flavor = venetic_religious_decision.21.agods
+		trigger = {
+			NOR = {
+				has_character_modifier = bhakti_venetic_reitia
+				has_character_modifier = bhakti_venetic_tumusiates
+				has_character_modifier = bhakti_venetic_altino
+				has_character_modifier = bhakti_venetic_alkomno
+				faith = { has_doctrine = doctrine_monotheist }
+				faith = faith:venetic_paganism
+				faith = faith:raetic_pagan
+				rite = rite:venetic_christianity
+			}
+		}
+	    custom_tooltip = venetic_religious_decision.21.agods.tooltip
+        trigger_event = { id = venetic_religious_decision.2001 }
+	}
+	option = { # MONOTHEIST - NON VENETIC
+		name = {
+			trigger = { scope:outcome = 1 }
+			text = venetic_religious_decision.21.a1god
+		}
+        name = {
+			trigger = { scope:outcome = 2 }
+			text = venetic_religious_decision.21.a2god
+		}
+		name = {
+			trigger = { scope:outcome = 3 }
+			text = venetic_religious_decision.21.a3god
+		}
+		name = {
+			trigger = { scope:outcome = 4 }
+			text = venetic_religious_decision.21.a4god
+		}
+		flavor = venetic_religious_decision.21.agod
+		trigger = {
+			faith = { has_doctrine = doctrine_monotheist }
+			NOR = {
+				has_character_modifier = bhakti_venetic_reitia
+				has_character_modifier = bhakti_venetic_tumusiates
+				has_character_modifier = bhakti_venetic_altino
+				has_character_modifier = bhakti_venetic_alkomno
+				faith = faith:venetic_paganism
+				faith = faith:raetic_pagan
+				rite = rite:venetic_christianity
 			}
 		}
 	    custom_tooltip = venetic_religious_decision.21.adeivos.tooltip
