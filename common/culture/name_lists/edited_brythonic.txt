@@ -11,7 +11,7 @@
 
 	male_names = {
 
-		Arthmail Arthbodhw Blidhin BlidhyA_dh Brochmail Cadmail Cadwaladr Caradey Conain Contighern Conmarch Conbilin Conwal Dobhnarth Dobhnwal Worbodhw Win Worthighern GrifoyA_dh Lowmharch Loivilen Mail Mailgon March Mormharch Morcant Awighin Raiwal RA_n TA_dir Worthiyern
+		Arthmail Arthbodhw Blidhin BlidhyA_dh Brochmail Cadmail Cadwaladr Caradey Conain Contighern Conmarch Conbilin Conwal Dobhnarth Dobhnwal Worbodhw Win Worthighern GrifoyA_dh Lowmharch Loivilen Mail Mailgon March Mormharch Morcant Awighin Raiwal RA_n TA_dir Worthiyern Worthemhir
 		Anared ArthA_r Caghi CA_stintin Davidh Dawidh Deinyil DA_ned Idern Einyen Gerint Macsen Meirchyen Meiryen Meirai Padarn RA_ven Sevir Seisil Inir Corintin
 		A_dhilwin Adgar Alfred Anlaf Berchtwald Edwin A_dhilfraith A_dhilstan Godwin Herewald Ivar A_swald Dhedrai Adam Alisander Andres Asa Asaph A_gost Elias Ambros Filip Franseis German Gerald Gregori Wilam Hary Hi_w Yacob Yostin Yoan MicA_l Patrai eb_PA_l Petr Reinalt Richard Robert Samwil Sergi Gefrei Geor Steven Tedos Tedor Tomas
 
@@ -215,7 +215,9 @@ name_list_late_brythonic = {
 	}
 
 	male_names = {
-		Arthomagl Arthobodu Bledinn Blediud Brochmagl Cadmagl Cadualadr Caradog Cunagn Cunotigern Cunomarch Cunbelin Cunual Dumnarth Dumnoual Uurbodu Uinn Uorthigern Grifuiud Loumarch Lugbelen Magl Mailgun March Mormarch Morcant Auigen Rigwal Run Tudur 
+		Arthomagl Arthobodu Bledinn Blediud Brochmagl Cadmagl Cadualadr Caradog Cunagn Cunotigern Cunomarch Cunbelin Cunual Dumnarth Dumnoual Uurbodu Uinn Uorthigern Grifuiud 
+		Uorthemir
+		Loumarch Lugbelen Magl Mailgun March Mormarch Morcant Auigen Rigwal Run Tudur 
 		Anarod Arthur Cagi Custentin David Dauid Deiniel Dunod Edern Einion Gerent Maxen Meirchion Meirion Meirig Padarn Rumon Sevir Seisil Onor Corentin
 	}
 	female_names = {

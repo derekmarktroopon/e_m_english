@@ -402,6 +402,7 @@ donald_male = { Donald Domelch Domnall Donault Donual Dyfnwal Dobhnwal Duwnwal D
 Gwrfoddw_male = { Gwrfoddw Worbodhw Uurbodu Uiroboduos }
 finn_male = { Finn Fingal Gwyn Fionnghall Win Uinn Uindos }
 vortigern_male = { Vortigern Gurthiern Gwerthern Vortegyn Worthighern Worthiyern Uorthigern Uortigernos Ufortigernos }
+vortimer_male = { Vortimer Gwerthefyr Uorthemir Worthemhir }
 ruffinus_male = { Grifiud Griffith Gruffydd Ruffinus GrifoyA_dh Grifuiud Griphuioudos }
 llywarch_male = { Llywarch Loumarch Lowmharch Lugumarcos }
 Llywelyn_male = { Llywelyn Loivilen Lugbelen Lugubelinos }

@@ -6637,7 +6637,7 @@
 	}
 }
 159836 = {
-	name = "Gwerthefyr" # Vortimer
+	name = "Uorthemir" # Vortimer
 	dynasty_house = house_british_isles_gwerthrynion #Gwerthrynion
 	rite = roman_rite
 	culture = "welsh"
