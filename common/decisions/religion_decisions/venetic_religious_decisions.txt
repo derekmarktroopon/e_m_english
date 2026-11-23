@@ -8,7 +8,7 @@ select_personal_deity_venetic_decision = {
 	selection_tooltip = select_personal_deity_venetic_decision_tooltip
 
 	is_shown = {
-		religion = religion:retic_religion
+		religion = religion:old_italic_religion
 		#culture = { 
 		#    OR = {
         #        has_cultural_pillar = heritage_venetic
@@ -74,7 +74,7 @@ select_personal_deity_venetic_decision = {
 	
 	ai_potential = {
 		piety >= minor_piety_value
-		religion = religion:retic_religion
+		religion = religion:old_italic_religion
 		NOR = {
 			has_character_modifier = bhakti_venetic_reitia
 			has_character_modifier = bhakti_venetic_tumusiates
@@ -101,7 +101,7 @@ written_offering_decision = {
 		rite = { rite_has_parameter = ritual_writing_active }
 		#AND = {
 		#   	faith = { has_doctrine = tenet_ritual_celebrations	}
-		#   	religion = religion:retic_religion			
+		#   	religion = religion:old_italic_religion			
 		#}
 	}
     cost = {
@@ -125,7 +125,7 @@ written_offering_decision = {
 		            rite = { rite_has_parameter = ritual_writing_active }
 		            #AND = {
 		            #    rite = { has_doctrine = tenet_ritual_celebrations	}
-		            #    religion = religion:retic_religion			
+		            #    religion = religion:old_italic_religion			
 		            #}
 		        #}
 			}

@@ -6,7 +6,7 @@ tenet_ritual_writing = {
 
 	is_shown = {
 		OR = {
-			religion = religion:retic_religion
+			religion = religion:old_italic_religion
 			root = {
 				has_personal_tenet = tenet_ritual_writing
 			}
@@ -51,7 +51,7 @@ tenet_ritual_writing = {
 #	}
 #
 #	is_shown = {
-#		religion_tag = retic_religion
+#		religion_tag = old_italic_religion
 #	}
 #
 #	parameters = {
@@ -79,7 +79,7 @@ tenet_bhakti = {
 				desc = tenet_bhakti_name
 			}
 			triggered_desc = {
-				trigger = { religion = religion:retic_religion }
+				trigger = { religion = religion:old_italic_religion }
 				desc = tenet_venetic_deities_name
 			}
 			desc = tenet_bhakti_patron_god_name
@@ -89,7 +89,7 @@ tenet_bhakti = {
 	desc = {
 		first_valid = {
 			triggered_desc = {
-				trigger = { religion = religion:retic_religion }
+				trigger = { religion = religion:old_italic_religion }
 				desc = tenet_venetic_deities_desc
 			}
 			desc = tenet_bhakti_desc
@@ -106,7 +106,7 @@ tenet_bhakti = {
 				limit = { has_fp1_dlc_trigger = yes }
 				religion = religion:germanic_religion
 			}
-			religion = religion:retic_religion
+			religion = religion:old_italic_religion
 		}
 		custom_tooltip = {
 			text = incompatible_doctrine_monotheist
@@ -169,7 +169,7 @@ tenet_megaliths = {
 	name = {
 		first_valid = {
 			triggered_desc = {
-				trigger = { religion = religion:retic_religion }
+				trigger = { religion = religion:old_italic_religion }
 				desc = tenet_camunic_arts_name
 			}
 			desc = tenet_megaliths_name
@@ -179,7 +179,7 @@ tenet_megaliths = {
 	desc = {
 		first_valid = {
 			triggered_desc = {
-				trigger = { religion = religion:retic_religion }
+				trigger = { religion = religion:old_italic_religion }
 				desc = tenet_camunic_arts_desc
 			}
 			desc = tenet_megaliths_desc
@@ -285,7 +285,7 @@ tenet_megaliths = {
 #	}
 #
 #	is_shown = {
-#		religion_tag = retic_religion
+#		religion_tag = old_italic_religion
 #	}
 #
 #	can_pick = {
@@ -321,7 +321,7 @@ tenet_warmonger = {
 	name = {
 		first_valid = {
 			triggered_desc = {
-				trigger = { religion = religion:retic_religion }
+				trigger = { religion = religion:old_italic_religion }
 				desc = tenet_religious_belligerence_name
 			}
 			desc = tenet_warmonger_name
@@ -331,7 +331,7 @@ tenet_warmonger = {
 	desc = {
 		first_valid = {
 			triggered_desc = {
-				trigger = { religion = religion:retic_religion }
+				trigger = { religion = religion:old_italic_religion }
 				desc = tenet_religious_belligerence_desc
 			}
 			desc = tenet_warmonger_desc
@@ -441,7 +441,7 @@ tenet_alexandrian_catechism = {
 	name = {
 		first_valid = {
 			triggered_desc = {
-				trigger = { religion = religion:retic_religion }
+				trigger = { religion = religion:old_italic_religion }
 				desc = tenet_cult_of_reitia_name
 			}
 			triggered_desc = {
@@ -486,7 +486,7 @@ tenet_alexandrian_catechism = {
 	desc = {
 		first_valid = {
 			triggered_desc = {
-				trigger = { religion = religion:retic_religion }
+				trigger = { religion = religion:old_italic_religion }
 				desc = tenet_cult_of_reitia_desc
 			}
 			triggered_desc = {

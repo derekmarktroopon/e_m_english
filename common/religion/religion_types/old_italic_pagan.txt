@@ -1,4 +1,4 @@
-﻿retic_religion = {
+﻿old_italic_religion = {
 	religion_details = {
 		family = rf_pagan
 		graphical_faith = pagan_gfx

@@ -2,7 +2,7 @@
 raetic_pagan = {
 	main_rite = raetic_pagan
 	faith_details = {
-		religion = retic_religion
+		religion = old_italic_religion
 		color = { 194 222 53 }
 		icon = raetic
 		reformed_icon = raetic_reformed
@@ -146,7 +146,7 @@ raetic_pagan = {
 venetic_paganism = {
 	main_rite = venetic_paganism
 	faith_details = {
-		religion = retic_religion
+		religion = old_italic_religion
 		color = { 92 240 242 }
 		icon = venetic
 		reformed_icon = venetic_reformed

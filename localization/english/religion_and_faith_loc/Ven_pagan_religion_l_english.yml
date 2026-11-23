@@ -1,8 +1,8 @@
 ﻿l_english:
 
- retic_religion: "Cisalpine"
- retic_religion_adj: "Cisalpine"
- retic_religion_desc: "The Ancient Religions of the Cisalpine Gaulish lands vary greatly in practice and deities. From the Reitia worshipping Italic Venetians, to the Pre-Indo-European Raeti. Though religious syncrenism is common amongst the Cisalpine peoples."
+ old_italic_religion: "Old Italic"
+ old_italic_religion_adj: "Old Italic"
+ old_italic_religion_desc: "The Ancient Religions of the Italic lands vary greatly in practice and deities. From the faiths of the indomidable Samnite tribes, the Reitia worshipping Venetians, to the Pre-Indo-European Raeti and Etruscans. Though religious syncrenism is common amongst the Italic peoples."
 
  #Reitian Paganism"
  venetic_paganism:0 "Venetism"
@@ -52,3 +52,6 @@
  venetic_christianity_adherent:0 "Venetican"
  venetic_christianity_adherent_plural:0 "Veneticans"
  venetic_christianity_desc:0 "Born from a Venetic syncreticism with mainline Christianity, the Veneticans believe the 'Old Gods' to be saints sent by God to prepare the Veneti for the eventual comming of Christ. As such, while ardently following Christian scripture, the old deities are seen as servants of God, rather that pagan idols."
+
+ doctrine_special_old_italic_faiths_name:0 "Many gods of Italia"
+ doctrine_special_old_italic_faiths_desc:0 "Varied are the customs and deities of the land known as Italia. In spite of this drastic regional variety, it is custom for faithful to make pilgrimages across these lands, in order to seek favour with the gods of their neighbours. To those inhabitants of Italia, a foreign god is simply one more which can be called upon in a time of need."
