@@ -129,6 +129,15 @@ pie_christianity_communion_scripted_effect = {
 			if = { limit = { rite_has_doctrine = doctrine_sacraments_central } doctrine:doctrine_sacraments_central = { save_scope_as = pope_sacraments_doctrine } }
 			else = { doctrine:doctrine_sacraments_absent = { save_scope_as = pope_sacraments_doctrine } }
 
+			if = { limit = { rite_has_doctrine = doctrine_usury_forbidden } doctrine:doctrine_usury_forbidden = { save_scope_as = pope_usury_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_usury_accepted } doctrine:doctrine_usury_accepted = { save_scope_as = pope_usury_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_usury_discouraged } doctrine:doctrine_usury_discouraged = { save_scope_as = pope_usury_doctrine } }
+			else = { doctrine:doctrine_usury_outsiders_only = { save_scope_as = pope_usury_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_oral_storytelling } doctrine:doctrine_oral_storytelling = { save_scope_as = pope_preservation_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_scriptural } doctrine:doctrine_scriptural = { save_scope_as = pope_preservation_doctrine } }
+			else = { doctrine:doctrine_mythic_literary = { save_scope_as = pope_preservation_doctrine } }
+
 		}
 		rite:pie_christianity = {
 			if = {
@@ -162,6 +171,8 @@ pie_christianity_communion_scripted_effect = {
 			change_rite_doctrine = scope:pope_thyism_doctrine
 			change_rite_doctrine = scope:pope_monasticism_doctrine
 			change_rite_doctrine = scope:pope_sacraments_doctrine
+			change_rite_doctrine = scope:pope_usury_doctrine
+			change_rite_doctrine = scope:pope_preservation_doctrine
 		}
 	}
 	rite:pie_christianity = {
@@ -368,6 +379,15 @@ venetic_christianity_communion_scripted_effect = {
 			
 			if = { limit = { rite_has_doctrine = doctrine_sacraments_central } doctrine:doctrine_sacraments_central = { save_scope_as = pope_sacraments_doctrine } }
 			else = { doctrine:doctrine_sacraments_absent = { save_scope_as = pope_sacraments_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_usury_forbidden } doctrine:doctrine_usury_forbidden = { save_scope_as = pope_usury_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_usury_accepted } doctrine:doctrine_usury_accepted = { save_scope_as = pope_usury_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_usury_discouraged } doctrine:doctrine_usury_discouraged = { save_scope_as = pope_usury_doctrine } }
+			else = { doctrine:doctrine_usury_outsiders_only = { save_scope_as = pope_usury_doctrine } }
+
+			if = { limit = { rite_has_doctrine = doctrine_oral_storytelling } doctrine:doctrine_oral_storytelling = { save_scope_as = pope_preservation_doctrine } }
+			else_if = { limit = { rite_has_doctrine = doctrine_scriptural } doctrine:doctrine_scriptural = { save_scope_as = pope_preservation_doctrine } }
+			else = { doctrine:doctrine_mythic_literary = { save_scope_as = pope_preservation_doctrine } }
 		}
 		rite:venetic_christianity = {
 			if = {
@@ -401,6 +421,8 @@ venetic_christianity_communion_scripted_effect = {
 			change_rite_doctrine = scope:pope_thyism_doctrine
 			change_rite_doctrine = scope:pope_monasticism_doctrine
 			change_rite_doctrine = scope:pope_sacraments_doctrine
+			change_rite_doctrine = scope:pope_usury_doctrine
+			change_rite_doctrine = scope:pope_preservation_doctrine
 		}
 	}
 	rite:venetic_christianity = {
