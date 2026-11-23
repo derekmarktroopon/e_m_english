@@ -96,7 +96,6 @@ venetic_religious_decision.21 = {
 			}
 			OR = {
 				faith = faith:venetic_paganism
-				faith = faith:raetic_pagan
 				rite = rite:venetic_christianity
 			}
 		}
@@ -131,7 +130,6 @@ venetic_religious_decision.21 = {
 			}
 			OR = {
 				faith = faith:venetic_paganism
-				faith = faith:raetic_pagan
 				rite = rite:venetic_christianity
 			}
 		}
@@ -260,7 +258,6 @@ venetic_religious_decision.21 = {
 				has_character_modifier = bhakti_venetic_alkomno
 				faith = { has_doctrine = doctrine_monotheist }
 				faith = faith:venetic_paganism
-				faith = faith:raetic_pagan
 				rite = rite:venetic_christianity
 			}
 		}
@@ -293,7 +290,6 @@ venetic_religious_decision.21 = {
 				has_character_modifier = bhakti_venetic_altino
 				has_character_modifier = bhakti_venetic_alkomno
 				faith = faith:venetic_paganism
-				faith = faith:raetic_pagan
 				rite = rite:venetic_christianity
 			}
 		}
