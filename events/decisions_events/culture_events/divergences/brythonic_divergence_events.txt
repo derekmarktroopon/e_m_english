@@ -214,3 +214,106 @@ brythonic_cultures_events.1 = { # Common brythonic diverges
 
 	}
 }
+
+brythonic_cultures_events.2 = { # Old Brythonic becomes common brythonic
+	hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			limit = {
+				has_name_list = name_list_old_brythonic
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+						title_province = { duchy = title:d_gwynedd }
+						title_province = { duchy = title:d_powys }
+						title_province = { duchy = title:d_deheubarth }
+						title_province = { duchy = title:d_hereford }
+						title_province = { duchy = title:d_bedford }
+						title_province = { duchy = title:d_canterbury }
+						title_province = { duchy = title:d_gloucester }
+						title_province = { duchy = title:d_somerset }
+						title_province = { duchy = title:d_cornwall }
+						title_province = { duchy = title:d_northumberland }
+						title_province = { duchy = title:d_lancaster }
+						title_province = { duchy = title:d_york }
+						title_province = { duchy = title:d_galloway }
+						title_province = { duchy = title:d_lothian }
+						AND = {
+							title_province = { geographical_region = world_europe_west }
+							NOT = { 
+								title_province = { geographical_region = world_europe_west_britannia }
+							}
+						}
+					}
+				}
+				add_to_list = old_brythonic_counties_to_make_Briton
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+						title_province = { duchy = title:d_albany }
+						title_province = { duchy = title:d_the_isles }
+						title_province = { duchy = title:d_moray }
+						title_province = { duchy = title:d_western_isles }
+					}
+				}
+				add_to_list = old_brythonic_counties_to_make_pictish
+			}
+		}
+		every_in_list = {#####
+			list = old_brythonic_counties_to_make_Briton
+			set_county_culture = culture:common_brythonic
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							has_name_list = name_list_old_brythonic
+						}
+					}
+					set_culture = culture:common_brythonic
+					every_courtier = {
+						limit = {
+							culture = { 
+								has_name_list = name_list_old_brythonic
+							}
+						}
+						set_culture = culture:common_brythonic
+					}
+				}
+			}
+		}
+		culture:common_brythonic = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:old_brythonic
+		}
+		every_in_list = {#####
+			list = old_brythonic_counties_to_make_Briton
+			set_county_culture = culture:pictish
+			holder = {
+				if = {
+					limit = {
+						culture = { 
+							has_name_list = name_list_old_brythonic
+						}
+					}
+					set_culture = culture:pictish
+					every_courtier = {
+						limit = {
+							culture = { 
+								has_name_list = name_list_old_brythonic
+							}
+						}
+						set_culture = culture:pictish
+					}
+				}
+			}
+		}
+		culture:pictish = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:old_brythonic
+		}
+
+	}
+}

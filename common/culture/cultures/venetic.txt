@@ -158,7 +158,7 @@ rhaetian = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_stalwart_defenders
-		tradition_strength_in_numbers
+		tradition_mountain_homes
 		tradition_mountaineers
         tradition_isolationist
 	}

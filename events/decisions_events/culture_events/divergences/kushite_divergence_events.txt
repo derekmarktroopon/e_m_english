@@ -1,0 +1,47 @@
+﻿namespace = kushite_cultures_events
+
+##################################################
+# Kushite culture Diverges
+##################################################
+
+kushite_cultures_events.1 = { # Kushite gets largely replaced with nubian
+	hidden = yes
+
+	immediate = {
+		every_culture_global = {
+			limit = {
+				has_name_list = name_list_kushite
+			}
+			every_culture_county = {
+				limit = {
+					OR = {
+						title_province = { duchy = title:d_nobatia }
+						title_province = { duchy = title:d_makuria }
+						title_province = { duchy = title:d_shamir }
+						title_province = { duchy = title:d_alwa }
+						title_province = { duchy = title:d_sennar }
+					}
+				}
+				add_to_list = kushite_counties_for_nubians_to_move_into
+			}
+		}
+		every_in_list = {#####
+			list = kushite_counties_for_nubians_to_move_into
+			set_county_culture = culture:nubian
+			holder = {
+				every_courtier = {
+					limit = {
+						culture = { 
+							has_name_list = name_list_kushite
+						}
+					}
+					set_culture = culture:nubian
+				}
+			}
+		}
+		culture:nubian = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:kushite
+		}
+	}
+}
