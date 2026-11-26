@@ -461,3 +461,86 @@ cult_of_reitia_paganism = {
 
 }
 
+ligurian_pagan = {
+	faith = ligurian_pagan
+
+	color = { 68 58 201 }
+
+	tenets = {
+		tenet_ancestor_worship
+		tenet_communal_identity
+		tenet_pastoral_isolation
+	}
+
+	doctrines = {
+		doctrine_diet_unrestricted
+		doctrine_alcohol_permitted
+		unreformed_faith_doctrine
+	}
+
+	cultures = { old_ligurian }
+
+}
+
+etruscan_pagan = {
+	faith = etruscan_pagan
+
+	color = { 68 58 201 }
+
+	tenets = {
+		tenet_astrology
+		tenet_communal_identity
+		tenet_esotericism
+	}
+
+	doctrines = {
+		doctrine_diet_unrestricted
+		doctrine_alcohol_permitted
+		unreformed_faith_doctrine
+	}
+
+	cultures = {}
+
+}
+
+old_latin_pagan = {
+	faith = old_latin_pagan
+
+	color = { 194 222 53 }
+
+	tenets = {
+		tenet_astrology
+		tenet_unrelenting_faith
+		tenet_esotericism
+	}
+
+	doctrines = {
+		doctrine_diet_unrestricted
+		doctrine_alcohol_permitted
+		unreformed_faith_doctrine
+	}
+
+	cultures = { roman }
+
+}
+
+oscan_pagan = {
+	faith = oscan_pagan
+
+	color = { 232 177 37 }
+
+	tenets = {
+		tenet_unrelenting_faith
+		tenet_sanctity_of_nature
+		tenet_pastoral_isolation
+	}
+
+	doctrines = {
+		doctrine_diet_unrestricted
+		doctrine_alcohol_permitted
+		unreformed_faith_doctrine
+	}
+
+	cultures = { roman }
+
+}
