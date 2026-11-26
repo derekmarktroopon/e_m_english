@@ -29,13 +29,30 @@ kushite_cultures_events.1 = { # Kushite gets largely replaced with nubian
 			list = kushite_counties_for_nubians_to_move_into
 			set_county_culture = culture:nubian
 			holder = {
-				every_courtier = {
+				if = {
+					limit = {
+						is_ai = no
+						culture = { 
+							has_name_list = name_list_kushite
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.41
+				}
+				else_if = {
 					limit = {
 						culture = { 
 							has_name_list = name_list_kushite
 						}
 					}
 					set_culture = culture:nubian
+					every_courtier = {
+						limit = {
+							culture = { 
+								has_name_list = name_list_kushite
+							}
+						}
+						set_culture = culture:nubian
+					}
 				}
 			}
 		}

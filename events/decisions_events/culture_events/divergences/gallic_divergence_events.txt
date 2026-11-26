@@ -55,6 +55,12 @@ hidden = yes
 								}
 								set_name_list = name_list_neo_gaule
 							}
+							if = {
+								limit = {
+									is_ai = no
+								}
+								trigger_event = eme_culture_divergence_notification.3
+							}
 						}
 					}
 					every_in_list = {#####
@@ -102,6 +108,12 @@ hidden = yes
 									days = 3650
 								}
 								set_name_list = name_list_neo_gaule
+							}
+							if = {
+								limit = {
+									is_ai = no
+								}
+								trigger_event = eme_culture_divergence_notification.3
 							}
 						}
 					}
@@ -159,6 +171,12 @@ hidden = yes
 									days = 3650
 								}
 								set_name_list = name_list_late_ibero_gaulish
+							}
+							if = {
+								limit = {
+									is_ai = no
+								}
+								trigger_event = eme_culture_divergence_notification.3
 							}
 						}
 					}
@@ -218,6 +236,12 @@ hidden = yes
 									days = 3650
 								}
 								set_name_list = name_list_late_cisalpine_gaulish
+							}
+							if = {
+								limit = {
+									is_ai = no
+								}
+								trigger_event = eme_culture_divergence_notification.3
 							}
 						}
 					}
@@ -288,6 +312,12 @@ hidden = yes
 								}
 								set_name_list = name_list_neo_celtiberian
 							}
+							if = {
+								limit = {
+									is_ai = no
+								}
+								trigger_event = eme_culture_divergence_notification.4
+							}
 						}
 					}
 					every_in_list = {#####
@@ -330,6 +360,12 @@ hidden = yes
 									days = 3650
 								}
 								set_name_list = name_list_neo_gallaecian
+							}
+							if = {
+								limit = {
+									is_ai = no
+								}
+								trigger_event = eme_culture_divergence_notification.4
 							}
 						}
 					}
@@ -443,6 +479,12 @@ hidden = yes
 								}
 								set_name_list = name_list_neo_lusitanian
 							}
+							if = {
+								limit = {
+									is_ai = no
+								}
+								trigger_event = eme_culture_divergence_notification.5
+							}
 						}
 					}
 					every_in_list = {#####
@@ -511,6 +553,12 @@ hidden = yes
 								}
 								set_name_list = name_list_neo_lepontic
 							}
+							if = {
+								limit = {
+									is_ai = no
+								}
+								trigger_event = eme_culture_divergence_notification.6
+							}
 						}
 					}
 					every_in_list = {#####
@@ -562,6 +610,12 @@ hidden = yes
 								}
 								set_name_list = name_list_neo_lepontic
 							}
+							if = {
+								limit = {
+									is_ai = no
+								}
+								trigger_event = eme_culture_divergence_notification.6
+							}
 						}
 					}
 					every_in_list = {#####
@@ -607,6 +661,12 @@ hidden = yes
 									days = 3650
 								}
 								set_name_list = name_list_neo_lepontic
+							}
+							if = {
+								limit = {
+									is_ai = no
+								}
+								trigger_event = eme_culture_divergence_notification.6
 							}
 						}
 					}

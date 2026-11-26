@@ -541,6 +541,6 @@ oscan_pagan = {
 		unreformed_faith_doctrine
 	}
 
-	cultures = { roman }
+	cultures = { oscan }
 
 }

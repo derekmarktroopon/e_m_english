@@ -82,6 +82,15 @@ iranian_cultures_events.1 = { # Old median divergences - around 300 CE
 			holder = {
 				if = {
 					limit = {
+						is_ai = no
+						culture = { 
+							has_name_list = name_list_old_median
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.35
+				}
+				else_if = {
+					limit = {
 						culture = { 
 							has_name_list = name_list_old_median
 						}
@@ -214,6 +223,15 @@ iranian_cultures_events.2 = { # Middle Persian + Parthian divergences - around 7
 			holder = {
 				if = {
 					limit = {
+						is_ai = no
+						culture = { 
+							has_name_list = name_list_bactrian
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.36
+				}
+				else_if = {
+					limit = {
 						culture = { 
 							has_name_list = name_list_bactrian
 						}
@@ -239,6 +257,15 @@ iranian_cultures_events.2 = { # Middle Persian + Parthian divergences - around 7
 			set_county_culture = culture:daylamite
 			holder = {
 				if = {
+					limit = {
+						is_ai = no
+						culture = { 
+							has_name_list = name_list_parthian
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.37
+				}
+				else_if = {
 					limit = {
 						culture = { 
 							has_name_list = name_list_parthian
@@ -266,6 +293,15 @@ iranian_cultures_events.2 = { # Middle Persian + Parthian divergences - around 7
 			holder = {
 				if = {
 					limit = {
+						is_ai = no
+						culture = { 
+							has_name_list = name_list_middle_persian
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.38
+				}
+				else_if = {
+					limit = {
 						culture = { 
 							has_name_list = name_list_middle_persian
 						}
@@ -292,6 +328,15 @@ iranian_cultures_events.2 = { # Middle Persian + Parthian divergences - around 7
 			holder = {
 				if = {
 					limit = {
+						is_ai = no
+						culture = { 
+							has_name_list = name_list_middle_persian
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.39
+				}
+				else_if = {
+					limit = {
 						culture = { 
 							has_name_list = name_list_middle_persian
 						}
@@ -317,6 +362,15 @@ iranian_cultures_events.2 = { # Middle Persian + Parthian divergences - around 7
 			set_county_culture = culture:parsi
 			holder = {
 				if = {
+					limit = {
+						is_ai = no
+						culture = { 
+							has_name_list = name_list_middle_persian
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.40
+				}
+				else_if = {
 					limit = {
 						culture = { 
 							has_name_list = name_list_middle_persian

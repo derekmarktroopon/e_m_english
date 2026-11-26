@@ -1,0 +1,209 @@
+﻿l_english:
+
+ 
+
+
+ eme_culture_divergence_notification.1.t:0 "Emergence of the Venetians"
+ eme_culture_divergence_notification.1.desc:0 "As the generations have passed, the long-held traditions of the Romano-Veneti has transformed into something our ancestors would find unrecognisable. Across the vast scape of the Gallic world, such have been these changes that seldom can a Roman traveler now understand the tounge of their neighbours.\n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.1.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.1.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.2.t:0 "The changing ways of the Veneti"
+ eme_culture_divergence_notification.2.desc:0 "As the generations have passed, the long-held traditions of the Venetkens has transformed into something our ancestors would find unrecognisable. Across the vast scape of the Venetic world, such have been these changes that seldom can a Venetic traveler now understand the tounge of their neighbours.\n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.2.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.2.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.3.t:0 "The changing ways of the Gauls"
+ eme_culture_divergence_notification.3.desc:0 "As the generations have passed, the long-held traditions of the Gauls has transformed into something our ancestors would find unrecognisable. Across the vast scape of the Gallic world, such have been these changes that seldom can a Gallic traveler now understand the tounge of their neighbours.\n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.3.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.3.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.4.t:0 "The changing ways of the Celtiberi"
+ eme_culture_divergence_notification.4.desc:0 "As the generations have passed, the long-held traditions of the Celtiberians has transformed into something our ancestors would find unrecognisable. Across the vast scape of the Celtic world, such have been these changes that seldom can a Celtic traveler now understand the tounge of their neighbours.\n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.4.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.4.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.5.t:0 "The changing ways of the Lusitani"
+ eme_culture_divergence_notification.5.desc:0 "As the generations have passed, the long-held traditions of the Lusitani has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.5.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.5.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.6.t:0 "The changing ways of the Leponti"
+ eme_culture_divergence_notification.6.desc:0 "As the generations have passed, the long-held traditions of the Leponti has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.6.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.6.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.7.t:0 "The changing ways of the Rhaetians"
+ eme_culture_divergence_notification.7.desc:0 "As the generations have passed, the long-held traditions of the Rhaeti has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.7.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.7.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.8.t:0 "The changing ways of the Ligures"
+ eme_culture_divergence_notification.8.desc:0 "As the generations have passed, the long-held traditions of the Liguri has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.8.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.8.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.9.t:0 "Future of the Britons"
+ eme_culture_divergence_notification.9.desc:0 "As the generations have passed, the long-held traditions of the Britons has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.9.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.9.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.10.t:0 "$eme_culture_divergence_notification.9.t$"
+ eme_culture_divergence_notification.10.desc:0 "As the generations have passed, the long-held traditions of the Britons has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.10.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.10.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.11.t:0 "$eme_culture_divergence_notification.9.t$"
+ eme_culture_divergence_notification.11.desc:0 "As the generations have passed, the long-held traditions of the Britons has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.11.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.11.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.12.t:0 "$eme_culture_divergence_notification.9.t$"
+ eme_culture_divergence_notification.12.desc:0 "As the generations have passed, the long-held traditions of the Britons has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.12.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.12.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.13.t:0 "$eme_culture_divergence_notification.9.t$"
+ eme_culture_divergence_notification.13.desc:0 "As the generations have passed, the long-held traditions of the Britons has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.13.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.13.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.14.t:0 "Future of the Prydains"
+ eme_culture_divergence_notification.14.desc:0 "As the generations have passed, the long-held traditions of the Prydains has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.14.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.14.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.15.t:0 "$eme_culture_divergence_notification.14.t$"
+ eme_culture_divergence_notification.15.desc:0 "$eme_culture_divergence_notification.14.desc$"
+ eme_culture_divergence_notification.15.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.15.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.16.t:0 "Destiny of the Estuary Saxons"
+ eme_culture_divergence_notification.16.desc:0 "As the generations have passed since our arrival into these islands, our customs and tounge have shifted into something our forefarthers would hardly recognise.\n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.16.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.16.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.17.t:0 "Destiny of the Northern Angles"
+ eme_culture_divergence_notification.17.desc:0 "As the generations have passed since our arrival into these islands, our customs and tounge have shifted into something our forefarthers would hardly recognise.\n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.17.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.17.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.18.t:0 "Destiny of the Eastern Angles"
+ eme_culture_divergence_notification.18.desc:0 "As the generations have passed since our arrival into these islands, our customs and tounge have shifted into something our forefarthers would hardly recognise.\n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.18.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.18.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.19.t:0 "Destiny of the Marcher Angles"
+ eme_culture_divergence_notification.19.desc:0 "As the generations have passed since our arrival into these islands, our customs and tounge have shifted into something our forefarthers would hardly recognise.\n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.19.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.19.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.20.t:0 "Destiny of the Western Saxons"
+ eme_culture_divergence_notification.20.desc:0 "As the generations have passed since our arrival into these islands, our customs and tounge have shifted into something our forefarthers would hardly recognise.\n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.20.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.20.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.21.t:0 "Destiny of the Jutes of Canta"
+ eme_culture_divergence_notification.21.desc:0 "As the generations have passed since our arrival into these islands, our customs and tounge have shifted into something our forefarthers would hardly recognise.\n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.21.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.21.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.22.t:0 "Future of the Frysi"
+ eme_culture_divergence_notification.22.desc:0 "As the generations have passed, the long-held traditions of the Ingaevoni has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.22.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.22.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.23.t:0 "Future of the Saxons"
+ eme_culture_divergence_notification.23.desc:0 "As the generations have passed, the long-held traditions of the Ingaevoni has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.23.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.23.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.24.t:0 "Future of the Norse"
+ eme_culture_divergence_notification.24.desc:0 "As the generations have passed, the long-held traditions of the Vendels has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.24.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.24.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.25.t:0 "Future of the Crimean Goths"
+ eme_culture_divergence_notification.25.desc:0 "As the generations have passed, the long-held traditions of the Goths has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.25.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.25.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.26.t:0 "Emergence of the Long-Beards"
+ eme_culture_divergence_notification.26.desc:0 "As the generations have passed, the long-held traditions of the Irminoni has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.26.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.26.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.27.t:0 "Future of the Bavari"
+ eme_culture_divergence_notification.27.desc:0 "As the generations have passed, the long-held traditions of the Irminoni has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.27.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.27.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.28.t:0 "Future of the Swabi"
+ eme_culture_divergence_notification.28.desc:0 "As the generations have passed, the long-held traditions of the Irminoni has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.28.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.28.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.29.t:0 "Future of the Suebi"
+ eme_culture_divergence_notification.29.desc:0 "As the generations have passed, the long-held traditions of the Irminoni has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.29.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.29.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.30.t:0 "Future of the Vesi Goths"
+ eme_culture_divergence_notification.30.desc:0 "As the generations have passed, the long-held traditions of the Goths of Hispania has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.30.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.30.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.31.t:0 "Future of the Ausr-Goths"
+ eme_culture_divergence_notification.31.desc:0 "As the generations have passed, the long-held traditions of the Goths of Italia has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.31.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.31.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.32.t:0 "Future of the Franconians"
+ eme_culture_divergence_notification.32.desc:0 "As the generations have passed, the long-held traditions of the Franks has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.32.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.32.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.33.t:0 "Future of the Lower Franconians"
+ eme_culture_divergence_notification.33.desc:0 "As the generations have passed, the long-held traditions of the Franks has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.33.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.33.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.34.t:0 "Indo-Germans of the Deccan"
+ eme_culture_divergence_notification.34.desc:0 "As the generations have passed, the traditions of those Indo-Germans who migrated into these Deccani lands has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.34.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.34.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.35.t:0 "Future of the Western Medes"
+ eme_culture_divergence_notification.35.desc:0 "As the generations have passed, the long-held traditions of the Medes has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.35.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.35.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.36.t:0 "Future of the Bactrians"
+ eme_culture_divergence_notification.36.desc:0 "As the generations have passed, the long-held traditions of the Bactrians has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.36.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.36.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.37.t:0 "Future of the Daylamites"
+ eme_culture_divergence_notification.37.desc:0 "As the generations have passed, the long-held traditions of the Parthians has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.37.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.37.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.38.t:0 "Future of the Persians"
+ eme_culture_divergence_notification.38.desc:0 "As the generations have passed, the long-held traditions of our people has undergone monumentous influence from across the Near-East, so much so that some of our old customs are becoming unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.38.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.38.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.39.t:0 "Emergence of the Tajik"
+ eme_culture_divergence_notification.39.desc:0 "As the generations have passed, the long-held traditions of the Persians has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.39.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.39.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.40.t:0 "Emergence of the Parsi"
+ eme_culture_divergence_notification.40.desc:0 "As the generations have passed, the long-held traditions of the Persians of India has transformed into something our ancestors would find unrecognisable.\n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.40.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.40.b:0 "No! We shall not forget our old ways!"
+
+ eme_culture_divergence_notification.41.t:0 "Arrival of the Nubians"
+ eme_culture_divergence_notification.41.desc:0 "Enabled by the turmoil in out country, migrations from the south have begun to irriversibly shift the culture and traditions spoken in our cities. These new inhabitants have come to meld and blend with those old citizens of Kush, to such an extent that our people have even begun to shift to this new tounge.\n\nThough many see this simply as a natural occurence with the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs."
+ eme_culture_divergence_notification.41.a:0 "This is simply the way things are"
+ eme_culture_divergence_notification.41.b:0 "No! We shall not forget our old ways!"

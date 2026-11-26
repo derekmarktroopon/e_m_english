@@ -1,0 +1,1455 @@
+﻿namespace = eme_culture_divergence_notification
+
+##################################################
+# Romano-Venetic becomes Venetian
+##################################################
+
+eme_culture_divergence_notification.1 = {  # Romano-Venetic becomes Venetian
+	type = character_event
+	title = eme_culture_divergence_notification.1.t  # Emergence of the Venetians
+	desc = eme_culture_divergence_notification.1.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.1.a
+		set_culture = culture:venetian
+		hidden_effect = {
+			every_in_list = {
+				list = romanoveneti_counties_to_make_venetian
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.1.b
+		hidden_effect = {
+			every_in_list = {
+				list = romanoveneti_counties_to_make_venetian
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.2 = { # The changing ways of the Veneti
+	type = character_event
+	title = eme_culture_divergence_notification.2.t # Future of the Veneti
+	desc = eme_culture_divergence_notification.2.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.2.a # This is simply the way things are
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.2.b # No! We shall not forget our old ways!
+		every_courtier = {
+			limit = {
+				culture = root.culture
+			}
+			set_culture = culture:venetic
+		}
+		set_culture = culture:venetic
+		capital_county = { set_county_culture = culture:venetic }
+	}
+}
+
+eme_culture_divergence_notification.3 = { # The changing ways of the Gauls
+	type = character_event
+	title = eme_culture_divergence_notification.3.t # Future of the Gauls
+	desc = eme_culture_divergence_notification.3.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.3.a # This is simply the way things are
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.3.b # No! We shall not forget our old ways!
+		every_courtier = {
+			limit = {
+				culture = root.culture
+			}
+			set_culture = culture:gaulish
+		}
+		set_culture = culture:gaulish
+		capital_county = { set_county_culture = culture:gaulish }
+	}
+}
+
+eme_culture_divergence_notification.4 = { # The changing ways of the Celtiberians
+	type = character_event
+	title = eme_culture_divergence_notification.4.t # Future of the Celtiberi
+	desc = eme_culture_divergence_notification.4.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.4.a # This is simply the way things are
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.4.b # No! We shall not forget our old ways!
+		every_courtier = {
+			limit = {
+				culture = root.culture
+			}
+			set_culture = culture:celtiberian
+		}
+		set_culture = culture:celtiberian
+		capital_county = { set_county_culture = culture:celtiberian }
+	}
+}
+
+eme_culture_divergence_notification.5 = { # The changing ways of the Lusitanians
+	type = character_event
+	title = eme_culture_divergence_notification.5.t # Future of the Lusitani
+	desc = eme_culture_divergence_notification.5.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.5.a # This is simply the way things are
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.5.b # No! We shall not forget our old ways!
+		every_courtier = {
+			limit = {
+				culture = root.culture
+			}
+			set_culture = culture:lusitanian
+		}
+		set_culture = culture:lusitanian
+		capital_county = { set_county_culture = culture:lusitanian }
+	}
+}
+
+eme_culture_divergence_notification.6 = { # The changing ways of the Leponti
+	type = character_event
+	title = eme_culture_divergence_notification.6.t # Future of the Leponti
+	desc = eme_culture_divergence_notification.6.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.6.a # This is simply the way things are
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.6.b # No! We shall not forget our old ways!
+		every_courtier = {
+			limit = {
+				culture = root.culture
+			}
+			set_culture = culture:lepontic
+		}
+		set_culture = culture:lepontic
+		capital_county = { set_county_culture = culture:lepontic }
+	}
+}
+
+eme_culture_divergence_notification.7 = { # The changing ways of the Rhaetians
+	type = character_event
+	title = eme_culture_divergence_notification.7.t # Future of the Rhaeti
+	desc = eme_culture_divergence_notification.7.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.7.a # This is simply the way things are
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.7.b # No! We shall not forget our old ways!
+		every_courtier = {
+			limit = {
+				culture = root.culture
+			}
+			set_culture = culture:rhaetian
+		}
+		set_culture = culture:rhaetian
+		capital_county = { set_county_culture = culture:rhaetian }
+	}
+}
+
+eme_culture_divergence_notification.8 = { # The changing ways of the Ligurians
+	type = character_event
+	title = eme_culture_divergence_notification.8.t # Future of the Ligures
+	desc = eme_culture_divergence_notification.8.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.8.a # This is simply the way things are
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.8.b # No! We shall not forget our old ways!
+		every_courtier = {
+			limit = {
+				culture = root.culture
+			}
+			set_culture = culture:old_ligurian
+		}
+		set_culture = culture:old_ligurian
+		capital_county = { set_county_culture = culture:old_ligurian }
+	}
+}
+
+########################################
+# Insular Celts
+##########################################
+
+eme_culture_divergence_notification.9 = {  # Briton becomes Welsh
+	type = character_event
+	title = eme_culture_divergence_notification.9.t # Future of the Britons
+	desc = eme_culture_divergence_notification.9.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.9.a
+		set_culture = culture:welsh
+		hidden_effect = {
+			every_in_list = {
+				list = brittonic_counties_to_make_welsh
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.9.b
+		hidden_effect = {
+			every_in_list = {
+				list = brittonic_counties_to_make_welsh
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.10 = {  # Briton becomes Gwygr
+	type = character_event
+	title = eme_culture_divergence_notification.10.t # Future of the Britons
+	desc = eme_culture_divergence_notification.10.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.10.a
+		set_culture = culture:east_brythonic
+		hidden_effect = {
+			every_in_list = {
+				list = brittonic_counties_to_make_east_brythonic
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.10.b
+		hidden_effect = {
+			every_in_list = {
+				list = brittonic_counties_to_make_east_brythonic
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.11 = {  # Briton becomes Cornish
+	type = character_event
+	title = eme_culture_divergence_notification.11.t # Future of the Britons
+	desc = eme_culture_divergence_notification.11.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.11.a
+		set_culture = culture:cornish
+		hidden_effect = {
+			every_in_list = {
+				list = brittonic_counties_to_make_cornish
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.11.b
+		hidden_effect = {
+			every_in_list = {
+				list = brittonic_counties_to_make_cornish
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.12 = {  # Briton becomes Cumbrian
+	type = character_event
+	title = eme_culture_divergence_notification.12.t # Future of the Britons
+	desc = eme_culture_divergence_notification.12.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.12.a
+		set_culture = culture:cumbrian
+		hidden_effect = {
+			every_in_list = {
+				list = brittonic_counties_to_make_cumbrian
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.12.b
+		hidden_effect = {
+			every_in_list = {
+				list = brittonic_counties_to_make_cumbrian
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.13 = {  # Briton becomes Breton
+	type = character_event
+	title = eme_culture_divergence_notification.13.t # Future of the Britons
+	desc = eme_culture_divergence_notification.13.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.13.a
+		set_culture = culture:breton
+		hidden_effect = {
+			every_in_list = {
+				list = brittonic_counties_to_make_breton
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.13.b
+		hidden_effect = {
+			every_in_list = {
+				list = brittonic_counties_to_make_breton
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.14 = {  # Old Brythonic becomes Briton
+	type = character_event
+	title = eme_culture_divergence_notification.14.t # Future of the Prydains
+	desc = eme_culture_divergence_notification.14.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.14.a
+		set_culture = culture:common_brythonic
+		hidden_effect = {
+			every_in_list = {
+				list = old_brythonic_counties_to_make_Briton
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.14.b
+		hidden_effect = {
+			every_in_list = {
+				list = old_brythonic_counties_to_make_Briton
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.15 = {  # Old Brythonic becomes Pictish
+	type = character_event
+	title = eme_culture_divergence_notification.15.t # Future of the Prydains
+	desc = eme_culture_divergence_notification.15.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.15.a
+		set_culture = culture:pictish
+		hidden_effect = {
+			every_in_list = {
+				list = old_brythonic_counties_to_make_pictish
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.15.b
+		hidden_effect = {
+			every_in_list = {
+				list = old_brythonic_counties_to_make_pictish
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+########################################
+# Germanic Peoples
+##########################################
+
+eme_culture_divergence_notification.16 = {  # Ingaevonic becomes East Saxon
+	type = character_event
+	title = eme_culture_divergence_notification.16.t # Destiny of the Estuary Saxons
+	desc = eme_culture_divergence_notification.16.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.16.a
+		set_culture = culture:east_saxon
+		hidden_effect = {
+			every_in_list = {
+				list = ingaevonic_counties_to_make_east_saxon
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.16.b
+		hidden_effect = {
+			every_in_list = {
+				list = ingaevonic_counties_to_make_east_saxon
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.17 = {  # Ingaevonic becomes Northumbrian
+	type = character_event
+	title = eme_culture_divergence_notification.17.t # Destiny of the Northern Angles
+	desc = eme_culture_divergence_notification.17.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.17.a
+		set_culture = culture:northumbrian
+		hidden_effect = {
+			every_in_list = {
+				list = ingaevonic_counties_to_make_northumbrian
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.17.b
+		hidden_effect = {
+			every_in_list = {
+				list = ingaevonic_counties_to_make_northumbrian
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.18 = {  # Ingaevonic becomes East Anglian
+	type = character_event
+	title = eme_culture_divergence_notification.18.t # Destiny of the Eastern Angles
+	desc = eme_culture_divergence_notification.18.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.18.a
+		set_culture = culture:east_anglian
+		hidden_effect = {
+			every_in_list = {
+				list = ingaevonic_counties_to_make_east_anglian
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.18.b
+		hidden_effect = {
+			every_in_list = {
+				list = ingaevonic_counties_to_make_east_anglian
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.19 = {  # Ingaevonic becomes Mercian
+	type = character_event
+	title = eme_culture_divergence_notification.19.t # Destiny of the Marcher Angles
+	desc = eme_culture_divergence_notification.19.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.19.a
+		set_culture = culture:mercian
+		hidden_effect = {
+			every_in_list = {
+				list = ingaevonic_counties_to_make_mercian
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.19.b
+		hidden_effect = {
+			every_in_list = {
+				list = ingaevonic_counties_to_make_mercian
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.20 = {  # Ingaevonic becomes West Saxon
+	type = character_event
+	title = eme_culture_divergence_notification.20.t # Destiny of the Western Saxons
+	desc = eme_culture_divergence_notification.20.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.20.a
+		set_culture = culture:west_saxon
+		hidden_effect = {
+			every_in_list = {
+				list = ingaevonic_counties_to_make_west_saxon
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.20.b
+		hidden_effect = {
+			every_in_list = {
+				list = ingaevonic_counties_to_make_west_saxon
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.21 = {  # Ingaevonic becomes West Saxon
+	type = character_event
+	title = eme_culture_divergence_notification.21.t # Destiny of the Jutes of Canta
+	desc = eme_culture_divergence_notification.21.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.21.a
+		set_culture = culture:kentish
+		hidden_effect = {
+			every_in_list = {
+				list = ingaevonic_counties_to_make_kentish
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.21.b
+		hidden_effect = {
+			every_in_list = {
+				list = ingaevonic_counties_to_make_kentish
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.22 = {  # Ingaevonic becomes Frisian
+	type = character_event
+	title = eme_culture_divergence_notification.22.t # Future of the Frysi
+	desc = eme_culture_divergence_notification.22.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.22.a
+		set_culture = culture:frisian
+		hidden_effect = {
+			every_in_list = {
+				list = ingaevonic_counties_to_make_frisian
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.22.b
+		hidden_effect = {
+			every_in_list = {
+				list = ingaevonic_counties_to_make_frisian
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.23 = {  # Ingaevonic becomes Old Saxon
+	type = character_event
+	title = eme_culture_divergence_notification.23.t # Future of the Saxons
+	desc = eme_culture_divergence_notification.23.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.23.a
+		set_culture = culture:old_saxon
+		hidden_effect = {
+			every_in_list = {
+				list = ingaevonic_counties_to_make_old_saxon
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.23.b
+		hidden_effect = {
+			every_in_list = {
+				list = ingaevonic_counties_to_make_old_saxon
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.24 = {  # Proto-Norse becomes Old Norse
+	type = character_event
+	title = eme_culture_divergence_notification.24.t # Future of the Norse
+	desc = eme_culture_divergence_notification.24.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.24.a
+		set_culture = culture:norse
+		hidden_effect = {
+			every_in_list = {
+				list = vendel_counties_to_make_old_norse
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.24.b
+		hidden_effect = {
+			every_in_list = {
+				list = vendel_counties_to_make_old_norse
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.25 = {  # Gothic becomes Crimean Gothic
+	type = character_event
+	title = eme_culture_divergence_notification.25.t # Future of the Crimean Goths
+	desc = eme_culture_divergence_notification.25.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.25.a
+		set_culture = culture:crimean_gothic
+		hidden_effect = {
+			every_in_list = {
+				list = gothic_counties_to_make_crimean_gothic
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.25.b
+		hidden_effect = {
+			every_in_list = {
+				list = gothic_counties_to_make_crimean_gothic
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.26 = {  # Irminonic becomes Langobard
+	type = character_event
+	title = eme_culture_divergence_notification.26.t # Emergence of the Long-Beards
+	desc = eme_culture_divergence_notification.26.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.26.a
+		set_culture = culture:langobard
+		hidden_effect = {
+			every_in_list = {
+				list = ingaevonic_counties_to_make_langobardic
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.26.b
+		hidden_effect = {
+			every_in_list = {
+				list = ingaevonic_counties_to_make_langobardic
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.27 = {  # Irminonic becomes Bavarians
+	type = character_event
+	title = eme_culture_divergence_notification.27.t # Future of the Bavari
+	desc = eme_culture_divergence_notification.27.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.27.a
+		set_culture = culture:bavarian
+		hidden_effect = {
+			every_in_list = {
+				list = irminonic_counties_to_make_bavarian
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.27.b
+		hidden_effect = {
+			every_in_list = {
+				list = irminonic_counties_to_make_bavarian
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.28 = {  # Irminonic becomes Swabian
+	type = character_event
+	title = eme_culture_divergence_notification.28.t # Future of the Swabi
+	desc = eme_culture_divergence_notification.28.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.28.a
+		set_culture = culture:swabian
+		hidden_effect = {
+			every_in_list = {
+				list = irminonic_counties_to_make_swabian
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.28.b
+		hidden_effect = {
+			every_in_list = {
+				list = irminonic_counties_to_make_swabian
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.29 = {  # Irminonic becomes Suebi
+	type = character_event
+	title = eme_culture_divergence_notification.29.t # Future of the Suebi
+	desc = eme_culture_divergence_notification.29.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.29.a
+		set_culture = culture:suebi
+		hidden_effect = {
+			every_in_list = {
+				list = irminonic_counties_to_make_suebi
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.29.b
+		hidden_effect = {
+			every_in_list = {
+				list = irminonic_counties_to_make_suebi
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+
+eme_culture_divergence_notification.30 = {  # gothic becomes Visigothic
+	type = character_event
+	title = eme_culture_divergence_notification.30.t # Future of the Vesi Goths
+	desc = eme_culture_divergence_notification.30.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.30.a
+		set_culture = culture:visigothic
+		hidden_effect = {
+			every_in_list = {
+				list = gothic_counties_to_make_visigothic
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.30.b
+		hidden_effect = {
+			every_in_list = {
+				list = gothic_counties_to_make_visigothic
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.31 = {  # gothic becomes ostrogothic
+	type = character_event
+	title = eme_culture_divergence_notification.31.t # Future of the Ausr-Goths
+	desc = eme_culture_divergence_notification.31.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.31.a
+		set_culture = culture:ostrogothic
+		hidden_effect = {
+			every_in_list = {
+				list = gothic_counties_to_make_ostrogothic
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.31.b
+		hidden_effect = {
+			every_in_list = {
+				list = gothic_counties_to_make_ostrogothic
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.32 = {  # Frankish becomes Franconian
+	type = character_event
+	title = eme_culture_divergence_notification.32.t # Future of the Franconians
+	desc = eme_culture_divergence_notification.32.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.32.a
+		set_culture = culture:franconian
+		hidden_effect = {
+			every_in_list = {
+				list = frankish_counties_to_make_franconian
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.32.b
+		hidden_effect = {
+			every_in_list = {
+				list = frankish_counties_to_make_franconian
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.33 = {  # Frankish becomes Franconian
+	type = character_event
+	title = eme_culture_divergence_notification.33.t # Future of the Lower Franconians
+	desc = eme_culture_divergence_notification.33.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.33.a
+		set_culture = culture:dutch
+		hidden_effect = {
+			every_in_list = {
+				list = frankish_counties_to_make_dutch
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.33.b
+		hidden_effect = {
+			every_in_list = {
+				list = frankish_counties_to_make_dutch
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+#############################
+## Deccani Indo Germans
+###########################
+
+eme_culture_divergence_notification.34 = { # 
+	type = character_event
+	title = eme_culture_divergence_notification.34.t # Indo-Germans of the Deccan
+	desc = eme_culture_divergence_notification.34.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.34.a # This is simply the way things are
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.34.b # No! We shall not forget our old ways!
+		every_courtier = {
+			limit = {
+				culture = root.culture
+			}
+			set_culture = culture:indo_germanic
+		}
+		set_culture = culture:indo_germanic
+		capital_county = { set_county_culture = culture:indo_germanic }
+	}
+}
+
+##########################################
+#### Iranian
+#########################################
+
+eme_culture_divergence_notification.35 = {  # Median becomes Kurdish
+	type = character_event
+	title = eme_culture_divergence_notification.35.t # Future of the Western Medes
+	desc = eme_culture_divergence_notification.35.desc # As the generations have passed, the long-held traditions of the Medes has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs.
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.35.a
+		set_culture = culture:kurdish
+		hidden_effect = {
+			every_in_list = {
+				list = median_counties_to_make_kurdish
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.35.b
+		hidden_effect = {
+			every_in_list = {
+				list = median_counties_to_make_kurdish
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.36 = {  # Bactrian becomes Afghan
+	type = character_event
+	title = eme_culture_divergence_notification.36.t # Future of the Bactrians
+	desc = eme_culture_divergence_notification.36.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.36.a
+		set_culture = culture:afghan
+		hidden_effect = {
+			every_in_list = {
+				list = bactrian_counties_to_make_afghan
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.36.b
+		hidden_effect = {
+			every_in_list = {
+				list = bactrian_counties_to_make_afghan
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.37 = {  # Parthian becomes Daylamite
+	type = character_event
+	title = eme_culture_divergence_notification.37.t # Future of the Daylamites
+	desc = eme_culture_divergence_notification.37.desc # As the generations have passed, the long-held traditions of the Parthians has transformed into something our ancestors would find unrecognisable. \n\nThough many see this simply as the nature of the passage of time, others long for a return to the old ways, fightling tooth and nail to maintain their old toungue and customs.
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.37.a
+		set_culture = culture:daylamite
+		hidden_effect = {
+			every_in_list = {
+				list = parthian_counties_to_make_daylamite
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.37.b
+		hidden_effect = {
+			every_in_list = {
+				list = parthian_counties_to_make_daylamite
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.38 = {  # middle persian becomes persian
+	type = character_event
+	title = eme_culture_divergence_notification.38.t # Future of the Persians
+	desc = eme_culture_divergence_notification.38.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.38.a
+		set_culture = culture:persian
+		hidden_effect = {
+			every_in_list = {
+				list = middle_persian_counties_to_make_persian
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.38.b
+		hidden_effect = {
+			every_in_list = {
+				list = middle_persian_counties_to_make_persian
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.39 = {  # Middle Persian becomes Tajik
+	type = character_event
+	title = eme_culture_divergence_notification.39.t # Emergence of the Tajik
+	desc = eme_culture_divergence_notification.39.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.39.a
+		set_culture = culture:tajik
+		hidden_effect = {
+			every_in_list = {
+				list = middle_persian_counties_to_make_tajik
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.39.b
+		hidden_effect = {
+			every_in_list = {
+				list = middle_persian_counties_to_make_tajik
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+eme_culture_divergence_notification.40 = {  # middle persian becomes Parsi
+	type = character_event
+	title = eme_culture_divergence_notification.40.t # Emergence of the Parsi
+	desc = eme_culture_divergence_notification.40.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.40.a
+		set_culture = culture:parsi
+		hidden_effect = {
+			every_in_list = {
+				list = middle_persian_counties_to_make_parsi
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.40.b
+		hidden_effect = {
+			every_in_list = {
+				list = middle_persian_counties_to_make_parsi
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}
+
+##########################
+### Africa
+#########################
+
+eme_culture_divergence_notification.41 = {  # Kushite becomes Nubian
+	type = character_event
+	title = eme_culture_divergence_notification.41.t # Arrival of the Nubians
+	desc = eme_culture_divergence_notification.41.desc # 
+	theme = culture_change
+	left_portrait = root
+
+	# Option 1 (Almost always the only option): Accept the culture conversion.
+	option = {
+		name = eme_culture_divergence_notification.41.a
+		set_culture = culture:nubian
+		hidden_effect = {
+			every_in_list = {
+				list = kushite_counties_for_nubians_to_move_into
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+
+	# Option 2: I am strong enough to keep our old culture intact!
+	option = {
+		name = eme_culture_divergence_notification.41.b
+		hidden_effect = {
+			every_in_list = {
+				list = kushite_counties_for_nubians_to_move_into
+				limit = {
+					holder.top_liege = root.top_liege
+				}
+				set_county_culture = root.culture
+			}
+		}
+	}
+}

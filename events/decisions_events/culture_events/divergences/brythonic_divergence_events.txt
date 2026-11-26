@@ -86,6 +86,15 @@ brythonic_cultures_events.1 = { # Common brythonic diverges
 			holder = {
 				if = {
 					limit = {
+						is_ai = no
+						culture = { 
+							has_name_list = name_list_late_brythonic
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.9
+				}
+				else_if = {
+					limit = {
 						culture = { 
 							has_name_list = name_list_late_brythonic
 						}
@@ -108,7 +117,16 @@ brythonic_cultures_events.1 = { # Common brythonic diverges
 			holder = {
 				if = {
 					limit = {
+						is_ai = no
 						culture = { # Just britons, picts still rule 
+							has_name_list = name_list_late_brythonic
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.10
+				}
+				else_if = {
+					limit = {
+						culture = { 
 							has_name_list = name_list_late_brythonic
 						}
 					}
@@ -133,6 +151,15 @@ brythonic_cultures_events.1 = { # Common brythonic diverges
 			set_county_culture = culture:cornish
 			holder = {
 				if = {
+					limit = {
+						is_ai = no
+						culture = { # Just britons, picts still rule 
+							has_name_list = name_list_late_brythonic
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.11
+				}
+				else_if = {
 					limit = {
 						culture = { 
 							has_name_list = name_list_late_brythonic
@@ -160,6 +187,15 @@ brythonic_cultures_events.1 = { # Common brythonic diverges
 			holder = {
 				if = {
 					limit = {
+						is_ai = no
+						culture = { # Just britons, picts still rule 
+							has_name_list = name_list_late_brythonic
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.12
+				}
+				else_if = {
+					limit = {
 						culture = { 
 							has_name_list = name_list_late_brythonic
 						}
@@ -185,6 +221,15 @@ brythonic_cultures_events.1 = { # Common brythonic diverges
 			set_county_culture = culture:breton
 			holder = {
 				if = {
+					limit = {
+						is_ai = no
+						culture = { # Just britons, picts still rule 
+							has_name_list = name_list_late_brythonic
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.13
+				}
+				else_if = {
 					limit = {
 						culture = { 
 							has_name_list = name_list_late_brythonic
@@ -268,6 +313,15 @@ brythonic_cultures_events.2 = { # Old Brythonic becomes common brythonic
 			holder = {
 				if = {
 					limit = {
+						is_ai = no
+						culture = { 
+							has_name_list = name_list_old_brythonic
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.14
+				}
+				else_if = {
+					limit = {
 						culture = { 
 							has_name_list = name_list_old_brythonic
 						}
@@ -289,10 +343,19 @@ brythonic_cultures_events.2 = { # Old Brythonic becomes common brythonic
 			get_all_innovations_from = culture:old_brythonic
 		}
 		every_in_list = {#####
-			list = old_brythonic_counties_to_make_Briton
+			list = old_brythonic_counties_to_make_pictish
 			set_county_culture = culture:pictish
 			holder = {
 				if = {
+					limit = {
+						is_ai = no
+						culture = { 
+							has_name_list = name_list_old_brythonic
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.15
+				}
+				else_if = {
 					limit = {
 						culture = { 
 							has_name_list = name_list_old_brythonic

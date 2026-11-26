@@ -111,6 +111,18 @@ proto_germanic_divergence_events.1 = { #Ingaevonic culture splits by dutchy
 			holder = {
 				if = {
 					limit = {
+						is_ai = no
+						culture = { 
+							OR = {
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.16
+				}
+				else_if = {
+					limit = {
 						culture = { 
 							OR = {
 								has_name_list = name_list_ingaevonic
@@ -123,9 +135,9 @@ proto_germanic_divergence_events.1 = { #Ingaevonic culture splits by dutchy
 						limit = {
 							culture = { 
 								OR = {
-									has_name_list = name_list_ingaevonic
-									has_name_list = name_list_late_ingaevonic
-								}
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
 							}
 						}
 						set_culture = culture:east_saxon
@@ -143,6 +155,18 @@ proto_germanic_divergence_events.1 = { #Ingaevonic culture splits by dutchy
 			holder = {
 				if = {
 					limit = {
+						is_ai = no
+						culture = { 
+							OR = {
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.17
+				}
+				else_if = {
+					limit = {
 						culture = { 
 							OR = {
 								has_name_list = name_list_ingaevonic
@@ -155,9 +179,9 @@ proto_germanic_divergence_events.1 = { #Ingaevonic culture splits by dutchy
 						limit = {
 							culture = { 
 								OR = {
-									has_name_list = name_list_ingaevonic
-									has_name_list = name_list_late_ingaevonic
-								}
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
 							}
 						}
 						set_culture = culture:northumbrian
@@ -175,6 +199,18 @@ proto_germanic_divergence_events.1 = { #Ingaevonic culture splits by dutchy
 			holder = {
 				if = {
 					limit = {
+						is_ai = no
+						culture = { 
+							OR = {
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.18
+				}
+				else_if = {
+					limit = {
 						culture = { 
 							OR = {
 								has_name_list = name_list_ingaevonic
@@ -187,9 +223,9 @@ proto_germanic_divergence_events.1 = { #Ingaevonic culture splits by dutchy
 						limit = {
 							culture = { 
 								OR = {
-									has_name_list = name_list_ingaevonic
-									has_name_list = name_list_late_ingaevonic
-								}
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
 							}
 						}
 						set_culture = culture:east_anglian
@@ -207,6 +243,18 @@ proto_germanic_divergence_events.1 = { #Ingaevonic culture splits by dutchy
 			holder = {
 				if = {
 					limit = {
+						is_ai = no
+						culture = { 
+							OR = {
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.19
+				}
+				else_if = {
+					limit = {
 						culture = { 
 							OR = {
 								has_name_list = name_list_ingaevonic
@@ -219,9 +267,9 @@ proto_germanic_divergence_events.1 = { #Ingaevonic culture splits by dutchy
 						limit = {
 							culture = { 
 								OR = {
-									has_name_list = name_list_ingaevonic
-									has_name_list = name_list_late_ingaevonic
-								}
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
 							}
 						}
 						set_culture = culture:mercian
@@ -239,6 +287,18 @@ proto_germanic_divergence_events.1 = { #Ingaevonic culture splits by dutchy
 			holder = {
 				if = {
 					limit = {
+						is_ai = no
+						culture = { 
+							OR = {
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.20
+				}
+				else_if = {
+					limit = {
 						culture = { 
 							OR = {
 								has_name_list = name_list_ingaevonic
@@ -251,9 +311,9 @@ proto_germanic_divergence_events.1 = { #Ingaevonic culture splits by dutchy
 						limit = {
 							culture = { 
 								OR = {
-									has_name_list = name_list_ingaevonic
-									has_name_list = name_list_late_ingaevonic
-								}
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
 							}
 						}
 						set_culture = culture:west_saxon
@@ -271,6 +331,18 @@ proto_germanic_divergence_events.1 = { #Ingaevonic culture splits by dutchy
 			holder = {
 				if = {
 					limit = {
+						is_ai = no
+						culture = { 
+							OR = {
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.21
+				}
+				else_if = {
+					limit = {
 						culture = { 
 							OR = {
 								has_name_list = name_list_ingaevonic
@@ -283,9 +355,9 @@ proto_germanic_divergence_events.1 = { #Ingaevonic culture splits by dutchy
 						limit = {
 							culture = { 
 								OR = {
-									has_name_list = name_list_ingaevonic
-									has_name_list = name_list_late_ingaevonic
-								}
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
 							}
 						}
 						set_culture = culture:kentish
@@ -303,6 +375,18 @@ proto_germanic_divergence_events.1 = { #Ingaevonic culture splits by dutchy
 			holder = {
 				if = {
 					limit = {
+						is_ai = no
+						culture = { 
+							OR = {
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.22
+				}
+				else_if = {
+					limit = {
 						culture = { 
 							OR = {
 								has_name_list = name_list_ingaevonic
@@ -315,9 +399,9 @@ proto_germanic_divergence_events.1 = { #Ingaevonic culture splits by dutchy
 						limit = {
 							culture = { 
 								OR = {
-									has_name_list = name_list_ingaevonic
-									has_name_list = name_list_late_ingaevonic
-								}
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
 							}
 						}
 						set_culture = culture:frisian
@@ -335,6 +419,18 @@ proto_germanic_divergence_events.1 = { #Ingaevonic culture splits by dutchy
 			holder = {
 				if = {
 					limit = {
+						is_ai = no
+						culture = { 
+							OR = {
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.23
+				}
+				else_if = {
+					limit = {
 						culture = { 
 							OR = {
 								has_name_list = name_list_ingaevonic
@@ -347,9 +443,9 @@ proto_germanic_divergence_events.1 = { #Ingaevonic culture splits by dutchy
 						limit = {
 							culture = { 
 								OR = {
-									has_name_list = name_list_ingaevonic
-									has_name_list = name_list_late_ingaevonic
-								}
+								has_name_list = name_list_ingaevonic
+								has_name_list = name_list_late_ingaevonic
+							}
 							}
 						}
 						set_culture = culture:old_saxon
@@ -392,14 +488,23 @@ proto_germanic_divergence_events.2 = {
 			holder = {
 				if = {
 					limit = {
+						is_ai = no
 						culture = { 
 							OR = {
-								has_name_list = name_list_proto_norse
-								has_name_list = name_list_later_vendel
-							}
+									has_name_list = name_list_proto_norse
+									has_name_list = name_list_later_vendel
+								}
 						}
-						capital_province = {
-							geographical_region = world_europe_north	
+					}
+					trigger_event = eme_culture_divergence_notification.24
+				}
+				else_if = {
+					limit = {
+						culture = { 
+							OR = {
+									has_name_list = name_list_proto_norse
+									has_name_list = name_list_later_vendel
+								}
 						}
 					}
 					set_culture = culture:norse
@@ -555,6 +660,15 @@ proto_germanic_divergence_events.4 = {
 			holder = {
 				if = {
 					limit = {
+						is_ai = no
+						culture = { 
+							has_name_list = name_list_gothic
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.25
+				}
+				else_if = {
+					limit = {
 						culture = { 
 							has_name_list = name_list_gothic
 						}
@@ -623,7 +737,7 @@ proto_germanic_divergence_events.5 = { #Irminonic culture splits by dutchy
 						title_province = { duchy = title:d_syrmia }
 					}
 				}
-				add_to_list = ingaevonic_counties_to_make_langobardic
+				add_to_list = irminonic_counties_to_make_langobardic
 			}
 			every_culture_county = {
 				limit = {
@@ -639,7 +753,7 @@ proto_germanic_divergence_events.5 = { #Irminonic culture splits by dutchy
 						title_province = { duchy = title:d_krain }
 					}
 				}
-				add_to_list = ingaevonic_counties_to_make_bavarian
+				add_to_list = irminonic_counties_to_make_bavarian
 			}
 			every_culture_county = {
 				limit = {
@@ -659,7 +773,7 @@ proto_germanic_divergence_events.5 = { #Irminonic culture splits by dutchy
 						title_province = { duchy = title:d_transjurania }
 					}
 				}
-				add_to_list = ingaevonic_counties_to_make_swabian
+				add_to_list = irminonic_counties_to_make_swabian
 			}
 			every_culture_county = {
 				limit = {
@@ -687,14 +801,26 @@ proto_germanic_divergence_events.5 = { #Irminonic culture splits by dutchy
 						title_province = { duchy = title:d_coimbra }
 					}
 				}
-				add_to_list = ingaevonic_counties_to_make_suebi
+				add_to_list = irminonic_counties_to_make_suebi
 			}
 		}
 		every_in_list = {#####
-			list = ingaevonic_counties_to_make_langobardic
+			list = irminonic_counties_to_make_langobardic
 			set_county_culture = culture:langobard
 			holder = {
 				if = {
+					limit = {
+						is_ai = no
+						culture = { 
+							OR = {
+								has_name_list = name_list_irminonic
+								has_name_list = name_list_late_irminonic
+							}
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.26
+				}
+				else_if = {
 					limit = {
 						culture = { 
 							OR = {
@@ -723,10 +849,22 @@ proto_germanic_divergence_events.5 = { #Irminonic culture splits by dutchy
 			get_all_innovations_from = culture:irminonic
 		}
 		every_in_list = {#####
-			list = ingaevonic_counties_to_make_bavarian
+			list = irminonic_counties_to_make_bavarian
 			set_county_culture = culture:bavarian
 			holder = {
 				if = {
+					limit = {
+						is_ai = no
+						culture = { 
+							OR = {
+								has_name_list = name_list_irminonic
+								has_name_list = name_list_late_irminonic
+							}
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.27
+				}
+				else_if = {
 					limit = {
 						culture = { 
 							OR = {
@@ -755,10 +893,22 @@ proto_germanic_divergence_events.5 = { #Irminonic culture splits by dutchy
 			get_all_innovations_from = culture:irminonic
 		}
 		every_in_list = {#####
-			list = ingaevonic_counties_to_make_swabian
+			list = irminonic_counties_to_make_swabian
 			set_county_culture = culture:swabian
 			holder = {
 				if = {
+					limit = {
+						is_ai = no
+						culture = { 
+							OR = {
+								has_name_list = name_list_irminonic
+								has_name_list = name_list_late_irminonic
+							}
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.28
+				}
+				else_if = {
 					limit = {
 						culture = { 
 							OR = {
@@ -787,10 +937,22 @@ proto_germanic_divergence_events.5 = { #Irminonic culture splits by dutchy
 			get_all_innovations_from = culture:irminonic
 		}
 		every_in_list = {#####
-			list = ingaevonic_counties_to_make_suebi
+			list = irminonic_counties_to_make_suebi
 			set_county_culture = culture:suebi
 			holder = {
 				if = {
+					limit = {
+						is_ai = no
+						culture = { 
+							OR = {
+								has_name_list = name_list_irminonic
+								has_name_list = name_list_late_irminonic
+							}
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.29
+				}
+				else_if = {
 					limit = {
 						culture = { 
 							OR = {
@@ -1078,6 +1240,15 @@ proto_germanic_divergence_events.9 = {
 			holder = {
 				if = {
 					limit = {
+						is_ai = no
+						culture = { 
+							has_name_list = name_list_gothic
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.30
+				}
+				else_if = {
+					limit = {
 						culture = { 
 							has_name_list = name_list_gothic
 						}
@@ -1104,6 +1275,15 @@ proto_germanic_divergence_events.9 = {
 			set_county_culture = culture:ostrogothic
 			holder = {
 				if = {
+					limit = {
+						is_ai = no
+						culture = { 
+							has_name_list = name_list_gothic
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.30
+				}
+				else_if = {
 					limit = {
 						culture = { 
 							has_name_list = name_list_gothic
@@ -1202,6 +1382,18 @@ proto_germanic_divergence_events.10 = { #Irminonic culture splits by dutchy
 			holder = {
 				if = {
 					limit = {
+						is_ai = no
+						culture = { 
+							OR = {
+								has_name_list = name_list_frankish
+								has_name_list = name_list_istaevonic
+							}
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.32
+				}
+				else_if = {
+					limit = {
 						culture = { 
 							OR = {
 								has_name_list = name_list_frankish
@@ -1233,6 +1425,18 @@ proto_germanic_divergence_events.10 = { #Irminonic culture splits by dutchy
 			set_county_culture = culture:dutch
 			holder = {
 				if = {
+					limit = {
+						is_ai = no
+						culture = { 
+							OR = {
+								has_name_list = name_list_frankish
+								has_name_list = name_list_istaevonic
+							}
+						}
+					}
+					trigger_event = eme_culture_divergence_notification.33
+				}
+				else_if = {
 					limit = {
 						culture = { 
 							OR = {
@@ -1306,6 +1510,12 @@ proto_germanic_divergence_events.11 = {
 								days = 3650
 							}
 							set_name_list = name_list_south_indo_germanic
+						}
+						if = {
+							limit = {
+								is_ai = no
+							}
+							trigger_event = eme_culture_divergence_notification.34
 						}
 					}
 				}
