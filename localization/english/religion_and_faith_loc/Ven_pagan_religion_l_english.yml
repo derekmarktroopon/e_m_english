@@ -89,9 +89,29 @@
  oscan_pagan:0 "Urtúm Saahtúm"
  oscan_pagan_adj:0 "Saahtúm"
  oscan_pagan_adherent:0 "Saahtúmist"
- oscan_pagan_adherent_plura:0 "Saahtúmists"
+ oscan_pagan_adherent_plural:0 "Saahtúmists"
  oscan_pagan_desc:0 "The various faiths and creeds of the Osco-Umbrians were marked by both a warrior culture that encouraged sacred military oaths, as well as the rural pastoralist setting in which its practicioners lived. That said, followers of the old Oscan gods also demonstrated reverence through rural groves and sacred written tablets."
  oscan_pagan_old:0 "Old Urtúm Saahtúm"
  oscan_pagan_old_adj:0 "Old Saahtúm"
  oscan_pagan_old_adherent:0 "Old Saahtúmist"
  oscan_pagan_old_adherent_adherent_plural:0 "Old Saahtúmists"
+
+
+ holy_order_guardians_of_tupa:0 "Guardians of Tupã"
+ holy_order_warriors_of_maira:0 "Warriors of Maíra"
+ holy_order_faithful_of_Umuana:0 "Faithful of Umûana"
+
+ brazilian_religion:0 "Brazilian"
+ brazilian_religion_adj:0 "Brazilian"
+ brazilian_religion_desc:0 "The faiths of the peoples of Brazil are varied, from the Tupã-worshipping Tupi and Guarani to the Ancient religion of the nomadic Jé peoples."
+
+
+ tupian_pagan:0 "Nhandereko"
+ tupian_pagan_adj:0 "Nhandereko"
+ tupian_pagan_adherent:0 "Nhanderekoist"
+ tupian_pagan_adherent_plural:0 "Nhanderekoists"
+ tupian_pagan_desc:0 "Followers of this faith revere the mighty Tupã, lord of thunder and son of creation. In addition to their head god, Nhanderekoists believe in a geat extended pantheon of deities and beings."
+ tupian_pagan_old:0 "Old Nhandereko"
+ tupian_pagan_old_adj:0 "Old Nhandereko"
+ tupian_pagan_old_adherent:0 "Old Nhanderekoist"
+ tupian_pagan_old_adherent_adherent_plural:0 "Old Nhanderekoists"

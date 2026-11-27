@@ -1,0 +1,16 @@
+﻿
+tupi_pagan = {
+	faith = tupi_pagan
+	color = { 52 235 134 }
+
+	tenets = {
+		tenet_human_sacrifice
+		tenet_warmonger
+		tenet_ancestor_worship
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}	
+}
+

@@ -1,6 +1,6 @@
 ﻿l_english:
  language_venetic_culture_name:0 "Venetic" 
- language_osco_umbrian:0 "Osco-Umbrian"
+ language_osco_umbrian_name:0 "Osco-Umbrian"
  language_proto_italic_name:0 "Proto-Italic"
  language_raetic_name:0 "Raetic"
  language_camunic_name:0 "Camunic"
@@ -22,7 +22,7 @@
 
  language_proto_iranian_name:0 "Proto-Iranian"
 
- language_egyptian:0 "Kemetic" 
+ language_egyptian_name:0 "Kemetic" 
  # language_coptic_name:0 "Coptic" 
  language_merotic_name:0 "Merotic"
 

@@ -189,3 +189,36 @@
  oscan_realmofgods:0 "di Superi"
  oscan_heaven_name:0 "di Manes"
  oscan_hell_name:0 "Inferni"
+
+ ####################
+ ### Brazilian faiths
+ ####################
+
+ tupi_high_god_name:0 "Tupã"
+ tupi_high_god_name_2:0 "Irãmaîé"
+ tupi_high_god_name_possessive:0 "Tupã's"
+ tupi_high_god_name_alternate:0 "Mair-umûana"
+ tupi_high_god_name_alternate_possessive:0 "Mair-umûana's"
+ tupi_creator_god_name:0 "Umûana"
+ tupi_creator_god_name_possessive:0 "Umûana's"
+ tupi_health_god_name:0 "Kûarasy"
+ tupi_health_god_name_possessive:0 "Kûarasy's"
+ tupi_knowledge_god_name:0 "Karaíba"
+ tupi_knowledge_god_name_possessive:0 "Karaíba's"
+ tupi_fertility_god_name:0 "Rudá"
+ tupi_fertility_god_name_possessive:0 "Rudá's"
+ tupi_wealth_god_name:0 "Anhanga"
+ tupi_wealth_god_name_possessive:0 "Anhanga's"
+ tupi_household_god_name:0 "Mairatã"
+ tupi_household_god_name_possessive:0 "Mairatã's"
+ tupi_night_god_name:0 "Îasy"
+ tupi_night_god_name_possessive:0 "Îasy's"
+ tupi_water_god_name:0 "Yporu"
+ tupi_water_god_name_possessive:0 "Yporu's"
+ tupi_devil_name:0 "Îurupari"
+ tupi_devil_name_possessive:0 "Îurupari's"
+ tupi_abasai_name:0 "Abá-sa'i"
+
+ tupi_heaven:0 "Yby Marã E'yma"
+ tupi_heaven_2:0 "Gûaîupîá"
+ tupi_afterlife:0 "Para-Guaçu"
