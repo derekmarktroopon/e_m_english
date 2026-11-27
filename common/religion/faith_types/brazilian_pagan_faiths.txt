@@ -3,7 +3,7 @@
 tupian_pagan = {
 	main_rite = tupian_pagan
 	faith_details = {
-		religion = tupian_religion
+		religion = brazilian_religion
 		color = { 52 235 134 }
 		icon = tupi_pagan
 		reformed_icon = tupi_pagan_reformed
@@ -18,6 +18,12 @@ tupian_pagan = {
 	doctrines = {
 		unreformed_faith_doctrine
 		doctrine_funeral_cremation
+	}
+
+	tenets = {
+		tenet_human_sacrifice
+		tenet_warmonger
+		tenet_ancestor_worship
 	}
 
 	localization = {

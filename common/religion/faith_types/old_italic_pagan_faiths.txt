@@ -288,14 +288,14 @@ ligurian_pagan = {
 	}
 
 	eminent_holy_sites = {
-		paderborn
-		hiiumaa
+		rome
+		volterra
 	}
 
 	holy_sites = {
-		khotan
-		sinai
-		haridwar
+		olympus
+		carthage
+		mantua
 	}
 
 	doctrines = {
